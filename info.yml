@@ -9,7 +9,7 @@ pluginDepends:
 - Supreme
 - FoxyMachines
 scriptListener: 服务器
-version: Release-1.1.15
+version: Release-1.1.16
 description: 突发奇想的创作，延续以及创新。
 authors: 
 - magicsolo
@@ -18,7 +18,7 @@ loadStartTexts:
 - "==================="
 - " 魔法1.0 开始加载"
 - "   作者： magicsolo"
-- "  当前版本：1.1.12"
+- "  当前版本：1.1.16"
 - "==================="
 enabledTexts:
 - "==================="

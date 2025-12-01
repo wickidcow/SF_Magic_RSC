@@ -6,7 +6,7 @@ MAGIC_VERSION:
     material: PAPER
     lore:
       - '{#FFC1E0}当前魔法版本：'
-      - '&eRelease-1.1.15'
+      - '&eRelease-1.1.16'
       - '&f您在提issues的时候需要展示这个'
   recipe_type: MAGIC_NONE
 
@@ -11312,6 +11312,23 @@ MAGIC_STICK_JIGUANG_1:
       - "{#FFC0CB}&l&kl{#FFB6C1}&l魔{#FFA07A}&l法{#FA8072}&l-{#E9967A}&l测{#F08080}&l试&k&ll"
   script: magic_stick_jiguang_1
   energy_capacity: 80000
+  recipe_type: MAGIC_NONE
+
+
+MAGIC_GUN_1:
+  item_group: magic_test
+  item:
+    name: "{#FFC0CB}测试-魔法枪"
+    material: STICK
+    lore: 
+      - "{#FFD9EC}&kl{#FDB7D4}魔{#FD8EB7}法{#FA6CA5}武{#E84C8A}器{#D02C71}&kl"
+      - "{#FDB7D4}右键发射子弹"
+      - "{#FDB7D4}对命中的生物造成？点伤害"
+      - "{#FDB7D4}是否无视护甲穿透 未知"
+      - "{#FDB7D4}实验性武器"
+      - "&a"
+      - "{#FFC0CB}&l&kl{#FFB6C1}&l魔{#FFA07A}&l法{#FA8072}&l-{#E9967A}&l测{#F08080}&l试&k&ll"
+  script: 基础枪
   recipe_type: MAGIC_NONE
 
 

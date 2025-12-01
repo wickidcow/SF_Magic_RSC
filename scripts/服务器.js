@@ -565,7 +565,7 @@ function onPlayerFish(event) {
     var caught = event.getCaught();
     var player = event.getPlayer();
     var hook = event.getHook();
-    var State = event.getState()
+    var State = event.getState();
 
 
     //获取双手itemstack
@@ -720,7 +720,7 @@ const allSlimefunItemFish = (e) => {
         //特殊处理
         var itemstack1 = new org.bukkit.inventory.ItemStack(slimefunItem.getItem());
         const sfItemName = getDisplayNameMag(itemstack1).toLowerCase();
-        const keywords = ["伪物", "矩阵", "创造者", "创世","腐竹","不可控空生成器","50重压缩原石生成器","过载加速器","刷怪笼","压缩基岩","贪婪矩阵-III","至尊","熵","壳","螺旋体","奇点","终焉","魔法糖"];
+        const keywords = ["伪物", "矩阵", "创造者", "创世","腐竹","不可控空生成器","50重压缩原石生成器","过载加速器","刷怪笼","压缩基岩","贪婪矩阵-III","至尊","熵","壳","螺旋体","奇点","终焉","魔法糖","修罗","压缩"];
 
         const hasKeyword = keywords.some(word => sfItemName.includes(word.toLowerCase()));
 
@@ -730,7 +730,7 @@ const allSlimefunItemFish = (e) => {
 
         if (ifUltra==1){
             const randomChance2 = Math.floor(Math.random() * 100) + 1;
-            if (randomChance2 <= 97){
+            if (randomChance2 <= 99){
             slimefunItem = getSfItemById("MAGIC_ROD_ZMZ_WWS_YE_YWD");
             }
         }
