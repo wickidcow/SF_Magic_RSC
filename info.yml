@@ -10,7 +10,7 @@ pluginDepends:
 - FoxyMachines
 scriptListener: 服务器
 version: Legacy-1.1.16
-description: Magic compatibility pack maintained for the Slimefun Legacy ecosystem.
+description: Magic Legacy compatibility pack for the maintained Slimefun Legacy ecosystem.
 authors:
 - magicsolo
 - wickidcow
