@@ -43,6 +43,23 @@ jobs:
         working-directory: magic
         run: python scripts/apply_runtime_compat.py --ie1 ../ie1 --ie2 ../ie2
 
+      - name: Fix known Magic config typo
+        working-directory: magic
+        run: |
+          grep -RIl --include='*.yml' 'AGIC_BEE_HOUSE_1' . | xargs -r sed -i 's/AGIC_BEE_HOUSE_1/MAGIC_BEE_HOUSE_1/g'
+          if grep -R -n --include='*.yml' 'AGIC_BEE_HOUSE_1' .; then
+            echo "Broken AGIC_BEE_HOUSE_1 reference remains"
+            exit 1
+          fi
+
+      - name: Locate obsolete InfinityWorkbench references
+        working-directory: magic
+        run: |
+          echo "Old IE1 class references:"
+          grep -R -n --exclude-dir=.git 'io.github.mooy1.infinityexpansion.items.blocks.InfinityWorkbench' . || true
+          echo "All InfinityWorkbench references:"
+          grep -R -n --exclude-dir=.git 'InfinityWorkbench' . || true
+
       - name: Verify migrated references
         working-directory: magic
         run: python scripts/verify_runtime_compat.py --ie1 ../ie1 --ie2 ../ie2
