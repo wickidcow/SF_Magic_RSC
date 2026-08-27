@@ -1,7 +1,7 @@
 magic:
   type: nested
   item:
-    name: "{#FFD9EC}&kll{#FFC1E0}魔{#ffaad5}法{#FF95CA}&kll"
+    name: "{#FFD9EC}&kll{#FFC1E0}&lMagic{#FF95CA}&kll"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGFkYjI1YWI5OTc2ZDg5ZDBiZDgxMThkNzJjMWMwNmJiOTA3MDYwYzFlMDJhNzI5YjY1MmQxZTg2YjFlYmJiYyJ9fX0=
     glow: true
@@ -11,7 +11,7 @@ magic_origin_resources:
   type: sub
   parent: "magic"
   item:
-    name: "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l矿{#E9967A}&l物{#F08080}&l资{#FF69B4}&l源{#FFC0CB}&l&kl"
+    name: "{#FFC0CB}&l&kl{#FFC0CB}&lMagic - Mineral Resources{#FFC0CB}&l&kl"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2U1MDlmMDZiOGRjMzg0MzU4ZmYyNDcyYWI2MmNlNmZkYzJmNjQ2ZTMzOGVmZGMzYzlmYjA1ZGRjNDMxZjY0In19fQ==
     glow: true
@@ -39,7 +39,7 @@ magic_genshin_impact:
   type: sub
   parent: "magic"
   item:
-    name: "{#FFC0CB}&l&kl{#FFC0CB}&lG{#FFB9C3}&le{#FFB3BA}&ln{#FFA8AF}&ls{#FF9DA4}&lh{#FA8E99}&li{#F97F8E}&ln{#F87083} {#F76178}&lI{#F6527D}&lm{#F54378}&lp{#F43477}&la{#F32576}&lc{#F21675}&lt{#F10774}&l&kl"
+    name: "{#FFC0CB}&l&kl{#FFC0CB}&lGenshin Impact{#F10774}&l&kl"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDQ5NzY5MzlhMmRjYjdhMGMwNGFmNTNmM2UxZDgyZTk1NTRlNWNjOWVmNjgxN2Y1OTdhMTMyOGYyN2UzY2JkNSJ9fX0=
     glow: true
@@ -47,7 +47,7 @@ magic_author:
   type: sub
   parent: "magic"
   item:
-    name: "{#FFC0CB}&l贡{#FFB9C3}&l献"
+    name: "{#FFC0CB}&lContributions"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGFkYjI1YWI5OTc2ZDg5ZDBiZDgxMThkNzJjMWMwNmJiOTA3MDYwYzFlMDJhNzI5YjY1MmQxZTg2YjFlYmJiYyJ9fX0=
     glow: true
@@ -55,7 +55,7 @@ magic_test:
   type: sub
   parent: "magic"
   item:
-    name: "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l测{#FF9DA4}&l试{#FA8E99}&l企{#F97F8E}&l划{#F87083}&l&kl"
+    name: "{#FFC0CB}&l&kl{#FFB9C3}&lMagic - Test Projects{#F87083}&l&kl"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmQwZjQwNjFiZmI3NjdhN2Y5MjJhNmNhNzE3NmY3YTliMjA3MDliZDA1MTI2OTZiZWIxNWVhNmZhOThjYTU1YyJ9fX0=
     glow: true
@@ -82,7 +82,7 @@ magic_infinite_machines:
   type: sub
   parent: "magic"
   item:
-    name: "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l无{#E9967A}&l尽{#F08080}&l贪{#FF69B4}&l婪{#FFC0CB}&l&kl"
+    name: "{#FFC0CB}&l&kl{#FFC0CB}&lMagic - Infinity Machines{#FFC0CB}&l&kl"
     material: nether_star
     glow: true
 
@@ -90,7 +90,7 @@ magic_resource:
   type: sub
   parent: "magic"
   item:
-    name: "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l材{#E9967A}&l料{#F08080}&l&kl"
+    name: "{#FFC0CB}&l&kl{#FFC0CB}&lMagic - Materials{#F08080}&l&kl"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTdjNjZmNWE0YjQwODAwNWIzMzZkYTY2NzZlOGY2YTJhNjdlZWEzMTVmYjdlOTEzNjBhY2MwNDc4MDJmYTMyMCJ9fX0=
     glow: true
@@ -163,7 +163,7 @@ magic_gec:
   type: sub
   parent: "magic"
   item:
-    name: "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l基{#E9967A}&l因{#F08080}&l工{#FF69B4}&l程{#FFC0CB}&l&kl"
+    name: "{#FFC0CB}&l&kl{#FFC0CB}&lMagic - Genetic Engineering{#FFC0CB}&l&kl"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTM3ODk4OTIyMjNjYjc2ZWExYWVmNTY4OWJlOTM4NmU1YjQyZjAxODFkYWM1YTUzYzU3YWUxZDM1NzhkMmYzMyJ9fX0=
     glow: true
@@ -172,7 +172,7 @@ magic_interesting_items:
   type: sub
   parent: "magic"
   item:
-    name: "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l有{#E9967A}&l趣{#F08080}&l的{#FF69B4}&l道{#DB7093}&l具{#FFC0CB}&l&kl"
+    name: "{#FFC0CB}&l&kl{#FFC0CB}&lMagic - Curiosities{#FFC0CB}&l&kl"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWM2MmZkMGQ0MTIzZGVlZWI4MjRhMDBhMTViMDliOTYwMzllZDMzNTk5YzA3N2VmNjc4MjEyMjZhMThmMWYxMSJ9fX0=
     glow: true
@@ -192,7 +192,7 @@ magic_newplayer_machines:
   type: sub
   parent: "magic"
   item:
-    name: "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l萌{#E9967A}&l新{#F08080}&l福{#FF69B4}&l利{#DB7093}&l机{#FFC0CB}&l器{#FFC0CB}&l&kl"
+    name: "{#FFC0CB}&l&kl{#FFC0CB}&lMagic - Novice Machines{#FFC0CB}&l&kl"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWU2ZTM2OWFjOTI2OGUwOTcxM2RhNWVjMmJkM2Y2NjNmZGU2ZWFiYWIxN2Y0YzI2NzgxNTg3NjBlMjVhMDc4MCJ9fX0=
     glow: true
@@ -201,7 +201,7 @@ magic_power:
   type: sub
   parent: "magic"
   item:
-    name: "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l能{#E9967A}&l源{#F08080}&l与{#FF69B4}&l电{#DB7093}&l力{#FFC0CB}&l&kl"
+    name: "{#FFC0CB}&l&kl{#FFC0CB}&lMagic - Energy & Power{#FFC0CB}&l&kl"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWIxMGVkOTQwODBhMDc1NDZhMjQ1ZWM4MzdjZmM1ODE0Yzc2NThjN2VmMzM3YmUwMzVhMTFiMmUxZTAzYmExNiJ9fX0=
     glow: true
@@ -210,7 +210,7 @@ magic_beehive:
   type: sub
   parent: "magic"
   item:
-    name: "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l蜂{#E9967A}&l箱{#F08080}&l&kl"
+    name: "{#FFC0CB}&l&kl{#FFC0CB}&lMagic - Apiary{#F08080}&l&kl"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     glow: true
@@ -219,7 +219,7 @@ magic_cd_machines:
   type: sub
   parent: "magic"
   item:
-    name: "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l卡{#E9967A}&l片{#F08080}&l&kl"
+    name: "{#FFC0CB}&l&kl{#FFC0CB}&lMagic - Cards{#F08080}&l&kl"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDM5ZjMzNjY3Y2U3YjI4M2I4ZmI5NmQ2MWIxZTlhYmQ0YjNiZjA3NjM2MGFmZTU5NDJhNzhjNmZiNTg4NDgxIn19fQ==
     glow: true
@@ -228,7 +228,7 @@ magic_attribute_up:
   type: sub
   parent: "magic"
   item:
-    name: "{#FFC0CB}&l&kl{#FFB6C1}&l魔{#FFA07A}&l法{#FA8072}&l-{#E9967A}&l装{#F08080}&l备{#FF69B4}&l强{#DB7093}&l化{#FFC0CB}&l&kl"
+    name: "{#FFC0CB}&l&kl{#FFC0CB}&lMagic - Equipment Upgrades{#FFC0CB}&l&kl"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGY0NDZlMzFjYjAzMGIxOWQ5ZDRmZmEyY2VlNDcxZjQ3NWQwMDAzZTUxNTY2NTdhNzE1ODgzZTgzZjkzMTNkOSJ9fX0=
     glow: true
@@ -248,7 +248,7 @@ magic_plant:
   type: sub
   parent: "magic"
   item:
-    name: "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l至{#E9967A}&l尊{#F08080}&l工{#FF69B4}&l艺{#FFC0CB}&l&kl"
+    name: "{#FFC0CB}&l&kl{#FFC0CB}&lMagic - Supreme Crafting{#FFC0CB}&l&kl"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWYwYTY0ZGM3NmE2NTY3MDM3ZmQ5ZmUyZDQwYTk4MDNmMGZlYTg5MzFmMWM2NDI0ZWE0OGNhYjVmNjI5NTBlZSJ9fX0=
     glow: true
@@ -258,7 +258,7 @@ magic_foods:
   type: sub
   parent: "magic"
   item:
-    name: "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l食{#E9967A}&l物{#F08080}&l&kl"
+    name: "{#FFC0CB}&l&kl{#FFC0CB}&lMagic - Food{#F08080}&l&kl"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmMwM2MzNWI1YzM0ZTU0Zjg0NjMzZDAzMWQwNDJjMGNkYjQ4MGIwZTZlNDhmOWU2YTQwOTAwZGQ3ODQxZTA3OSJ9fX0=
     glow: true
@@ -286,7 +286,7 @@ magic_spawn_egg:
   type: sub
   parent: "magic"
   item:
-    name: "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l生{#E9967A}&l物{#F08080}&l工{#FF69B4}&l程{#FFC0CB}&l&kl"
+    name: "{#FFC0CB}&l&kl{#FFC0CB}&lMagic - Bioengineering{#FFC0CB}&l&kl"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWZjMWM4ZThmYWRlMTg1MzdlZDkxYmZkMWJkOTIyYTU1ZTE3Y2RjM2U1MTUwNzgxYTc3NzY5NGY1ZjA5NzM2MyJ9fX0=
     glow: true
@@ -295,7 +295,7 @@ magic_spawner:
   type: sub
   parent: "magic"
   item:
-    name: "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
+    name: "{#FFC0CB}&l&kl{#FFB9C3}&lMagic - Spawners{#F87083}&l&kl"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGRjMGY2ZjRiODFlZDc3YWJiYTVjODg1MjZmNTViNDZlNWE3ZDg4YjhjMDkzNWQ4ZGQyZWMyMjg3NTU4Nzk4MSJ9fX0=
     glow: true
@@ -304,7 +304,7 @@ magic_grow:
   type: sub
   parent: "magic"
   item:
-    name: "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l植{#FA8E99}&l物{#F97F8E}&l学{#F87083}&l&kl"
+    name: "{#FFC0CB}&l&kl{#FFB9C3}&lMagic - Botany{#F87083}&l&kl"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWU4YzQ0OWYxZGM1YzNiNTg1YzA1ZjhmZTg2NzFiMzYzYzA0NjZhYTIyM2Y5NzI4Nzg1NjRhYWFjNjYwNTQyMiJ9fX0=
     glow: true
@@ -332,7 +332,7 @@ magic_storage:
   type: sub
   parent: "magic"
   item:
-    name: "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l抽{#E9967A}&l屉{#F08080}&l&kl"
+    name: "{#FFC0CB}&l&kl{#FFC0CB}&lMagic - Storage Drawers{#F08080}&l&kl"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGI2MzVlOGNkMDQwNWJjYTVjM2ZkMzRiYWQ5M2EwMGNhNWEyY2EyYWQxMjE0Y2RhMTIwNDViYThhYmI4MzA1YiJ9fX0=
     glow: true
