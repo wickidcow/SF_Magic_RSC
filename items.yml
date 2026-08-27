@@ -41,7 +41,7 @@ MAGIC_INFO:
   lateInit: false
   item_group: magic_author
   item:
-    name: '{#FFC1E0}&l魔法说明书'
+    name: '{#FFC1E0}&l魔法Description书'
     lore:
       - '{#FFC1E0}本附属由magicsolo（Yomicer）编写而成'
       - '{#FFC1E0}我也是：南柯梦'
@@ -66,11 +66,11 @@ MAGIC_INFO_2:
 MAGIC_GUIDE:
   item_group: magic_author
   item:
-    name: "&b机器使用说明"
+    name: "&b机器使用Description"
     material: paper
     lore:
-      - "&6&o请一定要清空机器输出槽"
-      - "&c&o不要将无关物品放入输出槽"
+      - "&6&o请一定要清空机器Output槽"
+      - "&c&o不要将无关物品放入Output槽"
       - "&4&o这样只会阻止机器工作"
       - "&b遇到bug请及时反馈"
 
@@ -152,7 +152,7 @@ MAGIC_BLISTERING_INGOT_3:
     name: "&c魔法&a起泡锭"
     material: iron_ingot
     lore:
-      - "&8⇨ &4需要防化服"
+      - "&8⇨ &4Hazmat suit required"
   radiation: VERY_DEADLY
   recipe:
     1:
@@ -206,10 +206,10 @@ MAGIC_GCE_EXCITATION_CHAMBER_PRE:
       - "&7&o无法正常使用电力"
       - "&7&o模拟鸡生产"
       - "&a"
-      - "&6高级 机器"
+      - "&6Advanced Machine"
       - "&8⇨&e ⚡ &7800J/s"
       - "&a"
-      - "&4魔法机器"
+      - "&4Magic Machine"
   recipe:
     1:
       material_type: slimefun
@@ -263,10 +263,10 @@ MAGIC_GCE_EXCITATION_CHAMBER_PRE_CN:
       - "&7&o无法正常使用电力"
       - "&7&o模拟鸡生产"
       - "&a"
-      - "&6高级 机器"
+      - "&6Advanced Machine"
       - "&8⇨&e ⚡ &7800J/s"
       - "&a"
-      - "&4魔法机器"
+      - "&4Magic Machine"
   recipe:
     1:
       material_type: slimefun
@@ -311,10 +311,10 @@ MAGIC_GCE_EXCITATION_CHAMBER:
     name: "&c魔法&7鼓舞室"
     material: blast_furnace
     lore:
-      - "&7&o结合无尽锭的力量"
-      - "&7&o使用电力模拟鸡生产"
+      - "&7&oHarnesses the power of Infinite Ingots"
+      - "&7&oSimulates chicken production using electricity"
       - "&a"
-      - "&6高级 机器"
+      - "&6Advanced Machine"
       - "&8⇨&e ⚡ &76400J/s"
       - "&a"
       - "&c魔法 机器"
@@ -410,9 +410,9 @@ MAGIC_INFINITE_UP:
     material: SCUTE
     lore:
       - "&a"
-      - "&6用于升级无尽机器"
+      - "&6用于升无尽机器"
       - "&a"
-      - "&c魔法材料"
+      - "&cMagic Material"
   recipe:
     1:
       material_type: slimefun
@@ -460,7 +460,7 @@ MAGIC_QUARTZ_UP:
       - "&a"
       - "&6用于制作石英一体机"
       - "&a"
-      - "&c魔法材料"
+      - "&cMagic Material"
   recipe:
     2:
       material: QUARTZ_BLOCK
@@ -488,7 +488,7 @@ MAGIC_MAGMA_UP:
       - "&a"
       - "&6用于制作石岩浆块一体机"
       - "&a"
-      - "&c魔法材料"
+      - "&cMagic Material"
   recipe:
     2:
       material: MAGMA_BLOCK
@@ -515,7 +515,7 @@ MAGIC_COPPER_DUST:
     name: "&c魔法&6铜粉"
     material: glowstone_dust
     lore:
-      - "&8⇨ &4需要防化服"
+      - "&8⇨ &4Hazmat suit required"
   recipe:
     1:
       material_type: slimefun
@@ -562,7 +562,7 @@ MAGIC_IRON_DUST:
     name: "&c魔法&6铁粉"
     material: GUNPOWDER
     lore:
-      - "&8⇨ &4需要防化服"
+      - "&8⇨ &4Hazmat suit required"
   recipe:
     1:
       material_type: slimefun
@@ -609,7 +609,7 @@ MAGIC_GOLD_DUST:
     name: "&c魔法&6金粉"
     material: glowstone_dust
     lore:
-      - "&8⇨ &4需要防化服"
+      - "&8⇨ &4Hazmat suit required"
   recipe:
     1:
       material_type: slimefun
@@ -656,7 +656,7 @@ MAGIC_TIN_DUST:
     name: "&c魔法&6锡粉"
     material: SUGAR
     lore:
-      - "&8⇨ &4需要防化服"
+      - "&8⇨ &4Hazmat suit required"
   recipe:
     1:
       material_type: slimefun
@@ -703,7 +703,7 @@ MAGIC_SILVER_DUST:
     name: "&c魔法&6银粉"
     material: SUGAR
     lore:
-      - "&8⇨ &4需要防化服"
+      - "&8⇨ &4Hazmat suit required"
   recipe:
     1:
       material_type: slimefun
@@ -750,7 +750,7 @@ MAGIC_LEAD_DUST:
     name: "&c魔法&6铅粉"
     material: GUNPOWDER
     lore:
-      - "&8⇨ &4需要防化服"
+      - "&8⇨ &4Hazmat suit required"
   recipe:
     1:
       material_type: slimefun
@@ -797,7 +797,7 @@ MAGIC_ALUMINUM_DUST:
     name: "&c魔法&6铝粉"
     material: SUGAR
     lore:
-      - "&8⇨ &4需要防化服"
+      - "&8⇨ &4Hazmat suit required"
   recipe:
     1:
       material_type: slimefun
@@ -844,7 +844,7 @@ MAGIC_ZINC_DUST:
     name: "&c魔法&6锌粉"
     material: SUGAR
     lore:
-      - "&8⇨ &4需要防化服"
+      - "&8⇨ &4Hazmat suit required"
   recipe:
     1:
       material_type: slimefun
@@ -891,7 +891,7 @@ MAGIC_MAGNESIUM_DUST:
     name: "&c魔法&6镁粉"
     material: SUGAR
     lore:
-      - "&8⇨ &4需要防化服"
+      - "&8⇨ &4Hazmat suit required"
   recipe:
     1:
       material_type: slimefun
@@ -938,7 +938,7 @@ MAGIC_SULFATE:
     name: "&c魔法&6硫酸盐"
     material: GLOWSTONE_DUST
     lore:
-      - "&8⇨ &4需要防化服"
+      - "&8⇨ &4Hazmat suit required"
   recipe:
     1:
       material_type: slimefun
@@ -985,7 +985,7 @@ MAGIC_GLASS:
     name: "&c魔法&6玻璃"
     material: GLASS
     lore:
-      - "&8⇨ &4需要防化服"
+      - "&8⇨ &4Hazmat suit required"
   recipe:
     1:
       material_type: slimefun
@@ -1032,7 +1032,7 @@ MAGIC_COAL:
     name: "&c魔法&6煤炭"
     material: COAL
     lore:
-      - "&8⇨ &4需要防化服"
+      - "&8⇨ &4Hazmat suit required"
   recipe:
     1:
       material_type: slimefun
@@ -1081,7 +1081,7 @@ MAGIC_QUARTZ:
     material: quartz
     glow: true
     lore:
-      - "&8⇨ &4需要防化服"
+      - "&8⇨ &4Hazmat suit required"
   recipe:
     1:
       material_type: slimefun
@@ -1129,7 +1129,7 @@ MAGIC_GOLD_INGOT:
     material: GOLD_INGOT
     glow: true
     lore:
-      - "&8⇨ &4需要防化服"
+      - "&8⇨ &4Hazmat suit required"
   recipe:
     1:
       material_type: slimefun
@@ -1177,7 +1177,7 @@ MAGIC_DIAMOND:
     material: DIAMOND
     glow: true
     lore:
-      - "&8⇨ &4需要防化服"
+      - "&8⇨ &4Hazmat suit required"
   recipe:
     1:
       material_type: slimefun
@@ -1225,7 +1225,7 @@ MAGIC_IRON_INGOT:
     material: IRON_INGOT
     glow: true
     lore:
-      - "&8⇨ &4需要防化服"
+      - "&8⇨ &4Hazmat suit required"
   recipe:
     1:
       material_type: slimefun
@@ -1273,7 +1273,7 @@ MAGIC_LAPIS_LAZULI:
     material: LAPIS_LAZULI
     glow: true
     lore:
-      - "&8⇨ &4需要防化服"
+      - "&8⇨ &4Hazmat suit required"
   recipe:
     1:
       material_type: slimefun
@@ -1321,7 +1321,7 @@ MAGIC_EMERALD:
     material: EMERALD
     glow: true
     lore:
-      - "&8⇨ &4需要防化服"
+      - "&8⇨ &4Hazmat suit required"
   recipe:
     1:
       material_type: slimefun
@@ -1369,7 +1369,7 @@ MAGIC_MAGMA_CREAM:
     material: MAGMA_CREAM
     glow: true
     lore:
-      - "&8⇨ &4需要防化服"
+      - "&8⇨ &4Hazmat suit required"
   recipe:
     1:
       material_type: slimefun
@@ -1422,7 +1422,7 @@ MAGIC_BEE_SPAWN_EGG8:
       - "&7可通过蜜蜂蛋合成"
       - "&7也可通过魔法蜂巢培育"
       - "&a" 
-      - "&6魔法动物"
+      - "&6Magical Creature"
   recipe:
     1: 
       material: BEE_SPAWN_EGG
@@ -1457,7 +1457,7 @@ MAGIC_BEE_SPAWN_EGG64:
       - "&a" 
       - "&7六十四只附有魔法的蜜蜂"
       - "&a" 
-      - "&6魔法动物"
+      - "&6Magical Creature"
   recipe:
     1: 
       material_type: slimefun
@@ -1494,11 +1494,11 @@ MAGIC_DYNATECH_APIARY_BILLON_INGOT8:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7让蜜蜂来帮你"
-      - "&7生产材料"
+      - "&7Let the bees help you"
+      - "&7Production Material"
       - "&a" 
-      - "&4终极 机器"
-      - "&8⇨&e ⚡ &7384 J 可存储"
+      - "&4Ultimate Machine"
+      - "&8⇨&e ⚡ &7384 J Storage"
       - "&8⇨&e ⚡ &724 J/t"
   recipe:
     1: 
@@ -1536,11 +1536,11 @@ MAGIC_DYNATECH_APIARY_BILLON_INGOT64:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7让蜜蜂来帮你"
-      - "&9生产材料"
+      - "&7Let the bees help you"
+      - "&9Production Material"
       - "&a" 
-      - "&4终极 机器"
-      - "&8⇨&e ⚡ &7999,999 J 可存储"
+      - "&4Ultimate Machine"
+      - "&8⇨&e ⚡ &7999,999 J Storage"
       - "&8⇨&e ⚡ &7999,999 J/t"
   recipe:
     1: 
@@ -1592,13 +1592,13 @@ MAGIC_CD_NEW_1:
   item_group: magic_cd_machines
   recipe_type: ENHANCED_CRAFTING_TABLE
   item:
-    name: "&a基础魔法卡片"
+    name: "&a基础Magic Card"
     material: MUSIC_DISC_STRAD
     lore:
       - "&a" 
-      - "&f机器生产物品的合成材料"
+      - "&fCrafting material produced by machines"
       - "&a" 
-      - "&c魔法卡片"
+      - "&cMagic Card"
   recipe:
     1: 
       material_type: slimefun
@@ -1642,13 +1642,13 @@ MAGIC_CD_NEW_2:
   item_group: magic_cd_machines
   recipe_type: ENHANCED_CRAFTING_TABLE
   item:
-    name: "&a高级魔法卡片"
+    name: "&a高Magic Card"
     material: MUSIC_DISC_MALL
     lore:
       - "&a" 
-      - "&f机器生产物品的合成材料"
+      - "&fCrafting material produced by machines"
       - "&a" 
-      - "&c魔法卡片"
+      - "&cMagic Card"
   recipe:
     1: 
       material_type: slimefun
@@ -1692,13 +1692,13 @@ MAGIC_CD_NEW_3:
   item_group: magic_cd_machines
   recipe_type: ENHANCED_CRAFTING_TABLE
   item:
-    name: "&a终极魔法卡片"
+    name: "&a终极Magic Card"
     material: MUSIC_DISC_PIGSTEP
     lore:
       - "&a" 
-      - "&f机器生产物品的合成材料"
+      - "&fCrafting material produced by machines"
       - "&a" 
-      - "&c魔法卡片"
+      - "&cMagic Card"
   recipe:
     1: 
       material_type: slimefun
@@ -1742,13 +1742,13 @@ MAGIC_CD_NEW_4:
   item_group: magic_cd_machines
   recipe_type: ENHANCED_CRAFTING_TABLE
   item:
-    name: "&a起源魔法卡片"
+    name: "&a起源Magic Card"
     material: MUSIC_DISC_RELIC
     lore:
       - "&a" 
-      - "&f机器生产物品的合成材料"
+      - "&fCrafting material produced by machines"
       - "&a" 
-      - "&c魔法卡片"
+      - "&cMagic Card"
   recipe:
     1: 
       material_type: slimefun
@@ -1798,7 +1798,7 @@ MAGIC_CD_BLISTERING_INGOT_3:
       - "&a" 
       - "&f改为生产起泡锭"
       - "&a" 
-      - "&c魔法卡片"
+      - "&cMagic Card"
   recipe:
     1: 
       material_type: slimefun
@@ -1847,11 +1847,11 @@ MAGIC_DYNATECH_APIARY_DURALUMIN_INGOT:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7让蜜蜂来帮你"
-      - "&7生产材料"
+      - "&7Let the bees help you"
+      - "&7Production Material"
       - "&a" 
-      - "&4终极 机器"
-      - "&8⇨&e ⚡ &7384 J 可存储"
+      - "&4Ultimate Machine"
+      - "&8⇨&e ⚡ &7384 J Storage"
       - "&8⇨&e ⚡ &724 J/t"
   recipe:
     1: 
@@ -1889,11 +1889,11 @@ MAGIC_DYNATECH_APIARY_DURALUMIN_INGOT64:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7让蜜蜂来帮你"
-      - "&9生产材料"
+      - "&7Let the bees help you"
+      - "&9Production Material"
       - "&a" 
-      - "&4终极 机器"
-      - "&8⇨&e ⚡ &7999,999 J 可存储"
+      - "&4Ultimate Machine"
+      - "&8⇨&e ⚡ &7999,999 J Storage"
       - "&8⇨&e ⚡ &7999,999 J/t"
   recipe:
     1: 
@@ -1934,11 +1934,11 @@ MAGIC_DYNATECH_APIARY_BRASS_INGOT:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7让蜜蜂来帮你"
-      - "&7生产材料"
+      - "&7Let the bees help you"
+      - "&7Production Material"
       - "&a" 
-      - "&4终极 机器"
-      - "&8⇨&e ⚡ &7384 J 可存储"
+      - "&4Ultimate Machine"
+      - "&8⇨&e ⚡ &7384 J Storage"
       - "&8⇨&e ⚡ &724 J/t"
   recipe:
     1: 
@@ -1976,11 +1976,11 @@ MAGIC_DYNATECH_APIARY_BRASS_INGOT64:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7让蜜蜂来帮你"
-      - "&9生产材料"
+      - "&7Let the bees help you"
+      - "&9Production Material"
       - "&a" 
-      - "&4终极 机器"
-      - "&8⇨&e ⚡ &7999,999 J 可存储"
+      - "&4Ultimate Machine"
+      - "&8⇨&e ⚡ &7999,999 J Storage"
       - "&8⇨&e ⚡ &7999,999 J/t"
   recipe:
     1: 
@@ -2021,11 +2021,11 @@ MAGIC_DYNATECH_APIARY_BRONZE_INGOT:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7让蜜蜂来帮你"
-      - "&7生产材料"
+      - "&7Let the bees help you"
+      - "&7Production Material"
       - "&a" 
-      - "&4终极 机器"
-      - "&8⇨&e ⚡ &7384 J 可存储"
+      - "&4Ultimate Machine"
+      - "&8⇨&e ⚡ &7384 J Storage"
       - "&8⇨&e ⚡ &724 J/t"
   recipe:
     1: 
@@ -2063,11 +2063,11 @@ MAGIC_DYNATECH_APIARY_BRONZE_INGOT64:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7让蜜蜂来帮你"
-      - "&9生产材料"
+      - "&7Let the bees help you"
+      - "&9Production Material"
       - "&a" 
-      - "&4终极 机器"
-      - "&8⇨&e ⚡ &7999,999 J 可存储"
+      - "&4Ultimate Machine"
+      - "&8⇨&e ⚡ &7999,999 J Storage"
       - "&8⇨&e ⚡ &7999,999 J/t"
   recipe:
     1: 
@@ -2108,11 +2108,11 @@ MAGIC_DYNATECH_APIARY_STEEL_INGOT:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7让蜜蜂来帮你"
-      - "&7生产材料"
+      - "&7Let the bees help you"
+      - "&7Production Material"
       - "&a" 
-      - "&4终极 机器"
-      - "&8⇨&e ⚡ &7384 J 可存储"
+      - "&4Ultimate Machine"
+      - "&8⇨&e ⚡ &7384 J Storage"
       - "&8⇨&e ⚡ &724 J/t"
   recipe:
     1: 
@@ -2150,11 +2150,11 @@ MAGIC_DYNATECH_APIARY_STEEL_INGOT64:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7让蜜蜂来帮你"
-      - "&9生产材料"
+      - "&7Let the bees help you"
+      - "&9Production Material"
       - "&a" 
-      - "&4终极 机器"
-      - "&8⇨&e ⚡ &7999,999 J 可存储"
+      - "&4Ultimate Machine"
+      - "&8⇨&e ⚡ &7999,999 J Storage"
       - "&8⇨&e ⚡ &7999,999 J/t"
   recipe:
     1: 
@@ -2195,11 +2195,11 @@ MAGIC_DYNATECH_APIARY_ALUMINUM_BRASS_INGOT:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7让蜜蜂来帮你"
-      - "&7生产材料"
+      - "&7Let the bees help you"
+      - "&7Production Material"
       - "&a" 
-      - "&4终极 机器"
-      - "&8⇨&e ⚡ &7384 J 可存储"
+      - "&4Ultimate Machine"
+      - "&8⇨&e ⚡ &7384 J Storage"
       - "&8⇨&e ⚡ &724 J/t"
   recipe:
     1: 
@@ -2237,11 +2237,11 @@ MAGIC_DYNATECH_APIARY_ALUMINUM_BRASS_INGOT64:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7让蜜蜂来帮你"
-      - "&9生产材料"
+      - "&7Let the bees help you"
+      - "&9Production Material"
       - "&a" 
-      - "&4终极 机器"
-      - "&8⇨&e ⚡ &7999,999 J 可存储"
+      - "&4Ultimate Machine"
+      - "&8⇨&e ⚡ &7999,999 J Storage"
       - "&8⇨&e ⚡ &7999,999 J/t"
   recipe:
     1: 
@@ -2284,11 +2284,11 @@ MAGIC_DYNATECH_APIARY_ALUMINUM_BRONZE_INGOT:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7让蜜蜂来帮你"
-      - "&7生产材料"
+      - "&7Let the bees help you"
+      - "&7Production Material"
       - "&a" 
-      - "&4终极 机器"
-      - "&8⇨&e ⚡ &7384 J 可存储"
+      - "&4Ultimate Machine"
+      - "&8⇨&e ⚡ &7384 J Storage"
       - "&8⇨&e ⚡ &724 J/t"
   recipe:
     1: 
@@ -2326,11 +2326,11 @@ MAGIC_DYNATECH_APIARY_ALUMINUM_BRONZE_INGOT64:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7让蜜蜂来帮你"
-      - "&9生产材料"
+      - "&7Let the bees help you"
+      - "&9Production Material"
       - "&a" 
-      - "&4终极 机器"
-      - "&8⇨&e ⚡ &7999,999 J 可存储"
+      - "&4Ultimate Machine"
+      - "&8⇨&e ⚡ &7999,999 J Storage"
       - "&8⇨&e ⚡ &7999,999 J/t"
   recipe:
     1: 
@@ -2371,11 +2371,11 @@ MAGIC_DYNATECH_APIARY_CORINTHIAN_BRONZE_INGOT:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7让蜜蜂来帮你"
-      - "&7生产材料"
+      - "&7Let the bees help you"
+      - "&7Production Material"
       - "&a" 
-      - "&4终极 机器"
-      - "&8⇨&e ⚡ &7384 J 可存储"
+      - "&4Ultimate Machine"
+      - "&8⇨&e ⚡ &7384 J Storage"
       - "&8⇨&e ⚡ &724 J/t"
   recipe:
     1: 
@@ -2413,11 +2413,11 @@ MAGIC_DYNATECH_APIARY_CORINTHIAN_BRONZE_INGOT64:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7让蜜蜂来帮你"
-      - "&9生产材料"
+      - "&7Let the bees help you"
+      - "&9Production Material"
       - "&a" 
-      - "&4终极 机器"
-      - "&8⇨&e ⚡ &7999,999 J 可存储"
+      - "&4Ultimate Machine"
+      - "&8⇨&e ⚡ &7999,999 J Storage"
       - "&8⇨&e ⚡ &7999,999 J/t"
   recipe:
     1: 
@@ -2458,11 +2458,11 @@ MAGIC_DYNATECH_APIARY_SOLDER_INGOT:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7让蜜蜂来帮你"
-      - "&7生产材料"
+      - "&7Let the bees help you"
+      - "&7Production Material"
       - "&a" 
-      - "&4终极 机器"
-      - "&8⇨&e ⚡ &7384 J 可存储"
+      - "&4Ultimate Machine"
+      - "&8⇨&e ⚡ &7384 J Storage"
       - "&8⇨&e ⚡ &724 J/t"
   recipe:
     1: 
@@ -2500,11 +2500,11 @@ MAGIC_DYNATECH_APIARY_SOLDER_INGOT64:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7让蜜蜂来帮你"
-      - "&9生产材料"
+      - "&7Let the bees help you"
+      - "&9Production Material"
       - "&a" 
-      - "&4终极 机器"
-      - "&8⇨&e ⚡ &7999,999 J 可存储"
+      - "&4Ultimate Machine"
+      - "&8⇨&e ⚡ &7999,999 J Storage"
       - "&8⇨&e ⚡ &7999,999 J/t"
   recipe:
     1: 
@@ -2545,11 +2545,11 @@ MAGIC_DYNATECH_APIARY_DAMASCUS_STEEL_INGOT:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7让蜜蜂来帮你"
-      - "&7生产材料"
+      - "&7Let the bees help you"
+      - "&7Production Material"
       - "&a" 
-      - "&4终极 机器"
-      - "&8⇨&e ⚡ &7384 J 可存储"
+      - "&4Ultimate Machine"
+      - "&8⇨&e ⚡ &7384 J Storage"
       - "&8⇨&e ⚡ &724 J/t"
   recipe:
     1: 
@@ -2587,11 +2587,11 @@ MAGIC_DYNATECH_APIARY_DAMASCUS_STEEL_INGOT64:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7让蜜蜂来帮你"
-      - "&9生产材料"
+      - "&7Let the bees help you"
+      - "&9Production Material"
       - "&a" 
-      - "&4终极 机器"
-      - "&8⇨&e ⚡ &7999,999 J 可存储"
+      - "&4Ultimate Machine"
+      - "&8⇨&e ⚡ &7999,999 J Storage"
       - "&8⇨&e ⚡ &7999,999 J/t"
   recipe:
     1: 
@@ -2632,11 +2632,11 @@ MAGIC_DYNATECH_APIARY_HARDENED_METAL_INGOT:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7让蜜蜂来帮你"
-      - "&7生产材料"
+      - "&7Let the bees help you"
+      - "&7Production Material"
       - "&a" 
-      - "&4终极 机器"
-      - "&8⇨&e ⚡ &7384 J 可存储"
+      - "&4Ultimate Machine"
+      - "&8⇨&e ⚡ &7384 J Storage"
       - "&8⇨&e ⚡ &724 J/t"
   recipe:
     1: 
@@ -2674,11 +2674,11 @@ MAGIC_DYNATECH_APIARY_HARDENED_METAL_INGOT64:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7让蜜蜂来帮你"
-      - "&9生产材料"
+      - "&7Let the bees help you"
+      - "&9Production Material"
       - "&a" 
-      - "&4终极 机器"
-      - "&8⇨&e ⚡ &7999,999 J 可存储"
+      - "&4Ultimate Machine"
+      - "&8⇨&e ⚡ &7999,999 J Storage"
       - "&8⇨&e ⚡ &7999,999 J/t"
   recipe:
     1: 
@@ -2719,11 +2719,11 @@ MAGIC_DYNATECH_APIARY_REINFORCED_ALLOY_INGOT:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7让蜜蜂来帮你"
-      - "&7生产材料"
+      - "&7Let the bees help you"
+      - "&7Production Material"
       - "&a" 
-      - "&4终极 机器"
-      - "&8⇨&e ⚡ &7384 J 可存储"
+      - "&4Ultimate Machine"
+      - "&8⇨&e ⚡ &7384 J Storage"
       - "&8⇨&e ⚡ &724 J/t"
   recipe:
     1: 
@@ -2761,11 +2761,11 @@ MAGIC_DYNATECH_APIARY_REINFORCED_ALLOY_INGOT64:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7让蜜蜂来帮你"
-      - "&9生产材料"
+      - "&7Let the bees help you"
+      - "&9Production Material"
       - "&a" 
-      - "&4终极 机器"
-      - "&8⇨&e ⚡ &7999,999 J 可存储"
+      - "&4Ultimate Machine"
+      - "&8⇨&e ⚡ &7999,999 J Storage"
       - "&8⇨&e ⚡ &7999,999 J/t"
   recipe:
     1: 
@@ -2806,11 +2806,11 @@ MAGIC_DYNATECH_APIARY_FERROSILICON:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7让蜜蜂来帮你"
-      - "&7生产材料"
+      - "&7Let the bees help you"
+      - "&7Production Material"
       - "&a" 
-      - "&4终极 机器"
-      - "&8⇨&e ⚡ &7384 J 可存储"
+      - "&4Ultimate Machine"
+      - "&8⇨&e ⚡ &7384 J Storage"
       - "&8⇨&e ⚡ &724 J/t"
   recipe:
     1: 
@@ -2848,11 +2848,11 @@ MAGIC_DYNATECH_APIARY_FERROSILICON64:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7让蜜蜂来帮你"
-      - "&9生产材料"
+      - "&7Let the bees help you"
+      - "&9Production Material"
       - "&a" 
-      - "&4终极 机器"
-      - "&8⇨&e ⚡ &7999,999 J 可存储"
+      - "&4Ultimate Machine"
+      - "&8⇨&e ⚡ &7999,999 J Storage"
       - "&8⇨&e ⚡ &7999,999 J/t"
   recipe:
     1: 
@@ -2893,11 +2893,11 @@ MAGIC_DYNATECH_APIARY_GILDED_IRON:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7让蜜蜂来帮你"
-      - "&7生产材料"
+      - "&7Let the bees help you"
+      - "&7Production Material"
       - "&a" 
-      - "&4终极 机器"
-      - "&8⇨&e ⚡ &7384 J 可存储"
+      - "&4Ultimate Machine"
+      - "&8⇨&e ⚡ &7384 J Storage"
       - "&8⇨&e ⚡ &724 J/t"
   recipe:
     1: 
@@ -2935,11 +2935,11 @@ MAGIC_DYNATECH_APIARY_GILDED_IRON64:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7让蜜蜂来帮你"
-      - "&9生产材料"
+      - "&7Let the bees help you"
+      - "&9Production Material"
       - "&a" 
-      - "&4终极 机器"
-      - "&8⇨&e ⚡ &7999,999 J 可存储"
+      - "&4Ultimate Machine"
+      - "&8⇨&e ⚡ &7999,999 J Storage"
       - "&8⇨&e ⚡ &7999,999 J/t"
   recipe:
     1: 
@@ -2980,11 +2980,11 @@ MAGIC_DYNATECH_APIARY_NICKEL_INGOT:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7让蜜蜂来帮你"
-      - "&7生产材料"
+      - "&7Let the bees help you"
+      - "&7Production Material"
       - "&a" 
-      - "&4终极 机器"
-      - "&8⇨&e ⚡ &7384 J 可存储"
+      - "&4Ultimate Machine"
+      - "&8⇨&e ⚡ &7384 J Storage"
       - "&8⇨&e ⚡ &724 J/t"
   recipe:
     1: 
@@ -3022,11 +3022,11 @@ MAGIC_DYNATECH_APIARY_NICKEL_INGOT64:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7让蜜蜂来帮你"
-      - "&9生产材料"
+      - "&7Let the bees help you"
+      - "&9Production Material"
       - "&a" 
-      - "&4终极 机器"
-      - "&8⇨&e ⚡ &7999,999 J 可存储"
+      - "&4Ultimate Machine"
+      - "&8⇨&e ⚡ &7999,999 J Storage"
       - "&8⇨&e ⚡ &7999,999 J/t"
   recipe:
     1: 
@@ -3067,11 +3067,11 @@ MAGIC_DYNATECH_APIARY_COBALT_INGOT:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7让蜜蜂来帮你"
-      - "&7生产材料"
+      - "&7Let the bees help you"
+      - "&7Production Material"
       - "&a" 
-      - "&4终极 机器"
-      - "&8⇨&e ⚡ &7384 J 可存储"
+      - "&4Ultimate Machine"
+      - "&8⇨&e ⚡ &7384 J Storage"
       - "&8⇨&e ⚡ &724 J/t"
   recipe:
     1: 
@@ -3109,11 +3109,11 @@ MAGIC_DYNATECH_APIARY_COBALT_INGOT64:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7让蜜蜂来帮你"
-      - "&9生产材料"
+      - "&7Let the bees help you"
+      - "&9Production Material"
       - "&a" 
-      - "&4终极 机器"
-      - "&8⇨&e ⚡ &7999,999 J 可存储"
+      - "&4Ultimate Machine"
+      - "&8⇨&e ⚡ &7999,999 J Storage"
       - "&8⇨&e ⚡ &7999,999 J/t"
   recipe:
     1: 
@@ -3154,11 +3154,11 @@ MAGIC_DYNATECH_APIARY_REDSTONE_ALLOY:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7让蜜蜂来帮你"
-      - "&7生产材料"
+      - "&7Let the bees help you"
+      - "&7Production Material"
       - "&a" 
-      - "&4终极 机器"
-      - "&8⇨&e ⚡ &7384 J 可存储"
+      - "&4Ultimate Machine"
+      - "&8⇨&e ⚡ &7384 J Storage"
       - "&8⇨&e ⚡ &724 J/t"
   recipe:
     1: 
@@ -3196,11 +3196,11 @@ MAGIC_DYNATECH_APIARY_REDSTONE_ALLOY64:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7让蜜蜂来帮你"
-      - "&9生产材料"
+      - "&7Let the bees help you"
+      - "&9Production Material"
       - "&a" 
-      - "&4终极 机器"
-      - "&8⇨&e ⚡ &7999,999 J 可存储"
+      - "&4Ultimate Machine"
+      - "&8⇨&e ⚡ &7999,999 J Storage"
       - "&8⇨&e ⚡ &7999,999 J/t"
   recipe:
     1: 
@@ -3241,11 +3241,11 @@ MAGIC_DYNATECH_APIARY_SYNTHETIC_DIAMOND:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7让蜜蜂来帮你"
-      - "&7生产材料"
+      - "&7Let the bees help you"
+      - "&7Production Material"
       - "&a" 
-      - "&4终极 机器"
-      - "&8⇨&e ⚡ &7384 J 可存储"
+      - "&4Ultimate Machine"
+      - "&8⇨&e ⚡ &7384 J Storage"
       - "&8⇨&e ⚡ &724 J/t"
   recipe:
     1: 
@@ -3283,11 +3283,11 @@ MAGIC_DYNATECH_APIARY_SYNTHETIC_DIAMOND64:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7让蜜蜂来帮你"
-      - "&9生产材料"
+      - "&7Let the bees help you"
+      - "&9Production Material"
       - "&a" 
-      - "&4终极 机器"
-      - "&8⇨&e ⚡ &7999,999 J 可存储"
+      - "&4Ultimate Machine"
+      - "&8⇨&e ⚡ &7999,999 J Storage"
       - "&8⇨&e ⚡ &7999,999 J/t"
   recipe:
     1: 
@@ -3328,11 +3328,11 @@ MAGIC_DYNATECH_APIARY_SYNTHETIC_EMERALD:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7让蜜蜂来帮你"
-      - "&7生产材料"
+      - "&7Let the bees help you"
+      - "&7Production Material"
       - "&a" 
-      - "&4终极 机器"
-      - "&8⇨&e ⚡ &7384 J 可存储"
+      - "&4Ultimate Machine"
+      - "&8⇨&e ⚡ &7384 J Storage"
       - "&8⇨&e ⚡ &724 J/t"
   recipe:
     1: 
@@ -3370,11 +3370,11 @@ MAGIC_DYNATECH_APIARY_SYNTHETIC_EMERALD64:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7让蜜蜂来帮你"
-      - "&9生产材料"
+      - "&7Let the bees help you"
+      - "&9Production Material"
       - "&a" 
-      - "&4终极 机器"
-      - "&8⇨&e ⚡ &7999,999 J 可存储"
+      - "&4Ultimate Machine"
+      - "&8⇨&e ⚡ &7999,999 J Storage"
       - "&8⇨&e ⚡ &7999,999 J/t"
   recipe:
     1: 
@@ -3415,11 +3415,11 @@ MAGIC_DYNATECH_APIARY_SYNTHETIC_SAPPHIRE:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7让蜜蜂来帮你"
-      - "&7生产材料"
+      - "&7Let the bees help you"
+      - "&7Production Material"
       - "&a" 
-      - "&4终极 机器"
-      - "&8⇨&e ⚡ &7384 J 可存储"
+      - "&4Ultimate Machine"
+      - "&8⇨&e ⚡ &7384 J Storage"
       - "&8⇨&e ⚡ &724 J/t"
   recipe:
     1: 
@@ -3457,11 +3457,11 @@ MAGIC_DYNATECH_APIARY_SYNTHETIC_SAPPHIRE64:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7让蜜蜂来帮你"
-      - "&9生产材料"
+      - "&7Let the bees help you"
+      - "&9Production Material"
       - "&a" 
-      - "&4终极 机器"
-      - "&8⇨&e ⚡ &7999,999 J 可存储"
+      - "&4Ultimate Machine"
+      - "&8⇨&e ⚡ &7999,999 J Storage"
       - "&8⇨&e ⚡ &7999,999 J/t"
   recipe:
     1: 
@@ -3502,11 +3502,11 @@ MAGIC_DYNATECH_APIARY_CARBONADO:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7让蜜蜂来帮你"
-      - "&7生产材料"
+      - "&7Let the bees help you"
+      - "&7Production Material"
       - "&a" 
-      - "&4终极 机器"
-      - "&8⇨&e ⚡ &7384 J 可存储"
+      - "&4Ultimate Machine"
+      - "&8⇨&e ⚡ &7384 J Storage"
       - "&8⇨&e ⚡ &724 J/t"
   recipe:
     1: 
@@ -3544,11 +3544,11 @@ MAGIC_DYNATECH_APIARY_CARBONADO64:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7让蜜蜂来帮你"
-      - "&9生产材料"
+      - "&7Let the bees help you"
+      - "&9Production Material"
       - "&a" 
-      - "&4终极 机器"
-      - "&8⇨&e ⚡ &7999,999 J 可存储"
+      - "&4Ultimate Machine"
+      - "&8⇨&e ⚡ &7999,999 J Storage"
       - "&8⇨&e ⚡ &7999,999 J/t"
   recipe:
     1: 
@@ -3623,14 +3623,14 @@ MAGIC_GENSHIN_IMPACT_1:
   recipe_type: MAGIC_GENSHIN_IMPACT_MACHINES
   placeable: true
   item:
-    name: "&b可莉"
+    name: "&bKlee"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDQ5NzY5MzlhMmRjYjdhMGMwNGFmNTNmM2UxZDgyZTk1NTRlNWNjOWVmNjgxN2Y1OTdhMTMyOGYyN2UzY2JkNSJ9fX0=
     lore:
       - "&a"
-      - "&7这是可莉"
+      - "&7这是Klee"
       - "&a" 
-      - "&b原神"
+      - "&bGenshin Impact"
 
 MAGIC_GENSHIN_IMPACT_2: 
   #兔兔伯爵
@@ -3645,7 +3645,7 @@ MAGIC_GENSHIN_IMPACT_2:
       - "&a"
       - "&7这是兔兔伯爵"
       - "&a" 
-      - "&a原神"
+      - "&aGenshin Impact"
 
 MAGIC_GENSHIN_IMPACT_3: 
   #凯亚
@@ -3660,7 +3660,7 @@ MAGIC_GENSHIN_IMPACT_3:
       - "&a"
       - "&7这是凯亚"
       - "&a" 
-      - "&a原神"
+      - "&aGenshin Impact"
 
 MAGIC_GENSHIN_IMPACT_4: 
   #魈
@@ -3668,14 +3668,14 @@ MAGIC_GENSHIN_IMPACT_4:
   recipe_type: MAGIC_GENSHIN_IMPACT_MACHINES
   placeable: true
   item:
-    name: "&b魈"
+    name: "&bXiao"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjJmMjcxYWRkMDVlNTBlNzAwMjdkOTZlMTY0ZGQwNGFlZWNhMWQyMWE5YTA5ZmNkMzRmNWNkZDYzZGRiZGE1OSJ9fX0=
     lore:
       - "&a"
-      - "&7这是魈"
+      - "&7这是Xiao"
       - "&a" 
-      - "&a原神"
+      - "&aGenshin Impact"
 
 MAGIC_GENSHIN_IMPACT_5: 
   #菲谢尔
@@ -3690,7 +3690,7 @@ MAGIC_GENSHIN_IMPACT_5:
       - "&a"
       - "&7这是菲谢尔"
       - "&a" 
-      - "&a原神"
+      - "&aGenshin Impact"
 MAGIC_GENSHIN_IMPACT_6: 
   #芙宁娜
   item_group: magic_genshin_impact
@@ -3704,7 +3704,7 @@ MAGIC_GENSHIN_IMPACT_6:
       - "&a"
       - "&7这是芙宁娜"
       - "&a" 
-      - "&a原神"
+      - "&aGenshin Impact"
 MAGIC_GENSHIN_IMPACT_7: 
   #雷电影
   item_group: magic_genshin_impact
@@ -3718,7 +3718,7 @@ MAGIC_GENSHIN_IMPACT_7:
       - "&a"
       - "&7这是雷电影"
       - "&a" 
-      - "&a原神"
+      - "&aGenshin Impact"
 MAGIC_GENSHIN_IMPACT_8: 
   #妮露
   item_group: magic_genshin_impact
@@ -3732,21 +3732,21 @@ MAGIC_GENSHIN_IMPACT_8:
       - "&a"
       - "&7这是妮露"
       - "&a" 
-      - "&a原神"
+      - "&aGenshin Impact"
 MAGIC_GENSHIN_IMPACT_9: 
   #雷电将军
   item_group: magic_genshin_impact
   recipe_type: MAGIC_GENSHIN_IMPACT_MACHINES
   placeable: true
   item:
-    name: "&b雷电将军"
+    name: "&bRaiden Shogun"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWU0ZDhiODUxMDMwMDQzMzY2NjE0OTIzYzEwYmU2ZmFjMTM4NWQ1ZjgzYzM2OTA5ZWFhMjc1MjdmMjNmZWE2MCJ9fX0=
     lore:
       - "&a"
-      - "&7这是雷电将军"
+      - "&7这是Raiden Shogun"
       - "&a" 
-      - "&a原神"
+      - "&aGenshin Impact"
 MAGIC_GENSHIN_IMPACT_10: 
   #莫娜
   item_group: magic_genshin_impact
@@ -3760,21 +3760,21 @@ MAGIC_GENSHIN_IMPACT_10:
       - "&a"
       - "&7这是莫娜"
       - "&a" 
-      - "&a原神"
+      - "&aGenshin Impact"
 MAGIC_GENSHIN_IMPACT_11: 
   #甘雨
   item_group: magic_genshin_impact
   recipe_type: MAGIC_GENSHIN_IMPACT_MACHINES
   placeable: true
   item:
-    name: "&b甘雨"
+    name: "&bGanyu"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDRhMjYzYTk1NDk2MmZkOGJkZDU2OGU2NmY0MWQwY2ViYmE0YjBjMDQ1Y2Y3MGE4MDc0ZjlmMjlkNzE3MDUwZiJ9fX0=
     lore:
       - "&a"
-      - "&7这是甘雨"
+      - "&7这是Ganyu"
       - "&a" 
-      - "&a原神"
+      - "&aGenshin Impact"
 
 MAGIC_GENSHIN_IMPACT_12: 
   #八重神子
@@ -3789,7 +3789,7 @@ MAGIC_GENSHIN_IMPACT_12:
       - "&a"
       - "&7这是八重神子"
       - "&a" 
-      - "&a原神"
+      - "&aGenshin Impact"
 
 MAGIC_GENSHIN_IMPACT_13: 
   #胡桃
@@ -3797,14 +3797,14 @@ MAGIC_GENSHIN_IMPACT_13:
   recipe_type: MAGIC_GENSHIN_IMPACT_MACHINES
   placeable: true
   item:
-    name: "&b胡桃"
+    name: "&bHu Tao"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTNlYzkwYzgyOTY0MzRmMjRiZWM5NDA1YzQxOWMxZTg5NWNkMTg4ODgyYmIxYmNhNWYyZTI0OGZlN2JlZjEwNSJ9fX0=
     lore:
       - "&a"
-      - "&7这是胡桃"
+      - "&7这是Hu Tao"
       - "&a" 
-      - "&a原神"
+      - "&aGenshin Impact"
 
 MAGIC_GENSHIN_IMPACT_14: 
   #枫原万叶
@@ -3819,7 +3819,7 @@ MAGIC_GENSHIN_IMPACT_14:
       - "&a"
       - "&7这是枫原万叶"
       - "&a" 
-      - "&a原神"
+      - "&aGenshin Impact"
 
 MAGIC_GENSHIN_IMPACT_15: 
   #鹿野院平藏
@@ -3834,7 +3834,7 @@ MAGIC_GENSHIN_IMPACT_15:
       - "&a"
       - "&7这是鹿野院平藏"
       - "&a" 
-      - "&a原神"
+      - "&aGenshin Impact"
 
 MAGIC_GENSHIN_IMPACT_16: 
   #温迪
@@ -3849,7 +3849,7 @@ MAGIC_GENSHIN_IMPACT_16:
       - "&a"
       - "&7这是温迪"
       - "&a" 
-      - "&a原神"
+      - "&aGenshin Impact"
 
 MAGIC_GENSHIN_IMPACT_17: 
   #宵宫
@@ -3864,7 +3864,7 @@ MAGIC_GENSHIN_IMPACT_17:
       - "&a"
       - "&7这是宵宫"
       - "&a" 
-      - "&a原神"
+      - "&aGenshin Impact"
 
 MAGIC_GENSHIN_IMPACT_18: 
   #神里绫华
@@ -3872,14 +3872,14 @@ MAGIC_GENSHIN_IMPACT_18:
   recipe_type: MAGIC_GENSHIN_IMPACT_MACHINES
   placeable: true
   item:
-    name: "&b神里绫华"
+    name: "&bKamisato Ayaka"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmQwNjQ3ODRiODMxNGZmYTY0NDQ0M2Y3ZmVkZWU4YjIxNWQxNDQzNzBhMDIxZTcxMjEwM2VmYzIwMjc3NTJjMyJ9fX0=
     lore:
       - "&a"
-      - "&7这是神里绫华"
+      - "&7这是Kamisato Ayaka"
       - "&a" 
-      - "&a原神"
+      - "&aGenshin Impact"
 
 MAGIC_GENSHIN_IMPACT_19: 
   #云堇
@@ -3894,7 +3894,7 @@ MAGIC_GENSHIN_IMPACT_19:
       - "&a"
       - "&7这是云堇"
       - "&a" 
-      - "&a原神"
+      - "&aGenshin Impact"
 
 MAGIC_GENSHIN_IMPACT_20: 
   #珊瑚宫心海
@@ -3909,7 +3909,7 @@ MAGIC_GENSHIN_IMPACT_20:
       - "&a"
       - "&7这是珊瑚宫心海"
       - "&a" 
-      - "&a原神"
+      - "&aGenshin Impact"
 
 MAGIC_GENSHIN_IMPACT_21: 
   #尤拉
@@ -3924,7 +3924,7 @@ MAGIC_GENSHIN_IMPACT_21:
       - "&a"
       - "&7这是尤拉"
       - "&a" 
-      - "&a原神"
+      - "&aGenshin Impact"
 
 MAGIC_GENSHIN_IMPACT_22: 
   #罗莎莉亚
@@ -3939,7 +3939,7 @@ MAGIC_GENSHIN_IMPACT_22:
       - "&a"
       - "&7这是罗莎莉亚"
       - "&a" 
-      - "&a原神"
+      - "&aGenshin Impact"
 
 MAGIC_GENSHIN_IMPACT_23: 
   #凝光
@@ -3954,7 +3954,7 @@ MAGIC_GENSHIN_IMPACT_23:
       - "&a"
       - "&7这是凝光"
       - "&a" 
-      - "&a原神"
+      - "&aGenshin Impact"
 
 MAGIC_GENSHIN_IMPACT_24: 
   #早柚
@@ -3969,7 +3969,7 @@ MAGIC_GENSHIN_IMPACT_24:
       - "&a"
       - "&7这是早柚"
       - "&a" 
-      - "&a原神"
+      - "&aGenshin Impact"
 
 MAGIC_GENSHIN_IMPACT_25: 
   #七七
@@ -3984,7 +3984,7 @@ MAGIC_GENSHIN_IMPACT_25:
       - "&a"
       - "&7这是七七"
       - "&a" 
-      - "&a原神"
+      - "&aGenshin Impact"
 
 MAGIC_GENSHIN_IMPACT_26: 
   #钟离
@@ -3992,14 +3992,14 @@ MAGIC_GENSHIN_IMPACT_26:
   recipe_type: MAGIC_GENSHIN_IMPACT_MACHINES
   placeable: true
   item:
-    name: "&b钟离"
+    name: "&bZhongli"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjEzYTRiNmRmZmFkZTFjMmFkMTVmZjg5YmU3N2QwZTFlMzZmZGViNDNlOTMxMmU5MWMxOWY0NmM0ZmQ1MzE5MCJ9fX0=
     lore:
       - "&a"
-      - "&7这是钟离"
+      - "&7这是Zhongli"
       - "&a" 
-      - "&a原神"
+      - "&aGenshin Impact"
 
 MAGIC_GENSHIN_IMPACT_27: 
   #龙首
@@ -4029,7 +4029,7 @@ MAGIC_ZR:
       - "&a"
       - "&7元素周期表中的Zr元素"
       - "&a" 
-      - "&a自然元素"
+      - "&aNatural Element"
 
 MAGIC_SI: 
   #硅 (Si)
@@ -4044,7 +4044,7 @@ MAGIC_SI:
       - "&a"
       - "&7元素周期表中的Si元素"
       - "&a" 
-      - "&a自然元素"
+      - "&aNatural Element"
 
 MAGIC_AL: 
   #铝 (Al)
@@ -4059,7 +4059,7 @@ MAGIC_AL:
       - "&a"
       - "&7元素周期表中的Al元素"
       - "&a" 
-      - "&a自然元素"
+      - "&aNatural Element"
 
 MAGIC_TI: 
   #钛 (Ti)
@@ -4074,7 +4074,7 @@ MAGIC_TI:
       - "&a"
       - "&7元素周期表中的Ti元素"
       - "&a" 
-      - "&a自然元素"
+      - "&aNatural Element"
 
 MAGIC_FE: 
   #铁 (Fe)
@@ -4089,7 +4089,7 @@ MAGIC_FE:
       - "&a"
       - "&7元素周期表中的Fe元素"
       - "&a" 
-      - "&a自然元素"
+      - "&aNatural Element"
 
 MAGIC_ENDLESS_PRESS:
   item_group: magic_resource
@@ -4375,7 +4375,7 @@ MAGIC_MAGIC_INGOT:
       - "&7能够激发持有者的潜在能力"
       - "&7甚至改变周围环境的法则"
       - "&a" 
-      - "&4魔法材料"
+      - "&4Magic Material"
   recipe_type: MAGIC_WORKBENCH
   recipe:
     1:
@@ -4424,9 +4424,9 @@ MAGIC_SUPREME_SUPREME_GENERATOR_UP:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWIwYTA2MjlhNzRhMjBjZjQxOWMxYTEyZmNhNDlmODcyYjc4NTI0YmIyNWRkOGI5ZDc0YzFkMjZlN2IwOTI2OCJ9fX0=
     lore:
       - "&a"
-      - "&7用于升级起源发电机"
+      - "&7用于升起源发电机"
       - "&a"
-      - "&c魔法材料"
+      - "&cMagic Material"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1:
@@ -4514,7 +4514,7 @@ MAGIC_VOID_DUST:
       - "&8&o压缩后的虚空粉尘"
       - "&7&o它的重量似乎远超虚空锭"
       - "&a"
-      - "&c魔法材料"
+      - "&cMagic Material"
   recipe_type: MAGIC_ENERGY_PRESS
   recipe:
     1:
@@ -4533,7 +4533,7 @@ MAGIC_VOID_INGOT:
       - "&8&o压缩后的虚空锭"
       - "&8&o无尽虚空的力量掌握在你手中"
       - "&a"
-      - "&c魔法材料"
+      - "&cMagic Material"
   recipe_type: MAGIC_ENERGY_PRESS
   recipe:
     1:
@@ -4552,7 +4552,7 @@ MAGIC_INFINITE_INGOT:
       - "&8&o压缩后的虚空锭"
       - "&8&o无尽宇宙的力量掌握在你手中"
       - "&a"
-      - "&c魔法材料"
+      - "&cMagic Material"
   recipe_type: MAGIC_ENERGY_PRESS
   recipe:
     1:
@@ -4570,9 +4570,9 @@ MAGIC_INFINITE_VOID_HARVESTER_UP:
     lore:
       - "&a"
       - "&7它融合了最尖端的技术与古老魔法的力量"
-      - "&7专为&c魔法机器&7系列设计的高级能量源和控制系统"
+      - "&7专为&cMagic Machine&7系列设计的高能量源和控制系统"
       - "&a"
-      - "&c魔法材料"
+      - "&cMagic Material"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1:
@@ -4624,7 +4624,7 @@ MAGIC_MOB_SIMULATION_CHAMBER_UP:
       - "&7强力的机器核心"
       - "&7似乎和生物模拟室有着相似的属性"
       - "&a"
-      - "&c魔法材料"
+      - "&cMagic Material"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1:
@@ -4671,11 +4671,11 @@ ZOMBIE_DATA_CARD_MAGIC:
     material: diamond_chestplate
     glow: true
     lore:
-      - "&7插入无尽生物模拟室中使用"
+      - "&7Insert into the Infinity Mob Simulation Chamber"
       - "&a"
       - "&8⇨&e ⚡ &7800 J/s"
       - "&a"
-      - "&c魔法芯片"
+      - "&cMagic Chip"
   recipe_type: MAGIC_DATA_CARD_INSERT
 
 SLIME_DATA_CARD_MAGIC: 
@@ -4685,11 +4685,11 @@ SLIME_DATA_CARD_MAGIC:
     material: iron_chestplate
     glow: true
     lore:
-      - "&7插入无尽生物模拟室中使用"
+      - "&7Insert into the Infinity Mob Simulation Chamber"
       - "&a"
       - "&8⇨&e ⚡ &7800 J/s"
       - "&a"
-      - "&c魔法芯片"
+      - "&cMagic Chip"
   recipe_type: MAGIC_DATA_CARD_INSERT
 
 MAGMA_CUBE_DATA_CARD_MAGIC: 
@@ -4699,11 +4699,11 @@ MAGMA_CUBE_DATA_CARD_MAGIC:
     material: iron_chestplate
     glow: true
     lore:
-      - "&7插入无尽生物模拟室中使用"
+      - "&7Insert into the Infinity Mob Simulation Chamber"
       - "&a"
       - "&8⇨&e ⚡ &7800 J/s"
       - "&a"
-      - "&c魔法芯片"
+      - "&cMagic Chip"
   recipe_type: MAGIC_DATA_CARD_INSERT
 
 COW_DATA_CARD_MAGIC: 
@@ -4713,11 +4713,11 @@ COW_DATA_CARD_MAGIC:
     material: iron_chestplate
     glow: true
     lore:
-      - "&7插入无尽生物模拟室中使用"
+      - "&7Insert into the Infinity Mob Simulation Chamber"
       - "&a"
       - "&8⇨&e ⚡ &7800 J/s"
       - "&a"
-      - "&c魔法芯片"
+      - "&cMagic Chip"
   recipe_type: MAGIC_DATA_CARD_INSERT
 
 SHEEP_DATA_CARD_MAGIC: 
@@ -4727,11 +4727,11 @@ SHEEP_DATA_CARD_MAGIC:
     material: iron_chestplate
     glow: true
     lore:
-      - "&7插入无尽生物模拟室中使用"
+      - "&7Insert into the Infinity Mob Simulation Chamber"
       - "&a"
       - "&8⇨&e ⚡ &7800 J/s"
       - "&a"
-      - "&c魔法芯片"
+      - "&cMagic Chip"
   recipe_type: MAGIC_DATA_CARD_INSERT
 
 SPIDER_DATA_CARD_MAGIC: 
@@ -4741,11 +4741,11 @@ SPIDER_DATA_CARD_MAGIC:
     material: diamond_chestplate
     glow: true
     lore:
-      - "&7插入无尽生物模拟室中使用"
+      - "&7Insert into the Infinity Mob Simulation Chamber"
       - "&a"
       - "&8⇨&e ⚡ &7800 J/s"
       - "&a"
-      - "&c魔法芯片"
+      - "&cMagic Chip"
   recipe_type: MAGIC_DATA_CARD_INSERT
 
 SKELETON_DATA_CARD_MAGIC: 
@@ -4755,11 +4755,11 @@ SKELETON_DATA_CARD_MAGIC:
     material: diamond_chestplate
     glow: true
     lore:
-      - "&7插入无尽生物模拟室中使用"
+      - "&7Insert into the Infinity Mob Simulation Chamber"
       - "&a"
       - "&8⇨&e ⚡ &7800 J/s"
       - "&a"
-      - "&c魔法芯片"
+      - "&cMagic Chip"
   recipe_type: MAGIC_DATA_CARD_INSERT
 
 WITHER_SKELETON_DATA_CARD_MAGIC: 
@@ -4769,11 +4769,11 @@ WITHER_SKELETON_DATA_CARD_MAGIC:
     material: diamond_chestplate
     glow: true
     lore:
-      - "&7插入无尽生物模拟室中使用"
+      - "&7Insert into the Infinity Mob Simulation Chamber"
       - "&a"
       - "&8⇨&e ⚡ &7800 J/s"
       - "&a"
-      - "&c魔法芯片"
+      - "&cMagic Chip"
   recipe_type: MAGIC_DATA_CARD_INSERT
 
 ENDERMEN_DATA_CARD_MAGIC: 
@@ -4783,11 +4783,11 @@ ENDERMEN_DATA_CARD_MAGIC:
     material: diamond_chestplate
     glow: true
     lore:
-      - "&7插入无尽生物模拟室中使用"
+      - "&7Insert into the Infinity Mob Simulation Chamber"
       - "&a"
       - "&8⇨&e ⚡ &7800 J/s"
       - "&a"
-      - "&c魔法芯片"
+      - "&cMagic Chip"
   recipe_type: MAGIC_DATA_CARD_INSERT
 
 CREEPER_DATA_CARD_MAGIC: 
@@ -4797,11 +4797,11 @@ CREEPER_DATA_CARD_MAGIC:
     material: diamond_chestplate
     glow: true
     lore:
-      - "&7插入无尽生物模拟室中使用"
+      - "&7Insert into the Infinity Mob Simulation Chamber"
       - "&a"
       - "&8⇨&e ⚡ &7800 J/s"
       - "&a"
-      - "&c魔法芯片"
+      - "&cMagic Chip"
   recipe_type: MAGIC_DATA_CARD_INSERT
 
 GUARDIAN_DATA_CARD_MAGIC: 
@@ -4811,11 +4811,11 @@ GUARDIAN_DATA_CARD_MAGIC:
     material: diamond_chestplate
     glow: true
     lore:
-      - "&7插入无尽生物模拟室中使用"
+      - "&7Insert into the Infinity Mob Simulation Chamber"
       - "&a"
       - "&8⇨&e ⚡ &7800 J/s"
       - "&a"
-      - "&c魔法芯片"
+      - "&cMagic Chip"
   recipe_type: MAGIC_DATA_CARD_INSERT
 
 CHICKEN_DATA_CARD_MAGIC: 
@@ -4825,11 +4825,11 @@ CHICKEN_DATA_CARD_MAGIC:
     material: iron_chestplate
     glow: true
     lore:
-      - "&7插入无尽生物模拟室中使用"
+      - "&7Insert into the Infinity Mob Simulation Chamber"
       - "&a"
       - "&8⇨&e ⚡ &7800 J/s"
       - "&a"
-      - "&c魔法芯片"
+      - "&cMagic Chip"
   recipe_type: MAGIC_DATA_CARD_INSERT
 
 IRON_GOLEM_DATA_CARD_MAGIC: 
@@ -4839,11 +4839,11 @@ IRON_GOLEM_DATA_CARD_MAGIC:
     material: diamond_chestplate
     glow: true
     lore:
-      - "&7插入无尽生物模拟室中使用"
+      - "&7Insert into the Infinity Mob Simulation Chamber"
       - "&a"
       - "&8⇨&e ⚡ &7800 J/s"
       - "&a"
-      - "&c魔法芯片"
+      - "&cMagic Chip"
   recipe_type: MAGIC_DATA_CARD_INSERT
 
 BLAZE_DATA_CARD_MAGIC: 
@@ -4853,11 +4853,11 @@ BLAZE_DATA_CARD_MAGIC:
     material: diamond_chestplate
     glow: true
     lore:
-      - "&7插入无尽生物模拟室中使用"
+      - "&7Insert into the Infinity Mob Simulation Chamber"
       - "&a"
       - "&8⇨&e ⚡ &7800 J/s"
       - "&a"
-      - "&c魔法芯片"
+      - "&cMagic Chip"
   recipe_type: MAGIC_DATA_CARD_INSERT
 
 WITHER_DATA_CARD_MAGIC: 
@@ -4867,11 +4867,11 @@ WITHER_DATA_CARD_MAGIC:
     material: netherite_chestplate
     glow: true
     lore:
-      - "&7插入无尽生物模拟室中使用"
+      - "&7Insert into the Infinity Mob Simulation Chamber"
       - "&a"
       - "&8⇨&e ⚡ &7800 J/s"
       - "&a"
-      - "&c魔法芯片"
+      - "&cMagic Chip"
   recipe_type: MAGIC_DATA_CARD_INSERT
 
 BEE_DATA_CARD_MAGIC: 
@@ -4881,11 +4881,11 @@ BEE_DATA_CARD_MAGIC:
     material: iron_chestplate
     glow: true
     lore:
-      - "&7插入无尽生物模拟室中使用"
+      - "&7Insert into the Infinity Mob Simulation Chamber"
       - "&a"
       - "&8⇨&e ⚡ &7800 J/s"
       - "&a"
-      - "&c魔法芯片"
+      - "&cMagic Chip"
   recipe_type: MAGIC_DATA_CARD_INSERT
 
 VILLAGER_DATA_CARD_MAGIC: 
@@ -4895,11 +4895,11 @@ VILLAGER_DATA_CARD_MAGIC:
     material: iron_chestplate
     glow: true
     lore:
-      - "&7插入无尽生物模拟室中使用"
+      - "&7Insert into the Infinity Mob Simulation Chamber"
       - "&a"
       - "&8⇨&e ⚡ &7800 J/s"
       - "&a"
-      - "&c魔法芯片"
+      - "&cMagic Chip"
   recipe_type: MAGIC_DATA_CARD_INSERT
 
 WITCH_DATA_CARD_MAGIC: 
@@ -4909,11 +4909,11 @@ WITCH_DATA_CARD_MAGIC:
     material: diamond_chestplate
     glow: true
     lore:
-      - "&7插入无尽生物模拟室中使用"
+      - "&7Insert into the Infinity Mob Simulation Chamber"
       - "&a"
       - "&8⇨&e ⚡ &7800 J/s"
       - "&a"
-      - "&c魔法芯片"
+      - "&cMagic Chip"
   recipe_type: MAGIC_DATA_CARD_INSERT
 
 VEX_DATA_CARD_MAGIC: 
@@ -4923,11 +4923,11 @@ VEX_DATA_CARD_MAGIC:
     material: diamond_chestplate
     glow: true
     lore:
-      - "&7插入无尽生物模拟室中使用"
+      - "&7Insert into the Infinity Mob Simulation Chamber"
       - "&a"
       - "&8⇨&e ⚡ &7800 J/s"
       - "&a"
-      - "&c魔法芯片"
+      - "&cMagic Chip"
   recipe_type: MAGIC_DATA_CARD_INSERT
 
 PHANTOM_DATA_CARD_MAGIC: 
@@ -4937,11 +4937,11 @@ PHANTOM_DATA_CARD_MAGIC:
     material: diamond_chestplate
     glow: true
     lore:
-      - "&7插入无尽生物模拟室中使用"
+      - "&7Insert into the Infinity Mob Simulation Chamber"
       - "&a"
       - "&8⇨&e ⚡ &7800 J/s"
       - "&a"
-      - "&c魔法芯片"
+      - "&cMagic Chip"
   recipe_type: MAGIC_DATA_CARD_INSERT
 
 MAGIC_CD_REINFORCED_ALLOY_INGOT: 
@@ -4955,7 +4955,7 @@ MAGIC_CD_REINFORCED_ALLOY_INGOT:
       - "&a" 
       - "&f改为生产强化合金锭"
       - "&a" 
-      - "&c魔法卡片"
+      - "&cMagic Card"
   recipe:
     1: 
       material_type: slimefun
@@ -4977,7 +4977,7 @@ MAGIC_CD_HARDENED_METAL_INGOT:
       - "&a" 
       - "&f改为生产硬化金属"
       - "&a" 
-      - "&c魔法卡片"
+      - "&cMagic Card"
   recipe:
     1: 
       material_type: slimefun
@@ -4999,7 +4999,7 @@ MAGIC_CD_SYNTHETIC_SAPPHIRE:
       - "&a" 
       - "&f改为生产人造蓝宝石"
       - "&a" 
-      - "&c魔法卡片"
+      - "&cMagic Card"
   recipe:
     1: 
       material_type: slimefun
@@ -5021,7 +5021,7 @@ MAGIC_CD_SYNTHETIC_DIAMOND:
       - "&a" 
       - "&f改为生产人造钻石"
       - "&a" 
-      - "&c魔法卡片"
+      - "&cMagic Card"
   recipe:
     1: 
       material_type: slimefun
@@ -5043,7 +5043,7 @@ MAGIC_CD_SYNTHETIC_EMERALD:
       - "&a" 
       - "&f改为生产人造绿宝石"
       - "&a" 
-      - "&c魔法卡片"
+      - "&cMagic Card"
   recipe:
     1: 
       material_type: slimefun
@@ -5065,7 +5065,7 @@ MAGIC_CD_REDSTONE_ALLOY:
       - "&a" 
       - "&f改为生产红石合金锭"
       - "&a" 
-      - "&c魔法卡片"
+      - "&cMagic Card"
   recipe:
     1: 
       material_type: slimefun
@@ -5087,7 +5087,7 @@ MAGIC_CD_BASIC_CIRCUIT_BOARD:
       - "&a" 
       - "&f改为生产基础电路板"
       - "&a" 
-      - "&c魔法卡片"
+      - "&cMagic Card"
   recipe:
     1: 
       material_type: slimefun
@@ -5103,13 +5103,13 @@ MAGIC_CD_ADVANCED_CIRCUIT_BOARD:
   item_group: magic_cd_machines
   recipe_type: MAGIC_CD_SINGULARITY
   item:
-    name: "&b魔法高级电路板卡片"
+    name: "&b魔法高电路板卡片"
     material: MUSIC_DISC_CHIRP
     lore:
       - "&a" 
-      - "&f改为生产高级电路板"
+      - "&f改为生产高电路板"
       - "&a" 
-      - "&c魔法卡片"
+      - "&cMagic Card"
   recipe:
     1: 
       material_type: slimefun
@@ -5131,7 +5131,7 @@ MAGIC_CD_SOLAR_PANEL:
       - "&a" 
       - "&f改为生产光伏电池"
       - "&a" 
-      - "&c魔法卡片"
+      - "&cMagic Card"
   recipe:
     1: 
       material_type: slimefun
@@ -5153,7 +5153,7 @@ MAGIC_CD_ELECTRO_MAGNET:
       - "&a" 
       - "&f改为生产电磁铁"
       - "&a" 
-      - "&c魔法卡片"
+      - "&cMagic Card"
   recipe:
     1: 
       material_type: slimefun
@@ -5175,7 +5175,7 @@ MAGIC_CD_ELECTRIC_MOTOR:
       - "&a" 
       - "&f改为生产电动马达"
       - "&a" 
-      - "&c魔法卡片"
+      - "&cMagic Card"
   recipe:
     1: 
       material_type: slimefun
@@ -5197,7 +5197,7 @@ MAGIC_CD_HEATING_COIL:
       - "&a" 
       - "&f改为生产加热线圈"
       - "&a" 
-      - "&c魔法卡片"
+      - "&cMagic Card"
   recipe:
     1: 
       material_type: slimefun
@@ -5213,13 +5213,13 @@ MAGIC_CD_ANDROID_MEMORY_CORE:
   item_group: magic_cd_machines
   recipe_type: MAGIC_CD_SINGULARITY
   item:
-    name: "&b魔法机器人内存核心卡片"
+    name: "&bMagic Machine人内存核心卡片"
     material: MUSIC_DISC_CHIRP
     lore:
       - "&a" 
       - "&f改为生产机器人内存核心"
       - "&a" 
-      - "&c魔法卡片"
+      - "&cMagic Card"
   recipe:
     1: 
       material_type: slimefun
@@ -5241,7 +5241,7 @@ MAGIC_CD_SOLAR_GENERATOR_4:
       - "&a" 
       - "&f改为生产充能太阳能发电机"
       - "&a" 
-      - "&c魔法卡片"
+      - "&cMagic Card"
   recipe:
     1: 
       material_type: slimefun
@@ -5263,7 +5263,7 @@ MAGIC_WATER_BUCKET:
       - "&a" 
       - "&7用于制作无限水"
       - "&a" 
-      - "&c魔法材料"
+      - "&cMagic Material"
   recipe:
     1: 
       material_type: slimefun
@@ -5312,7 +5312,7 @@ MAGIC_INFINITE_WATER:
       - "&a" 
       - "&7水桶一体机的核心材料"
       - "&a" 
-      - "&c魔法材料"
+      - "&cMagic Material"
     glow: true
   recipe:
     2: 
@@ -5336,7 +5336,7 @@ MAGIC_BUCKET:
       - "&a" 
       - "&7用不完的桶"
       - "&a" 
-      - "&c魔法材料"
+      - "&cMagic Material"
   recipe:
     1: 
       material_type: slimefun
@@ -5363,7 +5363,7 @@ MAGIC_LAVA_BUCKET:
       - "&a" 
       - "&7岩浆桶一体机的核心材料"
       - "&a" 
-      - "&c魔法材料"
+      - "&cMagic Material"
   recipe:
     1: 
       material_type: slimefun
@@ -5414,7 +5414,7 @@ MAGIC_REACTOR_COLLANT_CELL_PRESS:
       - "&a" 
       - "&b冷却"
       - "&a" 
-      - "&c魔法材料"
+      - "&cMagic Material"
   recipe:
     1: 
       material_type: slimefun
@@ -5434,7 +5434,7 @@ MAGIC_NETHER_ICE_COOLANT_CELL_PRESS:
       - "&a" 
       - "&b冷却"
       - "&a" 
-      - "&c魔法材料"
+      - "&cMagic Material"
   recipe:
     1: 
       material_type: slimefun
@@ -5453,7 +5453,7 @@ MAGIC_SNOW:
       - "&a" 
       - "&b极寒"
       - "&a" 
-      - "&c魔法材料"
+      - "&cMagic Material"
   recipe:
     1: 
       material_type: slimefun
@@ -5504,7 +5504,7 @@ MAGIC_INFINITY_VIRTUAL_FARM8:
       - "&a" 
       - "&7魔法林农场的核心材料"
       - "&a" 
-      - "&c魔法材料"
+      - "&cMagic Material"
   recipe:
     1: 
       material_type: slimefun
@@ -5555,7 +5555,7 @@ MAGIC_INFINITY_TREE_GROWER8:
       - "&a" 
       - "&7魔法林场的核心材料"
       - "&a" 
-      - "&c魔法材料"
+      - "&cMagic Material"
   recipe:
     1: 
       material_type: slimefun
@@ -5599,14 +5599,14 @@ MAGIC_GROWTH_CHAMBER_MK2_8:
   item_group: magic_plant
   recipe_type: ENHANCED_CRAFTING_TABLE
   item:
-    name: "&69个培育仓 MK2"
+    name: "&69 Growth Chambers MK2"
     material: LIME_STAINED_GLASS
     glow: true
     lore:
       - "&a" 
-      - "&79个培育仓 MK2"
+      - "&79 Growth Chambers MK2"
       - "&a" 
-      - "&c魔法材料"
+      - "&cMagic Material"
   recipe:
     1: 
       material_type: slimefun
@@ -5655,9 +5655,9 @@ MAGIC_GROWTH_CHAMBER_MK2_81:
     glow: true
     lore:
       - "&a" 
-      - "&79个培育仓 MK2"
+      - "&79 Growth Chambers MK2"
       - "&a" 
-      - "&c魔法材料"
+      - "&cMagic Material"
   recipe:
     1: 
       material_type: slimefun
@@ -5706,9 +5706,9 @@ MAGIC_GROWTH_CHAMBER_END_MK2_8:
     glow: true
     lore:
       - "&a" 
-      - "&79个培育仓 MK2"
+      - "&79 Growth Chambers MK2"
       - "&a" 
-      - "&c魔法材料"
+      - "&cMagic Material"
   recipe:
     1: 
       material_type: slimefun
@@ -5758,9 +5758,9 @@ MAGIC_MAGIC_GROWTH_CHAMBER_END_MK2_81:
     glow: true
     lore:
       - "&a" 
-      - "&79个培育仓 MK2"
+      - "&79 Growth Chambers MK2"
       - "&a" 
-      - "&c魔法材料"
+      - "&cMagic Material"
   recipe:
     1: 
       material_type: slimefun
@@ -5811,7 +5811,7 @@ MAGIC_GROWTH_CHAMBER_NETHER_MK2_8:
       - "&a" 
       - "&79个下届培育仓 MK2"
       - "&a" 
-      - "&c魔法材料"
+      - "&cMagic Material"
   recipe:
     1: 
       material_type: slimefun
@@ -5861,9 +5861,9 @@ MAGIC_GROWTH_CHAMBER_NETHER_MK2_81:
     glow: true
     lore:
       - "&a" 
-      - "&79个培育仓 MK2"
+      - "&79 Growth Chambers MK2"
       - "&a" 
-      - "&c魔法材料"
+      - "&cMagic Material"
   recipe:
     1: 
       material_type: slimefun
@@ -5912,9 +5912,9 @@ MAGIC_GROWTH_CHAMBER_OCEAN_MK2_8:
     glow: true
     lore:
       - "&a" 
-      - "&79个培育仓 MK2"
+      - "&79 Growth Chambers MK2"
       - "&a" 
-      - "&c魔法材料"
+      - "&cMagic Material"
   recipe:
     1: 
       material_type: slimefun
@@ -5963,9 +5963,9 @@ MAGIC_GROWTH_CHAMBER_OCEAN_MK2_81:
     glow: true
     lore:
       - "&a" 
-      - "&79个培育仓 MK2"
+      - "&79 Growth Chambers MK2"
       - "&a" 
-      - "&c魔法材料"
+      - "&cMagic Material"
   recipe:
     1: 
       material_type: slimefun
@@ -6016,7 +6016,7 @@ MAGIC_STONEWORKS_FACTORY9:
       - "&a" 
       - "&79个石材厂"
       - "&a" 
-      - "&c魔法材料"
+      - "&cMagic Material"
   recipe:
     1: 
       material_type: slimefun
@@ -6067,7 +6067,7 @@ MAGIC_STONEWORKS_FACTORY81:
       - "&a" 
       - "&79个至尊方块工坊"
       - "&a" 
-      - "&c魔法材料"
+      - "&cMagic Material"
   recipe:
     1: 
       material_type: slimefun
@@ -6118,7 +6118,7 @@ MAGIC_STONEWORKS_FACTORY729:
       - "&a" 
       - "&781个至尊方块工坊"
       - "&a" 
-      - "&c魔法材料"
+      - "&cMagic Material"
   recipe:
     1: 
       material_type: slimefun
@@ -6162,14 +6162,14 @@ MAGIC_SUPREME_MOB_COLLECTOR_MACHINE_III9:
   item_group: magic_plant
   recipe_type: ENHANCED_CRAFTING_TABLE
   item:
-    name: "&b9个生物收集器III"
+    name: "&b9 mobs收集器III"
     material: RESPAWN_ANCHOR
     glow: true
     lore:
       - "&a" 
-      - "&79个生物收集器III"
+      - "&79 mobs收集器III"
       - "&a" 
-      - "&c魔法材料"
+      - "&cMagic Material"
   recipe:
     1: 
       material_type: slimefun
@@ -6213,14 +6213,14 @@ MAGIC_SUPREME_MOB_COLLECTOR_MACHINE_III81:
   item_group: magic_plant
   recipe_type: ENHANCED_CRAFTING_TABLE
   item:
-    name: "&b81个生物收集器III"
+    name: "&b81 mobs收集器III"
     material: RESPAWN_ANCHOR
     glow: true
     lore:
       - "&a" 
-      - "&781个生物收集器III"
+      - "&781 mobs收集器III"
       - "&a" 
-      - "&c魔法材料"
+      - "&cMagic Material"
   recipe:
     1: 
       material_type: slimefun
@@ -6271,7 +6271,7 @@ MAGIC_SUPREME_ORIGIN:
       - "&a" 
       - "&7&l所有生物的最初形态"
       - "&a" 
-      - "&c魔法材料"
+      - "&cMagic Material"
   recipe:
     1: 
       material_type: slimefun
@@ -6385,7 +6385,7 @@ MAGIC_ANIMALS_CHICKEN:
       - "&7魔法鸡还喜欢吃一些稀有的魔法果实"
       - "&7这些果实能增强它们的魔力"
       - "&a"
-      - "&6魔法动物"
+      - "&6Magical Creature"
   recipe_type: MAGIC_WORKBENCH
   recipe:
     1:
@@ -6589,12 +6589,12 @@ MAGIC_MACHINE_CORE_PART:
 MAGIC_ADVANCE_CIRCUIT_BOARD:
   item_group: magic_resource
   item:
-    name: "&c高级魔法电路板"
+    name: "&c高魔法电路板"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTMxMTI1YjBmMjk0MmZhM2NkMjdjODAyNTg2M2ViYzNlOWQ3YmZkNjg1NDdlNjEwYTlkM2UxODMyMDc1MzM2NCJ9fX0=
     lore: 
       - "&a"
-      - "&7科技零件的高级材料"
+      - "&7科技零件的高材料"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1:
@@ -6942,7 +6942,7 @@ MAGIC_ANIMALS_WARM_CORE:
       - "&7可以自由调节温度"
       - "&7创造一个适宜生长的环境"
       - "&a"
-      - "&c魔法材料"
+      - "&cMagic Material"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1:
@@ -6992,7 +6992,7 @@ MAGIC_STACKING_CORE:
       - "&a"
       - "&7打破空间限制"
       - "&a"
-      - "&c魔法材料"
+      - "&cMagic Material"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1:
@@ -7044,7 +7044,7 @@ MAGIC_BEE_KING:
       - "&f探寻到了暗碳的奥秘"
       - "&f寻得了起源的真谛"
       - "&a"
-      - "&6魔法动物"
+      - "&6Magical Creature"
   recipe_type: MAGIC_WORKBENCH
   recipe:
     1:
@@ -7130,7 +7130,7 @@ MAGIC_ARTIFICIAL_WITHER_SKELETON:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzc0MzEyM2ExOWU4MDkzYjQ2NWI4NDgzOGUyOGY3ZDY0YWYwNzljNThiN2NmM2RhYzA3YzhjNTkyYTY0ZmMzMiJ9fX0=
     lore: 
       - "&a"
-      - "{#FDB7D4}右键任意地方"
+      - "{#FDB7D4}Right-click anywhere"
       - "{#FDB7D4}来放置凋零骷髅"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l生{#E9967A}&l物{#F08080}&l工{#FF69B4}&l程{#FFC0CB}&l&kl"
@@ -7155,7 +7155,7 @@ MAGIC_ARTIFICIAL_SKELETON:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGEzNWU3NjQ5MmQ0MmQ3MmNmNTZkZmM0YjdkNTM0N2Q0OGNjODg5NDBkZmQ2YTlkNjIzNWJjNzE4ZjRjNmJhYiJ9fX0=
     lore: 
       - "&a"
-      - "{#FDB7D4}右键任意地方"
+      - "{#FDB7D4}Right-click anywhere"
       - "{#FDB7D4}来放置骷髅"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l生{#E9967A}&l物{#F08080}&l工{#FF69B4}&l程{#FFC0CB}&l&kl"
@@ -7186,7 +7186,7 @@ MAGIC_ARTIFICIAL_CREEPER:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTVlN2UwNzJlYWU4ZTc5OWQ5NzNjNDA4ODNhNzliZTRkZDJkNmY1ZDdkZGRiM2FjMTk1MTRlODVjZGViYTc2YSJ9fX0=
     lore: 
       - "&a"
-      - "{#FDB7D4}右键任意地方"
+      - "{#FDB7D4}Right-click anywhere"
       - "{#FDB7D4}来放置苦力怕"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l生{#E9967A}&l物{#F08080}&l工{#FF69B4}&l程{#FFC0CB}&l&kl"
@@ -7217,7 +7217,7 @@ MAGIC_ARTIFICIAL_ZOMBIE:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWMyMzJkMDY4M2JhMWUzNjI1OTNmYTFhOTdkNzQ0YzI5MGIxNjU1ZDcyYjIyNzc5ODhhNmM4NWE5Mzg1NDI1NSJ9fX0=
     lore: 
       - "&a"
-      - "{#FDB7D4}右键任意地方"
+      - "{#FDB7D4}Right-click anywhere"
       - "{#FDB7D4}来放置僵尸"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l生{#E9967A}&l物{#F08080}&l工{#FF69B4}&l程{#FFC0CB}&l&kl"
@@ -7248,7 +7248,7 @@ MAGIC_ARTIFICIAL_GIANT:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjc1OGFjNTdkNjAwM2I2MDJmMjBiYmUxYWQ0NWM1ZTk2ZGI2YTI0MWZhMTMyMzc3MzgxYjdmMTg0NDUwNTdhNiJ9fX0=
     lore: 
       - "&a"
-      - "{#FDB7D4}右键任意地方"
+      - "{#FDB7D4}Right-click anywhere"
       - "{#FDB7D4}来放置巨人"
       - "&a"
       - "{#FDB7D4}实验性物品"
@@ -7552,7 +7552,7 @@ MAGIC_ORIGIN_2_UP:
   item_group: magic_resource
   recipe_type: ENHANCED_CRAFTING_TABLE
   item:
-    name: "&a&l起源装备升级模版"
+    name: "&a&l起源装备升模版"
     material: paper
     glow: true
     lore:
@@ -7603,7 +7603,7 @@ MAGIC_ORIGIN_2_UP:
 MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_PAPER: 
   item_group: magic_storage
   item:
-    name: "&b&l使用说明"
+    name: "&b&l使用Description"
     material: paper
     glow: true
     lore: 
@@ -7620,7 +7620,7 @@ MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_PAPER:
 MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_1: 
   item_group: magic_storage
   item:
-    name: "{#FF0000}魔{#FF4000}法{#FF8000}抽{#FFBF00}屉{#FFFF00} {#BFFF00}I{#80FF00}（{#40FF00}全{#00FF00}部{#00FF40}过{#00FF80}程{#00FFBF}请{#00FFFF}使{#00BFFF}用{#0080FF}魔{#0040FF}法{#0000FF}抽{#4000FF}屉{#8000FF}升{#BF00FF}级{#FF00FF}台{#FF00BF}）"
+    name: "{#FF0000}魔{#FF4000}法{#FF8000}抽{#FFBF00}屉{#FFFF00} {#BFFF00}I{#80FF00}（{#40FF00}全{#00FF00}部{#00FF40}过{#00FF80}程{#00FFBF}请{#00FFFF}使{#00BFFF}用{#0080FF}魔{#0040FF}法{#0000FF}抽{#4000FF}屉{#8000FF}升{#BF00FF}{#FF00FF}台{#FF00BF}）"
     material_type: saveditem
     material: MFCT_1
   recipe_type: MAGIC_SPECIAL
@@ -7637,7 +7637,7 @@ MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_1:
 MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_2: 
   item_group: magic_storage
   item:
-    name: "{#FF0000}魔{#FF4000}法{#FF8000}抽{#FFBF00}屉{#FFFF00} I{#BFFF00}I{#80FF00}（{#40FF00}全{#00FF00}部{#00FF40}过{#00FF80}程{#00FFBF}请{#00FFFF}使{#00BFFF}用{#0080FF}魔{#0040FF}法{#0000FF}抽{#4000FF}屉{#8000FF}升{#BF00FF}级{#FF00FF}台{#FF00BF}）"
+    name: "{#FF0000}魔{#FF4000}法{#FF8000}抽{#FFBF00}屉{#FFFF00} I{#BFFF00}I{#80FF00}（{#40FF00}全{#00FF00}部{#00FF40}过{#00FF80}程{#00FFBF}请{#00FFFF}使{#00BFFF}用{#0080FF}魔{#0040FF}法{#0000FF}抽{#4000FF}屉{#8000FF}升{#BF00FF}{#FF00FF}台{#FF00BF}）"
     material_type: saveditem
     material: MFCT_2
   recipe_type: MAGIC_SPECIAL
@@ -7654,7 +7654,7 @@ MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_2:
 MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_3: 
   item_group: magic_storage
   item:
-    name: "{#FF0000}魔{#FF4000}法{#FF8000}抽{#FFBF00}屉{#FFFF00} II{#BFFF00}I{#80FF00}（{#40FF00}全{#00FF00}部{#00FF40}过{#00FF80}程{#00FFBF}请{#00FFFF}使{#00BFFF}用{#0080FF}魔{#0040FF}法{#0000FF}抽{#4000FF}屉{#8000FF}升{#BF00FF}级{#FF00FF}台{#FF00BF}）"
+    name: "{#FF0000}魔{#FF4000}法{#FF8000}抽{#FFBF00}屉{#FFFF00} II{#BFFF00}I{#80FF00}（{#40FF00}全{#00FF00}部{#00FF40}过{#00FF80}程{#00FFBF}请{#00FFFF}使{#00BFFF}用{#0080FF}魔{#0040FF}法{#0000FF}抽{#4000FF}屉{#8000FF}升{#BF00FF}{#FF00FF}台{#FF00BF}）"
     material_type: saveditem
     material: MFCT_3
   recipe_type: MAGIC_SPECIAL
@@ -7671,7 +7671,7 @@ MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_3:
 MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_4: 
   item_group: magic_storage
   item:
-    name: "{#FF0000}魔{#FF4000}法{#FF8000}抽{#FFBF00}屉{#FFFF00} I{#BFFF00}V{#80FF00}（{#40FF00}全{#00FF00}部{#00FF40}过{#00FF80}程{#00FFBF}请{#00FFFF}使{#00BFFF}用{#0080FF}魔{#0040FF}法{#0000FF}抽{#4000FF}屉{#8000FF}升{#BF00FF}级{#FF00FF}台{#FF00BF}）"
+    name: "{#FF0000}魔{#FF4000}法{#FF8000}抽{#FFBF00}屉{#FFFF00} I{#BFFF00}V{#80FF00}（{#40FF00}全{#00FF00}部{#00FF40}过{#00FF80}程{#00FFBF}请{#00FFFF}使{#00BFFF}用{#0080FF}魔{#0040FF}法{#0000FF}抽{#4000FF}屉{#8000FF}升{#BF00FF}{#FF00FF}台{#FF00BF}）"
     material_type: saveditem
     material: MFCT_4
   recipe_type: MAGIC_SPECIAL
@@ -7688,7 +7688,7 @@ MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_4:
 MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_5: 
   item_group: magic_storage
   item:
-    name: "{#FF0000}魔{#FF4000}法{#FF8000}抽{#FFBF00}屉{#FFFF00} {#BFFF00}V{#80FF00}（{#40FF00}全{#00FF00}部{#00FF40}过{#00FF80}程{#00FFBF}请{#00FFFF}使{#00BFFF}用{#0080FF}魔{#0040FF}法{#0000FF}抽{#4000FF}屉{#8000FF}升{#BF00FF}级{#FF00FF}台{#FF00BF}）"
+    name: "{#FF0000}魔{#FF4000}法{#FF8000}抽{#FFBF00}屉{#FFFF00} {#BFFF00}V{#80FF00}（{#40FF00}全{#00FF00}部{#00FF40}过{#00FF80}程{#00FFBF}请{#00FFFF}使{#00BFFF}用{#0080FF}魔{#0040FF}法{#0000FF}抽{#4000FF}屉{#8000FF}升{#BF00FF}{#FF00FF}台{#FF00BF}）"
     material_type: saveditem
     material: MFCT_5
   recipe_type: MAGIC_SPECIAL
@@ -7706,7 +7706,7 @@ MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_5:
 MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_6: 
   item_group: magic_storage
   item:
-    name: "{#FF0000}魔{#FF4000}法{#FF8000}抽{#FFBF00}屉{#FFFF00} V{#BFFF00}I{#80FF00}（{#40FF00}全{#00FF00}部{#00FF40}过{#00FF80}程{#00FFBF}请{#00FFFF}使{#00BFFF}用{#0080FF}魔{#0040FF}法{#0000FF}抽{#4000FF}屉{#8000FF}升{#BF00FF}级{#FF00FF}台{#FF00BF}）"
+    name: "{#FF0000}魔{#FF4000}法{#FF8000}抽{#FFBF00}屉{#FFFF00} V{#BFFF00}I{#80FF00}（{#40FF00}全{#00FF00}部{#00FF40}过{#00FF80}程{#00FFBF}请{#00FFFF}使{#00BFFF}用{#0080FF}魔{#0040FF}法{#0000FF}抽{#4000FF}屉{#8000FF}升{#BF00FF}{#FF00FF}台{#FF00BF}）"
     material_type: saveditem
     material: MFCT_6
   recipe_type: MAGIC_SPECIAL
@@ -7724,7 +7724,7 @@ MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_6:
 MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_7: 
   item_group: magic_storage
   item:
-    name: "{#FF0000}魔{#FF4000}法{#FF8000}抽{#FFBF00}屉{#FFFF00} V{#BFFF00}II{#80FF00}（{#40FF00}全{#00FF00}部{#00FF40}过{#00FF80}程{#00FFBF}请{#00FFFF}使{#00BFFF}用{#0080FF}魔{#0040FF}法{#0000FF}抽{#4000FF}屉{#8000FF}升{#BF00FF}级{#FF00FF}台{#FF00BF}）"
+    name: "{#FF0000}魔{#FF4000}法{#FF8000}抽{#FFBF00}屉{#FFFF00} V{#BFFF00}II{#80FF00}（{#40FF00}全{#00FF00}部{#00FF40}过{#00FF80}程{#00FFBF}请{#00FFFF}使{#00BFFF}用{#0080FF}魔{#0040FF}法{#0000FF}抽{#4000FF}屉{#8000FF}升{#BF00FF}{#FF00FF}台{#FF00BF}）"
     material_type: saveditem
     material: MFCT_7
   recipe_type: MAGIC_SPECIAL
@@ -7741,7 +7741,7 @@ MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_7:
 MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_8: 
   item_group: magic_storage
   item:
-    name: "{#FF0000}魔{#FF4000}法{#FF8000}抽{#FFBF00}屉{#FFFF00} VI{#BFFF00}II{#80FF00}（{#40FF00}全{#00FF00}部{#00FF40}过{#00FF80}程{#00FFBF}请{#00FFFF}使{#00BFFF}用{#0080FF}魔{#0040FF}法{#0000FF}抽{#4000FF}屉{#8000FF}升{#BF00FF}级{#FF00FF}台{#FF00BF}）"
+    name: "{#FF0000}魔{#FF4000}法{#FF8000}抽{#FFBF00}屉{#FFFF00} VI{#BFFF00}II{#80FF00}（{#40FF00}全{#00FF00}部{#00FF40}过{#00FF80}程{#00FFBF}请{#00FFFF}使{#00BFFF}用{#0080FF}魔{#0040FF}法{#0000FF}抽{#4000FF}屉{#8000FF}升{#BF00FF}{#FF00FF}台{#FF00BF}）"
     material_type: saveditem
     material: MFCT_8
   recipe_type: MAGIC_SPECIAL
@@ -7758,7 +7758,7 @@ MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_8:
 MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_9: 
   item_group: magic_storage
   item:
-    name: "{#FF0000}魔{#FF4000}法{#FF8000}抽{#FFBF00}屉{#FFFF00} I{#BFFF00}X{#80FF00}（{#40FF00}全{#00FF00}部{#00FF40}过{#00FF80}程{#00FFBF}请{#00FFFF}使{#00BFFF}用{#0080FF}魔{#0040FF}法{#0000FF}抽{#4000FF}屉{#8000FF}升{#BF00FF}级{#FF00FF}台{#FF00BF}）"
+    name: "{#FF0000}魔{#FF4000}法{#FF8000}抽{#FFBF00}屉{#FFFF00} I{#BFFF00}X{#80FF00}（{#40FF00}全{#00FF00}部{#00FF40}过{#00FF80}程{#00FFBF}请{#00FFFF}使{#00BFFF}用{#0080FF}魔{#0040FF}法{#0000FF}抽{#4000FF}屉{#8000FF}升{#BF00FF}{#FF00FF}台{#FF00BF}）"
     material_type: saveditem
     material: MFCT_9
   recipe_type: MAGIC_SPECIAL
@@ -7775,7 +7775,7 @@ MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_9:
 MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_10: 
   item_group: magic_storage
   item:
-    name: "{#FF0000}魔{#FF4000}法{#FF8000}抽{#FFBF00}屉{#FFFF00} {#BFFF00}X{#80FF00}（{#40FF00}全{#00FF00}部{#00FF40}过{#00FF80}程{#00FFBF}请{#00FFFF}使{#00BFFF}用{#0080FF}魔{#0040FF}法{#0000FF}抽{#4000FF}屉{#8000FF}升{#BF00FF}级{#FF00FF}台{#FF00BF}）"
+    name: "{#FF0000}魔{#FF4000}法{#FF8000}抽{#FFBF00}屉{#FFFF00} {#BFFF00}X{#80FF00}（{#40FF00}全{#00FF00}部{#00FF40}过{#00FF80}程{#00FFBF}请{#00FFFF}使{#00BFFF}用{#0080FF}魔{#0040FF}法{#0000FF}抽{#4000FF}屉{#8000FF}升{#BF00FF}{#FF00FF}台{#FF00BF}）"
     material_type: saveditem
     material: MFCT_10
   recipe_type: MAGIC_SPECIAL
@@ -7792,7 +7792,7 @@ MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_10:
 MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_11: 
   item_group: magic_storage
   item:
-    name: "{#FF0000}魔{#FF4000}法{#FF8000}抽{#FFBF00}屉{#FFFF00} X{#BFFF00}I{#80FF00}（{#40FF00}全{#00FF00}部{#00FF40}过{#00FF80}程{#00FFBF}请{#00FFFF}使{#00BFFF}用{#0080FF}魔{#0040FF}法{#0000FF}抽{#4000FF}屉{#8000FF}升{#BF00FF}级{#FF00FF}台{#FF00BF}）"
+    name: "{#FF0000}魔{#FF4000}法{#FF8000}抽{#FFBF00}屉{#FFFF00} X{#BFFF00}I{#80FF00}（{#40FF00}全{#00FF00}部{#00FF40}过{#00FF80}程{#00FFBF}请{#00FFFF}使{#00BFFF}用{#0080FF}魔{#0040FF}法{#0000FF}抽{#4000FF}屉{#8000FF}升{#BF00FF}{#FF00FF}台{#FF00BF}）"
     material_type: saveditem
     material: MFCT_11
   recipe_type: MAGIC_SPECIAL
@@ -7810,7 +7810,7 @@ MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_11:
 MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_12: 
   item_group: magic_storage
   item:
-    name: "{#FF0000}魔{#FF4000}法{#FF8000}抽{#FFBF00}屉{#FFFF00} X{#BFFF00}II{#80FF00}（{#40FF00}全{#00FF00}部{#00FF40}过{#00FF80}程{#00FFBF}请{#00FFFF}使{#00BFFF}用{#0080FF}魔{#0040FF}法{#0000FF}抽{#4000FF}屉{#8000FF}升{#BF00FF}级{#FF00FF}台{#FF00BF}）"
+    name: "{#FF0000}魔{#FF4000}法{#FF8000}抽{#FFBF00}屉{#FFFF00} X{#BFFF00}II{#80FF00}（{#40FF00}全{#00FF00}部{#00FF40}过{#00FF80}程{#00FFBF}请{#00FFFF}使{#00BFFF}用{#0080FF}魔{#0040FF}法{#0000FF}抽{#4000FF}屉{#8000FF}升{#BF00FF}{#FF00FF}台{#FF00BF}）"
     material_type: saveditem
     material: MFCT_12
   recipe_type: MAGIC_SPECIAL
@@ -7827,7 +7827,7 @@ MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_12:
 MAGIC_NTW_EXPANSION_CARGO_STORAGE_UNIT_13: 
   item_group: magic_storage
   item:
-    name: "{#FF0000}魔{#FF4000}法{#FF8000}抽{#FFBF00}屉{#FFFF00} XI{#BFFF00}II{#80FF00}（{#40FF00}全{#00FF00}部{#00FF40}过{#00FF80}程{#00FFBF}请{#00FFFF}使{#00BFFF}用{#0080FF}魔{#0040FF}法{#0000FF}抽{#4000FF}屉{#8000FF}升{#BF00FF}级{#FF00FF}台{#FF00BF}）"
+    name: "{#FF0000}魔{#FF4000}法{#FF8000}抽{#FFBF00}屉{#FFFF00} XI{#BFFF00}II{#80FF00}（{#40FF00}全{#00FF00}部{#00FF40}过{#00FF80}程{#00FFBF}请{#00FFFF}使{#00BFFF}用{#0080FF}魔{#0040FF}法{#0000FF}抽{#4000FF}屉{#8000FF}升{#BF00FF}{#FF00FF}台{#FF00BF}）"
     material_type: saveditem
     material: MFCT_13
   recipe_type: MAGIC_SPECIAL
@@ -7851,7 +7851,7 @@ MAGIC_MACHINE_RECIPE_DESCRIPTION:
     glow: true
     lore:
       - "&a"
-      - "{#FDB7D4}该配方只能在魔法机器中制作"
+      - "{#FDB7D4}该配方只能在Magic Machine中制作"
       - "{#FDB7D4}粘液书中显示的为错误配方"
   recipe_type: NULL
   hidden: true
@@ -7859,13 +7859,13 @@ MAGIC_MACHINE_RECIPE_DESCRIPTION:
 MAGIC_STORE_FIX_0:
   item_group: magic_storage
   item:
-    name: "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l抽{#FA8072}&l屉{#E9967A}&l核{#F08080}&l心{#FF69B4}&l-说明"
+    name: "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l抽{#FA8072}&l屉{#E9967A}&l核{#F08080}&l心{#FF69B4}&l-Description"
     material: PAPER
     glow: true
     lore:
       - "&a"
-      - "{#FDB7D4}用于修复封印的魔法抽屉"
-      - "{#FDB7D4}并且给予新的皮肤"
+      - "{#FDB7D4}Used to repair a sealed Magic Drawer"
+      - "{#FDB7D4}and applies a new skin"
       - "{#FDB7D4}使用后核心将会融入到魔法抽屉中"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l抽{#E9967A}&l屉{#F08080}&l&kl"
@@ -7880,9 +7880,9 @@ MAGIC_STORE_FIX_1:
     glow: true
     lore:
       - "&a"
-      - "{#FDB7D4}用于修复封印的魔法抽屉"
-      - "{#FDB7D4}并且给予新的皮肤"
-      - "{#FDB7D4}使用后此核心将会融入到魔法抽屉中"
+      - "{#FDB7D4}Used to repair a sealed Magic Drawer"
+      - "{#FDB7D4}and applies a new skin"
+      - "{#FDB7D4}This core merges into the Magic Drawer when used"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l抽{#E9967A}&l屉{#F08080}&l&kl"
   script: MFCT_FIX
@@ -7906,9 +7906,9 @@ MAGIC_STORE_FIX_2:
     glow: true
     lore:
       - "&a"
-      - "{#FDB7D4}用于修复封印的魔法抽屉"
-      - "{#FDB7D4}并且给予新的皮肤"
-      - "{#FDB7D4}使用后此核心将会融入到魔法抽屉中"
+      - "{#FDB7D4}Used to repair a sealed Magic Drawer"
+      - "{#FDB7D4}and applies a new skin"
+      - "{#FDB7D4}This core merges into the Magic Drawer when used"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l抽{#E9967A}&l屉{#F08080}&l&kl"
   script: MFCT_FIX
@@ -7932,9 +7932,9 @@ MAGIC_STORE_FIX_3:
     glow: true
     lore:
       - "&a"
-      - "{#FDB7D4}用于修复封印的魔法抽屉"
-      - "{#FDB7D4}并且给予新的皮肤"
-      - "{#FDB7D4}使用后此核心将会融入到魔法抽屉中"
+      - "{#FDB7D4}Used to repair a sealed Magic Drawer"
+      - "{#FDB7D4}and applies a new skin"
+      - "{#FDB7D4}This core merges into the Magic Drawer when used"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l抽{#E9967A}&l屉{#F08080}&l&kl"
   script: MFCT_FIX
@@ -7958,9 +7958,9 @@ MAGIC_STORE_FIX_4:
     glow: true
     lore:
       - "&a"
-      - "{#FDB7D4}用于修复封印的魔法抽屉"
-      - "{#FDB7D4}并且给予新的皮肤"
-      - "{#FDB7D4}使用后此核心将会融入到魔法抽屉中"
+      - "{#FDB7D4}Used to repair a sealed Magic Drawer"
+      - "{#FDB7D4}and applies a new skin"
+      - "{#FDB7D4}This core merges into the Magic Drawer when used"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l抽{#E9967A}&l屉{#F08080}&l&kl"
   script: MFCT_FIX
@@ -7984,9 +7984,9 @@ MAGIC_STORE_FIX_5:
     glow: true
     lore:
       - "&a"
-      - "{#FDB7D4}用于修复封印的魔法抽屉"
-      - "{#FDB7D4}并且给予新的皮肤"
-      - "{#FDB7D4}使用后此核心将会融入到魔法抽屉中"
+      - "{#FDB7D4}Used to repair a sealed Magic Drawer"
+      - "{#FDB7D4}and applies a new skin"
+      - "{#FDB7D4}This core merges into the Magic Drawer when used"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l抽{#E9967A}&l屉{#F08080}&l&kl"
   script: MFCT_FIX
@@ -8010,9 +8010,9 @@ MAGIC_STORE_FIX_6:
     glow: true
     lore:
       - "&a"
-      - "{#FDB7D4}用于修复封印的魔法抽屉"
-      - "{#FDB7D4}并且给予新的皮肤"
-      - "{#FDB7D4}使用后此核心将会融入到魔法抽屉中"
+      - "{#FDB7D4}Used to repair a sealed Magic Drawer"
+      - "{#FDB7D4}and applies a new skin"
+      - "{#FDB7D4}This core merges into the Magic Drawer when used"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l抽{#E9967A}&l屉{#F08080}&l&kl"
   script: MFCT_FIX
@@ -8036,9 +8036,9 @@ MAGIC_STORE_FIX_7:
     glow: true
     lore:
       - "&a"
-      - "{#FDB7D4}用于修复封印的魔法抽屉"
-      - "{#FDB7D4}并且给予新的皮肤"
-      - "{#FDB7D4}使用后此核心将会融入到魔法抽屉中"
+      - "{#FDB7D4}Used to repair a sealed Magic Drawer"
+      - "{#FDB7D4}and applies a new skin"
+      - "{#FDB7D4}This core merges into the Magic Drawer when used"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l抽{#E9967A}&l屉{#F08080}&l&kl"
   script: MFCT_FIX
@@ -8062,9 +8062,9 @@ MAGIC_STORE_FIX_8:
     glow: true
     lore:
       - "&a"
-      - "{#FDB7D4}用于修复封印的魔法抽屉"
-      - "{#FDB7D4}并且给予新的皮肤"
-      - "{#FDB7D4}使用后此核心将会融入到魔法抽屉中"
+      - "{#FDB7D4}Used to repair a sealed Magic Drawer"
+      - "{#FDB7D4}and applies a new skin"
+      - "{#FDB7D4}This core merges into the Magic Drawer when used"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l抽{#E9967A}&l屉{#F08080}&l&kl"
   script: MFCT_FIX
@@ -8088,9 +8088,9 @@ MAGIC_STORE_FIX_9:
     glow: true
     lore:
       - "&a"
-      - "{#FDB7D4}用于修复封印的魔法抽屉"
-      - "{#FDB7D4}并且给予新的皮肤"
-      - "{#FDB7D4}使用后此核心将会融入到魔法抽屉中"
+      - "{#FDB7D4}Used to repair a sealed Magic Drawer"
+      - "{#FDB7D4}and applies a new skin"
+      - "{#FDB7D4}This core merges into the Magic Drawer when used"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l抽{#E9967A}&l屉{#F08080}&l&kl"
   script: MFCT_FIX
@@ -8114,9 +8114,9 @@ MAGIC_STORE_FIX_10:
     glow: true
     lore:
       - "&a"
-      - "{#FDB7D4}用于修复封印的魔法抽屉"
-      - "{#FDB7D4}并且给予新的皮肤"
-      - "{#FDB7D4}使用后此核心将会融入到魔法抽屉中"
+      - "{#FDB7D4}Used to repair a sealed Magic Drawer"
+      - "{#FDB7D4}and applies a new skin"
+      - "{#FDB7D4}This core merges into the Magic Drawer when used"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l抽{#E9967A}&l屉{#F08080}&l&kl"
   script: MFCT_FIX
@@ -8140,9 +8140,9 @@ MAGIC_STORE_FIX_11:
     glow: true
     lore:
       - "&a"
-      - "{#FDB7D4}用于修复封印的魔法抽屉"
-      - "{#FDB7D4}并且给予新的皮肤"
-      - "{#FDB7D4}使用后此核心将会融入到魔法抽屉中"
+      - "{#FDB7D4}Used to repair a sealed Magic Drawer"
+      - "{#FDB7D4}and applies a new skin"
+      - "{#FDB7D4}This core merges into the Magic Drawer when used"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l抽{#E9967A}&l屉{#F08080}&l&kl"
   script: MFCT_FIX
@@ -8166,9 +8166,9 @@ MAGIC_STORE_FIX_12:
     glow: true
     lore:
       - "&a"
-      - "{#FDB7D4}用于修复封印的魔法抽屉"
-      - "{#FDB7D4}并且给予新的皮肤"
-      - "{#FDB7D4}使用后此核心将会融入到魔法抽屉中"
+      - "{#FDB7D4}Used to repair a sealed Magic Drawer"
+      - "{#FDB7D4}and applies a new skin"
+      - "{#FDB7D4}This core merges into the Magic Drawer when used"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l抽{#E9967A}&l屉{#F08080}&l&kl"
   script: MFCT_FIX
@@ -8192,9 +8192,9 @@ MAGIC_STORE_FIX_13:
     glow: true
     lore:
       - "&a"
-      - "{#FDB7D4}用于修复封印的魔法抽屉"
-      - "{#FDB7D4}并且给予新的皮肤"
-      - "{#FDB7D4}使用后此核心将会融入到魔法抽屉中"
+      - "{#FDB7D4}Used to repair a sealed Magic Drawer"
+      - "{#FDB7D4}and applies a new skin"
+      - "{#FDB7D4}This core merges into the Magic Drawer when used"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l抽{#E9967A}&l屉{#F08080}&l&kl"
   script: MFCT_FIX
@@ -9256,8 +9256,8 @@ MAGIC_IRON_SPEED_CARD:
     material: IRON_INGOT
     glow: true
     lore: 
-      - "&f放置在魔法矿机中"
-      - "&f提高 99% 挖到此矿的几率"
+      - "&fPlace this in a Magic Geo-Miner"
+      - "&fIncreases the chance of mining this ore by 99%"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1: 
@@ -9303,8 +9303,8 @@ MAGIC_GOLD_SPEED_CARD:
     material: GOLD_INGOT
     glow: true
     lore: 
-      - "&f放置在魔法矿机中"
-      - "&f提高 99% 挖到此矿的几率"
+      - "&fPlace this in a Magic Geo-Miner"
+      - "&fIncreases the chance of mining this ore by 99%"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1: 
@@ -9350,8 +9350,8 @@ MAGIC_COPPER_SPEED_CARD:
     material: COPPER_INGOT
     glow: true
     lore: 
-      - "&f放置在魔法矿机中"
-      - "&f提高 99% 挖到此矿的几率"
+      - "&fPlace this in a Magic Geo-Miner"
+      - "&fIncreases the chance of mining this ore by 99%"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1: 
@@ -9397,8 +9397,8 @@ MAGIC_COAL_SPEED_CARD:
     material: COAL
     glow: true
     lore: 
-      - "&f放置在魔法矿机中"
-      - "&f提高 99% 挖到此矿的几率"
+      - "&fPlace this in a Magic Geo-Miner"
+      - "&fIncreases the chance of mining this ore by 99%"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1: 
@@ -9444,8 +9444,8 @@ MAGIC_NETHERITE_SPEED_CARD:
     material: NETHERITE_INGOT
     glow: true
     lore: 
-      - "&f放置在魔法矿机中"
-      - "&f提高 99% 挖到此矿的几率"
+      - "&fPlace this in a Magic Geo-Miner"
+      - "&fIncreases the chance of mining this ore by 99%"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1: 
@@ -9493,7 +9493,7 @@ MAGIC_EXP_COLLECTOR:
     lore: 
       - "&7可以将经验封印入瓶内"
       - "&a"
-      - "&c需要等级：100"
+      - "&c需要等：100"
   recipe_type: ENHANCED_CRAFTING_TABLE
   script: MFEXPBOTTLE
   recipe:
@@ -9521,7 +9521,7 @@ MAGIC_EXP_BOTTLE:
     material: EXPERIENCE_BOTTLE
     glow: true
     lore: 
-      - "&7封印了100级经验"
+      - "&7封印了100经验"
       - "&7打碎将会损失大部分"
   recipe_type: MAGIC_RIGHT_CLICK_EXP_BOTTLE
   script: MFEXPBOTTLE100
@@ -9535,7 +9535,7 @@ MAGIC_INFINITE_STICK:
     lore: 
       - "{#FFD9EC}&kl{#FDB7D4}魔{#FD8EB7}法{#FA6CA5}工{#E84C8A}具{#D02C71}&kl"
       - "&a"
-      - "{#FFC0CB}可{#FFB6C1}以{#FFA07A}秒{#FA8072}杀{#E9967A}任{#F08080}何{#FF69B4}玩{#DB7093}家"
+      - "{#FFC0CB}可{#FFB6C1}以{#FFA07A} seconds{#FA8072}杀{#E9967A}任{#F08080}何{#FF69B4}玩{#DB7093}家"
       - "&a"
       - "{#FFC0CB}一{#FFB6C1}次{#FFA07A}性{#FA8072}消{#E9967A}耗{#F08080}品"
   recipe_type: MAGIC_WORKBENCH
@@ -9612,7 +9612,7 @@ MAGIC_SPAWN_EGG_DESCRIPTION:
     name: "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l生{#E9967A}&l物{#F08080}&l快{#FF69B4}&l捷{#DB7093}&l运{#FFC0CB}&l输{#FFB6C1}&l-{#FFA07A}&l简{#FA8072}&l介"
     material: paper
     lore: 
-      - "{#FDB7D4}发射出返老还童光线"
+      - "{#FDB7D4}Fires a rejuvenation beam"
       - "{#FDB7D4}不会保留生物nbt数据"
       - "{#FDB7D4}捕捉后的动物会回到幼年状态"
       - "{#FDB7D4}考虑到幼年生物的生命安全"
@@ -9630,9 +9630,9 @@ MAGIC_BEE_CATCH:
     lore: 
       - "{#FFD9EC}&kl{#FDB7D4}魔{#FD8EB7}法{#FA6CA5}工{#E84C8A}具{#D02C71}&kl"
       - "&a"
-      - "{#FDB7D4}发射出返老还童光线"
+      - "{#FDB7D4}Fires a rejuvenation beam"
       - "{#FDB7D4}把成年蜜蜂变为幼年蜜蜂"
-      - "{#FDB7D4}方便放入背包进行运输"
+      - "{#FDB7D4}Easy to carry in your inventory"
       - "{#FDB7D4}&o别被蜜蜂蛰了哟~"
       - "&a"
       - "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l生{#E9967A}&l物{#F08080}&l快{#FF69B4}&l捷{#DB7093}&l运{#FFC0CB}&l输"
@@ -9671,7 +9671,7 @@ MAGIC_EGG_BEE:
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODg2YTUwOWZmM2NkNDcxZjFiNDI4YTE5NGI2NzExNDcwYTU0NzczZTVkZTZlZTA3ZjdlNjAxY2M1ZTc1YTIwMCJ9fX0=
     lore: 
-      - "&f右键方块"
+      - "&fRight-click a block"
       - "&f来放置蜜蜂"
       - "&a"
       - "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l生{#E9967A}&l物{#F08080}&l快{#FF69B4}&l捷{#DB7093}&l运{#FFC0CB}&l输"
@@ -9687,9 +9687,9 @@ MAGIC_PIG_CATCH:
     lore: 
       - "{#FFD9EC}&kl{#FDB7D4}魔{#FD8EB7}法{#FA6CA5}工{#E84C8A}具{#D02C71}&kl"
       - "&a"
-      - "{#FDB7D4}发射出返老还童光线"
+      - "{#FDB7D4}Fires a rejuvenation beam"
       - "{#FDB7D4}把成年猪猪变为幼年猪猪"
-      - "{#FDB7D4}方便放入背包进行运输"
+      - "{#FDB7D4}Easy to carry in your inventory"
       - "{#FDB7D4}&o别被猪猪拱了哟~"
       - "&a"
       - "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l生{#E9967A}&l物{#F08080}&l快{#FF69B4}&l捷{#DB7093}&l运{#FFC0CB}&l输"
@@ -9728,7 +9728,7 @@ MAGIC_PIG_1:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjUwMzM3NzlmODc2MTFmOGU3MWM1YjAyYjkxYjQwYmNhNWMxYzk5YWZhNzUyYWJkNjM2YTQ5NWY5NTNiNjQ2In19fQ==
     glow: true
     lore: 
-      - "&f右键方块"
+      - "&fRight-click a block"
       - "&f来放置猪"
       - "&a"
       - "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l生{#E9967A}&l物{#F08080}&l快{#FF69B4}&l捷{#DB7093}&l运{#FFC0CB}&l输"
@@ -9744,9 +9744,9 @@ MAGIC_SHEEP_CATCH:
     lore: 
       - "{#FFD9EC}&kl{#FDB7D4}魔{#FD8EB7}法{#FA6CA5}工{#E84C8A}具{#D02C71}&kl"
       - "&a"
-      - "{#FDB7D4}发射出返老还童光线"
+      - "{#FDB7D4}Fires a rejuvenation beam"
       - "{#FDB7D4}把成年羊变为幼年羊"
-      - "{#FDB7D4}方便放入背包进行运输"
+      - "{#FDB7D4}Easy to carry in your inventory"
       - "{#FDB7D4}&o别再薅羊毛啦~"
       - "&a"
       - "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l生{#E9967A}&l物{#F08080}&l快{#FF69B4}&l捷{#DB7093}&l运{#FFC0CB}&l输"
@@ -9785,7 +9785,7 @@ MAGIC_SHEEP_1:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODRlNWNkYjBlZGIzNjJjYjQ1NDU4NmQxZmQwZWJlOTcxNDIzZjAxNWIwYjFiZmM5NWY4ZDVhZjhhZmU3ZTgxMCJ9fX0=
     glow: true
     lore: 
-      - "&f右键方块"
+      - "&fRight-click a block"
       - "&f来放置猪"
       - "&a"
       - "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l生{#E9967A}&l物{#F08080}&l快{#FF69B4}&l捷{#DB7093}&l运{#FFC0CB}&l输"
@@ -9802,9 +9802,9 @@ MAGIC_CHICKEN_CATCH:
     lore: 
       - "{#FFD9EC}&kl{#FDB7D4}魔{#FD8EB7}法{#FA6CA5}工{#E84C8A}具{#D02C71}&kl"
       - "&a"
-      - "{#FDB7D4}发射出返老还童光线"
+      - "{#FDB7D4}Fires a rejuvenation beam"
       - "{#FDB7D4}把成年鸡变为幼年鸡"
-      - "{#FDB7D4}方便放入背包进行运输"
+      - "{#FDB7D4}Easy to carry in your inventory"
       - "{#FDB7D4}&o别被鸡鸡啄了哟~"
       - "&a"
       - "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l生{#E9967A}&l物{#F08080}&l快{#FF69B4}&l捷{#DB7093}&l运{#FFC0CB}&l输"
@@ -9843,7 +9843,7 @@ MAGIC_CHICKEN_1:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDE0OTA3YzNlODA1ZDhmOGRlNTU2YmM5ZGM0YzkxMzZkYzYwZDk1MDc3NDM3OGM2M2YyNjE1ZGJiMjNiMzNiNyJ9fX0=
     glow: true
     lore: 
-      - "&f右键方块"
+      - "&fRight-click a block"
       - "&f来放置鸡"
       - "&a"
       - "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l生{#E9967A}&l物{#F08080}&l快{#FF69B4}&l捷{#DB7093}&l运{#FFC0CB}&l输"
@@ -9859,9 +9859,9 @@ MAGIC_COW_CATCH:
     lore: 
       - "{#FFD9EC}&kl{#FDB7D4}魔{#FD8EB7}法{#FA6CA5}工{#E84C8A}具{#D02C71}&kl"
       - "&a"
-      - "{#FDB7D4}发射出返老还童光线"
+      - "{#FDB7D4}Fires a rejuvenation beam"
       - "{#FDB7D4}把成年牛变为幼年牛"
-      - "{#FDB7D4}方便放入背包进行运输"
+      - "{#FDB7D4}Easy to carry in your inventory"
       - "{#FDB7D4}&o别被牛拱了哟~"
       - "&a"
       - "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l生{#E9967A}&l物{#F08080}&l快{#FF69B4}&l捷{#DB7093}&l运{#FFC0CB}&l输"
@@ -9900,7 +9900,7 @@ MAGIC_COW_1:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjg4YmU1N2FmNmQyNDhjMjk3YjNjYWU2NzZmNDVjYzJhNDM4ZjE1YTllZjI2Y2RmNWYwMzVmYjg0MmQ4NmRkOSJ9fX0=
     glow: true
     lore: 
-      - "&f右键方块"
+      - "&fRight-click a block"
       - "&f来放置牛"
       - "&a"
       - "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l生{#E9967A}&l物{#F08080}&l快{#FF69B4}&l捷{#DB7093}&l运{#FFC0CB}&l输"
@@ -9916,9 +9916,9 @@ MAGIC_OCELOT_CATCH:
     lore: 
       - "{#FFD9EC}&kl{#FDB7D4}魔{#FD8EB7}法{#FA6CA5}工{#E84C8A}具{#D02C71}&kl"
       - "&a"
-      - "{#FDB7D4}发射出返老还童光线"
+      - "{#FDB7D4}Fires a rejuvenation beam"
       - "{#FDB7D4}把成年豹猫变为幼年豹猫"
-      - "{#FDB7D4}方便放入背包进行运输"
+      - "{#FDB7D4}Easy to carry in your inventory"
       - "{#FDB7D4}&o注意别被豹猫抓伤了哦~"
       - "&a"
       - "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l生{#E9967A}&l物{#F08080}&l快{#FF69B4}&l捷{#DB7093}&l运{#FFC0CB}&l输"
@@ -9957,7 +9957,7 @@ MAGIC_OCELOT_1:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDViY2Y4OTdmYTYwNmFiZGIxZmEyYTFlODhhMDdkOGZiYmI1YmJkNDQ1ZTBhZmE1NzYyYTQ2NTA5NDYyNThmMiJ9fX0=
     glow: true
     lore: 
-      - "&f右键方块"
+      - "&fRight-click a block"
       - "&f来放置豹猫"
       - "&a"
       - "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l生{#E9967A}&l物{#F08080}&l快{#FF69B4}&l捷{#DB7093}&l运{#FFC0CB}&l输"
@@ -9973,9 +9973,9 @@ MAGIC_CAT_CATCH:
     lore: 
       - "{#FFD9EC}&kl{#FDB7D4}魔{#FD8EB7}法{#FA6CA5}工{#E84C8A}具{#D02C71}&kl"
       - "&a"
-      - "{#FDB7D4}发射出返老还童光线"
+      - "{#FDB7D4}Fires a rejuvenation beam"
       - "{#FDB7D4}把成年猫猫变为幼年猫猫"
-      - "{#FDB7D4}方便放入背包进行运输"
+      - "{#FDB7D4}Easy to carry in your inventory"
       - "{#FDB7D4}&o要对猫猫温柔一点哦~"
       - "&a"
       - "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l生{#E9967A}&l物{#F08080}&l快{#FF69B4}&l捷{#DB7093}&l运{#FFC0CB}&l输"
@@ -10014,7 +10014,7 @@ MAGIC_CAT_1:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjZmMGE4NDZjYjliMDhhYjc2NGVhYjhiYjlkOGFhMWYzMjAwMTQ5MTkyZTZkMDkzNjBlMTc5MzliMWNjNmYzYSJ9fX0=
     glow: true
     lore: 
-      - "&f右键方块"
+      - "&fRight-click a block"
       - "&f来放置猫"
       - "&a"
       - "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l生{#E9967A}&l物{#F08080}&l快{#FF69B4}&l捷{#DB7093}&l运{#FFC0CB}&l输"
@@ -10031,9 +10031,9 @@ MAGIC_DONKEY_CATCH:
     lore: 
       - "{#FFD9EC}&kl{#FDB7D4}魔{#FD8EB7}法{#FA6CA5}工{#E84C8A}具{#D02C71}&kl"
       - "&a"
-      - "{#FDB7D4}发射出返老还童光线"
+      - "{#FDB7D4}Fires a rejuvenation beam"
       - "{#FDB7D4}把成年驴变为幼年驴"
-      - "{#FDB7D4}方便放入背包进行运输"
+      - "{#FDB7D4}Easy to carry in your inventory"
       - "{#FDB7D4}&o小心别被驴踹了哦~"
       - "&a"
       - "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l生{#E9967A}&l物{#F08080}&l快{#FF69B4}&l捷{#DB7093}&l运{#FFC0CB}&l输"
@@ -10072,7 +10072,7 @@ MAGIC_DONKEY_1:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyYzVlZjgzNjNmZWM5MDViY2VhMjc3OWJmYTRjZDZkOTk2NzZiMGNiMWRkNWU3ZDlmNmYwMDY4NzI5ODQyZiJ9fX0=
     glow: true
     lore: 
-      - "&f右键方块"
+      - "&fRight-click a block"
       - "&f来放置驴"
       - "&a"
       - "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l生{#E9967A}&l物{#F08080}&l快{#FF69B4}&l捷{#DB7093}&l运{#FFC0CB}&l输"
@@ -10088,9 +10088,9 @@ MAGIC_FOX_CATCH:
     lore: 
       - "{#FFD9EC}&kl{#FDB7D4}魔{#FD8EB7}法{#FA6CA5}工{#E84C8A}具{#D02C71}&kl"
       - "&a"
-      - "{#FDB7D4}发射出返老还童光线"
+      - "{#FDB7D4}Fires a rejuvenation beam"
       - "{#FDB7D4}把成年狐狸变为幼年狐狸"
-      - "{#FDB7D4}方便放入背包进行运输"
+      - "{#FDB7D4}Easy to carry in your inventory"
       - "{#FDB7D4}&o别把狐狸吓坏了哦~"
       - "&a"
       - "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l生{#E9967A}&l物{#F08080}&l快{#FF69B4}&l捷{#DB7093}&l运{#FFC0CB}&l输"
@@ -10129,7 +10129,7 @@ MAGIC_FOX_1:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQ3NjdlNjExZmY5YmRkYmMzYzk0YmUwNDAzOWVkZDQyM2Q2ZGQ1ZTYyYmNhZGFjMzRiZWJiNGY3N2ViMzk4ZiJ9fX0=
     glow: true
     lore: 
-      - "&f右键方块"
+      - "&fRight-click a block"
       - "&f来放置狐狸"
       - "&a"
       - "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l生{#E9967A}&l物{#F08080}&l快{#FF69B4}&l捷{#DB7093}&l运{#FFC0CB}&l输"
@@ -10146,9 +10146,9 @@ MAGIC_FROG_CATCH:
     lore: 
       - "{#FFD9EC}&kl{#FDB7D4}魔{#FD8EB7}法{#FA6CA5}工{#E84C8A}具{#D02C71}&kl"
       - "&a"
-      - "{#FDB7D4}发射出返老还童光线"
+      - "{#FDB7D4}Fires a rejuvenation beam"
       - "{#FDB7D4}把成年青蛙变为幼年青蛙"
-      - "{#FDB7D4}方便放入背包进行运输"
+      - "{#FDB7D4}Easy to carry in your inventory"
       - "{#FDB7D4}&o青蛙是很灵活的~"
       - "&a"
       - "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l生{#E9967A}&l物{#F08080}&l快{#FF69B4}&l捷{#DB7093}&l运{#FFC0CB}&l输"
@@ -10187,7 +10187,7 @@ MAGIC_FROG_1:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWRjOGIyODliOWZhZTc3ZTRjNDU5M2MwMmVkYWVkZDIyZjMxYjMyYzdhY2M3OGZhMDAyOTNjZTYyZWRmMDBjZCJ9fX0=
     glow: true
     lore: 
-      - "&f右键方块"
+      - "&fRight-click a block"
       - "&f来放置青蛙"
       - "&a"
       - "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l生{#E9967A}&l物{#F08080}&l快{#FF69B4}&l捷{#DB7093}&l运{#FFC0CB}&l输"
@@ -10204,9 +10204,9 @@ MAGIC_GOAT_CATCH:
     lore: 
       - "{#FFD9EC}&kl{#FDB7D4}魔{#FD8EB7}法{#FA6CA5}工{#E84C8A}具{#D02C71}&kl"
       - "&a"
-      - "{#FDB7D4}发射出返老还童光线"
+      - "{#FDB7D4}Fires a rejuvenation beam"
       - "{#FDB7D4}把成年山羊变为幼年山羊"
-      - "{#FDB7D4}方便放入背包进行运输"
+      - "{#FDB7D4}Easy to carry in your inventory"
       - "{#FDB7D4}&o小心被山羊顶了哟~"
       - "&a"
       - "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l生{#E9967A}&l物{#F08080}&l快{#FF69B4}&l捷{#DB7093}&l运{#FFC0CB}&l输"
@@ -10245,7 +10245,7 @@ MAGIC_GOAT_1:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTNhNjJmNmIxYmVjZTMwNTdlZjg3YTAwZDA5NTliNTNjYTc1Mjc2OGRkZDIyOTFmYTM4ZGY5NjYxOTdmZWI5ZCJ9fX0=
     glow: true
     lore: 
-      - "&f右键方块"
+      - "&fRight-click a block"
       - "&f来放置山羊"
       - "&a"
       - "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l生{#E9967A}&l物{#F08080}&l快{#FF69B4}&l捷{#DB7093}&l运{#FFC0CB}&l输"
@@ -10262,9 +10262,9 @@ MAGIC_HOGLIN_CATCH:
     lore: 
       - "{#FFD9EC}&kl{#FDB7D4}魔{#FD8EB7}法{#FA6CA5}工{#E84C8A}具{#D02C71}&kl"
       - "&a"
-      - "{#FDB7D4}发射出返老还童光线"
+      - "{#FDB7D4}Fires a rejuvenation beam"
       - "{#FDB7D4}把成年疣猪兽变为幼年疣猪兽"
-      - "{#FDB7D4}方便放入背包进行运输"
+      - "{#FDB7D4}Easy to carry in your inventory"
       - "{#FDB7D4}&o疣猪兽可是很凶猛的哦~"
       - "&a"
       - "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l生{#E9967A}&l物{#F08080}&l快{#FF69B4}&l捷{#DB7093}&l运{#FFC0CB}&l输"
@@ -10303,7 +10303,7 @@ MAGIC_HOGLIN_1:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWJiOWJjMGYwMWRiZDc2MmEwOGQ5ZTc3YzA4MDY5ZWQ3Yzk1MzY0YWEzMGNhMTA3MjIwODU2MWI3MzBlOGQ3NSJ9fX0=
     glow: true
     lore: 
-      - "&f右键方块"
+      - "&fRight-click a block"
       - "&f来放置疣猪兽"
       - "&a"
       - "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l生{#E9967A}&l物{#F08080}&l快{#FF69B4}&l捷{#DB7093}&l运{#FFC0CB}&l输"
@@ -10320,9 +10320,9 @@ MAGIC_HORSE_CATCH:
     lore: 
       - "{#FFD9EC}&kl{#FDB7D4}魔{#FD8EB7}法{#FA6CA5}工{#E84C8A}具{#D02C71}&kl"
       - "&a"
-      - "{#FDB7D4}发射出返老还童光线"
+      - "{#FDB7D4}Fires a rejuvenation beam"
       - "{#FDB7D4}把成年马变为幼年马"
-      - "{#FDB7D4}方便放入背包进行运输"
+      - "{#FDB7D4}Easy to carry in your inventory"
       - "{#FDB7D4}&o小心被马踢了哟~"
       - "&a"
       - "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l生{#E9967A}&l物{#F08080}&l快{#FF69B4}&l捷{#DB7093}&l运{#FFC0CB}&l输"
@@ -10361,7 +10361,7 @@ MAGIC_HORSE_1:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTk2MzdiMTI3YWM3NDY5Zjk5YTRjNzM2YmQ1ZGMzZDU5NDhlM2Q5YTk4ODBiZjAzMjJhOWYwNTZkYjhhZmM4MCJ9fX0=
     glow: true
     lore: 
-      - "&f右键方块"
+      - "&fRight-click a block"
       - "&f来放置马"
       - "&a"
       - "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l生{#E9967A}&l物{#F08080}&l快{#FF69B4}&l捷{#DB7093}&l运{#FFC0CB}&l输"
@@ -10378,9 +10378,9 @@ MAGIC_LLAMA_CATCH:
     lore: 
       - "{#FFD9EC}&kl{#FDB7D4}魔{#FD8EB7}法{#FA6CA5}工{#E84C8A}具{#D02C71}&kl"
       - "&a"
-      - "{#FDB7D4}发射出返老还童光线"
+      - "{#FDB7D4}Fires a rejuvenation beam"
       - "{#FDB7D4}把成年羊驼变为幼羊驼"
-      - "{#FDB7D4}方便放入背包进行运输"
+      - "{#FDB7D4}Easy to carry in your inventory"
       - "{#FDB7D4}&o小心羊驼向你吐口水哦~"
       - "{#FDB7D4}&o抓捕羊驼的时候要离得远一点哦~"
       - "&a"
@@ -10420,7 +10420,7 @@ MAGIC_LLAMA_1:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmE1ZjEwZTZlNjIzMmYxODJmZTk2NmY1MDFmMWMzNzk5ZDQ1YWUxOTAzMWExZTQ5NDFiNWRlZTBmZWZmMDU5YiJ9fX0=
     glow: true
     lore: 
-      - "&f右键方块"
+      - "&fRight-click a block"
       - "&f来放置羊驼"
       - "&a"
       - "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l生{#E9967A}&l物{#F08080}&l快{#FF69B4}&l捷{#DB7093}&l运{#FFC0CB}&l输"
@@ -10437,9 +10437,9 @@ MAGIC_TRADER_LLAMA_CATCH:
     lore: 
       - "{#FFD9EC}&kl{#FDB7D4}魔{#FD8EB7}法{#FA6CA5}工{#E84C8A}具{#D02C71}&kl"
       - "&a"
-      - "{#FDB7D4}发射出返老还童光线"
+      - "{#FDB7D4}Fires a rejuvenation beam"
       - "{#FDB7D4}把成年行商羊驼变为幼年行商羊驼"
-      - "{#FDB7D4}方便放入背包进行运输"
+      - "{#FDB7D4}Easy to carry in your inventory"
       - "{#FDB7D4}&o小心行商羊驼向你吐口水哦~"
       - "{#FDB7D4}&o抓捕行商羊驼的时候要离得远一点哦~"
       - "&a"
@@ -10479,7 +10479,7 @@ MAGIC_TRADER_LLAMA_1:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmU0ZDhhMGJjMTVmMjM5OTIxZWZkOGJlMzQ4MGJhNzdhOThlZTdkOWNlMDA3MjhjMGQ3MzNmMGEyZDYxNGQxNiJ9fX0=
     glow: true
     lore: 
-      - "&f右键方块"
+      - "&fRight-click a block"
       - "&f来放置行商羊驼"
       - "&a"
       - "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l生{#E9967A}&l物{#F08080}&l快{#FF69B4}&l捷{#DB7093}&l运{#FFC0CB}&l输"
@@ -10496,9 +10496,9 @@ MAGIC_MOOSHROOM_CATCH:
     lore: 
       - "{#FFD9EC}&kl{#FDB7D4}魔{#FD8EB7}法{#FA6CA5}工{#E84C8A}具{#D02C71}&kl"
       - "&a"
-      - "{#FDB7D4}发射出返老还童光线"
+      - "{#FDB7D4}Fires a rejuvenation beam"
       - "{#FDB7D4}把成年哞菇牛变为幼年哞菇牛"
-      - "{#FDB7D4}方便放入背包进行运输"
+      - "{#FDB7D4}Easy to carry in your inventory"
       - "{#FDB7D4}&o哞菇牛的脾气也不是很好哦~"
       - "&a"
       - "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l生{#E9967A}&l物{#F08080}&l快{#FF69B4}&l捷{#DB7093}&l运{#FFC0CB}&l输"
@@ -10537,7 +10537,7 @@ MAGIC_MOOSHROOM_1:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2Q1OTdmNzdjZGUzMmM5YWM5YjA2ZjgyZmNmN2M5Y2I1MDBmYWNjMTRiZmYxNjYyMjJiMjRiZTM5OTYyZjBlZiJ9fX0=
     glow: true
     lore: 
-      - "&f右键方块"
+      - "&fRight-click a block"
       - "&f来放置哞菇牛"
       - "&a"
       - "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l生{#E9967A}&l物{#F08080}&l快{#FF69B4}&l捷{#DB7093}&l运{#FFC0CB}&l输"
@@ -10554,9 +10554,9 @@ MAGIC_MULE_CATCH:
     lore: 
       - "{#FFD9EC}&kl{#FDB7D4}魔{#FD8EB7}法{#FA6CA5}工{#E84C8A}具{#D02C71}&kl"
       - "&a"
-      - "{#FDB7D4}发射出返老还童光线"
+      - "{#FDB7D4}Fires a rejuvenation beam"
       - "{#FDB7D4}把成年骡子变为幼年骡子"
-      - "{#FDB7D4}方便放入背包进行运输"
+      - "{#FDB7D4}Easy to carry in your inventory"
       - "{#FDB7D4}&o相对于驴，骡子的脾气可就好多了~"
       - "&a"
       - "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l生{#E9967A}&l物{#F08080}&l快{#FF69B4}&l捷{#DB7093}&l运{#FFC0CB}&l输"
@@ -10595,7 +10595,7 @@ MAGIC_MULE_1:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTA0ODZhNzQyZTdkZGEwYmFlNjFjZTJmNTVmYTEzNTI3ZjFjM2IzMzRjNTdjMDM0YmI0Y2YxMzJmYjVmNWYifX19
     glow: true
     lore: 
-      - "&f右键方块"
+      - "&fRight-click a block"
       - "&f来放置骡子"
       - "&a"
       - "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l生{#E9967A}&l物{#F08080}&l快{#FF69B4}&l捷{#DB7093}&l运{#FFC0CB}&l输"
@@ -10612,10 +10612,10 @@ MAGIC_PANDA_CATCH:
     lore: 
       - "{#FFD9EC}&kl{#FDB7D4}魔{#FD8EB7}法{#FA6CA5}工{#E84C8A}具{#D02C71}&kl"
       - "&a"
-      - "{#FDB7D4}发射出返老还童光线"
+      - "{#FDB7D4}Fires a rejuvenation beam"
       - "{#FDB7D4}把成年熊猫变为幼熊猫"
-      - "{#FDB7D4}方便放入背包进行运输"
-      - "&e熊猫{#FDB7D4}&o可是一级保护动物哦~"
+      - "{#FDB7D4}Easy to carry in your inventory"
+      - "&e熊猫{#FDB7D4}&o可是一保护动物哦~"
       - "&a"
       - "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l生{#E9967A}&l物{#F08080}&l快{#FF69B4}&l捷{#DB7093}&l运{#FFC0CB}&l输"
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -10653,7 +10653,7 @@ MAGIC_PANDA_1:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWIxMTg3NjNjZThiNWYzMDg2MTVlNjQ3NzEyNzRjYWNiZTMxMTg4NDc3ZTc1NmI5ZDc5NjVmZWI3ZTJkYzQwNiJ9fX0=
     glow: true
     lore: 
-      - "&f右键方块"
+      - "&fRight-click a block"
       - "&f来放置熊猫"
       - "&a"
       - "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l生{#E9967A}&l物{#F08080}&l快{#FF69B4}&l捷{#DB7093}&l运{#FFC0CB}&l输"
@@ -10670,9 +10670,9 @@ MAGIC_RABBIT_CATCH:
     lore: 
       - "{#FFD9EC}&kl{#FDB7D4}魔{#FD8EB7}法{#FA6CA5}工{#E84C8A}具{#D02C71}&kl"
       - "&a"
-      - "{#FDB7D4}发射出返老还童光线"
+      - "{#FDB7D4}Fires a rejuvenation beam"
       - "{#FDB7D4}把成兔子变为幼年兔子"
-      - "{#FDB7D4}方便放入背包进行运输"
+      - "{#FDB7D4}Easy to carry in your inventory"
       - "{#FDB7D4}&o要对兔兔温柔一点哦~"
       - "&a"
       - "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l生{#E9967A}&l物{#F08080}&l快{#FF69B4}&l捷{#DB7093}&l运{#FFC0CB}&l输"
@@ -10711,7 +10711,7 @@ MAGIC_RABBIT_1:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTYwNWQ1Yzk3NWJmNzg5OGEzNjFjNmU4NjAzOTI4ZWYwZTVmNWY4Yzk0N2YyNDQxOGI2NjQ0NGQ0MWYzMzlkYSJ9fX0=
     glow: true
     lore: 
-      - "&f右键方块"
+      - "&fRight-click a block"
       - "&f来放置兔子"
       - "&a"
       - "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l生{#E9967A}&l物{#F08080}&l快{#FF69B4}&l捷{#DB7093}&l运{#FFC0CB}&l输"
@@ -10728,9 +10728,9 @@ MAGIC_STRIDER_CATCH:
     lore: 
       - "{#FFD9EC}&kl{#FDB7D4}魔{#FD8EB7}法{#FA6CA5}工{#E84C8A}具{#D02C71}&kl"
       - "&a"
-      - "{#FDB7D4}发射出返老还童光线"
+      - "{#FDB7D4}Fires a rejuvenation beam"
       - "{#FDB7D4}把成年炽足兽变为幼年炽足兽"
-      - "{#FDB7D4}方便放入背包进行运输"
+      - "{#FDB7D4}Easy to carry in your inventory"
       - "{#FDB7D4}&o炽足兽可以帮助你度过岩浆海~"
       - "&a"
       - "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l生{#E9967A}&l物{#F08080}&l快{#FF69B4}&l捷{#DB7093}&l运{#FFC0CB}&l输"
@@ -10769,7 +10769,7 @@ MAGIC_STRIDER_1:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTI1ODUxYTg2ZWUxYzU0Yzk0ZmM1YmVkMDE3ODIzZGZiM2JhMDhlZGRiY2FiMmE5MTRlZjQ1YjU5NmMxNjAzIn19fQ==
     glow: true
     lore: 
-      - "&f右键方块"
+      - "&fRight-click a block"
       - "&f来放置炽足兽"
       - "&a"
       - "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l生{#E9967A}&l物{#F08080}&l快{#FF69B4}&l捷{#DB7093}&l运{#FFC0CB}&l输"
@@ -10786,9 +10786,9 @@ MAGIC_TURTLE_CATCH:
     lore: 
       - "{#FFD9EC}&kl{#FDB7D4}魔{#FD8EB7}法{#FA6CA5}工{#E84C8A}具{#D02C71}&kl"
       - "&a"
-      - "{#FDB7D4}发射出返老还童光线"
+      - "{#FDB7D4}Fires a rejuvenation beam"
       - "{#FDB7D4}把成年海龟变为幼年海龟"
-      - "{#FDB7D4}方便放入背包进行运输"
+      - "{#FDB7D4}Easy to carry in your inventory"
       - "{#FDB7D4}&o海龟的壳可是很坚硬的~"
       - "&a"
       - "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l生{#E9967A}&l物{#F08080}&l快{#FF69B4}&l捷{#DB7093}&l运{#FFC0CB}&l输"
@@ -10827,7 +10827,7 @@ MAGIC_TURTLE_1:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmM4NTkzYjkxMDU4ZmYyNGEwZjY4NDUxMzBlZDNlNDQ5NTY5Y2U5YzZiMjJmYTljZDFlZDczNjBiNTA0NWVhMyJ9fX0=
     glow: true
     lore: 
-      - "&f右键方块"
+      - "&fRight-click a block"
       - "&f来放置海龟"
       - "&a"
       - "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l生{#E9967A}&l物{#F08080}&l快{#FF69B4}&l捷{#DB7093}&l运{#FFC0CB}&l输"
@@ -10844,9 +10844,9 @@ MAGIC_WOLF_CATCH:
     lore: 
       - "{#FFD9EC}&kl{#FDB7D4}魔{#FD8EB7}法{#FA6CA5}工{#E84C8A}具{#D02C71}&kl"
       - "&a"
-      - "{#FDB7D4}发射出返老还童光线"
+      - "{#FDB7D4}Fires a rejuvenation beam"
       - "{#FDB7D4}把成年狼变为幼年狼"
-      - "{#FDB7D4}方便放入背包进行运输"
+      - "{#FDB7D4}Easy to carry in your inventory"
       - "{#FDB7D4}&o狼驯化后会进化为狗哦~"
       - "&a"
       - "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l生{#E9967A}&l物{#F08080}&l快{#FF69B4}&l捷{#DB7093}&l运{#FFC0CB}&l输"
@@ -10885,7 +10885,7 @@ MAGIC_WOLF_1:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjUzNTU0ODljYzU4MzgyMjFiOTRmM2UxOWRjMjYyOTJiZGNjMDFlM2RkNzBhOGIyMmM4MjhmMjI1ZTE5ODE0MCJ9fX0=
     glow: true
     lore: 
-      - "&f右键方块"
+      - "&fRight-click a block"
       - "&f来放置狼"
       - "&a"
       - "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l生{#E9967A}&l物{#F08080}&l快{#FF69B4}&l捷{#DB7093}&l运{#FFC0CB}&l输"
@@ -10909,9 +10909,9 @@ MAGIC_ALLAY_CATCH:
     lore: 
       - "{#FFD9EC}&kl{#FDB7D4}魔{#FD8EB7}法{#FA6CA5}工{#E84C8A}具{#D02C71}&kl"
       - "&a"
-      - "{#FDB7D4}发射出返老还童光线"
+      - "{#FDB7D4}Fires a rejuvenation beam"
       - "{#FDB7D4}把成年悦灵变为幼年悦灵"
-      - "{#FDB7D4}方便放入背包进行运输"
+      - "{#FDB7D4}Easy to carry in your inventory"
       - "{#FDB7D4}&o注意悦灵手里有没有拿物品哦~"
       - "{#FDB7D4}&o如果是空手的话，你的抓捕器就会被他拿走咯~"
       - "&a"
@@ -10951,7 +10951,7 @@ MAGIC_ALLAY_1:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTUwMjk0YTE3NDczMTBmMTA0MTI0YzYzNzNjYzYzOWI3MTJiYWE1N2I3ZDkyNjI5N2I2NDUxODhiN2JiOWFiOSJ9fX0=
     glow: true
     lore: 
-      - "&f右键方块"
+      - "&fRight-click a block"
       - "&f来放置悦灵"
       - "&a"
       - "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l生{#E9967A}&l物{#F08080}&l快{#FF69B4}&l捷{#DB7093}&l运{#FFC0CB}&l输"
@@ -11173,10 +11173,10 @@ MAGIC_ENCHANT_UP_1:
       - "&a"
       - "{#FDB7D4}左手持物品，右手持炉岩碳"
       - "{#FDB7D4}随机获得一个附魔"
-      - "{#FDB7D4}若是已有的附魔，则等级+1"
-      - "{#FDB7D4}初始成功率99%"
-      - "{#FDB7D4}成功率取决于最高等级附魔"
-      - "{#FDB7D4}每10级降低1%"
+      - "{#FDB7D4}若是已有的附魔，则等+1"
+      - "{#FDB7D4}Initial success rate: 99%"
+      - "{#FDB7D4}成功率取决于最高等附魔"
+      - "{#FDB7D4}每10降低1%"
       - "{#FDB7D4}失败则装备破碎"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB6C1}&l魔{#FFA07A}&l法{#FA8072}&l-{#E9967A}&l装{#F08080}&l备{#FF69B4}&l强{#DB7093}&l化{#FFC0CB}&l&kl"
@@ -11199,8 +11199,8 @@ MAGIC_ENCHANT_UP_1_MAX:
       - "&a"
       - "{#FDB7D4}左手持物品，右手持炉岩碳"
       - "{#FDB7D4}随机获得一个附魔"
-      - "{#FDB7D4}若是已有的附魔，则等级+1"
-      - "{#FDB7D4}成功率100%"
+      - "{#FDB7D4}若是已有的附魔，则等+1"
+      - "{#FDB7D4}Success rate: 100%"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB6C1}&l魔{#FFA07A}&l法{#FA8072}&l-{#E9967A}&l装{#F08080}&l备{#FF69B4}&l强{#DB7093}&l化{#FFC0CB}&l&kl"
   script: "enchant_up_1_max"
@@ -11219,12 +11219,12 @@ MAGIC_ENCHANT_UPUP_1:
     lore: 
       - "{#FFD9EC}&kl{#FDB7D4}魔{#FD8EB7}法{#FA6CA5}道{#E84C8A}具{#D02C71}&kl"
       - "&a"
-      - "{#FDB7D4}左手持物品，右手持矛盾的结晶体"
+      - "{#FDB7D4}Hold the item in your off hand and the Contradictory Crystal in your main hand"
       - "{#FDB7D4}对附魔进行全面增幅"
-      - "{#FDB7D4}所有附魔等级+1"
-      - "{#FDB7D4}初始成功率99%"
-      - "{#FDB7D4}成功率取决于最高等级附魔"
-      - "{#FDB7D4}每10级降低2%"
+      - "{#FDB7D4}所有附魔等+1"
+      - "{#FDB7D4}Initial success rate: 99%"
+      - "{#FDB7D4}成功率取决于最高等附魔"
+      - "{#FDB7D4}每10降低2%"
       - "{#FDB7D4}失败则装备破碎"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB6C1}&l魔{#FFA07A}&l法{#FA8072}&l-{#E9967A}&l装{#F08080}&l备{#FF69B4}&l强{#DB7093}&l化{#FFC0CB}&l&kl"
@@ -11245,10 +11245,10 @@ MAGIC_ENCHANT_UPUP_1_MAX:
     lore: 
       - "{#FFD9EC}&kl{#FDB7D4}魔{#FD8EB7}法{#FA6CA5}道{#E84C8A}具{#D02C71}&kl"
       - "&a"
-      - "{#FDB7D4}左手持物品，右手持矛盾的结晶体"
+      - "{#FDB7D4}Hold the item in your off hand and the Contradictory Crystal in your main hand"
       - "{#FDB7D4}对附魔进行全面增幅"
-      - "{#FDB7D4}所有附魔等级+1"
-      - "{#FDB7D4}成功率100%"
+      - "{#FDB7D4}所有附魔等+1"
+      - "{#FDB7D4}Success rate: 100%"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB6C1}&l魔{#FFA07A}&l法{#FA8072}&l-{#E9967A}&l装{#F08080}&l备{#FF69B4}&l强{#DB7093}&l化{#FFC0CB}&l&kl"
   script: "enchant_upup_1_max"
@@ -11262,10 +11262,10 @@ MAGIC_ATTRIBUTE_UPUP_1:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTMyNjRjMDkwOTlmYjI1MzJmNThlNTliOTFkOWYxMGZiZmZjMGIyNzBhN2VjMzg4MzNlODJhYzlkMTdjODRiZSJ9fX0=
     lore: 
       - "{#FFD9EC}&kl{#FDB7D4}魔{#FD8EB7}法{#FA6CA5}道{#E84C8A}具{#D02C71}&kl"
-      - "{#FDB7D4}左手持物品，右手持矛盾的结晶体"
-      - "{#FDB7D4}对装备属性进行全面增幅"
+      - "{#FDB7D4}Hold the item in your off hand and the Contradictory Crystal in your main hand"
+      - "{#FDB7D4}对Equipment Attribute进行全面增幅"
       - "{#FDB7D4}不同部位的增幅属性各不相同"
-      - "{#FDB7D4}初始成功率99%"
+      - "{#FDB7D4}Initial success rate: 99%"
       - "{#FDB7D4}随属性数值提高，失败率随之提高"
       - '§e§lShift + 右键切换增幅位置 : §c§l 头盔'
       - "&a"
@@ -11286,10 +11286,10 @@ MAGIC_ATTRIBUTE_UPUP_1_MAX:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTMyNjRjMDkwOTlmYjI1MzJmNThlNTliOTFkOWYxMGZiZmZjMGIyNzBhN2VjMzg4MzNlODJhYzlkMTdjODRiZSJ9fX0=
     lore: 
       - "{#FFD9EC}&kl{#FDB7D4}魔{#FD8EB7}法{#FA6CA5}道{#E84C8A}具{#D02C71}&kl"
-      - "{#FDB7D4}左手持物品，右手持矛盾的结晶体"
-      - "{#FDB7D4}对装备属性进行全面增幅"
+      - "{#FDB7D4}Hold the item in your off hand and the Contradictory Crystal in your main hand"
+      - "{#FDB7D4}对Equipment Attribute进行全面增幅"
       - "{#FDB7D4}不同部位的增幅属性各不相同"
-      - "{#FDB7D4}成功率100%"
+      - "{#FDB7D4}Success rate: 100%"
       - '§e§lShift + 右键切换增幅位置 : §c§l 头盔'
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB6C1}&l魔{#FFA07A}&l法{#FA8072}&l-{#E9967A}&l装{#F08080}&l备{#FF69B4}&l强{#DB7093}&l化{#FFC0CB}&l&kl"
@@ -11342,7 +11342,7 @@ MAGIC_CHRISTMAS_SNOWBALL:
     lore: 
       - "{#FFD9EC}&kl{#FDB7D4}魔{#FD8EB7}法{#FA6CA5}道{#E84C8A}具{#D02C71}&kl"
       - "{#FDB7D4}右键炸出大片雪花"
-      - "{#FDB7D4}实验性道具"
+      - "{#FDB7D4}Experimental Item"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB6C1}&l魔{#FFA07A}&l法{#FA8072}&l-{#E9967A}&l测{#F08080}&l试&k&ll"
   script: CHRISTMAS_SNOWBALL
@@ -11366,7 +11366,7 @@ MAGIC_SOUND:
     lore: 
       - "{#FFD9EC}&kl{#FDB7D4}魔{#FD8EB7}法{#FA6CA5}道{#E84C8A}具{#D02C71}&kl"
       - "{#FDB7D4}右键炸出大片雪花"
-      - "{#FDB7D4}实验性道具"
+      - "{#FDB7D4}Experimental Item"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB6C1}&l魔{#FFA07A}&l法{#FA8072}&l-{#E9967A}&l测{#F08080}&l试&k&ll"
   script: sound
@@ -11385,7 +11385,7 @@ MAGIC_ZHENFA_FIRE_1:
       - "{#FDB7D4}召唤出阵法"
       - "{#FDB7D4}对范围内的生物造成真实伤害"
       - "{#FDB7D4}无视护甲抗性"
-      - "{#FDB7D4}实验性道具"
+      - "{#FDB7D4}Experimental Item"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB6C1}&l魔{#FFA07A}&l法{#FA8072}&l-{#E9967A}&l测{#F08080}&l试&k&ll"
   script: 阵法_小火苗_1
@@ -11435,153 +11435,153 @@ MAGIC_KAOGU_BRUSH:
 MAGIC_ZWF_1:
   item_group: mf_zwf_1
   item:
-    name: "&f&l这就是一个占位符而已"
+    name: "&f&lThis is only a placeholder"
     lore:
-      - '&6&l这就是一个占位符而已'
+      - '&6&lThis is only a placeholder'
     material: PAPER
   placeable: false
   recipe_type: 'NULL'
 MAGIC_ZWF_2:
   item_group: mf_zwf_2
   item:
-    name: "&f&l这就是一个占位符而已"
+    name: "&f&lThis is only a placeholder"
     lore:
-      - '&6&l这就是一个占位符而已'
+      - '&6&lThis is only a placeholder'
     material: PAPER
   placeable: false
   recipe_type: 'NULL'
 MAGIC_ZWF_3:
   item_group: mf_zwf_3
   item:
-    name: "&f&l这就是一个占位符而已"
+    name: "&f&lThis is only a placeholder"
     lore:
-      - '&6&l这就是一个占位符而已'
+      - '&6&lThis is only a placeholder'
     material: PAPER
   placeable: false
   recipe_type: 'NULL'
 MAGIC_ZWF_4:
   item_group: mf_zwf_4
   item:
-    name: "&f&l这就是一个占位符而已"
+    name: "&f&lThis is only a placeholder"
     lore:
-      - '&6&l这就是一个占位符而已'
+      - '&6&lThis is only a placeholder'
     material: PAPER
   placeable: false
   recipe_type: 'NULL'
 MAGIC_ZWF_5:
   item_group: mf_zwf_5
   item:
-    name: "&f&l这就是一个占位符而已"
+    name: "&f&lThis is only a placeholder"
     lore:
-      - '&6&l这就是一个占位符而已'
+      - '&6&lThis is only a placeholder'
     material: PAPER
   placeable: false
   recipe_type: 'NULL'
 MAGIC_ZWF_6:
   item_group: mf_zwf_6
   item:
-    name: "&f&l这就是一个占位符而已"
+    name: "&f&lThis is only a placeholder"
     lore:
-      - '&6&l这就是一个占位符而已'
+      - '&6&lThis is only a placeholder'
     material: PAPER
   placeable: false
   recipe_type: 'NULL'
 MAGIC_ZWF_7:
   item_group: mf_zwf_7
   item:
-    name: "&f&l这就是一个占位符而已"
+    name: "&f&lThis is only a placeholder"
     lore:
-      - '&6&l这就是一个占位符而已'
+      - '&6&lThis is only a placeholder'
     material: PAPER
   placeable: false
   recipe_type: 'NULL'
 MAGIC_ZWF_8:
   item_group: mf_zwf_8
   item:
-    name: "&f&l这就是一个占位符而已"
+    name: "&f&lThis is only a placeholder"
     lore:
-      - '&6&l这就是一个占位符而已'
+      - '&6&lThis is only a placeholder'
     material: PAPER
   placeable: false
   recipe_type: 'NULL'
 MAGIC_ZWF_9:
   item_group: mf_zwf_9
   item:
-    name: "&f&l这就是一个占位符而已"
+    name: "&f&lThis is only a placeholder"
     lore:
-      - '&6&l这就是一个占位符而已'
+      - '&6&lThis is only a placeholder'
     material: PAPER
   placeable: false
   recipe_type: 'NULL'
 MAGIC_ZWF_10:
   item_group: mf_zwf_10
   item:
-    name: "&f&l这就是一个占位符而已"
+    name: "&f&lThis is only a placeholder"
     lore:
-      - '&6&l这就是一个占位符而已'
+      - '&6&lThis is only a placeholder'
     material: PAPER
   placeable: false
   recipe_type: 'NULL'
 MAGIC_ZWF_11:
   item_group: mf_zwf_11
   item:
-    name: "&f&l这就是一个占位符而已"
+    name: "&f&lThis is only a placeholder"
     lore:
-      - '&6&l这就是一个占位符而已'
+      - '&6&lThis is only a placeholder'
     material: PAPER
   placeable: false
   recipe_type: 'NULL'
 MAGIC_ZWF_12:
   item_group: mf_zwf_12
   item:
-    name: "&f&l这就是一个占位符而已"
+    name: "&f&lThis is only a placeholder"
     lore:
-      - '&6&l这就是一个占位符而已'
+      - '&6&lThis is only a placeholder'
     material: PAPER
   placeable: false
   recipe_type: 'NULL'
 MAGIC_ZWF_13:
   item_group: mf_zwf_13
   item:
-    name: "&f&l这就是一个占位符而已"
+    name: "&f&lThis is only a placeholder"
     lore:
-      - '&6&l这就是一个占位符而已'
+      - '&6&lThis is only a placeholder'
     material: PAPER
   placeable: false
   recipe_type: 'NULL'
 MAGIC_ZWF_14:
   item_group: mf_zwf_14
   item:
-    name: "&f&l这就是一个占位符而已"
+    name: "&f&lThis is only a placeholder"
     lore:
-      - '&6&l这就是一个占位符而已'
+      - '&6&lThis is only a placeholder'
     material: PAPER
   placeable: false
   recipe_type: 'NULL'
 MAGIC_ZWF_15:
   item_group: mf_zwf_15
   item:
-    name: "&f&l这就是一个占位符而已"
+    name: "&f&lThis is only a placeholder"
     lore:
-      - '&6&l这就是一个占位符而已'
+      - '&6&lThis is only a placeholder'
     material: PAPER
   placeable: false
   recipe_type: 'NULL'
 MAGIC_ZWF_16:
   item_group: mf_zwf_16
   item:
-    name: "&f&l这就是一个占位符而已"
+    name: "&f&lThis is only a placeholder"
     lore:
-      - '&6&l这就是一个占位符而已'
+      - '&6&lThis is only a placeholder'
     material: PAPER
   placeable: false
   recipe_type: 'NULL'
 MAGIC_ZWF_17:
   item_group: mf_zwf_17
   item:
-    name: "&f&l这就是一个占位符而已"
+    name: "&f&lThis is only a placeholder"
     lore:
-      - '&6&l这就是一个占位符而已'
+      - '&6&lThis is only a placeholder'
     material: PAPER
   placeable: false
   recipe_type: 'NULL'
@@ -11601,7 +11601,7 @@ MAGIC_ROD_DESCRIPTION:
       - "{#FDB7D4}然后选中放置鱼杆的格子，让其在主手（右手）中出现"
       - "{#FDB7D4}将鱼饵放置在玩家物品栏右上角↓"
       - "{#FDB7D4}4x9，最最右上角的那个格子"
-      - "{#FDB7D4}图片说明书↓"
+      - "{#FDB7D4}图片Description书↓"
       - "{#FDB7D4}下方为玩家背包示例↓"
       - "{#FDB7D4}┌─────────────────────────────────────────────────────"
       - "{#FDB7D4}│ ▢ │ ▢ │ ▢ │ ▢ │ ▢ │ ▢ │ ▢ │ ▢ │ ▣ │←←←鱼饵放在这个格子里"
@@ -11613,9 +11613,9 @@ MAGIC_ROD_DESCRIPTION:
       - "{#FDB7D4}│ ▣ │ ▣ │ ▣ │ ▣ │ ▣ │ ▣ │ ▣ │ ▣ │ ▣ │←←←鱼杆放在这一行的任何一格都可以"
       - "{#FDB7D4}└─────────────────────────────────────────────────────"
       - "{#FDB7D4}"
-      - "{#FDB7D4}从第二代鱼饵开始，没有特别规范的使用说明"
+      - "{#FDB7D4}从第二代鱼饵开始，没有特别规范的使用Description"
       - "{#FDB7D4}主手拿鱼杆，背包中有饵料即可正常触发魔法钓鱼"
-      - "{#FDB7D4}特别说明，越先进的鱼饵，优先级越高"
+      - "{#FDB7D4}特别Description，越先进的鱼饵，优先越高"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l垂{#E9967A}&l钓{#F08080}&l&kl"
   recipe_type: MAGIC_NONE
@@ -11819,9 +11819,9 @@ MAGIC_BANNER_LIANHUN:
       - "{#FDB7D4}===================================================================================================="
       - "{#FDB7D4}右键释放小范围攻击，并且强化自身状态，伤害=灵魂数量x0.003，随机消耗0~6个灵魂"
       - "{#FDB7D4}在它的庇护下，黑夜如同白昼，"
-      - "{#FDB7D4}你的速度如风一般迅捷，力量无穷。"
+      - "{#FDB7D4}你的Speed如风一般迅捷，力量无穷。"
       - "{#FDB7D4}持有者将获得超凡的夜视能力，"
-      - "{#FDB7D4}移动速度大幅提升，攻击更加致命。"
+      - "{#FDB7D4}移动Speed大幅提升，攻击更加致命。"
       - "{#FDB7D4}它是战场上的圣泉！"
       - "{#FDB7D4}===================================================================================================="
       - "{#FDB7D4}蹲下右键释放大范围群体攻击，自身进入虚弱状态，伤害=灵魂数量x8，并且消耗三分之一的灵魂数量"
@@ -12053,7 +12053,7 @@ MAGIC_GROWTH_CHAMBER_MK2:
     name: "&eMK2培育仓（仅作为合成材料）"
     material: LIME_STAINED_GLASS
     lore:
-      - "&4魔法材料"
+      - "&4Magic Material"
   recipe:
     1:
       material_type: slimefun
@@ -12099,7 +12099,7 @@ MAGIC_GROWTH_CHAMBER_END_MK2:
     name: "&eMK2培育仓-末影（仅作为合成材料）"
     material: PURPLE_STAINED_GLASS
     lore:
-      - "&4魔法材料"
+      - "&4Magic Material"
   recipe:
     1:
       material_type: slimefun
@@ -12144,7 +12144,7 @@ MAGIC_GROWTH_CHAMBER_NETHER_MK2:
     name: "&eMK2培育仓-地狱（仅作为合成材料）"
     material: RED_STAINED_GLASS
     lore:
-      - "&4魔法材料"
+      - "&4Magic Material"
   recipe:
     1:
       material_type: slimefun
@@ -12189,7 +12189,7 @@ MAGIC_GROWTH_CHAMBER_OCEAN_MK2:
     name: "&eMK2培育仓-海洋（仅作为合成材料）"
     material: RED_STAINED_GLASS
     lore:
-      - "&4魔法材料"
+      - "&4Magic Material"
   recipe:
     1:
       material_type: slimefun
@@ -12235,7 +12235,7 @@ BEE:
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODIzNjkwYjY0YjQwM2Y0MzYwZDVkNTEwYTE1Mjg2NjJmMjQyZjI5ZDlmOWI0MmExYTVhNGU1NmY5M2ZmYjc4ZiJ9fX0=
     lore:
-      - "&4魔法材料"
+      - "&4Magic Material"
   recipe:
     4:
       material: YELLOW_WOOL
@@ -12258,7 +12258,7 @@ MAGIC_BEE:
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODIzNjkwYjY0YjQwM2Y0MzYwZDVkNTEwYTE1Mjg2NjJmMjQyZjI5ZDlmOWI0MmExYTVhNGU1NmY5M2ZmYjc4ZiJ9fX0=
     lore:
-      - "&4魔法材料"
+      - "&4Magic Material"
   recipe:
     4:
       material: YELLOW_WOOL

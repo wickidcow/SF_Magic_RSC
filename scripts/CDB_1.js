@@ -2,7 +2,7 @@ function onUse(event, itemStack) {
     var player = event.getPlayer();
     //检查主手是否持有物品
     if (event.getHand() !== org.bukkit.inventory.EquipmentSlot.HAND) {
-        sendMessage(player, "主手请持物品");
+        sendMessage(player, "Please hold an item in your main hand");
         return;
     }
 
@@ -13,7 +13,7 @@ function onUse(event, itemStack) {
     var itemInOffHand = player.getInventory().getItemInOffHand();
     
     if (!itemInOffHand || itemInOffHand.getType() === org.bukkit.Material.AIR) {
-        sendMessage(player, "副手需要持有物品");
+        sendMessage(player, "You must hold an item in your off hand");
         return ;
     }
 
@@ -43,7 +43,7 @@ function onUse(event, itemStack) {
 
     if (slimefunItem == null) {
         // 如果副手持有有效且可充电的物品，则继续执行其他逻辑
-        sendMessage(player, "§b这个是个不可充电物品");
+        sendMessage(player, "§bThis item cannot be recharged");
         return;
     }
 
@@ -59,7 +59,7 @@ function onUse(event, itemStack) {
 
     if (!(MAX_Charge > 0)) {
         // 如果副手持有有效且可充电的物品，则继续执行其他逻辑
-        sendMessage(player, "§b这个是个不可充电物品");
+        sendMessage(player, "§bThis item cannot be recharged");
         return;
     }
 

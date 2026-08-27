@@ -6,12 +6,12 @@ MAGIC_INFINITY_DUST_EXTRACTOR:
     lore:
       - "&7将圆石变为矿粉"
       - ""
-      - "&4终极 机器"
-      - "&8⇨&e ⚡ &7速度: &464x"
+      - "&4Ultimate Machine"
+      - "&8⇨&e ⚡ &7Speed: &464x"
       - "&8⇨&e ⚡ &757600 J/s"
-      - "&8⇨&e ⚡ &7115200 J 可存储"
+      - "&8⇨&e ⚡ &7115200 J Storage"
       - "&a"
-      - "&c魔法机器"
+      - "&cMagic Machine"
   recipe_type: ANCIENT_ALTAR
   recipe:
     1: 
@@ -109,9 +109,9 @@ MAGIC_NEWPLAYER_DUST_EXTRACTOR:
     lore:
       - "&7将圆石变为矿粉"
       - ""
-      - "&8⇨&e ⚡ &7速度: &b1x"
+      - "&8⇨&e ⚡ &7Speed: &b1x"
       - "&8⇨&e ⚡ &72 J/s"
-      - "&8⇨&e ⚡ &7100 J 可存储"
+      - "&8⇨&e ⚡ &7100 J Storage"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l萌{#E9967A}&l新{#F08080}&l福{#FF69B4}&l利{#DB7093}&l机{#FFC0CB}&l器{#FFC0CB}&l&kl"
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -178,9 +178,9 @@ MAGIC_NEWPLAYER_INGOT_FORMER:
     lore:
       - "&7将矿粉铸成锭"
       - "&a"
-      - "&8⇨&e ⚡ &7速度: &b1x"
+      - "&8⇨&e ⚡ &7Speed: &b1x"
       - "&8⇨&e ⚡ &72 J/s"
-      - "&8⇨&e ⚡ &7100 J 可存储"
+      - "&8⇨&e ⚡ &7100 J Storage"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l萌{#E9967A}&l新{#F08080}&l福{#FF69B4}&l利{#DB7093}&l机{#FFC0CB}&l器{#FFC0CB}&l&kl"
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -316,9 +316,9 @@ MAGIC_NEWPLAYER_GOLD_PAN2:
       - "&8&o这座淘金厂或许早已被人们忘记了吧"
       - "&8&o将沙子送入淘金厂"
       - "&8&o有概率淘出各种稀有矿物"
-      - "&8⇨&e ⚡ &7速度: &b1x"
+      - "&8⇨&e ⚡ &7Speed: &b1x"
       - "&8⇨&e ⚡ &72 J/s"  
-      - "&8⇨&e ⚡ &758 J 可存储"
+      - "&8⇨&e ⚡ &758 J Storage"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l萌{#E9967A}&l新{#F08080}&l福{#FF69B4}&l利{#DB7093}&l机{#FFC0CB}&l器{#FFC0CB}&l&kl"
   recipe_type: MAGIC_WORKBENCH
@@ -396,12 +396,12 @@ MAGIC_INFINITY_INGOT_FORMER:
     lore:
       - "&7将矿粉变为锭"
       - ""
-      - "&4终极 机器"
-      - "&8⇨&e ⚡ &7速度: &464x"
+      - "&4Ultimate Machine"
+      - "&8⇨&e ⚡ &7Speed: &464x"
       - "&8⇨&e ⚡ &757600 J/s"
-      - "&8⇨&e ⚡ &7115200 J 可存储"
+      - "&8⇨&e ⚡ &7115200 J Storage"
       - "&a"
-      - "&c魔法机器"
+      - "&cMagic Machine"
   recipe_type: ANCIENT_ALTAR
   recipe:
     1: 
@@ -590,12 +590,12 @@ MAGIC_ENERGY_PRESS:
       - "&a"
       - "&7对材料进行压缩"
       - "&a" 
-      - "&6中级 机器"
-      - "&8⇨&e ⚡ &7速度: &b1x"
+      - "&6中 机器"
+      - "&8⇨&e ⚡ &7Speed: &b1x"
       - "&8⇨&e ⚡ &72048 J/per"
-      - "&8⇨&e ⚡ &74096 J 可存储"
+      - "&8⇨&e ⚡ &74096 J Storage"
       - "&a"
-      - "&c魔法机器"
+      - "&cMagic Machine"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1: 
@@ -728,12 +728,12 @@ MAGIC_IMPACT:
       - "&7强行使红石变为魔法红石"
       - "&6这个过程损耗极大"
       - "&a" 
-      - "&d高级 机器"
-      - "&8⇨&e ⚡ &7速度: &b1x"
+      - "&dAdvanced Machine"
+      - "&8⇨&e ⚡ &7Speed: &b1x"
       - "&8⇨&e ⚡ &7512 J/per"
-      - "&8⇨&e ⚡ &72048J 可存储"
+      - "&8⇨&e ⚡ &72048J Storage"
       - "&a"
-      - "&c魔法机器"
+      - "&cMagic Machine"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1: 
@@ -830,10 +830,10 @@ MAGIC_NEW_CONVERT:
       - "&7放入该机器"
       - "&7就会转变为随机相似属性的机器"
       - "&a" 
-      - "&a初级 机器"
-      - "&8⇨&e ⚡ &7速度: &b1x"
+      - "&a初 机器"
+      - "&8⇨&e ⚡ &7Speed: &b1x"
       - "&8⇨&e ⚡ &750 J/per"
-      - "&8⇨&e ⚡ &71024 J 可存储"
+      - "&8⇨&e ⚡ &71024 J Storage"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l萌{#E9967A}&l新{#F08080}&l福{#FF69B4}&l利{#DB7093}&l机{#FFC0CB}&l器{#FFC0CB}&l&kl"
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -919,18 +919,18 @@ MAGIC_NEW_CONVERT:
 MAGIC_CD_MACHINES_1:
   item_group: magic_cd_machines
   item:
-    name: "&b魔法卡片复制机(废弃，请使用转换机转换为新的)"
+    name: "&bMagic Card Duplicator(废弃，请使用转换机转换为新的)"
     material: LOOM
     lore:
       - "&a"
-      - "&f使用&4魔法卡片&f生产各种物品"
+      - "&f使用&4Magic Card&f生产各种物品"
       - "&a" 
-      - "&6终极 机器"
-      - "&8⇨&e ⚡ &7速度: &b1x"
+      - "&6Ultimate Machine"
+      - "&8⇨&e ⚡ &7Speed: &b1x"
       - "&8⇨&e ⚡ &720480 J/per"
-      - "&8⇨&e ⚡ &740960 J 可存储"
+      - "&8⇨&e ⚡ &740960 J Storage"
       - "&a"
-      - "&c魔法机器"
+      - "&cMagic Machine"
   recipe_type: MAGIC_NONE
   capacity: 40960
   input: [10]
@@ -961,10 +961,10 @@ MAGIC_GENSHIN_IMPACT_MACHINES:
     name: "&b盲盒拆解机"
     lore:
     - "&a"
-    - "&f初级 机器"
+    - "&f初 机器"
     - "&f用于打开各种盲盒"
-    - "&8⇨ &7速度: &b每 4 粘液刻拆解一次"
-    - "&8⇨ &e⚡&7 8800 J 可存储"
+    - "&8⇨ &7Speed: &b每 4 粘液刻拆解一次"
+    - "&8⇨ &e⚡&7 8800 J Storage"
     - "&8⇨ &e⚡&7 100 J/s"
     - "&a" 
     - "&a盲盒机器"
@@ -1136,13 +1136,13 @@ MAGIC_WAR_MACHINES_NUMERATOR:
     name: "&b分子互作仪"
     lore:
     - "&a"
-    - "&6高级 机器"
-    - "&f将物质转化为对应自然元素"
-    - "&8⇨ &7速度: &b每 4 粘液刻互作一次"
-    - "&8⇨ &e⚡&7 6400 J 可存储"
+    - "&6Advanced Machine"
+    - "&f将物质转化为对应Natural Element"
+    - "&8⇨ &7Speed: &b每 4 粘液刻互作一次"
+    - "&8⇨ &e⚡&7 6400 J Storage"
     - "&8⇨ &e⚡&7 800 J/per"
     - "&a" 
-    - "&a魔法机器"
+    - "&aMagic Machine"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDQ5YmM3MGM4ZmQyYzJlYzI3NzA1Y2Y4NTBlMmI0ODkyMzllYTc5NjI0NWQ0NzI3ZjBkNzc0YTFmZWI2Y2ZhZSJ9fX0=
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -1229,13 +1229,13 @@ MAGIC_WAR_MACHINES_CREATING_TABLE:
     name: "&b元素嬗变器"
     lore:
     - "&a"
-    - "&6高级 机器"
+    - "&6Advanced Machine"
     - "&f将元素物质重组成对应自然资源"
-    - "&8⇨ &7速度: &b每 4 粘液刻重组一次"
-    - "&8⇨ &e⚡&7 9600 J 可存储"
+    - "&8⇨ &7Speed: &b每 4 粘液刻重组一次"
+    - "&8⇨ &e⚡&7 9600 J Storage"
     - "&8⇨ &e⚡&7 1600 J/per"
     - "&a" 
-    - "&a魔法机器"
+    - "&aMagic Machine"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTUyOGJlNmQ0MjYzZGFkY2U2MTNhN2JiYzA0MjNhYTc2YTM5Yzc0ODQ2NzAyZmE4NWMyNzg3YTdmNTNjNCJ9fX0=
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -1319,14 +1319,14 @@ MAGIC_AUTHOR_MACHINE_BASIC:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDQ0M2ZkNWVkN2M3Y2I1NTQ3Njg1YTQ5MGFkYzE4ZGM0N2NiYjJkYTE2OGQzYmYyYjczMWZjNWMxOTM0MmViNyJ9fX0=
     lore:
       - "&a"
-      - "&4终极 机器"
+      - "&4Ultimate Machine"
       - "&7用于制造一些"
       - "&7起源物品"
-      - "&8⇨&e ⚡ &7速度: &b16x"
+      - "&8⇨&e ⚡ &7Speed: &b16x"
       - "&8⇨&e ⚡ &7166666 J/s"  
-      - "&8⇨&e ⚡ &710000000 J 可存储"
+      - "&8⇨&e ⚡ &710000000 J Storage"
       - "&a"
-      - "&c魔法机器"
+      - "&cMagic Machine"
   recipe_type: MAGIC_WORKBENCH
   recipe:
     1:
@@ -1569,14 +1569,14 @@ MAGIC_AUTHOR_MACHINE:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjU4NTBjYjhkNWYzMDg5Mzk5YWVhYzgxOTFmZWY5NmFkYmRlMWRiNWVjYjgyYmNmZTc0YzEzMjg2MmRkZTczZiJ9fX0=
     lore:
       - "&a"
-      - "&4终极 机器"
+      - "&4Ultimate Machine"
       - "&7用于制造一些"
       - "&7起源物品"
-      - "&8⇨&e ⚡ &7速度: &c1024x"
+      - "&8⇨&e ⚡ &7Speed: &c1024x"
       - "&8⇨&e ⚡ &710000000 J/per"  
-      - "&8⇨&e ⚡ &710000000 J 可存储"
+      - "&8⇨&e ⚡ &710000000 J Storage"
       - "&a"
-      - "&c魔法机器"
+      - "&cMagic Machine"
   recipe_type: ANCIENT_ALTAR
   recipe:
     1:
@@ -1813,14 +1813,14 @@ MAGIC_AUTHOR_MACHINE:
 MAGIC_CD_MACHINES_UPUP:
   item_group: magic_cd_machines
   item:
-    name: "&b魔法卡片复制机转换器"
+    name: "&bMagic Card Duplicator转换器"
     material: SMOKER
     lore:
       - "&a"
-      - "&7用于转换魔法卡片复制机"
+      - "&7用于转换Magic Card Duplicator"
       - "&a每次转换1024J"
       - "&a"
-      - "&c魔法机器"
+      - "&cMagic Machine"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1: 
@@ -1856,10 +1856,10 @@ MAGIC_DATA_CARD_INSERT:
     lore:
     - "&7将魔法注入到生物芯片"
     - "&a"
-    - "&8⇨ &e⚡&7 80,000 J 可存储"
+    - "&8⇨ &e⚡&7 80,000 J Storage"
     - "&8⇨ &e⚡&7 20,000 J/s"
     - "&a" 
-    - "&c魔法机器"
+    - "&cMagic Machine"
     material: lodestone
   recipe_type: ANCIENT_ALTAR
   recipe:
@@ -2155,11 +2155,11 @@ MAGIC_ITEMX64_MACHINE:
     lore:
       - "&7可以将非堆叠物进行堆叠"
       - ""
-      - "&8⇨&e ⚡ &7速度: &b1x"
+      - "&8⇨&e ⚡ &7Speed: &b1x"
       - "&8⇨&e ⚡ &71280 J/s"
-      - "&8⇨&e ⚡ &72560 J 可存储"
+      - "&8⇨&e ⚡ &72560 J Storage"
       - "&a"
-      - "&b魔法机器"
+      - "&bMagic Machine"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1:
@@ -2212,15 +2212,15 @@ MAGIC_CD_SINGULARITY:
     material: MAGENTA_GLAZED_TERRACOTTA
     lore:
       - "&a" 
-      - "&6高级 机器"
+      - "&6Advanced Machine"
       - "&7将资源压缩成奇点"
-      - "&7并结合卡片制作成魔法卡片"
+      - "&7并结合卡片制作成Magic Card"
       - "&a"
-      - "&8⇨&e ⚡ &7速度: &b1x"
+      - "&8⇨&e ⚡ &7Speed: &b1x"
       - "&8⇨&e ⚡ &7512 J/s"
-      - "&8⇨&e ⚡ &71024 J 可存储"
+      - "&8⇨&e ⚡ &71024 J Storage"
       - "&a"
-      - "&b魔法机器"
+      - "&bMagic Machine"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1:
@@ -2491,9 +2491,9 @@ MAGIC_URANIUM_EXTRACTOR:
       - "&7将圆石变为铀"
       - ""
       - "&8⇨&e ⚡ &71024 J/s"
-      - "&8⇨&e ⚡ &72048 J 可存储"
+      - "&8⇨&e ⚡ &72048 J Storage"
       - "&a"
-      - "&c魔法机器"
+      - "&cMagic Machine"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1:
@@ -2549,15 +2549,15 @@ MAGIC_BEE_MACHINE:
     material: BEE_NEST
     lore:
       - "&a"
-      - "&6中级 机器"
+      - "&6中 机器"
       - "&7蜜蜂学习魔法的巢穴"
       - "&4某些蜜蜂承受不住强大的魔法力"
       - "&4便会再进化途中死去"
-      - "&8⇨&e ⚡ &7速度: &c1x"
+      - "&8⇨&e ⚡ &7Speed: &c1x"
       - "&8⇨&e ⚡ &7100 J/per"  
-      - "&8⇨&e ⚡ &71000 J 可存储"
+      - "&8⇨&e ⚡ &71000 J Storage"
       - "&a"
-      - "&c魔法机器"
+      - "&cMagic Machine"
   recipe_type: ANCIENT_ALTAR
   recipe:
     1:
@@ -2640,9 +2640,9 @@ MAGIC_DUST_WASHER:
     lore:
       - "&a"
       - "&e基础 机器"
-      - "&8⇨&e ⚡ &7速度: &c1x"
+      - "&8⇨&e ⚡ &7Speed: &c1x"
       - "&8⇨&e ⚡ &710 J/s"  
-      - "&8⇨&e ⚡ &7100 J 可存储"
+      - "&8⇨&e ⚡ &7100 J Storage"
       - "&a"
       - "&b萌新福利机器"
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -2763,11 +2763,11 @@ MAGIC_RANDOM_ITEM_MACHINE:
       - "&a"
       - "&f起源 机器"
       - "&f&l运用电力模拟宇宙规则演化"
-      - "&8⇨&e ⚡ &7速度: &c1x"
+      - "&8⇨&e ⚡ &7Speed: &c1x"
       - "&8⇨&e ⚡ &71000000000 J/tick"  
-      - "&8⇨&e ⚡ &72000000000 J 可存储"
+      - "&8⇨&e ⚡ &72000000000 J Storage"
       - "&a"
-      - "&c魔法机器"
+      - "&cMagic Machine"
     glow: true
   recipe_type: ANCIENT_ALTAR
   recipe:
@@ -2966,7 +2966,7 @@ MAGIC_IMPROVEMENT_FORGE:
       - "&7工具: 木 > 石 > 铁 > 金 > 钻石 > 下界合金"
       - "&7防具: 皮革 > 锁链 > 铁 > 金 > 钻石 > 下界合金"
       - "&a"
-      - "&4终极 机器"
+      - "&4Ultimate Machine"
       - "&8⇨&e ⚡ &7128 J/s"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -3090,9 +3090,9 @@ MAGIC_ORE_SMELTERY:
       - "&a"
       - "&e基础 机器"
       - "&7对矿石块进行冶炼提纯"
-      - "&8⇨&e ⚡ &7速度: &c1x"
+      - "&8⇨&e ⚡ &7Speed: &c1x"
       - "&8⇨&e ⚡ &7100 J/s"  
-      - "&8⇨&e ⚡ &72000 J 可存储"
+      - "&8⇨&e ⚡ &72000 J Storage"
       - "&a"
       - "&c杂项机器"
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -3401,14 +3401,14 @@ MAGIC_BATTERY_MACHINE_IN_1:
     material_type: slimefun
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODNlZDRjZTIzOTMzZTY2ZTA0ZGYxNjA3MDY0NGY3NTk5ZWViNTUzMDdmN2VhZmU4ZDkyZjQwZmIzNTIwODYzYyJ9fX0=
     lore:
-      - "&4终极 机器"
+      - "&4Ultimate Machine"
       - "&7用于对&b魔法红石存储单元进行充电"
       - "&a"
-      - "&8⇨&e ⚡ &7速度: &b999x"
+      - "&8⇨&e ⚡ &7Speed: &b999x"
       - "&8⇨&e ⚡ &72000 J/s"  
-      - "&8⇨&e ⚡ &72000 J 可存储"
+      - "&8⇨&e ⚡ &72000 J Storage"
       - "&a"
-      - "&c魔法机器"
+      - "&cMagic Machine"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1:
@@ -3475,13 +3475,13 @@ MAGIC_SKIN_CONVERT:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGFkYjI1YWI5OTc2ZDg5ZDBiZDgxMThkNzJjMWMwNmJiOTA3MDYwYzFlMDJhNzI5YjY1MmQxZTg2YjFlYmJiYyJ9fX0=
     lore:
       - "&a"
-      - "&4终极 机器"
+      - "&4Ultimate Machine"
       - "&7选取自己喜欢的皮肤吧~"
       - "&a"
       - "&8⇨&e ⚡ &71000 J/per"  
-      - "&8⇨&e ⚡ &710000 J 可存储"
+      - "&8⇨&e ⚡ &710000 J Storage"
       - "&a"
-      - "&c魔法机器"
+      - "&cMagic Machine"
   recipe_type: ANCIENT_ALTAR
   recipe:
     1:
@@ -3596,10 +3596,10 @@ MAGIC_ORIGIN_BASIC_DUST_EXTRACTOR:
     lore:
       - "&f将起源圆石变为起源矿粉"
       - ""
-      - "&8⇨&e ⚡ &7速度: &b1x"
+      - "&8⇨&e ⚡ &7Speed: &b1x"
       - "&8⇨&e ⚡ &714,400 J/s"
       - "&a"
-      - "&f起源机器"
+      - "&fOrigin Machine"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1:
@@ -3699,10 +3699,10 @@ MAGIC_ORIGIN_BASIC_INGOT_FORMER:
     lore:
       - "&f将起源矿粉铸成起源矿锭"
       - "&a"
-      - "&8⇨&e ⚡ &7速度: &b1x"
+      - "&8⇨&e ⚡ &7Speed: &b1x"
       - "&8⇨&e ⚡ &714,400 J/s"
       - "&a"
-      - "&f起源机器"
+      - "&fOrigin Machine"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1:
@@ -3866,10 +3866,10 @@ MAGIC_ORIGIN_MINERAL_DECOMPRESSOR:
     lore:
       - "&f将起源矿物资源还原成基础矿物资源"
       - "&a"
-      - "&8⇨&e ⚡ &7速度: &b1x"
+      - "&8⇨&e ⚡ &7Speed: &b1x"
       - "&8⇨&e ⚡ &71280 J/s"
       - "&a"
-      - "&f起源机器"
+      - "&fOrigin Machine"
   recipe_type: MAGIC_WORKBENCH
   recipe:
     1:
@@ -4345,10 +4345,10 @@ MAGIC_ORIGIN_PRESS:
     lore:
       - "&f将自然矿物压缩成起源矿物"
       - "&a"
-      - "&8⇨&e ⚡ &7速度: &b1x"
+      - "&8⇨&e ⚡ &7Speed: &b1x"
       - "&8⇨&e ⚡ &71280 J/s"
       - "&a"
-      - "&f起源机器"
+      - "&fOrigin Machine"
   recipe_type: MAGIC_WORKBENCH
   recipe:
     1:
@@ -4442,10 +4442,10 @@ MAGIC_ORIGIN_INFINITY_CONSTRUCTOR:
       - "&f起源 机器"
       - "&f&l快速凝聚大量资源"
       - "&a"
-      - "&8⇨&e ⚡ &7速度: &c3000x"
+      - "&8⇨&e ⚡ &7Speed: &c3000x"
       - "&8⇨&e ⚡ &7128000 J/s"
       - "&a"
-      - "&c魔法机器"
+      - "&cMagic Machine"
   recipe_type: MAGIC_WORKBENCH
   recipe:
     1:
@@ -4611,7 +4611,7 @@ MAGIC_MATERIAL_COPY:
     lore:
       - "{#FDB7D4}可以复制原版建筑材料"
       - "&a"
-      - "&8⇨&e ⚡ &7速度: {#FDB7D4}1x"
+      - "&8⇨&e ⚡ &7Speed: {#FDB7D4}1x"
       - "&8⇨&e ⚡ &7128 J/s"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l能{#E9967A}&l源{#F08080}&l与{#FF69B4}&l电{#DB7093}&l力{#FFC0CB}&l&kl"
@@ -4842,7 +4842,7 @@ MAGIC_ATTRIBUTE_CHAOS_FORGE:
       - "{#FDB7D4}锻造装备强化材料"
       - "{#FDB7D4}可以对锻造材料进行提纯"
       - "&a"
-      - "&8⇨&e ⚡ &7速度: {#FDB7D4}1x"
+      - "&8⇨&e ⚡ &7Speed: {#FDB7D4}1x"
       - "&8⇨&e ⚡ &7512 J/s"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB6C1}&l魔{#FFA07A}&l法{#FA8072}&l-{#E9967A}&l装{#F08080}&l备{#FF69B4}&l强{#DB7093}&l化{#FFC0CB}&l&kl"
@@ -4973,10 +4973,10 @@ MAGIC_MFCT_ITEM_GET:
     lore:
       - "{#FDB7D4}创造获取成品魔法抽屉"
       - "&a"
-      - "&8⇨&e ⚡ &7速度: {#FDB7D4}1x"
+      - "&8⇨&e ⚡ &7Speed: {#FDB7D4}1x"
       - "&8⇨&e ⚡ &7256 J/s"
       - "&a"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Experimental Machine"
       - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l抽{#E9967A}&l屉{#F08080}&l&kl"
   recipe_type: MAGIC_NONE
   capacity: 512
@@ -5100,7 +5100,7 @@ MAGIC_PEIYUSHI_1:
       - "&a"
       - "{#FDB7D4}让植物自动生长"
       - "&a"
-      - "&8⇨&e ⚡ &7速度: {#FDB7D4}1x"
+      - "&8⇨&e ⚡ &7Speed: {#FDB7D4}1x"
       - "&8⇨&e ⚡ &7512 J/s"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l能{#E9967A}&l源{#F08080}&l与{#FF69B4}&l电{#DB7093}&l力{#FFC0CB}&l&kl"
@@ -5757,7 +5757,7 @@ MAGIC_PEIYUSHI_2:
       - "&a"
       - "{#FDB7D4}让植物自动生长"
       - "&a"
-      - "&8⇨&e ⚡ &7速度: {#FDB7D4}2x"
+      - "&8⇨&e ⚡ &7Speed: {#FDB7D4}2x"
       - "&8⇨&e ⚡ &71024 J/s"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l能{#E9967A}&l源{#F08080}&l与{#FF69B4}&l电{#DB7093}&l力{#FFC0CB}&l&kl"
@@ -6394,23 +6394,23 @@ MAGIC_POWER_MIX_BOX_1:
     material: SEA_LANTERN
     glow: true
     lore:
-      - "{#FDB7D4}这是用于堆放发电机的矩阵台"
+      - "{#FDB7D4}这是用于堆放发电机的Matrix Platform"
       - "{#FDB7D4}将发电机放入本机器中"
-      - "{#FDB7D4}目前支持：基础风力、无尽、虚空、超级太阳能、高级太阳能、水利涡轮、充能太阳能、为爱发电机(8种)"
+      - "{#FDB7D4}目前支持：基础风力、无尽、虚空、超太阳能、高太阳能、水利涡轮、充能太阳能、为爱发电机(8种)"
       - "{#FDB7D4}最下方一行为状态栏，仅用于显示各种指数"
       - "{#FDB7D4}数据仅供参考，以实际放入机器为准"
       - "{#FDB7D4}此机器用于显示数据，下方机器为发电机器"
       - '{#FDB7D4}+----------------------------------------+'
-      - '{#FDB7D4}|      矩阵台                  |'
-      - '{#FDB7D4}| (放置在支持的魔法矩阵上方)  |'
+      - '{#FDB7D4}|      Matrix Platform                  |'
+      - '{#FDB7D4}| (Place above a supported Magic Matrix)  |'
       - '{#FDB7D4}+----------------------------------------+'
-      - '{#FDB7D4}|      魔法矩阵                |'
-      - '{#FDB7D4}| (放置在支持的矩阵台下方)    |'
+      - '{#FDB7D4}|      Magic Matrix                |'
+      - '{#FDB7D4}| (Place below a supported Matrix Platform)    |'
       - '{#FDB7D4}+----------------------------------------+'
-      - '{#FDB7D4}说明: '
-      - '{#FDB7D4}上方用于放置矩阵台(本机器)，它应该放在支持的魔法矩阵之上。'
-      - '{#FDB7D4}下方用于放置魔法矩阵，它应当位于支持的矩阵台之下。'
-      - "{#FDB7D4}实验性机器"
+      - '{#FDB7D4}Description: '
+      - '{#FDB7D4}上方用于放置Matrix Platform(本机器)，它应该放在支持的Magic Matrix之上。'
+      - '{#FDB7D4}下方用于放置Magic Matrix，它应当位于支持的Matrix Platform之下。'
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l能{#E9967A}&l源{#F08080}&l与{#FF69B4}&l电{#DB7093}&l力"
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -6475,13 +6475,13 @@ MAGIC_FLOWER_MIX_BOX_1:
       - "{#FFA8AF}除{#FF9DA4}夕{#FA8E99}限{#F97F8E}定"
       - "{#FDB7D4}"
       - "{#FDB7D4}+----------------------------------+-----------------------------------+----------------------------------+"
-      - "{#FDB7D4}|       输入/输出       　|         输入/输出    　　|      输入/输出   　　   |"
+      - "{#FDB7D4}|       Input/Output       　|         Input/Output    　　|      Input/Output   　　   |"
       - "{#FDB7D4}|        [空位]　　　      |          [空位]   　　　　|       [空位]     　　　　| <-- 第1行（奇数行）"
       - "{#FDB7D4}+----------------------------------+-----------------------------------+----------------------------------+"
       - "{#FDB7D4}|     　　预览　        　|      　　预览　        　|     　　预览　        　|"
       - "{#FDB7D4}|      [结果花朵1]     　　|       [结果花朵2]     　　|      [结果花朵3]     　　| <-- 第2行（偶数行）"
       - "{#FDB7D4}+----------------------------------+-----------------------------------+----------------------------------+"
-      - "{#FDB7D4}|       输入/输出       　|         输入/输出    　　|      输入/输出   　　   |"
+      - "{#FDB7D4}|       Input/Output       　|         Input/Output    　　|      Input/Output   　　   |"
       - "{#FDB7D4}|        [空位]　　　      |          [空位]   　　　　|       [空位]     　　　　| <-- 第3行（奇数行）"
       - "{#FDB7D4}+----------------------------------+-----------------------------------+----------------------------------+"
       - "{#FDB7D4}"
@@ -6503,7 +6503,7 @@ MAGIC_FLOWER_MIX_BOX_1:
 MAGIC_GEOMINER_BOX:
   item_group: magic_power
   item:
-    name: "{#FDB7D4}魔法资源输出箱"
+    name: "{#FDB7D4}魔法资源Output箱"
     material: CHEST
     glow: true
     lore:
@@ -6560,27 +6560,27 @@ MAGIC_INFINITY_MIX_BOX_1:
     glow: true
     lore:
       - "&a"
-      - "{#FDB7D4}这是用于堆放魔法无尽机器的矩阵台"
+      - "{#FDB7D4}这是用于堆放魔法无尽机器的Matrix Platform"
       - "{#FDB7D4}上方请使用配套机器进行生产"
       - "{#FDB7D4}解放魔法无尽系列机器的生产力"
       - "{#FDB7D4}并且增强其转换率"
       - "{#FDB7D4}让其能够以更高速率生产，并且实现一体化工艺"
       - "{#FDB7D4}这也意味着会消耗更多的电力"
       - "{#FDB7D4}此机器是一个控制机器生产"
-      - "{#FDB7D4}魔法圆石生成机处理速度：384个/s === 比例1:1 3200J/Per"
-      - "{#FDB7D4}魔法磨粉机处理速度：384个/s === 比例1:1 28800J/Per"
-      - "{#FDB7D4}魔法圆石生成机处理速度：384个/s === 比例1:1 28800J/Per"
+      - "{#FDB7D4}魔法圆石生成机处理Speed：384个/s === 比例1:1 3200J/Per"
+      - "{#FDB7D4}魔法磨粉机处理Speed：384个/s === 比例1:1 28800J/Per"
+      - "{#FDB7D4}魔法圆石生成机处理Speed：384个/s === 比例1:1 28800J/Per"
       - '{#FDB7D4}+----------------------------------------+'
-      - '{#FDB7D4}|      矩阵台                  |'
-      - '{#FDB7D4}| (放置在支持的魔法矩阵上方)  |'
+      - '{#FDB7D4}|      Matrix Platform                  |'
+      - '{#FDB7D4}| (Place above a supported Magic Matrix)  |'
       - '{#FDB7D4}+----------------------------------------+'
-      - '{#FDB7D4}|      魔法矩阵                |'
-      - '{#FDB7D4}| (放置在支持的矩阵台下方)    |'
+      - '{#FDB7D4}|      Magic Matrix                |'
+      - '{#FDB7D4}| (Place below a supported Matrix Platform)    |'
       - '{#FDB7D4}+----------------------------------------+'
-      - '{#FDB7D4}说明: '
-      - '{#FDB7D4}上方用于放置矩阵台(本机器)，它应该放在支持的魔法矩阵之上。'
-      - '{#FDB7D4}下方用于放置魔法矩阵，它应当位于支持的矩阵台之下。'
-      - "{#FDB7D4}实验性机器"
+      - '{#FDB7D4}Description: '
+      - '{#FDB7D4}上方用于放置Matrix Platform(本机器)，它应该放在支持的Magic Matrix之上。'
+      - '{#FDB7D4}下方用于放置Magic Matrix，它应当位于支持的Matrix Platform之下。'
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l能{#E9967A}&l源{#F08080}&l与{#FF69B4}&l电{#DB7093}&l力"
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -6642,9 +6642,9 @@ MAGIC_TWO_TO_RSC_MAGIC_GEO_MACHINE:
     lore:
       - "&7资源转换"
       - "&a"
-      - "&8⇨&e ⚡ &7速度: &b1x"
+      - "&8⇨&e ⚡ &7Speed: &b1x"
       - "&8⇨&e ⚡ &72 J/s"
-      - "&8⇨&e ⚡ &7100 J 可存储"
+      - "&8⇨&e ⚡ &7100 J Storage"
       - "&a"
       - "&c魔法机"
   recipe_type: ENHANCED_CRAFTING_TABLE

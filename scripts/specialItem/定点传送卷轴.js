@@ -88,13 +88,13 @@ const toLocation = (itemStack,player) => {
     let pitch = pitchMatch ? parseFloat(pitchMatch[1]) : null; 
 
     if(!worldName){
-        player.sendMessage("§c错误：无法找到世界 '" + worldName + "'！");
+        player.sendMessage("§c错误：Could not find world '" + worldName + "'！");
         return;
     }
 
     let world = org.bukkit.Bukkit.getWorld(worldName);
     if (!world) {
-        player.sendMessage("§c错误：无法找到世界 '" + worldName + "'！");
+        player.sendMessage("§c错误：Could not find world '" + worldName + "'！");
         return;
     }
 
@@ -127,7 +127,7 @@ function onUse(event) {
     let player = event.getPlayer();
     // 检查主手是否持有物品
     if (MainHandIf(event.getHand())) {
-        sendMessage(player, "§b请用主手持物品");
+        sendMessage(player, "§bPlease hold an item in your main hand");
         return;
     }
 
@@ -145,7 +145,7 @@ function onUse(event) {
     let lastUseTime = playerLastUseTimes.getOrDefault(playerId, 0);   
     if (currentTime - lastUseTime < 10000) {
         const remainingTime = parseFloat((10000 - (currentTime - lastUseTime)) / 2500).toFixed(5);
-        player.sendTitle("§c§l你已经虚脱了！", "距离下次使用还要休息：" + remainingTime + "坤秒", 10, 40, 10);
+        player.sendTitle("§c§l你已经虚脱了！", "距离下次使用还要休息：" + remainingTime + "坤 seconds", 10, 40, 10);
         return; 
     }
     playerLastUseTimes.put(playerId, currentTime);

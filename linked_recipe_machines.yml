@@ -9,7 +9,7 @@ MAGIC_INFINITY_FORGE_1:
       - "{#FDB7D4}&l需要耗费巨量电力"
       - "&a"
       - "&8⇨&e ⚡ &75,000,000  J/s"
-      - "&8⇨&e ⚡ &7100,000,000 J 可存储"
+      - "&8⇨&e ⚡ &7100,000,000 J Storage"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l能{#E9967A}&l源{#F08080}&l与{#FF69B4}&l电{#DB7093}&l力{#FFC0CB}&l&kl"
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -4184,7 +4184,7 @@ MAGIC_INFINITY_FORGE_ULTRA:
       - "{#FDB7D4}&l快速合成"
       - "&a"
       - "&8⇨&e ⚡ &710,000  J/per"
-      - "&8⇨&e ⚡ &72,000,000,000 J 可存储"
+      - "&8⇨&e ⚡ &72,000,000,000 J Storage"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l能{#E9967A}&l源{#F08080}&l与{#FF69B4}&l电{#DB7093}&l力{#FFC0CB}&l&kl"
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -8349,14 +8349,14 @@ MAGIC_INFINITY_FORGE_ULTRA:
 MAGIC_SUPREME_ELECTRIC_MAGICAL_I:
   item_group: magic_plant
   item:
-    name: "{#FFC0CB}电力魔法工厂-I"
+    name: "{#FFC0CB}Electric Magic Factory I"
     material: CRYING_OBSIDIAN
     lore:
       - "&a"
       - "{#FDB7D4}&l自动合成魔法资源"
       - "&a"
-      - "&3至尊 机器"
-      - "&8⇨&b ⚡ &7速度：&b1.0x"
+      - "&3Supreme Machine"
+      - "&8⇨&b ⚡ &7Speed：&b1.0x"
       - "&8⇨&b ⚡ &720.00 J/s"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l至{#E9967A}&l尊{#F08080}&l工{#FF69B4}&l艺{#FFC0CB}&l&kl"
@@ -9275,14 +9275,14 @@ MAGIC_SUPREME_ELECTRIC_MAGICAL_I:
 MAGIC_SUPREME_ELECTRIC_MAGICAL_II:
   item_group: magic_plant
   item:
-    name: "{#FFC0CB}电力魔法工厂-II"
+    name: "{#FFC0CB}Electric Magic Factory II"
     material: CRYING_OBSIDIAN
     lore:
       - "&a"
       - "{#FDB7D4}&l较快地合成魔法资源"
       - "&a"
-      - "&3至尊 机器"
-      - "&8⇨&b ⚡ &7速度：&b5.0x"
+      - "&3Supreme Machine"
+      - "&8⇨&b ⚡ &7Speed：&b5.0x"
       - "&8⇨&b ⚡ &7100.00 J/s"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l至{#E9967A}&l尊{#F08080}&l工{#FF69B4}&l艺{#FFC0CB}&l&kl"
@@ -10201,14 +10201,14 @@ MAGIC_SUPREME_ELECTRIC_MAGICAL_II:
 MAGIC_SUPREME_ELECTRIC_MAGICAL_III:
   item_group: magic_plant
   item:
-    name: "{#FFC0CB}电力魔法工厂-III"
+    name: "{#FFC0CB}Electric Magic Factory III"
     material: CRYING_OBSIDIAN
     lore:
       - "&a"
       - "{#FDB7D4}&l更快地合成魔法资源"
       - "&a"
-      - "&3至尊 机器"
-      - "&8⇨&b ⚡ &7速度：&c15.0x"
+      - "&3Supreme Machine"
+      - "&8⇨&b ⚡ &7Speed：&c15.0x"
       - "&8⇨&b ⚡ &7300.00 J/s"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l至{#E9967A}&l尊{#F08080}&l工{#FF69B4}&l艺{#FFC0CB}&l&kl"
@@ -11135,7 +11135,7 @@ MAGIC_SUPREME_ELECTRIC_MAGICAL:
       - "{#FDB7D4}&l可以对蜜蜂进行批量突变"
       - "&a"
       - "&c魔法 机器"
-      - "&8⇨&b ⚡ &7速度：&c999.0x"
+      - "&8⇨&b ⚡ &7Speed：&c999.0x"
       - "&8⇨&b ⚡ &71000.00 J/s"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l至{#E9967A}&l尊{#F08080}&l工{#FF69B4}&l艺{#FFC0CB}&l&kl"

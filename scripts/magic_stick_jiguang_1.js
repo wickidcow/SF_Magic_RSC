@@ -10,7 +10,7 @@ function onUse(event,itemStack) {
 
     // 检查主手是否持有物品
     if (event.getHand() !== EquipmentSlot.HAND) {
-        sendMessage(player, "§b请用主手持物品");
+        sendMessage(player, "§bPlease hold an item in your main hand");
         return;
     }
 

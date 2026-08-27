@@ -33,7 +33,7 @@ function onUse(event, itemStack){
     let player = event.getPlayer();
     //检查主手是否持有物品
     if (event.getHand() !== org.bukkit.inventory.EquipmentSlot.HAND) {
-        sendMessage(player, "主手请持物品");
+        sendMessage(player, "Please hold an item in your main hand");
         return;
     }
     
@@ -43,7 +43,7 @@ function onUse(event, itemStack){
 
     var sfitemid = itemStack.getId();
 
-    // player.sendMessage("§b输出:" + sfitemid);
+    // player.sendMessage("§bOutput:" + sfitemid);
     // 查找匹配的捕捉器类型配置
     let catcherConfig = CATCHER_TYPES.find(type => type.id === sfitemid);
 

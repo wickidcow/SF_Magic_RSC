@@ -17,7 +17,7 @@ function onUse(event, itemStack) {
     var player = event.getPlayer();
     //检查主手是否持有物品
     if (event.getHand() !== org.bukkit.inventory.EquipmentSlot.HAND) {
-        sendMessage(player, "主手请持物品");
+        sendMessage(player, "Please hold an item in your main hand");
         return;
     }
 
@@ -28,7 +28,7 @@ function onUse(event, itemStack) {
     var itemInMainHand = player.getInventory().getItemInMainHand();
     
     if (!itemInOffHand || itemInOffHand.getType() === org.bukkit.Material.AIR) {
-        sendMessage(player, "副手需要持有物品");
+        sendMessage(player, "You must hold an item in your off hand");
         return ;
     }
 

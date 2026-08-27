@@ -31,22 +31,22 @@ MAGIC_INFINITY_DUST_EXTRACTOR:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     5-8:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     9-12:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     13:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE 
     14:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     18:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     21:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     22:
       name: "&a"
@@ -55,22 +55,22 @@ MAGIC_INFINITY_DUST_EXTRACTOR:
       progressBarItem:
         material: FLINT_AND_STEEL
     23:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     27-30:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     31:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     32:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     36-40:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     41-44:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
 
 MAGIC_NEWPLAYER_COBBLESTONE_MAKER:
@@ -93,22 +93,22 @@ MAGIC_NEWPLAYER_DUST_EXTRACTOR:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     5-8:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     9-12:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     13:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE 
     14:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     18:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     21:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     22:
       name: "&a"
@@ -117,22 +117,22 @@ MAGIC_NEWPLAYER_DUST_EXTRACTOR:
       progressBarItem:
         material: FLINT_AND_STEEL
     23:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     27-30:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     31:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     32:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     36-40:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     41-44:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
 
 MAGIC_NEWPLAYER_INGOT_FORMER:
@@ -142,19 +142,19 @@ MAGIC_NEWPLAYER_INGOT_FORMER:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     9-12:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     13:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE 
     14-17:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     18:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     21:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     22:
       name: "&a"
@@ -163,19 +163,19 @@ MAGIC_NEWPLAYER_INGOT_FORMER:
       progressBarItem:
         material: FLINT_AND_STEEL
     23:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     26:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     27-30:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     31:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     32-35:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     36-44:
       name: "&a"
@@ -185,38 +185,38 @@ MAGIC_GENERATORS_QUARTZ:
   title: "&f&l石英&7一体机"
   slots:
     0-3: 
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     4:
       material: GRAY_STAINED_GLASS_PANE
       name: '&a'
     5-8: 
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     9: 
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     13:
       material: GRAY_STAINED_GLASS_PANE
       name: '&a'
     17: 
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     18: 
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     22:
-      name: '&f提示'
+      name: '&fInfo'
       material: CHERRY_HANGING_SIGN
       glow: true
       lore:
-      - '&7左侧为输入槽'
-      - '&7右侧为输出槽'
+      - '&7Input slots are on the left'
+      - '&7Output slots are on the right'
     26:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     27: 
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     31:
       material: BLACK_STAINED_GLASS_PANE
@@ -225,63 +225,63 @@ MAGIC_GENERATORS_QUARTZ:
       progressBarItem:
         material: FLINT_AND_STEEL
     35: 
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     36: 
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     40:
       material: GRAY_STAINED_GLASS_PANE
       name: '&a'
     44:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     45-48: 
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     49:
       material: GRAY_STAINED_GLASS_PANE
       name: '&a'
     50-53: 
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
 
 MAGIC_GENERATORS_MAGMA_BLOCK:
   title: "&6&l岩浆块&7一体机"
   slots:
     0-3: 
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     4:
       material: GRAY_STAINED_GLASS_PANE
       name: '&a'
     5-8: 
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     9: 
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     13:
       material: GRAY_STAINED_GLASS_PANE
       name: '&a'
     17: 
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     18: 
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     22:
-      name: '&f提示'
+      name: '&fInfo'
       material: CHERRY_HANGING_SIGN
       glow: true
       lore:
-      - '&7左侧为输入槽'
-      - '&7右侧为输出槽'
+      - '&7Input slots are on the left'
+      - '&7Output slots are on the right'
     26:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     27: 
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     31:
       material: BLACK_STAINED_GLASS_PANE
@@ -290,63 +290,63 @@ MAGIC_GENERATORS_MAGMA_BLOCK:
       progressBarItem:
         material: FLINT_AND_STEEL
     35: 
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     36: 
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     40:
       material: GRAY_STAINED_GLASS_PANE
       name: '&a'
     44:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     45-48: 
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     49:
       material: GRAY_STAINED_GLASS_PANE
       name: '&a'
     50-53: 
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
 
 MAGIC_NEWPLAYER_GOLD_PAN2:
   title: "&a淘金厂"
   slots:
     0-3: 
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     4:
       material: GRAY_STAINED_GLASS_PANE
       name: '&a'
     5-8: 
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     9: 
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     13:
       material: GRAY_STAINED_GLASS_PANE
       name: '&a'
     17: 
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     18: 
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     22:
-      name: '&f提示'
+      name: '&fInfo'
       material: CHERRY_HANGING_SIGN
       glow: true
       lore:
-      - '&7左侧为输入槽'
-      - '&7右侧为输出槽'
+      - '&7Input slots are on the left'
+      - '&7Output slots are on the right'
     26:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     27: 
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     31:
       material: BLACK_STAINED_GLASS_PANE
@@ -355,25 +355,25 @@ MAGIC_NEWPLAYER_GOLD_PAN2:
       progressBarItem:
         material: FLINT_AND_STEEL
     35: 
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     36: 
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     40:
       material: GRAY_STAINED_GLASS_PANE
       name: '&a'
     44:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     45-48: 
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     49:
       material: GRAY_STAINED_GLASS_PANE
       name: '&a'
     50-53: 
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
 
 MAGIC_GCE_EXCITATION_CHAMBER_IRON_DUST:
@@ -487,19 +487,19 @@ MAGIC_INFINITY_INGOT_FORMER:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     9-12:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     13:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE 
     14-17:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     18:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     21:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     22:
       name: "&a"
@@ -508,19 +508,19 @@ MAGIC_INFINITY_INGOT_FORMER:
       progressBarItem:
         material: FLINT_AND_STEEL
     23:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     26:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     27-30:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     31:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     32-35:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     36-44:
       name: "&a"
@@ -704,13 +704,13 @@ MAGIC_DYNATECH_APIARY_BILLON_INGOT9:
       name: "&a" 
       material: CYAN_STAINED_GLASS_PANE
     20: 
-      name: "&f信息"
+      name: "&fInformation"
       material: BEACON
       glow: true 
       lore: 
-        - "&f蜜蜂数量 : 192"
-        - "&f魔法加速 : 生效中"
-        - "&f生产速率 : 20秒"
+        - "&fBee count: 192"
+        - "&fMagic Acceleration: Active"
+        - "&fProduction rate: 20 seconds"
     21: 
       name: "&a" 
       material: CYAN_STAINED_GLASS_PANE
@@ -743,19 +743,19 @@ MAGIC_ENERGY_PRESS:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     9-12:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     13:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE 
     14-17:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     18:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     21:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     22:
       name: "&a"
@@ -764,19 +764,19 @@ MAGIC_ENERGY_PRESS:
       progressBarItem:
         material: FLINT_AND_STEEL
     23:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     26:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     27-30:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     31:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     32-35:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     36-44:
       name: "&a"
@@ -786,12 +786,12 @@ MAGIC_GENERATORS_REDSTONE_1:
   title: "&c魔法红石&7一体机&8-&eI"
   slots:
     0:
-      name: "&f提示"
+      name: "&fInfo"
       material_type: mc
       material: CHERRY_HANGING_SIGN
       glow: true
       lore:
-      - "&7右侧为输出槽"
+      - "&7Output slots are on the right"
     18:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
@@ -809,12 +809,12 @@ MAGIC_MAGIC_BASIC_CIRCUIT_BOARD:
   title: "&c魔法电路板&7一体机&8-&eI"
   slots:
     0:
-      name: "&f提示"
+      name: "&fInfo"
       material_type: mc
       material: CHERRY_HANGING_SIGN
       glow: true
       lore:
-      - "&7右侧为输出槽"
+      - "&7Output slots are on the right"
     18:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
@@ -833,16 +833,16 @@ MAGIC_IMPACT:
   title: "&c魔法红石&8对撞机"
   slots: 
     0-2: 
-      name: "&9在此放入物品"
+      name: "&9Place item here"
       material: CYAN_STAINED_GLASS_PANE
     3-5: 
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     6-9: 
-      name: "&9在此放入物品"
+      name: "&9Place item here"
       material: CYAN_STAINED_GLASS_PANE
     11: 
-      name: "&9在此放入物品"
+      name: "&9Place item here"
       material: CYAN_STAINED_GLASS_PANE
     12: 
       name: "&a"
@@ -857,49 +857,49 @@ MAGIC_IMPACT:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     15: 
-      name: "&9在此放入物品"
+      name: "&9Place item here"
       material: CYAN_STAINED_GLASS_PANE
     17-20:  
-      name: "&9在此放入物品"
+      name: "&9Place item here"
       material: CYAN_STAINED_GLASS_PANE
     21-23: 
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     24-26: 
-      name: "&9在此放入物品"
+      name: "&9Place item here"
       material: CYAN_STAINED_GLASS_PANE
     27: 
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     28: 
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     29: 
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     30-32: 
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     33: 
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     34: 
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     35-36: 
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     37-39: 
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     41-43: 
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     44-47: 
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     48-50: 
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     51-53: 
       name: "&a"
@@ -912,19 +912,19 @@ MAGIC_NEW_CONVERT:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     9-12:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     13:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE 
     14-17:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     18:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     21:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     22:
       name: "&a"
@@ -933,32 +933,32 @@ MAGIC_NEW_CONVERT:
       progressBarItem:
         material: FLINT_AND_STEEL
     23:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     26:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     27-30:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     31:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     32-35:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     36-44:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
 
 MAGIC_CD_MACHINES_1:
-  title: "&b魔法卡片复制机"
+  title: "&bMagic Card Duplicator"
   slots:
     0-2:
       name: "&9"
       material: CYAN_STAINED_GLASS_PANE
     3: 
-      name: "&6右侧为输出槽"
+      name: "&6Output slots are on the right"
       material: ORANGE_STAINED_GLASS_PANE
     9: 
       name: "&9"
@@ -967,19 +967,19 @@ MAGIC_CD_MACHINES_1:
       name: "&9"
       material: CYAN_STAINED_GLASS_PANE
     12:
-      name: "&6右侧为输出槽"
+      name: "&6Output slots are on the right"
       material: ORANGE_STAINED_GLASS_PANE
     18-20: 
       name: "&9"
       material: CYAN_STAINED_GLASS_PANE
     21: 
-      name: "&6右侧为输出槽"
+      name: "&6Output slots are on the right"
       material: ORANGE_STAINED_GLASS_PANE
     27-29: 
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     30: 
-      name: "&6右侧为输出槽"
+      name: "&6Output slots are on the right"
       material: ORANGE_STAINED_GLASS_PANE
     36: 
       name: "&a"
@@ -994,13 +994,13 @@ MAGIC_CD_MACHINES_1:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     39: 
-      name: "&6右侧为输出槽"
+      name: "&6Output slots are on the right"
       material: ORANGE_STAINED_GLASS_PANE
     45-47: 
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     48: 
-      name: "&6右侧为输出槽"
+      name: "&6Output slots are on the right"
       material: ORANGE_STAINED_GLASS_PANE
 
 MAGIC_DYNATECH_APIARY_DURALUMIN_INGOT9:
@@ -1031,13 +1031,13 @@ MAGIC_DYNATECH_APIARY_DURALUMIN_INGOT9:
       name: "&a" 
       material: CYAN_STAINED_GLASS_PANE
     20: 
-      name: "&f信息"
+      name: "&fInformation"
       material: BEACON
       glow: true 
       lore: 
-        - "&f蜜蜂数量 : 192"
-        - "&f魔法加速 : 生效中"
-        - "&f生产速率 : 20秒"
+        - "&fBee count: 192"
+        - "&fMagic Acceleration: Active"
+        - "&fProduction rate: 20 seconds"
     21: 
       name: "&a" 
       material: CYAN_STAINED_GLASS_PANE
@@ -1091,13 +1091,13 @@ MAGIC_DYNATECH_APIARY_BRASS_INGOT9:
       name: "&a" 
       material: CYAN_STAINED_GLASS_PANE
     20: 
-      name: "&f信息"
+      name: "&fInformation"
       material: BEACON
       glow: true 
       lore: 
-        - "&f蜜蜂数量 : 192"
-        - "&f魔法加速 : 生效中"
-        - "&f生产速率 : 20秒"
+        - "&fBee count: 192"
+        - "&fMagic Acceleration: Active"
+        - "&fProduction rate: 20 seconds"
     21: 
       name: "&a" 
       material: CYAN_STAINED_GLASS_PANE
@@ -1151,13 +1151,13 @@ MAGIC_DYNATECH_APIARY_BRONZE_INGOT9:
       name: "&a" 
       material: CYAN_STAINED_GLASS_PANE
     20: 
-      name: "&f信息"
+      name: "&fInformation"
       material: BEACON
       glow: true 
       lore: 
-        - "&f蜜蜂数量 : 192"
-        - "&f魔法加速 : 生效中"
-        - "&f生产速率 : 20秒"
+        - "&fBee count: 192"
+        - "&fMagic Acceleration: Active"
+        - "&fProduction rate: 20 seconds"
     21: 
       name: "&a" 
       material: CYAN_STAINED_GLASS_PANE
@@ -1211,13 +1211,13 @@ MAGIC_DYNATECH_APIARY_STEEL_INGOT9:
       name: "&a" 
       material: CYAN_STAINED_GLASS_PANE
     20: 
-      name: "&f信息"
+      name: "&fInformation"
       material: BEACON
       glow: true 
       lore: 
-        - "&f蜜蜂数量 : 192"
-        - "&f魔法加速 : 生效中"
-        - "&f生产速率 : 20秒"
+        - "&fBee count: 192"
+        - "&fMagic Acceleration: Active"
+        - "&fProduction rate: 20 seconds"
     21: 
       name: "&a" 
       material: CYAN_STAINED_GLASS_PANE
@@ -1271,13 +1271,13 @@ MAGIC_DYNATECH_APIARY_ALUMINUM_BRASS_INGOT9:
       name: "&a" 
       material: CYAN_STAINED_GLASS_PANE
     20: 
-      name: "&f信息"
+      name: "&fInformation"
       material: BEACON
       glow: true 
       lore: 
-        - "&f蜜蜂数量 : 192"
-        - "&f魔法加速 : 生效中"
-        - "&f生产速率 : 20秒"
+        - "&fBee count: 192"
+        - "&fMagic Acceleration: Active"
+        - "&fProduction rate: 20 seconds"
     21: 
       name: "&a" 
       material: CYAN_STAINED_GLASS_PANE
@@ -1331,13 +1331,13 @@ MAGIC_DYNATECH_APIARY_ALUMINUM_BRONZE_INGOT9:
       name: "&a" 
       material: CYAN_STAINED_GLASS_PANE
     20: 
-      name: "&f信息"
+      name: "&fInformation"
       material: BEACON
       glow: true 
       lore: 
-        - "&f蜜蜂数量 : 192"
-        - "&f魔法加速 : 生效中"
-        - "&f生产速率 : 20秒"
+        - "&fBee count: 192"
+        - "&fMagic Acceleration: Active"
+        - "&fProduction rate: 20 seconds"
     21: 
       name: "&a" 
       material: CYAN_STAINED_GLASS_PANE
@@ -1391,13 +1391,13 @@ MAGIC_DYNATECH_APIARY_CORINTHIAN_BRONZE_INGOT9:
       name: "&a" 
       material: CYAN_STAINED_GLASS_PANE
     20: 
-      name: "&f信息"
+      name: "&fInformation"
       material: BEACON
       glow: true 
       lore: 
-        - "&f蜜蜂数量 : 192"
-        - "&f魔法加速 : 生效中"
-        - "&f生产速率 : 20秒"
+        - "&fBee count: 192"
+        - "&fMagic Acceleration: Active"
+        - "&fProduction rate: 20 seconds"
     21: 
       name: "&a" 
       material: CYAN_STAINED_GLASS_PANE
@@ -1451,13 +1451,13 @@ MAGIC_DYNATECH_APIARY_SOLDER_INGOT9:
       name: "&a" 
       material: CYAN_STAINED_GLASS_PANE
     20: 
-      name: "&f信息"
+      name: "&fInformation"
       material: BEACON
       glow: true 
       lore: 
-        - "&f蜜蜂数量 : 192"
-        - "&f魔法加速 : 生效中"
-        - "&f生产速率 : 20秒"
+        - "&fBee count: 192"
+        - "&fMagic Acceleration: Active"
+        - "&fProduction rate: 20 seconds"
     21: 
       name: "&a" 
       material: CYAN_STAINED_GLASS_PANE
@@ -1511,13 +1511,13 @@ MAGIC_DYNATECH_APIARY_DAMASCUS_STEEL_INGOT9:
       name: "&a" 
       material: CYAN_STAINED_GLASS_PANE
     20: 
-      name: "&f信息"
+      name: "&fInformation"
       material: BEACON
       glow: true 
       lore: 
-        - "&f蜜蜂数量 : 192"
-        - "&f魔法加速 : 生效中"
-        - "&f生产速率 : 20秒"
+        - "&fBee count: 192"
+        - "&fMagic Acceleration: Active"
+        - "&fProduction rate: 20 seconds"
     21: 
       name: "&a" 
       material: CYAN_STAINED_GLASS_PANE
@@ -1571,13 +1571,13 @@ MAGIC_DYNATECH_APIARY_HARDENED_METAL_INGOT9:
       name: "&a" 
       material: CYAN_STAINED_GLASS_PANE
     20: 
-      name: "&f信息"
+      name: "&fInformation"
       material: BEACON
       glow: true 
       lore: 
-        - "&f蜜蜂数量 : 192"
-        - "&f魔法加速 : 生效中"
-        - "&f生产速率 : 20秒"
+        - "&fBee count: 192"
+        - "&fMagic Acceleration: Active"
+        - "&fProduction rate: 20 seconds"
     21: 
       name: "&a" 
       material: CYAN_STAINED_GLASS_PANE
@@ -1631,13 +1631,13 @@ MAGIC_DYNATECH_APIARY_REINFORCED_ALLOY_INGOT9:
       name: "&a" 
       material: CYAN_STAINED_GLASS_PANE
     20: 
-      name: "&f信息"
+      name: "&fInformation"
       material: BEACON
       glow: true 
       lore: 
-        - "&f蜜蜂数量 : 192"
-        - "&f魔法加速 : 生效中"
-        - "&f生产速率 : 20秒"
+        - "&fBee count: 192"
+        - "&fMagic Acceleration: Active"
+        - "&fProduction rate: 20 seconds"
     21: 
       name: "&a" 
       material: CYAN_STAINED_GLASS_PANE
@@ -1691,13 +1691,13 @@ MAGIC_DYNATECH_APIARY_FERROSILICON9:
       name: "&a" 
       material: CYAN_STAINED_GLASS_PANE
     20: 
-      name: "&f信息"
+      name: "&fInformation"
       material: BEACON
       glow: true 
       lore: 
-        - "&f蜜蜂数量 : 192"
-        - "&f魔法加速 : 生效中"
-        - "&f生产速率 : 20秒"
+        - "&fBee count: 192"
+        - "&fMagic Acceleration: Active"
+        - "&fProduction rate: 20 seconds"
     21: 
       name: "&a" 
       material: CYAN_STAINED_GLASS_PANE
@@ -1751,13 +1751,13 @@ MAGIC_DYNATECH_APIARY_GILDED_IRON9:
       name: "&a" 
       material: CYAN_STAINED_GLASS_PANE
     20: 
-      name: "&f信息"
+      name: "&fInformation"
       material: BEACON
       glow: true 
       lore: 
-        - "&f蜜蜂数量 : 192"
-        - "&f魔法加速 : 生效中"
-        - "&f生产速率 : 20秒"
+        - "&fBee count: 192"
+        - "&fMagic Acceleration: Active"
+        - "&fProduction rate: 20 seconds"
     21: 
       name: "&a" 
       material: CYAN_STAINED_GLASS_PANE
@@ -1811,13 +1811,13 @@ MAGIC_DYNATECH_APIARY_NICKEL_INGOT9:
       name: "&a" 
       material: CYAN_STAINED_GLASS_PANE
     20: 
-      name: "&f信息"
+      name: "&fInformation"
       material: BEACON
       glow: true 
       lore: 
-        - "&f蜜蜂数量 : 192"
-        - "&f魔法加速 : 生效中"
-        - "&f生产速率 : 20秒"
+        - "&fBee count: 192"
+        - "&fMagic Acceleration: Active"
+        - "&fProduction rate: 20 seconds"
     21: 
       name: "&a" 
       material: CYAN_STAINED_GLASS_PANE
@@ -1871,13 +1871,13 @@ MAGIC_DYNATECH_APIARY_COBALT_INGOT9:
       name: "&a" 
       material: CYAN_STAINED_GLASS_PANE
     20: 
-      name: "&f信息"
+      name: "&fInformation"
       material: BEACON
       glow: true 
       lore: 
-        - "&f蜜蜂数量 : 192"
-        - "&f魔法加速 : 生效中"
-        - "&f生产速率 : 20秒"
+        - "&fBee count: 192"
+        - "&fMagic Acceleration: Active"
+        - "&fProduction rate: 20 seconds"
     21: 
       name: "&a" 
       material: CYAN_STAINED_GLASS_PANE
@@ -1931,13 +1931,13 @@ MAGIC_DYNATECH_APIARY_REDSTONE_ALLOY9:
       name: "&a" 
       material: CYAN_STAINED_GLASS_PANE
     20: 
-      name: "&f信息"
+      name: "&fInformation"
       material: BEACON
       glow: true 
       lore: 
-        - "&f蜜蜂数量 : 192"
-        - "&f魔法加速 : 生效中"
-        - "&f生产速率 : 20秒"
+        - "&fBee count: 192"
+        - "&fMagic Acceleration: Active"
+        - "&fProduction rate: 20 seconds"
     21: 
       name: "&a" 
       material: CYAN_STAINED_GLASS_PANE
@@ -1991,13 +1991,13 @@ MAGIC_DYNATECH_APIARY_SYNTHETIC_DIAMOND9:
       name: "&a" 
       material: CYAN_STAINED_GLASS_PANE
     20: 
-      name: "&f信息"
+      name: "&fInformation"
       material: BEACON
       glow: true 
       lore: 
-        - "&f蜜蜂数量 : 192"
-        - "&f魔法加速 : 生效中"
-        - "&f生产速率 : 20秒"
+        - "&fBee count: 192"
+        - "&fMagic Acceleration: Active"
+        - "&fProduction rate: 20 seconds"
     21: 
       name: "&a" 
       material: CYAN_STAINED_GLASS_PANE
@@ -2051,13 +2051,13 @@ MAGIC_DYNATECH_APIARY_SYNTHETIC_EMERALD9:
       name: "&a" 
       material: CYAN_STAINED_GLASS_PANE
     20: 
-      name: "&f信息"
+      name: "&fInformation"
       material: BEACON
       glow: true 
       lore: 
-        - "&f蜜蜂数量 : 192"
-        - "&f魔法加速 : 生效中"
-        - "&f生产速率 : 20秒"
+        - "&fBee count: 192"
+        - "&fMagic Acceleration: Active"
+        - "&fProduction rate: 20 seconds"
     21: 
       name: "&a" 
       material: CYAN_STAINED_GLASS_PANE
@@ -2111,13 +2111,13 @@ MAGIC_DYNATECH_APIARY_SYNTHETIC_SAPPHIRE9:
       name: "&a" 
       material: CYAN_STAINED_GLASS_PANE
     20: 
-      name: "&f信息"
+      name: "&fInformation"
       material: BEACON
       glow: true 
       lore: 
-        - "&f蜜蜂数量 : 192"
-        - "&f魔法加速 : 生效中"
-        - "&f生产速率 : 20秒"
+        - "&fBee count: 192"
+        - "&fMagic Acceleration: Active"
+        - "&fProduction rate: 20 seconds"
     21: 
       name: "&a" 
       material: CYAN_STAINED_GLASS_PANE
@@ -2171,13 +2171,13 @@ MAGIC_DYNATECH_APIARY_CARBONADO9:
       name: "&a" 
       material: CYAN_STAINED_GLASS_PANE
     20: 
-      name: "&f信息"
+      name: "&fInformation"
       material: BEACON
       glow: true 
       lore: 
-        - "&f蜜蜂数量 : 192"
-        - "&f魔法加速 : 生效中"
-        - "&f生产速率 : 20秒"
+        - "&fBee count: 192"
+        - "&fMagic Acceleration: Active"
+        - "&fProduction rate: 20 seconds"
     21: 
       name: "&a" 
       material: CYAN_STAINED_GLASS_PANE
@@ -2208,25 +2208,25 @@ MAGIC_DYNATECH_APIARY_ALL_1:
   title: "&b万用合金&6魔法蜂箱"
   slots:
     36-39: 
-      name: "&a生产信息→" 
+      name: "&a生产Information→" 
       material: LIME_STAINED_GLASS_PANE
     41-44: 
-      name: "&a←生产信息" 
+      name: "&a←生产Information" 
       material: LIME_STAINED_GLASS_PANE
     45-48:
-      name: "&b机器信息→" 
+      name: "&b机器Information→" 
       material: CYAN_STAINED_GLASS_PANE
     49: 
-      name: "&f信息"
+      name: "&fInformation"
       material: BEACON
       glow: true 
       lore: 
         - "&f蜜蜂种类 : 魔法蜂王"
-        - "&f魔法加速 : 生效中"
-        - "&f生产速率 : 40秒"
-        - "&f生产物品 : 合金"
+        - "&fMagic Acceleration: Active"
+        - "&f生产速率 : 40 seconds"
+        - "&f生Output品 : 合金"
     50-53:
-      name: "&b←机器信息" 
+      name: "&b←机器Information" 
       material: CYAN_STAINED_GLASS_PANE
 
 
@@ -2235,13 +2235,13 @@ MAGIC_GENSHIN_IMPACT_MACHINES:
   title: "&b盲盒拆解机"
   slots:
     9:
-      name: "&f提示"
+      name: "&fInfo"
       material_type: mc
       material: CHERRY_HANGING_SIGN
       glow: true
       lore:
-      - "&7上方为输入槽"
-      - "&7右侧为输出槽"
+      - "&7Input slots are above"
+      - "&7Output slots are on the right"
     18:
       name: "&a"
       material: BLACK_STAINED_GLASS_PANE
@@ -2265,13 +2265,13 @@ MAGIC_WAR_MACHINES_NUMERATOR:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     9:
-      name: "&f提示"
+      name: "&fInfo"
       material_type: mc
       material: CHERRY_HANGING_SIGN
       glow: true
       lore:
-      - "&7上方为输入槽"
-      - "&7右侧为输出槽"
+      - "&7Input slots are above"
+      - "&7Output slots are on the right"
     18:
       name: "&a"
       material: BLACK_STAINED_GLASS_PANE
@@ -2307,13 +2307,13 @@ MAGIC_WAR_MACHINES_CREATING_TABLE:
       progressBarItem:
         material: FLINT_AND_STEEL
     44:
-      name: "&f提示"
+      name: "&fInfo"
       material_type: mc
       material: CHERRY_HANGING_SIGN
       glow: true
       lore:
-      - "&7左侧为输入槽"
-      - "&7下方为输出槽"
+      - "&7Input slots are on the left"
+      - "&7下方为Output槽"
     45-52: 
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
@@ -2322,38 +2322,38 @@ MAGIC_AUTHOR_MACHINE_BASIC:
   title: "&4&l简陋的起源工厂"
   slots:
     0-3: 
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     4:
       material: GRAY_STAINED_GLASS_PANE
       name: '&a'
     5-8: 
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     9: 
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     13:
       material: GRAY_STAINED_GLASS_PANE
       name: '&a'
     17: 
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     18: 
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     22:
-      name: '&f提示'
+      name: '&fInfo'
       material: CHERRY_HANGING_SIGN
       glow: true
       lore:
-      - '&7左侧为输入槽'
-      - '&7右侧为输出槽'
+      - '&7Input slots are on the left'
+      - '&7Output slots are on the right'
     26:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     27: 
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     31:
       material: BLACK_STAINED_GLASS_PANE
@@ -2362,63 +2362,63 @@ MAGIC_AUTHOR_MACHINE_BASIC:
       progressBarItem:
         material: FLINT_AND_STEEL
     35: 
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     36: 
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     40:
       material: GRAY_STAINED_GLASS_PANE
       name: '&a'
     44:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     45-48: 
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     49:
       material: GRAY_STAINED_GLASS_PANE
       name: '&a'
     50-53: 
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
 
 MAGIC_AUTHOR_MACHINE:
   title: "&4&l起源工厂"
   slots:
     0-3: 
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     4:
       material: GRAY_STAINED_GLASS_PANE
       name: '&a'
     5-8: 
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     9: 
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     13:
       material: GRAY_STAINED_GLASS_PANE
       name: '&a'
     17: 
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     18: 
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     22:
-      name: '&f提示'
+      name: '&fInfo'
       material: CHERRY_HANGING_SIGN
       glow: true
       lore:
-      - '&7左侧为输入槽'
-      - '&7右侧为输出槽'
+      - '&7Input slots are on the left'
+      - '&7Output slots are on the right'
     26:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     27: 
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     31:
       material: BLACK_STAINED_GLASS_PANE
@@ -2427,35 +2427,35 @@ MAGIC_AUTHOR_MACHINE:
       progressBarItem:
         material: FLINT_AND_STEEL
     35: 
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     36: 
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     40:
       material: GRAY_STAINED_GLASS_PANE
       name: '&a'
     44:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     45-48: 
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     49:
       material: GRAY_STAINED_GLASS_PANE
       name: '&a'
     50-53: 
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
 
 MAGIC_CD_MACHINE_1:
-  title: "&b魔法卡片复制机"
+  title: "&bMagic Card Duplicator"
   slots:
     0-2:
       name: "&9"
       material: CYAN_STAINED_GLASS_PANE
     3: 
-      name: "&6右侧为输出槽"
+      name: "&6Output slots are on the right"
       material: ORANGE_STAINED_GLASS_PANE
     9: 
       name: "&9"
@@ -2464,19 +2464,19 @@ MAGIC_CD_MACHINE_1:
       name: "&9"
       material: CYAN_STAINED_GLASS_PANE
     12:
-      name: "&6右侧为输出槽"
+      name: "&6Output slots are on the right"
       material: ORANGE_STAINED_GLASS_PANE
     18-20: 
       name: "&9"
       material: CYAN_STAINED_GLASS_PANE
     21: 
-      name: "&6右侧为输出槽"
+      name: "&6Output slots are on the right"
       material: ORANGE_STAINED_GLASS_PANE
     27-29: 
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     30: 
-      name: "&6右侧为输出槽"
+      name: "&6Output slots are on the right"
       material: ORANGE_STAINED_GLASS_PANE
     36: 
       name: "&a"
@@ -2491,35 +2491,35 @@ MAGIC_CD_MACHINE_1:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     39: 
-      name: "&6右侧为输出槽"
+      name: "&6Output slots are on the right"
       material: ORANGE_STAINED_GLASS_PANE
     45-47: 
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     48: 
-      name: "&6右侧为输出槽"
+      name: "&6Output slots are on the right"
       material: ORANGE_STAINED_GLASS_PANE
 
 MAGIC_CD_MACHINES_UPUP:
-  title: "&b魔法卡片复制机转换器"
+  title: "&bMagic Card Duplicator转换器"
   slots:
     0-8:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     9-12:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     13:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE 
     14-17:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     18:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     21:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     22:
       name: "&a"
@@ -2528,19 +2528,19 @@ MAGIC_CD_MACHINES_UPUP:
       progressBarItem:
         material: FLINT_AND_STEEL
     23:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     26:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     27-30:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     31:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     32-35:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     36-44:
       name: "&a"
@@ -2550,19 +2550,19 @@ MAGIC_INFINITY_REACTOR:
   title: "&f&l起源&e&l无尽反应堆"
   slots:
     0-2:
-      name: "&f放入燃料" 
+      name: "&fInsert fuel" 
       material: WHITE_STAINED_GLASS_PANE
     3-5: 
       name: "&a" 
       material: GRAY_STAINED_GLASS_PANE
     6-8: 
-      name: "&8反应堆废料" 
+      name: "&8Reactor Waste" 
       material: BLACK_STAINED_GLASS_PANE
     9: 
-      name: "&f放入燃料" 
+      name: "&fInsert fuel" 
       material: WHITE_STAINED_GLASS_PANE
     11: 
-      name: "&f放入燃料" 
+      name: "&fInsert fuel" 
       material: WHITE_STAINED_GLASS_PANE
     12: 
       name: "&a" 
@@ -2577,38 +2577,38 @@ MAGIC_INFINITY_REACTOR:
       name: "&a" 
       material: GRAY_STAINED_GLASS_PANE
     15: 
-      name: "&8反应堆废料" 
+      name: "&8Reactor Waste" 
       material: BLACK_STAINED_GLASS_PANE
     17: 
-      name: "&8反应堆废料" 
+      name: "&8Reactor Waste" 
       material: BLACK_STAINED_GLASS_PANE
     18-20: 
-      name: "&f放入燃料" 
+      name: "&fInsert fuel" 
       material: WHITE_STAINED_GLASS_PANE
     21-23: 
       name: "&a" 
       material: GRAY_STAINED_GLASS_PANE
     24-26: 
-      name: "&8反应堆废料" 
+      name: "&8Reactor Waste" 
       material: BLACK_STAINED_GLASS_PANE
 
 MAGIC_RESOURCES_STAR_POWER:
   title: "&f&l起源&e&l无尽反应堆"
   slots:
     0-2:
-      name: "&f放入燃料" 
+      name: "&fInsert fuel" 
       material: WHITE_STAINED_GLASS_PANE
     3-5: 
       name: "&a" 
       material: GRAY_STAINED_GLASS_PANE
     6-8: 
-      name: "&8反应堆废料" 
+      name: "&8Reactor Waste" 
       material: BLACK_STAINED_GLASS_PANE
     9: 
-      name: "&f放入燃料" 
+      name: "&fInsert fuel" 
       material: WHITE_STAINED_GLASS_PANE
     11: 
-      name: "&f放入燃料" 
+      name: "&fInsert fuel" 
       material: WHITE_STAINED_GLASS_PANE
     12: 
       name: "&a" 
@@ -2623,19 +2623,19 @@ MAGIC_RESOURCES_STAR_POWER:
       name: "&a" 
       material: GRAY_STAINED_GLASS_PANE
     15: 
-      name: "&8反应堆废料" 
+      name: "&8Reactor Waste" 
       material: BLACK_STAINED_GLASS_PANE
     17: 
-      name: "&8反应堆废料" 
+      name: "&8Reactor Waste" 
       material: BLACK_STAINED_GLASS_PANE
     18-20: 
-      name: "&f放入燃料" 
+      name: "&fInsert fuel" 
       material: WHITE_STAINED_GLASS_PANE
     21-23: 
       name: "&a" 
       material: GRAY_STAINED_GLASS_PANE
     24-26: 
-      name: "&8反应堆废料" 
+      name: "&8Reactor Waste" 
       material: BLACK_STAINED_GLASS_PANE
 
 MAGIC_SNOW_CD_1: 
@@ -2645,7 +2645,7 @@ MAGIC_SNOW_CD_1:
       name: "&9"
       material: CYAN_STAINED_GLASS_PANE
     3: 
-      name: "&6右侧为输出槽"
+      name: "&6Output slots are on the right"
       material: ORANGE_STAINED_GLASS_PANE
     9: 
       name: "&9"
@@ -2654,19 +2654,19 @@ MAGIC_SNOW_CD_1:
       name: "&9"
       material: CYAN_STAINED_GLASS_PANE
     12:
-      name: "&6右侧为输出槽"
+      name: "&6Output slots are on the right"
       material: ORANGE_STAINED_GLASS_PANE
     18-20: 
       name: "&9"
       material: CYAN_STAINED_GLASS_PANE
     21: 
-      name: "&6右侧为输出槽"
+      name: "&6Output slots are on the right"
       material: ORANGE_STAINED_GLASS_PANE
     27-29: 
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     30: 
-      name: "&6右侧为输出槽"
+      name: "&6Output slots are on the right"
       material: ORANGE_STAINED_GLASS_PANE
     36: 
       name: "&a"
@@ -2681,13 +2681,13 @@ MAGIC_SNOW_CD_1:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     39: 
-      name: "&6右侧为输出槽"
+      name: "&6Output slots are on the right"
       material: ORANGE_STAINED_GLASS_PANE
     45-47: 
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     48: 
-      name: "&6右侧为输出槽"
+      name: "&6Output slots are on the right"
       material: ORANGE_STAINED_GLASS_PANE
 
 MAGIC_INFINITE_VOID_HARVESTER:
@@ -2710,7 +2710,7 @@ MAGIC_MOB_SIMULATION_CHAMBER:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     3-8: 
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     9: 
       name: "&a"
@@ -2725,46 +2725,46 @@ MAGIC_MOB_SIMULATION_CHAMBER:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     12: 
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     17: 
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     18-20: 
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     21: 
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     26: 
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     27-29: 
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     30: 
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     35: 
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     36: 
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     38: 
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     39: 
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     44: 
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     45-47: 
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     48-53: 
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
 
 MAGIC_DATA_CARD_INSERT:
@@ -2774,19 +2774,19 @@ MAGIC_DATA_CARD_INSERT:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     9-12:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     13:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE 
     14-17:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     18:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     21:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     22:
       name: "&a"
@@ -2795,19 +2795,19 @@ MAGIC_DATA_CARD_INSERT:
       progressBarItem:
         material: FLINT_AND_STEEL
     23:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     26:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     27-30:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     31:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     32-35:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     36-44:
       name: "&a"
@@ -2820,19 +2820,19 @@ MAGIC_ITEMX64_MACHINE:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     9-12:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     13:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE 
     14-17:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     18:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     21:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     22:
       name: "&a"
@@ -2841,19 +2841,19 @@ MAGIC_ITEMX64_MACHINE:
       progressBarItem:
         material: SHIELD
     23:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     26:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     27-30:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     31:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     32-35:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     36-44:
       name: "&a"
@@ -2863,38 +2863,38 @@ MAGIC_GENERATORS_WOOD:
   title: "&a自然&e发电机"
   slots:
     0-3: 
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     4:
       material: GRAY_STAINED_GLASS_PANE
       name: '&a'
     5-8: 
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     9: 
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     13:
       material: GRAY_STAINED_GLASS_PANE
       name: '&a'
     17: 
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     18: 
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     22:
-      name: '&f提示'
+      name: '&fInfo'
       material: CHERRY_HANGING_SIGN
       glow: true
       lore:
-      - '&7左侧为输入槽'
-      - '&7右侧为输出槽'
+      - '&7Input slots are on the left'
+      - '&7Output slots are on the right'
     26:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     27: 
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     31:
       material: BLACK_STAINED_GLASS_PANE
@@ -2903,25 +2903,25 @@ MAGIC_GENERATORS_WOOD:
       progressBarItem:
         material: GOLDEN_PICKAXE
     35: 
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     36: 
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     40:
       material: GRAY_STAINED_GLASS_PANE
       name: '&a'
     44:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     45-48: 
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     49:
       material: GRAY_STAINED_GLASS_PANE
       name: '&a'
     50-53: 
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
 
 MAGIC_CD_SINGULARITY:
@@ -2931,19 +2931,19 @@ MAGIC_CD_SINGULARITY:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     9-12:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     13:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE 
     14-17:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     18:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     21:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     22:
       name: "&a"
@@ -2952,19 +2952,19 @@ MAGIC_CD_SINGULARITY:
       progressBarItem:
         material: FLINT_AND_STEEL
     23:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     26:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     27-30:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     31:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     32-35:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     36-44:
       name: "&a"
@@ -2974,12 +2974,12 @@ MAGIC_WATER_BUCKET_MACHINE:
   title: "&c水桶&7一体机"
   slots:
     0:
-      name: "&f提示"
+      name: "&fInfo"
       material_type: mc
       material: CHERRY_HANGING_SIGN
       glow: true
       lore:
-      - "&7右侧为输出槽"
+      - "&7Output slots are on the right"
     18:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
@@ -2997,12 +2997,12 @@ MAGIC_LAVA_BUCKET_MACHINE:
   title: "&c岩浆桶&7一体机"
   slots:
     0:
-      name: "&f提示"
+      name: "&fInfo"
       material_type: mc
       material: CHERRY_HANGING_SIGN
       glow: true
       lore:
-      - "&7右侧为输出槽"
+      - "&7Output slots are on the right"
     18:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
@@ -3023,19 +3023,19 @@ MAGIC_URANIUM_EXTRACTOR:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     9-12:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     13:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE 
     14-17:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     18:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     21:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     22:
       name: "&a"
@@ -3044,19 +3044,19 @@ MAGIC_URANIUM_EXTRACTOR:
       progressBarItem:
         material: FLINT_AND_STEEL
     23:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     26:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     27-30:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     31:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     32-35:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     36-44:
       name: "&a"
@@ -3066,12 +3066,12 @@ MAGIC_SNOWBALL_MACHINE:
   title: "&b雪球&7一体机&8-&eI"
   slots:
     0:
-      name: "&f提示"
+      name: "&fInfo"
       material_type: mc
       material: CHERRY_HANGING_SIGN
       glow: true
       lore:
-      - "&7右侧为输出槽"
+      - "&7Output slots are on the right"
     18:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
@@ -3089,12 +3089,12 @@ MAGIC_PLANT_GARDEN:
   title: "&c魔法&a植物园"
   slots:
     0:
-      name: "&f提示"
+      name: "&fInfo"
       material_type: mc
       material: CHERRY_HANGING_SIGN
       glow: true
       lore:
-      - "&7右侧为输出槽"
+      - "&7Output slots are on the right"
     18:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
@@ -3112,12 +3112,12 @@ MAGIC_WOOD_GARDEN:
   title: "&c魔法&a林园"
   slots:
     0:
-      name: "&f提示"
+      name: "&fInfo"
       material_type: mc
       material: CHERRY_HANGING_SIGN
       glow: true
       lore:
-      - "&7右侧为输出槽"
+      - "&7Output slots are on the right"
     18:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
@@ -3135,12 +3135,12 @@ MAGIC_STONE_GARDEN:
   title: "&c魔法&a方块工坊"
   slots:
     0:
-      name: "&f提示"
+      name: "&fInfo"
       material_type: mc
       material: CHERRY_HANGING_SIGN
       glow: true
       lore:
-      - "&7右侧为输出槽"
+      - "&7Output slots are on the right"
     18:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
@@ -3158,12 +3158,12 @@ MAGIC_NAUTRE_MACHINE:
   title: "&c魔法&a生物工坊"
   slots:
     0:
-      name: "&f提示"
+      name: "&fInfo"
       material_type: mc
       material: CHERRY_HANGING_SIGN
       glow: true
       lore:
-      - "&7右侧为输出槽"
+      - "&7Output slots are on the right"
     18:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
@@ -3181,12 +3181,12 @@ MAGIC_ENDER_EYE_MACHINE:
   title: "&d末影之眼&7一体机"
   slots:
     0:
-      name: "&f提示"
+      name: "&fInfo"
       material_type: mc
       material: CHERRY_HANGING_SIGN
       glow: true
       lore:
-      - "&7右侧为输出槽"
+      - "&7Output slots are on the right"
     18:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
@@ -3204,12 +3204,12 @@ MAGIC_END_ESSENCE_MACHINE:
   title: "&d末地精华&7一体机"
   slots:
     0:
-      name: "&f提示"
+      name: "&fInfo"
       material_type: mc
       material: CHERRY_HANGING_SIGN
       glow: true
       lore:
-      - "&7右侧为输出槽"
+      - "&7Output slots are on the right"
     18:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
@@ -3227,12 +3227,12 @@ MAGIC_PLASTIC_SHEET_MACHINE:
   title: "&8塑料纸&7一体机"
   slots:
     0:
-      name: "&f提示"
+      name: "&fInfo"
       material_type: mc
       material: CHERRY_HANGING_SIGN
       glow: true
       lore:
-      - "&7右侧为输出槽"
+      - "&7Output slots are on the right"
     18:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
@@ -3250,38 +3250,38 @@ MAGIC_BEE_MACHINE:
   title: "&e魔法蜂巢"
   slots:
     0-3: 
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     4:
       material: GRAY_STAINED_GLASS_PANE
       name: '&a'
     5-8: 
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     9: 
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     13:
       material: GRAY_STAINED_GLASS_PANE
       name: '&a'
     17: 
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     18: 
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     22:
-      name: '&f提示'
+      name: '&fInfo'
       material: CHERRY_HANGING_SIGN
       glow: true
       lore:
-      - '&7左侧为输入槽'
-      - '&7右侧为输出槽'
+      - '&7Input slots are on the left'
+      - '&7Output slots are on the right'
     26:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     27: 
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     31:
       material: BLACK_STAINED_GLASS_PANE
@@ -3290,25 +3290,25 @@ MAGIC_BEE_MACHINE:
       progressBarItem:
         material: FLINT_AND_STEEL
     35: 
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     36: 
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     40:
       material: GRAY_STAINED_GLASS_PANE
       name: '&a'
     44:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     45-48: 
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     49:
       material: GRAY_STAINED_GLASS_PANE
       name: '&a'
     50-53: 
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
 
 MAGIC_DUST_WASHER:
@@ -3321,12 +3321,12 @@ MAGIC_DUST_WASHER:
       material: GRAY_STAINED_GLASS_PANE
       name: '&a'
     22:
-      name: '&f提示'
+      name: '&fInfo'
       material: CHERRY_HANGING_SIGN
       glow: true
       lore:
-      - '&7左侧为输入槽'
-      - '&7右侧为输出槽'
+      - '&7Input slots are on the left'
+      - '&7Output slots are on the right'
     31:
       material: BLACK_STAINED_GLASS_PANE
       name: '&a'
@@ -3347,13 +3347,13 @@ MAGIC_RANDOM_ITEM_MACHINE:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     9:
-      name: "&f提示"
+      name: "&fInfo"
       material_type: mc
       material: CHERRY_HANGING_SIGN
       glow: true
       lore:
-      - "&7上方为输入槽"
-      - "&7右侧为输出槽"
+      - "&7Input slots are above"
+      - "&7Output slots are on the right"
     18:
       name: "&a"
       material: BLACK_STAINED_GLASS_PANE
@@ -3377,19 +3377,19 @@ MAGIC_IMPROVEMENT_FORGE:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     9-12:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     13:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE 
     14-17:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     18:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     21:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     22:
       name: "&a"
@@ -3398,19 +3398,19 @@ MAGIC_IMPROVEMENT_FORGE:
       progressBarItem:
         material: FLINT_AND_STEEL
     23:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     26:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     27-30:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     31:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     32-35:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     36-44:
       name: "&a"
@@ -3423,31 +3423,31 @@ MAGIC_CHICKEN_HOUSE1:
       name: "&9"
       material: CYAN_STAINED_GLASS_PANE
     3: 
-      name: "&6右侧为输出槽"
+      name: "&6Output slots are on the right"
       material: ORANGE_STAINED_GLASS_PANE
     9: 
-      name: "&e这里放魔法鸡"
+      name: "&ePlace a Magic Chicken here"
       material: CHICKEN
     11: 
-      name: "&e这里放魔法鸡"
+      name: "&ePlace a Magic Chicken here"
       material: CHICKEN
     12:
-      name: "&6右侧为输出槽"
+      name: "&6Output slots are on the right"
       material: ORANGE_STAINED_GLASS_PANE
     18: 
-      name: "&a这里放食物"
+      name: "&aPlace food here"
       material: EGG
     20: 
-      name: "&a这里放食物"
+      name: "&aPlace food here"
       material: EGG
     21: 
-      name: "&6右侧为输出槽"
+      name: "&6Output slots are on the right"
       material: ORANGE_STAINED_GLASS_PANE
     27-29: 
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     30: 
-      name: "&6右侧为输出槽"
+      name: "&6Output slots are on the right"
       material: ORANGE_STAINED_GLASS_PANE
     36: 
       name: "&a"
@@ -3462,13 +3462,13 @@ MAGIC_CHICKEN_HOUSE1:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     39: 
-      name: "&6右侧为输出槽"
+      name: "&6Output slots are on the right"
       material: ORANGE_STAINED_GLASS_PANE
     45-47: 
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     48: 
-      name: "&6右侧为输出槽"
+      name: "&6Output slots are on the right"
       material: ORANGE_STAINED_GLASS_PANE
 
 MAGIC_ORE_SMELTERY:
@@ -3481,12 +3481,12 @@ MAGIC_ORE_SMELTERY:
       material: GRAY_STAINED_GLASS_PANE
       name: '&a'
     22:
-      name: '&f提示'
+      name: '&fInfo'
       material: CHERRY_HANGING_SIGN
       glow: true
       lore:
-      - '&7左侧为输入槽'
-      - '&7右侧为输出槽'
+      - '&7Input slots are on the left'
+      - '&7Output slots are on the right'
     31:
       material: BLACK_STAINED_GLASS_PANE
       name: '&a'
@@ -3507,31 +3507,31 @@ MAGIC_CHICKEN_HOUSE2:
       name: "&9"
       material: CYAN_STAINED_GLASS_PANE
     3: 
-      name: "&6右侧为输出槽"
+      name: "&6Output slots are on the right"
       material: ORANGE_STAINED_GLASS_PANE
     9: 
-      name: "&e这里放魔法鸡"
+      name: "&ePlace a Magic Chicken here"
       material: CHICKEN
     11: 
-      name: "&e这里放魔法鸡"
+      name: "&ePlace a Magic Chicken here"
       material: CHICKEN
     12:
-      name: "&6右侧为输出槽"
+      name: "&6Output slots are on the right"
       material: ORANGE_STAINED_GLASS_PANE
     18: 
-      name: "&a这里放食物"
+      name: "&aPlace food here"
       material: EGG
     20: 
-      name: "&a这里放食物"
+      name: "&aPlace food here"
       material: EGG
     21: 
-      name: "&6右侧为输出槽"
+      name: "&6Output slots are on the right"
       material: ORANGE_STAINED_GLASS_PANE
     27-29: 
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     30: 
-      name: "&6右侧为输出槽"
+      name: "&6Output slots are on the right"
       material: ORANGE_STAINED_GLASS_PANE
     36: 
       name: "&a"
@@ -3546,13 +3546,13 @@ MAGIC_CHICKEN_HOUSE2:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     39: 
-      name: "&6右侧为输出槽"
+      name: "&6Output slots are on the right"
       material: ORANGE_STAINED_GLASS_PANE
     45-47: 
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     48: 
-      name: "&6右侧为输出槽"
+      name: "&6Output slots are on the right"
       material: ORANGE_STAINED_GLASS_PANE
 
 
@@ -3563,31 +3563,31 @@ MAGIC_CHICKEN_HOUSE3:
       name: "&9"
       material: CYAN_STAINED_GLASS_PANE
     3: 
-      name: "&6右侧为输出槽"
+      name: "&6Output slots are on the right"
       material: ORANGE_STAINED_GLASS_PANE
     9: 
-      name: "&e这里放魔法鸡"
+      name: "&ePlace a Magic Chicken here"
       material: CHICKEN
     11: 
-      name: "&e这里放魔法鸡"
+      name: "&ePlace a Magic Chicken here"
       material: CHICKEN
     12:
-      name: "&6右侧为输出槽"
+      name: "&6Output slots are on the right"
       material: ORANGE_STAINED_GLASS_PANE
     18: 
-      name: "&a这里放食物"
+      name: "&aPlace food here"
       material: EGG
     20: 
-      name: "&a这里放食物"
+      name: "&aPlace food here"
       material: EGG
     21: 
-      name: "&6右侧为输出槽"
+      name: "&6Output slots are on the right"
       material: ORANGE_STAINED_GLASS_PANE
     27-29: 
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     30: 
-      name: "&6右侧为输出槽"
+      name: "&6Output slots are on the right"
       material: ORANGE_STAINED_GLASS_PANE
     36: 
       name: "&a"
@@ -3602,13 +3602,13 @@ MAGIC_CHICKEN_HOUSE3:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     39: 
-      name: "&6右侧为输出槽"
+      name: "&6Output slots are on the right"
       material: ORANGE_STAINED_GLASS_PANE
     45-47: 
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     48: 
-      name: "&6右侧为输出槽"
+      name: "&6Output slots are on the right"
       material: ORANGE_STAINED_GLASS_PANE
 
 MAGIC_BATTERY_MACHINE_IN_1:
@@ -3618,19 +3618,19 @@ MAGIC_BATTERY_MACHINE_IN_1:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     9-12:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     13:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE 
     14-17:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     18:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     21:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     22:
       name: "&a"
@@ -3639,19 +3639,19 @@ MAGIC_BATTERY_MACHINE_IN_1:
       progressBarItem:
         material: FLINT_AND_STEEL
     23:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     26:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     27-30:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     31:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     32-35:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     36-44:
       name: "&a"
@@ -3664,19 +3664,19 @@ MAGIC_BATTERY_MACHINE_OUT_1:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     9-12:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     13:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE 
     14-17:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     18:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     21:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     22:
       name: "&a"
@@ -3685,19 +3685,19 @@ MAGIC_BATTERY_MACHINE_OUT_1:
       progressBarItem:
         material: FLINT_AND_STEEL
     23:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     26:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     27-30:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     31:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     32-35:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     36-44:
       name: "&a"
@@ -3710,7 +3710,7 @@ MAGIC_BEE_HOUSE_1:
       name: "&9"
       material: CYAN_STAINED_GLASS_PANE
     3: 
-      name: "&6右侧为输出槽"
+      name: "&6Output slots are on the right"
       material: ORANGE_STAINED_GLASS_PANE
     9: 
       name: "&b这里放入魔法蜂王"
@@ -3719,7 +3719,7 @@ MAGIC_BEE_HOUSE_1:
       name: "&b这里放入魔法蜂王"
       material: BEE_NEST
     12:
-      name: "&6右侧为输出槽"
+      name: "&6Output slots are on the right"
       material: ORANGE_STAINED_GLASS_PANE
     18: 
       name: "&6这里放入蜜蜂"
@@ -3728,13 +3728,13 @@ MAGIC_BEE_HOUSE_1:
       name: "&6这里放入蜜蜂"
       material: BEEHIVE
     21: 
-      name: "&6右侧为输出槽"
+      name: "&6Output slots are on the right"
       material: ORANGE_STAINED_GLASS_PANE
     27-29: 
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     30: 
-      name: "&6右侧为输出槽"
+      name: "&6Output slots are on the right"
       material: ORANGE_STAINED_GLASS_PANE
     36: 
       name: "&a"
@@ -3749,13 +3749,13 @@ MAGIC_BEE_HOUSE_1:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     39: 
-      name: "&6右侧为输出槽"
+      name: "&6Output slots are on the right"
       material: ORANGE_STAINED_GLASS_PANE
     45-47: 
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     48: 
-      name: "&6右侧为输出槽"
+      name: "&6Output slots are on the right"
       material: ORANGE_STAINED_GLASS_PANE
 
 
@@ -3766,7 +3766,7 @@ MAGIC_MINERAL_HOUSE_1:
       name: "&9"
       material: CYAN_STAINED_GLASS_PANE
     3: 
-      name: "&6右侧为输出槽"
+      name: "&6Output slots are on the right"
       material: ORANGE_STAINED_GLASS_PANE
     9: 
       name: "&b这里放入矿物核心→"
@@ -3775,7 +3775,7 @@ MAGIC_MINERAL_HOUSE_1:
       name: "&b←这里放入矿物核心"
       material: BUDDING_AMETHYST
     12:
-      name: "&6右侧为输出槽"
+      name: "&6Output slots are on the right"
       material: ORANGE_STAINED_GLASS_PANE
     18: 
       name: "&b这里放入需要培育的矿物→"
@@ -3784,7 +3784,7 @@ MAGIC_MINERAL_HOUSE_1:
       name: "&b←这里放入需要培育的矿物"
       material: AMETHYST_CLUSTER
     21: 
-      name: "&6右侧为输出槽"
+      name: "&6Output slots are on the right"
       material: ORANGE_STAINED_GLASS_PANE
     27: 
       name: "&b这里放入对应方块→"
@@ -3793,7 +3793,7 @@ MAGIC_MINERAL_HOUSE_1:
       name: "&b←这里放入对应方块"
       material: COMMAND_BLOCK
     30: 
-      name: "&6右侧为输出槽"
+      name: "&6Output slots are on the right"
       material: ORANGE_STAINED_GLASS_PANE
     36: 
       name: "&a"
@@ -3808,13 +3808,13 @@ MAGIC_MINERAL_HOUSE_1:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     39: 
-      name: "&6右侧为输出槽"
+      name: "&6Output slots are on the right"
       material: ORANGE_STAINED_GLASS_PANE
     45-47: 
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     48: 
-      name: "&6右侧为输出槽"
+      name: "&6Output slots are on the right"
       material: ORANGE_STAINED_GLASS_PANE
 
 
@@ -3825,7 +3825,7 @@ MAGIC_STACKING_INFINITE:
       name: "&9"
       material: CYAN_STAINED_GLASS_PANE
     3: 
-      name: "&6右侧为输出槽"
+      name: "&6Output slots are on the right"
       material: ORANGE_STAINED_GLASS_PANE
     9: 
       name: "&9"
@@ -3834,19 +3834,19 @@ MAGIC_STACKING_INFINITE:
       name: "&9"
       material: CYAN_STAINED_GLASS_PANE
     12:
-      name: "&6右侧为输出槽"
+      name: "&6Output slots are on the right"
       material: ORANGE_STAINED_GLASS_PANE
     18-20: 
       name: "&9"
       material: CYAN_STAINED_GLASS_PANE
     21: 
-      name: "&6右侧为输出槽"
+      name: "&6Output slots are on the right"
       material: ORANGE_STAINED_GLASS_PANE
     27-29: 
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     30: 
-      name: "&6右侧为输出槽"
+      name: "&6Output slots are on the right"
       material: ORANGE_STAINED_GLASS_PANE
     36: 
       name: "&a"
@@ -3861,13 +3861,13 @@ MAGIC_STACKING_INFINITE:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     39: 
-      name: "&6右侧为输出槽"
+      name: "&6Output slots are on the right"
       material: ORANGE_STAINED_GLASS_PANE
     45-47: 
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     48: 
-      name: "&6右侧为输出槽"
+      name: "&6Output slots are on the right"
       material: ORANGE_STAINED_GLASS_PANE
 
 MAGIC_NEWPLAYER_GIFT_MACHINE_1: 
@@ -3877,7 +3877,7 @@ MAGIC_NEWPLAYER_GIFT_MACHINE_1:
       name: "&9"
       material: CYAN_STAINED_GLASS_PANE
     3: 
-      name: "&6右侧为输出槽"
+      name: "&6Output slots are on the right"
       material: ORANGE_STAINED_GLASS_PANE
     9: 
       name: "&9"
@@ -3886,19 +3886,19 @@ MAGIC_NEWPLAYER_GIFT_MACHINE_1:
       name: "&9"
       material: CYAN_STAINED_GLASS_PANE
     12:
-      name: "&6右侧为输出槽"
+      name: "&6Output slots are on the right"
       material: ORANGE_STAINED_GLASS_PANE
     18-20: 
       name: "&9"
       material: CYAN_STAINED_GLASS_PANE
     21: 
-      name: "&6右侧为输出槽"
+      name: "&6Output slots are on the right"
       material: ORANGE_STAINED_GLASS_PANE
     27-29: 
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     30: 
-      name: "&6右侧为输出槽"
+      name: "&6Output slots are on the right"
       material: ORANGE_STAINED_GLASS_PANE
     36: 
       name: "&a"
@@ -3913,13 +3913,13 @@ MAGIC_NEWPLAYER_GIFT_MACHINE_1:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     39: 
-      name: "&6右侧为输出槽"
+      name: "&6Output slots are on the right"
       material: ORANGE_STAINED_GLASS_PANE
     45-47: 
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     48: 
-      name: "&6右侧为输出槽"
+      name: "&6Output slots are on the right"
       material: ORANGE_STAINED_GLASS_PANE
 
 MAGIC_SKIN_CONVERT:
@@ -3932,12 +3932,12 @@ MAGIC_SKIN_CONVERT:
       material: GRAY_STAINED_GLASS_PANE
       name: '&a'
     22:
-      name: '&f提示'
+      name: '&fInfo'
       material: CHERRY_HANGING_SIGN
       glow: true
       lore:
-      - '&7左侧为输入槽'
-      - '&7右侧为输出槽'
+      - '&7Input slots are on the left'
+      - '&7Output slots are on the right'
     31:
       material: BLACK_STAINED_GLASS_PANE
       name: '&a'
@@ -3955,12 +3955,12 @@ MAGIC_ORIGIN_BASIC_COBBLESTONE_GEN:
   title: "{#FFFFFF}起{#D0E8F7}源{#A1D1F1}圆{#6495ED}石{#808080}生{#808080}成{#808080}器"
   slots:
     0:
-      name: "&f提示"
+      name: "&fInfo"
       material_type: mc
       material: CHERRY_HANGING_SIGN
       glow: true
       lore:
-      - "&7右侧为输出槽"
+      - "&7Output slots are on the right"
     18:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
@@ -3981,22 +3981,22 @@ MAGIC_ORIGIN_BASIC_DUST_EXTRACTOR:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     5-8:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     9-12:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     13:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE 
     14:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     18:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     21:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     22:
       name: "&a"
@@ -4006,22 +4006,22 @@ MAGIC_ORIGIN_BASIC_DUST_EXTRACTOR:
         material: DIAMOND_PICKAXE
         glow: true
     23:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     27-30:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     31:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     32:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     36-40:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     41-44:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
 
 MAGIC_ORIGIN_BASIC_INGOT_FORMER:
@@ -4031,19 +4031,19 @@ MAGIC_ORIGIN_BASIC_INGOT_FORMER:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     9-12:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     13:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE 
     14-17:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     18:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     21:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     22:
       name: "&a"
@@ -4052,19 +4052,19 @@ MAGIC_ORIGIN_BASIC_INGOT_FORMER:
       progressBarItem:
         material: FLINT_AND_STEEL
     23:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     26:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     27-30:
-      name: "&9输入"
+      name: "&9Input"
       material: CYAN_STAINED_GLASS_PANE
     31:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
     32-35:
-      name: "&6输出"
+      name: "&6Output"
       material: ORANGE_STAINED_GLASS_PANE
     36-44:
       name: "&a"
@@ -4080,12 +4080,12 @@ MAGIC_ORIGIN_MINERAL_DECOMPRESSOR:
       material: GRAY_STAINED_GLASS_PANE
       name: '&a'
     22:
-      name: '&f提示'
+      name: '&fInfo'
       material: CHERRY_HANGING_SIGN
       glow: true
       lore:
-      - '&7左侧为输入槽'
-      - '&7右侧为输出槽'
+      - '&7Input slots are on the left'
+      - '&7Output slots are on the right'
     31:
       material: BLACK_STAINED_GLASS_PANE
       name: '&a'
@@ -4109,12 +4109,12 @@ MAGIC_ORIGIN_PRESS:
       material: GRAY_STAINED_GLASS_PANE
       name: '&a'
     22:
-      name: '&f提示'
+      name: '&fInfo'
       material: CHERRY_HANGING_SIGN
       glow: true
       lore:
-      - '&7左侧为输入槽'
-      - '&7右侧为输出槽'
+      - '&7Input slots are on the left'
+      - '&7Output slots are on the right'
     31:
       material: BLACK_STAINED_GLASS_PANE
       name: '&a'
@@ -4138,12 +4138,12 @@ MAGIC_ORIGIN_INFINITY_CONSTRUCTOR:
       material: GRAY_STAINED_GLASS_PANE
       name: '&a'
     22:
-      name: '&f提示'
+      name: '&fInfo'
       material: CHERRY_HANGING_SIGN
       glow: true
       lore:
-      - '&7左侧为输入槽'
-      - '&7右侧为输出槽'
+      - '&7Input slots are on the left'
+      - '&7Output slots are on the right'
     31:
       material: BLACK_STAINED_GLASS_PANE
       name: '&a'
@@ -4275,7 +4275,7 @@ MAGIC_TEST1:
   title: "&btest1"
   slots:
     53:
-      name: "&a点击合成"
+      name: "&aClick to Craft"
       material: GREEN_STAINED_GLASS_PANE
 
 MAGIC_PEIYUSHI_1:
@@ -4344,10 +4344,10 @@ MAGIC_POWER_MIX_BOX_1:
   title: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}矩{#FFA8AF}阵{#FF9DA4}-{#FA8E99}发{#F97F8E}电{#F87083}机{#F76178}-{#F6527D}I{#F54378}（{#F43477}矩{#F32576}阵{#F21675}台{#F10774}）"
   slots:
     45-52: 
-      name: "&a信息"
+      name: "&aInformation"
       material: RED_STAINED_GLASS_PANE
     53:
-      name: "&a信息"
+      name: "&aInformation"
       material: RED_STAINED_GLASS_PANE
       progressbar: true
       progressBarItem:
@@ -4457,7 +4457,7 @@ MAGIC_FLOWER_MIX_BOX_1:
         material: NETHER_STAR
 
 MAGIC_CARGO_STORAGE_MAKER:
-  title: "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l抽{#FA8072}&l屉{#E9967A}&l升{#F08080}&l级{#FF69B4}&l台"
+  title: "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l抽{#FA8072}&l屉{#E9967A}&l升{#F08080}&l{#FF69B4}&l台"
   slots:
     0-9:
       name: "&a"
@@ -4657,7 +4657,7 @@ MAGIC_INFINITY_FORGE_ULTRA:
 
 
 MAGIC_GEOMINER_BOX: 
-  title: "魔法资源输出箱"
+  title: "魔法资源Output箱"
   slots:
     0-4: 
       name: "&a"
@@ -4761,12 +4761,12 @@ MAGIC_INFINITY_COBBLE_GEN:
   title: "魔法圆石生成机"
   slots:
     0:
-      name: "&f提示"
+      name: "&fInfo"
       material_type: mc
       material: CHERRY_HANGING_SIGN
       glow: true
       lore:
-      - "&7右侧为输出槽"
+      - "&7Output slots are on the right"
     18:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
@@ -4784,14 +4784,14 @@ MAGIC_INFINITY_MIX_BOX_1:
   title: "魔法无尽一体化盒子"
   slots:
     36-44: 
-      name: "&f提示信息"
+      name: "&fInfoInformation"
       lore:
       - "&a"
-      - "&e上方为材料输出口"
+      - "&e上方为材料Output口"
       - "&b下方放入无尽魔法系列机器"
       material: BARRIER
     53:
-      name: "&f信息"
+      name: "&fInformation"
       material_type: mc
       material: CHERRY_HANGING_SIGN
       glow: true
@@ -4877,7 +4877,7 @@ MAGIC_SUPREME_WORKBENCH:
 
 
 MAGIC_SUPREME_ELECTRIC_MAGICAL_I:
-  title: "{#FFC0CB}电力魔法工厂-I"
+  title: "{#FFC0CB}Electric Magic Factory I"
   slots:
     0-9:
       name: "&a"
@@ -4896,7 +4896,7 @@ MAGIC_SUPREME_ELECTRIC_MAGICAL_I:
       material: RED_STAINED_GLASS_PANE
       progressbar: true
       progressBarItem:
-        name: "正在合成中---"
+        name: "Crafting in progress---"
         material: ELYTRA
     23: 
       name: "{#FFC0CB}&l产{#FFB6C1}&l物"
@@ -4925,7 +4925,7 @@ MAGIC_SUPREME_ELECTRIC_MAGICAL_I:
       material: LIGHT
 
 MAGIC_SUPREME_ELECTRIC_MAGICAL_II:
-  title: "{#FFC0CB}电力魔法工厂-I"
+  title: "{#FFC0CB}Electric Magic Factory I"
   slots:
     0-9:
       name: "&a"
@@ -4944,7 +4944,7 @@ MAGIC_SUPREME_ELECTRIC_MAGICAL_II:
       material: RED_STAINED_GLASS_PANE
       progressbar: true
       progressBarItem:
-        name: "正在合成中---"
+        name: "Crafting in progress---"
         material: ELYTRA
     23: 
       name: "{#FFC0CB}&l产{#FFB6C1}&l物"
@@ -4973,7 +4973,7 @@ MAGIC_SUPREME_ELECTRIC_MAGICAL_II:
       material: LIGHT
 
 MAGIC_SUPREME_ELECTRIC_MAGICAL_III:
-  title: "{#FFC0CB}电力魔法工厂-I"
+  title: "{#FFC0CB}Electric Magic Factory I"
   slots:
     0-9:
       name: "&a"
@@ -4992,7 +4992,7 @@ MAGIC_SUPREME_ELECTRIC_MAGICAL_III:
       material: RED_STAINED_GLASS_PANE
       progressbar: true
       progressBarItem:
-        name: "正在合成中---"
+        name: "Crafting in progress---"
         material: ELYTRA
     23: 
       name: "{#FFC0CB}&l产{#FFB6C1}&l物"
@@ -5040,7 +5040,7 @@ MAGIC_SUPREME_ELECTRIC_MAGICAL:
       material: RED_STAINED_GLASS_PANE
       progressbar: true
       progressBarItem:
-        name: "正在合成中---"
+        name: "Crafting in progress---"
         material: ELYTRA
     23: 
       name: "{#FFC0CB}&l产{#FFB6C1}&l物"

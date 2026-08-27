@@ -18,18 +18,18 @@ MAGIC_TEST_WHITE_WOOL:
 MAGIC_SPAWNER_1_START:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFBB00}（{#FFAA00}一{#FFAA00}级{#FFAA00}）{#FFBB00}→→→"
+    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFBB00}（{#FFAA00}一{#FFAA00}{#FFAA00}）{#FFBB00}→→→"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzMzYWU4ZGU3ZWQwNzllMzhkMmM4MmRkNDJiNzRjZmNiZDk0YjM0ODAzNDhkYmI1ZWNkOTNkYThiODEwMTVlMyJ9fX0=
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e1 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：15 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e1 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 15  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -38,17 +38,17 @@ MAGIC_SPAWNER_1_START:
 MAGIC_SPAWNER_WITHER_SKELETON_1:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFFF00}（{#FFEE00}凋{#FFDD00}零{#FFCC00}骷{#FFBB00}髅{#FFAA00}）"
+    name: &d&lMagic Spawner &6(Wither Skeleton)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e1 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：15 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e1 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 15  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -61,17 +61,17 @@ MAGIC_SPAWNER_WITHER_SKELETON_1:
 MAGIC_SPAWNER_SKELETON_1:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFEE00}（{#FFDD00}骷{#FFCC00}髅{#FFBB00}）"
+    name: &d&lMagic Spawner &6(Skeleton)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e1 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：15 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e1 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 15  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -84,17 +84,17 @@ MAGIC_SPAWNER_SKELETON_1:
 MAGIC_SPAWNER_ZOMBIE_1:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFEE00}（{#FFDD00}僵{#FFCC00}尸{#FFDD00}）"
+    name: &d&lMagic Spawner &6(Zombie)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e1 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：15 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e1 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 15  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -108,17 +108,17 @@ MAGIC_SPAWNER_ZOMBIE_1:
 MAGIC_SPAWNER_CREEPER_1:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFEE00}（{#FFDD00}苦{#FFCC00}力怕{#FFDD00}）"
+    name: &d&lMagic Spawner &6(Creeper)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e1 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：15 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e1 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 15  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -132,17 +132,17 @@ MAGIC_SPAWNER_CREEPER_1:
 MAGIC_SPAWNER_ENDERMAN_1:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFCC00}（{#FFBB00}末{#FFAA00}影{#FFBB00}人{#FFCC00}）"
+    name: &d&lMagic Spawner &6(Enderman)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e1 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：15 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e1 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 15  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -155,17 +155,17 @@ MAGIC_SPAWNER_ENDERMAN_1:
 MAGIC_SPAWNER_BLAZE_1:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFBB00}（{#FFAA00}烈{#FFAA00}焰{#FFAA00}人{#FFBB00}）"
+    name: &d&lMagic Spawner &6(Blaze)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e1 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：15 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e1 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 15  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -178,17 +178,17 @@ MAGIC_SPAWNER_BLAZE_1:
 MAGIC_SPAWNER_CAVE_SPIDER_1:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFAA00}（{#FFAA00}洞{#FFAA00}穴{#FFAA00}蜘{#FFAA00}蛛{#FFAA00}）"
+    name: &d&lMagic Spawner &6(Cave Spider)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e1 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：15 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e1 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 15  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -201,17 +201,17 @@ MAGIC_SPAWNER_CAVE_SPIDER_1:
 MAGIC_SPAWNER_GHAST_1:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFEE00}（{#FFDD00}恶{#FFCC00}魂{#FFDD00}）"
+    name: &d&lMagic Spawner &6(Ghast)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e1 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：15 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e1 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 15  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -224,17 +224,17 @@ MAGIC_SPAWNER_GHAST_1:
 MAGIC_SPAWNER_ENDERMITE_1:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFDD00}（{#FFCC00}末{#FFBB00}影{#FFCC00}螨{#FFDD00}）"
+    name: &d&lMagic Spawner &6(Endermite)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e1 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：15 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e1 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 15  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -248,17 +248,17 @@ MAGIC_SPAWNER_ENDERMITE_1:
 MAGIC_SPAWNER_SILVERFISH_1:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFBB00}（{#FFAA00}蠹{#FFAA00}虫{#FFBB00}）"
+    name: &d&lMagic Spawner &6(Silverfish)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e1 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：15 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e1 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 15  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -272,17 +272,17 @@ MAGIC_SPAWNER_SILVERFISH_1:
 MAGIC_SPAWNER_IRON_GOLEM_1:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFAA00}（{#FFAA00}铁{#FFAA00}傀{#FFAA00}儡{#FFAA00}）"
+    name: &d&lMagic Spawner &6(Iron Golem)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e1 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：15 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e1 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 15  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -296,17 +296,17 @@ MAGIC_SPAWNER_IRON_GOLEM_1:
 MAGIC_SPAWNER_GUARDIAN_1:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFEE00}（{#FFDD00}守{#FFCC00}卫{#FFDD00}者{#FFEE00}）"
+    name: &d&lMagic Spawner &6(Guardian)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e1 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：15 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e1 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 15  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -319,17 +319,17 @@ MAGIC_SPAWNER_GUARDIAN_1:
 MAGIC_SPAWNER_SLIME_1:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFDD00}（{#FFCC00}史{#FFBB00}莱{#FFCC00}姆{#FFDD00}）"
+    name: &d&lMagic Spawner &6(Slime)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e1 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：15 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e1 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 15  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -342,17 +342,17 @@ MAGIC_SPAWNER_SLIME_1:
 MAGIC_SPAWNER_MAGMA_CUBE_1:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFBB00}（{#FFAA00}岩{#FFAA00}浆{#FFAA00}怪{#FFBB00}）"
+    name: &d&lMagic Spawner &6(Magma Cube)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e1 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：15 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e1 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 15  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -366,17 +366,17 @@ MAGIC_SPAWNER_MAGMA_CUBE_1:
 MAGIC_SPAWNER_SPIDER_1:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFCC00}（{#FFBB00}蜘{#FFAA00}蛛{#FFBB00}）"
+    name: &d&lMagic Spawner &6(Spider)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e1 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：15 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e1 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 15  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -390,17 +390,17 @@ MAGIC_SPAWNER_SPIDER_1:
 MAGIC_SPAWNER_WITCH_1:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFAA00}（{#FFAA00}女{#FFAA00}巫{#FFAA00}）"
+    name: &d&lMagic Spawner &6(Witch)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e1 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：15 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e1 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 15  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -414,17 +414,17 @@ MAGIC_SPAWNER_WITCH_1:
 MAGIC_SPAWNER_CHICKEN_1:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFEE00}（{#FFDD00}鸡{#FFDD00}）"
+    name: &d&lMagic Spawner &6(Chicken)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e1 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：15 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e1 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 15  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -438,17 +438,17 @@ MAGIC_SPAWNER_CHICKEN_1:
 MAGIC_SPAWNER_COW_1:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFDD00}（{#FFCC00}牛{#FFCC00}）"
+    name: &d&lMagic Spawner &6(Cow)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e1 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：15 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e1 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 15  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -461,17 +461,17 @@ MAGIC_SPAWNER_COW_1:
 MAGIC_SPAWNER_SHEEP_1:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFCC00}（{#FFBB00}绵{#FFBB00}羊{#FFCC00}）"
+    name: &d&lMagic Spawner &6(Sheep)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e1 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：15 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e1 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 15  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -485,17 +485,17 @@ MAGIC_SPAWNER_SHEEP_1:
 MAGIC_SPAWNER_HORSE_1:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFBB00}（{#FFAA00}马{#FFAA00}）"
+    name: &d&lMagic Spawner &6(Horse)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e1 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：15 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e1 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 15  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -509,17 +509,17 @@ MAGIC_SPAWNER_HORSE_1:
 MAGIC_SPAWNER_MUSHROOM_COW_1:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFAA00}（{#FFAA00}哞{#FFAA00}菇{#FFAA00}牛{#FFAA00}）"
+    name: &d&lMagic Spawner &6(Mooshroom)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e1 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：15 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e1 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 15  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -533,17 +533,17 @@ MAGIC_SPAWNER_MUSHROOM_COW_1:
 MAGIC_SPAWNER_CAT_1:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFDD00}（{#FFCC00}猫{#FFCC00}）"
+    name: &d&lMagic Spawner &6(Cat)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e1 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：15 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e1 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 15  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -557,17 +557,17 @@ MAGIC_SPAWNER_CAT_1:
 MAGIC_SPAWNER_OCELOT_1:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFEE00}（{#FFDD00}豹{#FFCC00}猫{#FFDD00}）"
+    name: &d&lMagic Spawner &6(Ocelot)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e1 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：15 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e1 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 15  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -580,17 +580,17 @@ MAGIC_SPAWNER_OCELOT_1:
 MAGIC_SPAWNER_PIG_1:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFCC00}（{#FFBB00}猪{#FFBB00}）"
+    name: &d&lMagic Spawner &6(Pig)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e1 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：15 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e1 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 15  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -604,17 +604,17 @@ MAGIC_SPAWNER_PIG_1:
 MAGIC_SPAWNER_RABBIT_1:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFBB00}（{#FFAA00}兔{#FFAA00}子{#FFBB00}）"
+    name: &d&lMagic Spawner &6(Rabbit)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e1 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：15 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e1 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 15  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -628,17 +628,17 @@ MAGIC_SPAWNER_RABBIT_1:
 MAGIC_SPAWNER_SQUID_1:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFAA00}（{#FFAA00}鱿{#FFAA00}鱼{#FFAA00}）"
+    name: &d&lMagic Spawner &6(Squid)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e1 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：15 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e1 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 15  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -651,17 +651,17 @@ MAGIC_SPAWNER_SQUID_1:
 MAGIC_SPAWNER_GLOW_SQUID_1:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFFF00}（{#FFEE00}发{#FFDD00}光{#FFCC00}鱿{#FFBB00}鱼{#FFAA00}）"
+    name: &d&lMagic Spawner &6(Glow Squid)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e1 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：15 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e1 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 15  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -674,17 +674,17 @@ MAGIC_SPAWNER_GLOW_SQUID_1:
 MAGIC_SPAWNER_WOLF_1:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFDD00}（{#FFCC00}狼{#FFCC00}）"
+    name: &d&lMagic Spawner &6(Wolf)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e1 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：15 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e1 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 15  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -697,17 +697,17 @@ MAGIC_SPAWNER_WOLF_1:
 MAGIC_SPAWNER_VILLAGER_1:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFEE00}（{#FFDD00}村{#FFCC00}民{#FFDD00}）"
+    name: &d&lMagic Spawner &6(Villager)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e1 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：15 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e1 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 15  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -721,17 +721,17 @@ MAGIC_SPAWNER_VILLAGER_1:
 MAGIC_SPAWNER_ZOMBIE_VILLAGER_1:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFFF00}（{#FFEE00}僵{#FFDD00}尸{#FFCC00}村{#FFBB00}民{#FFAA00}）"
+    name: &d&lMagic Spawner &6(Zombie Villager)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e1 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：15 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e1 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 15  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -744,17 +744,17 @@ MAGIC_SPAWNER_ZOMBIE_VILLAGER_1:
 MAGIC_SPAWNER_PIGLIN_1:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFFF00}（{#FFEE00}猪{#FFDD00}灵{#FFEE00}）"
+    name: &d&lMagic Spawner &6(Piglin)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e1 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：15 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e1 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 15  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -767,17 +767,17 @@ MAGIC_SPAWNER_PIGLIN_1:
 MAGIC_SPAWNER_PIGLIN_BRUTE_1:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFDD00}（{#FFCC00}猪{#FFBB00}灵{#FFCC00}蛮{#FFDD00}兵{#FFDD00}）"
+    name: &d&lMagic Spawner &6(Piglin Brute)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e1 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：15 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e1 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 15  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -790,17 +790,17 @@ MAGIC_SPAWNER_PIGLIN_BRUTE_1:
 MAGIC_SPAWNER_ZOMBIFIED_PIGLIN_1:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFCC00}（{#FFBB00}僵{#FFAA00}尸{#FFBB00}猪{#FFCC00}灵{#FFDD00}）"
+    name: &d&lMagic Spawner &6(Zombified Piglin)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e1 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：15 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e1 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 15  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -813,17 +813,17 @@ MAGIC_SPAWNER_ZOMBIFIED_PIGLIN_1:
 MAGIC_SPAWNER_DROWNED_1:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFBB00}（{#FFAA00}溺{#FFAA00}尸{#FFBB00}）"
+    name: &d&lMagic Spawner &6(Drowned)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e1 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：15 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e1 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 15  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -836,17 +836,17 @@ MAGIC_SPAWNER_DROWNED_1:
 MAGIC_SPAWNER_HUSK_1:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFAA00}（{#FFAA00}尸{#FFAA00}壳{#FFAA00}）"
+    name: &d&lMagic Spawner &6(Husk)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e1 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：15 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e1 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 15  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -859,17 +859,17 @@ MAGIC_SPAWNER_HUSK_1:
 MAGIC_SPAWNER_ELDER_GUARDIAN_1:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFEE00}（{#FFDD00}远{#FFCC00}古{#FFBB00}守{#FFCC00}卫{#FFDD00}者{#FFEE00}）"
+    name: &d&lMagic Spawner &6(Elder Guardian)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e1 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：15 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e1 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 15  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -882,18 +882,18 @@ MAGIC_SPAWNER_ELDER_GUARDIAN_1:
 MAGIC_SPAWNER_PANDA_1:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFDD00}（{#FFCC00}熊{#FFBB00}猫{#FFCC00}）"
+    name: &d&lMagic Spawner &6(Panda)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e1 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：15 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}愿国宝生生不息"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e1 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 15  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}May this treasured species thrive forever"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -906,17 +906,17 @@ MAGIC_SPAWNER_PANDA_1:
 MAGIC_SPAWNER_PHANTOM_1:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFCC00}（{#FFBB00}幻{#FFAA00}翼{#FFBB00}）"
+    name: &d&lMagic Spawner &6(Phantom)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e1 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：15 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e1 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 15  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -929,17 +929,17 @@ MAGIC_SPAWNER_PHANTOM_1:
 MAGIC_SPAWNER_POLAR_BEAR_1:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFBB00}（{#FFAA00}北{#FFAA00}极{#FFAA00}熊{#FFBB00}）"
+    name: &d&lMagic Spawner &6(Polar Bear)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e1 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：15 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e1 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 15  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -952,17 +952,17 @@ MAGIC_SPAWNER_POLAR_BEAR_1:
 MAGIC_SPAWNER_SHULKER_1:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFAA00}（{#FFAA00}潜{#FFAA00}影{#FFAA00}贝{#FFAA00}）"
+    name: &d&lMagic Spawner &6(Shulker)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e1 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：15 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e1 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 15  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -975,17 +975,17 @@ MAGIC_SPAWNER_SHULKER_1:
 MAGIC_SPAWNER_STRAY_1:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFEE00}（{#FFDD00}流{#FFCC00}浪{#FFDD00}者{#FFEE00}）"
+    name: &d&lMagic Spawner &6(Stray)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e1 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：15 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e1 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 15  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -998,17 +998,17 @@ MAGIC_SPAWNER_STRAY_1:
 MAGIC_SPAWNER_WARDEN_1:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFDD00}（{#FFCC00}监{#FFBB00}守{#FFCC00}者{#FFDD00}）"
+    name: &d&lMagic Spawner &6(Warden)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e1 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：15 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e1 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 15  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -1021,17 +1021,17 @@ MAGIC_SPAWNER_WARDEN_1:
 MAGIC_SPAWNER_VINDICATOR_1:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFCC00}（{#FFBB00}卫{#FFAA00}道{#FFBB00}士{#FFCC00}）"
+    name: &d&lMagic Spawner &6(Vindicator)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e1 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：15 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e1 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 15  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -1044,17 +1044,17 @@ MAGIC_SPAWNER_VINDICATOR_1:
 MAGIC_SPAWNER_EVOKER_1:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFBB00}（{#FFAA00}唤{#FFAA00}魔{#FFAA00}者{#FFBB00}）"
+    name: &d&lMagic Spawner &6(Evoker)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e1 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：15 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e1 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 15  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -1071,18 +1071,18 @@ MAGIC_SPAWNER_EVOKER_1:
 MAGIC_SPAWNER_2_START:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFBB00}（{#FFAA00}二{#FFAA00}级{#FFAA00}）{#FFBB00}→→→"
+    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFBB00}（{#FFAA00}二{#FFAA00}{#FFAA00}）{#FFBB00}→→→"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzMzYWU4ZGU3ZWQwNzllMzhkMmM4MmRkNDJiNzRjZmNiZDk0YjM0ODAzNDhkYmI1ZWNkOTNkYThiODEwMTVlMyJ9fX0=
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e2 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：10 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e2 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 10  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -1092,17 +1092,17 @@ MAGIC_SPAWNER_2_START:
 MAGIC_SPAWNER_WITHER_SKELETON_2:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFFF00}（{#FFEE00}凋{#FFDD00}零{#FFCC00}骷{#FFBB00}髅{#FFAA00}）"
+    name: &d&lMagic Spawner &6(Wither Skeleton)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e2 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：10 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e2 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 10  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -1115,17 +1115,17 @@ MAGIC_SPAWNER_WITHER_SKELETON_2:
 MAGIC_SPAWNER_SKELETON_2:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFEE00}（{#FFDD00}骷{#FFCC00}髅{#FFBB00}）"
+    name: &d&lMagic Spawner &6(Skeleton)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e2 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：10 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e2 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 10  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -1138,17 +1138,17 @@ MAGIC_SPAWNER_SKELETON_2:
 MAGIC_SPAWNER_ZOMBIE_2:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFEE00}（{#FFDD00}僵{#FFCC00}尸{#FFDD00}）"
+    name: &d&lMagic Spawner &6(Zombie)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e2 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：10 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e2 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 10  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -1162,17 +1162,17 @@ MAGIC_SPAWNER_ZOMBIE_2:
 MAGIC_SPAWNER_CREEPER_2:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFEE00}（{#FFDD00}苦{#FFCC00}力怕{#FFDD00}）"
+    name: &d&lMagic Spawner &6(Creeper)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e2 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：10 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e2 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 10  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -1186,17 +1186,17 @@ MAGIC_SPAWNER_CREEPER_2:
 MAGIC_SPAWNER_ENDERMAN_2:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFCC00}（{#FFBB00}末{#FFAA00}影{#FFBB00}人{#FFCC00}）"
+    name: &d&lMagic Spawner &6(Enderman)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e2 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：10 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e2 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 10  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -1209,17 +1209,17 @@ MAGIC_SPAWNER_ENDERMAN_2:
 MAGIC_SPAWNER_BLAZE_2:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFBB00}（{#FFAA00}烈{#FFAA00}焰{#FFAA00}人{#FFBB00}）"
+    name: &d&lMagic Spawner &6(Blaze)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e2 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：10 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e2 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 10  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -1232,17 +1232,17 @@ MAGIC_SPAWNER_BLAZE_2:
 MAGIC_SPAWNER_CAVE_SPIDER_2:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFAA00}（{#FFAA00}洞{#FFAA00}穴{#FFAA00}蜘{#FFAA00}蛛{#FFAA00}）"
+    name: &d&lMagic Spawner &6(Cave Spider)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e2 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：10 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e2 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 10  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -1255,17 +1255,17 @@ MAGIC_SPAWNER_CAVE_SPIDER_2:
 MAGIC_SPAWNER_GHAST_2:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFEE00}（{#FFDD00}恶{#FFCC00}魂{#FFDD00}）"
+    name: &d&lMagic Spawner &6(Ghast)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e2 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：10 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e2 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 10  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -1278,17 +1278,17 @@ MAGIC_SPAWNER_GHAST_2:
 MAGIC_SPAWNER_ENDERMITE_2:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFDD00}（{#FFCC00}末{#FFBB00}影{#FFCC00}螨{#FFDD00}）"
+    name: &d&lMagic Spawner &6(Endermite)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e2 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：10 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e2 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 10  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -1302,17 +1302,17 @@ MAGIC_SPAWNER_ENDERMITE_2:
 MAGIC_SPAWNER_SILVERFISH_2:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFBB00}（{#FFAA00}蠹{#FFAA00}虫{#FFBB00}）"
+    name: &d&lMagic Spawner &6(Silverfish)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e2 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：10 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e2 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 10  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -1326,17 +1326,17 @@ MAGIC_SPAWNER_SILVERFISH_2:
 MAGIC_SPAWNER_IRON_GOLEM_2:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFAA00}（{#FFAA00}铁{#FFAA00}傀{#FFAA00}儡{#FFAA00}）"
+    name: &d&lMagic Spawner &6(Iron Golem)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e2 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：10 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e2 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 10  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -1350,17 +1350,17 @@ MAGIC_SPAWNER_IRON_GOLEM_2:
 MAGIC_SPAWNER_GUARDIAN_2:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFEE00}（{#FFDD00}守{#FFCC00}卫{#FFDD00}者{#FFEE00}）"
+    name: &d&lMagic Spawner &6(Guardian)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e2 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：10 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e2 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 10  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -1373,17 +1373,17 @@ MAGIC_SPAWNER_GUARDIAN_2:
 MAGIC_SPAWNER_SLIME_2:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFDD00}（{#FFCC00}史{#FFBB00}莱{#FFCC00}姆{#FFDD00}）"
+    name: &d&lMagic Spawner &6(Slime)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e2 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：10 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e2 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 10  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -1396,17 +1396,17 @@ MAGIC_SPAWNER_SLIME_2:
 MAGIC_SPAWNER_MAGMA_CUBE_2:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFBB00}（{#FFAA00}岩{#FFAA00}浆{#FFAA00}怪{#FFBB00}）"
+    name: &d&lMagic Spawner &6(Magma Cube)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e2 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：10 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e2 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 10  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -1420,17 +1420,17 @@ MAGIC_SPAWNER_MAGMA_CUBE_2:
 MAGIC_SPAWNER_SPIDER_2:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFCC00}（{#FFBB00}蜘{#FFAA00}蛛{#FFBB00}）"
+    name: &d&lMagic Spawner &6(Spider)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e2 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：10 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e2 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 10  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -1444,17 +1444,17 @@ MAGIC_SPAWNER_SPIDER_2:
 MAGIC_SPAWNER_WITCH_2:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFAA00}（{#FFAA00}女{#FFAA00}巫{#FFAA00}）"
+    name: &d&lMagic Spawner &6(Witch)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e2 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：10 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e2 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 10  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -1468,17 +1468,17 @@ MAGIC_SPAWNER_WITCH_2:
 MAGIC_SPAWNER_CHICKEN_2:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFEE00}（{#FFDD00}鸡{#FFDD00}）"
+    name: &d&lMagic Spawner &6(Chicken)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e2 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：10 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e2 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 10  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -1492,17 +1492,17 @@ MAGIC_SPAWNER_CHICKEN_2:
 MAGIC_SPAWNER_COW_2:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFDD00}（{#FFCC00}牛{#FFCC00}）"
+    name: &d&lMagic Spawner &6(Cow)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e2 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：10 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e2 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 10  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -1515,17 +1515,17 @@ MAGIC_SPAWNER_COW_2:
 MAGIC_SPAWNER_SHEEP_2:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFCC00}（{#FFBB00}绵{#FFBB00}羊{#FFCC00}）"
+    name: &d&lMagic Spawner &6(Sheep)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e2 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：10 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e2 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 10  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -1539,17 +1539,17 @@ MAGIC_SPAWNER_SHEEP_2:
 MAGIC_SPAWNER_HORSE_2:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFBB00}（{#FFAA00}马{#FFAA00}）"
+    name: &d&lMagic Spawner &6(Horse)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e2 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：10 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e2 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 10  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -1563,17 +1563,17 @@ MAGIC_SPAWNER_HORSE_2:
 MAGIC_SPAWNER_MUSHROOM_COW_2:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFAA00}（{#FFAA00}哞{#FFAA00}菇{#FFAA00}牛{#FFAA00}）"
+    name: &d&lMagic Spawner &6(Mooshroom)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e2 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：10 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e2 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 10  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -1587,17 +1587,17 @@ MAGIC_SPAWNER_MUSHROOM_COW_2:
 MAGIC_SPAWNER_CAT_2:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFDD00}（{#FFCC00}猫{#FFCC00}）"
+    name: &d&lMagic Spawner &6(Cat)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e2 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：10 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e2 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 10  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -1611,17 +1611,17 @@ MAGIC_SPAWNER_CAT_2:
 MAGIC_SPAWNER_OCELOT_2:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFEE00}（{#FFDD00}豹{#FFCC00}猫{#FFDD00}）"
+    name: &d&lMagic Spawner &6(Ocelot)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e2 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：10 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e2 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 10  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -1634,17 +1634,17 @@ MAGIC_SPAWNER_OCELOT_2:
 MAGIC_SPAWNER_PIG_2:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFCC00}（{#FFBB00}猪{#FFBB00}）"
+    name: &d&lMagic Spawner &6(Pig)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e2 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：10 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e2 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 10  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -1658,17 +1658,17 @@ MAGIC_SPAWNER_PIG_2:
 MAGIC_SPAWNER_RABBIT_2:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFBB00}（{#FFAA00}兔{#FFAA00}子{#FFBB00}）"
+    name: &d&lMagic Spawner &6(Rabbit)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e2 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：10 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e2 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 10  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -1682,17 +1682,17 @@ MAGIC_SPAWNER_RABBIT_2:
 MAGIC_SPAWNER_SQUID_2:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFAA00}（{#FFAA00}鱿{#FFAA00}鱼{#FFAA00}）"
+    name: &d&lMagic Spawner &6(Squid)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e2 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：10 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e2 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 10  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -1705,17 +1705,17 @@ MAGIC_SPAWNER_SQUID_2:
 MAGIC_SPAWNER_GLOW_SQUID_2:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFFF00}（{#FFEE00}发{#FFDD00}光{#FFCC00}鱿{#FFBB00}鱼{#FFAA00}）"
+    name: &d&lMagic Spawner &6(Glow Squid)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e2 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：10 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e2 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 10  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -1728,17 +1728,17 @@ MAGIC_SPAWNER_GLOW_SQUID_2:
 MAGIC_SPAWNER_WOLF_2:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFDD00}（{#FFCC00}狼{#FFCC00}）"
+    name: &d&lMagic Spawner &6(Wolf)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e2 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：10 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e2 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 10  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -1751,17 +1751,17 @@ MAGIC_SPAWNER_WOLF_2:
 MAGIC_SPAWNER_VILLAGER_2:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFEE00}（{#FFDD00}村{#FFCC00}民{#FFDD00}）"
+    name: &d&lMagic Spawner &6(Villager)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e2 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：10 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e2 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 10  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -1775,17 +1775,17 @@ MAGIC_SPAWNER_VILLAGER_2:
 MAGIC_SPAWNER_ZOMBIE_VILLAGER_2:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFFF00}（{#FFEE00}僵{#FFDD00}尸{#FFCC00}村{#FFBB00}民{#FFAA00}）"
+    name: &d&lMagic Spawner &6(Zombie Villager)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e2 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：10 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e2 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 10  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -1798,17 +1798,17 @@ MAGIC_SPAWNER_ZOMBIE_VILLAGER_2:
 MAGIC_SPAWNER_PIGLIN_2:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFFF00}（{#FFEE00}猪{#FFDD00}灵{#FFEE00}）"
+    name: &d&lMagic Spawner &6(Piglin)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e2 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：10 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e2 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 10  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -1821,17 +1821,17 @@ MAGIC_SPAWNER_PIGLIN_2:
 MAGIC_SPAWNER_PIGLIN_BRUTE_2:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFDD00}（{#FFCC00}猪{#FFBB00}灵{#FFCC00}蛮{#FFDD00}兵{#FFDD00}）"
+    name: &d&lMagic Spawner &6(Piglin Brute)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e2 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：10 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e2 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 10  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -1844,17 +1844,17 @@ MAGIC_SPAWNER_PIGLIN_BRUTE_2:
 MAGIC_SPAWNER_ZOMBIFIED_PIGLIN_2:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFCC00}（{#FFBB00}僵{#FFAA00}尸{#FFBB00}猪{#FFCC00}灵{#FFDD00}）"
+    name: &d&lMagic Spawner &6(Zombified Piglin)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e2 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：10 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e2 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 10  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -1867,17 +1867,17 @@ MAGIC_SPAWNER_ZOMBIFIED_PIGLIN_2:
 MAGIC_SPAWNER_DROWNED_2:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFBB00}（{#FFAA00}溺{#FFAA00}尸{#FFBB00}）"
+    name: &d&lMagic Spawner &6(Drowned)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e2 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：10 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e2 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 10  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -1890,17 +1890,17 @@ MAGIC_SPAWNER_DROWNED_2:
 MAGIC_SPAWNER_HUSK_2:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFAA00}（{#FFAA00}尸{#FFAA00}壳{#FFAA00}）"
+    name: &d&lMagic Spawner &6(Husk)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e2 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：10 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e2 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 10  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -1913,17 +1913,17 @@ MAGIC_SPAWNER_HUSK_2:
 MAGIC_SPAWNER_ELDER_GUARDIAN_2:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFEE00}（{#FFDD00}远{#FFCC00}古{#FFBB00}守{#FFCC00}卫{#FFDD00}者{#FFEE00}）"
+    name: &d&lMagic Spawner &6(Elder Guardian)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e2 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：10 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e2 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 10  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -1936,18 +1936,18 @@ MAGIC_SPAWNER_ELDER_GUARDIAN_2:
 MAGIC_SPAWNER_PANDA_2:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFDD00}（{#FFCC00}熊{#FFBB00}猫{#FFCC00}）"
+    name: &d&lMagic Spawner &6(Panda)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e2 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：10 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}愿国宝生生不息"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e2 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 10  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}May this treasured species thrive forever"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -1960,17 +1960,17 @@ MAGIC_SPAWNER_PANDA_2:
 MAGIC_SPAWNER_PHANTOM_2:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFCC00}（{#FFBB00}幻{#FFAA00}翼{#FFBB00}）"
+    name: &d&lMagic Spawner &6(Phantom)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e2 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：10 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e2 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 10  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -1983,17 +1983,17 @@ MAGIC_SPAWNER_PHANTOM_2:
 MAGIC_SPAWNER_POLAR_BEAR_2:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFBB00}（{#FFAA00}北{#FFAA00}极{#FFAA00}熊{#FFBB00}）"
+    name: &d&lMagic Spawner &6(Polar Bear)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e2 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：10 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e2 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 10  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -2006,17 +2006,17 @@ MAGIC_SPAWNER_POLAR_BEAR_2:
 MAGIC_SPAWNER_SHULKER_2:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFAA00}（{#FFAA00}潜{#FFAA00}影{#FFAA00}贝{#FFAA00}）"
+    name: &d&lMagic Spawner &6(Shulker)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e2 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：10 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e2 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 10  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -2029,17 +2029,17 @@ MAGIC_SPAWNER_SHULKER_2:
 MAGIC_SPAWNER_STRAY_2:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFEE00}（{#FFDD00}流{#FFCC00}浪{#FFDD00}者{#FFEE00}）"
+    name: &d&lMagic Spawner &6(Stray)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e2 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：10 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e2 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 10  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -2052,17 +2052,17 @@ MAGIC_SPAWNER_STRAY_2:
 MAGIC_SPAWNER_WARDEN_2:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFDD00}（{#FFCC00}监{#FFBB00}守{#FFCC00}者{#FFDD00}）"
+    name: &d&lMagic Spawner &6(Warden)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e2 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：10 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e2 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 10  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -2075,17 +2075,17 @@ MAGIC_SPAWNER_WARDEN_2:
 MAGIC_SPAWNER_VINDICATOR_2:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFCC00}（{#FFBB00}卫{#FFAA00}道{#FFBB00}士{#FFCC00}）"
+    name: &d&lMagic Spawner &6(Vindicator)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e2 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：10 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e2 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 10  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -2098,17 +2098,17 @@ MAGIC_SPAWNER_VINDICATOR_2:
 MAGIC_SPAWNER_EVOKER_2:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFBB00}（{#FFAA00}唤{#FFAA00}魔{#FFAA00}者{#FFBB00}）"
+    name: &d&lMagic Spawner &6(Evoker)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e2 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：10 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e2 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 10  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -2126,18 +2126,18 @@ MAGIC_SPAWNER_EVOKER_2:
 MAGIC_SPAWNER_3_START:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFBB00}（{#FFAA00}三{#FFAA00}级{#FFAA00}）{#FFBB00}→→→"
+    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFBB00}（{#FFAA00}三{#FFAA00}{#FFAA00}）{#FFBB00}→→→"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzMzYWU4ZGU3ZWQwNzllMzhkMmM4MmRkNDJiNzRjZmNiZDk0YjM0ODAzNDhkYmI1ZWNkOTNkYThiODEwMTVlMyJ9fX0=
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e3 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：5 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e3 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 5  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -2147,17 +2147,17 @@ MAGIC_SPAWNER_3_START:
 MAGIC_SPAWNER_WITHER_SKELETON_3:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFFF00}（{#FFEE00}凋{#FFDD00}零{#FFCC00}骷{#FFBB00}髅{#FFAA00}）"
+    name: &d&lMagic Spawner &6(Wither Skeleton)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e3 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：5 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e3 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 5  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -2170,17 +2170,17 @@ MAGIC_SPAWNER_WITHER_SKELETON_3:
 MAGIC_SPAWNER_SKELETON_3:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFEE00}（{#FFDD00}骷{#FFCC00}髅{#FFBB00}）"
+    name: &d&lMagic Spawner &6(Skeleton)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e3 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：5 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e3 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 5  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -2193,17 +2193,17 @@ MAGIC_SPAWNER_SKELETON_3:
 MAGIC_SPAWNER_ZOMBIE_3:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFEE00}（{#FFDD00}僵{#FFCC00}尸{#FFDD00}）"
+    name: &d&lMagic Spawner &6(Zombie)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e3 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：5 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e3 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 5  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -2217,17 +2217,17 @@ MAGIC_SPAWNER_ZOMBIE_3:
 MAGIC_SPAWNER_CREEPER_3:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFEE00}（{#FFDD00}苦{#FFCC00}力怕{#FFDD00}）"
+    name: &d&lMagic Spawner &6(Creeper)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e3 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：5 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e3 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 5  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -2241,17 +2241,17 @@ MAGIC_SPAWNER_CREEPER_3:
 MAGIC_SPAWNER_ENDERMAN_3:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFCC00}（{#FFBB00}末{#FFAA00}影{#FFBB00}人{#FFCC00}）"
+    name: &d&lMagic Spawner &6(Enderman)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e3 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：5 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e3 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 5  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -2264,17 +2264,17 @@ MAGIC_SPAWNER_ENDERMAN_3:
 MAGIC_SPAWNER_BLAZE_3:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFBB00}（{#FFAA00}烈{#FFAA00}焰{#FFAA00}人{#FFBB00}）"
+    name: &d&lMagic Spawner &6(Blaze)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e3 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：5 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e3 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 5  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -2287,17 +2287,17 @@ MAGIC_SPAWNER_BLAZE_3:
 MAGIC_SPAWNER_CAVE_SPIDER_3:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFAA00}（{#FFAA00}洞{#FFAA00}穴{#FFAA00}蜘{#FFAA00}蛛{#FFAA00}）"
+    name: &d&lMagic Spawner &6(Cave Spider)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e3 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：5 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e3 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 5  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -2310,17 +2310,17 @@ MAGIC_SPAWNER_CAVE_SPIDER_3:
 MAGIC_SPAWNER_GHAST_3:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFEE00}（{#FFDD00}恶{#FFCC00}魂{#FFDD00}）"
+    name: &d&lMagic Spawner &6(Ghast)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e3 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：5 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e3 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 5  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -2333,17 +2333,17 @@ MAGIC_SPAWNER_GHAST_3:
 MAGIC_SPAWNER_ENDERMITE_3:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFDD00}（{#FFCC00}末{#FFBB00}影{#FFCC00}螨{#FFDD00}）"
+    name: &d&lMagic Spawner &6(Endermite)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e3 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：5 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e3 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 5  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -2357,17 +2357,17 @@ MAGIC_SPAWNER_ENDERMITE_3:
 MAGIC_SPAWNER_SILVERFISH_3:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFBB00}（{#FFAA00}蠹{#FFAA00}虫{#FFBB00}）"
+    name: &d&lMagic Spawner &6(Silverfish)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e3 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：5 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e3 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 5  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -2381,17 +2381,17 @@ MAGIC_SPAWNER_SILVERFISH_3:
 MAGIC_SPAWNER_IRON_GOLEM_3:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFAA00}（{#FFAA00}铁{#FFAA00}傀{#FFAA00}儡{#FFAA00}）"
+    name: &d&lMagic Spawner &6(Iron Golem)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e3 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：5 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e3 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 5  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -2405,17 +2405,17 @@ MAGIC_SPAWNER_IRON_GOLEM_3:
 MAGIC_SPAWNER_GUARDIAN_3:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFEE00}（{#FFDD00}守{#FFCC00}卫{#FFDD00}者{#FFEE00}）"
+    name: &d&lMagic Spawner &6(Guardian)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e3 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：5 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e3 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 5  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -2428,17 +2428,17 @@ MAGIC_SPAWNER_GUARDIAN_3:
 MAGIC_SPAWNER_SLIME_3:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFDD00}（{#FFCC00}史{#FFBB00}莱{#FFCC00}姆{#FFDD00}）"
+    name: &d&lMagic Spawner &6(Slime)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e3 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：5 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e3 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 5  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -2451,17 +2451,17 @@ MAGIC_SPAWNER_SLIME_3:
 MAGIC_SPAWNER_MAGMA_CUBE_3:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFBB00}（{#FFAA00}岩{#FFAA00}浆{#FFAA00}怪{#FFBB00}）"
+    name: &d&lMagic Spawner &6(Magma Cube)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e3 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：5 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e3 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 5  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -2475,17 +2475,17 @@ MAGIC_SPAWNER_MAGMA_CUBE_3:
 MAGIC_SPAWNER_SPIDER_3:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFCC00}（{#FFBB00}蜘{#FFAA00}蛛{#FFBB00}）"
+    name: &d&lMagic Spawner &6(Spider)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e3 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：5 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e3 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 5  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -2499,17 +2499,17 @@ MAGIC_SPAWNER_SPIDER_3:
 MAGIC_SPAWNER_WITCH_3:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFAA00}（{#FFAA00}女{#FFAA00}巫{#FFAA00}）"
+    name: &d&lMagic Spawner &6(Witch)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e3 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：5 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e3 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 5  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -2523,17 +2523,17 @@ MAGIC_SPAWNER_WITCH_3:
 MAGIC_SPAWNER_CHICKEN_3:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFEE00}（{#FFDD00}鸡{#FFDD00}）"
+    name: &d&lMagic Spawner &6(Chicken)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e3 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：5 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e3 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 5  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -2547,17 +2547,17 @@ MAGIC_SPAWNER_CHICKEN_3:
 MAGIC_SPAWNER_COW_3:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFDD00}（{#FFCC00}牛{#FFCC00}）"
+    name: &d&lMagic Spawner &6(Cow)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e3 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：5 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e3 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 5  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -2570,17 +2570,17 @@ MAGIC_SPAWNER_COW_3:
 MAGIC_SPAWNER_SHEEP_3:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFCC00}（{#FFBB00}绵{#FFBB00}羊{#FFCC00}）"
+    name: &d&lMagic Spawner &6(Sheep)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e3 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：5 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e3 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 5  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -2594,17 +2594,17 @@ MAGIC_SPAWNER_SHEEP_3:
 MAGIC_SPAWNER_HORSE_3:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFBB00}（{#FFAA00}马{#FFAA00}）"
+    name: &d&lMagic Spawner &6(Horse)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e3 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：5 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e3 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 5  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -2618,17 +2618,17 @@ MAGIC_SPAWNER_HORSE_3:
 MAGIC_SPAWNER_MUSHROOM_COW_3:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFAA00}（{#FFAA00}哞{#FFAA00}菇{#FFAA00}牛{#FFAA00}）"
+    name: &d&lMagic Spawner &6(Mooshroom)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e3 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：5 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e3 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 5  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -2642,17 +2642,17 @@ MAGIC_SPAWNER_MUSHROOM_COW_3:
 MAGIC_SPAWNER_CAT_3:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFDD00}（{#FFCC00}猫{#FFCC00}）"
+    name: &d&lMagic Spawner &6(Cat)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e3 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：5 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e3 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 5  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -2666,17 +2666,17 @@ MAGIC_SPAWNER_CAT_3:
 MAGIC_SPAWNER_OCELOT_3:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFEE00}（{#FFDD00}豹{#FFCC00}猫{#FFDD00}）"
+    name: &d&lMagic Spawner &6(Ocelot)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e3 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：5 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e3 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 5  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -2689,17 +2689,17 @@ MAGIC_SPAWNER_OCELOT_3:
 MAGIC_SPAWNER_PIG_3:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFCC00}（{#FFBB00}猪{#FFBB00}）"
+    name: &d&lMagic Spawner &6(Pig)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e3 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：5 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e3 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 5  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -2713,17 +2713,17 @@ MAGIC_SPAWNER_PIG_3:
 MAGIC_SPAWNER_RABBIT_3:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFBB00}（{#FFAA00}兔{#FFAA00}子{#FFBB00}）"
+    name: &d&lMagic Spawner &6(Rabbit)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e3 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：5 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e3 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 5  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -2737,17 +2737,17 @@ MAGIC_SPAWNER_RABBIT_3:
 MAGIC_SPAWNER_SQUID_3:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFAA00}（{#FFAA00}鱿{#FFAA00}鱼{#FFAA00}）"
+    name: &d&lMagic Spawner &6(Squid)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e3 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：5 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e3 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 5  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -2760,17 +2760,17 @@ MAGIC_SPAWNER_SQUID_3:
 MAGIC_SPAWNER_GLOW_SQUID_3:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFFF00}（{#FFEE00}发{#FFDD00}光{#FFCC00}鱿{#FFBB00}鱼{#FFAA00}）"
+    name: &d&lMagic Spawner &6(Glow Squid)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e3 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：5 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e3 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 5  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -2783,17 +2783,17 @@ MAGIC_SPAWNER_GLOW_SQUID_3:
 MAGIC_SPAWNER_WOLF_3:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFDD00}（{#FFCC00}狼{#FFCC00}）"
+    name: &d&lMagic Spawner &6(Wolf)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e3 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：5 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e3 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 5  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -2806,17 +2806,17 @@ MAGIC_SPAWNER_WOLF_3:
 MAGIC_SPAWNER_VILLAGER_3:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFEE00}（{#FFDD00}村{#FFCC00}民{#FFDD00}）"
+    name: &d&lMagic Spawner &6(Villager)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e3 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：5 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e3 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 5  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -2830,17 +2830,17 @@ MAGIC_SPAWNER_VILLAGER_3:
 MAGIC_SPAWNER_ZOMBIE_VILLAGER_3:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFFF00}（{#FFEE00}僵{#FFDD00}尸{#FFCC00}村{#FFBB00}民{#FFAA00}）"
+    name: &d&lMagic Spawner &6(Zombie Villager)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e3 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：5 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e3 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 5  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -2853,17 +2853,17 @@ MAGIC_SPAWNER_ZOMBIE_VILLAGER_3:
 MAGIC_SPAWNER_PIGLIN_3:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFFF00}（{#FFEE00}猪{#FFDD00}灵{#FFEE00}）"
+    name: &d&lMagic Spawner &6(Piglin)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e3 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：5 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e3 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 5  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -2876,17 +2876,17 @@ MAGIC_SPAWNER_PIGLIN_3:
 MAGIC_SPAWNER_PIGLIN_BRUTE_3:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFDD00}（{#FFCC00}猪{#FFBB00}灵{#FFCC00}蛮{#FFDD00}兵{#FFDD00}）"
+    name: &d&lMagic Spawner &6(Piglin Brute)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e3 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：5 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e3 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 5  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -2899,17 +2899,17 @@ MAGIC_SPAWNER_PIGLIN_BRUTE_3:
 MAGIC_SPAWNER_ZOMBIFIED_PIGLIN_3:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFCC00}（{#FFBB00}僵{#FFAA00}尸{#FFBB00}猪{#FFCC00}灵{#FFDD00}）"
+    name: &d&lMagic Spawner &6(Zombified Piglin)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e3 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：5 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e3 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 5  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -2922,17 +2922,17 @@ MAGIC_SPAWNER_ZOMBIFIED_PIGLIN_3:
 MAGIC_SPAWNER_DROWNED_3:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFBB00}（{#FFAA00}溺{#FFAA00}尸{#FFBB00}）"
+    name: &d&lMagic Spawner &6(Drowned)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e3 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：5 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e3 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 5  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -2945,17 +2945,17 @@ MAGIC_SPAWNER_DROWNED_3:
 MAGIC_SPAWNER_HUSK_3:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFAA00}（{#FFAA00}尸{#FFAA00}壳{#FFAA00}）"
+    name: &d&lMagic Spawner &6(Husk)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e3 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：5 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e3 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 5  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -2968,17 +2968,17 @@ MAGIC_SPAWNER_HUSK_3:
 MAGIC_SPAWNER_ELDER_GUARDIAN_3:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFEE00}（{#FFDD00}远{#FFCC00}古{#FFBB00}守{#FFCC00}卫{#FFDD00}者{#FFEE00}）"
+    name: &d&lMagic Spawner &6(Elder Guardian)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e3 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：5 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e3 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 5  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -2991,18 +2991,18 @@ MAGIC_SPAWNER_ELDER_GUARDIAN_3:
 MAGIC_SPAWNER_PANDA_3:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFDD00}（{#FFCC00}熊{#FFBB00}猫{#FFCC00}）"
+    name: &d&lMagic Spawner &6(Panda)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e3 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：5 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}愿国宝生生不息"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e3 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 5  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}May this treasured species thrive forever"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -3015,17 +3015,17 @@ MAGIC_SPAWNER_PANDA_3:
 MAGIC_SPAWNER_PHANTOM_3:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFCC00}（{#FFBB00}幻{#FFAA00}翼{#FFBB00}）"
+    name: &d&lMagic Spawner &6(Phantom)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e3 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：5 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e3 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 5  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -3038,17 +3038,17 @@ MAGIC_SPAWNER_PHANTOM_3:
 MAGIC_SPAWNER_POLAR_BEAR_3:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFBB00}（{#FFAA00}北{#FFAA00}极{#FFAA00}熊{#FFBB00}）"
+    name: &d&lMagic Spawner &6(Polar Bear)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e3 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：5 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e3 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 5  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -3061,17 +3061,17 @@ MAGIC_SPAWNER_POLAR_BEAR_3:
 MAGIC_SPAWNER_SHULKER_3:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFAA00}（{#FFAA00}潜{#FFAA00}影{#FFAA00}贝{#FFAA00}）"
+    name: &d&lMagic Spawner &6(Shulker)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e3 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：5 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e3 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 5  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -3084,17 +3084,17 @@ MAGIC_SPAWNER_SHULKER_3:
 MAGIC_SPAWNER_STRAY_3:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFEE00}（{#FFDD00}流{#FFCC00}浪{#FFDD00}者{#FFEE00}）"
+    name: &d&lMagic Spawner &6(Stray)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e3 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：5 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e3 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 5  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -3107,17 +3107,17 @@ MAGIC_SPAWNER_STRAY_3:
 MAGIC_SPAWNER_WARDEN_3:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFDD00}（{#FFCC00}监{#FFBB00}守{#FFCC00}者{#FFDD00}）"
+    name: &d&lMagic Spawner &6(Warden)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e3 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：5 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e3 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 5  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -3130,17 +3130,17 @@ MAGIC_SPAWNER_WARDEN_3:
 MAGIC_SPAWNER_VINDICATOR_3:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFCC00}（{#FFBB00}卫{#FFAA00}道{#FFBB00}士{#FFCC00}）"
+    name: &d&lMagic Spawner &6(Vindicator)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e3 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：5 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e3 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 5  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -3153,17 +3153,17 @@ MAGIC_SPAWNER_VINDICATOR_3:
 MAGIC_SPAWNER_EVOKER_3:
   item_group: magic_spawner
   item:
-    name: "{#FFC0CB}魔{#FFB9C3}法{#FFB3BA}刷{#FFA8AF}怪{#FF9DA4}笼{#FA8E99}{#FFBB00}（{#FFAA00}唤{#FFAA00}魔{#FFAA00}者{#FFBB00}）"
+    name: &d&lMagic Spawner &6(Evoker)
     material: SPAWNER
     lore: 
-      - "{#FDB7D4}刷怪笼等级：&e3 {#FDB7D4}级"
-      - "{#FDB7D4}采用现实时间算法（独立于粘液刻之外）"
-      - "{#FDB7D4}生成间隔：5 秒"
-      - "{#FDB7D4}范围内生物数量：16"
-      - "{#FDB7D4}当前生物数量限制：15"
-      - "&8⇨ &e⚡{#FDB7D4} 1314 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 每个生物"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Spawner tier: &e3 {#FDB7D4}"
+      - "{#FDB7D4}Uses real-time timing (independent of Slimefun ticks)"
+      - "{#FDB7D4}Spawn interval: 5  seconds"
+      - "{#FDB7D4}Mobs in range: 16"
+      - "{#FDB7D4}Current mob limit: 15"
+      - "&8⇨ &e⚡{#FDB7D4} 1314 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J per mob"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l刷{#FA8E99}&l怪{#F97F8E}&l笼{#F87083}&l&kl"
     glow: true
@@ -3183,7 +3183,7 @@ MAGIC_B_SOUND_MACHINE_1:
       - "&a"
       - "{#FDB7D4}使用魔法"
       - "{#FDB7D4}向全体玩家播放B动静"
-      - "{#FDB7D4}实验性机器" 
+      - "{#FDB7D4}Experimental Machine" 
   recipe_type: MAGIC_NONE
   script: B动静制造机附近
 
@@ -3196,7 +3196,7 @@ MAGIC_B_SOUND_MACHINE_2:
       - "&a"
       - "{#FDB7D4}使用魔法"
       - "{#FDB7D4}向全体玩家播放B动静"
-      - "{#FDB7D4}实验性机器" 
+      - "{#FDB7D4}Experimental Machine" 
   recipe_type: MAGIC_NONE
   script: B动静制造机全体
 
@@ -3270,7 +3270,7 @@ MAGIC_BLACK_ROLE:
       - "{#FDB7D4}可配合发电机型一体机使用"
       - "&8⇨&e ⚡ &74,294,967,294 J/s" 
       - "&a"
-      - "{#FDB7D4}实验性机器" 
+      - "{#FDB7D4}Experimental Machine" 
   recipe_type: MAGIC_NONE
   script: 黑洞电容
   energy:
@@ -3294,11 +3294,11 @@ MAGIC_PLAYER_ATTACT:
       - "{#FDB7D4}该功能可能会在后续版本中完善"
       - "{#FDB7D4}玩家原型: magicsolo"
       - "{#FDB7D4}攻击半径：5（半径约为5的正方体）"
-      - "&8⇨ &e⚡{#FDB7D4} 10280 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 速度: &b7.5s {#FDB7D4}{采用现实时间算法}"
+      - "&8⇨ &e⚡{#FDB7D4} 10280 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} Speed: &b7.5s {#FDB7D4}{采用现实时间算法}"
       - "&8⇨ &e⚡{#FDB7D4} 4096  J 每次攻击"
       - "&8⇨ &e⚡{#FDB7D4} 64   J/s "
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l电{#E9967A}&l力{#F08080}&l机{#FF69B4}&l器"
     glow: true
@@ -3354,21 +3354,21 @@ MAGIC_POWER_MIX_1:
       - "&a"
       - "{#FDB7D4}上方请使用配套机器进行发电"
       - "{#FDB7D4}将发电机放入上方机器中"
-      - "{#FDB7D4}目前支持：基础风力、无尽、虚空、超级太阳能、高级太阳能、水利涡轮、充能太阳能、为爱发电机(8种)"
+      - "{#FDB7D4}目前支持：基础风力、无尽、虚空、超太阳能、高太阳能、水利涡轮、充能太阳能、为爱发电机(8种)"
       - "{#FDB7D4}此机器是一个发电机"
       - '{#FDB7D4}+----------------------------------------+'
-      - '{#FDB7D4}|      矩阵台                  |'
-      - '{#FDB7D4}| (放置在支持的魔法矩阵上方)  |'
+      - '{#FDB7D4}|      Matrix Platform                  |'
+      - '{#FDB7D4}| (Place above a supported Magic Matrix)  |'
       - '{#FDB7D4}+----------------------------------------+'
-      - '{#FDB7D4}|      魔法矩阵                |'
-      - '{#FDB7D4}| (放置在支持的矩阵台下方)    |'
+      - '{#FDB7D4}|      Magic Matrix                |'
+      - '{#FDB7D4}| (Place below a supported Matrix Platform)    |'
       - '{#FDB7D4}+----------------------------------------+'
-      - '{#FDB7D4}说明: '
-      - '{#FDB7D4}上方用于放置矩阵台，它应该放在支持的魔法矩阵之上。'
-      - '{#FDB7D4}下方用于放置魔法矩阵(本机器)，它应当位于支持的矩阵台之下。'
-      - "&8⇨ &e⚡{#FDB7D4} 1008888888 J 可存储"
+      - '{#FDB7D4}Description: '
+      - '{#FDB7D4}上方用于放置Matrix Platform，它应该放在支持的Magic Matrix之上。'
+      - '{#FDB7D4}下方用于放置Magic Matrix(本机器)，它应当位于支持的Matrix Platform之下。'
+      - "&8⇨ &e⚡{#FDB7D4} 1008888888 J Storage"
       - "&8⇨ &e⚡{#FDB7D4} ??? J/s "
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l能{#E9967A}&l源{#F08080}&l与{#FF69B4}&l电{#DB7093}&l力"
     glow: true
@@ -3428,11 +3428,11 @@ MAGIC_PLANT_1:
       - "&a"
       - "{#FDB7D4}第一个测试种子"
       - "{#FDB7D4}以下属性请忽略（懒得删）"
-      - "&8⇨ &e⚡{#FDB7D4} 10280 J 可存储"
-      - "&8⇨ &e⚡{#FDB7D4} 速度: &b15s {#FDB7D4}{采用现实时间算法}"
+      - "&8⇨ &e⚡{#FDB7D4} 10280 J Storage"
+      - "&8⇨ &e⚡{#FDB7D4} Speed: &b15s {#FDB7D4}{采用现实时间算法}"
       - "&8⇨ &e⚡{#FDB7D4} 4096  J 加速成长（隐藏属性可忽视）"
       - "&8⇨ &e⚡{#FDB7D4} 64   J/s (隐藏属性可忽视)"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Experimental Machine"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB9C3}&l魔{#FFB3BA}&l法{#FFA8AF}&l-{#FF9DA4}&l植{#FA8E99}&l物{#F97F8E}&l学{#F87083}&l&kl"
     glow: true
@@ -3491,18 +3491,18 @@ MAGIC_FLOWER_MIX_1:
       - "{#FDB7D4}将花朵放入上方机器中"
       - "{#FDB7D4}可以把一种花朵培育成另一种花朵"
       - "{#FDB7D4}支持几乎所有种类的花"
-      - "&8⇨ &e⚡{#FDB7D4} 520  J 可存储"
+      - "&8⇨ &e⚡{#FDB7D4} 520  J Storage"
       - "&8⇨ &e⚡{#FDB7D4} 10   J/s "
       - "{#FFA8AF}除{#FF9DA4}夕{#FA8E99}限{#F97F8E}定"
       - "{#FDB7D4}"
       - "{#FDB7D4}+----------------------------------+-----------------------------------+----------------------------------+"
-      - "{#FDB7D4}|       输入/输出       　|         输入/输出    　　|      输入/输出   　　   |"
+      - "{#FDB7D4}|       Input/Output       　|         Input/Output    　　|      Input/Output   　　   |"
       - "{#FDB7D4}|        [空位]　　　      |          [空位]   　　　　|       [空位]     　　　　| <-- 第1行（奇数行）"
       - "{#FDB7D4}+----------------------------------+-----------------------------------+----------------------------------+"
       - "{#FDB7D4}|     　　预览　        　|      　　预览　        　|     　　预览　        　|"
       - "{#FDB7D4}|      [结果花朵1]     　　|       [结果花朵2]     　　|      [结果花朵3]     　　| <-- 第2行（偶数行）"
       - "{#FDB7D4}+----------------------------------+-----------------------------------+----------------------------------+"
-      - "{#FDB7D4}|       输入/输出       　|         输入/输出    　　|      输入/输出   　　   |"
+      - "{#FDB7D4}|       Input/Output       　|         Input/Output    　　|      Input/Output   　　   |"
       - "{#FDB7D4}|        [空位]　　　      |          [空位]   　　　　|       [空位]     　　　　| <-- 第3行（奇数行）"
       - "{#FDB7D4}+----------------------------------+-----------------------------------+----------------------------------+"
       - "{#FDB7D4}"
@@ -3534,9 +3534,9 @@ MAGIC_GEOMINER:
       - "{#FDB7D4}从区块深处开采出魔法资源"
       - "{#FDB7D4}可以开采出一些神秘的魔法资源"
       - "{#FDB7D4}该机器一旦放置就会持续抽取电力"
-      - "&8⇨ &e⚡{#FDB7D4} 5200  J 可存储"
+      - "&8⇨ &e⚡{#FDB7D4} 5200  J Storage"
       - "&8⇨ &e⚡{#FDB7D4} 1314   J/s "
-      - "{#FDB7D4}使用时需要在下方放置&e\"{#FDB7D4}魔法资源输出箱&e\""
+      - "{#FDB7D4}使用时需要在下方放置&e\"{#FDB7D4}魔法资源Output箱&e\""
       - "&4！请先对所在区块进行地形扫描"
       - "&a"
       - "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l能{#E9967A}&l源{#F08080}&l与{#FF69B4}&l电{#DB7093}&l力" 
@@ -3596,20 +3596,20 @@ MAGIC_INFINITY_MIX_1:
       - "{#FDB7D4}让其能够以更高速率生产，并且实现一体化工艺"
       - "{#FDB7D4}这也意味着会消耗更多的电力"
       - "{#FDB7D4}此机器是一个控制机器生产"
-      - "{#FDB7D4}魔法圆石生成机处理速度：384个/s === 比例1:1 3200J/Per"
-      - "{#FDB7D4}魔法磨粉机处理速度：384个/s === 比例1:1 28800J/Per"
-      - "{#FDB7D4}魔法圆石生成机处理速度：384个/s === 比例1:1 28800J/Per"
+      - "{#FDB7D4}魔法圆石生成机处理Speed：384个/s === 比例1:1 3200J/Per"
+      - "{#FDB7D4}魔法磨粉机处理Speed：384个/s === 比例1:1 28800J/Per"
+      - "{#FDB7D4}魔法圆石生成机处理Speed：384个/s === 比例1:1 28800J/Per"
       - '{#FDB7D4}+----------------------------------------+'
-      - '{#FDB7D4}|      矩阵台                  |'
-      - '{#FDB7D4}| (放置在支持的魔法矩阵上方)  |'
+      - '{#FDB7D4}|      Matrix Platform                  |'
+      - '{#FDB7D4}| (Place above a supported Magic Matrix)  |'
       - '{#FDB7D4}+----------------------------------------+'
-      - '{#FDB7D4}|      魔法矩阵                |'
-      - '{#FDB7D4}| (放置在支持的矩阵台下方)    |'
+      - '{#FDB7D4}|      Magic Matrix                |'
+      - '{#FDB7D4}| (Place below a supported Matrix Platform)    |'
       - '{#FDB7D4}+----------------------------------------+'
-      - '{#FDB7D4}说明: '
-      - '{#FDB7D4}上方用于放置矩阵台，它应该放在支持的魔法矩阵之上。'
-      - '{#FDB7D4}下方用于放置魔法矩阵(本机器)，它应当位于支持的矩阵台之下。'
-      - "&8⇨ &e⚡{#FDB7D4} 2147483647 J 可存储"
+      - '{#FDB7D4}Description: '
+      - '{#FDB7D4}上方用于放置Matrix Platform，它应该放在支持的Magic Matrix之上。'
+      - '{#FDB7D4}下方用于放置Magic Matrix(本机器)，它应当位于支持的Matrix Platform之下。'
+      - "&8⇨ &e⚡{#FDB7D4} 2147483647 J Storage"
       - "&8⇨ &e⚡{#FDB7D4} ？？？ J/s "
       - "{#FDB7D4}矩阵机器"
       - "&a"

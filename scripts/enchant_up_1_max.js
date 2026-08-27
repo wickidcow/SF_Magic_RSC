@@ -8,14 +8,14 @@ function onUse(event) {
   // 检查主手是否是用主手进行操作
   if (event.getHand() !== org.bukkit.inventory.EquipmentSlot.HAND) {
     // 如果不是主手，则发送消息并返回
-    player.sendMessage("§e[魔法-强化] §f请使用主手进行操作");
+    player.sendMessage("§e[魔法-强化] §fUse your main hand for this action");
     return;
   }
 
   // 检查副手中是否有物品
   if (offHandItem === null || offHandItem.getType() === org.bukkit.Material.AIR) {
     // 如果没有物品或持有空气，则发送消息并返回
-    player.sendMessage("§e[魔法-强化] §f副手需要持有物品");
+    player.sendMessage("§e[魔法-强化] §fYou must hold an item in your off hand");
     return;
   }
 
@@ -68,7 +68,7 @@ function addRandomEnchantment(item,player) {
 
   }else {
 
-    player.sendMessage("§e[魔法-强化] §f原有的附魔等级提升了。");
+    player.sendMessage("§e[魔法-强化] §f原有的附魔等提升了。");
 
   }
 }

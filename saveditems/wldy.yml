@@ -9,7 +9,7 @@ item:
     display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#3295A8","text":"网络单元(箱子)"}],"text":""}'
     lore:
     - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"放置后再破坏将失去现有皮肤"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Breaking it after placement removes the current skin"}],"text":""}'
     - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"网络单元拥有54格空间(相当于一个大箱子)"}],"text":""}'
     - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"可以通过网络访问其中的物品"}],"text":""}'
     - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"也可以直接打开"}],"text":""}'

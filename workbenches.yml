@@ -1,19 +1,19 @@
 MAGIC_CARGO_STORAGE_MAKER:
   item_group: magic_storage
   item:
-    name: "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l抽{#FA8072}&l屉{#E9967A}&l升{#F08080}&l级{#FF69B4}&l台"
+    name: "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l抽{#FA8072}&l屉{#E9967A}&l升{#F08080}&l{#FF69B4}&l台"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGI2MzVlOGNkMDQwNWJjYTVjM2ZkMzRiYWQ5M2EwMGNhNWEyY2EyYWQxMjE0Y2RhMTIwNDViYThhYmI4MzA1YiJ9fX0=
     lore:
       - "&a"
-      - "{#FDB7D4}&l升级魔法抽屉"
+      - "{#FDB7D4}&l升魔法抽屉"
       - "{#FDB7D4}&l制作魔法抽屉核心"
       - "{#FDB7D4}&l核心可以用于解封'被封印的抽屉'~"
       - "{#FDB7D4}&l魔法抽屉功能等同于网络抽屉"
       - "{#FDB7D4}&l放置后拆除将被暂时封印"
       - "&a"
       - "&8⇨&e ⚡ &710000  J/per"
-      - "&8⇨&e ⚡ &7100000 J 可存储"
+      - "&8⇨&e ⚡ &7100000 J Storage"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l抽{#E9967A}&l屉{#F08080}&l&kl"
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -1458,7 +1458,7 @@ MAGIC_FISHING_HOUSE:
       - "{#FDB7D4}&l更多功能敬请期待~"
       - "&a"
       - "&8⇨&e ⚡ &710000  J/per"
-      - "&8⇨&e ⚡ &7100000 J 可存储"
+      - "&8⇨&e ⚡ &7100000 J Storage"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l垂{#E9967A}&l钓{#F08080}&l&kl"
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -2349,7 +2349,7 @@ MAGIC_GOD_WORKBENCH:
       - "{#FDB7D4}&l用于制作强大的魔法装备"
       - "&a"
       - "&8⇨&e ⚡ &71  J/per"
-      - "&8⇨&e ⚡ &7100 J 可存储"
+      - "&8⇨&e ⚡ &7100 J Storage"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFB6C1}&l魔{#FFA07A}&l法{#FA8072}&l-{#E9967A}&l装{#F08080}&l备{#FF69B4}&l强{#DB7093}&l化{#FFC0CB}&l&kl"
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -2506,7 +2506,7 @@ MAGIC_SUPREME_WORKBENCH:
       - "{#FDB7D4}&l没有刷物bug"
       - "&a"
       - "&8⇨&e ⚡ &710000  J/per"
-      - "&8⇨&e ⚡ &7100000 J 可存储"
+      - "&8⇨&e ⚡ &7100000 J Storage"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l至{#E9967A}&l尊{#F08080}&l工{#FF69B4}&l艺{#FFC0CB}&l&kl"
   recipe_type: ENHANCED_CRAFTING_TABLE

@@ -3,7 +3,7 @@ function onUse(event) {
   
   // 检查是否使用主手进行操作
   if (event.getHand() !== org.bukkit.inventory.EquipmentSlot.HAND) {
-    player.sendMessage("§e[魔法-增幅] §f请使用主手进行操作");
+    player.sendMessage("§e[Magic - Amplification] §fUse your main hand for this action");
     return;
   }
 
@@ -47,13 +47,13 @@ function upgradeOffHandArmor(event) {
   
   // 检查副手中是否有物品
   if (offHandItem === null || offHandItem.getType() === org.bukkit.Material.AIR) {
-    player.sendMessage("§e[魔法-增幅] §f副手需要持有物品");
+    player.sendMessage("§e[Magic - Amplification] §fYou must hold an item in your off hand");
     return;
   }
 
    // 检查物品堆叠数量是否为1
    if (offHandItem.getAmount() !== 1) {
-    player.sendMessage("§e[魔法-增幅] §f不要贪心，一次只能强化一件物品");
+    player.sendMessage("§e[Magic - Amplification] §f不要贪心，一次只能强化一件物品");
     return;
   }
   let item = event.getItem();
@@ -75,9 +75,9 @@ function upgradeOffHandArmor(event) {
   // 强化副手物品
   let success = attemptUpgrade(player, offHandItem, event, equipmentSlot);
   if (success) {
-    player.sendMessage("§e[魔法-增幅] §f强化成功！以上为副手中装备的§e属性变化§f情况。");
+    player.sendMessage("§e[Magic - Amplification] §f强化成功！以上为副手中装备的§e属性变化§f情况。");
   } else {
-    player.sendMessage("§e[魔法-增幅] §4强化失败！副手中的装备已销毁。");
+    player.sendMessage("§e[Magic - Amplification] §4强化失败！副手中的装备已销毁。");
   }
 }
 
@@ -102,7 +102,7 @@ function attemptUpgrade(player, item, event1, equipmentSlot) {
     addMultipleAttributes(item, player, equipmentSlot);
     return true;
   }
-  // player.sendMessage("输出值："+ equipmentSlot);
+  // player.sendMessage("Output值："+ equipmentSlot);
 
   if (equipmentSlot == "HEAD"){
 
@@ -286,35 +286,35 @@ function attemptUpgrade(player, item, event1, equipmentSlot) {
     incrementOrAddAttribute(item, player, attribute, equipmentSlot);
   }
   if(equipmentSlot == "HEAD"){
-    player.sendMessage("§e[魔法-增幅] §f 当前强化位置为 §e头盔");
-    player.sendMessage("§b[装备属性] → §c生命值　 + "+ (1).toFixed(2));
-    player.sendMessage("§b[装备属性] → §d护甲值　 + "+ (0.2).toFixed(2));
-    player.sendMessage("§b[装备属性] → §6盔甲韧性 + "+ (0.15).toFixed(2));
-    player.sendMessage("§b[装备属性] → §b攻击力　 + "+ (0.3).toFixed(2));
+    player.sendMessage("§e[Magic - Amplification] §f 当前强化位置为 §e头盔");
+    player.sendMessage("§b[Equipment Attribute] → §c生命值　 + "+ (1).toFixed(2));
+    player.sendMessage("§b[Equipment Attribute] → §d护甲值　 + "+ (0.2).toFixed(2));
+    player.sendMessage("§b[Equipment Attribute] → §6Armor Toughness + "+ (0.15).toFixed(2));
+    player.sendMessage("§b[Equipment Attribute] → §b攻击力　 + "+ (0.3).toFixed(2));
   }else if(equipmentSlot == "HAND"){
-    player.sendMessage("§e[魔法-增幅] §f 当前强化位置为 §e主手");
-    player.sendMessage("§b[装备属性] → §b攻击力　 + "+ (1).toFixed(2));
-    player.sendMessage("§b[装备属性] → §1攻击速度 + "+ (3).toFixed(2)+"%");
+    player.sendMessage("§e[Magic - Amplification] §f 当前强化位置为 §e主手");
+    player.sendMessage("§b[Equipment Attribute] → §b攻击力　 + "+ (1).toFixed(2));
+    player.sendMessage("§b[Equipment Attribute] → §1攻击Speed + "+ (3).toFixed(2)+"%");
   }else if(equipmentSlot == "OFF_HAND"){
-    player.sendMessage("§e[魔法-增幅] §f 当前强化位置为 §e副手");
-    player.sendMessage("§b[装备属性] → §b攻击力　 + "+ (1).toFixed(2));
-    player.sendMessage("§b[装备属性] → §9移动速度 + "+ (2).toFixed(2)+"%");
+    player.sendMessage("§e[Magic - Amplification] §f 当前强化位置为 §e副手");
+    player.sendMessage("§b[Equipment Attribute] → §b攻击力　 + "+ (1).toFixed(2));
+    player.sendMessage("§b[Equipment Attribute] → §9移动Speed + "+ (2).toFixed(2)+"%");
   }else if(equipmentSlot == "CHEST"){
-    player.sendMessage("§e[魔法-增幅] §f 当前强化位置为 §e胸甲");
-    player.sendMessage("§b[装备属性] → §e击退抗性 + "+ (1).toFixed(2)+"%");
-    player.sendMessage("§b[装备属性] → §c生命值　 + "+ (1.5).toFixed(2));
-    player.sendMessage("§b[装备属性] → §d护甲值　 + "+ (0.6).toFixed(2));
-    player.sendMessage("§b[装备属性] → §6盔甲韧性 + "+ (0.15).toFixed(2));
+    player.sendMessage("§e[Magic - Amplification] §f 当前强化位置为 §e胸甲");
+    player.sendMessage("§b[Equipment Attribute] → §e击退抗性 + "+ (1).toFixed(2)+"%");
+    player.sendMessage("§b[Equipment Attribute] → §c生命值　 + "+ (1.5).toFixed(2));
+    player.sendMessage("§b[Equipment Attribute] → §d护甲值　 + "+ (0.6).toFixed(2));
+    player.sendMessage("§b[Equipment Attribute] → §6Armor Toughness + "+ (0.15).toFixed(2));
   }else if(equipmentSlot == "LEGS"){
-    player.sendMessage("§e[魔法-增幅] §f 当前强化位置为 §e护腿");
-    player.sendMessage("§b[装备属性] → §d护甲值　 + "+ (0.4).toFixed(2));
-    player.sendMessage("§b[装备属性] → §6盔甲韧性 + "+ (0.15).toFixed(2));
-    player.sendMessage("§b[装备属性] → §b攻击力　 + "+ (0.1).toFixed(2));
+    player.sendMessage("§e[Magic - Amplification] §f 当前强化位置为 §e护腿");
+    player.sendMessage("§b[Equipment Attribute] → §d护甲值　 + "+ (0.4).toFixed(2));
+    player.sendMessage("§b[Equipment Attribute] → §6Armor Toughness + "+ (0.15).toFixed(2));
+    player.sendMessage("§b[Equipment Attribute] → §b攻击力　 + "+ (0.1).toFixed(2));
   }else {
-    player.sendMessage("§e[魔法-增幅] §f 当前强化位置为 §e鞋子");
-    player.sendMessage("§b[装备属性] → §d护甲值　 + "+ (0.4).toFixed(2));
-    player.sendMessage("§b[装备属性] → §6盔甲韧性 + "+ (0.15).toFixed(2));
-    player.sendMessage("§b[装备属性] → §9移动速度 + "+ (2).toFixed(2)+"%");
+    player.sendMessage("§e[Magic - Amplification] §f 当前强化位置为 §e鞋子");
+    player.sendMessage("§b[Equipment Attribute] → §d护甲值　 + "+ (0.4).toFixed(2));
+    player.sendMessage("§b[Equipment Attribute] → §6Armor Toughness + "+ (0.15).toFixed(2));
+    player.sendMessage("§b[Equipment Attribute] → §9移动Speed + "+ (2).toFixed(2)+"%");
   }
 
   decrementItemAmount(event1.getItem());

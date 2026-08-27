@@ -9,7 +9,7 @@ item:
     display-name:  '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"网桥"},{"italic":false,"color":"yellow","text":"（透明）"}],"text":""}'
     lore:
     - '{"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"放置后再破坏将失去现有皮肤"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Breaking it after placement removes the current skin"}],"text":""}'
     - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"网桥用于连接不同的网络物品"}],"text":""}'
     - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"来形成一个完整的网络"}],"text":""}'
     - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"更加清晰的布局网络"}],"text":""}'

@@ -10,15 +10,15 @@ item:
       "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"("},{"italic":false,"color":"green","text":"模型"},{"italic":false,"color":"white","text":")"}],"text":""}'
     lore:
     - '{"text":""}'
-    - '{"extra":[{"italic":false,"color":"red","text":"切记！该魔法为一次性魔法！拆除需要移出所有物品！"}],"text":""}'
-    - '{"extra":[{"italic":false,"color":"gold","text":"支持网络快速输入/输出"}],"text":""}'
+    - '{"extra":[{"italic":false,"color":"red","text":"Important! This is a one-time enchantment. Remove all items before dismantling!"}],"text":""}'
+    - '{"extra":[{"italic":false,"color":"gold","text":"Supports fast network input/output"}],"text":""}'
     - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
-    - '{"extra":[{"italic":false,"color":"gray","text":"⇨ "},{"italic":false,"color":"yellow","text":"可储存
+    - '{"extra":[{"italic":false,"color":"gray","text":"⇨ "},{"italic":false,"color":"yellow","text":"Storage
       32 种物品"}],"text":""}'
-    - '{"extra":[{"italic":false,"color":"gray","text":"⇨ "},{"italic":false,"color":"yellow","text":"每种物品可容纳
+    - '{"extra":[{"italic":false,"color":"gray","text":"⇨ "},{"italic":false,"color":"yellow","text":"Capacity per item
       134217728 个"}],"text":""}'
     - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
-    - '{"extra":[{"italic":false,"color":"gray","text":"⇨ "},{"italic":false,"color":"yellow","text":"不使用网络扳手也能拆除该模型方块"}],"text":""}'
+    - '{"extra":[{"italic":false,"color":"gray","text":"⇨ "},{"italic":false,"color":"yellow","text":"This model block can be removed without a network wrench"}],"text":""}'
     - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
     - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
     - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"机器"}],"text":""}'

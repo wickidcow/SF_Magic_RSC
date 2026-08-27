@@ -6,11 +6,11 @@ MAGIC_NEWPLAYER_ELECTRIC_FURNACE:
     lore:
       - "&7适合萌新使用的电炉"
       - ""
-      - "&8⇨ &e⚡ &7速度: &b1x"
+      - "&8⇨ &e⚡ &7Speed: &b1x"
       - "&8⇨ &e⚡ &72 J/s"
-      - "&8⇨&e ⚡ &7100 J 可存储"
+      - "&8⇨&e ⚡ &7100 J Storage"
       - "&a"
-      - "&b萌新专属机器"
+      - "&bNovice Machine"
   type: ELECTRIC_FURNACE
   settings:
     capacity: 100
@@ -30,11 +30,11 @@ MAGIC_NEWPLAYER_ELECTRIC_SMELTERY:
     lore:
       - "&7适合萌新使用的冶炼炉"
       - ""
-      - "&8⇨ &e⚡ &7速度: &b2x"
+      - "&8⇨ &e⚡ &7Speed: &b2x"
       - "&8⇨ &e⚡ &72 J/s"
-      - "&8⇨&e ⚡ &7100 J 可存储"
+      - "&8⇨&e ⚡ &7100 J Storage"
       - "&a"
-      - "&b萌新专属机器"
+      - "&bNovice Machine"
   type: ELECTRIC_SMELTERY
   settings:
     capacity: 100
@@ -57,11 +57,11 @@ MAGIC_NEWPLAYER_ELECTRIC_GOLD_PAN:
     lore:
       - "&7适合萌新使用的淘金机"
       - ""
-      - "&8⇨ &e⚡ &7速度: &b1x"
+      - "&8⇨ &e⚡ &7Speed: &b1x"
       - "&8⇨ &e⚡ &72 J/s"
-      - "&8⇨&e ⚡ &7100 J 可存储"
+      - "&8⇨&e ⚡ &7100 J Storage"
       - "&a"
-      - "&b萌新专属机器"
+      - "&bNovice Machine"
   type: ELECTRIC_GOLD_PAN
   settings:
     capacity: 100
@@ -81,11 +81,11 @@ MAGIC_NEWPLAYER_ELECTRIC_ORE_GRINDER:
     lore:
       - "&7适合萌新使用的碎矿机"
       - ""
-      - "&8⇨ &e⚡ &7速度: &b1x"
+      - "&8⇨ &e⚡ &7Speed: &b1x"
       - "&8⇨ &e⚡ &72 J/s"
-      - "&8⇨&e ⚡ &7100 J 可存储"
+      - "&8⇨&e ⚡ &7100 J Storage"
       - "&a"
-      - "&b萌新专属机器"
+      - "&bNovice Machine"
   type: ELECTRIC_ORE_GRINDER
   settings:
     capacity: 100
@@ -105,11 +105,11 @@ MAGIC_NEWPLAYER_ELECTRIC_DUST_WASHER:
     lore:
       - "&7适合萌新使用的洗矿机"
       - ""
-      - "&8⇨ &e⚡ &7速度: &b1x"
+      - "&8⇨ &e⚡ &7Speed: &b1x"
       - "&8⇨ &e⚡ &72 J/s"
-      - "&8⇨&e ⚡ &7100 J 可存储"
+      - "&8⇨&e ⚡ &7100 J Storage"
       - "&a"
-      - "&b萌新专属机器"
+      - "&bNovice Machine"
   type: ELECTRIC_DUST_WASHER
   settings:
     capacity: 100

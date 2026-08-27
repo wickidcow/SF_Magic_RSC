@@ -10,7 +10,7 @@ function onUse(event) {
 
   // 检查主手是否持有物品
   if (event.getHand() !== org.bukkit.inventory.EquipmentSlot.HAND) {
-    sendMessage(player, "主手请持物品");
+    sendMessage(player, "Please hold an item in your main hand");
     return;
   }
 
@@ -21,7 +21,7 @@ function onUse(event) {
   
   if (currentTime - lastUseTime < 150000) {
     const remainingTime = Math.ceil((150000 - (currentTime - lastUseTime)) / 1000);
-    player.sendTitle("§c§l你干嘛啊~哎呦！", "冷却剩余时间：" + remainingTime + "秒", 10, 40, 10);
+    player.sendTitle("§c§l你干嘛啊~哎呦！", "冷却剩余时间：" + remainingTime + " seconds", 10, 40, 10);
 
     const item = player.getInventory().getItemInMainHand();
     const itemMeta = item.getItemMeta();

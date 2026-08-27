@@ -7,10 +7,10 @@ MAGIC_GEC_MOB:
     lore: 
       - "&a"
       - "&7你可以在这里"
-      - "&7指定魔法鼓舞室生产的产物!"
+      - "&7指定魔法鼓舞室生产的Output!"
       - "&4这是一个不可逆操作!"
       - "&a"
-      - "&a多方块机器" 
+      - "&aMultiblock Machine" 
   recipe:
     2:
       material: BELL
@@ -866,7 +866,7 @@ MAGIC_BEEHIVE_MOB:
       - "&7将蜜蜂放入到魔法蜂箱中!"
       - "&4这是一个不可逆操作!"
       - "&a"
-      - "&a多方块机器" 
+      - "&aMultiblock Machine" 
   recipe:
     2:
       material: BELL
@@ -1758,7 +1758,7 @@ MAGIC_INFINITY_ARMOR_MACHINE:
       - "&7&l无尽的起源"
       - "&7&l追寻更纯粹的真理"
       - "&a"
-      - "&a多方块机器" 
+      - "&aMultiblock Machine" 
   recipe:
     1:
       material: SOUL_CAMPFIRE

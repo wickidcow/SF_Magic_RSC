@@ -178,7 +178,7 @@ function onPlace(event) {
 
     let block = event.getBlock();
 
-    // org.bukkit.Bukkit.broadcastMessage("block输出: "+ block);      //测试
+    // org.bukkit.Bukkit.broadcastMessage("blockOutput: "+ block);      //测试
 
 
 }
@@ -210,7 +210,7 @@ function onBreak(event, itemStack, drops) {
 
         // let BsfItem = location1.getSfItem();
 
-        // org.bukkit.Bukkit.broadcastMessage("输出: "+ sfplantid);        //测试
+        // org.bukkit.Bukkit.broadcastMessage("Output: "+ sfplantid);        //测试
 
         // org.bukkit.Bukkit.broadcastMessage("植物粘液id: "+ sfplantid);      //测试
 

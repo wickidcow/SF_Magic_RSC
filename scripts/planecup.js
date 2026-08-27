@@ -6,7 +6,7 @@ function onUse(event) {
 
   // 检查主手是否持有物品
   if (event.getHand() !== org.bukkit.inventory.EquipmentSlot.HAND) {
-    sendMessage(player, "主手请持物品");
+    sendMessage(player, "Please hold an item in your main hand");
     return;
   }
 

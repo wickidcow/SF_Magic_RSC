@@ -2,12 +2,12 @@ function onUse(event) {
     const player = event.getPlayer();
     //检查主手是否持有物品
     if (event.getHand() !== org.bukkit.inventory.EquipmentSlot.HAND) {
-        sendMessage(player, "主手请持物品");
+        sendMessage(player, "Please hold an item in your main hand");
         return;
     }
 
     if(player.getLevel() < 100){
-        sendMessage(player, "&c你的经验不足100级");
+        sendMessage(player, "&c你的经验不足100");
         return;
     }
 
@@ -30,11 +30,11 @@ function onUse(event) {
         
         if (invs.firstEmpty() === -1) {
             player.getWorld().dropItemNaturally(player.getLocation(), itemstack);
-            sendMessage(player, "&b经验已成功注入魔法学识之瓶");
+            sendMessage(player, "&bExperience was successfully infused into the Bottle of Magical Knowledge");
             sendMessage(player, "&b背包已满，物品已掉落在地面上");
         } else {
             invs.addItem(itemstack);
-            sendMessage(player, "&b经验已成功注入魔法学识之瓶");
+            sendMessage(player, "&bExperience was successfully infused into the Bottle of Magical Knowledge");
             sendMessage(player, "&b成功获得物品 " + itemstack.getItemMeta().getDisplayName() + " *1");
         }
     
@@ -46,11 +46,11 @@ function onUse(event) {
 
         if (invs.firstEmpty() === -1) {
             player.getWorld().dropItemNaturally(player.getLocation(), itemstack);
-            sendMessage(player, "&b经验已成功注入魔法学识之瓶");
+            sendMessage(player, "&bExperience was successfully infused into the Bottle of Magical Knowledge");
             sendMessage(player, "&b背包已满，物品已掉落在地面上");
         } else {
             invs.addItem(itemstack);
-            sendMessage(player, "&b经验已成功注入魔法学识之瓶");
+            sendMessage(player, "&bExperience was successfully infused into the Bottle of Magical Knowledge");
             sendMessage(player, "&b成功获得物品 " + itemstack.getItemMeta().getDisplayName() + " *1");
         }
 

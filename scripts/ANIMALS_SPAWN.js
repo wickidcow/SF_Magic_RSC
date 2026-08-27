@@ -28,7 +28,7 @@ function onUse(event) {
 
   let player = event.getPlayer();
   if(event.getHand() !== org.bukkit.inventory.EquipmentSlot.HAND){
-    player.sendMessage("主手请持物品");
+    player.sendMessage("Please hold an item in your main hand");
     return;
   }
   var onUseItem = event.getItem();

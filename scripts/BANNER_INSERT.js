@@ -56,7 +56,7 @@ const onUseStart = (event) => {
     let player = event.getPlayer();
 
     if (MainHandIf(event.getHand())) {
-        sendMessage(player, "§b请用主手持物品");
+        sendMessage(player, "§bPlease hold an item in your main hand");
         return;
     }
 

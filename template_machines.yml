@@ -1,16 +1,16 @@
 MAGIC_CD_MACHINE_1:
   item_group: magic_cd_machines
   item:
-    name: "&b魔法卡片复制机"
+    name: "&bMagic Card Duplicator"
     material: LOOM
     lore:
       - "&a"
-      - "&f使用&4魔法卡片&f生产各种物品"
+      - "&f使用&4Magic Card&f生产各种物品"
       - "&a" 
-      - "&6终极 机器"
-      - "&8⇨&e ⚡ &7速度: &b1x"
+      - "&6Ultimate Machine"
+      - "&8⇨&e ⚡ &7Speed: &b1x"
       - "&8⇨&e ⚡ &72048 J/s"
-      - "&8⇨&e ⚡ &74096 J 可存储"
+      - "&8⇨&e ⚡ &74096 J Storage"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l卡{#E9967A}&l片{#F08080}&l&kl"
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -181,10 +181,10 @@ MAGIC_SNOW_CD_1:
       - "&a"
       - "&b在这里可以生产食品"
       - "&a" 
-      - "&4终极 机器"
-      - "&8⇨&e ⚡ &7速度: &b1x"
+      - "&4Ultimate Machine"
+      - "&8⇨&e ⚡ &7Speed: &b1x"
       - "&8⇨&e ⚡ &7100 J/s"
-      - "&8⇨&e ⚡ &71000 J 可存储"
+      - "&8⇨&e ⚡ &71000 J Storage"
       - "&a"
       - "&b冬日限定"
   recipe_type: ONLY_SNOW
@@ -276,7 +276,7 @@ MAGIC_MOB_SIMULATION_CHAMBER:
       - "&7使用生物芯片激活"
       - "&a" 
       - "&8⇨&e ⚡ &715000 J/s"
-      - "&8⇨&e ⚡ &730000 J 可存储"
+      - "&8⇨&e ⚡ &730000 J Storage"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l无{#E9967A}&l尽{#F08080}&l贪{#FF69B4}&l婪{#FFC0CB}&l&kl"
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -563,10 +563,10 @@ MAGIC_CHICKEN_HOUSE1:
     name: "&e鸡窝"
     material: BEEHIVE
     lore:
-      - "&7&o鸡孵蛋的地方"
+      - "&7&oA place for chickens to hatch eggs"
       - "&a中型 机器"
       - "&8⇨&e ⚡ &710 J/s"
-      - "&8⇨&e ⚡ &71000 J 可存储"
+      - "&8⇨&e ⚡ &71000 J Storage"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l能{#E9967A}&l源{#F08080}&l与{#FF69B4}&l电{#DB7093}&l力{#FFC0CB}&l&kl"
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -629,11 +629,11 @@ MAGIC_CHICKEN_HOUSE2:
     name: "&e增强版鸡窝"
     material: BEEHIVE
     lore:
-      - "&7&o鸡孵蛋的地方"
-      - "&7&o速度更快"
-      - "&6高级 机器"
+      - "&7&oA place for chickens to hatch eggs"
+      - "&7&oSpeed更快"
+      - "&6Advanced Machine"
       - "&8⇨&e ⚡ &715 J/s"
-      - "&8⇨&e ⚡ &71000 J 可存储"
+      - "&8⇨&e ⚡ &71000 J Storage"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l能{#E9967A}&l源{#F08080}&l与{#FF69B4}&l电{#DB7093}&l力{#FFC0CB}&l&kl"
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -700,11 +700,11 @@ MAGIC_CHICKEN_HOUSE3:
     name: "&e终极鸡窝"
     material: BEEHIVE
     lore:
-      - "&7&o鸡孵蛋的地方"
-      - "&7&o速度最快"
-      - "&4终极 机器"
+      - "&7&oA place for chickens to hatch eggs"
+      - "&7&oSpeed最快"
+      - "&4Ultimate Machine"
       - "&8⇨&e ⚡ &7100 J/s"
-      - "&8⇨&e ⚡ &71000 J 可存储"
+      - "&8⇨&e ⚡ &71000 J Storage"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l能{#E9967A}&l源{#F08080}&l与{#FF69B4}&l电{#DB7093}&l力{#FFC0CB}&l&kl"
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -780,9 +780,9 @@ MAGIC_BEE_HOUSE_1:
       - "&7缓慢地繁衍后代"
       - "&7每次繁殖后,蜜蜂都会死去"
       - "&7一次繁殖2只"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Experimental Machine"
       - "&8⇨&e ⚡ &7100 J/s"
-      - "&8⇨&e ⚡ &71000 J 可存储"
+      - "&8⇨&e ⚡ &71000 J Storage"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l能{#E9967A}&l源{#F08080}&l与{#FF69B4}&l电{#DB7093}&l力{#FFC0CB}&l&kl"
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -859,9 +859,9 @@ MAGIC_BEE_HOUSE_1:
       - "&7缓慢地繁衍后代"
       - "&7每次繁殖后,蜜蜂都会死去"
       - "&7一次繁殖2只"
-      - "{#FDB7D4}实验性机器"
+      - "{#FDB7D4}Experimental Machine"
       - "&8⇨&e ⚡ &7100 J/s"
-      - "&8⇨&e ⚡ &71000 J 可存储"
+      - "&8⇨&e ⚡ &71000 J Storage"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l能{#E9967A}&l源{#F08080}&l与{#FF69B4}&l电{#DB7093}&l力{#FFC0CB}&l&kl"
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -933,10 +933,10 @@ MAGIC_MINERAL_HOUSE_1:
       - "&a"
       - "&7可以在这里培育出紫水晶的各种阶段"
       - "&7可以在这里培育出各种矿物"
-      - "&4注意：需要持续输入矿物"
-      - "&4终极 机器"
+      - "&4注意：需要持续Input矿物"
+      - "&4Ultimate Machine"
       - "&8⇨&e ⚡ &71000 J/s"
-      - "&8⇨&e ⚡ &710000 J 可存储"
+      - "&8⇨&e ⚡ &710000 J Storage"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l能{#E9967A}&l源{#F08080}&l与{#FF69B4}&l电{#DB7093}&l力{#FFC0CB}&l&kl"
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -1307,16 +1307,16 @@ MAGIC_STACKING_INFINITE:
     material: PURPLE_GLAZED_TERRACOTTA
     lore:
       - "&a"
-      - "&4终极 机器" 
+      - "&4Ultimate Machine" 
       - "&7让多个机器在同一个方块内工作"
       - "&7使用前请认真阅读"
       - "&7该机器是否支持堆叠"
-      - "&7目前仅支持将产物堆叠至64个"
+      - "&7目前仅支持将Output堆叠至64个"
       - "&7例如:一个机器每次生产2个物品"
       - "&7那么堆叠32个就够了"
       - "&7再多也没有效果了"
       - "&8⇨&e ⚡ &73200 J/s"
-      - "&8⇨&e ⚡ &76400 J 可存储"
+      - "&8⇨&e ⚡ &76400 J Storage"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l能{#E9967A}&l源{#F08080}&l与{#FF69B4}&l电{#DB7093}&l力{#FFC0CB}&l&kl"
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -1381,9 +1381,9 @@ MAGIC_NEWPLAYER_GIFT_MACHINE_1:
       - "&b每分钟都可能获得一份腐竹的馈赠"
       - "&a" 
       - "&a基础 机器"
-      - "&8⇨&e ⚡ &7速度: &b1x"
+      - "&8⇨&e ⚡ &7Speed: &b1x"
       - "&8⇨&e ⚡ &710 J/s"
-      - "&8⇨&e ⚡ &7100 J 可存储"
+      - "&8⇨&e ⚡ &7100 J Storage"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l萌{#E9967A}&l新{#F08080}&l福{#FF69B4}&l利{#DB7093}&l机{#FFC0CB}&l器{#FFC0CB}&l&kl"
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -1448,7 +1448,7 @@ MAGIC_INFINITY_QUARRY:
       - "&7可选择挖掘主世界或下届矿物"
       - "&e兼容魔法加速卡&无尽加速卡"
       - "&a"
-      - "&8⇨&e ⚡ &7速度: &c160x"
+      - "&8⇨&e ⚡ &7Speed: &c160x"
       - "&8⇨&e ⚡ &7180,000 J/s"
       - "&a"
       - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l无{#E9967A}&l尽{#F08080}&l贪{#FF69B4}&l婪{#FFC0CB}&l&kl"
