@@ -1,0 +1,46 @@
+name: Package Magic RSC Drop-In
+
+on:
+  push:
+    branches:
+      - english-player-facing-pass
+    paths:
+      - '.github/workflows/package-dropin.yml'
+      - '*.yml'
+      - 'saveditems/**'
+      - 'scripts/**'
+  workflow_dispatch:
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build drop-in Magic folder
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p dist/Magic
+          cp ./*.yml dist/Magic/
+          if [ -d saveditems ]; then
+            mkdir -p dist/Magic/saveditems
+            cp -R saveditems/. dist/Magic/saveditems/
+          fi
+          if [ -d scripts ]; then
+            mkdir -p dist/Magic/scripts
+            cp -R scripts/. dist/Magic/scripts/
+          fi
+          test -f dist/Magic/info.yml
+          test -f dist/Magic/items.yml
+          (cd dist && zip -9 -r Magic_RSC_DropIn.zip Magic >/dev/null)
+          sha256sum dist/Magic_RSC_DropIn.zip
+
+      - name: Upload drop-in archive
+        uses: actions/upload-artifact@v4
+        with:
+          name: Magic_RSC_DropIn
+          path: dist/Magic_RSC_DropIn.zip
+          if-no-files-found: error
+          retention-days: 7
