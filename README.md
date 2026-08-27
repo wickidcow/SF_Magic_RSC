@@ -1,72 +1,173 @@
-# Magic
-魔法是通过RykenSlimefunCustomizer插件写成的一份配置文件，对于原版粘液以及常用附属的延续，以及一些新的想法。
+<div align="center">
 
-## 公告
-1、魔法使用rsc即RykenSlimefunCustomizer编写
+# Magic Legacy
+### Magic RSC content pack for Slimefun Legacy
 
-2、SlimeCustomizer与RykenSlimefunCustomizer不冲突
+A maintained compatibility port of **Magic** for modern Slimefun Legacy servers, packaged as a drop-in RykenSlimefunCustomizer addon folder.
 
-3、具体安装方法见下文
+[![Magic Legacy Audit](https://github.com/wickidcow/SF_Magic_RSC/actions/workflows/audit.yml/badge.svg)](https://github.com/wickidcow/SF_Magic_RSC/actions/workflows/audit.yml)
+[![Package Drop-In](https://github.com/wickidcow/SF_Magic_RSC/actions/workflows/package-dropin.yml/badge.svg)](https://github.com/wickidcow/SF_Magic_RSC/actions/workflows/package-dropin.yml)
+[![Release](https://github.com/wickidcow/SF_Magic_RSC/actions/workflows/release.yml/badge.svg)](https://github.com/wickidcow/SF_Magic_RSC/actions/workflows/release.yml)
 
-4、rsc版附属的优势：有更强的兼容性且服主更新附属不再需要像sc版那样合并配置，只需要将整个文件直接拖入server\plugins\RykenSlimefunCustomizer\addons目录下即可
+[Releases](https://github.com/wickidcow/SF_Magic_RSC/releases) ·
+[Actions](https://github.com/wickidcow/SF_Magic_RSC/actions) ·
+[Report a Bug](https://github.com/wickidcow/SF_Magic_RSC/issues) ·
+[Slimefun Legacy](https://github.com/wickidcow/Slimefun-Legacy) ·
+[RykenSlimefunCustomizer Legacy](https://github.com/wickidcow/SF_RykenSlimeCustomizer)
 
-## 提示
-魔法并没有对任何内容进行研究锁定
+</div>
 
-小建议：建议服主限制玩家所能创建的小号个数，限制实体个数 （强烈建议但不妨碍安装并游玩魔法）
+> [!IMPORTANT]
+> **Magic Legacy is an unofficial community compatibility port.**
+> The original Magic project and content were created by **magicsolo / Yomicer**. This repository preserves that work while adapting the pack for the Slimefun Legacy ecosystem and current server software.
+>
+> **NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT.**
 
-如果想禁用魔法中的某个物品，建议直接在Magic的Items.yml配置里找到相应的物品ID然后ban掉它
+---
 
-非常不建议对魔法的配置进行修改，因为魔法会持续更新，这只会加大你的工作量
+## ✨ What is Magic Legacy?
 
-## 前置插件需求
-前置: 
-  - Slimefun
-  - GuizhanLibPlugin
-  - FoxyMachines
-  - InfinityExpansion
-  - Supreme
-  - GeneticChickengineering
+Magic is a large RykenSlimefunCustomizer content pack that expands Slimefun with additional materials, machines, generators, recipes, equipment, progression, and integrations with other Slimefun addons.
 
-软前置: 
-  - FNAmplifications
-## 如何安装魔法
-1、下载最新版RykenSlimefunCustomizer，将.jar拖入plugin文件里
+This Legacy fork focuses on keeping the original pack usable on the modern Slimefun Legacy stack without requiring server owners to manually merge hundreds of configuration entries.
 
-2、检查前置是否安装齐全
+| Focus | What it means |
+| --- | --- |
+| **Drop-in installation** | The release ZIP contains a complete `Magic` folder ready for `plugins/RykenSlimefunCustomizer/addons/`. |
+| **Slimefun Legacy first** | Maintained against the current Slimefun Legacy server stack. |
+| **InfinityExpansion2 compatibility** | Historical InfinityExpansion references have been migrated to verified InfinityExpansion2 IDs where valid equivalents exist. |
+| **Safer missing dependencies** | Current RykenSlimefunCustomizer Legacy skips unresolved optional recipes instead of silently replacing missing addon items with stone. |
+| **Original IDs preserved** | Existing `MAGIC_*` identifiers are retained wherever practical to reduce unnecessary world and item breakage. |
+| **Reproducible packages** | GitHub Actions builds and verifies the same runtime-only folder server owners install. |
 
-3、重启服务器生成文件夹，将下载好的Magic_RSC-Release-X.X.X.zip文件拖入server\plugins\RykenSlimefunCustomizer\addons目录下，解压此压缩包并删除压缩包
+---
 
-4、该附属提供配置文件，首次加载后，在RykenSlimeCustomizer/addon_configs/Magic目录下，在config.yml文件内，提供了一些可配置项,若加载出现异常，建议把该文件删除，重新生成默认文件
+## 📦 Download
 
-5、安装完成
+There are two supported ways to get the drop-in package:
 
-## 关于魔法
-魔法适配版本 Minecraft版本：1.18 ~ 1.20+
+### GitHub Releases
 
-未来魔法适配版本 Minecraft版本:1.19+ ~ 1.20.5 最新的RykenSlimefunCustomizer版本
+Download the latest `Magic-Legacy-*.zip` from the repository's [Releases](https://github.com/wickidcow/SF_Magic_RSC/releases) page.
 
-如果你有任何建议或者是反馈魔法的bug，都可以发至本仓库的issues里，欢迎各位腐竹/玩家对问题进行反馈或提出建议。联系方式Q：2325579729
+Release archives contain the runtime `Magic/` folder only. Repository maintenance files such as `.github`, Python migration tools, audit output, and documentation are excluded.
 
-## 使用前声明
-关于使用**“自定义附属及魔法”**相关声明：
+### GitHub Actions
 
-请在使用自定义附属插件及其可选择装配配置“魔法”前详细阅读此声明，若您使用了上述插件及配置，则说明您已阅读并同意履行此条声明。
+Open [Actions](https://github.com/wickidcow/SF_Magic_RSC/actions), select **Package Magic Drop-In**, and run the workflow manually or download the artifact from the latest successful run.
 
-自定义附属系基于Minecraft的插件：Slimefun（粘液科技）的一款附属插件，“魔法”为该附属插件共享的配置文件之一。
+The Actions artifact contains a versioned ZIP plus its SHA-256 checksum.
 
-上述插件，包括但不限于Slimefun、自定义附属及魔法是完全免费共享开源的，供广大支持者学习和使用。
+---
 
-其中，配置文件**“魔法”**仅为该文件的标题，不包含任何歧义和盈利牵涉，
+## 🔧 Requirements
 
-magicsolo作为该配置的创作者且目前仍旧维护该配置。
+Magic Legacy is a **configuration addon**, not a standalone plugin JAR. It requires RykenSlimefunCustomizer to load the pack.
 
-并且，请您严禁利用上述插件与配置宣扬任意形式的负面、暴力信息，严禁利用上述文件进行违法、侵权活动，严禁涉及任何有关政治和低俗内容，
+| Requirement | Legacy setup |
+| --- | --- |
+| **Slimefun core** | [Slimefun Legacy](https://github.com/wickidcow/Slimefun-Legacy) |
+| **Customizer loader** | [RykenSlimefunCustomizer Legacy](https://github.com/wickidcow/SF_RykenSlimeCustomizer) |
+| **Infinity addon** | [InfinityExpansion2 Legacy fork](https://github.com/wickidcow/SF_InfinityExpansion2) |
+| **Other pack dependencies** | GeneticChickengineering, GuizhanLibPlugin, Supreme, FoxyMachines |
+| **Primary server target** | Paper 26.2 stack |
+| **Java** | Use the Java version required by your Slimefun Legacy / Paper build |
 
-严禁倒卖，包括但不限于变相交易活动，私自篡改并利用上述文件进行任何的盈利行为。
+Other optional addon references may exist in individual recipes. With the current RykenSlimefunCustomizer Legacy compatibility handling, unresolved optional ingredients are skipped rather than converted into fake stone recipes.
 
-我们对上述严禁项持以强烈的谴责，并鼓励大众互相监督，积极举报违规违法行为。
+---
 
-若因您个人或团体的使用不当所造成的的一切后果须由自己承担，严禁以任何形式将责任推脱至上述插件及配置文件的相关维护者与创作者。
+## 🚀 Installation
 
-本章声明至此结束。
+1. Stop the server normally and make a backup.
+2. Install and start the required Slimefun Legacy stack, including RykenSlimefunCustomizer.
+3. Download the latest Magic Legacy drop-in ZIP from **Releases** or **Actions**.
+4. Extract the archive into:
+
+```text
+plugins/RykenSlimefunCustomizer/addons/
+```
+
+The resulting path must be:
+
+```text
+plugins/RykenSlimefunCustomizer/addons/Magic/info.yml
+```
+
+5. Start the server normally and review the console for dependency or recipe warnings.
+
+> [!WARNING]
+> Do not use `/reload` to install or update Magic, RykenSlimefunCustomizer, Slimefun Legacy, or its dependencies. Perform a full server restart.
+
+---
+
+## 🔄 Updating an existing installation
+
+For a normal Magic Legacy update:
+
+1. Stop the server.
+2. Back up `plugins/RykenSlimefunCustomizer/` and Slimefun data.
+3. Replace the old `addons/Magic` folder with the new packaged `Magic` folder.
+4. Preserve your generated server-side addon configuration under the RykenSlimefunCustomizer config directories unless a release note specifically says otherwise.
+5. Start the server and review startup output before reopening the server to players.
+
+Do not merge old and new Magic runtime YAML files by hand unless you intentionally maintain a customized fork. Replacing the runtime folder as a unit avoids stale definitions being left behind.
+
+---
+
+## ♾️ InfinityExpansion2 migration
+
+The Legacy compatibility pass verifies historical InfinityExpansion item references against both the original InfinityExpansion source and the current InfinityExpansion2 Legacy source.
+
+The migration includes the IE2 mob data-card family, quarry oscillators, machines, materials, generators, storage, and other confirmed equivalents used by Magic. References are migrated only when a valid target can be verified; unrelated items are not used as placeholders.
+
+InfinityExpansion2 also contains compatibility work so dynamically generated mob-card and oscillator items are registered early enough for configuration addons such as Magic to resolve them during startup.
+
+---
+
+## 🧪 GitHub package verification
+
+Every **Package Magic Drop-In** build checks that:
+
+- `Magic/info.yml` exists exactly once
+- `Magic/items.yml` exists exactly once
+- the archive contains a top-level `Magic/` folder
+- `.github/` is excluded
+- Python maintenance scripts are excluded
+- audit and tool directories are excluded
+- repository documentation is not copied into the runtime addon folder
+
+A SHA-256 checksum is generated beside each Actions package.
+
+---
+
+## 🐛 Reporting problems
+
+When reporting a Magic Legacy issue, include:
+
+- exact Slimefun Legacy version
+- exact RykenSlimefunCustomizer Legacy version
+- exact InfinityExpansion2 version
+- Paper/server version and Java version
+- the full startup warning or exception
+- the Magic item or recipe ID involved
+- whether the issue also occurs on a clean test server
+
+Please use the repository [issue tracker](https://github.com/wickidcow/SF_Magic_RSC/issues).
+
+---
+
+## ❤️ Credits and project history
+
+**Original Magic project:** magicsolo / Yomicer  
+**Original repository lineage:** `Yomicer/Magic_RSC`  
+**Legacy compatibility maintenance:** wickidcow  
+**Slimefun Legacy:** maintained separately at `wickidcow/Slimefun-Legacy`
+
+This fork is intended to preserve and maintain the original work for modern Slimefun servers, not to erase its authorship or history.
+
+---
+
+## ⚖️ Usage
+
+Magic and the projects it integrates with are community-created Minecraft server software/content. Review the licenses and usage terms of this repository and each dependency before redistribution or modification.

@@ -1,0 +1,105 @@
+name: Package Magic Drop-In
+
+on:
+  workflow_dispatch:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - '*.yml'
+      - 'saveditems/**'
+      - 'scripts/**/*.js'
+      - '.github/workflows/package-dropin.yml'
+  push:
+    branches:
+      - main
+    paths:
+      - '*.yml'
+      - 'saveditems/**'
+      - 'scripts/**/*.js'
+      - '.github/workflows/package-dropin.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Read package version
+        id: meta
+        shell: bash
+        run: |
+          set -euo pipefail
+          version="$(python - <<'PY'
+          import re
+          from pathlib import Path
+          text = Path('info.yml').read_text(encoding='utf-8')
+          match = re.search(r'^version:\s*["\x27]?([^"\x27\r\n]+)', text, re.M)
+          if not match:
+              raise SystemExit('Could not read version from info.yml')
+          print(match.group(1).strip())
+          PY
+          )"
+          safe_version="$(printf '%s' "$version" | tr -c 'A-Za-z0-9._-' '-')"
+          archive="Magic-${safe_version}-Drop-In.zip"
+          echo "version=$version" >> "$GITHUB_OUTPUT"
+          echo "archive=$archive" >> "$GITHUB_OUTPUT"
+
+      - name: Build runtime Magic folder
+        shell: bash
+        env:
+          ARCHIVE: ${{ steps.meta.outputs.archive }}
+        run: |
+          set -euo pipefail
+          root="dist/Magic"
+          mkdir -p "$root/saveditems" "$root/scripts"
+
+          cp ./*.yml "$root/"
+
+          if [ -d saveditems ]; then
+            cp -R saveditems/. "$root/saveditems/"
+          fi
+
+          if [ -d scripts ]; then
+            find scripts -type f -name '*.js' -print0 | while IFS= read -r -d '' file; do
+              target="$root/$file"
+              mkdir -p "$(dirname "$target")"
+              cp "$file" "$target"
+            done
+          fi
+
+          (cd dist && zip -9 -r "../$ARCHIVE" Magic >/dev/null)
+          sha256sum "$ARCHIVE" > "$ARCHIVE.sha256"
+
+      - name: Verify drop-in package
+        shell: bash
+        env:
+          ARCHIVE: ${{ steps.meta.outputs.archive }}
+        run: |
+          set -euo pipefail
+
+          test "$(unzip -Z1 "$ARCHIVE" | grep -c '^Magic/info.yml$')" -eq 1
+          test "$(unzip -Z1 "$ARCHIVE" | grep -c '^Magic/items.yml$')" -eq 1
+
+          if unzip -Z1 "$ARCHIVE" | grep -Eq '(^|/)\.github/|\.py$|(^|/)audit/|(^|/)tools/|(^|/)README\.md$'; then
+            echo "Drop-in archive contains repository maintenance files"
+            exit 1
+          fi
+
+          echo "Verified $ARCHIVE"
+          echo "Extract it into plugins/RykenSlimefunCustomizer/addons/"
+
+      - name: Upload Magic drop-in
+        uses: actions/upload-artifact@v4
+        with:
+          name: Magic-Legacy-Drop-In
+          path: |
+            ${{ steps.meta.outputs.archive }}
+            ${{ steps.meta.outputs.archive }}.sha256
+          if-no-files-found: error
+          retention-days: 90
