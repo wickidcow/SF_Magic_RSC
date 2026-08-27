@@ -3548,7 +3548,7 @@ MAGIC_GEOMINER:
   recipe:
     1: 
       material_type: slimefun
-      material: VOID_PANEL
+      material: IE_VOID_PANEL
       amount: 1
     2: 
       material_type: slimefun
@@ -3556,7 +3556,7 @@ MAGIC_GEOMINER:
       amount: 1
     3: 
       material_type: slimefun
-      material: VOID_PANEL
+      material: IE_VOID_PANEL
       amount: 1
     4: 
       material_type: slimefun
@@ -3564,7 +3564,7 @@ MAGIC_GEOMINER:
       amount: 1
     5: 
       material_type: slimefun
-      material: ADVANCED_GEO_MINER
+      material: IE_ADVANCED_GEO_MINER
       amount: 1
     6: 
       material_type: slimefun
@@ -3576,7 +3576,7 @@ MAGIC_GEOMINER:
       amount: 1
     8: 
       material_type: slimefun
-      material: ADVANCED_NETHER_STAR_REACTOR
+      material: IE_ADVANCED_NETHER_STAR_REACTOR
       amount: 1
     9: 
       material_type: slimefun
@@ -3618,7 +3618,7 @@ MAGIC_INFINITY_MIX_1:
   recipe: 
     1:
       material_type: slimefun
-      material: INFINITY_SINGULARITY
+      material: IE_INFINITY_SINGULARITY
       amount: 1
     2: 
       material_type: slimefun
@@ -3650,7 +3650,7 @@ MAGIC_INFINITY_MIX_1:
       amount: 1
     9:
       material_type: slimefun
-      material: INFINITY_SINGULARITY
+      material: IE_INFINITY_SINGULARITY
       amount: 1
   energy:
     capacity: 2147483647

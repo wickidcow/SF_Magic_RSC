@@ -20,7 +20,7 @@ item:
       THORNS: 11
     Unbreakable: true
     PublicBukkitValues:
-      slimefun:slimefun_item: INFINITY_CHESTPLATE
+      slimefun:slimefun_item: IE_INFINITY_CHESTPLATE
     attribute-modifiers:
       GENERIC_MAX_HEALTH:
       - ==: org.bukkit.attribute.AttributeModifier
