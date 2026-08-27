@@ -43,6 +43,10 @@ jobs:
         working-directory: magic
         run: python scripts/apply_runtime_compat.py --ie1 ../ie1 --ie2 ../ie2
 
+      - name: Verify migrated references
+        working-directory: magic
+        run: python scripts/verify_runtime_compat.py --ie1 ../ie1 --ie2 ../ie2
+
       - name: Re-audit migrated pack
         working-directory: magic
         run: python scripts/audit_magic.py
