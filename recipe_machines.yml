@@ -19,25 +19,25 @@ MAGIC_INFINITY_DUST_EXTRACTOR:
       material: MAGIC_INFINITE_UP
     2:
       material_type: slimefun
-      material: INFINITY_DUST_EXTRACTOR
+      material: IE_DUST_EXTRACTOR_4
     3:
       material_type: slimefun
       material: MAGIC_REDSTONE_BLOCK
     4:
       material_type: slimefun
-      material: MACHINE_PLATE
+      material: IE_MACHINE_PLATE
     5:
       material_type: slimefun
       material: MAGIC_INFINITE_VOID_HARVESTER_UP
     6:
       material_type: slimefun
-      material: MACHINE_PLATE
+      material: IE_MACHINE_PLATE
     7:
       material_type: slimefun
       material: MAGIC_REDSTONE_BLOCK
     8:
       material_type: slimefun
-      material: INFINITY_DUST_EXTRACTOR
+      material: IE_DUST_EXTRACTOR_4
     9:
       material_type: slimefun
       material: MAGIC_INFINITE_UP
@@ -409,25 +409,25 @@ MAGIC_INFINITY_INGOT_FORMER:
       material: MAGIC_INFINITE_UP
     2:
       material_type: slimefun
-      material: INFINITY_INGOT_FORMER
+      material: IE_INGOT_FORMER_4
     3:
       material_type: slimefun
       material: MAGIC_REDSTONE_BLOCK
     4:
       material_type: slimefun
-      material: MACHINE_PLATE
+      material: IE_MACHINE_PLATE
     5:
       material_type: slimefun
       material: MAGIC_INFINITE_VOID_HARVESTER_UP
     6:
       material_type: slimefun
-      material: MACHINE_PLATE
+      material: IE_MACHINE_PLATE
     7:
       material_type: slimefun
       material: MAGIC_REDSTONE_BLOCK
     8:
       material_type: slimefun
-      material: INFINITY_INGOT_FORMER
+      material: IE_INGOT_FORMER_4
     9:
       material_type: slimefun
       material: MAGIC_INFINITE_UP
@@ -609,13 +609,13 @@ MAGIC_ENERGY_PRESS:
       material: ENDER_LUMP_3
     4:
       material_type: slimefun
-      material: COBBLE_PRESS
+      material: IE_COBBLE_PRESS
     5:
       material_type: slimefun
-      material: INFINITY_SINGULARITY
+      material: IE_INFINITY_SINGULARITY
     6:
       material_type: slimefun
-      material: COBBLE_PRESS
+      material: IE_COBBLE_PRESS
     7:
       material_type: slimefun
       material: ENDER_LUMP_3
@@ -648,7 +648,7 @@ MAGIC_ENERGY_PRESS:
       input:
         1:
           material_type: slimefun
-          material: INFINITY_SINGULARITY
+          material: IE_INFINITY_SINGULARITY
           amount: 32
       output:
         1:
@@ -660,7 +660,7 @@ MAGIC_ENERGY_PRESS:
       input:
         1:
           material_type: slimefun
-          material: VOID_DUST
+          material: IE_VOID_DUST
           amount: 64
       output:
         1:
@@ -672,7 +672,7 @@ MAGIC_ENERGY_PRESS:
       input:
         1:
           material_type: slimefun
-          material: VOID_INGOT
+          material: IE_VOID_INGOT
           amount: 32
       output:
         1:
@@ -684,7 +684,7 @@ MAGIC_ENERGY_PRESS:
       input:
         1:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 32
       output:
         1:
@@ -750,7 +750,7 @@ MAGIC_IMPACT:
       material: MAGIC_ENERGY_PRESS
     5:
       material_type: slimefun
-      material: COMPRESSED_COBBLESTONE_5
+      material: IE_COMPRESSED_COBBLESTONE_5
     6:
       material_type: slimefun
       material: MAGIC_ENERGY_PRESS
@@ -1149,19 +1149,19 @@ MAGIC_WAR_MACHINES_NUMERATOR:
   recipe:
     1:
       material_type: slimefun
-      material: ADVANCED_NETHER_STAR_REACTOR
+      material: IE_ADVANCED_NETHER_STAR_REACTOR
       amount: 1
     2:
       material_type: slimefun
-      material: VOID_CAPACITOR
+      material: IE_VOID_CAPACITOR
       amount: 1
     3:
       material_type: slimefun
-      material: ADVANCED_NETHER_STAR_REACTOR
+      material: IE_ADVANCED_NETHER_STAR_REACTOR
       amount: 1
     4:
       material_type: slimefun
-      material: DUST_EXTRACTOR
+      material: IE_DUST_EXTRACTOR
       amount: 1
     5:
       material_type: slimefun
@@ -1169,7 +1169,7 @@ MAGIC_WAR_MACHINES_NUMERATOR:
       amount: 1
     6:
       material_type: slimefun
-      material: DUST_EXTRACTOR
+      material: IE_DUST_EXTRACTOR
       amount: 1
     7:
       material_type: slimefun
@@ -1242,19 +1242,19 @@ MAGIC_WAR_MACHINES_CREATING_TABLE:
   recipe:
     1:
       material_type: slimefun
-      material: ADVANCED_NETHER_STAR_REACTOR
+      material: IE_ADVANCED_NETHER_STAR_REACTOR
       amount: 1
     2:
       material_type: slimefun
-      material: VOID_CAPACITOR
+      material: IE_VOID_CAPACITOR
       amount: 1
     3:
       material_type: slimefun
-      material: ADVANCED_NETHER_STAR_REACTOR
+      material: IE_ADVANCED_NETHER_STAR_REACTOR
       amount: 1
     4:
       material_type: slimefun
-      material: INGOT_FORMER
+      material: IE_INGOT_FORMER
       amount: 1
     5:
       material_type: slimefun
@@ -1262,7 +1262,7 @@ MAGIC_WAR_MACHINES_CREATING_TABLE:
       amount: 1
     6:
       material_type: slimefun
-      material: INGOT_FORMER
+      material: IE_INGOT_FORMER
       amount: 1
     7:
       material_type: slimefun
@@ -1331,7 +1331,7 @@ MAGIC_AUTHOR_MACHINE_BASIC:
   recipe:
     1:
       material_type: slimefun
-      material: METAL_SINGULARITY
+      material: IE_METAL_SINGULARITY
       amount: 1
     2:
       material_type: slimefun
@@ -1355,7 +1355,7 @@ MAGIC_AUTHOR_MACHINE_BASIC:
       amount: 1
     7:
       material_type: slimefun
-      material: FORTUNE_SINGULARITY
+      material: IE_FORTUNE_SINGULARITY
       amount: 1
     8:
       material_type: slimefun
@@ -1363,7 +1363,7 @@ MAGIC_AUTHOR_MACHINE_BASIC:
       amount: 1
     9:
       material_type: slimefun
-      material: EARTH_SINGULARITY
+      material: IE_EARTH_SINGULARITY
       amount: 1
   capacity: 10000000
   input: [10,11,12,19,20,21,28,29,30,37,38,39]
@@ -1597,7 +1597,7 @@ MAGIC_AUTHOR_MACHINE:
       amount: 1
     5:
       material_type: slimefun
-      material: INFINITY_CAPACITOR
+      material: IE_INFINITY_CAPACITOR
       amount: 1
     6:
       material_type: slimefun
@@ -1881,7 +1881,7 @@ MAGIC_DATA_CARD_INSERT:
       amount: 1
     5:
       material_type: slimefun
-      material: DATA_INFUSER
+      material: IE_MOB_DATA_INFUSER
       amount: 1
     6:
       material_type: slimefun
@@ -1910,7 +1910,7 @@ MAGIC_DATA_CARD_INSERT:
       input:
         1:
           material_type: slimefun
-          material: ZOMBIE_DATA_CARD
+          material: IE_MOB_DATA_CARD_ZOMBIE
           amount: 1
       output:
         1:
@@ -1922,7 +1922,7 @@ MAGIC_DATA_CARD_INSERT:
       input:
         1:
           material_type: slimefun
-          material: SLIME_DATA_CARD
+          material: IE_MOB_DATA_CARD_SLIME
           amount: 1
       output:
         1:
@@ -1934,7 +1934,7 @@ MAGIC_DATA_CARD_INSERT:
       input:
         1:
           material_type: slimefun
-          material: MAGMA_CUBE_DATA_CARD
+          material: IE_MOB_DATA_CARD_MAGMA_CUBE
           amount: 1
       output:
         1:
@@ -1946,7 +1946,7 @@ MAGIC_DATA_CARD_INSERT:
       input:
         1:
           material_type: slimefun
-          material: COW_DATA_CARD
+          material: IE_MOB_DATA_CARD_COW
           amount: 1
       output:
         1:
@@ -1958,7 +1958,7 @@ MAGIC_DATA_CARD_INSERT:
       input:
         1:
           material_type: slimefun
-          material: SHEEP_DATA_CARD
+          material: IE_MOB_DATA_CARD_SHEEP
           amount: 1
       output:
         1:
@@ -1970,7 +1970,7 @@ MAGIC_DATA_CARD_INSERT:
       input:
         1:
           material_type: slimefun
-          material: SPIDER_DATA_CARD
+          material: IE_MOB_DATA_CARD_SPIDER
           amount: 1
       output:
         1:
@@ -1982,7 +1982,7 @@ MAGIC_DATA_CARD_INSERT:
       input:
         1:
           material_type: slimefun
-          material: SKELETON_DATA_CARD
+          material: IE_MOB_DATA_CARD_SKELETON
           amount: 1
       output:
         1:
@@ -1994,7 +1994,7 @@ MAGIC_DATA_CARD_INSERT:
       input:
         1:
           material_type: slimefun
-          material: WITHER_SKELETON_DATA_CARD
+          material: IE_MOB_DATA_CARD_WITHER_SKELETON
           amount: 1
       output:
         1:
@@ -2006,7 +2006,7 @@ MAGIC_DATA_CARD_INSERT:
       input:
         1:
           material_type: slimefun
-          material: ENDERMEN_DATA_CARD
+          material: IE_MOB_DATA_CARD_ENDERMAN
           amount: 1
       output:
         1:
@@ -2018,7 +2018,7 @@ MAGIC_DATA_CARD_INSERT:
       input:
         1:
           material_type: slimefun
-          material: CREEPER_DATA_CARD
+          material: IE_MOB_DATA_CARD_CREEPER
           amount: 1
       output:
         1:
@@ -2030,7 +2030,7 @@ MAGIC_DATA_CARD_INSERT:
       input:
         1:
           material_type: slimefun
-          material: GUARDIAN_DATA_CARD
+          material: IE_MOB_DATA_CARD_GUARDIAN
           amount: 1
       output:
         1:
@@ -2042,7 +2042,7 @@ MAGIC_DATA_CARD_INSERT:
       input:
         1:
           material_type: slimefun
-          material: CHICKEN_DATA_CARD
+          material: IE_MOB_DATA_CARD_CHICKEN
           amount: 1
       output:
         1:
@@ -2054,7 +2054,7 @@ MAGIC_DATA_CARD_INSERT:
       input:
         1:
           material_type: slimefun
-          material: IRON_GOLEM_DATA_CARD
+          material: IE_MOB_DATA_CARD_IRON_GOLEM
           amount: 1
       output:
         1:
@@ -2066,7 +2066,7 @@ MAGIC_DATA_CARD_INSERT:
       input:
         1:
           material_type: slimefun
-          material: BLAZE_DATA_CARD
+          material: IE_MOB_DATA_CARD_BLAZE
           amount: 1
       output:
         1:
@@ -2078,7 +2078,7 @@ MAGIC_DATA_CARD_INSERT:
       input:
         1:
           material_type: slimefun
-          material: WITHER_DATA_CARD
+          material: IE_MOB_DATA_CARD_WITHER
           amount: 1
       output:
         1:
@@ -2090,7 +2090,7 @@ MAGIC_DATA_CARD_INSERT:
       input:
         1:
           material_type: slimefun
-          material: BEE_DATA_CARD
+          material: IE_MOB_DATA_CARD_BEE
           amount: 1
       output:
         1:
@@ -2102,7 +2102,7 @@ MAGIC_DATA_CARD_INSERT:
       input:
         1:
           material_type: slimefun
-          material: VILLAGER_DATA_CARD
+          material: IE_MOB_DATA_CARD_VILLAGER
           amount: 1
       output:
         1:
@@ -2114,7 +2114,7 @@ MAGIC_DATA_CARD_INSERT:
       input:
         1:
           material_type: slimefun
-          material: WITCH_DATA_CARD
+          material: IE_MOB_DATA_CARD_WITCH
           amount: 1
       output:
         1:
@@ -2237,7 +2237,7 @@ MAGIC_CD_SINGULARITY:
       material: CARBON_PRESS_3
     5:
       material_type: slimefun
-      material: SINGULARITY_CONSTRUCTOR
+      material: IE_SINGULARITY_CONSTRUCTOR
     6:
       material_type: slimefun
       material: CARBON_PRESS_3
@@ -2498,31 +2498,31 @@ MAGIC_URANIUM_EXTRACTOR:
   recipe:
     1:
       material_type: slimefun
-      material: URANIUM_EXTRACTOR
+      material: IE_URANIUM_EXTRACTOR
     2:
       material_type: slimefun
-      material: INFINITE_MACHINE_CORE
+      material: IE_INFINITY_MACHINE_CORE
     3:
       material_type: slimefun
-      material: URANIUM_EXTRACTOR
+      material: IE_URANIUM_EXTRACTOR
     4:
       material_type: slimefun
-      material: INFINITE_MACHINE_CIRCUIT
+      material: IE_INFINITY_MACHINE_CIRCUIT
     5:
       material_type: slimefun
       material: MAGIC_INFINITE_INGOT
     6:
       material_type: slimefun
-      material: INFINITE_MACHINE_CIRCUIT
+      material: IE_INFINITY_MACHINE_CIRCUIT
     7:
       material_type: slimefun
-      material: URANIUM_EXTRACTOR
+      material: IE_URANIUM_EXTRACTOR
     8:
       material_type: slimefun
-      material: INFINITE_MACHINE_CORE
+      material: IE_INFINITY_MACHINE_CORE
     9:
       material_type: slimefun
-      material: URANIUM_EXTRACTOR
+      material: IE_URANIUM_EXTRACTOR
   capacity: 2048
   input: [19,20]
   output: [24,25]
@@ -2884,17 +2884,17 @@ MAGIC_RANDOM_ITEM_MACHINE:
         13:
           chance: 10
           material_type: slimefun
-          material: METAL_SINGULARITY
+          material: IE_METAL_SINGULARITY
           amount: 1
         14:
           chance: 10
           material_type: slimefun
-          material: EARTH_SINGULARITY
+          material: IE_EARTH_SINGULARITY
           amount: 1
         15:
           chance: 10
           material_type: slimefun
-          material: FORTUNE_SINGULARITY
+          material: IE_FORTUNE_SINGULARITY
           amount: 1
         16:
           chance: 10
@@ -2904,12 +2904,12 @@ MAGIC_RANDOM_ITEM_MACHINE:
         17:
           chance: 10
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         18:
           chance: 10
           material_type: slimefun
-          material: VOID_INGOT
+          material: IE_VOID_INGOT
           amount: 1
         19:
           chance: 10
@@ -3608,7 +3608,7 @@ MAGIC_ORIGIN_BASIC_DUST_EXTRACTOR:
       amount: 1
     2:
       material_type: slimefun
-      material: INFINITE_PANEL
+      material: IE_INFINITY_PANEL
       amount: 1
     3:
       material_type: slimefun
@@ -3616,15 +3616,15 @@ MAGIC_ORIGIN_BASIC_DUST_EXTRACTOR:
       amount: 1
     4:
       material_type: slimefun
-      material: INFINITY_PICKAXE
+      material: IE_INFINITY_PICKAXE
       amount: 1
     5:
       material_type: slimefun
-      material: INFINITY_DUST_EXTRACTOR
+      material: IE_DUST_EXTRACTOR_4
       amount: 1
     6:
       material_type: slimefun
-      material: INFINITY_PICKAXE
+      material: IE_INFINITY_PICKAXE
       amount: 1
     7:
       material_type: slimefun
@@ -3711,7 +3711,7 @@ MAGIC_ORIGIN_BASIC_INGOT_FORMER:
       amount: 1
     2:
       material_type: slimefun
-      material: INFINITE_PANEL
+      material: IE_INFINITY_PANEL
       amount: 1
     3:
       material_type: slimefun
@@ -3723,7 +3723,7 @@ MAGIC_ORIGIN_BASIC_INGOT_FORMER:
       amount: 1
     5:
       material_type: slimefun
-      material: INFINITY_INGOT_FORMER
+      material: IE_INGOT_FORMER_4
       amount: 1
     6:
       material_type: slimefun
@@ -4369,7 +4369,7 @@ MAGIC_ORIGIN_PRESS:
       amount: 1
     5:
       material_type: slimefun
-      material: INFINITY_CONSTRUCTOR
+      material: IE_SINGULARITY_CONSTRUCTOR_2
       amount: 1
     6:
       material_type: slimefun
@@ -4466,7 +4466,7 @@ MAGIC_ORIGIN_INFINITY_CONSTRUCTOR:
       amount: 1
     5:
       material_type: slimefun
-      material: INFINITY_CONSTRUCTOR
+      material: IE_SINGULARITY_CONSTRUCTOR_2
       amount: 1
     6:
       material_type: slimefun
@@ -4501,7 +4501,7 @@ MAGIC_ORIGIN_INFINITY_CONSTRUCTOR:
       output:
         1:
           material_type: slimefun
-          material: COPPER_SINGULARITY
+          material: IE_COPPER_SINGULARITY
           amount: 1
     '锌奇点':
       seconds: 1
@@ -4513,7 +4513,7 @@ MAGIC_ORIGIN_INFINITY_CONSTRUCTOR:
       output:
         1:
           material_type: slimefun
-          material: ZINC_SINGULARITY
+          material: IE_ZINC_SINGULARITY
           amount: 1
     '锡奇点':
       seconds: 1
@@ -4525,7 +4525,7 @@ MAGIC_ORIGIN_INFINITY_CONSTRUCTOR:
       output:
         1:
           material_type: slimefun
-          material: TIN_SINGULARITY
+          material: IE_TIN_SINGULARITY
           amount: 1
     '铝奇点':
       seconds: 1
@@ -4537,7 +4537,7 @@ MAGIC_ORIGIN_INFINITY_CONSTRUCTOR:
       output:
         1:
           material_type: slimefun
-          material: ALUMINUM_SINGULARITY
+          material: IE_ALUMINUM_SINGULARITY
           amount: 1
     '银奇点':
       seconds: 1
@@ -4549,7 +4549,7 @@ MAGIC_ORIGIN_INFINITY_CONSTRUCTOR:
       output:
         1:
           material_type: slimefun
-          material: SILVER_SINGULARITY
+          material: IE_SILVER_SINGULARITY
           amount: 1
     '镁奇点':
       seconds: 1
@@ -4561,7 +4561,7 @@ MAGIC_ORIGIN_INFINITY_CONSTRUCTOR:
       output:
         1:
           material_type: slimefun
-          material: MAGNESIUM_SINGULARITY
+          material: IE_MAGNESIUM_SINGULARITY
           amount: 1
     '铅奇点':
       seconds: 1
@@ -4573,7 +4573,7 @@ MAGIC_ORIGIN_INFINITY_CONSTRUCTOR:
       output:
         1:
           material_type: slimefun
-          material: LEAD_SINGULARITY
+          material: IE_LEAD_SINGULARITY
           amount: 1
     '金奇点':
       seconds: 1
@@ -4585,7 +4585,7 @@ MAGIC_ORIGIN_INFINITY_CONSTRUCTOR:
       output:
         1:
           material_type: slimefun
-          material: GOLD_SINGULARITY
+          material: IE_GOLD_SINGULARITY
           amount: 1
     '铁奇点':
       seconds: 1
@@ -4597,7 +4597,7 @@ MAGIC_ORIGIN_INFINITY_CONSTRUCTOR:
       output:
         1:
           material_type: slimefun
-          material: IRON_SINGULARITY
+          material: IE_IRON_SINGULARITY
           amount: 1
 
 

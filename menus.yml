@@ -4578,11 +4578,11 @@ MAGIC_INFINITY_FORGE_1:
       material: CYAN_STAINED_GLASS_PANE
     17: 
       material_type: slimefun
-      material: INFINITY_FORGE
+      material: IE_INFINITY_WORKBENCH
       progressbar: true
       progressBarItem:
         material_type: slimefun
-        material: INFINITY_FORGE
+        material: IE_INFINITY_WORKBENCH
     24: 
       name: "&a"
       material: PINK_STAINED_GLASS_PANE
@@ -4625,11 +4625,11 @@ MAGIC_INFINITY_FORGE_ULTRA:
       material: CYAN_STAINED_GLASS_PANE
     17: 
       material_type: slimefun
-      material: INFINITY_FORGE
+      material: IE_INFINITY_WORKBENCH
       progressbar: true
       progressBarItem:
         material_type: slimefun
-        material: INFINITY_FORGE
+        material: IE_INFINITY_WORKBENCH
     24: 
       name: "&a"
       material: PINK_STAINED_GLASS_PANE
@@ -4665,7 +4665,7 @@ MAGIC_GEOMINER_BOX:
     4: 
       name: "&f&l无尽能源"
       material_type: slimefun
-      material: INFINITY_MATRIX
+      material: IE_INFINITY_MATRIX
       lore: 
         - "&b终极目标：挖掘虚空深处"
         - "&b无法破坏"

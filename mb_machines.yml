@@ -45,7 +45,7 @@ MAGIC_GEC_MOB:
           amount: 1
         4:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         5:
           material_type: slimefun
@@ -53,7 +53,7 @@ MAGIC_GEC_MOB:
           amount: 1
         6:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         7:
           material_type: slimefun
@@ -86,7 +86,7 @@ MAGIC_GEC_MOB:
           amount: 1
         4:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         5:
           material_type: slimefun
@@ -94,7 +94,7 @@ MAGIC_GEC_MOB:
           amount: 1
         6:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         7:
           material_type: slimefun
@@ -127,7 +127,7 @@ MAGIC_GEC_MOB:
           amount: 1
         4:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         5:
           material_type: slimefun
@@ -135,7 +135,7 @@ MAGIC_GEC_MOB:
           amount: 1
         6:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         7:
           material_type: slimefun
@@ -168,7 +168,7 @@ MAGIC_GEC_MOB:
           amount: 1
         4:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         5:
           material_type: slimefun
@@ -176,7 +176,7 @@ MAGIC_GEC_MOB:
           amount: 1
         6:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         7:
           material_type: slimefun
@@ -209,7 +209,7 @@ MAGIC_GEC_MOB:
           amount: 1
         4:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         5:
           material_type: slimefun
@@ -217,7 +217,7 @@ MAGIC_GEC_MOB:
           amount: 1
         6:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         7:
           material_type: slimefun
@@ -250,7 +250,7 @@ MAGIC_GEC_MOB:
           amount: 1
         4:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         5:
           material_type: slimefun
@@ -258,7 +258,7 @@ MAGIC_GEC_MOB:
           amount: 1
         6:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         7:
           material_type: slimefun
@@ -291,7 +291,7 @@ MAGIC_GEC_MOB:
           amount: 1
         4:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         5:
           material_type: slimefun
@@ -299,7 +299,7 @@ MAGIC_GEC_MOB:
           amount: 1
         6:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         7:
           material_type: slimefun
@@ -332,7 +332,7 @@ MAGIC_GEC_MOB:
           amount: 1
         4:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         5:
           material_type: slimefun
@@ -340,7 +340,7 @@ MAGIC_GEC_MOB:
           amount: 1
         6:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         7:
           material_type: slimefun
@@ -373,7 +373,7 @@ MAGIC_GEC_MOB:
           amount: 1
         4:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         5:
           material_type: slimefun
@@ -381,7 +381,7 @@ MAGIC_GEC_MOB:
           amount: 1
         6:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         7:
           material_type: slimefun
@@ -414,7 +414,7 @@ MAGIC_GEC_MOB:
           amount: 1
         4:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         5:
           material_type: slimefun
@@ -422,7 +422,7 @@ MAGIC_GEC_MOB:
           amount: 1
         6:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         7:
           material_type: slimefun
@@ -455,7 +455,7 @@ MAGIC_GEC_MOB:
           amount: 1
         4:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         5:
           material_type: slimefun
@@ -463,7 +463,7 @@ MAGIC_GEC_MOB:
           amount: 1
         6:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         7:
           material_type: slimefun
@@ -496,7 +496,7 @@ MAGIC_GEC_MOB:
           amount: 1
         4:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         5:
           material_type: slimefun
@@ -504,7 +504,7 @@ MAGIC_GEC_MOB:
           amount: 1
         6:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         7:
           material_type: slimefun
@@ -537,7 +537,7 @@ MAGIC_GEC_MOB:
           amount: 1
         4:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         5:
           material_type: slimefun
@@ -545,7 +545,7 @@ MAGIC_GEC_MOB:
           amount: 1
         6:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         7:
           material_type: slimefun
@@ -578,7 +578,7 @@ MAGIC_GEC_MOB:
           amount: 1
         4:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         5:
           material_type: slimefun
@@ -586,7 +586,7 @@ MAGIC_GEC_MOB:
           amount: 1
         6:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         7:
           material_type: slimefun
@@ -619,7 +619,7 @@ MAGIC_GEC_MOB:
           amount: 1
         4:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         5:
           material_type: slimefun
@@ -627,7 +627,7 @@ MAGIC_GEC_MOB:
           amount: 1
         6:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         7:
           material_type: slimefun
@@ -660,7 +660,7 @@ MAGIC_GEC_MOB:
           amount: 1
         4:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         5:
           material_type: slimefun
@@ -668,7 +668,7 @@ MAGIC_GEC_MOB:
           amount: 1
         6:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         7:
           material_type: slimefun
@@ -701,7 +701,7 @@ MAGIC_GEC_MOB:
           amount: 1
         4:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         5:
           material_type: slimefun
@@ -709,7 +709,7 @@ MAGIC_GEC_MOB:
           amount: 1
         6:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         7:
           material_type: slimefun
@@ -742,7 +742,7 @@ MAGIC_GEC_MOB:
           amount: 1
         4:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         5:
           material_type: slimefun
@@ -750,7 +750,7 @@ MAGIC_GEC_MOB:
           amount: 1
         6:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         7:
           material_type: slimefun
@@ -783,7 +783,7 @@ MAGIC_GEC_MOB:
           amount: 1
         4:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         5:
           material_type: slimefun
@@ -791,7 +791,7 @@ MAGIC_GEC_MOB:
           amount: 1
         6:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         7:
           material_type: slimefun
@@ -824,7 +824,7 @@ MAGIC_GEC_MOB:
           amount: 1
         4:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         5:
           material_type: slimefun
@@ -832,7 +832,7 @@ MAGIC_GEC_MOB:
           amount: 1
         6:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         7:
           material_type: slimefun
@@ -901,7 +901,7 @@ MAGIC_BEEHIVE_MOB:
           amount: 1
         4:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         5:
           material_type: slimefun
@@ -909,19 +909,19 @@ MAGIC_BEEHIVE_MOB:
           amount: 1
         6:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         7:
           material_type: slimefun
-          material: INFINITE_MACHINE_CIRCUIT
+          material: IE_INFINITY_MACHINE_CIRCUIT
           amount: 1
         8:
           material_type: slimefun
-          material: INFINITE_MACHINE_CORE
+          material: IE_INFINITY_MACHINE_CORE
           amount: 1
         9:
           material_type: slimefun
-          material: INFINITE_MACHINE_CIRCUIT
+          material: IE_INFINITY_MACHINE_CIRCUIT
           amount: 1 
       output: 
         material_type: slimefun
@@ -942,7 +942,7 @@ MAGIC_BEEHIVE_MOB:
           amount: 1
         4:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         5:
           material_type: slimefun
@@ -950,19 +950,19 @@ MAGIC_BEEHIVE_MOB:
           amount: 1
         6:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         7:
           material_type: slimefun
-          material: INFINITE_MACHINE_CIRCUIT
+          material: IE_INFINITY_MACHINE_CIRCUIT
           amount: 1
         8:
           material_type: slimefun
-          material: INFINITE_MACHINE_CORE
+          material: IE_INFINITY_MACHINE_CORE
           amount: 1
         9:
           material_type: slimefun
-          material: INFINITE_MACHINE_CIRCUIT
+          material: IE_INFINITY_MACHINE_CIRCUIT
           amount: 1 
       output: 
         material_type: slimefun
@@ -983,7 +983,7 @@ MAGIC_BEEHIVE_MOB:
           amount: 1
         4:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         5:
           material_type: slimefun
@@ -991,19 +991,19 @@ MAGIC_BEEHIVE_MOB:
           amount: 1
         6:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         7:
           material_type: slimefun
-          material: INFINITE_MACHINE_CIRCUIT
+          material: IE_INFINITY_MACHINE_CIRCUIT
           amount: 1
         8:
           material_type: slimefun
-          material: INFINITE_MACHINE_CORE
+          material: IE_INFINITY_MACHINE_CORE
           amount: 1
         9:
           material_type: slimefun
-          material: INFINITE_MACHINE_CIRCUIT
+          material: IE_INFINITY_MACHINE_CIRCUIT
           amount: 1 
       output: 
         material_type: slimefun
@@ -1024,7 +1024,7 @@ MAGIC_BEEHIVE_MOB:
           amount: 1
         4:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         5:
           material_type: slimefun
@@ -1032,19 +1032,19 @@ MAGIC_BEEHIVE_MOB:
           amount: 1
         6:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         7:
           material_type: slimefun
-          material: INFINITE_MACHINE_CIRCUIT
+          material: IE_INFINITY_MACHINE_CIRCUIT
           amount: 1
         8:
           material_type: slimefun
-          material: INFINITE_MACHINE_CORE
+          material: IE_INFINITY_MACHINE_CORE
           amount: 1
         9:
           material_type: slimefun
-          material: INFINITE_MACHINE_CIRCUIT
+          material: IE_INFINITY_MACHINE_CIRCUIT
           amount: 1 
       output: 
         material_type: slimefun
@@ -1065,7 +1065,7 @@ MAGIC_BEEHIVE_MOB:
           amount: 1
         4:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         5:
           material_type: slimefun
@@ -1073,19 +1073,19 @@ MAGIC_BEEHIVE_MOB:
           amount: 1
         6:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         7:
           material_type: slimefun
-          material: INFINITE_MACHINE_CIRCUIT
+          material: IE_INFINITY_MACHINE_CIRCUIT
           amount: 1
         8:
           material_type: slimefun
-          material: INFINITE_MACHINE_CORE
+          material: IE_INFINITY_MACHINE_CORE
           amount: 1
         9:
           material_type: slimefun
-          material: INFINITE_MACHINE_CIRCUIT
+          material: IE_INFINITY_MACHINE_CIRCUIT
           amount: 1 
       output: 
         material_type: slimefun
@@ -1106,7 +1106,7 @@ MAGIC_BEEHIVE_MOB:
           amount: 1
         4:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         5:
           material_type: slimefun
@@ -1114,19 +1114,19 @@ MAGIC_BEEHIVE_MOB:
           amount: 1
         6:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         7:
           material_type: slimefun
-          material: INFINITE_MACHINE_CIRCUIT
+          material: IE_INFINITY_MACHINE_CIRCUIT
           amount: 1
         8:
           material_type: slimefun
-          material: INFINITE_MACHINE_CORE
+          material: IE_INFINITY_MACHINE_CORE
           amount: 1
         9:
           material_type: slimefun
-          material: INFINITE_MACHINE_CIRCUIT
+          material: IE_INFINITY_MACHINE_CIRCUIT
           amount: 1 
       output: 
         material_type: slimefun
@@ -1147,7 +1147,7 @@ MAGIC_BEEHIVE_MOB:
           amount: 1
         4:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         5:
           material_type: slimefun
@@ -1155,19 +1155,19 @@ MAGIC_BEEHIVE_MOB:
           amount: 1
         6:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         7:
           material_type: slimefun
-          material: INFINITE_MACHINE_CIRCUIT
+          material: IE_INFINITY_MACHINE_CIRCUIT
           amount: 1
         8:
           material_type: slimefun
-          material: INFINITE_MACHINE_CORE
+          material: IE_INFINITY_MACHINE_CORE
           amount: 1
         9:
           material_type: slimefun
-          material: INFINITE_MACHINE_CIRCUIT
+          material: IE_INFINITY_MACHINE_CIRCUIT
           amount: 1 
       output: 
         material_type: slimefun
@@ -1188,7 +1188,7 @@ MAGIC_BEEHIVE_MOB:
           amount: 1
         4:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         5:
           material_type: slimefun
@@ -1196,19 +1196,19 @@ MAGIC_BEEHIVE_MOB:
           amount: 1
         6:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         7:
           material_type: slimefun
-          material: INFINITE_MACHINE_CIRCUIT
+          material: IE_INFINITY_MACHINE_CIRCUIT
           amount: 1
         8:
           material_type: slimefun
-          material: INFINITE_MACHINE_CORE
+          material: IE_INFINITY_MACHINE_CORE
           amount: 1
         9:
           material_type: slimefun
-          material: INFINITE_MACHINE_CIRCUIT
+          material: IE_INFINITY_MACHINE_CIRCUIT
           amount: 1 
       output: 
         material_type: slimefun
@@ -1229,7 +1229,7 @@ MAGIC_BEEHIVE_MOB:
           amount: 1
         4:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         5:
           material_type: slimefun
@@ -1237,19 +1237,19 @@ MAGIC_BEEHIVE_MOB:
           amount: 1
         6:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         7:
           material_type: slimefun
-          material: INFINITE_MACHINE_CIRCUIT
+          material: IE_INFINITY_MACHINE_CIRCUIT
           amount: 1
         8:
           material_type: slimefun
-          material: INFINITE_MACHINE_CORE
+          material: IE_INFINITY_MACHINE_CORE
           amount: 1
         9:
           material_type: slimefun
-          material: INFINITE_MACHINE_CIRCUIT
+          material: IE_INFINITY_MACHINE_CIRCUIT
           amount: 1 
       output: 
         material_type: slimefun
@@ -1270,7 +1270,7 @@ MAGIC_BEEHIVE_MOB:
           amount: 1
         4:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         5:
           material_type: slimefun
@@ -1278,19 +1278,19 @@ MAGIC_BEEHIVE_MOB:
           amount: 1
         6:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         7:
           material_type: slimefun
-          material: INFINITE_MACHINE_CIRCUIT
+          material: IE_INFINITY_MACHINE_CIRCUIT
           amount: 1
         8:
           material_type: slimefun
-          material: INFINITE_MACHINE_CORE
+          material: IE_INFINITY_MACHINE_CORE
           amount: 1
         9:
           material_type: slimefun
-          material: INFINITE_MACHINE_CIRCUIT
+          material: IE_INFINITY_MACHINE_CIRCUIT
           amount: 1 
       output: 
         material_type: slimefun
@@ -1311,7 +1311,7 @@ MAGIC_BEEHIVE_MOB:
           amount: 1
         4:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         5:
           material_type: slimefun
@@ -1319,19 +1319,19 @@ MAGIC_BEEHIVE_MOB:
           amount: 1
         6:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         7:
           material_type: slimefun
-          material: INFINITE_MACHINE_CIRCUIT
+          material: IE_INFINITY_MACHINE_CIRCUIT
           amount: 1
         8:
           material_type: slimefun
-          material: INFINITE_MACHINE_CORE
+          material: IE_INFINITY_MACHINE_CORE
           amount: 1
         9:
           material_type: slimefun
-          material: INFINITE_MACHINE_CIRCUIT
+          material: IE_INFINITY_MACHINE_CIRCUIT
           amount: 1 
       output: 
         material_type: slimefun
@@ -1352,7 +1352,7 @@ MAGIC_BEEHIVE_MOB:
           amount: 1
         4:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         5:
           material_type: slimefun
@@ -1360,19 +1360,19 @@ MAGIC_BEEHIVE_MOB:
           amount: 1
         6:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         7:
           material_type: slimefun
-          material: INFINITE_MACHINE_CIRCUIT
+          material: IE_INFINITY_MACHINE_CIRCUIT
           amount: 1
         8:
           material_type: slimefun
-          material: INFINITE_MACHINE_CORE
+          material: IE_INFINITY_MACHINE_CORE
           amount: 1
         9:
           material_type: slimefun
-          material: INFINITE_MACHINE_CIRCUIT
+          material: IE_INFINITY_MACHINE_CIRCUIT
           amount: 1 
       output: 
         material_type: slimefun
@@ -1393,7 +1393,7 @@ MAGIC_BEEHIVE_MOB:
           amount: 1
         4:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         5:
           material_type: slimefun
@@ -1401,19 +1401,19 @@ MAGIC_BEEHIVE_MOB:
           amount: 1
         6:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         7:
           material_type: slimefun
-          material: INFINITE_MACHINE_CIRCUIT
+          material: IE_INFINITY_MACHINE_CIRCUIT
           amount: 1
         8:
           material_type: slimefun
-          material: INFINITE_MACHINE_CORE
+          material: IE_INFINITY_MACHINE_CORE
           amount: 1
         9:
           material_type: slimefun
-          material: INFINITE_MACHINE_CIRCUIT
+          material: IE_INFINITY_MACHINE_CIRCUIT
           amount: 1 
       output: 
         material_type: slimefun
@@ -1434,7 +1434,7 @@ MAGIC_BEEHIVE_MOB:
           amount: 1
         4:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         5:
           material_type: slimefun
@@ -1442,19 +1442,19 @@ MAGIC_BEEHIVE_MOB:
           amount: 1
         6:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         7:
           material_type: slimefun
-          material: INFINITE_MACHINE_CIRCUIT
+          material: IE_INFINITY_MACHINE_CIRCUIT
           amount: 1
         8:
           material_type: slimefun
-          material: INFINITE_MACHINE_CORE
+          material: IE_INFINITY_MACHINE_CORE
           amount: 1
         9:
           material_type: slimefun
-          material: INFINITE_MACHINE_CIRCUIT
+          material: IE_INFINITY_MACHINE_CIRCUIT
           amount: 1 
       output: 
         material_type: slimefun
@@ -1475,7 +1475,7 @@ MAGIC_BEEHIVE_MOB:
           amount: 1
         4:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         5:
           material_type: slimefun
@@ -1483,19 +1483,19 @@ MAGIC_BEEHIVE_MOB:
           amount: 1
         6:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         7:
           material_type: slimefun
-          material: INFINITE_MACHINE_CIRCUIT
+          material: IE_INFINITY_MACHINE_CIRCUIT
           amount: 1
         8:
           material_type: slimefun
-          material: INFINITE_MACHINE_CORE
+          material: IE_INFINITY_MACHINE_CORE
           amount: 1
         9:
           material_type: slimefun
-          material: INFINITE_MACHINE_CIRCUIT
+          material: IE_INFINITY_MACHINE_CIRCUIT
           amount: 1 
       output: 
         material_type: slimefun
@@ -1516,7 +1516,7 @@ MAGIC_BEEHIVE_MOB:
           amount: 1
         4:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         5:
           material_type: slimefun
@@ -1524,19 +1524,19 @@ MAGIC_BEEHIVE_MOB:
           amount: 1
         6:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         7:
           material_type: slimefun
-          material: INFINITE_MACHINE_CIRCUIT
+          material: IE_INFINITY_MACHINE_CIRCUIT
           amount: 1
         8:
           material_type: slimefun
-          material: INFINITE_MACHINE_CORE
+          material: IE_INFINITY_MACHINE_CORE
           amount: 1
         9:
           material_type: slimefun
-          material: INFINITE_MACHINE_CIRCUIT
+          material: IE_INFINITY_MACHINE_CIRCUIT
           amount: 1 
       output: 
         material_type: slimefun
@@ -1557,7 +1557,7 @@ MAGIC_BEEHIVE_MOB:
           amount: 1
         4:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         5:
           material_type: slimefun
@@ -1565,19 +1565,19 @@ MAGIC_BEEHIVE_MOB:
           amount: 1
         6:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         7:
           material_type: slimefun
-          material: INFINITE_MACHINE_CIRCUIT
+          material: IE_INFINITY_MACHINE_CIRCUIT
           amount: 1
         8:
           material_type: slimefun
-          material: INFINITE_MACHINE_CORE
+          material: IE_INFINITY_MACHINE_CORE
           amount: 1
         9:
           material_type: slimefun
-          material: INFINITE_MACHINE_CIRCUIT
+          material: IE_INFINITY_MACHINE_CIRCUIT
           amount: 1 
       output: 
         material_type: slimefun
@@ -1598,7 +1598,7 @@ MAGIC_BEEHIVE_MOB:
           amount: 1
         4:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         5:
           material_type: slimefun
@@ -1606,19 +1606,19 @@ MAGIC_BEEHIVE_MOB:
           amount: 1
         6:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         7:
           material_type: slimefun
-          material: INFINITE_MACHINE_CIRCUIT
+          material: IE_INFINITY_MACHINE_CIRCUIT
           amount: 1
         8:
           material_type: slimefun
-          material: INFINITE_MACHINE_CORE
+          material: IE_INFINITY_MACHINE_CORE
           amount: 1
         9:
           material_type: slimefun
-          material: INFINITE_MACHINE_CIRCUIT
+          material: IE_INFINITY_MACHINE_CIRCUIT
           amount: 1 
       output: 
         material_type: slimefun
@@ -1639,7 +1639,7 @@ MAGIC_BEEHIVE_MOB:
           amount: 1
         4:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         5:
           material_type: slimefun
@@ -1647,19 +1647,19 @@ MAGIC_BEEHIVE_MOB:
           amount: 1
         6:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         7:
           material_type: slimefun
-          material: INFINITE_MACHINE_CIRCUIT
+          material: IE_INFINITY_MACHINE_CIRCUIT
           amount: 1
         8:
           material_type: slimefun
-          material: INFINITE_MACHINE_CORE
+          material: IE_INFINITY_MACHINE_CORE
           amount: 1
         9:
           material_type: slimefun
-          material: INFINITE_MACHINE_CIRCUIT
+          material: IE_INFINITY_MACHINE_CIRCUIT
           amount: 1 
       output: 
         material_type: slimefun
@@ -1680,7 +1680,7 @@ MAGIC_BEEHIVE_MOB:
           amount: 1
         4:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         5:
           material_type: slimefun
@@ -1688,19 +1688,19 @@ MAGIC_BEEHIVE_MOB:
           amount: 1
         6:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         7:
           material_type: slimefun
-          material: INFINITE_MACHINE_CIRCUIT
+          material: IE_INFINITY_MACHINE_CIRCUIT
           amount: 1
         8:
           material_type: slimefun
-          material: INFINITE_MACHINE_CORE
+          material: IE_INFINITY_MACHINE_CORE
           amount: 1
         9:
           material_type: slimefun
-          material: INFINITE_MACHINE_CIRCUIT
+          material: IE_INFINITY_MACHINE_CIRCUIT
           amount: 1 
       output: 
         material_type: slimefun
@@ -1721,7 +1721,7 @@ MAGIC_BEEHIVE_MOB:
           amount: 1
         4:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         5:
           material_type: slimefun
@@ -1729,19 +1729,19 @@ MAGIC_BEEHIVE_MOB:
           amount: 1
         6:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         7:
           material_type: slimefun
-          material: INFINITE_MACHINE_CIRCUIT
+          material: IE_INFINITY_MACHINE_CIRCUIT
           amount: 1
         8:
           material_type: slimefun
-          material: INFINITE_MACHINE_CORE
+          material: IE_INFINITY_MACHINE_CORE
           amount: 1
         9:
           material_type: slimefun
-          material: INFINITE_MACHINE_CIRCUIT
+          material: IE_INFINITY_MACHINE_CIRCUIT
           amount: 1 
       output: 
         material_type: slimefun
@@ -1793,23 +1793,23 @@ MAGIC_INFINITY_ARMOR_MACHINE:
           amount: 1
         3:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         4:
           material_type: slimefun
-          material: INFINITE_MACHINE_CIRCUIT
+          material: IE_INFINITY_MACHINE_CIRCUIT
           amount: 1
         5:
           material_type: slimefun
-          material: INFINITY_CROWN
+          material: IE_INFINITY_HELMET
           amount: 1
         6:
           material_type: slimefun
-          material: INFINITE_MACHINE_CORE
+          material: IE_INFINITY_MACHINE_CORE
           amount: 1
         7:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         8:
           material_type: slimefun
@@ -1834,23 +1834,23 @@ MAGIC_INFINITY_ARMOR_MACHINE:
           amount: 1
         3:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         4:
           material_type: slimefun
-          material: INFINITE_MACHINE_CIRCUIT
+          material: IE_INFINITY_MACHINE_CIRCUIT
           amount: 1
         5:
           material_type: slimefun
-          material: INFINITY_CHESTPLATE
+          material: IE_INFINITY_CHESTPLATE
           amount: 1
         6:
           material_type: slimefun
-          material: INFINITE_MACHINE_CORE
+          material: IE_INFINITY_MACHINE_CORE
           amount: 1
         7:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         8:
           material_type: slimefun
@@ -1875,23 +1875,23 @@ MAGIC_INFINITY_ARMOR_MACHINE:
           amount: 1
         3:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         4:
           material_type: slimefun
-          material: INFINITE_MACHINE_CIRCUIT
+          material: IE_INFINITY_MACHINE_CIRCUIT
           amount: 1
         5:
           material_type: slimefun
-          material: INFINITY_LEGGINGS
+          material: IE_INFINITY_LEGGINGS
           amount: 1
         6:
           material_type: slimefun
-          material: INFINITE_MACHINE_CORE
+          material: IE_INFINITY_MACHINE_CORE
           amount: 1
         7:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         8:
           material_type: slimefun
@@ -1916,23 +1916,23 @@ MAGIC_INFINITY_ARMOR_MACHINE:
           amount: 1
         3:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         4:
           material_type: slimefun
-          material: INFINITE_MACHINE_CIRCUIT
+          material: IE_INFINITY_MACHINE_CIRCUIT
           amount: 1
         5:
           material_type: slimefun
-          material: INFINITY_BOOTS
+          material: IE_INFINITY_BOOTS
           amount: 1
         6:
           material_type: slimefun
-          material: INFINITE_MACHINE_CORE
+          material: IE_INFINITY_MACHINE_CORE
           amount: 1
         7:
           material_type: slimefun
-          material: INFINITE_INGOT
+          material: IE_INFINITY_INGOT
           amount: 1
         8:
           material_type: slimefun
