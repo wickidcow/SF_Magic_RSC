@@ -39,7 +39,30 @@ jobs:
 
       - name: Verify migration map
         working-directory: magic
-        run: python scripts/migrate_ie2.py --ie1 ../ie1 --ie2 ../ie2
+        shell: bash
+        run: |
+          set +e
+          python scripts/migrate_ie2.py --ie1 ../ie1 --ie2 ../ie2
+          status=$?
+          set -e
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          report = json.loads(Path('audit/ie2-migration.json').read_text())
+          unresolved = report.get('unresolved_confirmed_ie1_ids', [])
+          allowed = {'POWERED_BEDROCK'}
+          unexpected = sorted(set(unresolved) - allowed)
+          if unexpected:
+              raise SystemExit(f'Unexpected unresolved IE1 IDs: {unexpected}')
+          if 'POWERED_BEDROCK' in unresolved:
+              text = Path('items.yml').read_text(encoding='utf-8')
+              if 'id_alias: POWERED_BEDROCK' not in text:
+                  raise SystemExit('POWERED_BEDROCK is retained but its Magic compatibility alias is missing')
+              print('POWERED_BEDROCK is intentionally retained and supplied by Magic')
+          PY
+          if [ "$status" -ne 0 ] && [ "$status" -ne 2 ]; then
+            exit "$status"
+          fi
 
       - name: Upload migration report
         if: always()
