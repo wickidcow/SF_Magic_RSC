@@ -2,6 +2,14 @@ name: Package Magic Drop-In
 
 on:
   workflow_dispatch:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - '*.yml'
+      - 'saveditems/**'
+      - 'scripts/**/*.js'
+      - '.github/workflows/package-dropin.yml'
   push:
     branches:
       - main
