@@ -16,7 +16,7 @@ item:
       PROTECTION_ENVIRONMENTAL: 25
     Unbreakable: true
     PublicBukkitValues:
-      slimefun:slimefun_item: INFINITY_BOOTS
+      slimefun:slimefun_item: IE_INFINITY_BOOTS
     attribute-modifiers:
       GENERIC_MAX_HEALTH:
       - ==: org.bukkit.attribute.AttributeModifier

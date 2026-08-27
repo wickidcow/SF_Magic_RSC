@@ -15,7 +15,7 @@ item:
       DAMAGE_ALL: 25
     Unbreakable: true
     PublicBukkitValues:
-      slimefun:slimefun_item: INFINITY_BLADE
+      slimefun:slimefun_item: IE_INFINITY_SWORD
     attribute-modifiers:
       GENERIC_ATTACK_DAMAGE:
       - ==: org.bukkit.attribute.AttributeModifier
