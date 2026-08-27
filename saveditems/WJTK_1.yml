@@ -18,7 +18,7 @@ item:
       PROTECTION_ENVIRONMENTAL: 22
     Unbreakable: true
     PublicBukkitValues:
-      slimefun:slimefun_item: INFINITY_CROWN
+      slimefun:slimefun_item: IE_INFINITY_HELMET
     attribute-modifiers:
       GENERIC_MAX_HEALTH:
       - ==: org.bukkit.attribute.AttributeModifier

@@ -120,13 +120,13 @@ MAGIC_INFINITE_PANEL:
   recipe:
     1:
       material_type: slimefun
-      material: INFINITE_PANEL
+      material: IE_INFINITY_PANEL
     2:
       material_type: slimefun
-      material: INFINITY_CAPACITOR
+      material: IE_INFINITY_CAPACITOR
     3:
       material_type: slimefun
-      material: INFINITE_PANEL
+      material: IE_INFINITY_PANEL
     4:
       material_type: slimefun
       material: MAGIC_REDSTONE_PRESS
@@ -138,10 +138,10 @@ MAGIC_INFINITE_PANEL:
       material: MAGIC_REDSTONE_PRESS
     7:
       material_type: slimefun
-      material: INFINITE_PANEL
+      material: IE_INFINITY_PANEL
     8:
       material_type: slimefun
       material: MAGIC_REDSTONE_PRESS
     9:
       material_type: slimefun
-      material: INFINITE_PANEL
+      material: IE_INFINITY_PANEL

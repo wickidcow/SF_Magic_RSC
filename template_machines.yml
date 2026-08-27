@@ -283,31 +283,31 @@ MAGIC_MOB_SIMULATION_CHAMBER:
   recipe:
     1: 
       material_type: slimefun
-      material: INFINITE_INGOT
+      material: IE_INFINITY_INGOT
     2:
       material_type: slimefun
       material: MAGIC_VOID_DUST
     3:
       material_type: slimefun
-      material: INFINITE_INGOT
+      material: IE_INFINITY_INGOT
     4:
       material_type: slimefun
-      material: MOB_SIMULATION_CHAMBER
+      material: IE_MOB_SIMULATION_CHAMBER
     5:
       material_type: slimefun
       material: MAGIC_MOB_SIMULATION_CHAMBER_UP
     6:
       material_type: slimefun
-      material: MOB_SIMULATION_CHAMBER
+      material: IE_MOB_SIMULATION_CHAMBER
     7:
       material_type: slimefun
-      material: INFINITE_INGOT
+      material: IE_INFINITY_INGOT
     8:
       material_type: slimefun
       material: MAGIC_VOID_DUST
     9:
       material_type: slimefun
-      material: INFINITE_INGOT
+      material: IE_INFINITY_INGOT
   capacity: 30000
   consumption: 15000
   templateSlot: 37
@@ -1326,7 +1326,7 @@ MAGIC_STACKING_INFINITE:
       material: MAGIC_COSMIC_DUST
     2:
       material_type: slimefun
-      material: INFINITE_MACHINE_CIRCUIT
+      material: IE_INFINITY_MACHINE_CIRCUIT
     3:
       material_type: slimefun
       material: MAGIC_REDSTONE_BLOCK
@@ -1363,7 +1363,7 @@ MAGIC_STACKING_INFINITE:
           1: 
             material: COBBLESTONE
             amount: 1
-    ADVANCED_COBBLE_GEN:
+    IE_COBBLESTONE_GENERATOR_2:
       '1':
         seconds: 1
         output:
@@ -1459,7 +1459,7 @@ MAGIC_INFINITY_QUARRY:
       material: MAGIC_AUTHOR_INGOT
     2:
       material_type: slimefun
-      material: INFINITY_QUARRY
+      material: IE_QUARRY_4
     3:
       material_type: slimefun
       material: MAGIC_REDSTONE_BLOCK
@@ -1477,7 +1477,7 @@ MAGIC_INFINITY_QUARRY:
       material: MAGIC_REDSTONE_BLOCK
     8:
       material_type: slimefun
-      material: INFINITY_QUARRY
+      material: IE_QUARRY_4
     9:
       material_type: slimefun
       material: MAGIC_COSMIC_DUST
@@ -1534,7 +1534,7 @@ MAGIC_INFINITY_QUARRY:
         input: 
           1: 
             material_type: slimefun
-            material: QUARRY_OSCILLATOR_REDSTONE
+            material: IE_OSCILLATOR_REDSTONE
             amount: 0
         output:
           1: 
@@ -1578,7 +1578,7 @@ MAGIC_INFINITY_QUARRY:
         input: 
           1: 
             material_type: slimefun
-            material: QUARRY_OSCILLATOR_LAPIS_LAZULI
+            material: IE_OSCILLATOR_LAPIS_LAZULI
             amount: 0
         output:
           1: 
@@ -1622,7 +1622,7 @@ MAGIC_INFINITY_QUARRY:
         input: 
           1: 
             material_type: slimefun
-            material: QUARRY_OSCILLATOR_EMERALD
+            material: IE_OSCILLATOR_EMERALD
             amount: 0
         output:
           1: 
@@ -1666,7 +1666,7 @@ MAGIC_INFINITY_QUARRY:
         input: 
           1: 
             material_type: slimefun
-            material: QUARRY_OSCILLATOR_DIAMOND
+            material: IE_OSCILLATOR_DIAMOND
             amount: 0
         output:
           1: 
@@ -1710,7 +1710,7 @@ MAGIC_INFINITY_QUARRY:
         input: 
           1: 
             material_type: slimefun
-            material: QUARRY_OSCILLATOR_QUARTZ
+            material: IE_OSCILLATOR_QUARTZ
             amount: 0
         output:
           1: 
@@ -2030,7 +2030,7 @@ MAGIC_INFINITY_QUARRY:
         input: 
           1:
             material_type: slimefun
-            material: QUARRY_OSCILLATOR_REDSTONE
+            material: IE_OSCILLATOR_REDSTONE
             amount: 0
         output:
           1: 
@@ -2082,7 +2082,7 @@ MAGIC_INFINITY_QUARRY:
         input: 
           1: 
             material_type: slimefun
-            material: QUARRY_OSCILLATOR_LAPIS_LAZULI
+            material: IE_OSCILLATOR_LAPIS_LAZULI
             amount: 0
         output:
           1: 
@@ -2134,7 +2134,7 @@ MAGIC_INFINITY_QUARRY:
         input: 
           1: 
             material_type: slimefun
-            material: QUARRY_OSCILLATOR_EMERALD
+            material: IE_OSCILLATOR_EMERALD
             amount: 0
         output:
           1: 
@@ -2186,7 +2186,7 @@ MAGIC_INFINITY_QUARRY:
         input: 
           1: 
             material_type: slimefun
-            material: QUARRY_OSCILLATOR_DIAMOND
+            material: IE_OSCILLATOR_DIAMOND
             amount: 0
         output:
           1: 
@@ -2238,7 +2238,7 @@ MAGIC_INFINITY_QUARRY:
         input: 
           1: 
             material_type: slimefun
-            material: QUARRY_OSCILLATOR_QUARTZ
+            material: IE_OSCILLATOR_QUARTZ
             amount: 0
         output:
           1: 

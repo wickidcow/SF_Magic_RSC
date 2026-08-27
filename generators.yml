@@ -127,13 +127,13 @@ MAGIC_INFINITY_REACTOR:
   recipe:
     1:
       material_type: slimefun
-      material: INFINITY_REACTOR
+      material: IE_INFINITY_REACTOR
     2: 
       material_type: slimefun
-      material: INFINITY_CAPACITOR
+      material: IE_INFINITY_CAPACITOR
     3:
       material_type: slimefun
-      material: INFINITY_REACTOR
+      material: IE_INFINITY_REACTOR
     4: 
       material_type: slimefun
       material: MAGIC_REDSTONE_PRESS
@@ -145,13 +145,13 @@ MAGIC_INFINITY_REACTOR:
       material: MAGIC_REDSTONE_PRESS
     7:
       material_type: slimefun
-      material: INFINITY_REACTOR
+      material: IE_INFINITY_REACTOR
     8: 
       material_type: slimefun
       material: MAGIC_REDSTONE_PRESS
     9:
       material_type: slimefun
-      material: INFINITY_REACTOR
+      material: IE_INFINITY_REACTOR
   fuels:
     "1":
       item:
@@ -630,7 +630,7 @@ MAGIC_GENERATOR_FINAL_INFINITE:
       material: MAGIC_REDSTONE_PRESS
     2: 
       material_type: slimefun
-      material: INFINITE_PANEL
+      material: IE_INFINITY_PANEL
     3:
       material_type: slimefun
       material: MAGIC_REDSTONE_PRESS
@@ -648,7 +648,7 @@ MAGIC_GENERATOR_FINAL_INFINITE:
       material: MAGIC_REDSTONE_PRESS
     8: 
       material_type: slimefun
-      material: INFINITY_REACTOR
+      material: IE_INFINITY_REACTOR
     9:
       material_type: slimefun
       material: MAGIC_REDSTONE_PRESS
@@ -656,7 +656,7 @@ MAGIC_GENERATOR_FINAL_INFINITE:
     "1":
       item:
         material_type: slimefun
-        material: INFINITE_INGOT
+        material: IE_INFINITY_INGOT
         amount: 1
       seconds: 2
       output:
