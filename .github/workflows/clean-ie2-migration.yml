@@ -1,0 +1,170 @@
+name: Clean IE2 Migration
+
+on:
+  push:
+    branches:
+      - magic-legacy-runtime-clean
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  migrate:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout clean Magic branch
+        uses: actions/checkout@v4
+        with:
+          path: magic
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Checkout verified migration tooling
+        uses: actions/checkout@v4
+        with:
+          repository: wickidcow/SF_Magic_RSC
+          ref: magic-legacy-runtime-fix
+          path: tooling
+
+      - name: Checkout InfinityExpansion v1 reference
+        uses: actions/checkout@v4
+        with:
+          repository: Riley31415/InfinityExpansion
+          ref: master
+          path: ie1
+
+      - name: Checkout current InfinityExpansion2
+        uses: actions/checkout@v4
+        with:
+          repository: wickidcow/SF_InfinityExpansion2
+          ref: master
+          path: ie2
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Prepare newline-preserving migration tooling
+        run: |
+          cp tooling/scripts/migrate_ie2.py magic/scripts/migrate_ie2.py
+          cp tooling/scripts/verify_runtime_compat.py magic/scripts/verify_runtime_compat.py
+          python - <<'PY'
+          from pathlib import Path
+          path = Path('magic/scripts/migrate_ie2.py')
+          text = path.read_text(encoding='utf-8')
+          old = '''        original = path.read_text(encoding="utf-8", errors="replace")
+                  updated = replace_tokens(original, applicable, counts)
+                  if updated != original:
+                      changed_files.append(path.relative_to(ROOT).as_posix())
+                      if args.write:
+                          path.write_text(updated, encoding="utf-8", newline="\\n")'''
+          old = old.replace('                  ', '        ', 1)
+          old = old.replace('\n                  updated', '\n        updated').replace('\n                  if updated', '\n        if updated').replace('\n                      changed_files', '\n            changed_files').replace('\n                      if args.write', '\n            if args.write').replace('\n                          path.write_text', '\n                path.write_text')
+          new = '''        with path.open("r", encoding="utf-8", errors="replace", newline="") as stream:
+                      original = stream.read()
+                  updated = replace_tokens(original, applicable, counts)
+                  if updated != original:
+                      changed_files.append(path.relative_to(ROOT).as_posix())
+                      if args.write:
+                          with path.open("w", encoding="utf-8", newline="") as stream:
+                              stream.write(updated)'''
+          new = new.replace('                      ', '            ', 1)
+          new = new.replace('\n                  updated', '\n        updated').replace('\n                  if updated', '\n        if updated').replace('\n                      changed_files', '\n            changed_files').replace('\n                      if args.write', '\n            if args.write').replace('\n                          with path.open', '\n                with path.open').replace('\n                              stream.write', '\n                    stream.write')
+          if old not in text:
+              raise SystemExit('Could not locate migration write block')
+          path.write_text(text.replace(old, new, 1), encoding='utf-8')
+          PY
+
+      - name: Apply verified IE1 to IE2 mappings without newline churn
+        working-directory: magic
+        run: |
+          set +e
+          python scripts/migrate_ie2.py --ie1 ../ie1 --ie2 ../ie2 --write
+          rc=$?
+          set -e
+          if [ "$rc" -ne 0 ] && [ "$rc" -ne 2 ]; then
+            exit "$rc"
+          fi
+
+      - name: Preserve removed IE1 powered-bedrock progression component
+        working-directory: magic
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          path = Path('items.yml')
+          with path.open('r', encoding='utf-8', newline='') as stream:
+              text = stream.read()
+          if 'id_alias: POWERED_BEDROCK' not in text:
+              eol = '\r\n' if '\r\n' in text else '\n'
+              block = '''# Legacy compatibility: InfinityExpansion2 removed IE1's POWERED_BEDROCK.
+          # Preserve the historical item ID locally for Magic progression instead of
+          # replacing it with an unrelated IE2 machine.
+          MAGIC_POWERED_BEDROCK_COMPAT:
+            id_alias: POWERED_BEDROCK
+            item_group: magic_resource
+            placeable: false
+            item:
+              name: "&4Powered Bedrock"
+              material: NETHERITE_BLOCK
+              glow: true
+              lore:
+                - "&7Legacy InfinityExpansion compatibility component"
+                - "&7Preserved for Magic progression on InfinityExpansion2"
+                - "&8The original IE1 powered-block behavior is not provided by IE2"
+            recipe_type: MAGIC_NONE
+
+          '''.replace('\n', eol)
+              with path.open('w', encoding='utf-8', newline='') as stream:
+                  stream.write(block + text)
+          PY
+
+      - name: Verify migrated references against current IE2
+        working-directory: magic
+        run: python scripts/verify_runtime_compat.py --ie1 ../ie1 --ie2 ../ie2
+
+      - name: Verify known bad runtime references are absent
+        working-directory: magic
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          bad_bee = re.compile(r'(?<![A-Z0-9_])AGIC_BEE_HOUSE_1(?![A-Z0-9_])')
+          bad_class = 'io.github.mooy1.infinityexpansion.items.blocks.InfinityWorkbench'
+          failures = []
+          for path in Path('.').rglob('*'):
+              if not path.is_file() or '.git' in path.parts or path.parts[0] in {'scripts', 'audit'}:
+                  continue
+              try:
+                  text = path.read_text(encoding='utf-8')
+              except UnicodeDecodeError:
+                  continue
+              if bad_bee.search(text):
+                  failures.append(f'{path}: broken AGIC_BEE_HOUSE_1 token')
+              if bad_class in text:
+                  failures.append(f'{path}: obsolete IE1 InfinityWorkbench class')
+          if failures:
+              raise SystemExit('\n'.join(failures))
+          print('Known bad runtime references are absent')
+          PY
+
+      - name: Remove temporary tooling and report
+        working-directory: magic
+        run: |
+          rm -f scripts/migrate_ie2.py scripts/verify_runtime_compat.py
+          rm -rf audit
+
+      - name: Commit only real Magic content changes
+        working-directory: magic
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- '*.yml' 'saveditems/*.yml'
+          if git diff --cached --quiet; then
+            echo "No content changes produced"
+            exit 0
+          fi
+          git diff --cached --stat
+          git commit -m "Port Magic cleanly to current InfinityExpansion2 IDs"
+          git push origin HEAD:magic-legacy-runtime-clean
