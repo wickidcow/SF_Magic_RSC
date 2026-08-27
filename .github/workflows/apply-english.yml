@@ -1,0 +1,45 @@
+name: Apply Magic English Pass
+
+on:
+  push:
+    branches:
+      - english-player-facing-pass
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  translate:
+    if: ${{ !contains(github.event.head_commit.message, '[english-bulk]') }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: english-player-facing-pass
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Apply player-facing translations
+        run: python tools/apply_common_english.py
+
+      - name: Re-run English audit
+        run: python tools/audit_player_facing_english.py
+
+      - name: Commit translated content
+        shell: bash
+        run: |
+          if git diff --quiet; then
+            echo "No translation changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- ':!audit/'
+          git commit -m "Translate common player-facing Magic text [english-bulk]"
+          git push origin HEAD:english-player-facing-pass
