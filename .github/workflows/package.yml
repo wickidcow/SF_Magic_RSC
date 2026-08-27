@@ -1,0 +1,79 @@
+name: Package Magic Legacy
+
+on:
+  push:
+    branches:
+      - legacy-port
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build runtime addon
+        shell: bash
+        run: |
+          set -euo pipefail
+          version="$(python - <<'PY'
+          import re
+          from pathlib import Path
+          text = Path('info.yml').read_text(encoding='utf-8')
+          m = re.search(r'^version:\s*["\x27]?([^"\x27\r\n]+)', text, re.M)
+          if not m:
+              raise SystemExit('Could not read version from info.yml')
+          print(m.group(1).strip())
+          PY
+          )"
+          root="dist/Magic"
+          mkdir -p "$root/scripts" "$root/saveditems"
+
+          cp ./*.yml "$root/"
+          if [ -d saveditems ]; then
+            cp -R saveditems/. "$root/saveditems/"
+          fi
+          if [ -d scripts ]; then
+            find scripts -type f -name '*.js' -print0 | while IFS= read -r -d '' file; do
+              target="$root/$file"
+              mkdir -p "$(dirname "$target")"
+              cp "$file" "$target"
+            done
+          fi
+
+          archive="Magic-${version}.zip"
+          (cd dist && zip -9 -r "../$archive" Magic >/dev/null)
+          sha256sum "$archive" > "$archive.sha256"
+
+          echo "MAGIC_VERSION=$version" >> "$GITHUB_ENV"
+          echo "MAGIC_ARCHIVE=$archive" >> "$GITHUB_ENV"
+
+          echo "Packaged $archive"
+          unzip -l "$archive"
+
+      - name: Verify runtime package exclusions
+        shell: bash
+        run: |
+          set -euo pipefail
+          if unzip -Z1 "$MAGIC_ARCHIVE" | grep -Eq '(^|/)\.github/|\.py$|(^|/)audit/'; then
+            echo "Release archive contains maintenance files"
+            exit 1
+          fi
+          test "$(unzip -Z1 "$MAGIC_ARCHIVE" | grep -c '^Magic/info.yml$')" -eq 1
+          test "$(unzip -Z1 "$MAGIC_ARCHIVE" | grep -c '^Magic/items.yml$')" -eq 1
+          echo "Runtime archive layout verified"
+
+      - name: Upload Magic addon
+        uses: actions/upload-artifact@v4
+        with:
+          name: Magic-${{ env.MAGIC_VERSION }}
+          path: |
+            ${{ env.MAGIC_ARCHIVE }}
+            ${{ env.MAGIC_ARCHIVE }}.sha256
+          if-no-files-found: error
+          compression-level: 0
