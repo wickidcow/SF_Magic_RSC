@@ -1,0 +1,74 @@
+name: Translate Magic to English
+
+on:
+  push:
+    branches:
+      - legacy-port
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  translate:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Install translation runtime
+        run: |
+          python -m pip install --upgrade pip
+          pip install --extra-index-url https://download.pytorch.org/whl/cpu torch transformers sentencepiece sacremoses
+
+      - name: Translate player-facing strings
+        run: python scripts/translate_player_text.py
+
+      - name: Validate YAML syntax
+        run: |
+          pip install PyYAML
+          python - <<'PY'
+          import pathlib, yaml
+          skip = {'.github', 'saveditems', 'scripts', 'audit'}
+          errors = []
+          for path in pathlib.Path('.').rglob('*.yml'):
+              if any(part in skip for part in path.parts):
+                  continue
+              try:
+                  yaml.safe_load(path.read_text(encoding='utf-8'))
+              except Exception as exc:
+                  errors.append(f'{path}: {exc}')
+          if errors:
+              print('\n'.join(errors))
+              raise SystemExit(1)
+          print('All editable YAML files parsed successfully')
+          PY
+
+      - name: Re-audit translated pack
+        run: python scripts/audit_magic.py
+
+      - name: Upload translation report
+        uses: actions/upload-artifact@v4
+        with:
+          name: magic-english-translation-report
+          path: audit/translation-report.tsv
+          if-no-files-found: error
+
+      - name: Commit English pass
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add '*.yml'
+          if git diff --cached --quiet; then
+            echo "No translation changes to commit"
+            exit 0
+          fi
+          git commit -m "Translate Magic player-facing text to English"
+          git push origin HEAD:legacy-port
