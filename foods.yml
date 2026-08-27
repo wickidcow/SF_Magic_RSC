@@ -1,15 +1,15 @@
 MAGIC_FOODS_CAKE:
   item_group: magic_foods
   item:
-    name: "&d好吃的蛋糕"
+    name: "&dDelicious Cake"
     material: PUMPKIN_PIE
     glow: true
     lore: 
-      - "&a一口吃掉一整个蛋糕"
-      - "&a可以瞬间恢复满饥饿值"
-      - "&a并且还带有一些饱腹感"
+      - "&aEat an entire cake in one bite"
+      - "&aInstantly restores your hunger"
+      - "&aand provides plenty of saturation"
       - "&a"
-      - "&b食物"
+      - "&bFood"
   nutrition: 40
   saturation: 40
   eatseconds: 1.6
@@ -23,19 +23,19 @@ MAGIC_FOODS_CAKE:
 MAGIC_FOODS_RANDOMFOOD:
   item_group: magic_foods
   item:
-    name: "&b奇怪的曲奇"
+    name: "&bStrange Cookie"
     material: cookie
     glow: true
     lore: 
       - "&a"
-      - "&b冬日 限定"
+      - "&bWinter Limited"
       - "&a" 
-      - "&a一块很特别的曲奇！"
-      - "&e散发着强烈的魔法气息~"
-      - "&d吃完后随机获取一种能力~"
-      - "&6有多达24种随机效果"
+      - "&aA very unusual cookie!"
+      - "&eIt radiates powerful magical energy~"
+      - "&dEating it grants one random ability~"
+      - "&6There are up to 24 possible effects"
       - "&a"
-      - "&b食物"
+      - "&bFood"
   script: "randomfood"
   nutrition: 5
   saturation: 5
@@ -47,18 +47,18 @@ MAGIC_FOODS_RANDOMFOOD:
 MAGIC_FOODS_JIAOZI:
   item_group: magic_foods
   item:
-    name: "&b饺子"
+    name: "&bDumplings"
     material: BREAD
     glow: true
     lore: 
       - "&a"
-      - "&b冬日 限定"
+      - "&bWinter Limited"
       - "&a" 
-      - "&b冬至该吃饺子啦！"
-      - "&e好吃到跺jiojio~"
-      - "&d会有神奇的事情发生~"
+      - "&bWinter solstice means dumpling time!"
+      - "&eSo good you'll be dancing for another bite~"
+      - "&dSomething magical may happen~"
       - "&a"
-      - "&b食物"
+      - "&bFood"
   script: "snow_food"
   nutrition: 5
   saturation: 5
@@ -69,18 +69,18 @@ MAGIC_FOODS_JIAOZI:
 MAGIC_FOODS_APPLE:
   item_group: magic_foods
   item:
-    name: "&b火锅苹果"
+    name: "&bHotpot Apple"
     material: APPLE
     glow: true
     lore: 
       - "&a"
-      - "&b冬日 限定"
+      - "&bWinter Limited"
       - "&a" 
-      - "&c火辣辣的苹果！"
-      - "&e辣到跺jiojio~"
-      - "&d会有神奇的事情发生~"
+      - "&cA fiery, spicy apple!"
+      - "&eHot enough to make you dance~"
+      - "&dSomething magical may happen~"
       - "&a"
-      - "&b食物"
+      - "&bFood"
   script: "snow_food"
   nutrition: 5
   saturation: 5
@@ -91,18 +91,18 @@ MAGIC_FOODS_APPLE:
 MAGIC_FOODS_A_1:
   item_group: magic_foods
   item:
-    name: "&b热红酒"
+    name: "&bMulled Wine"
     material: POTION
     glow: true
     lore: 
       - "&a"
-      - "&b冬日 限定"
+      - "&bWinter Limited"
       - "&a" 
-      - "&c红酒醇厚 &d香料飘香~"
-      - "&a温暖舒适 &e聚会佳选~"
-      - "&d会有神奇的事情发生~"
+      - "&cRich red wine &dwith fragrant spices~"
+      - "&aWarm and comforting &eperfect for gatherings~"
+      - "&dSomething magical may happen~"
       - "&a"
-      - "&b食物"
+      - "&bFood"
   script: "snow_food"
   nutrition: 5
   saturation: 5
@@ -113,18 +113,18 @@ MAGIC_FOODS_A_1:
 MAGIC_FOODS_A_2:
   item_group: magic_foods
   item:
-    name: "&b热巧克力配棉花糖"
+    name: "&bHot Chocolate with Marshmallows"
     material: BREAD
     glow: true
     lore: 
       - "&a"
-      - "&b冬日 限定"
+      - "&bWinter Limited"
       - "&a" 
-      - "&6浓郁丝滑 &e棉花糖甜~"
-      - "&a温暖冬夜 &e幸福满满~"
-      - "&d会有神奇的事情发生~"
+      - "&6Rich and silky &ewith sweet marshmallows~"
+      - "&aWarm winter nights &eand pure comfort~"
+      - "&dSomething magical may happen~"
       - "&a"
-      - "&b食物"
+      - "&bFood"
   script: "snow_food"
   nutrition: 5
   saturation: 5
@@ -135,18 +135,18 @@ MAGIC_FOODS_A_2:
 MAGIC_FOODS_A_3:
   item_group: magic_foods
   item:
-    name: "&b姜饼屋"
+    name: "&bGingerbread House"
     material: cookie
     glow: true
     lore: 
       - "&a"
-      - "&b冬日 限定"
+      - "&bWinter Limited"
       - "&a" 
-      - "&c姜饼香辣 &b糖果缤纷~"
-      - "&a节日欢乐 &e氛围浓厚~"
-      - "&d会有神奇的事情发生~"
+      - "&cSpiced gingerbread &band colorful candy~"
+      - "&aPacked with festive cheer &eand holiday spirit~"
+      - "&dSomething magical may happen~"
       - "&a"
-      - "&b食物"
+      - "&bFood"
   script: "snow_food"
   nutrition: 5
   saturation: 5
@@ -157,18 +157,18 @@ MAGIC_FOODS_A_3:
 MAGIC_FOODS_A_4:
   item_group: magic_foods
   item:
-    name: "&b南瓜汤"
+    name: "&bPumpkin Soup"
     material: MUSHROOM_STEW
     glow: true
     lore: 
       - "&a"
-      - "&b冬日 限定"
+      - "&bWinter Limited"
       - "&a" 
-      - "&6南瓜甜香 &c肉桂温暖~"
-      - "&a营养丰富 &e滋补佳品~"
-      - "&d会有神奇的事情发生~"
+      - "&6Sweet pumpkin &cwith warming cinnamon~"
+      - "&aHearty and nourishing &ea perfect winter meal~"
+      - "&dSomething magical may happen~"
       - "&a"
-      - "&b食物"
+      - "&bFood"
   script: "snow_food"
   nutrition: 5
   saturation: 5
@@ -179,18 +179,18 @@ MAGIC_FOODS_A_4:
 MAGIC_FOODS_A_5:
   item_group: magic_foods
   item:
-    name: "&b烤火鸡"
+    name: "&bRoast Turkey"
     material: COOKED_CHICKEN
     glow: true
     lore: 
       - "&a"
-      - "&b冬日 限定"
+      - "&bWinter Limited"
       - "&a" 
-      - "&e外皮金黄 &6内里多汁~"
-      - "&a蔓越莓酱 &e节日聚餐~"
-      - "&d会有神奇的事情发生~"
+      - "&eGolden on the outside &6juicy within~"
+      - "&aServed with cranberry sauce &efor a festive feast~"
+      - "&dSomething magical may happen~"
       - "&a"
-      - "&b食物"
+      - "&bFood"
   script: "snow_food"
   nutrition: 5
   saturation: 5
@@ -201,18 +201,18 @@ MAGIC_FOODS_A_5:
 MAGIC_FOODS_A_6:
   item_group: magic_foods
   item:
-    name: "&b热苹果酒"
+    name: "&bHot Apple Cider"
     material: MUSHROOM_STEW
     glow: true
     lore: 
       - "&a"
-      - "&b冬日 限定"
+      - "&bWinter Limited"
       - "&a" 
-      - "&c苹果酸甜 &d香料浓郁~"
-      - "&a温暖舒适 &e节日必备~"
-      - "&d会有神奇的事情发生~"
+      - "&cSweet-tart apple &dwith fragrant spices~"
+      - "&aWarm and comforting &ea holiday essential~"
+      - "&dSomething magical may happen~"
       - "&a"
-      - "&b食物"
+      - "&bFood"
   script: "snow_food"
   nutrition: 5
   saturation: 5
@@ -223,18 +223,18 @@ MAGIC_FOODS_A_6:
 MAGIC_FOODS_A_7:
   item_group: magic_foods
   item:
-    name: "&b圣诞布丁"
+    name: "&bChristmas Pudding"
     material: MILK_BUCKET
     glow: true
     lore: 
       - "&a"
-      - "&b冬日 限定"
+      - "&bWinter Limited"
       - "&a" 
-      - "&a传统英式 &c香料浓郁~"
-      - "&e节日甜蜜 &a提味白兰地~"
-      - "&d可以让你摆脱所有效果~"
+      - "&aA traditional British pudding &crich with spices~"
+      - "&eFestive sweetness &awith a touch of brandy~"
+      - "&dClears all active effects when eaten~"
       - "&a"
-      - "&b食物"
+      - "&bFood"
   script: "snow_food"
   nutrition: 5
   saturation: 5
@@ -245,18 +245,18 @@ MAGIC_FOODS_A_7:
 MAGIC_FOODS_A_8:
   item_group: magic_foods
   item:
-    name: "&b烤栗子"
+    name: "&bRoasted Chestnuts"
     material: GLOW_BERRIES
     glow: true
     lore: 
       - "&a"
-      - "&b冬日 限定"
+      - "&bWinter Limited"
       - "&a" 
-      - "&6香甜软糯 &e街头美味~"
-      - "&a简单方便 &e冬日小食~"
-      - "&d会有神奇的事情发生~"
+      - "&6Sweet, soft, and fragrant &ea street-side favorite~"
+      - "&aSimple and comforting &ea classic winter snack~"
+      - "&dSomething magical may happen~"
       - "&a"
-      - "&b食物"
+      - "&bFood"
   script: "snow_food"
   nutrition: 5
   saturation: 5
@@ -267,18 +267,18 @@ MAGIC_FOODS_A_8:
 MAGIC_FOODS_A_9:
   item_group: magic_foods
   item:
-    name: "&b热奶油玉米"
+    name: "&bHot Buttered Corn"
     material: baked_potato
     glow: true
     lore: 
       - "&a"
-      - "&b冬日 限定"
+      - "&bWinter Limited"
       - "&a" 
-      - "&6玉米甜香 &c奶油浓郁~"
-      - "&a营养丰富 &e滋补佳品~"
-      - "&d会有神奇的事情发生~"
+      - "&6Sweet corn &cwith rich melted butter~"
+      - "&aHearty and nourishing &ea comforting winter snack~"
+      - "&dSomething magical may happen~"
       - "&a"
-      - "&b食物"
+      - "&bFood"
   script: "snow_food"
   nutrition: 5
   saturation: 5
@@ -289,18 +289,18 @@ MAGIC_FOODS_A_9:
 MAGIC_FOODS_A_10:
   item_group: magic_foods
   item:
-    name: "&b蜂蜜姜茶"
+    name: "&bHoney Ginger Tea"
     material: MUSHROOM_STEW
     glow: true
     lore: 
       - "&a"
-      - "&b冬日 限定"
+      - "&bWinter Limited"
       - "&a" 
-      - "&c生姜辛辣 &e蜂蜜甘甜~"
-      - "&a暖身提神 &e保健佳品~"
-      - "&d会有神奇的事情发生~"
+      - "&cSpicy ginger &ewith soothing honey~"
+      - "&aWarming and refreshing &ea comforting winter tonic~"
+      - "&dSomething magical may happen~"
       - "&a"
-      - "&b食物"
+      - "&bFood"
   script: "snow_food"
   nutrition: 5
   saturation: 5
