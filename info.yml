@@ -1,27 +1,26 @@
 id: Magic
 name: Magic
 depends: []
-pluginDepends: 
-- Slimefun
-- InfinityExpansion
-- GeneticChickengineering
-- GuizhanLibPlugin
-- Supreme
-- FoxyMachines
+pluginDepends:
+  - Slimefun
+  - GuizhanLibPlugin
+  - InfinityExpansion2
 scriptListener: 服务器
-version: Release-1.1.16
-description: 突发奇想的创作，延续以及创新。
-authors: 
-- magicsolo
-repo: Yomicer/Magic_RSC
+version: Legacy-1.1.16.1
+description: "Magic RSC compatibility build for Slimefun Legacy and InfinityExpansion2."
+authors:
+  - magicsolo
+  - Yomicer
+  - wickidcow
+repo: wickidcow/SF_Magic_RSC
 loadStartTexts:
-- "==================="
-- " 魔法1.0 开始加载"
-- "   作者： magicsolo"
-- "  当前版本：1.1.16"
-- "==================="
+  - "==================="
+  - " Magic Legacy is loading"
+  - " Original author: magicsolo"
+  - " Legacy build: 1.1.16.1"
+  - "==================="
 enabledTexts:
-- "==================="
-- "魔法1.0 加载成功"
-- "感谢您使用魔法"
-- "==================="
+  - "==================="
+  - " Magic Legacy loaded successfully"
+  - " Slimefun Legacy / IE2 compatibility build"
+  - "==================="
