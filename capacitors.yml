@@ -1,13 +1,13 @@
 MAGIC_NEWPLAYER_CAPACITOR:
   item_group: magic_newplayer_machines
   item:
-    name: "&b萌新专属&7电容"
+    name: "&bNovice &7Capacitor"
     lore: 
-      - "&7范围: &c6 格"
+      - "&7Range: &c6 blocks"
       - "&a"
-      - "&8⇨&e ⚡ &75200 J 可存储"
+      - "&8⇨&e ⚡ &7Storage: 5,200 J"
       - "&a"
-      - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l萌{#E9967A}&l新{#F08080}&l福{#FF69B4}&l利{#DB7093}&l机{#FFC0CB}&l器{#FFC0CB}&l&kl"
+      - "{#FFC0CB}&l&kl{#FFC0CB}&lM{#FFB6C1}&la{#FFA07A}&lg{#FA8072}&li{#E9967A}&lc {#F08080}&l- {#FF69B4}&lN{#DB7093}&lo{#FFC0CB}&lv{#FFC0CB}&li{#FFC0CB}&lc{#FFC0CB}&le&l&kl"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDY3ZDJiYzI3YzQ0YTcxMWExZTJmNDFlYjI4M2RhNTZmZWM5YTNkNmZiOTNhYWZkZmM4NWIxNWNkMThhMjY4MiJ9fX0=
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -20,11 +20,11 @@ MAGIC_NEWPLAYER_CAPACITOR:
 MAGIC_CAPACITOR_SMALL:
   item_group: magic_power
   item:
-    name: "&f小型魔法电容"
+    name: "&fSmall Magic Capacitor"
     lore: 
-      - "&7范围: &c6 格"
+      - "&7Range: &c6 blocks"
       - "&a"
-      - "&8⇨&e ⚡ &78192 J 可存储"
+      - "&8⇨&e ⚡ &7Storage: 8,192 J"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTQ5ZjY5ZWZmNmU0OTZhODA0NDg1YjBjMTllNTc1ZjM5NDc5MWJkNGNkMDU4NTc3ZjNlZWI4MjVhY2ZlMmZlIn19fQ==
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -68,11 +68,11 @@ MAGIC_CAPACITOR_SMALL:
 MAGIC_CAPACITOR_MIDDLE:
   item_group: magic_power
   item:
-    name: "&a中型魔法电容"
+    name: "&aMedium Magic Capacitor"
     lore: 
-      - "&7范围: &c6 格"
+      - "&7Range: &c6 blocks"
       - "&a"
-      - "&8⇨&e ⚡ &765536 J 可存储"
+      - "&8⇨&e ⚡ &7Storage: 65,536 J"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTkzN2E1YmM1ZGQzMzQ1M2EwNDJkNzFlMTcyMmE4OTgwODRjYzhmYTNkZmU4NTJlOWE5MWU5YzY1OTRiMTRlIn19fQ==
   recipe_type: ENHANCED_CRAFTING_TABLE
