@@ -1,0 +1,50 @@
+name: Verify Magic IE2 Migration
+
+on:
+  push:
+    branches:
+      - legacy-port
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify-ie2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Magic
+        uses: actions/checkout@v4
+        with:
+          path: magic
+
+      - name: Checkout InfinityExpansion v1 reference
+        uses: actions/checkout@v4
+        with:
+          repository: Riley31415/InfinityExpansion
+          ref: master
+          path: ie1
+
+      - name: Checkout InfinityExpansion2 Legacy reference
+        uses: actions/checkout@v4
+        with:
+          repository: wickidcow/SF_InfinityExpansion2
+          ref: master
+          path: ie2
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Verify migration map
+        working-directory: magic
+        run: python scripts/migrate_ie2.py --ie1 ../ie1 --ie2 ../ie2
+
+      - name: Upload migration report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: magic-ie2-migration-report
+          path: magic/audit/ie2-migration.json
+          if-no-files-found: warn
