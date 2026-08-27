@@ -134,7 +134,7 @@ jobs:
           bad_class = 'io.github.mooy1.infinityexpansion.items.blocks.InfinityWorkbench'
           failures = []
           for path in Path('.').rglob('*'):
-              if not path.is_file() or '.git' in path.parts or path.parts[0] in {'scripts', 'audit'}:
+              if not path.is_file() or '.git' in path.parts or '.github' in path.parts or path.parts[0] in {'scripts', 'audit'}:
                   continue
               try:
                   text = path.read_text(encoding='utf-8')
