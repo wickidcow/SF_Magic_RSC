@@ -1,0 +1,65 @@
+name: Apply Magic Runtime Compatibility
+
+on:
+  push:
+    branches:
+      - magic-legacy-runtime-fix
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  migrate:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Magic
+        uses: actions/checkout@v4
+        with:
+          path: magic
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Checkout InfinityExpansion v1 reference
+        uses: actions/checkout@v4
+        with:
+          repository: Riley31415/InfinityExpansion
+          ref: master
+          path: ie1
+
+      - name: Checkout current InfinityExpansion2 Legacy fork
+        uses: actions/checkout@v4
+        with:
+          repository: wickidcow/SF_InfinityExpansion2
+          ref: master
+          path: ie2
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Apply source-verified IE2 migration
+        working-directory: magic
+        run: python scripts/apply_runtime_compat.py --ie1 ../ie1 --ie2 ../ie2
+
+      - name: Re-audit migrated pack
+        working-directory: magic
+        run: python scripts/audit_magic.py
+
+      - name: Show migration report
+        working-directory: magic
+        run: cat audit/ie2-migration.json
+
+      - name: Commit migrated content
+        working-directory: magic
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- '*.yml' 'saveditems/*.yml'
+          if git diff --cached --quiet; then
+            echo "No compatibility content changes to commit"
+            exit 0
+          fi
+          git commit -m "Port Magic content to current InfinityExpansion2 IDs"
+          git push origin HEAD:magic-legacy-runtime-fix
