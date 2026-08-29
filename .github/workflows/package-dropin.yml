@@ -9,6 +9,7 @@ on:
       - '*.yml'
       - 'saveditems/**'
       - 'scripts/**/*.js'
+      - 'tools/**'
       - '.github/workflows/package-dropin.yml'
   push:
     branches:
@@ -17,6 +18,7 @@ on:
       - '*.yml'
       - 'saveditems/**'
       - 'scripts/**/*.js'
+      - 'tools/**'
       - '.github/workflows/package-dropin.yml'
 
 permissions:
@@ -73,6 +75,8 @@ jobs:
             done
           fi
 
+          python tools/apply_runtime_fixes.py "$root"
+
           (cd dist && zip -9 -r "../$ARCHIVE" Magic >/dev/null)
           sha256sum "$ARCHIVE" > "$ARCHIVE.sha256"
 
@@ -88,6 +92,16 @@ jobs:
 
           if unzip -Z1 "$ARCHIVE" | grep -Eq '(^|/)\.github/|\.py$|(^|/)audit/|(^|/)tools/|(^|/)README\.md$'; then
             echo "Drop-in archive contains repository maintenance files"
+            exit 1
+          fi
+
+          if unzip -p "$ARCHIVE" Magic/items.yml | grep -q '^MAGIC_POWERED_BEDROCK_COMPAT:'; then
+            echo "Obsolete POWERED_BEDROCK compatibility shim remained in runtime package"
+            exit 1
+          fi
+
+          if unzip -p "$ARCHIVE" Magic/template_machines.yml | grep -q 'io.github.mooy1.infinityexpansion.items.blocks.InfinityWorkbench'; then
+            echo "Old InfinityExpansion v1 workbench class remained in runtime package"
             exit 1
           fi
 
