@@ -125,6 +125,45 @@ jobs:
             exit 1
           fi
 
+          python - "$runtime" <<'PY'
+          import re
+          import sys
+          from pathlib import Path
+
+          root = Path(sys.argv[1])
+          top = re.compile(r'^([A-Za-z0-9_.-]+):\s*(?:#.*)?$')
+          checks = [
+              ('template_machines.yml', 'MAGIC_BEE_HOUSE_1', 'FN_MACHINERY_COMPONENT_PART'),
+              ('mat_generators.yml', 'MAGIC_END_ESSENCE_MACHINE', 'STABLEINGOT'),
+              ('mat_generators.yml', 'MAGIC_PLASTIC_SHEET_MACHINE', 'FN_FAL_RECYCLER_3'),
+              ('recipe_machines.yml', 'MAGIC_ORIGIN_BASIC_INGOT_FORMER', 'FN_FAL_CONDENSER_3'),
+              ('recipe_machines.yml', 'MAGIC_ORIGIN_PRESS', 'FN_FAL_COMPRESSOR_3'),
+          ]
+
+          def block(path: Path, wanted: str) -> str:
+              lines = path.read_text(encoding='utf-8').splitlines(keepends=True)
+              starts = []
+              for index, line in enumerate(lines):
+                  match = top.match(line.rstrip('\r\n'))
+                  if match:
+                      starts.append((index, match.group(1)))
+              for pos, (start, key) in enumerate(starts):
+                  if key != wanted:
+                      continue
+                  end = starts[pos + 1][0] if pos + 1 < len(starts) else len(lines)
+                  return ''.join(lines[start:end])
+              raise SystemExit(f'Missing expected Magic object {wanted} in {path.name}')
+
+          for filename, object_id, required_item in checks:
+              text = block(root / filename, object_id)
+              if f'itemexist {required_item}' not in text:
+                  raise SystemExit(
+                      f'{object_id} is missing optional-item gate for {required_item}'
+                  )
+
+          print('Verified optional Magic integration gates')
+          PY
+
       - name: Create or update GitHub release
         if: steps.meta.outputs.publish == 'true'
         env:
@@ -145,6 +184,7 @@ jobs:
           - InfinityExpansion2-native item IDs and recipe references
           - Current DynaTech IDs for Bee, Vex Gem, and Growth Chamber MK2 integrations
           - Current GeneticChickengineering tier-3 excitation chamber integration
+          - Optional FN Amplifications and legacy-provider machines are gated by their actual Slimefun items instead of producing unresolved-recipe errors
           - Runtime compatibility cleanup for legacy IE1 references
           - Duplicate top-level YAML entries removed from the packaged drop-in
           - Obsolete Magic POWERED_BEDROCK shim removed in favor of IE2's native item
