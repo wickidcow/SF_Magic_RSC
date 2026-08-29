@@ -10,6 +10,7 @@ COLOR = re.compile(r"(?:&[0-9A-FK-ORa-fk-or]|§[0-9A-FK-ORa-fk-or]|\{#[0-9A-Fa-f
 TOP_KEY = re.compile(r"^([A-Za-z0-9_.-]+):\s*(?:#.*)?$")
 SCALAR = re.compile(r"^(\s*)([A-Za-z0-9_.-]+):\s*(['\"])(.*)\3\s*(?:#.*)?$")
 LIST_STRING = re.compile(r"^(\s*)-\s*(['\"])(.*)\2\s*(?:#.*)?$")
+QUOTED_MAP_KEY = re.compile(r"^\s*(['\"]).*\1:\s*(?:#.*)?$")
 
 INTERNAL_KEYS = {
     "script", "scriptlistener", "function", "event", "condition", "conditions",
@@ -122,6 +123,12 @@ def process(path: pathlib.Path) -> int:
             out.append(line)
             continue
 
+        # Quoted map keys in this addon are internal recipe/object lookup names.
+        # Translating them can break references, so preserve them exactly.
+        if QUOTED_MAP_KEY.match(line):
+            out.append(line)
+            continue
+
         scalar = SCALAR.match(line)
         if scalar:
             spaces, key, quote, raw = scalar.groups()
@@ -175,20 +182,22 @@ for path in sorted(ROOT.glob("*.yml")):
 remaining: list[str] = []
 for path in sorted(ROOT.glob("*.yml")):
     for n, line in enumerate(path.read_text(encoding="utf-8", errors="replace").splitlines(), 1):
-        if not CJK.search(line) or line.lstrip().startswith("#"):
+        stripped = line.lstrip()
+        if not CJK.search(line) or stripped.startswith("#"):
             continue
-        if line.lstrip().lower().startswith("scriptlistener:"):
+        if stripped.lower().startswith("scriptlistener:"):
             continue
-        # Quoted CJK in YAML is treated as potentially player-facing unless it is
-        # a known internal field handled above.
+        if QUOTED_MAP_KEY.match(line):
+            continue
+        # Any remaining quoted CJK value is potentially player-facing.
         if "\"" in line or "'" in line:
             remaining.append(f"{path.name}:{n}: {line.strip()}")
 
 report = ROOT / "tools/yaml-cjk-report.txt"
 report.write_text("\n".join(remaining) + ("\n" if remaining else ""), encoding="utf-8")
-print(f"Magic YAML changes: {total}; quoted CJK remaining: {len(remaining)}")
+print(f"Magic YAML changes: {total}; player-facing quoted CJK remaining: {len(remaining)}")
 for row in remaining[:200]:
     print(row)
 if remaining:
     raise SystemExit(3)
-print("Magic YAML English-only scan passed.")
+print("Magic YAML English-only player-facing scan passed.")
