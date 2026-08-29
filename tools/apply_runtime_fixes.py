@@ -16,6 +16,20 @@ TOP_LEVEL_KEY = re.compile(r"^([A-Za-z0-9_.-]+):\s*(?:#.*)?$")
 OLD_IE1_WORKBENCH = "io.github.mooy1.infinityexpansion.items.blocks.InfinityWorkbench"
 IE2_WORKBENCH = "net.guizhanss.infinityexpansion2.implementation.items.machines.InfinityWorkbench"
 
+# Current IDs verified against the maintained addon sources. These replacements are
+# deliberately Magic-runtime-only so RSC does not globally claim generic historical IDs.
+RUNTIME_ITEM_ID_REPLACEMENTS = {
+    # DynaTech now derives Slimefun IDs from its dynatech:* NamespacedKeys.
+    "VEX_GEM | DYNATECH_VEX_GEM": "DYNATECH_VEX_GEM",
+    "VEX_GEM": "DYNATECH_VEX_GEM",
+    "BEE | DT_BEE": "DYNATECH_BEE",
+    "DT_BEE | BEE": "DYNATECH_BEE",
+    "DT_BEE": "DYNATECH_BEE",
+    "GROWTH_CHAMBER_MK2": "DYNATECH_GROWTH_CHAMBER_MK2",
+    # Current GeneticChickengineering-Reborn exposes tier 3, not the old tier 10 ID.
+    "GCE_EXCITATION_CHAMBER_10 | GCE_EXCITATION_CHAMBER_3": "GCE_EXCITATION_CHAMBER_3",
+}
+
 
 def dedupe_top_level_yaml(path: Path, drop_keys: set[str] | None = None) -> None:
     drop_keys = drop_keys or set()
@@ -54,17 +68,25 @@ def dedupe_top_level_yaml(path: Path, drop_keys: set[str] | None = None) -> None
     path.write_text("".join(rebuilt), encoding="utf-8")
 
 
+def replace_material_id(text: str, old: str, new: str) -> str:
+    """Replace a complete YAML material value while preserving indentation/comments."""
+    return re.sub(
+        rf"(?m)^(\s*material:\s*){re.escape(old)}(\s*(?:#.*)?)$",
+        lambda m: f"{m.group(1)}{new}{m.group(2)}",
+        text,
+    )
+
+
 def replace_runtime_references(path: Path) -> None:
     text = path.read_text(encoding="utf-8")
     updated = text.replace(OLD_IE1_WORKBENCH, IE2_WORKBENCH)
 
     # IE2 now owns the real powered-bedrock item. Do not keep Magic's old
     # compatibility alias registered under the legacy ID.
-    updated = re.sub(
-        r"(?m)^(\s*material:\s*)POWERED_BEDROCK(\s*(?:#.*)?)$",
-        r"\1IE_POWERED_BEDROCK\2",
-        updated,
-    )
+    updated = replace_material_id(updated, "POWERED_BEDROCK", "IE_POWERED_BEDROCK")
+
+    for old_id, new_id in RUNTIME_ITEM_ID_REPLACEMENTS.items():
+        updated = replace_material_id(updated, old_id, new_id)
 
     # Keep the in-game version sheet aligned with the actual drop-in release.
     updated = updated.replace("&eRelease-1.1.16", "&eLegacy-1.1.17")
