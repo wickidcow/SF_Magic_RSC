@@ -2,15 +2,15 @@ MAGIC_NEWPLAYER_ELECTRIC_FURNACE:
   item_group: magic_newplayer_machines
   item:
     material: FURNACE
-    name: "&b萌新专属&7电炉"
+    name: "&dMagic New Player Electric Furnace"
     lore:
-      - "&7适合萌新使用的电炉"
+      - "&7Magic New Player Electric Furnace"
       - ""
-      - "&8⇨ &e⚡ &7速度: &b1x"
+      - "&7⇨ ⚡ : 1x"
       - "&8⇨ &e⚡ &72 J/s"
-      - "&8⇨&e ⚡ &7100 J 可存储"
+      - "&7⇨ ⚡ 100 J capacity"
       - "&a"
-      - "&b萌新专属机器"
+      - "&7Magic New Player Electric Furnace"
   type: ELECTRIC_FURNACE
   settings:
     capacity: 100
@@ -26,15 +26,15 @@ MAGIC_NEWPLAYER_ELECTRIC_SMELTERY:
   item_group: magic_newplayer_machines
   item:
     material: FURNACE
-    name: "&b萌新专属&7冶炼炉"
+    name: "&dMagic New Player Electric Smeltery"
     lore:
-      - "&7适合萌新使用的冶炼炉"
+      - "&7Magic New Player Electric Smeltery"
       - ""
-      - "&8⇨ &e⚡ &7速度: &b2x"
+      - "&7⇨ ⚡ : 2x"
       - "&8⇨ &e⚡ &72 J/s"
-      - "&8⇨&e ⚡ &7100 J 可存储"
+      - "&7⇨ ⚡ 100 J capacity"
       - "&a"
-      - "&b萌新专属机器"
+      - "&7Magic New Player Electric Smeltery"
   type: ELECTRIC_SMELTERY
   settings:
     capacity: 100
@@ -53,15 +53,15 @@ MAGIC_NEWPLAYER_ELECTRIC_GOLD_PAN:
   item_group: magic_newplayer_machines
   item:
     material: SOUL_SAND
-    name: "&b萌新专属&7淘金机"
+    name: "&dMagic New Player Electric Gold Pan"
     lore:
-      - "&7适合萌新使用的淘金机"
+      - "&7Magic New Player Electric Gold Pan"
       - ""
-      - "&8⇨ &e⚡ &7速度: &b1x"
+      - "&7⇨ ⚡ : 1x"
       - "&8⇨ &e⚡ &72 J/s"
-      - "&8⇨&e ⚡ &7100 J 可存储"
+      - "&7⇨ ⚡ 100 J capacity"
       - "&a"
-      - "&b萌新专属机器"
+      - "&7Magic New Player Electric Gold Pan"
   type: ELECTRIC_GOLD_PAN
   settings:
     capacity: 100
@@ -77,15 +77,15 @@ MAGIC_NEWPLAYER_ELECTRIC_ORE_GRINDER:
   item_group: magic_newplayer_machines
   item:
     material: RAW_GOLD_BLOCK
-    name: "&b萌新专属&7碎矿机"
+    name: "&dMagic New Player Electric Ore Grinder"
     lore:
-      - "&7适合萌新使用的碎矿机"
+      - "&7Magic New Player Electric Ore Grinder"
       - ""
-      - "&8⇨ &e⚡ &7速度: &b1x"
+      - "&7⇨ ⚡ : 1x"
       - "&8⇨ &e⚡ &72 J/s"
-      - "&8⇨&e ⚡ &7100 J 可存储"
+      - "&7⇨ ⚡ 100 J capacity"
       - "&a"
-      - "&b萌新专属机器"
+      - "&7Magic New Player Electric Ore Grinder"
   type: ELECTRIC_ORE_GRINDER
   settings:
     capacity: 100
@@ -101,15 +101,15 @@ MAGIC_NEWPLAYER_ELECTRIC_DUST_WASHER:
   item_group: magic_newplayer_machines
   item:
     material: LIGHT_BLUE_STAINED_GLASS
-    name: "&b萌新专属&7洗矿机"
+    name: "&dMagic New Player Electric Dust Washer"
     lore:
-      - "&7适合萌新使用的洗矿机"
+      - "&7Magic New Player Electric Dust Washer"
       - ""
-      - "&8⇨ &e⚡ &7速度: &b1x"
+      - "&7⇨ ⚡ : 1x"
       - "&8⇨ &e⚡ &72 J/s"
-      - "&8⇨&e ⚡ &7100 J 可存储"
+      - "&7⇨ ⚡ 100 J capacity"
       - "&a"
-      - "&b萌新专属机器"
+      - "&7Magic New Player Electric Dust Washer"
   type: ELECTRIC_DUST_WASHER
   settings:
     capacity: 100

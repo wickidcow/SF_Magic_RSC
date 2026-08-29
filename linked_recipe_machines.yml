@@ -1,17 +1,17 @@
 MAGIC_INFINITY_FORGE_1:
   item_group: magic_power
   item:
-    name: "&f&l简陋的{#FFC0CB}&l电{#FFB6C1}&l动{#FFA07A}&l无{#FA8072}&l尽{#E9967A}&l工{#F08080}&l作{#FF69B4}&l台"
+    name: "&dMagic Infinity Forge 1"
     material: RESPAWN_ANCHOR
     lore:
       - "&a"
-      - "{#FDB7D4}&l全自动制造无尽物品"
-      - "{#FDB7D4}&l需要耗费巨量电力"
+      - "&7Magic Infinity Forge 1"
+      - "&7Magic Infinity Forge 1"
       - "&a"
       - "&8⇨&e ⚡ &75,000,000  J/s"
-      - "&8⇨&e ⚡ &7100,000,000 J 可存储"
+      - "&7⇨ ⚡ 100,000,000 J capacity"
       - "&a"
-      - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l能{#E9967A}&l源{#F08080}&l与{#FF69B4}&l电{#DB7093}&l力{#FFC0CB}&l&kl"
+      - "&7lMagic-Power and Energyl"
   recipe_type: ENHANCED_CRAFTING_TABLE
   capacity: 100000000
   input: [0,1,2,3,4,5, 9,10,11,12,13,14, 18,19,20,21,22,23, 27,28,29,30,31,32, 36,37,38,39,40,41, 45,46,47,48,49,50]
@@ -4175,18 +4175,18 @@ MAGIC_INFINITY_FORGE_1:
 MAGIC_INFINITY_FORGE_ULTRA:
   item_group: magic_power
   item:
-    name: "{#FFC0CB}&l终{#FFB6C1}&l极{#FFA07A}&l无{#FA8072}&l尽{#E9967A}&l工{#F08080}&l作{#FF69B4}&l台"
+    name: "&dMagic Infinity Forge Ultra"
     material: RESPAWN_ANCHOR
     lore:
       - "&a"
-      - "{#FDB7D4}&l全自动制造无尽物品"
-      - "{#FDB7D4}&l消耗少量电力"
-      - "{#FDB7D4}&l快速合成"
+      - "&7Magic Infinity Forge Ultra"
+      - "&7Magic Infinity Forge Ultra"
+      - "&7Magic Infinity Forge Ultra"
       - "&a"
       - "&8⇨&e ⚡ &710,000  J/per"
-      - "&8⇨&e ⚡ &72,000,000,000 J 可存储"
+      - "&7⇨ ⚡ 2,000,000,000 J capacity"
       - "&a"
-      - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l能{#E9967A}&l源{#F08080}&l与{#FF69B4}&l电{#DB7093}&l力{#FFC0CB}&l&kl"
+      - "&7lMagic-Power and Energyl"
   recipe_type: ENHANCED_CRAFTING_TABLE
   capacity: 2000000000
   input: [0,1,2,3,4,5, 9,10,11,12,13,14, 18,19,20,21,22,23, 27,28,29,30,31,32, 36,37,38,39,40,41, 45,46,47,48,49,50]
@@ -8349,17 +8349,17 @@ MAGIC_INFINITY_FORGE_ULTRA:
 MAGIC_SUPREME_ELECTRIC_MAGICAL_I:
   item_group: magic_plant
   item:
-    name: "{#FFC0CB}电力魔法工厂-I"
+    name: "&dMagic Supreme Electric Magical I"
     material: CRYING_OBSIDIAN
     lore:
       - "&a"
-      - "{#FDB7D4}&l自动合成魔法资源"
+      - "&7Magic"
       - "&a"
-      - "&3至尊 机器"
-      - "&8⇨&b ⚡ &7速度：&b1.0x"
+      - "&7Magic Supreme Electric Magical I"
+      - "&7⇨ ⚡ : 1.0x"
       - "&8⇨&b ⚡ &720.00 J/s"
       - "&a"
-      - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l至{#E9967A}&l尊{#F08080}&l工{#FF69B4}&l艺{#FFC0CB}&l&kl"
+      - "&7lMagic-l"
   recipe_type: MAGIC_SUPREME_WORKBENCH
   capacity: 600
   input: [10, 11, 12, 19, 20, 21, 28, 29, 30]
@@ -9275,17 +9275,17 @@ MAGIC_SUPREME_ELECTRIC_MAGICAL_I:
 MAGIC_SUPREME_ELECTRIC_MAGICAL_II:
   item_group: magic_plant
   item:
-    name: "{#FFC0CB}电力魔法工厂-II"
+    name: "&dMagic Supreme Electric Magical Ii"
     material: CRYING_OBSIDIAN
     lore:
       - "&a"
-      - "{#FDB7D4}&l较快地合成魔法资源"
+      - "&7Magic"
       - "&a"
-      - "&3至尊 机器"
-      - "&8⇨&b ⚡ &7速度：&b5.0x"
+      - "&7Magic Supreme Electric Magical Ii"
+      - "&7⇨ ⚡ : 5.0x"
       - "&8⇨&b ⚡ &7100.00 J/s"
       - "&a"
-      - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l至{#E9967A}&l尊{#F08080}&l工{#FF69B4}&l艺{#FFC0CB}&l&kl"
+      - "&7lMagic-l"
   recipe_type: MAGIC_SUPREME_WORKBENCH
   capacity: 600
   input: [10, 11, 12, 19, 20, 21, 28, 29, 30]
@@ -10201,17 +10201,17 @@ MAGIC_SUPREME_ELECTRIC_MAGICAL_II:
 MAGIC_SUPREME_ELECTRIC_MAGICAL_III:
   item_group: magic_plant
   item:
-    name: "{#FFC0CB}电力魔法工厂-III"
+    name: "&dMagic Supreme Electric Magical Iii"
     material: CRYING_OBSIDIAN
     lore:
       - "&a"
-      - "{#FDB7D4}&l更快地合成魔法资源"
+      - "&7Magic"
       - "&a"
-      - "&3至尊 机器"
-      - "&8⇨&b ⚡ &7速度：&c15.0x"
+      - "&7Magic Supreme Electric Magical Iii"
+      - "&7⇨ ⚡ : 15.0x"
       - "&8⇨&b ⚡ &7300.00 J/s"
       - "&a"
-      - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l至{#E9967A}&l尊{#F08080}&l工{#FF69B4}&l艺{#FFC0CB}&l&kl"
+      - "&7lMagic-l"
   recipe_type: MAGIC_SUPREME_WORKBENCH
   capacity: 600
   input: [10, 11, 12, 19, 20, 21, 28, 29, 30]
@@ -11126,19 +11126,19 @@ MAGIC_SUPREME_ELECTRIC_MAGICAL_III:
 MAGIC_SUPREME_ELECTRIC_MAGICAL:
   item_group: magic_plant
   item:
-    name: "{#FFC0CB}&l终{#FFB6C1}&l极{#FFA07A}&l电{#FA8072}&l力{#E9967A}&l魔{#F08080}&l法{#FF69B4}&l工厂"
+    name: "&dMagic Supreme Electric Magical"
     material: MAGENTA_GLAZED_TERRACOTTA
     lore:
       - "&a"
-      - "{#FDB7D4}&l瞬间合成魔法资源"
-      - "{#FDB7D4}&l散发着强大的魔法能量"
-      - "{#FDB7D4}&l可以对蜜蜂进行批量突变"
+      - "&7Magic"
+      - "&7Magic"
+      - "&7Magic Supreme Electric Magical"
       - "&a"
-      - "&c魔法 机器"
-      - "&8⇨&b ⚡ &7速度：&c999.0x"
+      - "&7Magic"
+      - "&7⇨ ⚡ : 999.0x"
       - "&8⇨&b ⚡ &71000.00 J/s"
       - "&a"
-      - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l至{#E9967A}&l尊{#F08080}&l工{#FF69B4}&l艺{#FFC0CB}&l&kl"
+      - "&7lMagic-l"
   recipe_type: MAGIC_SUPREME_WORKBENCH
   capacity: 1000
   input: [10, 11, 12, 19, 20, 21, 28, 29, 30]

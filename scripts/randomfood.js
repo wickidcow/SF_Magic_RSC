@@ -141,7 +141,7 @@ function onEat(event, player, itemStack) {
 
     if (effectItem === undefined) {
         // 处理可能的错误情况
-        player.sendMessage("§c未知的效果类型！");
+        player.sendMessage("§bMagic Legacy action could not be completed.");
         return;
     }
 
@@ -161,13 +161,13 @@ function onEat(event, player, itemStack) {
 
 
 
-    player.sendMessage("§b你获得了等级为§e " + C + " §b的 §e神秘 §b效果，此效果将持续 §e" + B + "§b 秒。");
+    player.sendMessage("§bMagic Legacy action could not be completed." + C + "§bMagic Legacy action could not be completed." + B + "§bMagic Legacy action could not be completed.");
 
 
     }
 
 
-    player.sendMessage("§b你一共获得了§e " + E + " §b种§e神秘§b效果，相同效果会被更高等级的替代。");
+    player.sendMessage("§bMagic Legacy action could not be completed." + E + "§bMagic Legacy action could not be completed.");
 
 
 

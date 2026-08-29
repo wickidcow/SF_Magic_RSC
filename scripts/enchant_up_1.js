@@ -8,14 +8,14 @@ function onUse(event) {
   // 检查主手是否是用主手进行操作
   if (event.getHand() !== org.bukkit.inventory.EquipmentSlot.HAND) {
     // 如果不是主手，则发送消息并返回
-    player.sendMessage("§e[魔法-强化] §f请使用主手进行操作");
+    player.sendMessage("§bMagic Legacy action could not be completed.");
     return;
   }
 
   // 检查副手中是否有物品
   if (offHandItem === null || offHandItem.getType() === org.bukkit.Material.AIR) {
     // 如果没有物品或持有空气，则发送消息并返回
-    player.sendMessage("§e[魔法-强化] §f副手需要持有物品");
+    player.sendMessage("§bMagic Legacy action could not be completed.");
     return;
   }
 
@@ -65,8 +65,8 @@ function onUse(event) {
       decrementItemAmount(player.getInventory().getItemInMainHand());
       
       // 发送失败消息给玩家
-      player.sendMessage("§e[魔法-强化] §f强化失败，装备已破碎。");
-      org.bukkit.Bukkit.broadcastMessage("§b§l玩家"+player.getName()+"§e§l 的§a§l 装§c§l 备§b§l 爆 §3§l炸 §4§l咯 §5§l~ §6§l~");
+      player.sendMessage("§bMagic Legacy action could not be completed.");
+      org.bukkit.Bukkit.broadcastMessage("§bMagic Legacy action could not be completed."+player.getName()+"§bMagic Legacy action could not be completed.");
     }
   
 
@@ -123,11 +123,11 @@ function addRandomEnchantment(item,player) {
 
   if (newLevel==1){
 
-    player.sendMessage("§e[魔法-强化] §f获得了新的附魔。");
+    player.sendMessage("§bMagic Legacy action could not be completed.");
 
   }else {
 
-    player.sendMessage("§e[魔法-强化] §f原有的附魔等级提升了。");
+    player.sendMessage("§bMagic Legacy action could not be completed.");
 
   }
 }

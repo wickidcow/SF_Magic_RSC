@@ -1,21 +1,21 @@
 MAGIC_CARGO_STORAGE_MAKER:
   item_group: magic_storage
   item:
-    name: "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l抽{#FA8072}&l屉{#E9967A}&l升{#F08080}&l级{#FF69B4}&l台"
+    name: "&dMagic Cargo Storage Maker"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGI2MzVlOGNkMDQwNWJjYTVjM2ZkMzRiYWQ5M2EwMGNhNWEyY2EyYWQxMjE0Y2RhMTIwNDViYThhYmI4MzA1YiJ9fX0=
     lore:
       - "&a"
-      - "{#FDB7D4}&l升级魔法抽屉"
-      - "{#FDB7D4}&l制作魔法抽屉核心"
-      - "{#FDB7D4}&l核心可以用于解封'被封印的抽屉'~"
-      - "{#FDB7D4}&l魔法抽屉功能等同于网络抽屉"
-      - "{#FDB7D4}&l放置后拆除将被暂时封印"
+      - "&7tierMagic"
+      - "&7Magic"
+      - "&7Magic Cargo Storage Maker"
+      - "&7Magic"
+      - "&7Magic Cargo Storage Maker"
       - "&a"
       - "&8⇨&e ⚡ &710000  J/per"
-      - "&8⇨&e ⚡ &7100000 J 可存储"
+      - "&7⇨ ⚡ 100000 J capacity"
       - "&a"
-      - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l抽{#E9967A}&l屉{#F08080}&l&kl"
+      - "&7lMagic-l"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1:
@@ -743,13 +743,13 @@ MAGIC_CARGO_STORAGE_MAKER:
     '分割线-后面是魔法抽屉核心':
       input:
         1:
-          name: "&a分割线---后面是魔法抽屉核心"
+          name: "&dMagic Cargo Storage Maker"
           material: LIGHT_GRAY_STAINED_GLASS_PANE
           amount: 1
           slot: 10
       output:
         1:
-          name: "&a分割线---后面是魔法抽屉核心"
+          name: "&dMagic Cargo Storage Maker"
           material: LIGHT_GRAY_STAINED_GLASS_PANE
           amount: 1
           slot: 25
@@ -1446,21 +1446,21 @@ MAGIC_CARGO_STORAGE_MAKER:
 MAGIC_FISHING_HOUSE:
   item_group: magic_power
   item:
-    name: "{#FFC0CB}&l垂{#FFB6C1}&l钓{#FFA07A}&l工{#FA8072}&l坊{#E9967A}&lF&c&li&a&ls&b&lh&c&li&d&ln&e&lg"
+    name: "&dMagic Fishing House"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjg1NDA2MGFhNTc3NmI3MzY2OGM4OTg2NTkwOWQxMmQwNjIyNDgzZTYwMGI2NDZmOTBjMTg2YzY1Yjc1ZmY0NSJ9fX0=
     lore:
       - "&a"
-      - "{#FDB7D4}&l制作各种渔具材料"
-      - "{#FDB7D4}&l制作各种鱼杆"
-      - "{#FDB7D4}&l制作各种饵料"
-      - "{#FDB7D4}&l在这里你可以做所有关于钓鱼的事情"
-      - "{#FDB7D4}&l更多功能敬请期待~"
+      - "&7Materials"
+      - "&7Magic Fishing House"
+      - "&7Magic Fishing House"
+      - "&7Magic Fishing House"
+      - "&7Magic Fishing House"
       - "&a"
       - "&8⇨&e ⚡ &710000  J/per"
-      - "&8⇨&e ⚡ &7100000 J 可存储"
+      - "&7⇨ ⚡ 100000 J capacity"
       - "&a"
-      - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l垂{#E9967A}&l钓{#F08080}&l&kl"
+      - "&7lMagic-l"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1:
@@ -2342,16 +2342,16 @@ MAGIC_FISHING_HOUSE:
 MAGIC_GOD_WORKBENCH:
   item_group: magic_attribute_up
   item:
-    name: "{#FFC0CB}&l创{#FFB6C1}&l世{#FFA07A}&l工{#FA8072}&l作{#E9967A}&l台"
+    name: "&dMagic God Workbench"
     material: CRAFTING_TABLE
     lore:
       - "&a"
-      - "{#FDB7D4}&l用于制作强大的魔法装备"
+      - "&7Magic"
       - "&a"
       - "&8⇨&e ⚡ &71  J/per"
-      - "&8⇨&e ⚡ &7100 J 可存储"
+      - "&7⇨ ⚡ 100 J capacity"
       - "&a"
-      - "{#FFC0CB}&l&kl{#FFB6C1}&l魔{#FFA07A}&l法{#FA8072}&l-{#E9967A}&l装{#F08080}&l备{#FF69B4}&l强{#DB7093}&l化{#FFC0CB}&l&kl"
+      - "&7lMagic-l"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1:
@@ -2497,18 +2497,18 @@ MAGIC_GOD_WORKBENCH:
 MAGIC_SUPREME_WORKBENCH:
   item_group: magic_plant
   item:
-    name: "{#FFC0CB}&l至{#FFB6C1}&l尊{#FFA07A}&l机{#FA8072}&l器{#E9967A}&l组{#F08080}&l装{#FF69B4}&l台"
+    name: "&dMagic Supreme Workbench"
     material: REDSTONE_LAMP
     lore:
       - "&a"
-      - "{#FDB7D4}&l用于制作至尊机器"
-      - "{#FDB7D4}&l配方与速率一致"
-      - "{#FDB7D4}&l没有刷物bug"
+      - "&7Magic Supreme Workbench"
+      - "&7Magic Supreme Workbench"
+      - "&7bug"
       - "&a"
       - "&8⇨&e ⚡ &710000  J/per"
-      - "&8⇨&e ⚡ &7100000 J 可存储"
+      - "&7⇨ ⚡ 100000 J capacity"
       - "&a"
-      - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l至{#E9967A}&l尊{#F08080}&l工{#FF69B4}&l艺{#FFC0CB}&l&kl"
+      - "&7lMagic-l"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1:

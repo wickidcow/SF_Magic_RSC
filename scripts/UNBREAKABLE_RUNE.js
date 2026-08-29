@@ -5,13 +5,13 @@ function onUse(event) {
 
     // 检查主手是否持有指定的强化书
     if (event.getHand() !== org.bukkit.inventory.EquipmentSlot.HAND) {
-        sendMessage(player, "主手请持物品");
+        sendMessage(player, "§bHold the item in your main hand.");
         return;
     }
 
     // 检查副手是否有物品
     if (offHandItem === null) {
-        player.sendMessage("副手没有持有物品。");
+        player.sendMessage("§bMagic Legacy action could not be completed.");
         return;
     }
 
@@ -22,7 +22,7 @@ function onUse(event) {
     if (itemMeta) {
         itemMeta.setUnbreakable(true);
         offHandItem.setItemMeta(itemMeta);
-        sendMessage(player, "§b成功为物品添加不可破坏属性");
+        sendMessage(player, "§bMagic Legacy action could not be completed.");
 
         let world = player.getWorld();
         let eyeLocation = player.getEyeLocation();
@@ -52,7 +52,7 @@ function onUse(event) {
 
         player.getInventory().setItemInMainHand(mainHandItem);
     } else {
-        player.sendMessage("§c无法设置副手物品的属性。");
+        player.sendMessage("§bMagic Legacy action could not be completed.");
     }
 
 }

@@ -17,7 +17,7 @@ function onUse(event, itemStack) {
     var player = event.getPlayer();
     //检查主手是否持有物品
     if (event.getHand() !== org.bukkit.inventory.EquipmentSlot.HAND) {
-        sendMessage(player, "主手请持物品");
+        sendMessage(player, "§bHold the item in your main hand.");
         return;
     }
 
@@ -28,7 +28,7 @@ function onUse(event, itemStack) {
     var itemInMainHand = player.getInventory().getItemInMainHand();
     
     if (!itemInOffHand || itemInOffHand.getType() === org.bukkit.Material.AIR) {
-        sendMessage(player, "副手需要持有物品");
+        sendMessage(player, "§bMagic Legacy action could not be completed.");
         return ;
     }
 
@@ -68,7 +68,7 @@ function onUse(event, itemStack) {
 
     // 检查物品堆叠数量是否为1
     if (itemInOffHand.getAmount() !== 1) {
-        player.sendMessage("§b一次只能修复一个抽屉哦~");
+        player.sendMessage("§bMagic Legacy action could not be completed.");
         return;
       }
 

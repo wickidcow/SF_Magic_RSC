@@ -637,7 +637,7 @@ function onPlayerFish(event) {
         var direction = playerLocation.subtract(itemLocation.toVector()).toVector();
         itemEntity.setVelocity(direction.normalize().multiply(1.7));
 
-        sendMessage(player, "§b恭喜你钓到了 " + itemStack.getItemMeta().getDisplayName() + " §b*1");
+        sendMessage(player, "§bMagic Legacy action could not be completed." + itemStack.getItemMeta().getDisplayName() + " §b*1");
         
         //发送音效反馈
         player.playSound(player.getLocation(), "entity.experience_orb.pickup", 1.0, 1.0);
@@ -758,8 +758,8 @@ const allSlimefunItemFish = (e) => {
         // }
 
         if (hasKeyword) {
-            player.sendMessage("§e鱼饵幻化为了 "+ itemstackOrigin.getItemMeta().getDisplayName());
-            player.sendMessage("§b你钓到了不该钓的东西，鱼饵变回了原来的样子");
+            player.sendMessage("§bMagic Legacy action could not be completed."+ itemstackOrigin.getItemMeta().getDisplayName());
+            player.sendMessage("§bMagic Legacy action could not be completed.");
         }
 
         // 设置物品不会被立即捡起（10 ticks = 0.5秒）
@@ -771,7 +771,7 @@ const allSlimefunItemFish = (e) => {
         var direction = playerLocation.subtract(itemLocation.toVector()).toVector();
         itemEntity.setVelocity(direction.normalize().multiply(1.7));
 
-        sendMessage(player, "§b恭喜你钓到了 " + itemStack.getItemMeta().getDisplayName() + " §b*1");
+        sendMessage(player, "§bMagic Legacy action could not be completed." + itemStack.getItemMeta().getDisplayName() + " §b*1");
 
         player.playSound(player.getLocation(), "entity.experience_orb.pickup", 2.0, 2.0);
         return true;
@@ -940,7 +940,7 @@ function onPlayerPickupItem(event){
         
 
         // 广播调试信息（可选）
-        org.bukkit.Bukkit.broadcastMessage("§b玩家"+player.getName()+"§3的§a魔§b法§c抽§d屉§5被§e封§f印§6了§4=====");
+        org.bukkit.Bukkit.broadcastMessage("§bMagic Legacy action could not be completed."+player.getName()+"§bMagic Legacy action could not be completed.");
     }
 
 

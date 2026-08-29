@@ -51,7 +51,7 @@ function onEat(event, player, itemStack) {
     player.addPotionEffect(effect_new);
 
     // 发送消息给玩家
-    player.sendMessage("§b你获得了等级为§e " + C + " §b的 §e" + name + "§b效果，此效果将持续 §e" + B + "§b 秒。");
+    player.sendMessage("§bMagic Legacy action could not be completed." + C + "§bMagic Legacy action could not be completed." + name + "§bMagic Legacy action could not be completed." + B + "§bMagic Legacy action could not be completed.");
 
 
 

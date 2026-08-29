@@ -9,7 +9,7 @@ function onUse(event) {
 
     // 检查主手是否持有物品
     if (event.getHand() !== EquipmentSlot.HAND) {
-        sendMessage(player, "§b请用主手持物品");
+        sendMessage(player, "§bMagic Legacy action could not be completed.");
         return;
     }
 

@@ -7,7 +7,7 @@ function onUse(event) {
     const player = event.getPlayer();
     //检查主手是否持有物品
     if (event.getHand() !== org.bukkit.inventory.EquipmentSlot.HAND) {
-        sendMessage(player, "§b主手请持物品");
+        sendMessage(player, "§bHold the item in your main hand.");
         return;
     }
 
@@ -24,10 +24,10 @@ function onUse(event) {
 
     if (invs.firstEmpty() === -1) {
         player.getWorld().dropItemNaturally(player.getLocation(), itemstack);
-        sendMessage(player, "§e背包已满，物品已掉落在地面上");
+        sendMessage(player, "§bMagic Legacy action could not be completed.");
     } else {
         invs.addItem(itemstack);
-        sendMessage(player, "§e成功获得物品 " + itemstack.getItemMeta().getDisplayName());
+        sendMessage(player, "§bMagic Legacy action could not be completed." + itemstack.getItemMeta().getDisplayName());
     }
 
 

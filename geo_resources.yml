@@ -1,12 +1,12 @@
 MAGIC_REDSTONE:
   item_group: magic_resource
   item:
-    name: "&c魔法红石"
+    name: "&dMagic Redstone"
     material: redstone
   recipe_type: MAGIC_GEOMINER
   max_deviation: 32
   obtain_from_geo_miner: false
-  geo_name: "&c魔法红石"
+  geo_name: "Magic Redstone"
   supply:
     normal: 64
     nether: 12
@@ -15,24 +15,24 @@ MAGIC_REDSTONE:
 MAGIC_COSMIC_DUST:
   item_group: magic_resource
   item:
-    name: "&b&l宇宙尘"
+    name: "&dMagic Cosmic Dust"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWU1MmY3OTYwZmYzY2VjMmY1MTlhNjM1MzY0OGM2ZTMzYmM1MWUxMzFjYzgwOTE3Y2YxMzA4MWRlY2JmZjI0ZCJ9fX0=
     lore: 
       - "&a"
-      - "&7是由众多细小粒子组成的一种固态尘埃"
-      - "&7自宇宙大爆炸起"
-      - "&7便四散在浩翰宇宙之中"
-      - "&7部分来自彗星、小行星等星体的崩解而产生"
-      - "&7在&b主世界&7的任何地方都有它的踪迹"
-      - "&7也可在&c起源工厂&7中使用暗物质碳进行溯源"
-      - "&7非可再生资源"
+      - "&7Magic Cosmic Dust"
+      - "&7Magic Cosmic Dust"
+      - "&7Magic Cosmic Dust"
+      - "&7Magic Cosmic Dust"
+      - "&7Magic Cosmic Dust"
+      - "&7Magic Cosmic Dust"
+      - "&7Non-renewable resource"
       - "&a"
-      - "&a自然资源"
+      - "&7Natural resource"
   recipe_type: MAGIC_GEOMINER
   max_deviation: 3
   obtain_from_geo_miner: false
-  geo_name: "&b&l宇宙尘"
+  geo_name: "Magic Cosmic Dust"
   supply:
     normal: 3
     nether: 1
@@ -41,20 +41,20 @@ MAGIC_COSMIC_DUST:
 MAGIC_SOUL:
   item_group: magic_resource
   item:
-    name: "&c&l灵魂"
+    name: "&dMagic Soul"
     material: SOUL_LANTERN
     lore: 
       - "&a"
-      - "&7自然中的灵魂"
-      - "&7将其拿在主手"
-      - "&7可以为一些物品补充灵魂"
-      - "&7非可再生资源"
+      - "&7Magic Soul"
+      - "&7Magic Soul"
+      - "&7Magic Soul"
+      - "&7Non-renewable resource"
       - "&a"
-      - "&a自然资源"
+      - "&7Natural resource"
   recipe_type: MAGIC_GEOMINER
   max_deviation: 2
   obtain_from_geo_miner: false
-  geo_name: "&c&l灵魂"
+  geo_name: "Magic Soul"
   supply:
     normal: 2
     nether: 0
@@ -63,13 +63,13 @@ MAGIC_SOUL:
 MAGIC_SMALL_LEAD_ORE_CHUNK:
   item_group: magic_origin_resources
   item:
-    name: "&b小块铅矿石"
+    name: "&dMagic Small Lead Ore Chunk"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzkwZTQyZTBjNGRmNTlhZDAwYjEzNWI2YjdiYmNlYWIxMGE4NWVlYjliNmVmZDgzYjE4NDI0NGM5NjgzMGIzZCJ9fX0=
   recipe_type: GEO_MINER
   max_deviation: 1
   obtain_from_geo_miner: true
-  geo_name: "&b小块铅矿石"
+  geo_name: "Magic Small Lead Ore Chunk"
   supply:
     normal:
       plains: 0
@@ -82,13 +82,13 @@ MAGIC_SMALL_LEAD_ORE_CHUNK:
 MAGIC_LARGE_LEAD_ORE_CHUNK:
   item_group: magic_origin_resources
   item:
-    name: "&b大块铅矿石"
+    name: "&dMagic Large Lead Ore Chunk"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzkwZTQyZTBjNGRmNTlhZDAwYjEzNWI2YjdiYmNlYWIxMGE4NWVlYjliNmVmZDgzYjE4NDI0NGM5NjgzMGIzZCJ9fX0=
   recipe_type: GEO_MINER
   max_deviation: 1
   obtain_from_geo_miner: true
-  geo_name: "&b大块铅矿石"
+  geo_name: "Magic Large Lead Ore Chunk"
   supply:
     normal:
       plains: 0
@@ -101,13 +101,13 @@ MAGIC_LARGE_LEAD_ORE_CHUNK:
 MAGIC_SMALL_MAGNESIUM_ORE_CHUNK:
   item_group: magic_origin_resources
   item:
-    name: "&b小块镁矿石"
+    name: "&dMagic Small Magnesium Ore Chunk"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZThjOTlkODU3YTViMzQzMzE2OTljZTZiNTQ0OWQ4ZDc1ZjZjNTBiMjk0ZWExYTI5MTA4ZjY2Y2EwODY1MjhiYiJ9fX0=
   recipe_type: GEO_MINER
   max_deviation: 1
   obtain_from_geo_miner: true
-  geo_name: "&b小块镁矿石"
+  geo_name: "Magic Small Magnesium Ore Chunk"
   supply:
     normal:
       plains: 0
@@ -120,13 +120,13 @@ MAGIC_SMALL_MAGNESIUM_ORE_CHUNK:
 MAGIC_LARGE_MAGNESIUM_ORE_CHUNK:
   item_group: magic_origin_resources
   item:
-    name: "&b大块铅矿石"
+    name: "&dMagic Large Magnesium Ore Chunk"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZThjOTlkODU3YTViMzQzMzE2OTljZTZiNTQ0OWQ4ZDc1ZjZjNTBiMjk0ZWExYTI5MTA4ZjY2Y2EwODY1MjhiYiJ9fX0=
   recipe_type: GEO_MINER
   max_deviation: 1
   obtain_from_geo_miner: true
-  geo_name: "&b大块铅矿石"
+  geo_name: "Magic Large Magnesium Ore Chunk"
   supply:
     normal:
       plains: 0
@@ -139,13 +139,13 @@ MAGIC_LARGE_MAGNESIUM_ORE_CHUNK:
 MAGIC_SMALL_ZINC_ORE_CHUNK:
   item_group: magic_origin_resources
   item:
-    name: "&b小块锌矿石"
+    name: "&dMagic Small Zinc Ore Chunk"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTI0YWYwYjZkNTM5MGI4OTAzMGIzNmU1MzE0NTUzNWE4YzYwNDZiYWJlZWIyMTJjNWQ4MTFkYzViYzA0Yjc4MCJ9fX0=
   recipe_type: GEO_MINER
   max_deviation: 1
   obtain_from_geo_miner: true
-  geo_name: "&b小块锌矿石"
+  geo_name: "Magic Small Zinc Ore Chunk"
   supply:
     normal:
       plains: 0
@@ -158,13 +158,13 @@ MAGIC_SMALL_ZINC_ORE_CHUNK:
 MAGIC_LARGE_ZINC_ORE_CHUNK:
   item_group: magic_origin_resources
   item:
-    name: "&b大块锌矿石"
+    name: "&dMagic Large Zinc Ore Chunk"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTI0YWYwYjZkNTM5MGI4OTAzMGIzNmU1MzE0NTUzNWE4YzYwNDZiYWJlZWIyMTJjNWQ4MTFkYzViYzA0Yjc4MCJ9fX0=
   recipe_type: GEO_MINER
   max_deviation: 1
   obtain_from_geo_miner: true
-  geo_name: "&b大块锌矿石"
+  geo_name: "Magic Large Zinc Ore Chunk"
   supply:
     normal:
       plains: 0
@@ -177,13 +177,13 @@ MAGIC_LARGE_ZINC_ORE_CHUNK:
 MAGIC_SMALL_IRON_ORE_CHUNK:
   item_group: magic_origin_resources
   item:
-    name: "&b小块铁矿石"
+    name: "&dMagic Small Iron Ore Chunk"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODM4NWFhZWRkNzg0ZmFlZjhlOGY2Zjc4MmZhNDhkMDdjMmZjMmJiY2Y2ZmVhMWZiYzliOTg2MmQwNWQyMjhjMSJ9fX0=
   recipe_type: GEO_MINER
   max_deviation: 1
   obtain_from_geo_miner: true
-  geo_name: "&b小块铁矿石"
+  geo_name: "Magic Small Iron Ore Chunk"
   supply:
     normal:
       plains: 0
@@ -196,13 +196,13 @@ MAGIC_SMALL_IRON_ORE_CHUNK:
 MAGIC_LARGE_IRON_ORE_CHUNK:
   item_group: magic_origin_resources
   item:
-    name: "&b大块铁矿石"
+    name: "&dMagic Large Iron Ore Chunk"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODM4NWFhZWRkNzg0ZmFlZjhlOGY2Zjc4MmZhNDhkMDdjMmZjMmJiY2Y2ZmVhMWZiYzliOTg2MmQwNWQyMjhjMSJ9fX0=
   recipe_type: GEO_MINER
   max_deviation: 1
   obtain_from_geo_miner: true
-  geo_name: "&b大块铁矿石"
+  geo_name: "Magic Large Iron Ore Chunk"
   supply:
     normal:
       plains: 0
@@ -215,13 +215,13 @@ MAGIC_LARGE_IRON_ORE_CHUNK:
 MAGIC_SMALL_GOLD_ORE_CHUNK:
   item_group: magic_origin_resources
   item:
-    name: "&b小块金矿石"
+    name: "&dMagic Small Gold Ore Chunk"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzM4NmJmYWRlMWM4ZWM2ZjRlNjAyNmIzYjcwY2RkYmU4MjQ4NTBiOWMzOWZkZWNhZTRlNmMxZTg3ZTgwYzFjNCJ9fX0=
   recipe_type: GEO_MINER
   max_deviation: 1
   obtain_from_geo_miner: true
-  geo_name: "&b小块金矿石"
+  geo_name: "Magic Small Gold Ore Chunk"
   supply:
     normal:
       plains: 0
@@ -234,13 +234,13 @@ MAGIC_SMALL_GOLD_ORE_CHUNK:
 MAGIC_LARGE_GOLD_ORE_CHUNK:
   item_group: magic_origin_resources
   item:
-    name: "&b大块金矿石"
+    name: "&dMagic Large Gold Ore Chunk"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzM4NmJmYWRlMWM4ZWM2ZjRlNjAyNmIzYjcwY2RkYmU4MjQ4NTBiOWMzOWZkZWNhZTRlNmMxZTg3ZTgwYzFjNCJ9fX0=
   recipe_type: GEO_MINER
   max_deviation: 1
   obtain_from_geo_miner: true
-  geo_name: "&b大块金矿石"
+  geo_name: "Magic Large Gold Ore Chunk"
   supply:
     normal:
       plains: 0
@@ -253,13 +253,13 @@ MAGIC_LARGE_GOLD_ORE_CHUNK:
 MAGIC_SMALL_COPPER_ORE_CHUNK:
   item_group: magic_origin_resources
   item:
-    name: "&b小块铜矿石"
+    name: "&dMagic Small Copper Ore Chunk"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGU3OTNhOTIyYTk5MzdhMjhlMTQ5ZDU4MjEyYzAwZDc2MDViYjY4ZDZhYjFiMzQ1ODc3YjNlNGNmNzc0MGI0MCJ9fX0=
   recipe_type: GEO_MINER
   max_deviation: 1
   obtain_from_geo_miner: true
-  geo_name: "&b小块铜矿石"
+  geo_name: "Magic Small Copper Ore Chunk"
   supply:
     normal:
       plains: 0
@@ -272,13 +272,13 @@ MAGIC_SMALL_COPPER_ORE_CHUNK:
 MAGIC_LARGE_COPPER_ORE_CHUNK:
   item_group: magic_origin_resources
   item:
-    name: "&b大块铜矿石"
+    name: "&dMagic Large Copper Ore Chunk"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGU3OTNhOTIyYTk5MzdhMjhlMTQ5ZDU4MjEyYzAwZDc2MDViYjY4ZDZhYjFiMzQ1ODc3YjNlNGNmNzc0MGI0MCJ9fX0=
   recipe_type: GEO_MINER
   max_deviation: 1
   obtain_from_geo_miner: true
-  geo_name: "&b大块铜矿石"
+  geo_name: "Magic Large Copper Ore Chunk"
   supply:
     normal:
       plains: 0
@@ -291,13 +291,13 @@ MAGIC_LARGE_COPPER_ORE_CHUNK:
 MAGIC_SMALL_TIN_ORE_CHUNK:
   item_group: magic_origin_resources
   item:
-    name: "&b小块锡矿石"
+    name: "&dMagic Small Tin Ore Chunk"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTQzOWFlNWE4ZDUzODNkNjY4Y2Q1NGJlYzhmOThjYzZjODI2NTk5YWRmNzlkNmJiNjlmNTFiMGU4YzQ1OGIifX19
   recipe_type: GEO_MINER
   max_deviation: 1
   obtain_from_geo_miner: true
-  geo_name: "&b小块锡矿石"
+  geo_name: "Magic Small Tin Ore Chunk"
   supply:
     normal:
       plains: 0
@@ -310,13 +310,13 @@ MAGIC_SMALL_TIN_ORE_CHUNK:
 MAGIC_LARGE_TIN_ORE_CHUNK:
   item_group: magic_origin_resources
   item:
-    name: "&b大块锡矿石"
+    name: "&dMagic Large Tin Ore Chunk"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTQzOWFlNWE4ZDUzODNkNjY4Y2Q1NGJlYzhmOThjYzZjODI2NTk5YWRmNzlkNmJiNjlmNTFiMGU4YzQ1OGIifX19
   recipe_type: GEO_MINER
   max_deviation: 1
   obtain_from_geo_miner: true
-  geo_name: "&b大块锡矿石"
+  geo_name: "Magic Large Tin Ore Chunk"
   supply:
     normal:
       plains: 0
@@ -329,13 +329,13 @@ MAGIC_LARGE_TIN_ORE_CHUNK:
 MAGIC_SMALL_SILVER_ORE_CHUNK:
   item_group: magic_origin_resources
   item:
-    name: "&b小块银矿石"
+    name: "&dMagic Small Silver Ore Chunk"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzZmYTM4YzBjODU5NTJlYzExODYzYTc5ODhlMGU0OWVjNjhkNGM3MTI5YmE2NmE1MWU4ODI4YmI0NjMwMjc4MCJ9fX0=
   recipe_type: GEO_MINER
   max_deviation: 1
   obtain_from_geo_miner: true
-  geo_name: "&b小块银矿石"
+  geo_name: "Magic Small Silver Ore Chunk"
   supply:
     normal:
       plains: 0
@@ -348,13 +348,13 @@ MAGIC_SMALL_SILVER_ORE_CHUNK:
 MAGIC_LARGE_SILVER_ORE_CHUNK:
   item_group: magic_origin_resources
   item:
-    name: "&b大块银矿石"
+    name: "&dMagic Large Silver Ore Chunk"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzZmYTM4YzBjODU5NTJlYzExODYzYTc5ODhlMGU0OWVjNjhkNGM3MTI5YmE2NmE1MWU4ODI4YmI0NjMwMjc4MCJ9fX0=
   recipe_type: GEO_MINER
   max_deviation: 1
   obtain_from_geo_miner: true
-  geo_name: "&b大块银矿石"
+  geo_name: "Magic Large Silver Ore Chunk"
   supply:
     normal:
       plains: 0
@@ -367,13 +367,13 @@ MAGIC_LARGE_SILVER_ORE_CHUNK:
 MAGIC_SMALL_ALUMINUM_ORE_CHUNK:
   item_group: magic_origin_resources
   item:
-    name: "&b小块铝矿石"
+    name: "&dMagic Small Aluminum Ore Chunk"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjQxMTAxMDM2ZWUwOTc1YmZlOWE3NTgzM2E1ZmE3ZDk4Y2Y1ZWNiYmYyOTI0Y2RiZGY4YTdkZGQzZjNjYjhjIn19fQ==
   recipe_type: GEO_MINER
   max_deviation: 1
   obtain_from_geo_miner: true
-  geo_name: "&b小块铝矿石"
+  geo_name: "Magic Small Aluminum Ore Chunk"
   supply:
     normal:
       plains: 0
@@ -386,13 +386,13 @@ MAGIC_SMALL_ALUMINUM_ORE_CHUNK:
 MAGIC_LARGE_ALUMINUM_ORE_CHUNK:
   item_group: magic_origin_resources
   item:
-    name: "&b大块铝矿石"
+    name: "&dMagic Large Aluminum Ore Chunk"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjQxMTAxMDM2ZWUwOTc1YmZlOWE3NTgzM2E1ZmE3ZDk4Y2Y1ZWNiYmYyOTI0Y2RiZGY4YTdkZGQzZjNjYjhjIn19fQ==
   recipe_type: GEO_MINER
   max_deviation: 1
   obtain_from_geo_miner: true
-  geo_name: "&b大块铝矿石"
+  geo_name: "Magic Large Aluminum Ore Chunk"
   supply:
     normal:
       plains: 0
@@ -405,13 +405,13 @@ MAGIC_LARGE_ALUMINUM_ORE_CHUNK:
 MAGIC_SMALL_NICKEL_ORE_CHUNK:
   item_group: magic_origin_resources
   item:
-    name: "&b小块镍矿石"
+    name: "&dMagic Small Nickel Ore Chunk"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjA5NzM5OTE1MWYyNjIyZTQzZGIxOGE4YjMwMjAxYzMxNGFiYTg4ZGU0ZGIzNjA5ZTE2YTdmMGRlMTY0MmRiYSJ9fX0=
   recipe_type: GEO_MINER
   max_deviation: 1
   obtain_from_geo_miner: true
-  geo_name: "&b小块镍矿石"
+  geo_name: "Magic Small Nickel Ore Chunk"
   supply:
     normal:
       plains: 0
@@ -424,13 +424,13 @@ MAGIC_SMALL_NICKEL_ORE_CHUNK:
 MAGIC_LARGE_NICKEL_ORE_CHUNK:
   item_group: magic_origin_resources
   item:
-    name: "&b大块镍矿石"
+    name: "&dMagic Large Nickel Ore Chunk"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjA5NzM5OTE1MWYyNjIyZTQzZGIxOGE4YjMwMjAxYzMxNGFiYTg4ZGU0ZGIzNjA5ZTE2YTdmMGRlMTY0MmRiYSJ9fX0=
   recipe_type: GEO_MINER
   max_deviation: 1
   obtain_from_geo_miner: true
-  geo_name: "&b大块镍矿石"
+  geo_name: "Magic Large Nickel Ore Chunk"
   supply:
     normal:
       plains: 0
@@ -443,13 +443,13 @@ MAGIC_LARGE_NICKEL_ORE_CHUNK:
 MAGIC_SMALL_COBALT_ORE_CHUNK:
   item_group: magic_origin_resources
   item:
-    name: "&b小块钴矿石"
+    name: "&dMagic Small Cobalt Ore Chunk"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTFlM2Y3ZGRiYWNjYTdiMWQ2MDUwN2U2Y2Y2ZDU3ZmFkMWMwMTliM2YyMTI3MzUxZDZhZjFiZjM2ZDBkNGVkZSJ9fX0=
   recipe_type: GEO_MINER
   max_deviation: 1
   obtain_from_geo_miner: true
-  geo_name: "&b小块钴矿石"
+  geo_name: "Magic Small Cobalt Ore Chunk"
   supply:
     normal:
       plains: 0
@@ -462,13 +462,13 @@ MAGIC_SMALL_COBALT_ORE_CHUNK:
 MAGIC_LARGE_COBALT_ORE_CHUNK:
   item_group: magic_origin_resources
   item:
-    name: "&b大块钴矿石"
+    name: "&dMagic Large Cobalt Ore Chunk"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTFlM2Y3ZGRiYWNjYTdiMWQ2MDUwN2U2Y2Y2ZDU3ZmFkMWMwMTliM2YyMTI3MzUxZDZhZjFiZjM2ZDBkNGVkZSJ9fX0=
   recipe_type: GEO_MINER
   max_deviation: 1
   obtain_from_geo_miner: true
-  geo_name: "&b大块钴矿石"
+  geo_name: "Magic Large Cobalt Ore Chunk"
   supply:
     normal:
       plains: 0

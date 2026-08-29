@@ -1,16 +1,16 @@
 MAGIC_GEC_MOB:
   item_group: magic_power
   item:
-    name: "&c魔法鼓舞室组装台"
+    name: "&dMagic GEC Mob"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDJjOGU3NmZjZGRlOWExNWFlMzkyOWI4NGJmNmZmYTRjMTc3N2IxZTI2YjdkNmQ4OTM4ZjBlZjA0ZTg0ODc0YyJ9fX0=
     lore: 
       - "&a"
-      - "&7你可以在这里"
-      - "&7指定魔法鼓舞室生产的产物!"
-      - "&4这是一个不可逆操作!"
+      - "&7Magic GEC Mob"
+      - "&7Magic!"
+      - "&7Magic GEC Mob"
       - "&a"
-      - "&a多方块机器" 
+      - "&7Magic GEC Mob"
   recipe:
     2:
       material: BELL
@@ -857,16 +857,16 @@ MAGIC_GEC_MOB:
 MAGIC_BEEHIVE_MOB:
   item_group: magic_power
   item:
-    name: "&c蜜蜂放置台"
+    name: "&dMagic Beehive Mob"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzdjYmYyNThhMGUyZGUzNGM4MThhYThhODk4NjMxM2Y3MjkyOWU1YWJhOTg3OTcxNWY0MTM0YmRjNmM0MDJkNCJ9fX0=
     lore: 
       - "&a"
-      - "&7你可以在这里"
-      - "&7将蜜蜂放入到魔法蜂箱中!"
-      - "&4这是一个不可逆操作!"
+      - "&7Magic Beehive Mob"
+      - "&7MagicBeehive!"
+      - "&7Magic Beehive Mob"
       - "&a"
-      - "&a多方块机器" 
+      - "&7Magic Beehive Mob"
   recipe:
     2:
       material: BELL
@@ -1750,15 +1750,15 @@ MAGIC_BEEHIVE_MOB:
 MAGIC_INFINITY_ARMOR_MACHINE:
   item_group: magic_power
   item:
-    name: "&b&l无尽装备工厂"
+    name: "&dMagic Infinity Armor Machine"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTlkMGY1MWYzOWUwOGU1MWNjODNjYmVjMDFlM2NlMTM2MmM3MGMwMmVkYzM1MTkwMmFmOGU3YTVmNmUyMDFiYyJ9fX0=
     lore: 
       - "&a"
-      - "&7&l无尽的起源"
-      - "&7&l追寻更纯粹的真理"
+      - "&7Magic Infinity Armor Machine"
+      - "&7Magic Infinity Armor Machine"
       - "&a"
-      - "&a多方块机器" 
+      - "&7Magic Infinity Armor Machine"
   recipe:
     1:
       material: SOUL_CAMPFIRE
@@ -2575,11 +2575,11 @@ MAGIC_INFINITY_ARMOR_MACHINE:
 MAGIC_GRINDING_STONE:
   item_group: magic_power
   item:
-    name: "&b&l魔法磨石"
+    name: "&dMagic Grinding Stone"
     material: DISPENSER
     lore: 
       - "&a"
-      - "&a&l更高效地磨物品"
+      - "&7Magic Grinding Stone"
   recipe:
     5:
       material: PINK_CANDLE

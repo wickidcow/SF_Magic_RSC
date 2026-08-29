@@ -10,7 +10,7 @@ function onUse(event) {
 
   // 检查主手是否持有物品
   if (event.getHand() !== org.bukkit.inventory.EquipmentSlot.HAND) {
-    sendMessage(player, "主手请持物品");
+    sendMessage(player, "§bHold the item in your main hand.");
     return;
   }
 
@@ -38,7 +38,7 @@ function onUse(event) {
   player.setSaturation(0);
   usageCount++; // 更新全局使用次数
 
-  org.bukkit.Bukkit.broadcastMessage("§b§l" + player.getName() + "§e§l完成§c§l了§b§l第 " + usageCount + " §3§l次 §4§l唱 §5§l跳 §6§lRAP §7§l篮§8§l球§9§l~");
+  org.bukkit.Bukkit.broadcastMessage("§b§l" + player.getName() + "§bMagic Legacy action could not be completed." + usageCount + "§bMagic Legacy action could not be completed.");
 
   // 更新该玩家的最后使用时间为当前时间
   playerLastUseTimes.put(playerId, currentTime);

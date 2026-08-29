@@ -16,7 +16,7 @@ function onUse(event) {
     const player = event.getPlayer();
     //检查主手是否持有物品
     if (event.getHand() !== org.bukkit.inventory.EquipmentSlot.HAND) {
-        sendMessage(player, "§b主手请持物品");
+        sendMessage(player, "§bHold the item in your main hand.");
         return;
     }
     let item = player.getInventory().getItemInMainHand();
@@ -28,7 +28,7 @@ function onUse(event) {
 
     // 检查主手是否持有钻石稿
     if (!itemInMainHand || itemInMainHand.getType() !== org.bukkit.Material.DIAMOND_PICKAXE) {
-        sendMessage(player, "§b请不要随意更改工具的材质");
+        sendMessage(player, "§bMagic Legacy action could not be completed.");
         return;
     }
 
@@ -36,12 +36,12 @@ function onUse(event) {
     if (itemInOffHand && itemInOffHand.getType() == org.bukkit.Material.DIAMOND ) {
 
         if(usageCount <250){
-            sendMessage(player, "§b你的磨粉次数不足250次");
+            sendMessage(player, "§bMagic Legacy action could not be completed.");
             return;
         }
-        sendMessage(player, "§e镐子自我修复了");
-        sendMessage(player, "§e消耗了一百坤次使用记录以及一颗钻石");
-        sendMessage(player, "§e获得了下面这份礼物");
+        sendMessage(player, "§bMagic Legacy action could not be completed.");
+        sendMessage(player, "§bMagic Legacy action could not be completed.");
+        sendMessage(player, "§bMagic Legacy action could not be completed.");
 
         let eyeLocation = player.getEyeLocation();
         let world = player.getWorld();
@@ -76,10 +76,10 @@ function onUse(event) {
 
         if (invs.firstEmpty() === -1) {
         player.getWorld().dropItemNaturally(player.getLocation(), itemstack);
-        sendMessage(player, "§e背包已满，物品已掉落在地面上");
+        sendMessage(player, "§bMagic Legacy action could not be completed.");
         } else {
         invs.addItem(itemstack);
-        sendMessage(player, "§e成功获得物品 " + itemstack.getItemMeta().getDisplayName() + " §b*1");
+        sendMessage(player, "§bMagic Legacy action could not be completed." + itemstack.getItemMeta().getDisplayName() + " §b*1");
         }        
 
         return;
@@ -91,7 +91,7 @@ function onUse(event) {
 
     // 检查副手是否持有圆石
     if (!itemInOffHand || itemInOffHand.getType() !== org.bukkit.Material.COBBLESTONE) {
-        sendMessage(player, "§b副手需要持有圆石");
+        sendMessage(player, "§bMagic Legacy action could not be completed.");
         return;
     }
 
@@ -123,7 +123,7 @@ function onUse(event) {
     } else {
         // 如果耐久达到上限，则销毁工具
         invs.setItemInMainHand(null);
-        sendMessage(player, "§c钻石稿已损坏");
+        sendMessage(player, "§bMagic Legacy action could not be completed.");
         return;
     }
 
@@ -136,10 +136,10 @@ function onUse(event) {
 
     if (invs.firstEmpty() === -1) {
         player.getWorld().dropItemNaturally(player.getLocation(), itemstack);
-        sendMessage(player, "§b背包已满，物品已掉落在地面上");
+        sendMessage(player, "§bMagic Legacy action could not be completed.");
     } else {
         invs.addItem(itemstack);
-        sendMessage(player, "§b成功获得物品 " + itemstack.getItemMeta().getDisplayName() + " §b*1");
+        sendMessage(player, "§bMagic Legacy action could not be completed." + itemstack.getItemMeta().getDisplayName() + " §b*1");
     }
 }
 

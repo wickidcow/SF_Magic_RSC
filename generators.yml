@@ -1,16 +1,16 @@
 MAGIC_GENERATORS_QUARTZ:
   item_group: magic_power
   item:
-    name: "&f&l石英&7一体机-&eI"
+    name: "&dMagic Generators Quartz"
     lore: 
       - ""
-      - "&7生产石英"
-      - "&7同时作为发电机工作"
+      - "&7Magic Generators Quartz"
+      - "&7Magic Generators Quartz"
       - ""
-      - "&8⇨&e ⚡ &7500 J 可存储"
+      - "&7⇨ ⚡ 500 J capacity"
       - "&8⇨&e ⚡ &725 J/tick"
       - "&a"
-      - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l能{#E9967A}&l源{#F08080}&l与{#FF69B4}&l电{#DB7093}&l力{#FFC0CB}&l&kl"
+      - "&7lMagic-Power and Energyl"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDNiNTAwMWE2NzAwN2E5M2FkZTY2NTkxNzVlOTA1NGE5Mjk3NmIwODdmYzYyOWYwNDJiY2Q1N2U3NzU3NjQ2YSJ9fX0=
   capacity: 500
@@ -55,16 +55,16 @@ MAGIC_GENERATORS_QUARTZ:
 MAGIC_GENERATORS_MAGMA_BLOCK:
   item_group: magic_power
   item:
-    name: "&6&l岩浆块&7一体机-&eI"
+    name: "&dMagic Generators Magma Block"
     lore: 
       - ""
-      - "&7生产岩浆块"
-      - "&7同时作为发电机工作"
+      - "&7Magic Generators Magma Block"
+      - "&7Magic Generators Magma Block"
       - ""
-      - "&8⇨&e ⚡ &7500 J 可存储"
+      - "&7⇨ ⚡ 500 J capacity"
       - "&8⇨&e ⚡ &725 J/tick"
       - "&a"
-      - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l能{#E9967A}&l源{#F08080}&l与{#FF69B4}&l电{#DB7093}&l力{#FFC0CB}&l&kl"
+      - "&7lMagic-Power and Energyl"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjQ0MmExZTA4ZWE3N2ZkMTQ0YzhmZjRjZGFlZjZlMGE5YWFmYjgzZmRjZjM5OGQxNDhkOGYxNzQ0NGM4ZmE2NyJ9fX0=
   capacity: 500
@@ -109,15 +109,15 @@ MAGIC_GENERATORS_MAGMA_BLOCK:
 MAGIC_INFINITY_REACTOR:
   item_group: magic_power
   item:
-    name: "&f&l起源&e&l无尽反应堆"
+    name: "&dMagic Infinity Reactor"
     lore: 
       - "&a"
-      - "&f起源 反应堆"
-      - "&7利用起源锭和无尽锭的混合物发电"
-      - "&8⇨&e ⚡ &7600,000,000 J 可存储"
+      - "&7Magic Infinity Reactor"
+      - "&7Magic Infinity Reactor"
+      - "&7⇨ ⚡ 600,000,000 J capacity"
       - "&8⇨&e ⚡ &71,200,000 J/s"
       - "&a"
-      - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l能{#E9967A}&l源{#F08080}&l与{#FF69B4}&l电{#DB7093}&l力{#FFC0CB}&l&kl"
+      - "&7lMagic-Power and Energyl"
     material: BEACON
   capacity: 600000000
   production: 600000
@@ -166,15 +166,15 @@ MAGIC_INFINITY_REACTOR:
 MAGIC_RESOURCES_STAR_POWER:
   item_group: magic_power
   item:
-    name: "&8暗物质反应堆"
+    name: "&dMagic Resources Star Power"
     lore: 
       - "&a"
-      - "&f高级 反应堆"
-      - "&7燃烧暗物质碳来发电"
-      - "&8⇨&e ⚡ &78000 J 可存储"
+      - "&7tier"
+      - "&7Magic Resources Star Power"
+      - "&7⇨ ⚡ 8000 J capacity"
       - "&8⇨&e ⚡ &78000 J/s"
       - "&a"
-      - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l能{#E9967A}&l源{#F08080}&l与{#FF69B4}&l电{#DB7093}&l力{#FFC0CB}&l&kl"
+      - "&7lMagic-Power and Energyl"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjlkYzQ4YmE1MzI2YTQwNzhkNzMxY2IwMDQ0MWU2MmJhOTQwMjQwMGMwZDE3NWI5YWM3MzRkMmQ1MmNmMjMyOSJ9fX0=
   capacity: 8000
@@ -224,17 +224,17 @@ MAGIC_RESOURCES_STAR_POWER:
 MAGIC_GENERATORS_WOOD:
   item_group: magic_power
   item:
-    name: "&a自然&e发电机"
+    name: "&dMagic Generators Wood"
     lore: 
       - ""
-      - "&a初级 机器"
-      - "&7利用资源元素"
-      - "&7来进行发电"
+      - "&7tier"
+      - "&7Magic Generators Wood"
+      - "&7Magic Generators Wood"
       - ""
-      - "&8⇨&e ⚡ &710000 J 可存储"
+      - "&7⇨ ⚡ 10000 J capacity"
       - "&8⇨&e ⚡ &7400 J/s"
       - "&a"
-      - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l能{#E9967A}&l源{#F08080}&l与{#FF69B4}&l电{#DB7093}&l力{#FFC0CB}&l&kl"
+      - "&7lMagic-Power and Energyl"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTgwZGI1ZjU3ZGI5ZTZjOGE4MmE0NWU4N2M5ZWE0Y2RjODgwYzNkYTg5Mjk5NDkxNGQ5MWYwMzUwOTYwMDgxMiJ9fX0=
   capacity: 10000
@@ -545,18 +545,18 @@ MAGIC_GENERATORS_WOOD:
 MAGIC_BATTERY_MACHINE_OUT_1:
   item_group: magic_power
   item:
-    name: "&b电荷卸载厂&7(魔法红石)"
+    name: "&dMagic Battery Machine Out 1"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWIxMGVkOTQwODBhMDc1NDZhMjQ1ZWM4MzdjZmM1ODE0Yzc2NThjN2VmMzM3YmUwMzVhMTFiMmUxZTAzYmExNiJ9fX0=
     lore:
-      - "&4终极 机器"
-      - "&7用于对&b魔法红石存储单元进行放电"
+      - "&7Magic Battery Machine Out 1"
+      - "&7Magic"
       - "&a"
-      - "&8⇨&e ⚡ &7速度: &b999x"
+      - "&7⇨ ⚡ : 999x"
       - "&8⇨&e ⚡ &72000 J/s"  
-      - "&8⇨&e ⚡ &72000 J 可存储"
+      - "&7⇨ ⚡ 2000 J capacity"
       - "&a"
-      - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l能{#E9967A}&l源{#F08080}&l与{#FF69B4}&l电{#DB7093}&l力{#FFC0CB}&l&kl"
+      - "&7lMagic-Power and Energyl"
   recipe_type: ENHANCED_CRAFTING_TABLE
   capacity: 2000
   production: 1000
@@ -607,18 +607,18 @@ MAGIC_BATTERY_MACHINE_OUT_1:
 MAGIC_GENERATOR_FINAL_INFINITE:
   item_group: magic_power
   item:
-    name: "{#FFC0CB}&l终{#FFB6C1}&l极{#FFA07A}&l魔{#FA8072}&l法{#E9967A}&l发{#F08080}&l电{#FF69B4}&l机&e&l-&e无&a尽&b锭"
+    name: "&dMagic Generator Final Infinite"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODJkYTY4YmJjOWJkNGNjYmM2ZGFjMzlkZmRlNWRiNWIwYmNhODM1ODIyNGI0ZGYzZmJmMGZiNmYzN2JmNzQ5OSJ9fX0=
     lore:
       - "&a"
-      - "&8⇨&e ⚡ &7速度: &c9999x"
+      - "&7⇨ ⚡ : 9999x"
       - "&8⇨&e ⚡ &74,294,967,294 J/s"  
-      - "&8⇨&e ⚡ &72,147,483,647 J 可存储"
-      - "{#FDB7D4}建议不要与电容接入同一个网络"
-      - "{#FDB7D4}实验性机器"
+      - "&7⇨ ⚡ 2,147,483,647 J capacity"
+      - "&7Magic Generator Final Infinite"
+      - "&7Experimental machine"
       - "&a"
-      - "{#FFC0CB}&l&kl{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l能{#E9967A}&l源{#F08080}&l与{#FF69B4}&l电{#DB7093}&l力{#FFC0CB}&l&kl"
+      - "&7lMagic-Power and Energyl"
   recipe_type: ENHANCED_CRAFTING_TABLE
   capacity: 2147483647
   production: 2147483647

@@ -131,12 +131,12 @@ function onBreak(event) {
         
 
         // 发送消息给玩家确认
-        sendMessage(player, "§b你成功清理了一个可疑沙子，并掉落了" +selectedDrop.getType().name()+ "！");
-        sendMessage(player, "§b额外获得物品 " + itemstack.getItemMeta().getDisplayName() + " §b*" + randomNumber);
+        sendMessage(player, "§bMagic Legacy action could not be completed." +selectedDrop.getType().name()+ "！");
+        sendMessage(player, "§bMagic Legacy action could not be completed." + itemstack.getItemMeta().getDisplayName() + " §b*" + randomNumber);
         
        
         }else {
-            sendMessage(player, "§b未能成功掉落物品，请检查配置。");
+            sendMessage(player, "§bMagic Legacy action could not be completed.");
         }
 
         // 阻止默认的方块掉落行为（可选）
@@ -144,7 +144,7 @@ function onBreak(event) {
 
         
         }else{
-        sendMessage(player, "§b请仔细刷刷这个沙砾，还没清理干净呢！");
+        sendMessage(player, "§bMagic Legacy action could not be completed.");
         }
      
         

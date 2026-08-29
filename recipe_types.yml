@@ -1,226 +1,226 @@
 MAGIC_GEC_MOB_TYPE:
-    name: "&4魔法鼓舞室组装台"
+    name: "&dMagic GEC Mob Type"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDJjOGU3NmZjZGRlOWExNWFlMzkyOWI4NGJmNmZmYTRjMTc3N2IxZTI2YjdkNmQ4OTM4ZjBlZjA0ZTg0ODc0YyJ9fX0=
     lore: 
       - "&a"
-      - "&7你可以在这里"
-      - "&7指定魔法鼓舞室生产的产物!"
-      - "&4这是一个不可逆操作!"
+      - "&7Magic GEC Mob Type"
+      - "&7Magic!"
+      - "&7Magic GEC Mob Type"
       - "&a"
-      - "&a多方块机器" 
+      - "&7Magic GEC Mob Type"
 
 MAGIC_BEEHIVE_MOB:
-    name: "&c蜜蜂放置台"
+    name: "&dMagic Beehive Mob"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzdjYmYyNThhMGUyZGUzNGM4MThhYThhODk4NjMxM2Y3MjkyOWU1YWJhOTg3OTcxNWY0MTM0YmRjNmM0MDJkNCJ9fX0=
     lore: 
       - "&a"
-      - "&7你可以在这里"
-      - "&7将蜜蜂放入到魔法蜂箱中!"
-      - "&4这是一个不可逆操作!"
+      - "&7Magic Beehive Mob"
+      - "&7MagicBeehive!"
+      - "&7Magic Beehive Mob"
       - "&a"
-      - "&a多方块机器" 
+      - "&7Magic Beehive Mob"
 
 MAGIC_ENERGY_PRESS: 
-    name: "&c魔法&8能量压缩仓"
+    name: "&dMagic Energy Press"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDYwMGYwZDJiMmFiNTI0YjIxOWUwZmE4MDhjODBiMjZlNzIzNjc4MDY4MTg2N2EwNjE3ZjczY2UzNjcxY2QyZiJ9fX0=
     lore: 
       - "&a"
-      - "&7对材料进行压缩"
+      - "&7Materials"
       - "&a" 
 
 MAGIC_GENSHIN_IMPACT_MACHINES:
-    name: "&b盲盒拆解机"
+    name: "&dMagic Genshin Impact Machines"
     lore:
     - "&a"
-    - "&f初级 机器"
-    - "&f用于打开各种盲盒"
+    - "Magic Genshin Impact Machines"
+    - "Magic Genshin Impact Machines"
     - "&a" 
-    - "&a盲盒机器"
+    - "Magic Genshin Impact Machines"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2ZiYjQ1ZjRlYTFlNTRmODhlN2UwMDg1OWU4ZWM5YTU5ODI4MjNkODg4YjZlMWY2YWUxZDY5YTQxNGZmZjcwZiJ9fX0=
 
 MAGIC_WAR_MACHINES_NUMERATOR:
-    name: "&b分子互作仪"
+    name: "&dMagic War Machines Numerator"
     lore:
     - "&a"
-    - "&6高级 机器"
-    - "&f将物质转化为对应自然元素"
-    - "&a魔法机器"
+    - "Magic War Machines Numerator"
+    - "Magic War Machines Numerator"
+    - "Magic War Machines Numerator"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDQ5YmM3MGM4ZmQyYzJlYzI3NzA1Y2Y4NTBlMmI0ODkyMzllYTc5NjI0NWQ0NzI3ZjBkNzc0YTFmZWI2Y2ZhZSJ9fX0=
 
 MAGIC_AUTHOR_MACHINE:
-    name: "&4&l起源工厂"
+    name: "&dMagic Credits Machine"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjU4NTBjYjhkNWYzMDg5Mzk5YWVhYzgxOTFmZWY5NmFkYmRlMWRiNWVjYjgyYmNmZTc0YzEzMjg2MmRkZTczZiJ9fX0=
     lore:
       - "&a"
-      - "&4终极 机器"
-      - "&7用于制造一些"
-      - "&7起源物品"
+      - "&7Magic Credits Machine"
+      - "&7Magic Credits Machine"
+      - "&7Magic Credits Machine"
       - "&a"
-      - "&c魔法机器"
+      - "&7Magic"
 
 ONLY_SNOW: 
-    name: "&B&l冬日限定"
+    name: "&dMagic Only Snow"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWRmNTAwZjBhM2MyYTgyYzkwZWRiMzdhZTJlZTI0NGQ4MDViMzI4Y2UzZmVmMjA1YmM5MGFlNmFjMmQ3YWQyYiJ9fX0=
     lore:
       - "&a"
-      - "&b冬日 限定"
+      - "&7Magic Only Snow"
 
 MAGIC_DATA_CARD_INSERT: 
-  name: "&8魔法生物芯片注入器"
+  name: "&dMagic Data Card Insert"
   material: lodestone
   lore:
       - "&a"
-      - "&7将魔法注入到生物芯片"
+      - "&7Magic"
       - "&a"
 
 MAGIC_CD_SINGULARITY: 
-  name: "&b卡片奇点压缩机"
+  name: "&dMagic Cd Singularity"
   material: MAGENTA_GLAZED_TERRACOTTA
   lore:
     - "&a" 
-    - "&7将资源压缩成奇点"
+    - "&7Magic Cd Singularity"
     - "&a"
 
 MAGIC_NONE: 
-  name: "{#FFC0CB}&l无{#FFB6C1}&l法{#FFA07A}&l合{#FA8072}&l成"
+  name: "&dMagic None"
   material: BEACON
   lore:
     - "&a" 
-    - "{#FFC0CB}&l痴{#FFB6C1}&l情{#FFA07A}&l的{#FA8072}&l人{#E9967A}&l啊{#F08080}&l!"
-    - "{#FFC0CB}&l请{#FFB6C1}&l再{#FFA07A}&l等{#FA8072}&l一{#E9967A}&l世{#F08080}&l吧{#FF69B4}&l~"
+    - "&7Magic None"
+    - "&7Magic None"
     - "&a"
 
 MAGIC_SPECIAL: 
-  name: "{#FFC0CB}&l特{#FFB6C1}&l殊{#FFA07A}&l配{#FA8072}&l方"
+  name: "&dMagic Special"
   material_type: skull_base64
   material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTYwNjM3NzhhYjBkNzNhMmY2MGJlMzdlMzUwNGFmMmI2NDdjZjI4NjMzZGQwNGRmYzA1ZjQ5ZjFlMDBhOTMxZCJ9fX0=
   lore:
     - "&a" 
-    - "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l专{#FA8072}&l属{#E9967A}&l配{#F08080}&l方"
-    - "{#FFC0CB}&l点{#FFB6C1}&l击{#FFA07A}&l下{#FA8072}&l方机{#E9967A}&l器进{#F08080}&l行跳{#FF69B4}&l转~"
+    - "&7Magic"
+    - "&7Magic Special"
     - "&a"
 
 MAGIC_INFINITY_ARMOR_MACHINE: 
-  name: "&b&l无尽装备工厂"
+  name: "&dMagic Infinity Armor Machine"
   material_type: skull_base64
   material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTlkMGY1MWYzOWUwOGU1MWNjODNjYmVjMDFlM2NlMTM2MmM3MGMwMmVkYzM1MTkwMmFmOGU3YTVmNmUyMDFiYyJ9fX0=
   lore:
     - "&a" 
-    - "&7&l无尽的起源"
-    - "&7&l追寻更纯粹的真理"
+    - "&7Magic Infinity Armor Machine"
+    - "&7Magic Infinity Armor Machine"
     - "&a"
 
 MAGIC_STORAGE_UPGRADE_TABLE:
-  name: "&b&l魔法抽屉升级台"
+  name: "&dMagic Storage Upgrade Table"
   material_type: skull_base64
   material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGI2MzVlOGNkMDQwNWJjYTVjM2ZkMzRiYWQ5M2EwMGNhNWEyY2EyYWQxMjE0Y2RhMTIwNDViYThhYmI4MzA1YiJ9fX0=
   lore: 
       - "&a"
-      - "&e&l用于升级魔法抽屉"
-      - "&d&l一次性魔法"
-      - "&c&l放置后拆除将失去效果"
+      - "&7tierMagic"
+      - "&7Magic"
+      - "&7Magic Storage Upgrade Table"
       - "&a"
-      - "&a多方块机器"
-      - "{#FF0000}樱{#FF4000}园{#FF8000}梦{#FFBF00}之{#FFFF00}乡{#BFFF00}粘{#80FF00}液{#40FF00}科{#00FF00}技{#00FF40}服{#00FF80}务{#00FFBF}器{#00FFFF}专{#00BFFF}属" 
+      - "&7Magic Storage Upgrade Table"
+      - "&7Magic Storage Upgrade Table"
 
 MAGIC_ORIGIN_COBBLESTONE_GEN_BASIC:
-  name: "{#FFFFFF}起{#D0E8F7}源{#A1D1F1}圆{#6495ED}石{#808080}生{#808080}成{#808080}器"
+  name: "&dMagic Origin Cobblestone Gen Basic"
   lore:
   - "&a"
-  - "&f可以生成起源圆石"
+  - "Magic Origin Cobblestone Gen Basic"
   material: SEA_LANTERN
   glow: true
 
 MAGIC_ORIGIN_BASIC_DUST_EXTRACTOR:
-  name: "{#FFFFFF}起{#B3B3FF}源{#6666FF}磨{#1919E6}粉{#0000FF}机"
+  name: "&dMagic Origin Basic Dust Extractor"
   material: FURNACE
   lore:
     - "&a"
-    - "&f将起源圆石变为起源矿粉"
+    - "&7Magic Origin Basic Dust Extractor"
   glow: true
 
 MAGIC_ORIGIN_BASIC_INGOT_FORMER:
-  name: "{#FFFFFF}起{#B3B3FF}源{#6666FF}铸{#1919E6}锭{#0000FF}机"
+  name: "&dMagic Origin Basic Ingot Former"
   material: FURNACE
   lore:
     - "&a"
-    - "&f将起源矿粉铸成起源矿锭"
+    - "&7Magic Origin Basic Ingot Former"
   glow: true
 
 MAGIC_ORIGIN_PRESS:
-  name: "{#FFFFFF}起{#FFE6B3}源{#FFD480}压{#FFC14D}缩{#FFAE19}机"
+  name: "&dMagic Origin Press"
   material: PISTON
   glow: true
   lore:
     - "&a"
-    - "&f将自然矿物压缩"
+    - "&7Magic Origin Press"
 
 MAGIC_RIGHT_CLICK_EXP_BOTTLE: 
-  name: "&b通过右键物品"
+  name: "&dMagic Right Click Exp Bottle"
   material: glass_bottle
   glow: true
   lore:
     - "&a"
-    - "&7右键魔法学识之瓶"
+    - "&7Magic"
 
 MAGIC_GRINDING_STONE:
-  name: "&b&l魔法磨石"
+  name: "&dMagic Grinding Stone"
   material: DISPENSER
   lore: 
     - "&a"
-    - "&a&l更高效地磨物品"
+    - "&7Magic Grinding Stone"
     - "&a"
-    - "&a多方块机器" 
+    - "&7Magic Grinding Stone"
 
 MAGIC_CATCH:
-  name: "{#FFC0CB}魔{#FFB6C1}法{#FFA07A}捕{#FA8072}捉{#E9967A}器{#F08080}"
+  name: "&dMagic Catch"
   material: COBWEB
   glow: true
   lore: 
-    - "{#FDB7D4}一定要用对型号哦~"
-    - "{#FDB7D4}还要记得给捕捉器充电哦~"
+    - "&7Magic Catch"
+    - "&7Magic Catch"
 
 
 MAGIC_MACHINE_TYPE:
-  name: "{#FFC0CB}&l该{#FFB9C3}&l物{#FFB3BA}&l品{#FFA8AF}&l为{#FF9DA4}&l机{#FA8E99}&l器{#F97F8E}&l生{#F87083}&l产{#F76178}&l物{#F6526D}&l品"
+  name: "&dMagic Machine Type"
   material: COMMAND_BLOCK
   glow: true
   lore: 
-    - "{#FFC0CB}&l点{#FFB6C1}&l击{#FFA07A}&l右{#FA8072}&l侧{#E9967A}&l机{#F08080}&l器"
-    - "{#FFC0CB}&l前{#FFB6C1}&l往{#FFA07A}&l查{#FA8072}&l看{#E9967A}&l合{#F08080}&l成{#FF69B4}&l配{#DB7093}&l方"
+    - "&7Magic Machine Type"
+    - "&7Magic Machine Type"
 
 MAGIC_GEOMINER:
-  name: "{#FDB7D4}魔法资源开采机"
+  name: "&dMagic Geominer"
   material_type: skull_base64
   material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmRiZGFiNjFiMTFhYjQ4MjljMjI4YjdhNjNiMjJiOGZhYzIxYjRhM2U2NzFlYTllNTNiNjNiYzgyZGMwYTcyOCJ9fX0=
   lore: 
       - "&a"
-      - "{#FDB7D4}从区块深处开采出魔法资源"
-      - "{#FDB7D4}可以开采出一些神秘的魔法资源"
-      - "{#FDB7D4}该机器一旦放置就会持续抽取电力"
-      - "&4！请先对所在区块进行地形扫描"
+      - "&7Magic"
+      - "&7Magic"
+      - "&7Magic Geominer"
+      - "&7Magic Geominer"
       - "&a"
-      - "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l能{#E9967A}&l源{#F08080}&l与{#FF69B4}&l电{#DB7093}&l力" 
+      - "&7Magic-Power and Energy"
 
 
 
 MAGIC_SUPREME_WORKBENCH:
-  name: "{#FFC0CB}&l至{#FFB6C1}&l尊{#FFA07A}&l机{#FA8072}&l器{#E9967A}&l组{#F08080}&l装{#FF69B4}&l台"
+  name: "&dMagic Supreme Workbench"
   material: REDSTONE_LAMP
   lore:
     - "&a"
-    - "{#FDB7D4}&l用于制作至尊机器"
-    - "{#FDB7D4}&l配方与速率一致"
-    - "{#FDB7D4}&l没有刷物bug"
+    - "&7Magic Supreme Workbench"
+    - "&7Magic Supreme Workbench"
+    - "&7bug"
     - "&a"
     - "&8⇨&e ⚡ &710000  J/per"
-    - "&8⇨&e ⚡ &7100000 J 可存储"
+    - "&7⇨ ⚡ 100000 J capacity"
     - "&a"
-    - "{#FFC0CB}&l魔{#FFB6C1}&l法{#FFA07A}&l-{#FA8072}&l能{#E9967A}&l源{#F08080}&l与{#FF69B4}&l电{#DB7093}&l力"
+    - "&7Magic-Power and Energy"
