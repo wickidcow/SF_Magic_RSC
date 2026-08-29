@@ -2,7 +2,7 @@ function onUse(event, itemStack) {
     var player = event.getPlayer();
     //检查主手是否持有物品
     if (event.getHand() !== org.bukkit.inventory.EquipmentSlot.HAND) {
-        sendMessage(player, "主手请持物品");
+        sendMessage(player, "§bHold the item in your main hand.");
         return;
     }
 
@@ -13,13 +13,13 @@ function onUse(event, itemStack) {
     var itemInOffHand = player.getInventory().getItemInOffHand();
     
     if (!itemInOffHand || itemInOffHand.getType() === org.bukkit.Material.AIR) {
-        sendMessage(player, "副手需要持有物品");
+        sendMessage(player, "§bMagic Legacy action could not be completed.");
         return ;
     }
 
     // 检查物品堆叠数量是否为1
     if (itemInOffHand.getAmount() !== 1) {
-    player.sendMessage("§b一次只能给一件物品充电哦~");
+    player.sendMessage("§bMagic Legacy action could not be completed.");
     return;
   }
     
@@ -28,8 +28,8 @@ function onUse(event, itemStack) {
     var itemMaxCharge = itemStack.getMaxItemCharge(onUseItem);
 
     if (itemCharge < itemMaxCharge*0.5){
-        sendMessage(player, "§b充电宝电量不足§c50%§b，无法进行充电！");  
-        sendMessage(player, "§b当前电量剩余：§c"+itemCharge+"J§a/"+ itemMaxCharge +"J §b。"); 
+        sendMessage(player, "§bMagic Legacy action could not be completed.");  
+        sendMessage(player, "§bMagic Legacy action could not be completed."+itemCharge+"J§a/"+ itemMaxCharge +"J §b。"); 
         return;
 
     }
@@ -43,13 +43,13 @@ function onUse(event, itemStack) {
 
     if (slimefunItem == null) {
         // 如果副手持有有效且可充电的物品，则继续执行其他逻辑
-        sendMessage(player, "§b这个是个不可充电物品");
+        sendMessage(player, "§bMagic Legacy action could not be completed.");
         return;
     }
 
     // 检查 getMaxItemCharge 和 getItemCharge 方法是否存在
     if (typeof slimefunItem.getMaxItemCharge !== 'function' || typeof slimefunItem.getItemCharge !== 'function') {
-        sendMessage(player, "§b当前物品不支持电量操作，请检查物品或插件版本。");
+        sendMessage(player, "§bMagic Legacy action could not be completed.");
         return;
     }
 
@@ -59,7 +59,7 @@ function onUse(event, itemStack) {
 
     if (!(MAX_Charge > 0)) {
         // 如果副手持有有效且可充电的物品，则继续执行其他逻辑
-        sendMessage(player, "§b这个是个不可充电物品");
+        sendMessage(player, "§bMagic Legacy action could not be completed.");
         return;
     }
 
@@ -81,8 +81,8 @@ function onUse(event, itemStack) {
 
         slimefunItem.setItemCharge(itemInOffHand, MAX_Charge);
 
-        sendMessage(player, "§b物品已经充满电啦~");
-        sendMessage(player, "§b本次充电总共消耗§e "+ RemoveCharge + "J §b电量~");
+        sendMessage(player, "§bMagic Legacy action could not be completed.");
+        sendMessage(player, "§bMagic Legacy action could not be completed."+ RemoveCharge + "§bMagic Legacy action could not be completed.");
 
 
         return;
@@ -90,7 +90,7 @@ function onUse(event, itemStack) {
 
 
     
-    sendMessage(player, "§b你手中的物品电量已经满啦！充不进去啦~");
+    sendMessage(player, "§bMagic Legacy action could not be completed.");
 
 
 

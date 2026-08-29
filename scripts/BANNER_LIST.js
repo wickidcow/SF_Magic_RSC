@@ -179,7 +179,7 @@ const killSoul = (event, item) => {
 const onUseStart = (event) => {
     let player = event.getPlayer();
     if (MainHandIf(event.getHand())) {
-        sendMessage(player, "§b请用主手持物品");
+        sendMessage(player, "§bMagic Legacy action could not be completed.");
         return;
     }
     let bannerConfig = bannerConfigGetter(sfIdGetter(event.getItem()));
@@ -191,7 +191,7 @@ const onUseStart = (event) => {
     let item = mainHandItem(player);
     let soulNum = getSoulNum(item);
     if (soulNum <= 100) {
-        sendMessage(player, "§c使用特殊技能至少需要持有100个灵魂");
+        sendMessage(player, "§bMagic Legacy action could not be completed.");
         return;
     }
 

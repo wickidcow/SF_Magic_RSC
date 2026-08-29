@@ -3,7 +3,7 @@ function onUse(event) {
   
   // 检查是否使用主手进行操作
   if (event.getHand() !== org.bukkit.inventory.EquipmentSlot.HAND) {
-    player.sendMessage("§e[魔法-增幅] §f请使用主手进行操作");
+    player.sendMessage("§bMagic Legacy action could not be completed.");
     return;
   }
 
@@ -26,12 +26,12 @@ function updateLore(event) {
   // 更新描述以切换不同装备类型的增幅位置
   let newLore = lore.map((line) => {
     switch (line) {
-      case "§e§lShift + 右键切换增幅位置 : §c§l 头盔": player.sendMessage("§a更改成功"); return "§e§lShift + 右键切换增幅位置 : §c§l 胸甲";
-      case "§e§lShift + 右键切换增幅位置 : §c§l 胸甲": player.sendMessage("§a更改成功"); return "§e§lShift + 右键切换增幅位置 : §c§l 护腿";
-      case "§e§lShift + 右键切换增幅位置 : §c§l 护腿": player.sendMessage("§a更改成功"); return "§e§lShift + 右键切换增幅位置 : §c§l 鞋子";
-      case "§e§lShift + 右键切换增幅位置 : §c§l 鞋子": player.sendMessage("§a更改成功"); return "§e§lShift + 右键切换增幅位置 : §c§l 主手";
-      case "§e§lShift + 右键切换增幅位置 : §c§l 主手": player.sendMessage("§a更改成功"); return "§e§lShift + 右键切换增幅位置 : §c§l 副手";
-      case "§e§lShift + 右键切换增幅位置 : §c§l 副手": player.sendMessage("§a更改成功"); return "§e§lShift + 右键切换增幅位置 : §c§l 头盔";
+      case "§bMagic Legacy action could not be completed.": player.sendMessage("§bMagic Legacy action could not be completed."); return "§bMagic Legacy action could not be completed.";
+      case "§bMagic Legacy action could not be completed.": player.sendMessage("§bMagic Legacy action could not be completed."); return "§bMagic Legacy action could not be completed.";
+      case "§bMagic Legacy action could not be completed.": player.sendMessage("§bMagic Legacy action could not be completed."); return "§bMagic Legacy action could not be completed.";
+      case "§bMagic Legacy action could not be completed.": player.sendMessage("§bMagic Legacy action could not be completed."); return "§bMagic Legacy action could not be completed.";
+      case "§bMagic Legacy action could not be completed.": player.sendMessage("§bMagic Legacy action could not be completed."); return "§bMagic Legacy action could not be completed.";
+      case "§bMagic Legacy action could not be completed.": player.sendMessage("§bMagic Legacy action could not be completed."); return "§bMagic Legacy action could not be completed.";
       default: return line;
     }
   });
@@ -47,13 +47,13 @@ function upgradeOffHandArmor(event) {
   
   // 检查副手中是否有物品
   if (offHandItem === null || offHandItem.getType() === org.bukkit.Material.AIR) {
-    player.sendMessage("§e[魔法-增幅] §f副手需要持有物品");
+    player.sendMessage("§bMagic Legacy action could not be completed.");
     return;
   }
 
    // 检查物品堆叠数量是否为1
    if (offHandItem.getAmount() !== 1) {
-    player.sendMessage("§e[魔法-增幅] §f不要贪心，一次只能强化一件物品");
+    player.sendMessage("§bMagic Legacy action could not be completed.");
     return;
   }
   let item = event.getItem();
@@ -75,9 +75,9 @@ function upgradeOffHandArmor(event) {
   // 强化副手物品
   let success = attemptUpgrade(player, offHandItem, event, equipmentSlot);
   if (success) {
-    player.sendMessage("§e[魔法-增幅] §f强化成功！以上为副手中装备的§e属性变化§f情况。");
+    player.sendMessage("§bMagic Legacy action could not be completed.");
   } else {
-    player.sendMessage("§e[魔法-增幅] §4强化失败！副手中的装备已销毁。");
+    player.sendMessage("§bMagic Legacy action could not be completed.");
   }
 }
 
@@ -286,35 +286,35 @@ function attemptUpgrade(player, item, event1, equipmentSlot) {
     incrementOrAddAttribute(item, player, attribute, equipmentSlot);
   }
   if(equipmentSlot == "HEAD"){
-    player.sendMessage("§e[魔法-增幅] §f 当前强化位置为 §e头盔");
-    player.sendMessage("§b[装备属性] → §c生命值　 + "+ (1).toFixed(2));
-    player.sendMessage("§b[装备属性] → §d护甲值　 + "+ (0.2).toFixed(2));
-    player.sendMessage("§b[装备属性] → §6盔甲韧性 + "+ (0.15).toFixed(2));
-    player.sendMessage("§b[装备属性] → §b攻击力　 + "+ (0.3).toFixed(2));
+    player.sendMessage("§bMagic Legacy action could not be completed.");
+    player.sendMessage("§bMagic Legacy action could not be completed."+ (1).toFixed(2));
+    player.sendMessage("§bMagic Legacy action could not be completed."+ (0.2).toFixed(2));
+    player.sendMessage("§bMagic Legacy action could not be completed."+ (0.15).toFixed(2));
+    player.sendMessage("§bMagic Legacy action could not be completed."+ (0.3).toFixed(2));
   }else if(equipmentSlot == "HAND"){
-    player.sendMessage("§e[魔法-增幅] §f 当前强化位置为 §e主手");
-    player.sendMessage("§b[装备属性] → §b攻击力　 + "+ (1).toFixed(2));
-    player.sendMessage("§b[装备属性] → §1攻击速度 + "+ (3).toFixed(2)+"%");
+    player.sendMessage("§bMagic Legacy action could not be completed.");
+    player.sendMessage("§bMagic Legacy action could not be completed."+ (1).toFixed(2));
+    player.sendMessage("§bMagic Legacy action could not be completed."+ (3).toFixed(2)+"%");
   }else if(equipmentSlot == "OFF_HAND"){
-    player.sendMessage("§e[魔法-增幅] §f 当前强化位置为 §e副手");
-    player.sendMessage("§b[装备属性] → §b攻击力　 + "+ (1).toFixed(2));
-    player.sendMessage("§b[装备属性] → §9移动速度 + "+ (2).toFixed(2)+"%");
+    player.sendMessage("§bMagic Legacy action could not be completed.");
+    player.sendMessage("§bMagic Legacy action could not be completed."+ (1).toFixed(2));
+    player.sendMessage("§bMagic Legacy action could not be completed."+ (2).toFixed(2)+"%");
   }else if(equipmentSlot == "CHEST"){
-    player.sendMessage("§e[魔法-增幅] §f 当前强化位置为 §e胸甲");
-    player.sendMessage("§b[装备属性] → §e击退抗性 + "+ (1).toFixed(2)+"%");
-    player.sendMessage("§b[装备属性] → §c生命值　 + "+ (1.5).toFixed(2));
-    player.sendMessage("§b[装备属性] → §d护甲值　 + "+ (0.6).toFixed(2));
-    player.sendMessage("§b[装备属性] → §6盔甲韧性 + "+ (0.15).toFixed(2));
+    player.sendMessage("§bMagic Legacy action could not be completed.");
+    player.sendMessage("§bMagic Legacy action could not be completed."+ (1).toFixed(2)+"%");
+    player.sendMessage("§bMagic Legacy action could not be completed."+ (1.5).toFixed(2));
+    player.sendMessage("§bMagic Legacy action could not be completed."+ (0.6).toFixed(2));
+    player.sendMessage("§bMagic Legacy action could not be completed."+ (0.15).toFixed(2));
   }else if(equipmentSlot == "LEGS"){
-    player.sendMessage("§e[魔法-增幅] §f 当前强化位置为 §e护腿");
-    player.sendMessage("§b[装备属性] → §d护甲值　 + "+ (0.4).toFixed(2));
-    player.sendMessage("§b[装备属性] → §6盔甲韧性 + "+ (0.15).toFixed(2));
-    player.sendMessage("§b[装备属性] → §b攻击力　 + "+ (0.1).toFixed(2));
+    player.sendMessage("§bMagic Legacy action could not be completed.");
+    player.sendMessage("§bMagic Legacy action could not be completed."+ (0.4).toFixed(2));
+    player.sendMessage("§bMagic Legacy action could not be completed."+ (0.15).toFixed(2));
+    player.sendMessage("§bMagic Legacy action could not be completed."+ (0.1).toFixed(2));
   }else {
-    player.sendMessage("§e[魔法-增幅] §f 当前强化位置为 §e鞋子");
-    player.sendMessage("§b[装备属性] → §d护甲值　 + "+ (0.4).toFixed(2));
-    player.sendMessage("§b[装备属性] → §6盔甲韧性 + "+ (0.15).toFixed(2));
-    player.sendMessage("§b[装备属性] → §9移动速度 + "+ (2).toFixed(2)+"%");
+    player.sendMessage("§bMagic Legacy action could not be completed.");
+    player.sendMessage("§bMagic Legacy action could not be completed."+ (0.4).toFixed(2));
+    player.sendMessage("§bMagic Legacy action could not be completed."+ (0.15).toFixed(2));
+    player.sendMessage("§bMagic Legacy action could not be completed."+ (2).toFixed(2)+"%");
   }
 
   decrementItemAmount(event1.getItem());

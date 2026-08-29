@@ -56,7 +56,7 @@ const onUseStart = (event) => {
     let player = event.getPlayer();
 
     if (MainHandIf(event.getHand())) {
-        sendMessage(player, "§b请用主手持物品");
+        sendMessage(player, "§bMagic Legacy action could not be completed.");
         return;
     }
 
@@ -67,7 +67,7 @@ const onUseStart = (event) => {
 
     // 检查物品堆叠数量是否为1
     if (itemInOffHand.getAmount() !== 1) {
-        player.sendMessage("§b不可以贪心哦~");
+        player.sendMessage("§bMagic Legacy action could not be completed.");
         return;
     }
 
@@ -80,13 +80,13 @@ const onUseStart = (event) => {
             if (item.getAmount()===64){
             decreaseItemInWhichHand(item, 64);
             modifyItemLore(itemInOffHand, 64);
-            player.sendMessage("§b注入成功~");
+            player.sendMessage("§bMagic Legacy action could not be completed.");
             return;
             }
         }
         decreaseItemInWhichHand(item, 1);
         modifyItemLore(itemInOffHand, 1);
-        player.sendMessage("§b注入成功~");
+        player.sendMessage("§bMagic Legacy action could not be completed.");
 
     }
 

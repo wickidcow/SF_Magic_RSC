@@ -6,7 +6,7 @@ function onUse(event) {
 
   // 检查主手是否持有物品
   if (event.getHand() !== org.bukkit.inventory.EquipmentSlot.HAND) {
-    sendMessage(player, "主手请持物品");
+    sendMessage(player, "§bHold the item in your main hand.");
     return;
   }
 
@@ -38,7 +38,7 @@ function onUse(event) {
     ExperienceOrb.setCustomName("精验球");
     ExperienceOrb.setExperience(100); // 设置经验值数量
     usageCountall++;
-    org.bukkit.Bukkit.broadcastMessage("§b§l" + player.getName() + "§a§l奖§9§l励§c§l了§d§l" + usageCount + "§e§l次§f§l,§f§l终§2§l于§3§l出§4§l来§5§l了§6§l~§7§l~§8§l~");
+    org.bukkit.Bukkit.broadcastMessage("§b§l" + player.getName() + "§bMagic Legacy action could not be completed." + usageCount + "§bMagic Legacy action could not be completed.");
 
     // 重置该玩家的使用次数
     playerUsageCounts.put(playerId, 0);
@@ -47,7 +47,7 @@ function onUse(event) {
 
   if (player.getFoodLevel() <= 0) {
     player.setHealth(0);
-    org.bukkit.Bukkit.broadcastMessage("§b§l" + player.getName() + "§4§l死§c§l于§e§l奖§a§l励§d§l过§6§l度§5§l~");
+    org.bukkit.Bukkit.broadcastMessage("§b§l" + player.getName() + "§bMagic Legacy action could not be completed.");
   } else {
     player.setFoodLevel(player.getFoodLevel() - 4);
     player.setSaturation(player.getSaturation() - 4);

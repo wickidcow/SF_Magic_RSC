@@ -73,18 +73,18 @@ const toLocation = (itemStack,player,playerData) => {
     zValue = zValue + zOffset;
 
     if(!worldName){
-        player.sendMessage("§c错误：无法找到世界 '" + worldName + "'！");
+        player.sendMessage("§bMagic Legacy action could not be completed." + worldName + "'！");
         return;
     }
 
     let world = org.bukkit.Bukkit.getWorld(worldName);
     if (!world) {
-        player.sendMessage("§c错误：无法找到世界 '" + worldName + "'！");
+        player.sendMessage("§bMagic Legacy action could not be completed." + worldName + "'！");
         return;
     }
 
     if (isNaN(xValue) || isNaN(yValue) || isNaN(zValue) || isNaN(yaw) || isNaN(pitch)) {
-        player.sendMessage("§c错误：无效的坐标值！");
+        player.sendMessage("§bMagic Legacy action could not be completed.");
         return;
     }
 
@@ -94,9 +94,9 @@ const toLocation = (itemStack,player,playerData) => {
      // 执行传送
      try {
         player.teleport(location);
-        player.sendMessage("§a随机传送至世界 '" + worldName + "' 的坐标 X:" + xValue + " Y:" + yValue + " Z:" + zValue + "！");
+        player.sendMessage("§bMagic Legacy action could not be completed." + worldName + "§bMagic Legacy action could not be completed." + xValue + " Y:" + yValue + " Z:" + zValue + "！");
     } catch (error) {
-        player.sendMessage("§c传送失败：" + error.message);
+        player.sendMessage("§bMagic Legacy action could not be completed." + error.message);
     }
 
     playTPSound(world,location);
@@ -112,7 +112,7 @@ function onUse(event) {
     let player = event.getPlayer();
     // 检查主手是否持有物品
     if (MainHandIf(event.getHand())) {
-        sendMessage(player, "§b请用主手持物品");
+        sendMessage(player, "§bMagic Legacy action could not be completed.");
         return;
     }
 

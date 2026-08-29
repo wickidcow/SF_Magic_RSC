@@ -6,7 +6,7 @@ function onUse(event, itemStack){
     let player = event.getPlayer();
     //检查主手是否持有物品
     if (event.getHand() !== org.bukkit.inventory.EquipmentSlot.HAND) {
-        sendMessage(player, "主手请持物品");
+        sendMessage(player, "§bHold the item in your main hand.");
         return;
     }
     
@@ -15,7 +15,7 @@ function onUse(event, itemStack){
     var Charge = itemStack.getItemCharge(onUseItem)
 
     if ( Charge < 250 ){
-        player.sendMessage("§b电量不足，请进行充电~")
+        player.sendMessage("§bNot enough charge. Please recharge the item.")
         return;
     }
 
@@ -40,7 +40,7 @@ function onUse(event, itemStack){
     generateParticleBeam(world, startLocation, direction, maxDistance);
 
     if (rayTraceResults == null) {
-        player.sendMessage("§b要对准§e生物§b哦~")
+        player.sendMessage("§bAim at a mob.")
         return;
     }
 
@@ -53,12 +53,12 @@ function onUse(event, itemStack){
     }
    
     if(!entity.isAdult()){
-        player.sendMessage("§b不可以抓捕幼年§e生物§b哦~")
+        player.sendMessage("§bYou cannot capture baby mobs.")
     }
     
     if (entity.getHealth() <= 0) {
-        sendMessage(player, "§b不可以捕捉§c已死亡的生物§b哦~");
-        sendMessage(player, "§e早就猜到你会这么想了！");
+        sendMessage(player, "§bYou cannot capture a dead mob.");
+        sendMessage(player, "§bNice try!");
     
     return;
 
@@ -512,7 +512,7 @@ if (entity instanceof org.bukkit.entity.Pig && entity.isAdult()) {
         return;
     }
 
-    player.sendMessage("§b这个§e生物§b不在图鉴内哦~")
+    player.sendMessage("§bMagic Legacy action could not be completed.")
 
 }
 

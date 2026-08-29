@@ -56,7 +56,7 @@ function onUse(event) {
 
      // 检查主手是否持有物品
   if (event.getHand() !== org.bukkit.inventory.EquipmentSlot.HAND) {
-    sendMessage(player, "主手请持物品");
+    sendMessage(player, "§bHold the item in your main hand.");
     return;
   }
 
@@ -93,7 +93,7 @@ function onUse(event) {
     damageEntitiesInRange(player.getLocation(), radius, height, damage, player);
 
     // 发送消息给玩家确认
-    sendMessage(player, "§b对范围内的生物造成了100点伤害！");
+    sendMessage(player, "§bMagic Legacy action could not be completed.");
 }
 
 // 示例调用：假设你有一个 event 对象

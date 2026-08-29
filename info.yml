@@ -5,7 +5,6 @@ pluginDepends:
 - Slimefun
 - InfinityExpansion2
 - GeneticChickengineering
-- GuizhanLibPlugin
 - Supreme
 - FoxyMachines
 scriptListener: 服务器

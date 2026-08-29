@@ -3,53 +3,53 @@ MAGIC_RESOURCES_STAR:
   entity: WITHER_SKELETON
   chance: 1
   item:
-    name: "&4&l暗物质碳"
+    name: "&dMagic Resources Star"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTk4MTZiMDA0YzBhMTI0NmVlMjA5NTA5ZmZjOTNhMzAyNGJmMWRmMTliMDk2OTlhYzgzNzlkZTExODYwZjUzMyJ9fX0=
     lore:
-      - "&7“暗物质”不是物质"
-      - "&7是物质的功能"
+      - "&7Magic Resources Star"
+      - "&7Magic Resources Star"
 
 MAGIC_CHICKEN_HEART:
   item_group: magic_resource
   entity: CHICKEN
   chance: 5
   item:
-    name: "&a鸡的精魄"
+    name: "&dMagic Chicken Heart"
     material: FERMENTED_SPIDER_EYE
     lore:
-      - "&7用于制作魔法鸡的核心材料"
-      - "&7只有极少数的鸡拥有"
+      - "&7MagicMaterials"
+      - "&7Magic Chicken Heart"
 
 MAGIC_BEE_1:
   item_group: magic_resource
   entity: BEE
   chance: 20
   item:
-    name: "&a魔法蜜蜂"
+    name: "&dMagic Bee 1"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODg2YTUwOWZmM2NkNDcxZjFiNDI4YTE5NGI2NzExNDcwYTU0NzczZTVkZTZlZTA3ZjdlNjAxY2M1ZTc1YTIwMCJ9fX0=
     lore:
       - "&a"
-      - "&7死而复生"
-      - "&7只有魔法蜜蜂才有这样的能力"
-      - "&7被人类击杀的普通蜜蜂有概率变成魔法蜜蜂"
+      - "&7Magic Bee 1"
+      - "&7Magic"
+      - "&7Magic"
       - "&a"
-      - "&6魔法动物"
+      - "&7Magic"
 
 MAGIC_DNF_COAL_1:
   item_group: magic_attribute_up
   entity: ZOMBIE
   chance: 88
   item:
-    name: "&c炉岩碳"
+    name: "&dMagic Dnf Coal 1"
     material: COAL
     lore: 
-      - "{#FDB7D4}装备锻造或机器元件的原材料"
-      - "{#FDB7D4}还需要进一步加工"
-      - "{#FDB7D4}基础材料"
+      - "&7Materials"
+      - "&7Magic Dnf Coal 1"
+      - "&7Materials"
       - "&a"
-      - "{#FFC0CB}&l&kl{#FFB6C1}&l魔{#FFA07A}&l法{#FA8072}&l-{#E9967A}&l装{#F08080}&l备{#FF69B4}&l强{#DB7093}&l化{#FFC0CB}&l&kl"
+      - "&7lMagic-l"
     glow: true
 
 MAGIC_DNF_COAL_PACKAGE:
@@ -57,14 +57,14 @@ MAGIC_DNF_COAL_PACKAGE:
   entity: ZOMBIE
   chance: 4
   item:
-    name: "&c一袋未提纯的炉岩碳"
+    name: "&dMagic Dnf Coal Package"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjE3NTk3ZDhmNWI0NmI1NWQ3MTA2YzhhMGM1YmIwNjU4NDNlNWNlMDcwMGMzNzk1ZjBmNmZlNWU3ZGU4ZWNlZSJ9fX0=
     lore: 
-      - "{#FDB7D4}这是一袋未提纯的炉岩碳"
-      - "{#FDB7D4}基础材料"
+      - "&7Magic Dnf Coal Package"
+      - "&7Materials"
       - "&a"
-      - "{#FFC0CB}&l&kl{#FFB6C1}&l魔{#FFA07A}&l法{#FA8072}&l-{#E9967A}&l装{#F08080}&l备{#FF69B4}&l强{#DB7093}&l化{#FFC0CB}&l&kl"
+      - "&7lMagic-l"
     glow: true
 
 MAGIC_DNF_STONE_1:
@@ -72,15 +72,15 @@ MAGIC_DNF_STONE_1:
   entity: SKELETON
   chance: 66
   item:
-    name: "&6无色小晶块"
+    name: "&dMagic Dnf Stone 1"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTg4ZDQwNGY1ZjFmYjdhYjJlODA4NzFkM2YzODU4N2Y1ZjNjNjhhYjYxZGFjNGFiNGFhZTVhMDBhM2RiMWI4MCJ9fX0=
     lore: 
-      - "{#FDB7D4}装备锻造或机器元件的原材料"
-      - "{#FDB7D4}还需要进一步加工"
-      - "{#FDB7D4}基础材料"
+      - "&7Materials"
+      - "&7Magic Dnf Stone 1"
+      - "&7Materials"
       - "&a"
-      - "{#FFC0CB}&l&kl{#FFB6C1}&l魔{#FFA07A}&l法{#FA8072}&l-{#E9967A}&l装{#F08080}&l备{#FF69B4}&l强{#DB7093}&l化{#FFC0CB}&l&kl"
+      - "&7lMagic-l"
     glow: true
 
 MAGIC_DNF_STONE_PACKAGE:
@@ -88,14 +88,14 @@ MAGIC_DNF_STONE_PACKAGE:
   entity: SKELETON
   chance: 3
   item:
-    name: "&6一袋未提纯的无色小晶块"
+    name: "&dMagic Dnf Stone Package"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTlmNDMyYjViMjE2OGQwMTBjZjdiNDE3MjhlYmM3N2E4ODFjNGFjODEyNTliZjMxYWQ5MTU4ZjE0YjQyYjFkIn19fQ==
     lore: 
-      - "{#FDB7D4}这是一袋未提纯的无色小结晶块"
-      - "{#FDB7D4}基础材料"
+      - "&7Magic Dnf Stone Package"
+      - "&7Materials"
       - "&a"
-      - "{#FFC0CB}&l&kl{#FFB6C1}&l魔{#FFA07A}&l法{#FA8072}&l-{#E9967A}&l装{#F08080}&l备{#FF69B4}&l强{#DB7093}&l化{#FFC0CB}&l&kl"
+      - "&7lMagic-l"
     glow: true
 
 
@@ -104,9 +104,9 @@ MAGIC_BASIC_CIRCUIT_BOARD:
   entity: IRON_GOLEM
   chance: 95
   item:
-    name: "&c魔法电路板"
+    name: "&dMagic Basic Circuit Board"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGUwODEwNDFkNzQwMTJjMzM4NGY1MmNjMmJiM2I5OTY0ZGY2MjhmZTg3YzZmMDBhMzk4N2ZjN2M2ZjQ3ZTM0YSJ9fX0=
     lore: 
       - "&a"
-      - "&7科技零件的基础材料"
+      - "&7Materials"

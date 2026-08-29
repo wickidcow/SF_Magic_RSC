@@ -9,7 +9,7 @@ function onUse(event) {
 
     // 检查主手是否持有物品
     if (event.getHand() !== EquipmentSlot.HAND) {
-        sendMessage(player, "§b请用主手持剑");
+        sendMessage(player, "§bMagic Legacy action could not be completed.");
         return;
     }
 
@@ -29,7 +29,7 @@ function onUse(event) {
     // 处理射线追踪结果
     handleRayTraceResult(rayTraceResults, player);
 
-    player.sendMessage("验证执行");
+    player.sendMessage("§bMagic Legacy action could not be completed.");
 }
 
 // 生成粒子效果
@@ -46,7 +46,7 @@ function generateParticleBeam(world, startLocation, direction, maxDistance) {
 // 处理射线追踪结果
 function handleRayTraceResult(rayTraceResults, player) {
     if (rayTraceResults == null || rayTraceResults.getHitEntity() == null) {
-        sendMessage(player, "§b没有击中任何目标~");
+        sendMessage(player, "§bMagic Legacy action could not be completed.");
         return;
     }
 
@@ -56,7 +56,7 @@ function handleRayTraceResult(rayTraceResults, player) {
     if (entity instanceof org.bukkit.entity.LivingEntity) {
         applyDamage(entity, player);
     } else {
-        sendMessage(player, "§b击中了一个非生物目标~");
+        sendMessage(player, "§bMagic Legacy action could not be completed.");
     }
 }
 
@@ -66,7 +66,7 @@ function applyDamage(entity, player) {
 
     entity.damage(DAMAGE_AMOUNT, player); // 对生物造成伤害，并指定伤害来源为玩家
 
-    sendMessage(player, `§b成功击中并伤害了 ${entity.getName()}！`);
+    sendMessage(player, `§bSuccessfully hit and damaged ${entity.getName()}!`);
 }
 
 // 发送消息给玩家
