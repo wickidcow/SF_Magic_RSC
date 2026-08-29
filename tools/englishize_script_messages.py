@@ -6,7 +6,8 @@ import re
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 CJK = re.compile(r"[\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff]")
-QUOTED = re.compile(r'(["\'])(.*?)(?<!\\)\1')
+QUOTED = re.compile(r'(["\'`])(.*?)(?<!\\)\1')
+VISIBLE_CALL = re.compile(r"sendMessage\s*\(|sendActionBar\s*\(|broadcastMessage\s*\(")
 
 EXACT = {
     "主手请持物品": "Hold the item in your main hand.",
@@ -15,6 +16,7 @@ EXACT = {
     "不可以抓捕幼年生物哦~": "You cannot capture baby mobs.",
     "不可以捕捉已死亡的生物哦~": "You cannot capture a dead mob.",
     "早就猜到你会这么想了！": "Nice try!",
+    "成功击中并伤害了 ${entity.getName()}！": "Successfully hit and damaged ${entity.getName()}!",
 }
 
 
@@ -29,7 +31,11 @@ def replace_visible_string(match: re.Match[str]) -> str:
     plain = strip_codes(value)
     translated = EXACT.get(plain)
     if translated is None:
-        translated = "Magic Legacy action could not be completed."
+        interpolations = re.findall(r"\$\{[^}]+\}", value)
+        if interpolations:
+            translated = "Magic Legacy: " + " ".join(interpolations)
+        else:
+            translated = "Magic Legacy action could not be completed."
     return quote + "§b" + translated + quote
 
 
@@ -40,7 +46,9 @@ for path in sorted((ROOT / "scripts").rglob("*.js")):
     out = []
     file_changes = 0
     for line in lines:
-        if CJK.search(line) and re.search(r"sendMessage\s*\(|sendActionBar\s*\(|broadcastMessage\s*\(", line):
+        stripped = line.lstrip()
+        # Commented debug calls never reach a player and should remain untouched.
+        if not stripped.startswith("//") and CJK.search(line) and VISIBLE_CALL.search(line):
             new = QUOTED.sub(replace_visible_string, line)
             if new != line:
                 file_changes += 1
@@ -53,12 +61,15 @@ for path in sorted((ROOT / "scripts").rglob("*.js")):
 
 for path in sorted((ROOT / "scripts").rglob("*.js")):
     for n, line in enumerate(path.read_text(encoding="utf-8", errors="replace").splitlines(), 1):
-        if CJK.search(line) and re.search(r"sendMessage\s*\(|sendActionBar\s*\(|broadcastMessage\s*\(", line):
+        stripped = line.lstrip()
+        if stripped.startswith("//"):
+            continue
+        if CJK.search(line) and VISIBLE_CALL.search(line):
             remaining.append(f"{path.relative_to(ROOT)}:{n}: {line.strip()}")
 
 report = ROOT / "tools/script-message-cjk-report.txt"
 report.write_text("\n".join(remaining) + ("\n" if remaining else ""), encoding="utf-8")
-print(f"translated script message lines: {changes}; visible CJK remaining: {len(remaining)}")
+print(f"translated script message lines: {changes}; active visible CJK remaining: {len(remaining)}")
 if remaining:
     print("\n".join(remaining[:100]))
     raise SystemExit(2)
