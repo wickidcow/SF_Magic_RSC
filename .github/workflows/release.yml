@@ -88,17 +88,37 @@ jobs:
           test "$(unzip -Z1 "$MAGIC_ARCHIVE" | grep -c '^Magic/info.yml$')" -eq 1
           test "$(unzip -Z1 "$MAGIC_ARCHIVE" | grep -c '^Magic/items.yml$')" -eq 1
 
-          if unzip -p "$MAGIC_ARCHIVE" Magic/items.yml | grep -q '^MAGIC_POWERED_BEDROCK_COMPAT:'; then
+          verify_dir="$(mktemp -d)"
+          trap 'rm -rf "$verify_dir"' EXIT
+          unzip -q "$MAGIC_ARCHIVE" -d "$verify_dir"
+          runtime="$verify_dir/Magic"
+
+          if grep -R -n --include='*.yml' --include='*.yaml' --include='*.js' \
+              'io.github.mooy1.infinityexpansion.items.blocks.InfinityWorkbench' "$runtime"; then
+            echo "Old InfinityExpansion v1 workbench class remained anywhere in the release package"
+            exit 1
+          fi
+
+          if grep -q '^MAGIC_POWERED_BEDROCK_COMPAT:' "$runtime/items.yml"; then
             echo "Obsolete POWERED_BEDROCK compatibility shim remained in release package"
             exit 1
           fi
 
-          if unzip -p "$MAGIC_ARCHIVE" Magic/template_machines.yml | grep -q 'io.github.mooy1.infinityexpansion.items.blocks.InfinityWorkbench'; then
-            echo "Old InfinityExpansion v1 workbench class remained in release package"
+          # These IDs have verified current owners and should always be normalized in
+          # the shipped Legacy runtime so RSC does not warn about dead first choices.
+          if grep -R -n --include='*.yml' --include='*.yaml' \
+              -E '^[[:space:]]*material:[[:space:]]*(VEX_GEM|DT_BEE|GROWTH_CHAMBER_MK2)([[:space:]]|$)' "$runtime"; then
+            echo "Legacy DynaTech item IDs remained in release package"
             exit 1
           fi
 
-          duplicates="$(unzip -p "$MAGIC_ARCHIVE" Magic/template_machines.yml | awk '/^[A-Za-z0-9_.-]+:[[:space:]]*($|#)/ {k=$1; sub(/:$/, "", k); count[k]++} END {for (k in count) if (count[k] > 1) print k}')"
+          if grep -R -n --include='*.yml' --include='*.yaml' \
+              'material: GCE_EXCITATION_CHAMBER_10 | GCE_EXCITATION_CHAMBER_3' "$runtime"; then
+            echo "Obsolete GCE tier-10 fallback remained in release package"
+            exit 1
+          fi
+
+          duplicates="$(awk '/^[A-Za-z0-9_.-]+:[[:space:]]*($|#)/ {k=$1; sub(/:$/, "", k); count[k]++} END {for (k in count) if (count[k] > 1) print k}' "$runtime/template_machines.yml")"
           if [ -n "$duplicates" ]; then
             echo "Duplicate top-level template machine keys remained:"
             echo "$duplicates"
@@ -123,22 +143,28 @@ jobs:
           ### Highlights
           - Slimefun Legacy compatibility target
           - InfinityExpansion2-native item IDs and recipe references
+          - Current DynaTech IDs for Bee, Vex Gem, and Growth Chamber MK2 integrations
+          - Current GeneticChickengineering tier-3 excitation chamber integration
           - Runtime compatibility cleanup for legacy IE1 references
           - Duplicate top-level YAML entries removed from the packaged drop-in
           - Obsolete Magic POWERED_BEDROCK shim removed in favor of IE2's native item
-          - Current InfinityExpansion2 InfinityWorkbench class path used
+          - Current InfinityExpansion2 InfinityWorkbench class path used throughout the runtime package
           - Runtime-only drop-in archive for RykenSlimefunCustomizer
           - Original MAGIC_* bridge IDs preserved
           - Maintained for the Paper 26.2 Slimefun Legacy stack
 
           ### Install
-          Extract the included Magic folder to:
+          Stop the server and replace the existing Magic addon directory rather than merging files into it.
+
+          Final location:
 
           plugins/RykenSlimefunCustomizer/addons/Magic
 
           The final file path should include:
 
           plugins/RykenSlimefunCustomizer/addons/Magic/info.yml
+
+          A clean directory replacement is important because obsolete YAML/scripts from older Magic builds can otherwise remain on disk and continue loading.
 
           Requires RykenSlimefunCustomizer plus the dependencies listed in info.yml.
 
