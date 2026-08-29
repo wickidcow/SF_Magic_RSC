@@ -5,7 +5,11 @@ on:
     branches:
       - main
     paths:
-      - info.yml
+      - '*.yml'
+      - 'saveditems/**'
+      - 'scripts/**/*.js'
+      - 'tools/**'
+      - '.github/workflows/release.yml'
   workflow_dispatch:
 
 permissions:
@@ -64,6 +68,9 @@ jobs:
               cp "$file" "$target"
             done
           fi
+
+          python tools/apply_runtime_fixes.py "$root"
+
           archive="Magic-${version}.zip"
           (cd dist && zip -9 -r "../$archive" Magic >/dev/null)
           sha256sum "$archive" > "$archive.sha256"
@@ -80,6 +87,23 @@ jobs:
           fi
           test "$(unzip -Z1 "$MAGIC_ARCHIVE" | grep -c '^Magic/info.yml$')" -eq 1
           test "$(unzip -Z1 "$MAGIC_ARCHIVE" | grep -c '^Magic/items.yml$')" -eq 1
+
+          if unzip -p "$MAGIC_ARCHIVE" Magic/items.yml | grep -q '^MAGIC_POWERED_BEDROCK_COMPAT:'; then
+            echo "Obsolete POWERED_BEDROCK compatibility shim remained in release package"
+            exit 1
+          fi
+
+          if unzip -p "$MAGIC_ARCHIVE" Magic/template_machines.yml | grep -q 'io.github.mooy1.infinityexpansion.items.blocks.InfinityWorkbench'; then
+            echo "Old InfinityExpansion v1 workbench class remained in release package"
+            exit 1
+          fi
+
+          duplicates="$(unzip -p "$MAGIC_ARCHIVE" Magic/template_machines.yml | awk '/^[A-Za-z0-9_.-]+:[[:space:]]*($|#)/ {k=$1; sub(/:$/, "", k); count[k]++} END {for (k in count) if (count[k] > 1) print k}')"
+          if [ -n "$duplicates" ]; then
+            echo "Duplicate top-level template machine keys remained:"
+            echo "$duplicates"
+            exit 1
+          fi
 
       - name: Create or update GitHub release
         if: steps.meta.outputs.publish == 'true'
@@ -99,9 +123,12 @@ jobs:
           ### Highlights
           - Slimefun Legacy compatibility target
           - InfinityExpansion2-native item IDs and recipe references
-          - 2,116 verified IE1-to-IE2 reference migrations across the Magic pack
+          - Runtime compatibility cleanup for legacy IE1 references
+          - Duplicate top-level YAML entries removed from the packaged drop-in
+          - Obsolete Magic POWERED_BEDROCK shim removed in favor of IE2's native item
+          - Current InfinityExpansion2 InfinityWorkbench class path used
           - Runtime-only drop-in archive for RykenSlimefunCustomizer
-          - Original MAGIC_* IDs preserved wherever practical
+          - Original MAGIC_* bridge IDs preserved
           - Maintained for the Paper 26.2 Slimefun Legacy stack
 
           ### Install
