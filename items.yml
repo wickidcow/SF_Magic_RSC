@@ -6074,7 +6074,7 @@ MAGIC_NEW_PLANECUP:
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzUwM2JjOTFhMTM4Njc3NzdlNWY1ZDE0MGQwMTYwYTJlNzgxZTA1YmYzZDYwMGRmM2Q0YmE5YzUxYjMzMWI3MyJ9fX0=
     lore: 
-      - "&7lMagicl"
+      - "&8Magic Legacy"
       - "&a"
   script: "planecup"
   recipe_type: MAGIC_WORKBENCH
@@ -7904,7 +7904,7 @@ MAGIC_MUSIC:
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWM2MmZkMGQ0MTIzZGVlZWI4MjRhMDBhMTViMDliOTYwMzllZDMzNTk5YzA3N2VmNjc4MjEyMjZhMThmMWYxMSJ9fX0=
     lore: 
-      - "&7lMagicl"
+      - "&8Magic Legacy"
       - "&7Magic Music"
       - "&7baby oh~"
       - "&a"
@@ -7953,7 +7953,7 @@ MAGIC_DUST_PICKAXE:
     name: "&dMagic Dust Pickaxe"
     material: DIAMOND_PICKAXE
     lore: 
-      - "&7lMagicl"
+      - "&8Magic Legacy"
       - "&a"
   recipe_type: MAGIC_WORKBENCH
   script: MOFENGAO
@@ -9198,7 +9198,7 @@ MAGIC_INFINITE_STICK:
     material: STICK
     glow: true
     lore: 
-      - "&7lMagicl"
+      - "&8Magic Legacy"
       - "&a"
       - "&7seconds"
       - "&a"
@@ -9222,7 +9222,7 @@ MAGIC_UNBREAKABLE_RUNE:
     material: FIREWORK_STAR
     glow: true
     lore: 
-      - "&7lMagicl"
+      - "&8Magic Legacy"
       - "&a"
       - "&7Materials"
   recipe_type: MAGIC_WORKBENCH
@@ -9285,7 +9285,7 @@ MAGIC_BEE_CATCH:
     material: BRUSH
     glow: true
     lore: 
-      - "&7lMagicl"
+      - "&8Magic Legacy"
       - "&a"
       - "&a"
       - "&7Magic"
@@ -9336,7 +9336,7 @@ MAGIC_PIG_CATCH:
     material: BRUSH
     glow: true
     lore: 
-      - "&7lMagicl"
+      - "&8Magic Legacy"
       - "&a"
       - "&a"
       - "&7Magic"
@@ -9387,7 +9387,7 @@ MAGIC_SHEEP_CATCH:
     material: BRUSH
     glow: true
     lore: 
-      - "&7lMagicl"
+      - "&8Magic Legacy"
       - "&a"
       - "&a"
       - "&7Magic"
@@ -9439,7 +9439,7 @@ MAGIC_CHICKEN_CATCH:
     material: BRUSH
     glow: true
     lore: 
-      - "&7lMagicl"
+      - "&8Magic Legacy"
       - "&a"
       - "&a"
       - "&7Magic"
@@ -9490,7 +9490,7 @@ MAGIC_COW_CATCH:
     material: BRUSH
     glow: true
     lore: 
-      - "&7lMagicl"
+      - "&8Magic Legacy"
       - "&a"
       - "&a"
       - "&7Magic"
@@ -9541,7 +9541,7 @@ MAGIC_OCELOT_CATCH:
     material: BRUSH
     glow: true
     lore: 
-      - "&7lMagicl"
+      - "&8Magic Legacy"
       - "&a"
       - "&a"
       - "&7Magic"
@@ -9592,7 +9592,7 @@ MAGIC_CAT_CATCH:
     material: BRUSH
     glow: true
     lore: 
-      - "&7lMagicl"
+      - "&8Magic Legacy"
       - "&a"
       - "&a"
       - "&7Magic"
@@ -9644,7 +9644,7 @@ MAGIC_DONKEY_CATCH:
     material: BRUSH
     glow: true
     lore: 
-      - "&7lMagicl"
+      - "&8Magic Legacy"
       - "&a"
       - "&a"
       - "&7Magic"
@@ -9695,7 +9695,7 @@ MAGIC_FOX_CATCH:
     material: BRUSH
     glow: true
     lore: 
-      - "&7lMagicl"
+      - "&8Magic Legacy"
       - "&a"
       - "&a"
       - "&7Magic"
@@ -9747,7 +9747,7 @@ MAGIC_FROG_CATCH:
     material: BRUSH
     glow: true
     lore: 
-      - "&7lMagicl"
+      - "&8Magic Legacy"
       - "&a"
       - "&a"
       - "&7Magic"
@@ -9799,7 +9799,7 @@ MAGIC_GOAT_CATCH:
     material: BRUSH
     glow: true
     lore: 
-      - "&7lMagicl"
+      - "&8Magic Legacy"
       - "&a"
       - "&a"
       - "&7Magic"
@@ -9851,7 +9851,7 @@ MAGIC_HOGLIN_CATCH:
     material: BRUSH
     glow: true
     lore: 
-      - "&7lMagicl"
+      - "&8Magic Legacy"
       - "&a"
       - "&a"
       - "&7Magic"
@@ -9903,7 +9903,7 @@ MAGIC_HORSE_CATCH:
     material: BRUSH
     glow: true
     lore: 
-      - "&7lMagicl"
+      - "&8Magic Legacy"
       - "&a"
       - "&a"
       - "&7Magic"
@@ -9955,7 +9955,7 @@ MAGIC_LLAMA_CATCH:
     material: BRUSH
     glow: true
     lore: 
-      - "&7lMagicl"
+      - "&8Magic Legacy"
       - "&a"
       - "&a"
       - "&7Magic"
@@ -10007,7 +10007,7 @@ MAGIC_TRADER_LLAMA_CATCH:
     material: BRUSH
     glow: true
     lore: 
-      - "&7lMagicl"
+      - "&8Magic Legacy"
       - "&a"
       - "&a"
       - "&7Magic"
@@ -10059,7 +10059,7 @@ MAGIC_MOOSHROOM_CATCH:
     material: BRUSH
     glow: true
     lore: 
-      - "&7lMagicl"
+      - "&8Magic Legacy"
       - "&a"
       - "&a"
       - "&7Magic"
@@ -10111,7 +10111,7 @@ MAGIC_MULE_CATCH:
     material: BRUSH
     glow: true
     lore: 
-      - "&7lMagicl"
+      - "&8Magic Legacy"
       - "&a"
       - "&a"
       - "&7Magic"
@@ -10163,7 +10163,7 @@ MAGIC_PANDA_CATCH:
     material: BRUSH
     glow: true
     lore: 
-      - "&7lMagicl"
+      - "&8Magic Legacy"
       - "&a"
       - "&a"
       - "&7Magic"
@@ -10215,7 +10215,7 @@ MAGIC_RABBIT_CATCH:
     material: BRUSH
     glow: true
     lore: 
-      - "&7lMagicl"
+      - "&8Magic Legacy"
       - "&a"
       - "&a"
       - "&7Magic"
@@ -10267,7 +10267,7 @@ MAGIC_STRIDER_CATCH:
     material: BRUSH
     glow: true
     lore: 
-      - "&7lMagicl"
+      - "&8Magic Legacy"
       - "&a"
       - "&a"
       - "&7Magic"
@@ -10319,7 +10319,7 @@ MAGIC_TURTLE_CATCH:
     material: BRUSH
     glow: true
     lore: 
-      - "&7lMagicl"
+      - "&8Magic Legacy"
       - "&a"
       - "&a"
       - "&7Magic"
@@ -10371,7 +10371,7 @@ MAGIC_WOLF_CATCH:
     material: BRUSH
     glow: true
     lore: 
-      - "&7lMagicl"
+      - "&8Magic Legacy"
       - "&a"
       - "&a"
       - "&7Magic"
@@ -10430,7 +10430,7 @@ MAGIC_ALLAY_CATCH:
     material: BRUSH
     glow: true
     lore: 
-      - "&7lMagicl"
+      - "&8Magic Legacy"
       - "&a"
       - "&a"
       - "&7Magic"
@@ -10481,7 +10481,7 @@ MAGIC_ALL_CATCH:
     material: BRUSH
     glow: true
     lore: 
-      - "&7lMagicl"
+      - "&8Magic Legacy"
       - "&a"
       - "&7Magic"
       - "&7Experimental tool"
@@ -10527,7 +10527,7 @@ MAGIC_POWER_BANK_ALPHA:
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTZlMGM5NTRkNWNhYjRiOTcxNGI4YTdlYWY5NzQyZWVhYWI3ZGRhN2ZjMmVmZmVmYjE1MzAwOTlhZTEzMDlhYyJ9fX0=
     lore: 
-      - "&7lMagicl"
+      - "&8Magic Legacy"
       - "&a"
       - "&a"
       - "&7Magic"
@@ -10579,7 +10579,7 @@ MAGIC_POWER_BANK_BETA:
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2NiMWQ1YmRlN2YyZGY1NGYxY2FhNDNjMDU2ZjQ2MmFkMThiNWY3MzZjZTJjOGZlYWE2MmFmNjMxZGJlYWE0MCJ9fX0=
     lore: 
-      - "&7lMagicl"
+      - "&8Magic Legacy"
       - "&a"
       - "&a"
       - "&7Magic"
@@ -10664,7 +10664,7 @@ MAGIC_ENCHANT_UP_1:
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWM4ZTBjZmViYzdmOWM3ZTE2ZmJhYWFlMDI1ZDFiMWQxOWQ1ZWU2MzM2NjZiY2YyNWZhMGI0MGQ1YmQyMWJjZCJ9fX0=
     lore: 
-      - "&7lMagicl"
+      - "&8Magic Legacy"
       - "&a"
       - "&7, tier+1"
       - "&710 tier1%"
@@ -10685,7 +10685,7 @@ MAGIC_ENCHANT_UP_1_MAX:
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWM4ZTBjZmViYzdmOWM3ZTE2ZmJhYWFlMDI1ZDFiMWQxOWQ1ZWU2MzM2NjZiY2YyNWZhMGI0MGQ1YmQyMWJjZCJ9fX0=
     lore: 
-      - "&7lMagicl"
+      - "&8Magic Legacy"
       - "&a"
       - "&7, tier+1"
       - "&a"
@@ -10704,7 +10704,7 @@ MAGIC_ENCHANT_UPUP_1:
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTMyNjRjMDkwOTlmYjI1MzJmNThlNTliOTFkOWYxMGZiZmZjMGIyNzBhN2VjMzg4MzNlODJhYzlkMTdjODRiZSJ9fX0=
     lore: 
-      - "&7lMagicl"
+      - "&8Magic Legacy"
       - "&a"
       - "&7tier+1"
       - "&710 tier2%"
@@ -10725,7 +10725,7 @@ MAGIC_ENCHANT_UPUP_1_MAX:
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTMyNjRjMDkwOTlmYjI1MzJmNThlNTliOTFkOWYxMGZiZmZjMGIyNzBhN2VjMzg4MzNlODJhYzlkMTdjODRiZSJ9fX0=
     lore: 
-      - "&7lMagicl"
+      - "&8Magic Legacy"
       - "&a"
       - "&7tier+1"
       - "&a"
@@ -10740,7 +10740,7 @@ MAGIC_ATTRIBUTE_UPUP_1:
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTMyNjRjMDkwOTlmYjI1MzJmNThlNTliOTFkOWYxMGZiZmZjMGIyNzBhN2VjMzg4MzNlODJhYzlkMTdjODRiZSJ9fX0=
     lore: 
-      - "&7lMagicl"
+      - "&8Magic Legacy"
       - '&7Shift + :'
       - "&a"
       - "&8Magic Legacy"
@@ -10759,7 +10759,7 @@ MAGIC_ATTRIBUTE_UPUP_1_MAX:
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTMyNjRjMDkwOTlmYjI1MzJmNThlNTliOTFkOWYxMGZiZmZjMGIyNzBhN2VjMzg4MzNlODJhYzlkMTdjODRiZSJ9fX0=
     lore: 
-      - "&7lMagicl"
+      - "&8Magic Legacy"
       - '&7Shift + :'
       - "&a"
       - "&8Magic Legacy"
@@ -10773,7 +10773,7 @@ MAGIC_STICK_JIGUANG_1:
     name: "&dMagic Stick Jiguang 1"
     material: STICK
     lore: 
-      - "&7lMagicl"
+      - "&8Magic Legacy"
       - "&a"
       - "&8Magic Legacy"
   script: magic_stick_jiguang_1
@@ -10787,7 +10787,7 @@ MAGIC_GUN_1:
     name: "&dMagic Gun 1"
     material: STICK
     lore: 
-      - "&7lMagicl"
+      - "&8Magic Legacy"
       - "&a"
       - "&8Magic Legacy"
   script: 基础枪
@@ -10802,7 +10802,7 @@ MAGIC_CHRISTMAS_SNOWBALL:
     name: "&dMagic Christmas Snowball"
     material: SNOWBALL
     lore: 
-      - "&7lMagicl"
+      - "&8Magic Legacy"
       - "&a"
       - "&8Magic Legacy"
   script: CHRISTMAS_SNOWBALL
@@ -10824,7 +10824,7 @@ MAGIC_SOUND:
     name: "&dMagic Sound"
     material: PAPER
     lore: 
-      - "&7lMagicl"
+      - "&8Magic Legacy"
       - "&a"
       - "&8Magic Legacy"
   script: sound
@@ -10838,7 +10838,7 @@ MAGIC_ZHENFA_FIRE_1:
     name: "&dMagic Zhenfa Fire 1"
     material: PAPER
     lore: 
-      - "&7lMagicl"
+      - "&8Magic Legacy"
       - "&a"
       - "&8Magic Legacy"
   script: 阵法_小火苗_1
@@ -10860,7 +10860,7 @@ MAGIC_KAOGU_BRUSH:
     material_type: saveditem
     material: KAOGU_BRUSH
     lore: 
-      - "&7lMagicl"
+      - "&8Magic Legacy"
       - "&a"
       - "&8Magic Legacy"
     glow: true
