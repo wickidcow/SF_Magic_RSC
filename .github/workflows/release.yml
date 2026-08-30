@@ -164,6 +164,28 @@ jobs:
           print('Verified optional Magic integration gates')
           PY
 
+          mkdir -p "$runtime/scripts"
+          cp scripts/audit_magic.py "$runtime/scripts/_release_audit.py"
+          python "$runtime/scripts/_release_audit.py"
+          python - "$runtime/audit/magic-audit.json" <<'PY'
+          import json
+          import sys
+          from pathlib import Path
+
+          report = json.loads(Path(sys.argv[1]).read_text(encoding='utf-8'))
+          checks = {
+              'player-facing Chinese lines': report['player_facing_chinese_line_count'],
+              'duplicate visible lore lines': report['duplicate_lore_line_count'],
+              'IE2 migration candidates': len(report['ie2_candidates']),
+          }
+          failed = {name: value for name, value in checks.items() if value}
+          if failed:
+              for name, value in failed.items():
+                  print(f'{name}: {value}')
+              raise SystemExit('Magic release failed content quality gates')
+          print('Verified English player-facing content, unique lore, and IE2 normalization')
+          PY
+
       - name: Create or update GitHub release
         if: steps.meta.outputs.publish == 'true'
         env:
@@ -181,6 +203,8 @@ jobs:
 
           ### Highlights
           - Slimefun Legacy compatibility target
+          - Player-facing Magic names and lore translated to English, including serialized saved items
+          - Duplicate visible lore removed and verified before release
           - InfinityExpansion2-native item IDs and recipe references
           - Current DynaTech IDs for Bee, Vex Gem, and Growth Chamber MK2 integrations
           - Current GeneticChickengineering tier-3 excitation chamber integration
