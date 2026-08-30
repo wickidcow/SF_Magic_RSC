@@ -82,6 +82,18 @@ PLAYER_TEXT = {
     "（铁栅栏）": " (Iron Bars)",
     "（遮光）": " (Opaque)",
     "之剑": " Sword",
+    " 种物品": " item types",
+    " 个": " items",
+    "随着时间的流逝": "As time passes,",
+    "关于": "the legend of",
+    "的传说逐渐被人遗忘": "is gradually being forgotten.",
+    "但它依旧静静地等待着下一个有缘人": "Yet it still quietly waits for its next worthy owner.",
+    "可以钓到粘液科技中近乎所有的物品": "Can fish up nearly any item from Slimefun.",
+    "也可能会钓到违禁品哦": "It may even pull up forbidden items.",
+    "需要配合鱼杆专属鱼饵才可正常使用": "Requires its dedicated fishing bait to function.",
+    "粘液宝藏 X": "Slimefun Treasure X",
+    "魔法鱼线 X": "Magic Fishing Line X",
+    "更牢固的鱼杆 X": "Reinforced Fishing Rod X",
 }
 
 OPTIONAL = {
@@ -197,23 +209,87 @@ def translate_line(line: str) -> str:
     return line
 
 
+ROMAN = ("", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII", "XIII")
+
+
+def replace_display_name_block(text: str, title: str) -> tuple[str, bool]:
+    pattern = re.compile(r"(?ms)^(\s*)display-name:.*?(?=^\1lore:\s*$)")
+    replacement = lambda m: (
+        f'{m.group(1)}display-name: \'{{"text":"{title}","color":"light_purple","italic":false}}\'\n'
+    )
+    updated, count = pattern.subn(replacement, text, count=1)
+    return updated, bool(count)
+
+
+def special_saveditem_cleanup(path: Path) -> int:
+    """Normalize serialized titles/branding that are split across JSON components."""
+    text = path.read_text(encoding="utf-8")
+    updated = text
+    changed = 0
+
+    match = re.fullmatch(r"MFCT_(\d+)\.yml", path.name)
+    if match:
+        tier = int(match.group(1))
+        if 1 <= tier <= 13:
+            updated, did = replace_display_name_block(updated, f"Magic Drawer {ROMAN[tier]} (Model)")
+            changed += int(did)
+        brand = re.compile(r'(?m)^(\s*)- .*"text":"樱".*"text":"制".*$')
+        updated, count = brand.subn(
+            lambda m: m.group(1) + '- \'{"text":"Magic Legacy","color":"green","italic":false}\'',
+            updated,
+        )
+        changed += count
+
+    if path.name == "YG_1.yml":
+        updated, did = replace_display_name_block(updated, "Dreamweaver - Genesis")
+        changed += int(did)
+        # This item's stylized name is repeated one character per JSON component in lore.
+        for old, new in {
+            '"text": "织"': '"text": "Dreamweaver"',
+            '"text": "梦"': '"text": ""',
+            '"text": "者"': '"text": ""',
+            '"text": "万"': '"text": "Genesis"',
+            '"text": "物"': '"text": ""',
+            '"text": "生"': '"text": ""',
+        }.items():
+            count = updated.count(old)
+            if count:
+                updated = updated.replace(old, new)
+                changed += count
+
+    if updated != text:
+        path.write_text(updated, encoding="utf-8")
+    return changed
+
+
+def lore_context(lore_indent: int | None, line: str) -> tuple[bool, int | None]:
+    """Return whether a physical YAML line belongs to lore, including Bukkit's same-indent lists."""
+    if lore_indent is None:
+        return False, None
+    stripped = line.strip()
+    current = indent(line)
+    list_match = LIST.match(line.rstrip("\r\n"))
+    if list_match and current >= lore_indent:
+        return True, lore_indent
+    if current > lore_indent:
+        return True, lore_indent
+    if not stripped or stripped.startswith("#"):
+        return False, lore_indent
+    return False, None
+
+
 def localize(path: Path) -> int:
     lines = path.read_text(encoding="utf-8").splitlines(keepends=True)
     lore_indent: int | None = None
     changed = 0
     out = []
     for line in lines:
-        stripped = line.strip()
-        current = indent(line)
         if m := LORE.match(line.rstrip("\r\n")):
             lore_indent = len(m.group(1))
             out.append(line)
             continue
-        in_lore = lore_indent is not None and current > lore_indent
-        if lore_indent is not None and stripped and not stripped.startswith("#") and current <= lore_indent:
-            lore_indent = None
-            in_lore = False
-        if NAME.match(line.rstrip("\r\n")) or (in_lore and LIST.match(line.rstrip("\r\n"))):
+        in_lore, lore_indent = lore_context(lore_indent, line)
+        if NAME.match(line.rstrip("\r\n")) or in_lore:
             newer = translate_line(line)
             if newer != line:
                 changed += 1
@@ -232,18 +308,15 @@ def dedupe_lore(path: Path) -> int:
     removed = 0
     out = []
     for line in lines:
-        stripped = line.strip()
-        current = indent(line)
         if m := LORE.match(line.rstrip("\r\n")):
             lore_indent = len(m.group(1))
             seen = set()
             out.append(line)
             continue
-        in_lore = lore_indent is not None and current > lore_indent
-        if lore_indent is not None and stripped and not stripped.startswith("#") and current <= lore_indent:
-            lore_indent = None
+        in_lore, new_lore_indent = lore_context(lore_indent, line)
+        if lore_indent is not None and new_lore_indent is None:
             seen = set()
-            in_lore = False
+        lore_indent = new_lore_indent
         if in_lore and (m := LIST.match(line.rstrip("\r\n"))):
             text = visible(m.group(2))
             if text:
@@ -319,8 +392,17 @@ def main() -> int:
         if path.suffix.lower() in {".yml", ".yaml", ".js"}:
             compatibility(path)
         if path.suffix.lower() in {".yml", ".yaml"}:
+            translated += special_saveditem_cleanup(path)
             translated += localize(path)
             removed += dedupe_lore(path)
+
+    # A second pass must be a no-op. If it is not, fail the release rather than ship duplicate lore.
+    verification_removed = 0
+    for path in sorted(root.rglob("*")):
+        if path.is_file() and path.suffix.lower() in {".yml", ".yaml"}:
+            verification_removed += dedupe_lore(path)
+    if verification_removed:
+        raise RuntimeError(f"Duplicate lore verification removed {verification_removed} additional line(s)")
 
     for filename, required in OPTIONAL.items():
         path = root / filename
