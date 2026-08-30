@@ -76,8 +76,28 @@ jobs:
           fi
 
           python tools/apply_runtime_fixes.py "$root"
+          python tools/clean_magic_text_quality.py "$root"
 
-          (cd dist && zip -9 -r "../$ARCHIVE" Magic >/dev/null)
+          cat > dist/directions.txt <<'EOF'
+          Magic RSC Legacy - Installation Directions
+          ==========================================
+
+          Requirement:
+          - RykenSlimefunCustomizer (RSC) must be installed on the server.
+
+          Installation:
+          1. Stop the Minecraft server.
+          2. Open the plugins/RykenSlimefunCustomizer/addons/ folder.
+          3. Drop the included Magic folder directly into the addons folder.
+          4. The final path should be:
+             plugins/RykenSlimefunCustomizer/addons/Magic/info.yml
+          5. If an older Magic folder already exists, replace it with this one instead of merging old files into it.
+          6. Start the server.
+
+          This ZIP contains the ready-to-use Magic addon folder for RSC.
+          EOF
+
+          (cd dist && zip -9 -r "../$ARCHIVE" Magic directions.txt >/dev/null)
           sha256sum "$ARCHIVE" > "$ARCHIVE.sha256"
 
       - name: Verify drop-in package
@@ -89,6 +109,9 @@ jobs:
 
           test "$(unzip -Z1 "$ARCHIVE" | grep -c '^Magic/info.yml$')" -eq 1
           test "$(unzip -Z1 "$ARCHIVE" | grep -c '^Magic/items.yml$')" -eq 1
+          test "$(unzip -Z1 "$ARCHIVE" | grep -c '^directions.txt$')" -eq 1
+          unzip -p "$ARCHIVE" directions.txt | grep -q 'RykenSlimefunCustomizer (RSC)'
+          unzip -p "$ARCHIVE" directions.txt | grep -q 'plugins/RykenSlimefunCustomizer/addons/'
 
           if unzip -Z1 "$ARCHIVE" | grep -Eq '(^|/)\.github/|\.py$|(^|/)audit/|(^|/)tools/|(^|/)README\.md$'; then
             echo "Drop-in archive contains repository maintenance files"
@@ -106,7 +129,8 @@ jobs:
           fi
 
           echo "Verified $ARCHIVE"
-          echo "Extract it into plugins/RykenSlimefunCustomizer/addons/"
+          echo "ZIP contains Magic/ and directions.txt"
+          echo "Drop Magic into plugins/RykenSlimefunCustomizer/addons/"
 
       - name: Upload Magic drop-in
         uses: actions/upload-artifact@v4
