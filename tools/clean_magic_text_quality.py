@@ -24,6 +24,7 @@ LEGACY_COLOR_RE = re.compile(r"(?i)(?:§|&)[0-9A-FK-ORX]")
 HEX_COLOR_RE = re.compile(r"(?i)(?:&#[0-9A-F]{6}|\{#[0-9A-F]{6}\})")
 
 TEXT_REPLACEMENTS = {
+    "&7lMagicl": "&8Magic Legacy",
     "&7lMagic-Spawnerl": "&8Magic • Spawners",
     "&7lMagic-l": "&8Magic Legacy",
     "&7lMagic-Power and Energyl": "&8Magic • Power & Energy",
