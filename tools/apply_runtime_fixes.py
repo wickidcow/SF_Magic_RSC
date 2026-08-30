@@ -19,6 +19,9 @@ IE2_WORKBENCH = "net.guizhanss.infinityexpansion2.implementation.items.machines.
 # Current IDs verified against the maintained addon sources. These replacements are
 # deliberately Magic-runtime-only so RSC does not globally claim generic historical IDs.
 RUNTIME_ITEM_ID_REPLACEMENTS = {
+    # InfinityExpansion2 mob simulation cards use IE_MOB_DATA_CARD_<MOB> IDs.
+    "VEX_DATA_CARD": "IE_MOB_DATA_CARD_VEX",
+    "PHANTOM_DATA_CARD": "IE_MOB_DATA_CARD_PHANTOM",
     # DynaTech now derives Slimefun IDs from its dynatech:* NamespacedKeys.
     "VEX_GEM | DYNATECH_VEX_GEM": "DYNATECH_VEX_GEM",
     "VEX_GEM": "DYNATECH_VEX_GEM",
