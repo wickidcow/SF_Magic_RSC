@@ -10669,7 +10669,6 @@ MAGIC_ENCHANT_UP_1:
       - "&7, tier+1"
       - "&710 tier1%"
       - "&a"
-      - "&8Magic Legacy"
   script: "enchant_up_1"
   recipe_type: MAGIC_MACHINE_TYPE
   recipe:
@@ -10689,7 +10688,6 @@ MAGIC_ENCHANT_UP_1_MAX:
       - "&a"
       - "&7, tier+1"
       - "&a"
-      - "&8Magic Legacy"
   script: "enchant_up_1_max"
   recipe_type: MAGIC_NONE
 
@@ -10709,7 +10707,6 @@ MAGIC_ENCHANT_UPUP_1:
       - "&7tier+1"
       - "&710 tier2%"
       - "&a"
-      - "&8Magic Legacy"
   script: "enchant_upup_1"
   recipe_type: MAGIC_MACHINE_TYPE
   recipe:
@@ -10729,7 +10726,6 @@ MAGIC_ENCHANT_UPUP_1_MAX:
       - "&a"
       - "&7tier+1"
       - "&a"
-      - "&8Magic Legacy"
   script: "enchant_upup_1_max"
   recipe_type: MAGIC_NONE
 
@@ -10743,7 +10739,6 @@ MAGIC_ATTRIBUTE_UPUP_1:
       - "&8Magic Legacy"
       - '&7Shift + :'
       - "&a"
-      - "&8Magic Legacy"
   script: "attribute_upup_1"
   recipe_type: MAGIC_MACHINE_TYPE
   recipe:
@@ -10762,7 +10757,6 @@ MAGIC_ATTRIBUTE_UPUP_1_MAX:
       - "&8Magic Legacy"
       - '&7Shift + :'
       - "&a"
-      - "&8Magic Legacy"
   script: "attribute_upup_1_max"
   recipe_type: MAGIC_NONE
 
@@ -10775,7 +10769,6 @@ MAGIC_STICK_JIGUANG_1:
     lore: 
       - "&8Magic Legacy"
       - "&a"
-      - "&8Magic Legacy"
   script: magic_stick_jiguang_1
   energy_capacity: 80000
   recipe_type: MAGIC_NONE
@@ -10789,7 +10782,6 @@ MAGIC_GUN_1:
     lore: 
       - "&8Magic Legacy"
       - "&a"
-      - "&8Magic Legacy"
   script: 基础枪
   recipe_type: MAGIC_NONE
 
@@ -10804,7 +10796,6 @@ MAGIC_CHRISTMAS_SNOWBALL:
     lore: 
       - "&8Magic Legacy"
       - "&a"
-      - "&8Magic Legacy"
   script: CHRISTMAS_SNOWBALL
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe: 
@@ -10826,7 +10817,6 @@ MAGIC_SOUND:
     lore: 
       - "&8Magic Legacy"
       - "&a"
-      - "&8Magic Legacy"
   script: sound
   recipe_type: MAGIC_NONE
 
@@ -10840,7 +10830,6 @@ MAGIC_ZHENFA_FIRE_1:
     lore: 
       - "&8Magic Legacy"
       - "&a"
-      - "&8Magic Legacy"
   script: 阵法_小火苗_1
   recipe_type: MAGIC_NONE
 
@@ -10862,7 +10851,6 @@ MAGIC_KAOGU_BRUSH:
     lore: 
       - "&8Magic Legacy"
       - "&a"
-      - "&8Magic Legacy"
     glow: true
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe: 
