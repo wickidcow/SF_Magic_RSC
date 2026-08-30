@@ -140,6 +140,22 @@ def normalize_visible_text(raw: str) -> str:
     return value
 
 
+def lore_context(lore_indent: int | None, line: str) -> tuple[bool, int | None]:
+    """Track lore including Bukkit serialized lists that align '-' with 'lore:'."""
+    if lore_indent is None:
+        return False, None
+    stripped = line.strip()
+    current = indentation(line)
+    list_match = LIST_RE.match(line)
+    if list_match and current >= lore_indent:
+        return True, lore_indent
+    if current > lore_indent:
+        return True, lore_indent
+    if not stripped or stripped.startswith("#"):
+        return False, lore_indent
+    return False, None
+
+
 def classify_chinese_line(line: str, in_lore: bool) -> str:
     stripped = line.lstrip()
     if stripped.startswith("#"):
@@ -178,12 +194,11 @@ for path in YAML_FILES:
             lore_seen = {}
             in_lore = False
         else:
-            in_lore = lore_indent is not None and current_indent > lore_indent
-            if lore_indent is not None and stripped and not stripped.startswith("#") and current_indent <= lore_indent:
-                lore_indent = None
+            previous_lore_indent = lore_indent
+            in_lore, lore_indent = lore_context(lore_indent, line)
+            if previous_lore_indent is not None and lore_indent is None:
                 lore_start_line = None
                 lore_seen = {}
-                in_lore = False
 
         if CHINESE_RE.search(line):
             classification = classify_chinese_line(line, in_lore)
