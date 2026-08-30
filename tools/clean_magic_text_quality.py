@@ -1,27 +1,21 @@
 #!/usr/bin/env python3
 """Clean safe player-facing English/lore quality issues in a Magic RSC tree.
 
-The cleaner is intentionally conservative:
-- removes lore that exactly repeats the item's display name,
-- removes the literal placeholder lore line "tier",
-- fixes a few malformed Legacy formatting boilerplate strings,
-- normalizes a small verified set of awkward display names.
+Order matters: text is normalized first, then redundant title/placeholder lore is
+removed, and finally visible lore is deduplicated. This prevents two previously
+different strings from becoming duplicates after translation/format cleanup.
 
-It does not rename IDs, script references, recipe keys, or serialized data keys.
+IDs, script references, recipe keys, and serialized data keys are never renamed.
 """
 from __future__ import annotations
 
-import ast
-import json
 import re
 import sys
 from pathlib import Path
 
-LORE_RE = re.compile(r"^(\s*)lore:\s*(?:#.*)?$")
-LIST_RE = re.compile(r"^(\s*)-\s*(.*?)\s*$")
+from dedupe_magic_lore import LIST_RE, LORE_RE, clean_file as dedupe_lore_file, indentation, visible
+
 NAME_RE = re.compile(r"^(\s*)(?:name|display-name):\s*(.+?)\s*$")
-LEGACY_COLOR_RE = re.compile(r"(?i)(?:§|&)[0-9A-FK-ORX]")
-HEX_COLOR_RE = re.compile(r"(?i)(?:&#[0-9A-F]{6}|\{#[0-9A-F]{6}\})")
 
 TEXT_REPLACEMENTS = {
     "&7lMagicl": "&8Magic Legacy",
@@ -40,67 +34,14 @@ TEXT_REPLACEMENTS = {
 }
 
 
-def indentation(line: str) -> int:
-    return len(line) - len(line.lstrip(" \t"))
-
-
-def unquote_scalar(raw: str) -> str:
-    value = raw.strip()
-    if len(value) >= 2 and value[0] == value[-1] and value[0] in {"'", '"'}:
-        try:
-            parsed = ast.literal_eval(value)
-            if isinstance(parsed, str):
-                return parsed
-        except (SyntaxError, ValueError):
-            return value[1:-1]
-    return value
-
-
-def json_visible_text(value: str) -> str | None:
-    candidate = value.strip()
-    if not candidate.startswith(("{", "[")):
-        return None
-    try:
-        data = json.loads(candidate)
-    except json.JSONDecodeError:
-        return None
-
-    pieces: list[str] = []
-
-    def walk(node: object) -> None:
-        if isinstance(node, dict):
-            text = node.get("text")
-            if isinstance(text, str):
-                pieces.append(text)
-            for key, child in node.items():
-                if key != "text":
-                    walk(child)
-        elif isinstance(node, list):
-            for child in node:
-                walk(child)
-
-    walk(data)
-    return "".join(pieces)
-
-
-def visible(raw: str) -> str:
-    value = unquote_scalar(raw)
-    json_text = json_visible_text(value)
-    if json_text is not None:
-        value = json_text
-    value = HEX_COLOR_RE.sub("", value)
-    value = LEGACY_COLOR_RE.sub("", value)
-    return re.sub(r"\s+", " ", value).strip()
-
-
 def in_lore_block(lore_indent: int | None, line: str) -> tuple[bool, int | None]:
     if lore_indent is None:
         return False, None
     stripped = line.strip()
     current = indentation(line)
     list_match = LIST_RE.match(line.rstrip("\r\n"))
-    # Bukkit serialized ItemStack YAML places list entries at the same indentation
-    # as the `lore:` key, while ordinary RSC YAML nests them deeper.
+    # Bukkit serialized ItemStack YAML can put lore list entries at the same
+    # indentation as the `lore:` key; normal RSC YAML nests them deeper.
     if list_match and current >= lore_indent:
         return True, lore_indent
     if current > lore_indent:
@@ -110,14 +51,14 @@ def in_lore_block(lore_indent: int | None, line: str) -> tuple[bool, int | None]
     return False, None
 
 
-def clean_file(path: Path) -> tuple[int, int, int]:
+def clean_text_file(path: Path) -> tuple[int, int, int, int]:
     text = path.read_text(encoding="utf-8")
     replaced = text
-    rename_count = 0
+    replacement_count = 0
     for old, new in TEXT_REPLACEMENTS.items():
         count = replaced.count(old)
         if count:
-            rename_count += count
+            replacement_count += count
             replaced = replaced.replace(old, new)
 
     lines = replaced.splitlines(keepends=True)
@@ -130,13 +71,13 @@ def clean_file(path: Path) -> tuple[int, int, int]:
     placeholders_removed = 0
 
     for line in lines:
-        line_noeol = line.rstrip("\r\n")
-        name_match = NAME_RE.match(line_noeol)
+        no_eol = line.rstrip("\r\n")
+        name_match = NAME_RE.match(no_eol)
         if name_match:
             current_name = visible(name_match.group(2))
             current_name_indent = len(name_match.group(1))
 
-        lore_match = LORE_RE.match(line_noeol)
+        lore_match = LORE_RE.match(no_eol)
         if lore_match:
             lore_indent = len(lore_match.group(1))
             lore_name = current_name if current_name_indent == lore_indent else ""
@@ -150,7 +91,7 @@ def clean_file(path: Path) -> tuple[int, int, int]:
             rebuilt.append(line)
             continue
 
-        list_match = LIST_RE.match(line_noeol)
+        list_match = LIST_RE.match(no_eol)
         if not list_match:
             rebuilt.append(line)
             continue
@@ -168,7 +109,11 @@ def clean_file(path: Path) -> tuple[int, int, int]:
     updated = "".join(rebuilt)
     if updated != text:
         path.write_text(updated, encoding="utf-8")
-    return redundant_removed, placeholders_removed, rename_count
+
+    # Must run last: formatting/translation replacements can make formerly
+    # different source lines identical to players.
+    duplicate_removed = dedupe_lore_file(path)
+    return redundant_removed, placeholders_removed, replacement_count, duplicate_removed
 
 
 def main() -> int:
@@ -178,19 +123,20 @@ def main() -> int:
     if not root.is_dir():
         raise SystemExit(f"Not a directory: {root}")
 
-    redundant = placeholders = replacements = 0
+    redundant = placeholders = replacements = duplicates = 0
     for path in sorted(root.rglob("*.yml")):
         if any(part in {".git", "audit", "dist"} for part in path.parts):
             continue
-        r, p, n = clean_file(path)
+        r, p, n, d = clean_text_file(path)
         redundant += r
         placeholders += p
         replacements += n
+        duplicates += d
 
     print(
         "Cleaned Magic text quality "
         f"({redundant} redundant title lore, {placeholders} placeholder lore, "
-        f"{replacements} verified text replacements)"
+        f"{replacements} verified text replacements, {duplicates} duplicate lore lines)"
     )
     return 0
 
