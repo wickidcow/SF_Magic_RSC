@@ -23,7 +23,9 @@ jobs:
           python-version: '3.13'
 
       - name: Audit Magic pack
-        run: python scripts/audit_magic.py
+        run: |
+          python scripts/audit_magic.py
+          python scripts/audit_magic_quality.py
 
       - name: Upload audit report
         uses: actions/upload-artifact@v4
