@@ -29,7 +29,9 @@ HEX_COLOR_RE = re.compile(r"(?i)(?:&#[0-9A-F]{6}|\{#[0-9A-F]{6}\})")
 
 PLACEHOLDER_PATTERNS = [
     ("tier-placeholder", re.compile(r"^tier$", re.I)),
-    ("malformed-magic-branding", re.compile(r"^l?Magic[- ](?:Power and Energy|[^ ]+).*[lL]?$", re.I)),
+    # Bad translations encoded bold as a literal leading/trailing `l`, e.g.
+    # `lMagic-Spawnerl` and `lMagic-Power and Energyl`.
+    ("malformed-magic-branding", re.compile(r"^lMagic(?:-[A-Za-z0-9 &]*)?l$", re.I)),
 ]
 
 AWKWARD_NAME_PATTERNS = [
