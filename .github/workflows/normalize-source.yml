@@ -1,0 +1,98 @@
+name: Normalize Magic Source
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/normalize-source.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  normalize:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Normalize runtime source files
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          stage="$(mktemp -d)/Magic"
+          mkdir -p "$stage/saveditems" "$stage/scripts"
+
+          cp ./*.yml "$stage/"
+          if [ -d saveditems ]; then
+            cp -R saveditems/. "$stage/saveditems/"
+          fi
+          if [ -d scripts ]; then
+            find scripts -type f -name '*.js' -print0 | while IFS= read -r -d '' file; do
+              target="$stage/$file"
+              mkdir -p "$(dirname "$target")"
+              cp "$file" "$target"
+            done
+          fi
+
+          python tools/apply_runtime_fixes.py "$stage"
+
+          cp "$stage"/*.yml ./
+
+          rm -rf saveditems
+          mkdir -p saveditems
+          cp -R "$stage/saveditems/." saveditems/
+
+          if [ -d scripts ]; then
+            find scripts -type f -name '*.js' -delete
+          else
+            mkdir -p scripts
+          fi
+          if [ -d "$stage/scripts" ]; then
+            find "$stage/scripts" -type f -name '*.js' -print0 | while IFS= read -r -d '' file; do
+              rel="${file#"$stage/"}"
+              mkdir -p "$(dirname "$rel")"
+              cp "$file" "$rel"
+            done
+          fi
+
+      - name: Audit normalized source
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf audit
+          python scripts/audit_magic.py
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          report = json.loads(Path('audit/magic-audit.json').read_text(encoding='utf-8'))
+          checks = {
+              'player-facing Chinese lines': report['player_facing_chinese_line_count'],
+              'duplicate visible lore lines': report['duplicate_lore_line_count'],
+              'IE2 migration candidates': len(report['ie2_candidates']),
+          }
+          failed = {name: value for name, value in checks.items() if value}
+          if failed:
+              for name, value in failed.items():
+                  print(f'{name}: {value}')
+              raise SystemExit('Normalized Magic source failed quality gates')
+          print('Normalized Magic source passed player-text, lore, and IE2 gates')
+          PY
+
+      - name: Commit normalized source
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- '*.yml' saveditems scripts
+          if git diff --cached --quiet; then
+            echo "Magic source is already normalized"
+            exit 0
+          fi
+          git commit -m "Normalize Magic Legacy source content"
+          git push
