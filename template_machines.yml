@@ -7,12 +7,11 @@ MAGIC_CD_MACHINE_1:
       - "&a"
       - "&7Magic"
       - "&a" 
-      - "&7Magic Cd Machine 1"
       - "&7⇨ ⚡ : 1x"
       - "&8⇨&e ⚡ &72048 J/s"
       - "&7⇨ ⚡ 4096 J capacity"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1: 
@@ -179,7 +178,6 @@ MAGIC_SNOW_CD_1:
     material: ORANGE_GLAZED_TERRACOTTA
     lore:
       - "&a"
-      - "&7Magic Snow Cd 1"
       - "&a" 
       - "&7⇨ ⚡ : 1x"
       - "&8⇨&e ⚡ &7100 J/s"
@@ -271,12 +269,11 @@ MAGIC_MOB_SIMULATION_CHAMBER:
     name: "&dMagic Mob Simulation Chamber"
     material: GILDED_BLACKSTONE
     lore:
-      - "&7Magic Mob Simulation Chamber"
       - "&a" 
       - "&8⇨&e ⚡ &715000 J/s"
       - "&7⇨ ⚡ 30000 J capacity"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1: 
@@ -561,11 +558,10 @@ MAGIC_CHICKEN_HOUSE1:
     name: "&dMagic Chicken House1"
     material: BEEHIVE
     lore:
-      - "&7Magic Chicken House1"
       - "&8⇨&e ⚡ &710 J/s"
       - "&7⇨ ⚡ 1000 J capacity"
       - "&a"
-      - "&7lMagic-Power and Energyl"
+      - "&8Magic • Power & Energy"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1: 
@@ -626,12 +622,10 @@ MAGIC_CHICKEN_HOUSE2:
     name: "&dMagic Chicken House2"
     material: BEEHIVE
     lore:
-      - "&7Magic Chicken House2"
-      - "&7tier"
       - "&8⇨&e ⚡ &715 J/s"
       - "&7⇨ ⚡ 1000 J capacity"
       - "&a"
-      - "&7lMagic-Power and Energyl"
+      - "&8Magic • Power & Energy"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1: 
@@ -696,11 +690,10 @@ MAGIC_CHICKEN_HOUSE3:
     name: "&dMagic Chicken House3"
     material: BEEHIVE
     lore:
-      - "&7Magic Chicken House3"
       - "&8⇨&e ⚡ &7100 J/s"
       - "&7⇨ ⚡ 1000 J capacity"
       - "&a"
-      - "&7lMagic-Power and Energyl"
+      - "&8Magic • Power & Energy"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1: 
@@ -771,12 +764,11 @@ MAGIC_BEE_HOUSE_1:
     material: HONEY_BLOCK
     lore:
       - "&a"
-      - "&7Magic Bee House 1"
       - "&7Experimental machine"
       - "&8⇨&e ⚡ &7100 J/s"
       - "&7⇨ ⚡ 1000 J capacity"
       - "&a"
-      - "&7lMagic-Power and Energyl"
+      - "&8Magic • Power & Energy"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1: 
@@ -844,11 +836,10 @@ MAGIC_MINERAL_HOUSE_1:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTg3MDkzYTc3M2I0MzU2NjA0YzgzNmNkYjg0NDlhNzk4MGUyYTNjZGZjM2U5ZDg1MWNjYjM4NmRlMmUzMDZkIn19fQ==
     lore:
       - "&a"
-      - "&7Magic Mineral House 1"
       - "&8⇨&e ⚡ &71000 J/s"
       - "&7⇨ ⚡ 10000 J capacity"
       - "&a"
-      - "&7lMagic-Power and Energyl"
+      - "&8Magic • Power & Energy"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1: 
@@ -1217,11 +1208,10 @@ MAGIC_STACKING_INFINITE:
     material: PURPLE_GLAZED_TERRACOTTA
     lore:
       - "&a"
-      - "&7Magic Stacking Infinite"
       - "&8⇨&e ⚡ &73200 J/s"
       - "&7⇨ ⚡ 6400 J capacity"
       - "&a"
-      - "&7lMagic-Power and Energyl"
+      - "&8Magic • Power & Energy"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1: 
@@ -1281,13 +1271,12 @@ MAGIC_NEWPLAYER_GIFT_MACHINE_1:
     material: GOLD_BLOCK
     lore:
       - "&a"
-      - "&7Magic New Player Gift Machine 1"
       - "&a" 
       - "&7⇨ ⚡ : 1x"
       - "&8⇨&e ⚡ &710 J/s"
       - "&7⇨ ⚡ 100 J capacity"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     2: 
@@ -1347,13 +1336,12 @@ MAGIC_INFINITY_QUARRY:
     name: "&dMagic Infinity Quarry"
     material: CHISELED_POLISHED_BLACKSTONE
     lore:
-      - "&7Magic Infinity Quarry"
       - "&7Magic&"
       - "&a"
       - "&7⇨ ⚡ : 160x"
       - "&8⇨&e ⚡ &7180,000 J/s"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   recipe_type: MAGIC_WORKBENCH
   recipe:
     1: 

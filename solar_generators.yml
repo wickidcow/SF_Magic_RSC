@@ -5,13 +5,12 @@ RSC_EXAMPLE_SOLAR_GENERATOR:
     material: daylight_detector
     lore:
       - ""
-      - "&7Magic Rsc Example Solar Generator"
       - ""
       - "&7⇨ ⚡ 1000 J capacity"
       - "&8⇨&e ⚡ &750 J/tick"
       - "&8⇨&e ⚡ &710 J/tick"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   capacity: 1000
   dayEnergy: 50
   nightEnergy: 10
@@ -25,13 +24,12 @@ MAGIC_NEWPLAYER_SOLAR_GENERATOR:
     material: daylight_detector
     lore:
       - ""
-      - "&7Magic New Player Solar Generator"
       - ""
       - "&7⇨ ⚡ 1000 J capacity"
       - "&8⇨&e ⚡ &750 J/tick"
       - "&8⇨&e ⚡ &710 J/tick"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   capacity: 1000
   dayEnergy: 50
   nightEnergy: 10
@@ -54,11 +52,10 @@ MAGIC_SUPREME_SUPREME_GENERATOR:
     material: WHITE_GLAZED_TERRACOTTA
     lore:
       - "&a"
-      - "&7Magic Supreme Supreme Generator"
       - "&7⇨ ⚡ 40,000,000.00 J capacity"
       - "&8⇨&b ⚡ &720,000,000.00 J/tick"
       - "&a"
-      - "&7lMagic-Power and Energyl"
+      - "&8Magic • Power & Energy"
   capacity: 40000000
   dayEnergy: 20000000
   nightEnergy: 20000000
@@ -100,11 +97,10 @@ MAGIC_INFINITE_PANEL:
     material: LIGHT_BLUE_GLAZED_TERRACOTTA
     lore:
       - "&a"
-      - "&7Magic Infinite Panel"
       - "&7⇨ ⚡ 1,000,000 J capacity"
       - "&8⇨&e ⚡ &7600,000 J/s"
       - "&a"
-      - "&7lMagic-Power and Energyl"
+      - "&8Magic • Power & Energy"
   capacity: 1000000
   dayEnergy: 300000
   nightEnergy: 300000

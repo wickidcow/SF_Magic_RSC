@@ -8,12 +8,11 @@ MAGIC_CARGO_STORAGE_MAKER:
       - "&a"
       - "&7tierMagic"
       - "&7Magic"
-      - "&7Magic Cargo Storage Maker"
       - "&a"
       - "&8⇨&e ⚡ &710000  J/per"
       - "&7⇨ ⚡ 100000 J capacity"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1:
@@ -1450,12 +1449,11 @@ MAGIC_FISHING_HOUSE:
     lore:
       - "&a"
       - "&7Materials"
-      - "&7Magic Fishing House"
       - "&a"
       - "&8⇨&e ⚡ &710000  J/per"
       - "&7⇨ ⚡ 100000 J capacity"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1:
@@ -2346,7 +2344,7 @@ MAGIC_GOD_WORKBENCH:
       - "&8⇨&e ⚡ &71  J/per"
       - "&7⇨ ⚡ 100 J capacity"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1:
@@ -2496,13 +2494,12 @@ MAGIC_SUPREME_WORKBENCH:
     material: REDSTONE_LAMP
     lore:
       - "&a"
-      - "&7Magic Supreme Workbench"
       - "&7bug"
       - "&a"
       - "&8⇨&e ⚡ &710000  J/per"
       - "&7⇨ ⚡ 100000 J capacity"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1:

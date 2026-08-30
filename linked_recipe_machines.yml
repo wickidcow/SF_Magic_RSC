@@ -5,12 +5,11 @@ MAGIC_INFINITY_FORGE_1:
     material: RESPAWN_ANCHOR
     lore:
       - "&a"
-      - "&7Magic Infinity Forge 1"
       - "&a"
       - "&8⇨&e ⚡ &75,000,000  J/s"
       - "&7⇨ ⚡ 100,000,000 J capacity"
       - "&a"
-      - "&7lMagic-Power and Energyl"
+      - "&8Magic • Power & Energy"
   recipe_type: ENHANCED_CRAFTING_TABLE
   capacity: 100000000
   input: [0,1,2,3,4,5, 9,10,11,12,13,14, 18,19,20,21,22,23, 27,28,29,30,31,32, 36,37,38,39,40,41, 45,46,47,48,49,50]
@@ -4178,12 +4177,11 @@ MAGIC_INFINITY_FORGE_ULTRA:
     material: RESPAWN_ANCHOR
     lore:
       - "&a"
-      - "&7Magic Infinity Forge Ultra"
       - "&a"
       - "&8⇨&e ⚡ &710,000  J/per"
       - "&7⇨ ⚡ 2,000,000,000 J capacity"
       - "&a"
-      - "&7lMagic-Power and Energyl"
+      - "&8Magic • Power & Energy"
   recipe_type: ENHANCED_CRAFTING_TABLE
   capacity: 2000000000
   input: [0,1,2,3,4,5, 9,10,11,12,13,14, 18,19,20,21,22,23, 27,28,29,30,31,32, 36,37,38,39,40,41, 45,46,47,48,49,50]
@@ -8352,11 +8350,10 @@ MAGIC_SUPREME_ELECTRIC_MAGICAL_I:
       - "&a"
       - "&7Magic"
       - "&a"
-      - "&7Magic Supreme Electric Magical I"
       - "&7⇨ ⚡ : 1.0x"
       - "&8⇨&b ⚡ &720.00 J/s"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   recipe_type: MAGIC_SUPREME_WORKBENCH
   capacity: 600
   input: [10, 11, 12, 19, 20, 21, 28, 29, 30]
@@ -9278,11 +9275,10 @@ MAGIC_SUPREME_ELECTRIC_MAGICAL_II:
       - "&a"
       - "&7Magic"
       - "&a"
-      - "&7Magic Supreme Electric Magical Ii"
       - "&7⇨ ⚡ : 5.0x"
       - "&8⇨&b ⚡ &7100.00 J/s"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   recipe_type: MAGIC_SUPREME_WORKBENCH
   capacity: 600
   input: [10, 11, 12, 19, 20, 21, 28, 29, 30]
@@ -10204,11 +10200,10 @@ MAGIC_SUPREME_ELECTRIC_MAGICAL_III:
       - "&a"
       - "&7Magic"
       - "&a"
-      - "&7Magic Supreme Electric Magical Iii"
       - "&7⇨ ⚡ : 15.0x"
       - "&8⇨&b ⚡ &7300.00 J/s"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   recipe_type: MAGIC_SUPREME_WORKBENCH
   capacity: 600
   input: [10, 11, 12, 19, 20, 21, 28, 29, 30]
@@ -11128,12 +11123,11 @@ MAGIC_SUPREME_ELECTRIC_MAGICAL:
     lore:
       - "&a"
       - "&7Magic"
-      - "&7Magic Supreme Electric Magical"
       - "&a"
       - "&7⇨ ⚡ : 999.0x"
       - "&8⇨&b ⚡ &71000.00 J/s"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   recipe_type: MAGIC_SUPREME_WORKBENCH
   capacity: 1000
   input: [10, 11, 12, 19, 20, 21, 28, 29, 30]

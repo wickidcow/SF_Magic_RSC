@@ -5,7 +5,6 @@ MAGIC_GCE_EXCITATION_CHAMBER_64:
     name: "&dMagic GCE Excitation Chamber 64"
     material: blast_furnace
     lore:
-      - "&7Magic GCE Excitation Chamber 64"
       - "&a"
       - "&8⇨&e ⚡ &712800 J/s"
       - "&7⇨ ⚡ 128000 J capacity"
@@ -66,13 +65,12 @@ MAGIC_NEWPLAYER_DUST_MAKER:
     material: hopper
     lore: 
       - ""
-      - "&7Magic New Player Dust Maker"
       - ""
       - "&7⇨ ⚡ : 1x"
       - "&8⇨&e ⚡ &72 J/s"
       - "&7⇨ ⚡ 1000 J capacity"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   capacity: 1000
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -119,13 +117,12 @@ MAGIC_NEWPLAYER_COBBLESTONE_MAKER:
     material: SMOOTH_STONE
     lore: 
       - ""
-      - "&7Magic New Player Cobblestone Maker"
       - ""
       - "&7⇨ ⚡ : 3x"
       - "&8⇨&e ⚡ &74 J/s"
       - "&7⇨ ⚡ 1000 J capacity"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   capacity: 1000
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -148,7 +145,6 @@ MAGIC_GCE_EXCITATION_CHAMBER_IRON_DUST:
     name: "&dMagic GCE Excitation Chamber Iron Dust"
     material: blast_furnace
     lore:
-      - "&7Magic GCE Excitation Chamber Iron Dust"
       - "&a"
       - "&8⇨&e ⚡ &712800 J/s"
       - "&7⇨ ⚡ 128000 J capacity"
@@ -209,7 +205,6 @@ MAGIC_GCE_EXCITATION_CHAMBER_GOLD_DUST:
     name: "&dMagic GCE Excitation Chamber Gold Dust"
     material: blast_furnace
     lore:
-      - "&7Magic GCE Excitation Chamber Gold Dust"
       - "&a"
       - "&8⇨&e ⚡ &712800 J/s"
       - "&7⇨ ⚡ 128000 J capacity"
@@ -270,7 +265,6 @@ MAGIC_GCE_EXCITATION_CHAMBER_TIN_DUST:
     name: "&dMagic GCE Excitation Chamber Tin Dust"
     material: blast_furnace
     lore:
-      - "&7Magic GCE Excitation Chamber Tin Dust"
       - "&a"
       - "&8⇨&e ⚡ &712800 J/s"
       - "&7⇨ ⚡ 128000 J capacity"
@@ -331,7 +325,6 @@ MAGIC_GCE_EXCITATION_CHAMBER_SILVER_DUST:
     name: "&dMagic GCE Excitation Chamber Silver Dust"
     material: blast_furnace
     lore:
-      - "&7Magic GCE Excitation Chamber Silver Dust"
       - "&a"
       - "&8⇨&e ⚡ &712800 J/s"
       - "&7⇨ ⚡ 128000 J capacity"
@@ -392,7 +385,6 @@ MAGIC_GCE_EXCITATION_CHAMBER_LEAD_DUST:
     name: "&dMagic GCE Excitation Chamber Lead Dust"
     material: blast_furnace
     lore:
-      - "&7Magic GCE Excitation Chamber Lead Dust"
       - "&a"
       - "&8⇨&e ⚡ &712800 J/s"
       - "&7⇨ ⚡ 128000 J capacity"
@@ -453,7 +445,6 @@ MAGIC_GCE_EXCITATION_CHAMBER_ALUMINUM_DUST:
     name: "&dMagic GCE Excitation Chamber Aluminum Dust"
     material: blast_furnace
     lore:
-      - "&7Magic GCE Excitation Chamber Aluminum Dust"
       - "&a"
       - "&8⇨&e ⚡ &712800 J/s"
       - "&7⇨ ⚡ 128000 J capacity"
@@ -514,7 +505,6 @@ MAGIC_GCE_EXCITATION_CHAMBER_ZINC_DUST:
     name: "&dMagic GCE Excitation Chamber Zinc Dust"
     material: blast_furnace
     lore:
-      - "&7Magic GCE Excitation Chamber Zinc Dust"
       - "&a"
       - "&8⇨&e ⚡ &712800 J/s"
       - "&7⇨ ⚡ 128000 J capacity"
@@ -575,7 +565,6 @@ MAGIC_GCE_EXCITATION_CHAMBER_MAGNESIUM_DUST:
     name: "&dMagic GCE Excitation Chamber Magnesium Dust"
     material: blast_furnace
     lore:
-      - "&7Magic GCE Excitation Chamber Magnesium Dust"
       - "&a"
       - "&8⇨&e ⚡ &712800 J/s"
       - "&7⇨ ⚡ 128000 J capacity"
@@ -636,7 +625,6 @@ MAGIC_GCE_EXCITATION_CHAMBER_SULFATE:
     name: "&dMagic GCE Excitation Chamber Sulfate"
     material: blast_furnace
     lore:
-      - "&7Magic GCE Excitation Chamber Sulfate"
       - "&a"
       - "&8⇨&e ⚡ &712800 J/s"
       - "&7⇨ ⚡ 128000 J capacity"
@@ -697,7 +685,6 @@ MAGIC_GCE_EXCITATION_CHAMBER_GLASS:
     name: "&dMagic GCE Excitation Chamber Glass"
     material: blast_furnace
     lore:
-      - "&7Magic GCE Excitation Chamber Glass"
       - "&a"
       - "&8⇨&e ⚡ &712800 J/s"
       - "&7⇨ ⚡ 128000 J capacity"
@@ -757,7 +744,6 @@ MAGIC_GCE_EXCITATION_CHAMBER_COAL:
     name: "&dMagic GCE Excitation Chamber Coal"
     material: blast_furnace
     lore:
-      - "&7Magic GCE Excitation Chamber Coal"
       - "&a"
       - "&8⇨&e ⚡ &712800 J/s"
       - "&7⇨ ⚡ 128000 J capacity"
@@ -817,7 +803,6 @@ MAGIC_GCE_EXCITATION_CHAMBER_QUARTZ:
     name: "&dMagic GCE Excitation Chamber Quartz"
     material: blast_furnace
     lore:
-      - "&7Magic GCE Excitation Chamber Quartz"
       - "&a"
       - "&8⇨&e ⚡ &712800 J/s"
       - "&7⇨ ⚡ 128000 J capacity"
@@ -877,7 +862,6 @@ MAGIC_GCE_EXCITATION_CHAMBER_REDSTONE:
     name: "&dMagic GCE Excitation Chamber Redstone"
     material: blast_furnace
     lore:
-      - "&7Magic GCE Excitation Chamber Redstone"
       - "&a"
       - "&8⇨&e ⚡ &712800 J/s"
       - "&7⇨ ⚡ 128000 J capacity"
@@ -937,7 +921,6 @@ MAGIC_GCE_EXCITATION_CHAMBER_GOLD_INGOT:
     name: "&dMagic GCE Excitation Chamber Gold Ingot"
     material: blast_furnace
     lore:
-      - "&7Magic GCE Excitation Chamber Gold Ingot"
       - "&a"
       - "&8⇨&e ⚡ &712800 J/s"
       - "&7⇨ ⚡ 128000 J capacity"
@@ -997,7 +980,6 @@ MAGIC_GCE_EXCITATION_CHAMBER_DIAMOND:
     name: "&dMagic GCE Excitation Chamber Diamond"
     material: blast_furnace
     lore:
-      - "&7Magic GCE Excitation Chamber Diamond"
       - "&a"
       - "&8⇨&e ⚡ &712800 J/s"
       - "&7⇨ ⚡ 128000 J capacity"
@@ -1057,7 +1039,6 @@ MAGIC_GCE_EXCITATION_CHAMBER_IRON_INGOT:
     name: "&dMagic GCE Excitation Chamber Iron Ingot"
     material: blast_furnace
     lore:
-      - "&7Magic GCE Excitation Chamber Iron Ingot"
       - "&a"
       - "&8⇨&e ⚡ &712800 J/s"
       - "&7⇨ ⚡ 128000 J capacity"
@@ -1117,7 +1098,6 @@ MAGIC_GCE_EXCITATION_CHAMBER_LAPIS_LAZULI:
     name: "&dMagic GCE Excitation Chamber Lapis Lazuli"
     material: blast_furnace
     lore:
-      - "&7Magic GCE Excitation Chamber Lapis Lazuli"
       - "&a"
       - "&8⇨&e ⚡ &712800 J/s"
       - "&7⇨ ⚡ 128000 J capacity"
@@ -1177,7 +1157,6 @@ MAGIC_GCE_EXCITATION_CHAMBER_EMERALD:
     name: "&dMagic GCE Excitation Chamber Emerald"
     material: blast_furnace
     lore:
-      - "&7Magic GCE Excitation Chamber Emerald"
       - "&a"
       - "&8⇨&e ⚡ &712800 J/s"
       - "&7⇨ ⚡ 128000 J capacity"
@@ -1237,7 +1216,6 @@ MAGIC_GCE_EXCITATION_CHAMBER_MAGMA_CREAM:
     name: "&dMagic GCE Excitation Chamber Magma Cream"
     material: blast_furnace
     lore:
-      - "&7Magic GCE Excitation Chamber Magma Cream"
       - "&a"
       - "&8⇨&e ⚡ &712800 J/s"
       - "&7⇨ ⚡ 128000 J capacity"
@@ -1297,7 +1275,6 @@ MAGIC_GCE_EXCITATION_CHAMBER_ALL_1:
     name: "&dMagic GCE Excitation Chamber All 1"
     material: blast_furnace
     lore:
-      - "&7Magic GCE Excitation Chamber All 1"
       - "&a"
       - "&7Experimental machine"
       - "&8⇨&e ⚡ &7166 J/s"
@@ -1490,7 +1467,6 @@ MAGIC_DYNATECH_APIARY_BILLON_INGOT9:
     material: BEEHIVE
     lore:
       - "&a"
-      - "&7Magic Dynatech Apiary Billon Ingot9"
       - "&a"
       - "&7Magic"
       - "&7Materials"
@@ -1549,10 +1525,9 @@ MAGIC_DYNATECH_APIARY_BILLON_INGOT9:
 MAGIC_GENERATORS_REDSTONE_1:
   item_group: magic_power
   item:
-    name: "&dMagic Generators Redstone 1"
+    name: "&dMagic Redstone Generator I"
     lore:
     - "&a"
-    - "Magic Generators Redstone 1"
     - "&8⇨ &e⚡&7 5000 J/s"
     - "&a" 
     material_type: skull_base64
@@ -1615,7 +1590,6 @@ MAGIC_DYNATECH_APIARY_DURALUMIN_INGOT9:
     material: BEEHIVE
     lore:
       - "&a"
-      - "&7Magic Dynatech Apiary Duralumin Ingot9"
       - "&a"
       - "&7Magic"
       - "&7Materials"
@@ -1679,7 +1653,6 @@ MAGIC_DYNATECH_APIARY_BRASS_INGOT9:
     material: BEEHIVE
     lore:
       - "&a"
-      - "&7Magic Dynatech Apiary Brass Ingot9"
       - "&a"
       - "&7Magic"
       - "&7Materials"
@@ -1743,7 +1716,6 @@ MAGIC_DYNATECH_APIARY_BRONZE_INGOT9:
     material: BEEHIVE
     lore:
       - "&a"
-      - "&7Magic Dynatech Apiary Bronze Ingot9"
       - "&a"
       - "&7Magic"
       - "&7Materials"
@@ -1807,7 +1779,6 @@ MAGIC_DYNATECH_APIARY_STEEL_INGOT9:
     material: BEEHIVE
     lore:
       - "&a"
-      - "&7Magic Dynatech Apiary Steel Ingot9"
       - "&a"
       - "&7Magic"
       - "&7Materials"
@@ -1871,7 +1842,6 @@ MAGIC_DYNATECH_APIARY_ALUMINUM_BRASS_INGOT9:
     material: BEEHIVE
     lore:
       - "&a"
-      - "&7Magic Dynatech Apiary Aluminum Brass Ingot9"
       - "&a"
       - "&7Magic"
       - "&7Materials"
@@ -1935,7 +1905,6 @@ MAGIC_DYNATECH_APIARY_ALUMINUM_BRONZE_INGOT9:
     material: BEEHIVE
     lore:
       - "&a"
-      - "&7Magic Dynatech Apiary Aluminum Bronze Ingot9"
       - "&a"
       - "&7Magic"
       - "&7Materials"
@@ -1999,7 +1968,6 @@ MAGIC_DYNATECH_APIARY_CORINTHIAN_BRONZE_INGOT9:
     material: BEEHIVE
     lore:
       - "&a"
-      - "&7Magic Dynatech Apiary Corinthian Bronze Ingot9"
       - "&a"
       - "&7Magic"
       - "&7Materials"
@@ -2063,7 +2031,6 @@ MAGIC_DYNATECH_APIARY_SOLDER_INGOT9:
     material: BEEHIVE
     lore:
       - "&a"
-      - "&7Magic Dynatech Apiary Solder Ingot9"
       - "&a"
       - "&7Magic"
       - "&7Materials"
@@ -2127,7 +2094,6 @@ MAGIC_DYNATECH_APIARY_DAMASCUS_STEEL_INGOT9:
     material: BEEHIVE
     lore:
       - "&a"
-      - "&7Magic Dynatech Apiary Damascus Steel Ingot9"
       - "&a"
       - "&7Magic"
       - "&7Materials"
@@ -2191,7 +2157,6 @@ MAGIC_DYNATECH_APIARY_HARDENED_METAL_INGOT9:
     material: BEEHIVE
     lore:
       - "&a"
-      - "&7Magic Dynatech Apiary Hardened Metal Ingot9"
       - "&a"
       - "&7Magic"
       - "&7Materials"
@@ -2255,7 +2220,6 @@ MAGIC_DYNATECH_APIARY_REINFORCED_ALLOY_INGOT9:
     material: BEEHIVE
     lore:
       - "&a"
-      - "&7Magic Dynatech Apiary Reinforced Alloy Ingot9"
       - "&a"
       - "&7Magic"
       - "&7Materials"
@@ -2319,7 +2283,6 @@ MAGIC_DYNATECH_APIARY_FERROSILICON9:
     material: BEEHIVE
     lore:
       - "&a"
-      - "&7Magic Dynatech Apiary Ferrosilicon9"
       - "&a"
       - "&7Magic"
       - "&7Materials"
@@ -2383,7 +2346,6 @@ MAGIC_DYNATECH_APIARY_GILDED_IRON9:
     material: BEEHIVE
     lore:
       - "&a"
-      - "&7Magic Dynatech Apiary Gilded Iron9"
       - "&a"
       - "&7Magic"
       - "&7Materials"
@@ -2447,7 +2409,6 @@ MAGIC_DYNATECH_APIARY_NICKEL_INGOT9:
     material: BEEHIVE
     lore:
       - "&a"
-      - "&7Magic Dynatech Apiary Nickel Ingot9"
       - "&a"
       - "&7Magic"
       - "&7Materials"
@@ -2511,7 +2472,6 @@ MAGIC_DYNATECH_APIARY_COBALT_INGOT9:
     material: BEEHIVE
     lore:
       - "&a"
-      - "&7Magic Dynatech Apiary Cobalt Ingot9"
       - "&a"
       - "&7Magic"
       - "&7Materials"
@@ -2575,7 +2535,6 @@ MAGIC_DYNATECH_APIARY_REDSTONE_ALLOY9:
     material: BEEHIVE
     lore:
       - "&a"
-      - "&7Magic Dynatech Apiary Redstone Alloy9"
       - "&a"
       - "&7Magic"
       - "&7Materials"
@@ -2639,7 +2598,6 @@ MAGIC_DYNATECH_APIARY_SYNTHETIC_DIAMOND9:
     material: BEEHIVE
     lore:
       - "&a"
-      - "&7Magic Dynatech Apiary Synthetic Diamond9"
       - "&a"
       - "&7Magic"
       - "&7Materials"
@@ -2703,7 +2661,6 @@ MAGIC_DYNATECH_APIARY_SYNTHETIC_EMERALD9:
     material: BEEHIVE
     lore:
       - "&a"
-      - "&7Magic Dynatech Apiary Synthetic Emerald9"
       - "&a"
       - "&7Magic"
       - "&7Materials"
@@ -2767,7 +2724,6 @@ MAGIC_DYNATECH_APIARY_SYNTHETIC_SAPPHIRE9:
     material: BEEHIVE
     lore:
       - "&a"
-      - "&7Magic Dynatech Apiary Synthetic Sapphire9"
       - "&a"
       - "&7Magic"
       - "&7Materials"
@@ -2831,7 +2787,6 @@ MAGIC_DYNATECH_APIARY_CARBONADO9:
     material: BEEHIVE
     lore:
       - "&a"
-      - "&7Magic Dynatech Apiary Carbonado9"
       - "&a"
       - "&7Magic"
       - "&7Materials"
@@ -2898,7 +2853,6 @@ MAGIC_DYNATECH_APIARY_ALL_1:
       - "&7Experimental machine"
       - "&a"
       - "&7Magic"
-      - "&7Magic Dynatech Apiary All 1"
       - "&7Materials"
       - "&a"
       - "&8⇨&e ⚡ &721845 J/s"
@@ -3005,7 +2959,6 @@ MAGIC_INFINITE_VOID_HARVESTER:
     name: "&dMagic Infinite Void Harvester"
     material: CRYING_OBSIDIAN
     lore:
-      - "&7Magic Infinite Void Harvester"
       - "&7⇨ ⚡ : 1x"
       - "&8⇨&e ⚡ &7192000 J/s"
       - "&7⇨ ⚡ 1728000 J capacity"
@@ -3065,7 +3018,6 @@ MAGIC_WATER_BUCKET_MACHINE:
     name: "&dMagic Water Bucket Machine"
     lore:
     - "&a"
-    - "Magic Water Bucket Machine"
     - "&8⇨ &e⚡&7 128 J/s"
     - "&a" 
     material: BLUE_TERRACOTTA
@@ -3123,7 +3075,6 @@ MAGIC_LAVA_BUCKET_MACHINE:
     name: "&dMagic Lava Bucket Machine"
     lore:
     - "&a"
-    - "Magic Lava Bucket Machine"
     - "&8⇨ &e⚡&7 128 J/s"
     - "&a" 
     material: RED_TERRACOTTA
@@ -3181,7 +3132,6 @@ MAGIC_SNOWBALL_MACHINE:
     name: "&dMagic Snowball Machine"
     lore:
     - "&a"
-    - "Magic Snowball Machine"
     - "&8⇨ &e⚡&7 1066 J/s"
     - "&a" 
     material: WHITE_CONCRETE
@@ -3267,7 +3217,6 @@ MAGIC_PLANT_GARDEN:
     name: "&dMagic Plant Garden"
     lore:
     - "&a"
-    - "Magic Plant Garden"
     - "&8⇨ &e⚡&7  12800 J/s"
     - "&a" 
     material: WARPED_NYLIUM
@@ -3373,7 +3322,6 @@ MAGIC_WOOD_GARDEN:
     name: "&dMagic Wood Garden"
     lore:
     - "&a"
-    - "Magic Wood Garden"
     - "&8⇨ &e⚡&7  12800 J/s"
     - "&a" 
     material: STRIPPED_WARPED_HYPHAE
@@ -3518,7 +3466,6 @@ MAGIC_STONE_GARDEN:
     name: "&dMagic Stone Garden"
     lore:
     - "&a"
-    - "Magic Stone Garden"
     - "&8⇨ &e⚡&7  12800 J/s"
     - "&a" 
     material: BLAST_FURNACE
@@ -3669,7 +3616,6 @@ MAGIC_NAUTRE_MACHINE:
     name: "&dMagic Nautre Machine"
     lore:
     - "&a"
-    - "Magic Nautre Machine"
     - "&8⇨ &e⚡&7  12800 J/s"
     - "&a" 
     material: BLAST_FURNACE
@@ -3820,7 +3766,6 @@ MAGIC_ENDER_EYE_MACHINE:
     name: "&dMagic Ender Eye Machine"
     lore:
     - "&a"
-    - "Magic Ender Eye Machine"
     - "&8⇨ &e⚡&7 1280 J/s"
     - "&a" 
     material: PURPUR_BLOCK
@@ -3884,7 +3829,6 @@ MAGIC_END_ESSENCE_MACHINE:
     name: "&dMagic End Essence Machine"
     lore:
     - "&a"
-    - "Magic End Essence Machine"
     - "&8⇨ &e⚡&7 5120 J/s"
     - "&a" 
     material: PURPUR_PILLAR
@@ -3952,7 +3896,6 @@ MAGIC_PLASTIC_SHEET_MACHINE:
     name: "&dMagic Plastic Sheet Machine"
     lore:
     - "&a"
-    - "Magic Plastic Sheet Machine"
     - "&8⇨ &e⚡&7 1024 J/s"
     - "&a" 
     material: BLACK_CONCRETE
@@ -4013,7 +3956,6 @@ MAGIC_ORIGIN_BASIC_COBBLESTONE_GEN:
     name: "&dMagic Origin Basic Cobblestone Gen"
     lore:
     - "&a"
-    - "Magic Origin Basic Cobblestone Gen"
     - "&8⇨ &e⚡&7 1600 J/s"
     - "&a"
     material: SEA_LANTERN
@@ -4074,7 +4016,6 @@ MAGIC_MAGIC_BASIC_CIRCUIT_BOARD:
     name: "&dMagic Basic Circuit Board"
     lore:
     - "&a"
-    - "Magic Basic Circuit Board"
     - "&8⇨ &e⚡&7 2000 J/s"
     - "&a" 
     material_type: skull_base64
@@ -4135,7 +4076,6 @@ MAGIC_INFINITY_COBBLE_GEN:
     name: "&dMagic Infinity Cobble Gen"
     lore:
     - "&a"
-    - "Magic Infinity Cobble Gen"
     - "&8⇨ &e⚡&7 6400 J/s"
     - "&a"
     material: SEA_LANTERN

@@ -1,15 +1,14 @@
 MAGIC_GENERATORS_QUARTZ:
   item_group: magic_power
   item:
-    name: "&dMagic Generators Quartz"
+    name: "&dMagic Quartz Generator"
     lore: 
       - ""
-      - "&7Magic Generators Quartz"
       - ""
       - "&7⇨ ⚡ 500 J capacity"
       - "&8⇨&e ⚡ &725 J/tick"
       - "&a"
-      - "&7lMagic-Power and Energyl"
+      - "&8Magic • Power & Energy"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDNiNTAwMWE2NzAwN2E5M2FkZTY2NTkxNzVlOTA1NGE5Mjk3NmIwODdmYzYyOWYwNDJiY2Q1N2U3NzU3NjQ2YSJ9fX0=
   capacity: 500
@@ -54,15 +53,14 @@ MAGIC_GENERATORS_QUARTZ:
 MAGIC_GENERATORS_MAGMA_BLOCK:
   item_group: magic_power
   item:
-    name: "&dMagic Generators Magma Block"
+    name: "&dMagic Magma Block Generator"
     lore: 
       - ""
-      - "&7Magic Generators Magma Block"
       - ""
       - "&7⇨ ⚡ 500 J capacity"
       - "&8⇨&e ⚡ &725 J/tick"
       - "&a"
-      - "&7lMagic-Power and Energyl"
+      - "&8Magic • Power & Energy"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjQ0MmExZTA4ZWE3N2ZkMTQ0YzhmZjRjZGFlZjZlMGE5YWFmYjgzZmRjZjM5OGQxNDhkOGYxNzQ0NGM4ZmE2NyJ9fX0=
   capacity: 500
@@ -110,11 +108,10 @@ MAGIC_INFINITY_REACTOR:
     name: "&dMagic Infinity Reactor"
     lore: 
       - "&a"
-      - "&7Magic Infinity Reactor"
       - "&7⇨ ⚡ 600,000,000 J capacity"
       - "&8⇨&e ⚡ &71,200,000 J/s"
       - "&a"
-      - "&7lMagic-Power and Energyl"
+      - "&8Magic • Power & Energy"
     material: BEACON
   capacity: 600000000
   production: 600000
@@ -166,12 +163,10 @@ MAGIC_RESOURCES_STAR_POWER:
     name: "&dMagic Resources Star Power"
     lore: 
       - "&a"
-      - "&7tier"
-      - "&7Magic Resources Star Power"
       - "&7⇨ ⚡ 8000 J capacity"
       - "&8⇨&e ⚡ &78000 J/s"
       - "&a"
-      - "&7lMagic-Power and Energyl"
+      - "&8Magic • Power & Energy"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjlkYzQ4YmE1MzI2YTQwNzhkNzMxY2IwMDQ0MWU2MmJhOTQwMjQwMGMwZDE3NWI5YWM3MzRkMmQ1MmNmMjMyOSJ9fX0=
   capacity: 8000
@@ -221,16 +216,14 @@ MAGIC_RESOURCES_STAR_POWER:
 MAGIC_GENERATORS_WOOD:
   item_group: magic_power
   item:
-    name: "&dMagic Generators Wood"
+    name: "&dMagic Wood Generator"
     lore: 
       - ""
-      - "&7tier"
-      - "&7Magic Generators Wood"
       - ""
       - "&7⇨ ⚡ 10000 J capacity"
       - "&8⇨&e ⚡ &7400 J/s"
       - "&a"
-      - "&7lMagic-Power and Energyl"
+      - "&8Magic • Power & Energy"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTgwZGI1ZjU3ZGI5ZTZjOGE4MmE0NWU4N2M5ZWE0Y2RjODgwYzNkYTg5Mjk5NDkxNGQ5MWYwMzUwOTYwMDgxMiJ9fX0=
   capacity: 10000
@@ -545,14 +538,13 @@ MAGIC_BATTERY_MACHINE_OUT_1:
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWIxMGVkOTQwODBhMDc1NDZhMjQ1ZWM4MzdjZmM1ODE0Yzc2NThjN2VmMzM3YmUwMzVhMTFiMmUxZTAzYmExNiJ9fX0=
     lore:
-      - "&7Magic Battery Machine Out 1"
       - "&7Magic"
       - "&a"
       - "&7⇨ ⚡ : 999x"
       - "&8⇨&e ⚡ &72000 J/s"  
       - "&7⇨ ⚡ 2000 J capacity"
       - "&a"
-      - "&7lMagic-Power and Energyl"
+      - "&8Magic • Power & Energy"
   recipe_type: ENHANCED_CRAFTING_TABLE
   capacity: 2000
   production: 1000
@@ -611,10 +603,9 @@ MAGIC_GENERATOR_FINAL_INFINITE:
       - "&7⇨ ⚡ : 9999x"
       - "&8⇨&e ⚡ &74,294,967,294 J/s"  
       - "&7⇨ ⚡ 2,147,483,647 J capacity"
-      - "&7Magic Generator Final Infinite"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Power and Energyl"
+      - "&8Magic • Power & Energy"
   recipe_type: ENHANCED_CRAFTING_TABLE
   capacity: 2147483647
   production: 2147483647

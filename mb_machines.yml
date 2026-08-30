@@ -6,7 +6,6 @@ MAGIC_GEC_MOB:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDJjOGU3NmZjZGRlOWExNWFlMzkyOWI4NGJmNmZmYTRjMTc3N2IxZTI2YjdkNmQ4OTM4ZjBlZjA0ZTg0ODc0YyJ9fX0=
     lore: 
       - "&a"
-      - "&7Magic GEC Mob"
       - "&7Magic!"
       - "&a"
   recipe:
@@ -860,7 +859,6 @@ MAGIC_BEEHIVE_MOB:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzdjYmYyNThhMGUyZGUzNGM4MThhYThhODk4NjMxM2Y3MjkyOWU1YWJhOTg3OTcxNWY0MTM0YmRjNmM0MDJkNCJ9fX0=
     lore: 
       - "&a"
-      - "&7Magic Beehive Mob"
       - "&7MagicBeehive!"
       - "&a"
   recipe:
@@ -1751,7 +1749,6 @@ MAGIC_INFINITY_ARMOR_MACHINE:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTlkMGY1MWYzOWUwOGU1MWNjODNjYmVjMDFlM2NlMTM2MmM3MGMwMmVkYzM1MTkwMmFmOGU3YTVmNmUyMDFiYyJ9fX0=
     lore: 
       - "&a"
-      - "&7Magic Infinity Armor Machine"
       - "&a"
   recipe:
     1:
@@ -2573,7 +2570,6 @@ MAGIC_GRINDING_STONE:
     material: DISPENSER
     lore: 
       - "&a"
-      - "&7Magic Grinding Stone"
   recipe:
     5:
       material: PINK_CANDLE

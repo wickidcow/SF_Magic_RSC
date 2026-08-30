@@ -7,7 +7,6 @@ MAGIC_RESOURCES_STAR:
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTk4MTZiMDA0YzBhMTI0NmVlMjA5NTA5ZmZjOTNhMzAyNGJmMWRmMTliMDk2OTlhYzgzNzlkZTExODYwZjUzMyJ9fX0=
     lore:
-      - "&7Magic Resources Star"
 
 MAGIC_CHICKEN_HEART:
   item_group: magic_resource
@@ -18,7 +17,6 @@ MAGIC_CHICKEN_HEART:
     material: FERMENTED_SPIDER_EYE
     lore:
       - "&7MagicMaterials"
-      - "&7Magic Chicken Heart"
 
 MAGIC_BEE_1:
   item_group: magic_resource
@@ -30,7 +28,6 @@ MAGIC_BEE_1:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODg2YTUwOWZmM2NkNDcxZjFiNDI4YTE5NGI2NzExNDcwYTU0NzczZTVkZTZlZTA3ZjdlNjAxY2M1ZTc1YTIwMCJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Bee 1"
       - "&7Magic"
       - "&a"
 
@@ -43,9 +40,8 @@ MAGIC_DNF_COAL_1:
     material: COAL
     lore: 
       - "&7Materials"
-      - "&7Magic Dnf Coal 1"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
     glow: true
 
 MAGIC_DNF_COAL_PACKAGE:
@@ -57,10 +53,9 @@ MAGIC_DNF_COAL_PACKAGE:
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjE3NTk3ZDhmNWI0NmI1NWQ3MTA2YzhhMGM1YmIwNjU4NDNlNWNlMDcwMGMzNzk1ZjBmNmZlNWU3ZGU4ZWNlZSJ9fX0=
     lore: 
-      - "&7Magic Dnf Coal Package"
       - "&7Materials"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
     glow: true
 
 MAGIC_DNF_STONE_1:
@@ -73,9 +68,8 @@ MAGIC_DNF_STONE_1:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTg4ZDQwNGY1ZjFmYjdhYjJlODA4NzFkM2YzODU4N2Y1ZjNjNjhhYjYxZGFjNGFiNGFhZTVhMDBhM2RiMWI4MCJ9fX0=
     lore: 
       - "&7Materials"
-      - "&7Magic Dnf Stone 1"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
     glow: true
 
 MAGIC_DNF_STONE_PACKAGE:
@@ -87,10 +81,9 @@ MAGIC_DNF_STONE_PACKAGE:
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTlmNDMyYjViMjE2OGQwMTBjZjdiNDE3MjhlYmM3N2E4ODFjNGFjODEyNTliZjMxYWQ5MTU4ZjE0YjQyYjFkIn19fQ==
     lore: 
-      - "&7Magic Dnf Stone Package"
       - "&7Materials"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
     glow: true
 
 

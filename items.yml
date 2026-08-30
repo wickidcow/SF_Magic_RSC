@@ -59,7 +59,6 @@ MAGIC_INFO_2:
     name: '&dMagic Information 2'
     lore:
       - '&7Magic'
-      - '&7Magic Information 2'
     material: PAPER
   recipe_type: 'NULL'
 
@@ -92,7 +91,6 @@ MAGIC_COSMIC_DUST_1:
     glow: true
     lore: 
       - "&a"
-      - "&7Magic Cosmic Dust 1"
       - "&7Magic"
       - "&7Non-renewable resource"
       - "&a"
@@ -200,9 +198,7 @@ MAGIC_GCE_EXCITATION_CHAMBER_PRE:
     name: "&dMagic GCE Excitation Chamber Pre"
     material: blast_furnace
     lore:
-      - "&7Magic GCE Excitation Chamber Pre"
       - "&a"
-      - "&7tier"
       - "&8⇨&e ⚡ &7800J/s"
       - "&a"
       - "&7Magic"
@@ -256,9 +252,7 @@ MAGIC_GCE_EXCITATION_CHAMBER_PRE_CN:
     name: "&dMagic GCE Excitation Chamber Pre Cn"
     material: blast_furnace
     lore:
-      - "&7Magic GCE Excitation Chamber Pre Cn"
       - "&a"
-      - "&7tier"
       - "&8⇨&e ⚡ &7800J/s"
       - "&a"
       - "&7Magic"
@@ -306,9 +300,7 @@ MAGIC_GCE_EXCITATION_CHAMBER:
     name: "&dMagic GCE Excitation Chamber"
     material: blast_furnace
     lore:
-      - "&7Magic GCE Excitation Chamber"
       - "&a"
-      - "&7tier"
       - "&8⇨&e ⚡ &76400J/s"
       - "&a"
       - "&7Magic"
@@ -356,9 +348,8 @@ MAGIC_NEWPLAYER_COIN:
     material: ENCHANTED_GOLDEN_APPLE
     lore:
       - "&a"
-      - "&7Magic New Player Coin"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1:
@@ -402,7 +393,6 @@ MAGIC_INFINITE_UP:
     material: SCUTE
     lore:
       - "&a"
-      - "&7tier"
       - "&a"
       - "&7MagicMaterials"
   recipe:
@@ -450,7 +440,6 @@ MAGIC_QUARTZ_UP:
     material: HEAVY_WEIGHTED_PRESSURE_PLATE
     lore:
       - "&a"
-      - "&7Magic Quartz Up"
       - "&a"
       - "&7MagicMaterials"
   recipe:
@@ -478,7 +467,6 @@ MAGIC_MAGMA_UP:
     material: HEAVY_WEIGHTED_PRESSURE_PLATE
     lore:
       - "&a"
-      - "&7Magic Magma Up"
       - "&a"
       - "&7MagicMaterials"
   recipe:
@@ -1411,7 +1399,6 @@ MAGIC_BEE_SPAWN_EGG8:
     lore:
       - "&a" 
       - "&7Magic"
-      - "&7Magic Bee Spawn Egg8"
       - "&a" 
   recipe:
     1: 
@@ -1483,7 +1470,6 @@ MAGIC_DYNATECH_APIARY_BILLON_INGOT8:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Dynatech Apiary Billon Ingot8"
       - "&7Materials"
       - "&a" 
       - "&7⇨ ⚡ 384 J capacity"
@@ -1524,7 +1510,6 @@ MAGIC_DYNATECH_APIARY_BILLON_INGOT64:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Dynatech Apiary Billon Ingot64"
       - "&7Materials"
       - "&a" 
       - "&7⇨ ⚡ 999,999 J capacity"
@@ -1783,7 +1768,6 @@ MAGIC_CD_BLISTERING_INGOT_3:
     material: MUSIC_DISC_MELLOHI
     lore:
       - "&a" 
-      - "&7Magic Cd Blistering Ingot 3"
       - "&a" 
       - "&7Magic"
   recipe:
@@ -1834,7 +1818,6 @@ MAGIC_DYNATECH_APIARY_DURALUMIN_INGOT:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Dynatech Apiary Duralumin Ingot"
       - "&7Materials"
       - "&a" 
       - "&7⇨ ⚡ 384 J capacity"
@@ -1875,7 +1858,6 @@ MAGIC_DYNATECH_APIARY_DURALUMIN_INGOT64:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Dynatech Apiary Duralumin Ingot64"
       - "&7Materials"
       - "&a" 
       - "&7⇨ ⚡ 999,999 J capacity"
@@ -1919,7 +1901,6 @@ MAGIC_DYNATECH_APIARY_BRASS_INGOT:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Dynatech Apiary Brass Ingot"
       - "&7Materials"
       - "&a" 
       - "&7⇨ ⚡ 384 J capacity"
@@ -1960,7 +1941,6 @@ MAGIC_DYNATECH_APIARY_BRASS_INGOT64:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Dynatech Apiary Brass Ingot64"
       - "&7Materials"
       - "&a" 
       - "&7⇨ ⚡ 999,999 J capacity"
@@ -2004,7 +1984,6 @@ MAGIC_DYNATECH_APIARY_BRONZE_INGOT:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Dynatech Apiary Bronze Ingot"
       - "&7Materials"
       - "&a" 
       - "&7⇨ ⚡ 384 J capacity"
@@ -2045,7 +2024,6 @@ MAGIC_DYNATECH_APIARY_BRONZE_INGOT64:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Dynatech Apiary Bronze Ingot64"
       - "&7Materials"
       - "&a" 
       - "&7⇨ ⚡ 999,999 J capacity"
@@ -2089,7 +2067,6 @@ MAGIC_DYNATECH_APIARY_STEEL_INGOT:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Dynatech Apiary Steel Ingot"
       - "&7Materials"
       - "&a" 
       - "&7⇨ ⚡ 384 J capacity"
@@ -2130,7 +2107,6 @@ MAGIC_DYNATECH_APIARY_STEEL_INGOT64:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Dynatech Apiary Steel Ingot64"
       - "&7Materials"
       - "&a" 
       - "&7⇨ ⚡ 999,999 J capacity"
@@ -2174,7 +2150,6 @@ MAGIC_DYNATECH_APIARY_ALUMINUM_BRASS_INGOT:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Dynatech Apiary Aluminum Brass Ingot"
       - "&7Materials"
       - "&a" 
       - "&7⇨ ⚡ 384 J capacity"
@@ -2215,7 +2190,6 @@ MAGIC_DYNATECH_APIARY_ALUMINUM_BRASS_INGOT64:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Dynatech Apiary Aluminum Brass Ingot64"
       - "&7Materials"
       - "&a" 
       - "&7⇨ ⚡ 999,999 J capacity"
@@ -2261,7 +2235,6 @@ MAGIC_DYNATECH_APIARY_ALUMINUM_BRONZE_INGOT:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Dynatech Apiary Aluminum Bronze Ingot"
       - "&7Materials"
       - "&a" 
       - "&7⇨ ⚡ 384 J capacity"
@@ -2302,7 +2275,6 @@ MAGIC_DYNATECH_APIARY_ALUMINUM_BRONZE_INGOT64:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Dynatech Apiary Aluminum Bronze Ingot64"
       - "&7Materials"
       - "&a" 
       - "&7⇨ ⚡ 999,999 J capacity"
@@ -2346,7 +2318,6 @@ MAGIC_DYNATECH_APIARY_CORINTHIAN_BRONZE_INGOT:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Dynatech Apiary Corinthian Bronze Ingot"
       - "&7Materials"
       - "&a" 
       - "&7⇨ ⚡ 384 J capacity"
@@ -2387,7 +2358,6 @@ MAGIC_DYNATECH_APIARY_CORINTHIAN_BRONZE_INGOT64:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Dynatech Apiary Corinthian Bronze Ingot64"
       - "&7Materials"
       - "&a" 
       - "&7⇨ ⚡ 999,999 J capacity"
@@ -2431,7 +2401,6 @@ MAGIC_DYNATECH_APIARY_SOLDER_INGOT:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Dynatech Apiary Solder Ingot"
       - "&7Materials"
       - "&a" 
       - "&7⇨ ⚡ 384 J capacity"
@@ -2472,7 +2441,6 @@ MAGIC_DYNATECH_APIARY_SOLDER_INGOT64:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Dynatech Apiary Solder Ingot64"
       - "&7Materials"
       - "&a" 
       - "&7⇨ ⚡ 999,999 J capacity"
@@ -2516,7 +2484,6 @@ MAGIC_DYNATECH_APIARY_DAMASCUS_STEEL_INGOT:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Dynatech Apiary Damascus Steel Ingot"
       - "&7Materials"
       - "&a" 
       - "&7⇨ ⚡ 384 J capacity"
@@ -2557,7 +2524,6 @@ MAGIC_DYNATECH_APIARY_DAMASCUS_STEEL_INGOT64:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Dynatech Apiary Damascus Steel Ingot64"
       - "&7Materials"
       - "&a" 
       - "&7⇨ ⚡ 999,999 J capacity"
@@ -2601,7 +2567,6 @@ MAGIC_DYNATECH_APIARY_HARDENED_METAL_INGOT:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Dynatech Apiary Hardened Metal Ingot"
       - "&7Materials"
       - "&a" 
       - "&7⇨ ⚡ 384 J capacity"
@@ -2642,7 +2607,6 @@ MAGIC_DYNATECH_APIARY_HARDENED_METAL_INGOT64:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Dynatech Apiary Hardened Metal Ingot64"
       - "&7Materials"
       - "&a" 
       - "&7⇨ ⚡ 999,999 J capacity"
@@ -2686,7 +2650,6 @@ MAGIC_DYNATECH_APIARY_REINFORCED_ALLOY_INGOT:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Dynatech Apiary Reinforced Alloy Ingot"
       - "&7Materials"
       - "&a" 
       - "&7⇨ ⚡ 384 J capacity"
@@ -2727,7 +2690,6 @@ MAGIC_DYNATECH_APIARY_REINFORCED_ALLOY_INGOT64:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Dynatech Apiary Reinforced Alloy Ingot64"
       - "&7Materials"
       - "&a" 
       - "&7⇨ ⚡ 999,999 J capacity"
@@ -2771,7 +2733,6 @@ MAGIC_DYNATECH_APIARY_FERROSILICON:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Dynatech Apiary Ferrosilicon"
       - "&7Materials"
       - "&a" 
       - "&7⇨ ⚡ 384 J capacity"
@@ -2812,7 +2773,6 @@ MAGIC_DYNATECH_APIARY_FERROSILICON64:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Dynatech Apiary Ferrosilicon64"
       - "&7Materials"
       - "&a" 
       - "&7⇨ ⚡ 999,999 J capacity"
@@ -2856,7 +2816,6 @@ MAGIC_DYNATECH_APIARY_GILDED_IRON:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Dynatech Apiary Gilded Iron"
       - "&7Materials"
       - "&a" 
       - "&7⇨ ⚡ 384 J capacity"
@@ -2897,7 +2856,6 @@ MAGIC_DYNATECH_APIARY_GILDED_IRON64:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Dynatech Apiary Gilded Iron64"
       - "&7Materials"
       - "&a" 
       - "&7⇨ ⚡ 999,999 J capacity"
@@ -2941,7 +2899,6 @@ MAGIC_DYNATECH_APIARY_NICKEL_INGOT:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Dynatech Apiary Nickel Ingot"
       - "&7Materials"
       - "&a" 
       - "&7⇨ ⚡ 384 J capacity"
@@ -2982,7 +2939,6 @@ MAGIC_DYNATECH_APIARY_NICKEL_INGOT64:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Dynatech Apiary Nickel Ingot64"
       - "&7Materials"
       - "&a" 
       - "&7⇨ ⚡ 999,999 J capacity"
@@ -3026,7 +2982,6 @@ MAGIC_DYNATECH_APIARY_COBALT_INGOT:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Dynatech Apiary Cobalt Ingot"
       - "&7Materials"
       - "&a" 
       - "&7⇨ ⚡ 384 J capacity"
@@ -3067,7 +3022,6 @@ MAGIC_DYNATECH_APIARY_COBALT_INGOT64:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Dynatech Apiary Cobalt Ingot64"
       - "&7Materials"
       - "&a" 
       - "&7⇨ ⚡ 999,999 J capacity"
@@ -3111,7 +3065,6 @@ MAGIC_DYNATECH_APIARY_REDSTONE_ALLOY:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Dynatech Apiary Redstone Alloy"
       - "&7Materials"
       - "&a" 
       - "&7⇨ ⚡ 384 J capacity"
@@ -3152,7 +3105,6 @@ MAGIC_DYNATECH_APIARY_REDSTONE_ALLOY64:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Dynatech Apiary Redstone Alloy64"
       - "&7Materials"
       - "&a" 
       - "&7⇨ ⚡ 999,999 J capacity"
@@ -3196,7 +3148,6 @@ MAGIC_DYNATECH_APIARY_SYNTHETIC_DIAMOND:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Dynatech Apiary Synthetic Diamond"
       - "&7Materials"
       - "&a" 
       - "&7⇨ ⚡ 384 J capacity"
@@ -3237,7 +3188,6 @@ MAGIC_DYNATECH_APIARY_SYNTHETIC_DIAMOND64:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Dynatech Apiary Synthetic Diamond64"
       - "&7Materials"
       - "&a" 
       - "&7⇨ ⚡ 999,999 J capacity"
@@ -3281,7 +3231,6 @@ MAGIC_DYNATECH_APIARY_SYNTHETIC_EMERALD:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Dynatech Apiary Synthetic Emerald"
       - "&7Materials"
       - "&a" 
       - "&7⇨ ⚡ 384 J capacity"
@@ -3322,7 +3271,6 @@ MAGIC_DYNATECH_APIARY_SYNTHETIC_EMERALD64:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Dynatech Apiary Synthetic Emerald64"
       - "&7Materials"
       - "&a" 
       - "&7⇨ ⚡ 999,999 J capacity"
@@ -3366,7 +3314,6 @@ MAGIC_DYNATECH_APIARY_SYNTHETIC_SAPPHIRE:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Dynatech Apiary Synthetic Sapphire"
       - "&7Materials"
       - "&a" 
       - "&7⇨ ⚡ 384 J capacity"
@@ -3407,7 +3354,6 @@ MAGIC_DYNATECH_APIARY_SYNTHETIC_SAPPHIRE64:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Dynatech Apiary Synthetic Sapphire64"
       - "&7Materials"
       - "&a" 
       - "&7⇨ ⚡ 999,999 J capacity"
@@ -3451,7 +3397,6 @@ MAGIC_DYNATECH_APIARY_CARBONADO:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Dynatech Apiary Carbonado"
       - "&7Materials"
       - "&a" 
       - "&7⇨ ⚡ 384 J capacity"
@@ -3492,7 +3437,6 @@ MAGIC_DYNATECH_APIARY_CARBONADO64:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkY2U1OWJhNzJmODQ3MzZlMWVhOWMzYjQzZWIxYWFkYzQ5N2IyOTA0YTFjZGEwODk3MjY5MmRjMWI0Y2E3NSJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Dynatech Apiary Carbonado64"
       - "&7Materials"
       - "&a" 
       - "&7⇨ ⚡ 999,999 J capacity"
@@ -3536,7 +3480,6 @@ MAGIC_GENSHIN_IMPACT_RADDOM:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWRmMjgzNTk3NWFjZWUxNzM0MjZjNWM2NTIzM2Y0YzFiNTA2YTc2ZGZjZDQxOGUzMDA3NjUzNmM4ZWYzZDM5YyJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Genshin Impact Raddom"
       - "&a" 
   script: Genshin_box
   recipe:
@@ -3571,7 +3514,6 @@ MAGIC_GENSHIN_IMPACT_1:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDQ5NzY5MzlhMmRjYjdhMGMwNGFmNTNmM2UxZDgyZTk1NTRlNWNjOWVmNjgxN2Y1OTdhMTMyOGYyN2UzY2JkNSJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Genshin Impact 1"
       - "&a" 
 
 MAGIC_GENSHIN_IMPACT_2: 
@@ -3585,7 +3527,6 @@ MAGIC_GENSHIN_IMPACT_2:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2RiMzVkZjJhZTFiZDFmMGM5YzYwNTlhM2YzMDIzMDIwNzc0MTMzMmI5NDU3NjNjYmM2OWE2YzJlMTA2YzMwZCJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Genshin Impact 2"
       - "&a" 
 
 MAGIC_GENSHIN_IMPACT_3: 
@@ -3599,7 +3540,6 @@ MAGIC_GENSHIN_IMPACT_3:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjYxZTI1YmQxMDU3YzkwNjk1NTY4OTk2MzA0NmVkMzliN2M5NTU4OWU1ZDM2YWJiYjNkMjJiYWM3OTFjOGQyNSJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Genshin Impact 3"
       - "&a" 
 
 MAGIC_GENSHIN_IMPACT_4: 
@@ -3613,7 +3553,6 @@ MAGIC_GENSHIN_IMPACT_4:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjJmMjcxYWRkMDVlNTBlNzAwMjdkOTZlMTY0ZGQwNGFlZWNhMWQyMWE5YTA5ZmNkMzRmNWNkZDYzZGRiZGE1OSJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Genshin Impact 4"
       - "&a" 
 
 MAGIC_GENSHIN_IMPACT_5: 
@@ -3627,7 +3566,6 @@ MAGIC_GENSHIN_IMPACT_5:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGZlMTQwYjQzZTI4YzllOTgxZGMxOGEzYTk5YzA5MTllZDlmNDdjMTI3YTIwYzEyNmMzMjY2YjQ2MDRmZTJjZSJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Genshin Impact 5"
       - "&a" 
 MAGIC_GENSHIN_IMPACT_6: 
   #芙宁娜
@@ -3640,7 +3578,6 @@ MAGIC_GENSHIN_IMPACT_6:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDM5ZjMzNjY3Y2U3YjI4M2I4ZmI5NmQ2MWIxZTlhYmQ0YjNiZjA3NjM2MGFmZTU5NDJhNzhjNmZiNTg4NDgxIn19fQ==
     lore:
       - "&a"
-      - "&7Magic Genshin Impact 6"
       - "&a" 
 MAGIC_GENSHIN_IMPACT_7: 
   #雷电影
@@ -3653,7 +3590,6 @@ MAGIC_GENSHIN_IMPACT_7:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjY1ZjU2ODdlYWJjMjcyZmQzODI0M2IwMTU1YjU0MmMxZmQyZDk3ZjkyOTI4NTdkZGMwOTdiMDNhNjg4ZDgxOSJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Genshin Impact 7"
       - "&a" 
 MAGIC_GENSHIN_IMPACT_8: 
   #妮露
@@ -3666,7 +3602,6 @@ MAGIC_GENSHIN_IMPACT_8:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWI3YzI0MjViMzViMmE3ZDAxNDI0ZDY1ODBkNWFhM2IxYmRhMDUyMmMxYjg1YzlhODRkMDFmMzk3NjIzNzdhYyJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Genshin Impact 8"
       - "&a" 
 MAGIC_GENSHIN_IMPACT_9: 
   #雷电将军
@@ -3679,7 +3614,6 @@ MAGIC_GENSHIN_IMPACT_9:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWU0ZDhiODUxMDMwMDQzMzY2NjE0OTIzYzEwYmU2ZmFjMTM4NWQ1ZjgzYzM2OTA5ZWFhMjc1MjdmMjNmZWE2MCJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Genshin Impact 9"
       - "&a" 
 MAGIC_GENSHIN_IMPACT_10: 
   #莫娜
@@ -3692,7 +3626,6 @@ MAGIC_GENSHIN_IMPACT_10:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWE2ODY4OTU1MjlmYzM4NDg3ZDI4YWMzMjk2ZGNiODBmZjYwZjUwNGJjODA0ZmIzNDc1NGEyNzhjZTFmMGE4MyJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Genshin Impact 10"
       - "&a" 
 MAGIC_GENSHIN_IMPACT_11: 
   #甘雨
@@ -3705,7 +3638,6 @@ MAGIC_GENSHIN_IMPACT_11:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDRhMjYzYTk1NDk2MmZkOGJkZDU2OGU2NmY0MWQwY2ViYmE0YjBjMDQ1Y2Y3MGE4MDc0ZjlmMjlkNzE3MDUwZiJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Genshin Impact 11"
       - "&a" 
 
 MAGIC_GENSHIN_IMPACT_12: 
@@ -3719,7 +3651,6 @@ MAGIC_GENSHIN_IMPACT_12:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDc2OWE4ZGVlNDdiY2Y1YjFiNWY2MWIzNThkYzQxMTYyMTJhZmZlNmY0ZWY3M2U1OTQ0MTI3OWYxODM3MjE0In19fQ==
     lore:
       - "&a"
-      - "&7Magic Genshin Impact 12"
       - "&a" 
 
 MAGIC_GENSHIN_IMPACT_13: 
@@ -3733,7 +3664,6 @@ MAGIC_GENSHIN_IMPACT_13:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTNlYzkwYzgyOTY0MzRmMjRiZWM5NDA1YzQxOWMxZTg5NWNkMTg4ODgyYmIxYmNhNWYyZTI0OGZlN2JlZjEwNSJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Genshin Impact 13"
       - "&a" 
 
 MAGIC_GENSHIN_IMPACT_14: 
@@ -3747,7 +3677,6 @@ MAGIC_GENSHIN_IMPACT_14:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTY2Yjc3MGNiYmIzODMyNjU1ZTMxZTE1MzQ1NjAwZTUzNWMxNTEyZmI4OGNkMjg2NGYwOTNkMDEzN2IxNzQyIn19fQ==
     lore:
       - "&a"
-      - "&7Magic Genshin Impact 14"
       - "&a" 
 
 MAGIC_GENSHIN_IMPACT_15: 
@@ -3761,7 +3690,6 @@ MAGIC_GENSHIN_IMPACT_15:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODZhYWE0MWY5ODBjNTBhM2I0ODg3OGI2ODgwOThmMGYyN2Q2MTk1OGQ4ZTFiYzA4OTYzOTkyNzEwZDkzZDA3MSJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Genshin Impact 15"
       - "&a" 
 
 MAGIC_GENSHIN_IMPACT_16: 
@@ -3775,7 +3703,6 @@ MAGIC_GENSHIN_IMPACT_16:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTQyNzY0YjY3Mzk3NzNmZDdhZmI0NmZjMjJjMDUwNDIxODMxMWI1MDViNTJjMzNkZDY5NjFhNTI3MDc1ZWE3OSJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Genshin Impact 16"
       - "&a" 
 
 MAGIC_GENSHIN_IMPACT_17: 
@@ -3789,7 +3716,6 @@ MAGIC_GENSHIN_IMPACT_17:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmM1YzdjOTM4NDI3MWUzMThiZjFkNDg2MjMzNGJkYzI2YjcxNTE4ZGFjYjE4ZDMzNTE0MmE5N2M0NGYxNzQ1NCJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Genshin Impact 17"
       - "&a" 
 
 MAGIC_GENSHIN_IMPACT_18: 
@@ -3803,7 +3729,6 @@ MAGIC_GENSHIN_IMPACT_18:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmQwNjQ3ODRiODMxNGZmYTY0NDQ0M2Y3ZmVkZWU4YjIxNWQxNDQzNzBhMDIxZTcxMjEwM2VmYzIwMjc3NTJjMyJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Genshin Impact 18"
       - "&a" 
 
 MAGIC_GENSHIN_IMPACT_19: 
@@ -3817,7 +3742,6 @@ MAGIC_GENSHIN_IMPACT_19:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzY4MDA5N2ZmMDdkZGRjNWZkZmRhZjk2MTI4NWIyODUwNGZkMTJkODQ4MzgxZWE2OTM5ZjZlMjIzYjhlNDU4NSJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Genshin Impact 19"
       - "&a" 
 
 MAGIC_GENSHIN_IMPACT_20: 
@@ -3831,7 +3755,6 @@ MAGIC_GENSHIN_IMPACT_20:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzQyMDNkMTYyNjRhMzdmZWFjYzczMTQ5MDgyYzM5NDlkYTI1OWFmMWY3YTkxNzQ2Mzg5ODk1MmM3MGMwZDg2ZCJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Genshin Impact 20"
       - "&a" 
 
 MAGIC_GENSHIN_IMPACT_21: 
@@ -3845,7 +3768,6 @@ MAGIC_GENSHIN_IMPACT_21:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWEyNzMxMDE2ZmQ5YWEyNTM2NDU4YjU3ODViMzNlMDgxOWI1NGJkN2ExNzIzNDk0NzhjMmNlMzkzZWY2MjU5NCJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Genshin Impact 21"
       - "&a" 
 
 MAGIC_GENSHIN_IMPACT_22: 
@@ -3859,7 +3781,6 @@ MAGIC_GENSHIN_IMPACT_22:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODBjYzZiODNlNDRiNzg2MDIxYWRmZjRjZmJiZTRmZDI1ZTEyNTk1YzZiNmE4OWY5MGQxMmExMzQ5YWRkMGU2MyJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Genshin Impact 22"
       - "&a" 
 
 MAGIC_GENSHIN_IMPACT_23: 
@@ -3873,7 +3794,6 @@ MAGIC_GENSHIN_IMPACT_23:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTNkOWUzOTA4NGE2YjM1NGZkZWRiMDRjOGM4Mjg4MTk1NjlhNTJhOTBiOWZkZWI2NGFiMDkxOWIwMDU3OTFkMSJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Genshin Impact 23"
       - "&a" 
 
 MAGIC_GENSHIN_IMPACT_24: 
@@ -3887,7 +3807,6 @@ MAGIC_GENSHIN_IMPACT_24:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTllNDg3MjhkNDk3NmQ3ZjZjY2I1MGYyMmVjY2IxMDMxZTQ0MDZhMDY3ODYwMjA4YjNlNmI5ZmQ1YjllMDQxMSJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Genshin Impact 24"
       - "&a" 
 
 MAGIC_GENSHIN_IMPACT_25: 
@@ -3901,7 +3820,6 @@ MAGIC_GENSHIN_IMPACT_25:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWZmYjkzZmNmZDhmNDNlZTlmMjNiNDYxNTI2NjkyMTA1ZWM4N2I1Zjk2ODRjMDc4YzkzNjM2ZjA4Zjc0NDM5MiJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Genshin Impact 25"
       - "&a" 
 
 MAGIC_GENSHIN_IMPACT_26: 
@@ -3915,7 +3833,6 @@ MAGIC_GENSHIN_IMPACT_26:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjEzYTRiNmRmZmFkZTFjMmFkMTVmZjg5YmU3N2QwZTFlMzZmZGViNDNlOTMxMmU5MWMxOWY0NmM0ZmQ1MzE5MCJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Genshin Impact 26"
       - "&a" 
 
 MAGIC_GENSHIN_IMPACT_27: 
@@ -3929,7 +3846,6 @@ MAGIC_GENSHIN_IMPACT_27:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjg2ZGVhOGE4OTBhODAwNDFhZGI2Y2QwYjM5OWIxN2QxNTQ0NWI3YmM1ZjQ3ZjFlYWMzM2IyYTNlNDhhYjM1ZiJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Genshin Impact 27"
       - "&a" 
       - "&a-Slimefun"
 
@@ -3946,7 +3862,6 @@ MAGIC_ZR:
       - "&a"
       - "&7Zr"
       - "&a" 
-      - "&7Magic Zr"
 
 MAGIC_SI: 
   #硅 (Si)
@@ -3961,7 +3876,6 @@ MAGIC_SI:
       - "&a"
       - "&7Si"
       - "&a" 
-      - "&7Magic Si"
 
 MAGIC_AL: 
   #铝 (Al)
@@ -3976,7 +3890,6 @@ MAGIC_AL:
       - "&a"
       - "&7Al"
       - "&a" 
-      - "&7Magic Al"
 
 MAGIC_TI: 
   #钛 (Ti)
@@ -3991,7 +3904,6 @@ MAGIC_TI:
       - "&a"
       - "&7Ti"
       - "&a" 
-      - "&7Magic Ti"
 
 MAGIC_FE: 
   #铁 (Fe)
@@ -4006,7 +3918,6 @@ MAGIC_FE:
       - "&a"
       - "&7Fe"
       - "&a" 
-      - "&7Magic Fe"
 
 MAGIC_ENDLESS_PRESS:
   item_group: magic_resource
@@ -4015,7 +3926,6 @@ MAGIC_ENDLESS_PRESS:
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWE3NzRkYWRiNGJhNDQyZTBlMjhmNWZmYmQ2MzQxZTZjNzFhNzdkMTU3NDU1OTM0NzE4MWRiNjE0MzA4YWUyNSJ9fX0=
     lore:
-      - "&7Magic Endless Press"
   recipe_type: MAGIC_ENERGY_PRESS
   recipe:
     1:
@@ -4032,7 +3942,6 @@ MAGIC_AUTHOR_INGOT_1_1:
     glow: true
     lore:
       - "&a" 
-      - "&7Magic Credits Ingot 1 1"
   recipe_type: MAGIC_AUTHOR_MACHINE
   recipe:
     1:
@@ -4072,7 +3981,6 @@ MAGIC_AUTHOR_INGOT_1_2:
     glow: true
     lore:
       - "&a" 
-      - "&7Magic Credits Ingot 1 2"
   recipe_type: MAGIC_AUTHOR_MACHINE
   recipe:
     1:
@@ -4112,7 +4020,6 @@ MAGIC_AUTHOR_INGOT_1_3:
     glow: true
     lore:
       - "&a" 
-      - "&7Magic Credits Ingot 1 3"
   recipe_type: MAGIC_AUTHOR_MACHINE
   recipe:
     1:
@@ -4152,7 +4059,6 @@ MAGIC_AUTHOR_INGOT_1_4:
     glow: true
     lore:
       - "&a" 
-      - "&7Magic Credits Ingot 1 4"
   recipe_type: MAGIC_AUTHOR_MACHINE
   recipe:
     1:
@@ -4191,7 +4097,6 @@ MAGIC_AUTHOR_INGOT_1:
     glow: true
     lore:
       - "&a" 
-      - "&7Magic Credits Ingot 1"
   recipe_type: SMELTERY
   recipe:
     1:
@@ -4235,7 +4140,6 @@ MAGIC_AUTHOR_INGOT:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjJlNTE2ZmNhNWQ0MDMyYjI3MWUyMGYyNDQ2ZTAzMzdjMmMxZWE2M2U5MzkwYTgxNTdlMjVkMjExYjRiOGY5NiJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Credits Ingot"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1:
@@ -4283,7 +4187,6 @@ MAGIC_MAGIC_INGOT:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjUzZTBiOTNlMmNmZDdjZWM4NDg2NzQyMTQ0OGJmMzNiMDJiNWY2ZTIyYzdjNGQzOWI3ODA1NWMwZTgzZTE4MCJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Ingot"
       - "&7——Magic"
       - "&7Magic"
       - "&a" 
@@ -4336,7 +4239,6 @@ MAGIC_SUPREME_SUPREME_GENERATOR_UP:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWIwYTA2MjlhNzRhMjBjZjQxOWMxYTEyZmNhNDlmODcyYjc4NTI0YmIyNWRkOGI5ZDc0YzFkMjZlN2IwOTI2OCJ9fX0=
     lore:
       - "&a"
-      - "&7tier"
       - "&a"
       - "&7MagicMaterials"
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -4386,7 +4288,6 @@ MAGIC_INFINITE_ORIGINIUM:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzRiNjYyZDNiNTI5YTE4NzI2MWNhYjg2YzZlNTY0MjNiZjg3NmFhMjQ5ZDAzMGZhZWFmMzQzNjJmMzQ0NzI3NyJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Infinite Originium"
       - "&a"
   recipe_type: SMELTERY
   recipe:
@@ -4407,7 +4308,6 @@ MAGIC_SNOW_CD:
     glow: true
     lore:
       - "&a"
-      - "&7Magic Snow Cd"
       - "&7magicsolo"
       - "&a"
   recipe_type: ONLY_SNOW
@@ -4420,7 +4320,6 @@ MAGIC_VOID_DUST:
     glow: true
     lore:
       - "&a"
-      - "&7Magic Void Dust"
       - "&a"
       - "&7MagicMaterials"
   recipe_type: MAGIC_ENERGY_PRESS
@@ -4438,7 +4337,6 @@ MAGIC_VOID_INGOT:
     glow: true
     lore:
       - "&a"
-      - "&7Magic Void Ingot"
       - "&a"
       - "&7MagicMaterials"
   recipe_type: MAGIC_ENERGY_PRESS
@@ -4456,7 +4354,6 @@ MAGIC_INFINITE_INGOT:
     glow: true
     lore:
       - "&a"
-      - "&7Magic Infinite Ingot"
       - "&a"
       - "&7MagicMaterials"
   recipe_type: MAGIC_ENERGY_PRESS
@@ -4527,7 +4424,6 @@ MAGIC_MOB_SIMULATION_CHAMBER_UP:
     glow: true
     lore:
       - "&a"
-      - "&7Magic Mob Simulation Chamber Up"
       - "&a"
       - "&7MagicMaterials"
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -4576,7 +4472,6 @@ ZOMBIE_DATA_CARD_MAGIC:
     material: diamond_chestplate
     glow: true
     lore:
-      - "&7Magic Zombie Data Card Magic"
       - "&a"
       - "&8⇨&e ⚡ &7800 J/s"
       - "&a"
@@ -4590,7 +4485,6 @@ SLIME_DATA_CARD_MAGIC:
     material: iron_chestplate
     glow: true
     lore:
-      - "&7Magic Slime Data Card Magic"
       - "&a"
       - "&8⇨&e ⚡ &7800 J/s"
       - "&a"
@@ -4604,7 +4498,6 @@ MAGMA_CUBE_DATA_CARD_MAGIC:
     material: iron_chestplate
     glow: true
     lore:
-      - "&7Magic Magma Cube Data Card Magic"
       - "&a"
       - "&8⇨&e ⚡ &7800 J/s"
       - "&a"
@@ -4618,7 +4511,6 @@ COW_DATA_CARD_MAGIC:
     material: iron_chestplate
     glow: true
     lore:
-      - "&7Magic Cow Data Card Magic"
       - "&a"
       - "&8⇨&e ⚡ &7800 J/s"
       - "&a"
@@ -4632,7 +4524,6 @@ SHEEP_DATA_CARD_MAGIC:
     material: iron_chestplate
     glow: true
     lore:
-      - "&7Magic Sheep Data Card Magic"
       - "&a"
       - "&8⇨&e ⚡ &7800 J/s"
       - "&a"
@@ -4646,7 +4537,6 @@ SPIDER_DATA_CARD_MAGIC:
     material: diamond_chestplate
     glow: true
     lore:
-      - "&7Magic Spider Data Card Magic"
       - "&a"
       - "&8⇨&e ⚡ &7800 J/s"
       - "&a"
@@ -4660,7 +4550,6 @@ SKELETON_DATA_CARD_MAGIC:
     material: diamond_chestplate
     glow: true
     lore:
-      - "&7Magic Skeleton Data Card Magic"
       - "&a"
       - "&8⇨&e ⚡ &7800 J/s"
       - "&a"
@@ -4674,7 +4563,6 @@ WITHER_SKELETON_DATA_CARD_MAGIC:
     material: diamond_chestplate
     glow: true
     lore:
-      - "&7Magic Wither Skeleton Data Card Magic"
       - "&a"
       - "&8⇨&e ⚡ &7800 J/s"
       - "&a"
@@ -4688,7 +4576,6 @@ ENDERMEN_DATA_CARD_MAGIC:
     material: diamond_chestplate
     glow: true
     lore:
-      - "&7Magic Endermen Data Card Magic"
       - "&a"
       - "&8⇨&e ⚡ &7800 J/s"
       - "&a"
@@ -4702,7 +4589,6 @@ CREEPER_DATA_CARD_MAGIC:
     material: diamond_chestplate
     glow: true
     lore:
-      - "&7Magic Creeper Data Card Magic"
       - "&a"
       - "&8⇨&e ⚡ &7800 J/s"
       - "&a"
@@ -4716,7 +4602,6 @@ GUARDIAN_DATA_CARD_MAGIC:
     material: diamond_chestplate
     glow: true
     lore:
-      - "&7Magic Guardian Data Card Magic"
       - "&a"
       - "&8⇨&e ⚡ &7800 J/s"
       - "&a"
@@ -4730,7 +4615,6 @@ CHICKEN_DATA_CARD_MAGIC:
     material: iron_chestplate
     glow: true
     lore:
-      - "&7Magic Chicken Data Card Magic"
       - "&a"
       - "&8⇨&e ⚡ &7800 J/s"
       - "&a"
@@ -4744,7 +4628,6 @@ IRON_GOLEM_DATA_CARD_MAGIC:
     material: diamond_chestplate
     glow: true
     lore:
-      - "&7Magic Iron Golem Data Card Magic"
       - "&a"
       - "&8⇨&e ⚡ &7800 J/s"
       - "&a"
@@ -4758,7 +4641,6 @@ BLAZE_DATA_CARD_MAGIC:
     material: diamond_chestplate
     glow: true
     lore:
-      - "&7Magic Blaze Data Card Magic"
       - "&a"
       - "&8⇨&e ⚡ &7800 J/s"
       - "&a"
@@ -4772,7 +4654,6 @@ WITHER_DATA_CARD_MAGIC:
     material: netherite_chestplate
     glow: true
     lore:
-      - "&7Magic Wither Data Card Magic"
       - "&a"
       - "&8⇨&e ⚡ &7800 J/s"
       - "&a"
@@ -4786,7 +4667,6 @@ BEE_DATA_CARD_MAGIC:
     material: iron_chestplate
     glow: true
     lore:
-      - "&7Magic Bee Data Card Magic"
       - "&a"
       - "&8⇨&e ⚡ &7800 J/s"
       - "&a"
@@ -4800,7 +4680,6 @@ VILLAGER_DATA_CARD_MAGIC:
     material: iron_chestplate
     glow: true
     lore:
-      - "&7Magic Villager Data Card Magic"
       - "&a"
       - "&8⇨&e ⚡ &7800 J/s"
       - "&a"
@@ -4814,7 +4693,6 @@ WITCH_DATA_CARD_MAGIC:
     material: diamond_chestplate
     glow: true
     lore:
-      - "&7Magic Witch Data Card Magic"
       - "&a"
       - "&8⇨&e ⚡ &7800 J/s"
       - "&a"
@@ -4828,7 +4706,6 @@ VEX_DATA_CARD_MAGIC:
     material: diamond_chestplate
     glow: true
     lore:
-      - "&7Magic Vex Data Card Magic"
       - "&a"
       - "&8⇨&e ⚡ &7800 J/s"
       - "&a"
@@ -4842,7 +4719,6 @@ PHANTOM_DATA_CARD_MAGIC:
     material: diamond_chestplate
     glow: true
     lore:
-      - "&7Magic Phantom Data Card Magic"
       - "&a"
       - "&8⇨&e ⚡ &7800 J/s"
       - "&a"
@@ -4858,7 +4734,6 @@ MAGIC_CD_REINFORCED_ALLOY_INGOT:
     material: MUSIC_DISC_MELLOHI
     lore:
       - "&a" 
-      - "&7Magic Cd Reinforced Alloy Ingot"
       - "&a" 
       - "&7Magic"
   recipe:
@@ -4880,7 +4755,6 @@ MAGIC_CD_HARDENED_METAL_INGOT:
     material: MUSIC_DISC_MELLOHI
     lore:
       - "&a" 
-      - "&7Magic Cd Hardened Metal Ingot"
       - "&a" 
       - "&7Magic"
   recipe:
@@ -4902,7 +4776,6 @@ MAGIC_CD_SYNTHETIC_SAPPHIRE:
     material: MUSIC_DISC_MELLOHI
     lore:
       - "&a" 
-      - "&7Magic Cd Synthetic Sapphire"
       - "&a" 
       - "&7Magic"
   recipe:
@@ -4924,7 +4797,6 @@ MAGIC_CD_SYNTHETIC_DIAMOND:
     material: MUSIC_DISC_MELLOHI
     lore:
       - "&a" 
-      - "&7Magic Cd Synthetic Diamond"
       - "&a" 
       - "&7Magic"
   recipe:
@@ -4946,7 +4818,6 @@ MAGIC_CD_SYNTHETIC_EMERALD:
     material: MUSIC_DISC_MELLOHI
     lore:
       - "&a" 
-      - "&7Magic Cd Synthetic Emerald"
       - "&a" 
       - "&7Magic"
   recipe:
@@ -4968,7 +4839,6 @@ MAGIC_CD_REDSTONE_ALLOY:
     material: MUSIC_DISC_MELLOHI
     lore:
       - "&a" 
-      - "&7Magic Cd Redstone Alloy"
       - "&a" 
       - "&7Magic"
   recipe:
@@ -4990,7 +4860,6 @@ MAGIC_CD_BASIC_CIRCUIT_BOARD:
     material: MUSIC_DISC_MELLOHI
     lore:
       - "&a" 
-      - "&7Magic Cd Basic Circuit Board"
       - "&a" 
       - "&7Magic"
   recipe:
@@ -5012,7 +4881,6 @@ MAGIC_CD_ADVANCED_CIRCUIT_BOARD:
     material: MUSIC_DISC_CHIRP
     lore:
       - "&a" 
-      - "&7tier"
       - "&a" 
       - "&7Magic"
   recipe:
@@ -5034,7 +4902,6 @@ MAGIC_CD_SOLAR_PANEL:
     material: MUSIC_DISC_MELLOHI
     lore:
       - "&a" 
-      - "&7Magic Cd Solar Panel"
       - "&a" 
       - "&7Magic"
   recipe:
@@ -5056,7 +4923,6 @@ MAGIC_CD_ELECTRO_MAGNET:
     material: MUSIC_DISC_MELLOHI
     lore:
       - "&a" 
-      - "&7Magic Cd Electro Magnet"
       - "&a" 
       - "&7Magic"
   recipe:
@@ -5078,7 +4944,6 @@ MAGIC_CD_ELECTRIC_MOTOR:
     material: MUSIC_DISC_MELLOHI
     lore:
       - "&a" 
-      - "&7Magic Cd Electric Motor"
       - "&a" 
       - "&7Magic"
   recipe:
@@ -5100,7 +4965,6 @@ MAGIC_CD_HEATING_COIL:
     material: MUSIC_DISC_MELLOHI
     lore:
       - "&a" 
-      - "&7Magic Cd Heating Coil"
       - "&a" 
       - "&7Magic"
   recipe:
@@ -5122,7 +4986,6 @@ MAGIC_CD_ANDROID_MEMORY_CORE:
     material: MUSIC_DISC_CHIRP
     lore:
       - "&a" 
-      - "&7Magic Cd Android Memory Core"
       - "&a" 
       - "&7Magic"
   recipe:
@@ -5144,7 +5007,6 @@ MAGIC_CD_SOLAR_GENERATOR_4:
     material: MUSIC_DISC_5
     lore:
       - "&a" 
-      - "&7Magic Cd Solar Generator 4"
       - "&a" 
       - "&7Magic"
   recipe:
@@ -5166,7 +5028,6 @@ MAGIC_WATER_BUCKET:
     material: WATER_BUCKET
     lore:
       - "&a" 
-      - "&7Magic Water Bucket"
       - "&a" 
       - "&7MagicMaterials"
   recipe:
@@ -5239,7 +5100,6 @@ MAGIC_BUCKET:
     glow: true
     lore:
       - "&a" 
-      - "&7Magic Bucket"
       - "&a" 
       - "&7MagicMaterials"
   recipe:
@@ -5317,7 +5177,6 @@ MAGIC_REACTOR_COLLANT_CELL_PRESS:
     glow: true
     lore:
       - "&a" 
-      - "&7Magic Reactor Collant Cell Press"
       - "&a" 
       - "&7MagicMaterials"
   recipe:
@@ -5337,7 +5196,6 @@ MAGIC_NETHER_ICE_COOLANT_CELL_PRESS:
     glow: true
     lore:
       - "&a" 
-      - "&7Magic Nether Ice Coolant Cell Press"
       - "&a" 
       - "&7MagicMaterials"
   recipe:
@@ -5356,7 +5214,6 @@ MAGIC_SNOW:
     glow: true
     lore:
       - "&a" 
-      - "&7Magic Snow"
       - "&a" 
       - "&7MagicMaterials"
   recipe:
@@ -5912,12 +5769,11 @@ MAGIC_STONEWORKS_FACTORY9:
   item_group: magic_plant
   recipe_type: ENHANCED_CRAFTING_TABLE
   item:
-    name: "&dMagic Stoneworks Factory9"
+    name: "&dMagic Stoneworks Factory 9"
     material: BLAST_FURNACE
     glow: true
     lore:
       - "&a" 
-      - "&7Magic Stoneworks Factory9"
       - "&a" 
       - "&7MagicMaterials"
   recipe:
@@ -5963,12 +5819,11 @@ MAGIC_STONEWORKS_FACTORY81:
   item_group: magic_plant
   recipe_type: ENHANCED_CRAFTING_TABLE
   item:
-    name: "&dMagic Stoneworks Factory81"
+    name: "&dMagic Stoneworks Factory 81"
     material: BLAST_FURNACE
     glow: true
     lore:
       - "&a" 
-      - "&7Magic Stoneworks Factory81"
       - "&a" 
       - "&7MagicMaterials"
   recipe:
@@ -6014,12 +5869,11 @@ MAGIC_STONEWORKS_FACTORY729:
   item_group: magic_plant
   recipe_type: ENHANCED_CRAFTING_TABLE
   item:
-    name: "&dMagic Stoneworks Factory729"
+    name: "&dMagic Stoneworks Factory 729"
     material: BLAST_FURNACE
     glow: true
     lore:
       - "&a" 
-      - "&7Magic Stoneworks Factory729"
       - "&a" 
       - "&7MagicMaterials"
   recipe:
@@ -6172,7 +6026,6 @@ MAGIC_SUPREME_ORIGIN:
     glow: true
     lore:
       - "&a" 
-      - "&7Magic Supreme Origin"
       - "&a" 
       - "&7MagicMaterials"
   recipe:
@@ -6222,7 +6075,6 @@ MAGIC_NEW_PLANECUP:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzUwM2JjOTFhMTM4Njc3NzdlNWY1ZDE0MGQwMTYwYTJlNzgxZTA1YmYzZDYwMGRmM2Q0YmE5YzUxYjMzMWI3MyJ9fX0=
     lore: 
       - "&7lMagicl"
-      - "&7Magic New Planecup"
       - "&a"
   script: "planecup"
   recipe_type: MAGIC_WORKBENCH
@@ -6242,7 +6094,6 @@ MAGIC_SIFTED_ORE:
     material: GUNPOWDER
     lore: 
       - "&a"
-      - "&7Magic Sifted Ore"
       - "&a"
   drop_from: COBBLESTONE
   drop_chance: 10
@@ -6256,7 +6107,6 @@ MAGIC_BUDDING_AMETHYST_SPIRIT:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjE0MThlOTA5NjFlZWNkZTg3ZmFmOTQ3YTVhMDFjZmJmNWU5Njg0Y2M5ODJhMjUzNGMxMjBiYTJhYzRmYTA2YyJ9fX0=
     lore: 
       - "&a"
-      - "&7Magic Budding Amethyst Spirit"
       - "&a"
       - "&7Natural resource"
   drop_from: BUDDING_AMETHYST
@@ -6275,7 +6125,6 @@ MAGIC_ANIMALS_CHICKEN:
       - "&7Magic,"
       - "&7,Magic"
       - "&7MagicMagic"
-      - "&7Magic Animals Chicken"
       - "&a"
   recipe_type: MAGIC_WORKBENCH
   recipe:
@@ -6325,7 +6174,6 @@ MAGIC_BATTERY_LI_1_EMPTY:
     lore: 
       - "&a"
       - "&7Current: 0/2k J"
-      - "&7Magic Battery Li 1 Empty"
       - "&a"
       - "&7Magic"
   recipe_type: MAGIC_WORKBENCH
@@ -6376,7 +6224,6 @@ MAGIC_BATTERY_LI_1_FULL:
     lore: 
       - "&a"
       - "&7Current: 2k/2k J"
-      - "&7Magic Battery Li 1 Full"
       - "&a"
       - "&7Magic"
   recipe_type: NULL
@@ -6731,7 +6578,6 @@ MAGIC_MINERAL_FLOWER:
     material: END_ROD
     lore: 
       - "&a"
-      - "&7Magic Mineral Flower"
       - "&7MaterialsMaterials"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -6830,7 +6676,6 @@ MAGIC_ANIMALS_WARM_CORE:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTQzOGZjMGI3ODdkZDk4NzIxZmY3NjNkM2IyYjhkMzJhNDdmYmIwOGY0ZDQyNjY2ZjQ1NDY5YWE0OWFkOWE5ZiJ9fX0=
     lore: 
       - "&a"
-      - "&7Magic Animals Warm Core"
       - "&a"
       - "&7MagicMaterials"
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -6880,7 +6725,6 @@ MAGIC_STACKING_CORE:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjg4MTMwOTI1NmEwNjQxMzVjMDlkNDhiNzM4ODgxYzcwMmU5Y2RjMTMwNjJkYzk5MjdjZWM0ZWM0ZmU1ZWQ3YiJ9fX0=
     lore: 
       - "&a"
-      - "&7Magic Stacking Core"
       - "&a"
       - "&7MagicMaterials"
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -6931,7 +6775,6 @@ MAGIC_BEE_KING:
     lore: 
       - "&a"
       - "&7Magic"
-      - "&7Magic Bee King"
       - "&a"
   recipe_type: MAGIC_WORKBENCH
   recipe:
@@ -6982,9 +6825,8 @@ MAGIC_EGG_IRON_GOLEM:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjY5ZDBkNDcxMTE1M2EwODljNTU2N2E3NDliMjc4NzljNzY5ZDNiZGNlYTZmZGE5ZDZmNjZlOTNkZDhjNDUxMiJ9fX0=
     lore: 
       - "&a"
-      - "&7Magic Egg Iron Golem"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   script: "ARTIFICIAL_SPAWN"
   recipe_type: MAGIC_WORKBENCH
   recipe:
@@ -7015,9 +6857,8 @@ MAGIC_ARTIFICIAL_WITHER_SKELETON:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzc0MzEyM2ExOWU4MDkzYjQ2NWI4NDgzOGUyOGY3ZDY0YWYwNzljNThiN2NmM2RhYzA3YzhjNTkyYTY0ZmMzMiJ9fX0=
     lore: 
       - "&a"
-      - "&7Magic Artificial Wither Skeleton"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   script: "ARTIFICIAL_SPAWN"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -7039,9 +6880,8 @@ MAGIC_ARTIFICIAL_SKELETON:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGEzNWU3NjQ5MmQ0MmQ3MmNmNTZkZmM0YjdkNTM0N2Q0OGNjODg5NDBkZmQ2YTlkNjIzNWJjNzE4ZjRjNmJhYiJ9fX0=
     lore: 
       - "&a"
-      - "&7Magic Artificial Skeleton"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   script: "ARTIFICIAL_SPAWN"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -7069,9 +6909,8 @@ MAGIC_ARTIFICIAL_CREEPER:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTVlN2UwNzJlYWU4ZTc5OWQ5NzNjNDA4ODNhNzliZTRkZDJkNmY1ZDdkZGRiM2FjMTk1MTRlODVjZGViYTc2YSJ9fX0=
     lore: 
       - "&a"
-      - "&7Magic Artificial Creeper"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   script: "ARTIFICIAL_SPAWN"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -7099,9 +6938,8 @@ MAGIC_ARTIFICIAL_ZOMBIE:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWMyMzJkMDY4M2JhMWUzNjI1OTNmYTFhOTdkNzQ0YzI5MGIxNjU1ZDcyYjIyNzc5ODhhNmM4NWE5Mzg1NDI1NSJ9fX0=
     lore: 
       - "&a"
-      - "&7Magic Artificial Zombie"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   script: "ARTIFICIAL_SPAWN"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -7129,9 +6967,8 @@ MAGIC_ARTIFICIAL_GIANT:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjc1OGFjNTdkNjAwM2I2MDJmMjBiYmUxYWQ0NWM1ZTk2ZGI2YTI0MWZhMTMyMzc3MzgxYjdmMTg0NDUwNTdhNiJ9fX0=
     lore: 
       - "&a"
-      - "&7Magic Artificial Giant"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   script: "ARTIFICIAL_SPAWN"
   recipe_type: MAGIC_NONE
 
@@ -7436,7 +7273,6 @@ MAGIC_ORIGIN_2_UP:
     glow: true
     lore:
       - "&a" 
-      - "&7Magic Origin 2 Up"
       - "&a" 
       - "&7Materials"
   recipe:
@@ -7729,7 +7565,6 @@ MAGIC_MACHINE_RECIPE_DESCRIPTION:
     lore:
       - "&a"
       - "&7Magic"
-      - "&7Magic Machine Recipe Description"
   recipe_type: NULL
   hidden: true
 
@@ -7744,7 +7579,7 @@ MAGIC_STORE_FIX_0:
       - "&7Magic"
       - "&7Magic Store Fix 0"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   recipe_type: MAGIC_NONE
 
 MAGIC_STORE_FIX_1:
@@ -7757,9 +7592,8 @@ MAGIC_STORE_FIX_1:
     lore:
       - "&a"
       - "&7Magic"
-      - "&7Magic Store Fix 1"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   script: MFCT_FIX
   recipe_type: MAGIC_SPECIAL
   recipe: 
@@ -7782,9 +7616,8 @@ MAGIC_STORE_FIX_2:
     lore:
       - "&a"
       - "&7Magic"
-      - "&7Magic Store Fix 2"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   script: MFCT_FIX
   recipe_type: MAGIC_SPECIAL
   recipe: 
@@ -7807,9 +7640,8 @@ MAGIC_STORE_FIX_3:
     lore:
       - "&a"
       - "&7Magic"
-      - "&7Magic Store Fix 3"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   script: MFCT_FIX
   recipe_type: MAGIC_SPECIAL
   recipe: 
@@ -7832,9 +7664,8 @@ MAGIC_STORE_FIX_4:
     lore:
       - "&a"
       - "&7Magic"
-      - "&7Magic Store Fix 4"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   script: MFCT_FIX
   recipe_type: MAGIC_SPECIAL
   recipe: 
@@ -7857,9 +7688,8 @@ MAGIC_STORE_FIX_5:
     lore:
       - "&a"
       - "&7Magic"
-      - "&7Magic Store Fix 5"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   script: MFCT_FIX
   recipe_type: MAGIC_SPECIAL
   recipe: 
@@ -7882,9 +7712,8 @@ MAGIC_STORE_FIX_6:
     lore:
       - "&a"
       - "&7Magic"
-      - "&7Magic Store Fix 6"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   script: MFCT_FIX
   recipe_type: MAGIC_SPECIAL
   recipe: 
@@ -7907,9 +7736,8 @@ MAGIC_STORE_FIX_7:
     lore:
       - "&a"
       - "&7Magic"
-      - "&7Magic Store Fix 7"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   script: MFCT_FIX
   recipe_type: MAGIC_SPECIAL
   recipe: 
@@ -7932,9 +7760,8 @@ MAGIC_STORE_FIX_8:
     lore:
       - "&a"
       - "&7Magic"
-      - "&7Magic Store Fix 8"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   script: MFCT_FIX
   recipe_type: MAGIC_SPECIAL
   recipe: 
@@ -7957,9 +7784,8 @@ MAGIC_STORE_FIX_9:
     lore:
       - "&a"
       - "&7Magic"
-      - "&7Magic Store Fix 9"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   script: MFCT_FIX
   recipe_type: MAGIC_SPECIAL
   recipe: 
@@ -7982,9 +7808,8 @@ MAGIC_STORE_FIX_10:
     lore:
       - "&a"
       - "&7Magic"
-      - "&7Magic Store Fix 10"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   script: MFCT_FIX
   recipe_type: MAGIC_SPECIAL
   recipe: 
@@ -8007,9 +7832,8 @@ MAGIC_STORE_FIX_11:
     lore:
       - "&a"
       - "&7Magic"
-      - "&7Magic Store Fix 11"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   script: MFCT_FIX
   recipe_type: MAGIC_SPECIAL
   recipe: 
@@ -8032,9 +7856,8 @@ MAGIC_STORE_FIX_12:
     lore:
       - "&a"
       - "&7Magic"
-      - "&7Magic Store Fix 12"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   script: MFCT_FIX
   recipe_type: MAGIC_SPECIAL
   recipe: 
@@ -8057,9 +7880,8 @@ MAGIC_STORE_FIX_13:
     lore:
       - "&a"
       - "&7Magic"
-      - "&7Magic Store Fix 13"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   script: MFCT_FIX
   recipe_type: MAGIC_SPECIAL
   recipe: 
@@ -8132,7 +7954,6 @@ MAGIC_DUST_PICKAXE:
     material: DIAMOND_PICKAXE
     lore: 
       - "&7lMagicl"
-      - "&7Magic Dust Pickaxe"
       - "&a"
   recipe_type: MAGIC_WORKBENCH
   script: MOFENGAO
@@ -9108,7 +8929,6 @@ MAGIC_IRON_SPEED_CARD:
     glow: true
     lore: 
       - "&7Magic"
-      - "&7Magic Iron Speed Card"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1: 
@@ -9155,7 +8975,6 @@ MAGIC_GOLD_SPEED_CARD:
     glow: true
     lore: 
       - "&7Magic"
-      - "&7Magic Gold Speed Card"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1: 
@@ -9202,7 +9021,6 @@ MAGIC_COPPER_SPEED_CARD:
     glow: true
     lore: 
       - "&7Magic"
-      - "&7Magic Copper Speed Card"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1: 
@@ -9249,7 +9067,6 @@ MAGIC_COAL_SPEED_CARD:
     glow: true
     lore: 
       - "&7Magic"
-      - "&7Magic Coal Speed Card"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1: 
@@ -9296,7 +9113,6 @@ MAGIC_NETHERITE_SPEED_CARD:
     glow: true
     lore: 
       - "&7Magic"
-      - "&7Magic Netherite Speed Card"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1: 
@@ -9342,7 +9158,6 @@ MAGIC_EXP_COLLECTOR:
     material: glass_bottle
     glow: true
     lore: 
-      - "&7Magic Exp Collector"
       - "&a"
       - "&7tier: 100"
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -9373,7 +9188,6 @@ MAGIC_EXP_BOTTLE:
     glow: true
     lore: 
       - "&7100 tier"
-      - "&7Magic Exp Bottle"
   recipe_type: MAGIC_RIGHT_CLICK_EXP_BOTTLE
   script: MFEXPBOTTLE100
 
@@ -9388,7 +9202,6 @@ MAGIC_INFINITE_STICK:
       - "&a"
       - "&7seconds"
       - "&a"
-      - "&7Magic Infinite Stick"
   recipe_type: MAGIC_WORKBENCH
   script: INFINITE_STICK
   recipe:
@@ -9411,7 +9224,6 @@ MAGIC_UNBREAKABLE_RUNE:
     lore: 
       - "&7lMagicl"
       - "&a"
-      - "&7Magic Unbreakable Rune"
       - "&7Materials"
   recipe_type: MAGIC_WORKBENCH
   script: UNBREAKABLE_RUNE
@@ -9462,7 +9274,6 @@ MAGIC_SPAWN_EGG_DESCRIPTION:
     name: "&dMagic Spawn Egg Description"
     material: paper
     lore: 
-      - "&7Magic Spawn Egg Description"
       - "&7nbt"
       - "&7Magic"
   recipe_type: NULL
@@ -9476,7 +9287,6 @@ MAGIC_BEE_CATCH:
     lore: 
       - "&7lMagicl"
       - "&a"
-      - "&7Magic Bee Catch"
       - "&a"
       - "&7Magic"
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -9514,7 +9324,6 @@ MAGIC_EGG_BEE:
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODg2YTUwOWZmM2NkNDcxZjFiNDI4YTE5NGI2NzExNDcwYTU0NzczZTVkZTZlZTA3ZjdlNjAxY2M1ZTc1YTIwMCJ9fX0=
     lore: 
-      - "&7Magic Egg Bee"
       - "&a"
       - "&7Magic"
   recipe_type: MAGIC_CATCH
@@ -9529,7 +9338,6 @@ MAGIC_PIG_CATCH:
     lore: 
       - "&7lMagicl"
       - "&a"
-      - "&7Magic Pig Catch"
       - "&a"
       - "&7Magic"
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -9567,7 +9375,6 @@ MAGIC_PIG_1:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjUwMzM3NzlmODc2MTFmOGU3MWM1YjAyYjkxYjQwYmNhNWMxYzk5YWZhNzUyYWJkNjM2YTQ5NWY5NTNiNjQ2In19fQ==
     glow: true
     lore: 
-      - "&7Magic Pig 1"
       - "&a"
       - "&7Magic"
   recipe_type: MAGIC_CATCH
@@ -9582,7 +9389,6 @@ MAGIC_SHEEP_CATCH:
     lore: 
       - "&7lMagicl"
       - "&a"
-      - "&7Magic Sheep Catch"
       - "&a"
       - "&7Magic"
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -9620,7 +9426,6 @@ MAGIC_SHEEP_1:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODRlNWNkYjBlZGIzNjJjYjQ1NDU4NmQxZmQwZWJlOTcxNDIzZjAxNWIwYjFiZmM5NWY4ZDVhZjhhZmU3ZTgxMCJ9fX0=
     glow: true
     lore: 
-      - "&7Magic Sheep 1"
       - "&a"
       - "&7Magic"
   recipe_type: MAGIC_CATCH
@@ -9636,7 +9441,6 @@ MAGIC_CHICKEN_CATCH:
     lore: 
       - "&7lMagicl"
       - "&a"
-      - "&7Magic Chicken Catch"
       - "&a"
       - "&7Magic"
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -9674,7 +9478,6 @@ MAGIC_CHICKEN_1:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDE0OTA3YzNlODA1ZDhmOGRlNTU2YmM5ZGM0YzkxMzZkYzYwZDk1MDc3NDM3OGM2M2YyNjE1ZGJiMjNiMzNiNyJ9fX0=
     glow: true
     lore: 
-      - "&7Magic Chicken 1"
       - "&a"
       - "&7Magic"
   recipe_type: MAGIC_CATCH
@@ -9689,7 +9492,6 @@ MAGIC_COW_CATCH:
     lore: 
       - "&7lMagicl"
       - "&a"
-      - "&7Magic Cow Catch"
       - "&a"
       - "&7Magic"
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -9727,7 +9529,6 @@ MAGIC_COW_1:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjg4YmU1N2FmNmQyNDhjMjk3YjNjYWU2NzZmNDVjYzJhNDM4ZjE1YTllZjI2Y2RmNWYwMzVmYjg0MmQ4NmRkOSJ9fX0=
     glow: true
     lore: 
-      - "&7Magic Cow 1"
       - "&a"
       - "&7Magic"
   recipe_type: MAGIC_CATCH
@@ -9742,7 +9543,6 @@ MAGIC_OCELOT_CATCH:
     lore: 
       - "&7lMagicl"
       - "&a"
-      - "&7Magic Ocelot Catch"
       - "&a"
       - "&7Magic"
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -9780,7 +9580,6 @@ MAGIC_OCELOT_1:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDViY2Y4OTdmYTYwNmFiZGIxZmEyYTFlODhhMDdkOGZiYmI1YmJkNDQ1ZTBhZmE1NzYyYTQ2NTA5NDYyNThmMiJ9fX0=
     glow: true
     lore: 
-      - "&7Magic Ocelot 1"
       - "&a"
       - "&7Magic"
   recipe_type: MAGIC_CATCH
@@ -9795,7 +9594,6 @@ MAGIC_CAT_CATCH:
     lore: 
       - "&7lMagicl"
       - "&a"
-      - "&7Magic Cat Catch"
       - "&a"
       - "&7Magic"
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -9833,7 +9631,6 @@ MAGIC_CAT_1:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjZmMGE4NDZjYjliMDhhYjc2NGVhYjhiYjlkOGFhMWYzMjAwMTQ5MTkyZTZkMDkzNjBlMTc5MzliMWNjNmYzYSJ9fX0=
     glow: true
     lore: 
-      - "&7Magic Cat 1"
       - "&a"
       - "&7Magic"
   recipe_type: MAGIC_CATCH
@@ -9849,7 +9646,6 @@ MAGIC_DONKEY_CATCH:
     lore: 
       - "&7lMagicl"
       - "&a"
-      - "&7Magic Donkey Catch"
       - "&a"
       - "&7Magic"
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -9887,7 +9683,6 @@ MAGIC_DONKEY_1:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyYzVlZjgzNjNmZWM5MDViY2VhMjc3OWJmYTRjZDZkOTk2NzZiMGNiMWRkNWU3ZDlmNmYwMDY4NzI5ODQyZiJ9fX0=
     glow: true
     lore: 
-      - "&7Magic Donkey 1"
       - "&a"
       - "&7Magic"
   recipe_type: MAGIC_CATCH
@@ -9902,7 +9697,6 @@ MAGIC_FOX_CATCH:
     lore: 
       - "&7lMagicl"
       - "&a"
-      - "&7Magic Fox Catch"
       - "&a"
       - "&7Magic"
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -9940,7 +9734,6 @@ MAGIC_FOX_1:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQ3NjdlNjExZmY5YmRkYmMzYzk0YmUwNDAzOWVkZDQyM2Q2ZGQ1ZTYyYmNhZGFjMzRiZWJiNGY3N2ViMzk4ZiJ9fX0=
     glow: true
     lore: 
-      - "&7Magic Fox 1"
       - "&a"
       - "&7Magic"
   recipe_type: MAGIC_CATCH
@@ -9956,7 +9749,6 @@ MAGIC_FROG_CATCH:
     lore: 
       - "&7lMagicl"
       - "&a"
-      - "&7Magic Frog Catch"
       - "&a"
       - "&7Magic"
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -9994,7 +9786,6 @@ MAGIC_FROG_1:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWRjOGIyODliOWZhZTc3ZTRjNDU5M2MwMmVkYWVkZDIyZjMxYjMyYzdhY2M3OGZhMDAyOTNjZTYyZWRmMDBjZCJ9fX0=
     glow: true
     lore: 
-      - "&7Magic Frog 1"
       - "&a"
       - "&7Magic"
   recipe_type: MAGIC_CATCH
@@ -10010,7 +9801,6 @@ MAGIC_GOAT_CATCH:
     lore: 
       - "&7lMagicl"
       - "&a"
-      - "&7Magic Goat Catch"
       - "&a"
       - "&7Magic"
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -10048,7 +9838,6 @@ MAGIC_GOAT_1:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTNhNjJmNmIxYmVjZTMwNTdlZjg3YTAwZDA5NTliNTNjYTc1Mjc2OGRkZDIyOTFmYTM4ZGY5NjYxOTdmZWI5ZCJ9fX0=
     glow: true
     lore: 
-      - "&7Magic Goat 1"
       - "&a"
       - "&7Magic"
   recipe_type: MAGIC_CATCH
@@ -10064,7 +9853,6 @@ MAGIC_HOGLIN_CATCH:
     lore: 
       - "&7lMagicl"
       - "&a"
-      - "&7Magic Hoglin Catch"
       - "&a"
       - "&7Magic"
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -10102,7 +9890,6 @@ MAGIC_HOGLIN_1:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWJiOWJjMGYwMWRiZDc2MmEwOGQ5ZTc3YzA4MDY5ZWQ3Yzk1MzY0YWEzMGNhMTA3MjIwODU2MWI3MzBlOGQ3NSJ9fX0=
     glow: true
     lore: 
-      - "&7Magic Hoglin 1"
       - "&a"
       - "&7Magic"
   recipe_type: MAGIC_CATCH
@@ -10118,7 +9905,6 @@ MAGIC_HORSE_CATCH:
     lore: 
       - "&7lMagicl"
       - "&a"
-      - "&7Magic Horse Catch"
       - "&a"
       - "&7Magic"
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -10156,7 +9942,6 @@ MAGIC_HORSE_1:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTk2MzdiMTI3YWM3NDY5Zjk5YTRjNzM2YmQ1ZGMzZDU5NDhlM2Q5YTk4ODBiZjAzMjJhOWYwNTZkYjhhZmM4MCJ9fX0=
     glow: true
     lore: 
-      - "&7Magic Horse 1"
       - "&a"
       - "&7Magic"
   recipe_type: MAGIC_CATCH
@@ -10172,7 +9957,6 @@ MAGIC_LLAMA_CATCH:
     lore: 
       - "&7lMagicl"
       - "&a"
-      - "&7Magic Llama Catch"
       - "&a"
       - "&7Magic"
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -10210,7 +9994,6 @@ MAGIC_LLAMA_1:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmE1ZjEwZTZlNjIzMmYxODJmZTk2NmY1MDFmMWMzNzk5ZDQ1YWUxOTAzMWExZTQ5NDFiNWRlZTBmZWZmMDU5YiJ9fX0=
     glow: true
     lore: 
-      - "&7Magic Llama 1"
       - "&a"
       - "&7Magic"
   recipe_type: MAGIC_CATCH
@@ -10226,7 +10009,6 @@ MAGIC_TRADER_LLAMA_CATCH:
     lore: 
       - "&7lMagicl"
       - "&a"
-      - "&7Magic Trader Llama Catch"
       - "&a"
       - "&7Magic"
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -10264,7 +10046,6 @@ MAGIC_TRADER_LLAMA_1:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmU0ZDhhMGJjMTVmMjM5OTIxZWZkOGJlMzQ4MGJhNzdhOThlZTdkOWNlMDA3MjhjMGQ3MzNmMGEyZDYxNGQxNiJ9fX0=
     glow: true
     lore: 
-      - "&7Magic Trader Llama 1"
       - "&a"
       - "&7Magic"
   recipe_type: MAGIC_CATCH
@@ -10280,7 +10061,6 @@ MAGIC_MOOSHROOM_CATCH:
     lore: 
       - "&7lMagicl"
       - "&a"
-      - "&7Magic Mooshroom Catch"
       - "&a"
       - "&7Magic"
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -10318,7 +10098,6 @@ MAGIC_MOOSHROOM_1:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2Q1OTdmNzdjZGUzMmM5YWM5YjA2ZjgyZmNmN2M5Y2I1MDBmYWNjMTRiZmYxNjYyMjJiMjRiZTM5OTYyZjBlZiJ9fX0=
     glow: true
     lore: 
-      - "&7Magic Mooshroom 1"
       - "&a"
       - "&7Magic"
   recipe_type: MAGIC_CATCH
@@ -10334,7 +10113,6 @@ MAGIC_MULE_CATCH:
     lore: 
       - "&7lMagicl"
       - "&a"
-      - "&7Magic Mule Catch"
       - "&a"
       - "&7Magic"
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -10372,7 +10150,6 @@ MAGIC_MULE_1:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTA0ODZhNzQyZTdkZGEwYmFlNjFjZTJmNTVmYTEzNTI3ZjFjM2IzMzRjNTdjMDM0YmI0Y2YxMzJmYjVmNWYifX19
     glow: true
     lore: 
-      - "&7Magic Mule 1"
       - "&a"
       - "&7Magic"
   recipe_type: MAGIC_CATCH
@@ -10388,8 +10165,6 @@ MAGIC_PANDA_CATCH:
     lore: 
       - "&7lMagicl"
       - "&a"
-      - "&7Magic Panda Catch"
-      - "&7tier"
       - "&a"
       - "&7Magic"
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -10427,7 +10202,6 @@ MAGIC_PANDA_1:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWIxMTg3NjNjZThiNWYzMDg2MTVlNjQ3NzEyNzRjYWNiZTMxMTg4NDc3ZTc1NmI5ZDc5NjVmZWI3ZTJkYzQwNiJ9fX0=
     glow: true
     lore: 
-      - "&7Magic Panda 1"
       - "&a"
       - "&7Magic"
   recipe_type: MAGIC_CATCH
@@ -10443,7 +10217,6 @@ MAGIC_RABBIT_CATCH:
     lore: 
       - "&7lMagicl"
       - "&a"
-      - "&7Magic Rabbit Catch"
       - "&a"
       - "&7Magic"
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -10481,7 +10254,6 @@ MAGIC_RABBIT_1:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTYwNWQ1Yzk3NWJmNzg5OGEzNjFjNmU4NjAzOTI4ZWYwZTVmNWY4Yzk0N2YyNDQxOGI2NjQ0NGQ0MWYzMzlkYSJ9fX0=
     glow: true
     lore: 
-      - "&7Magic Rabbit 1"
       - "&a"
       - "&7Magic"
   recipe_type: MAGIC_CATCH
@@ -10497,7 +10269,6 @@ MAGIC_STRIDER_CATCH:
     lore: 
       - "&7lMagicl"
       - "&a"
-      - "&7Magic Strider Catch"
       - "&a"
       - "&7Magic"
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -10535,7 +10306,6 @@ MAGIC_STRIDER_1:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTI1ODUxYTg2ZWUxYzU0Yzk0ZmM1YmVkMDE3ODIzZGZiM2JhMDhlZGRiY2FiMmE5MTRlZjQ1YjU5NmMxNjAzIn19fQ==
     glow: true
     lore: 
-      - "&7Magic Strider 1"
       - "&a"
       - "&7Magic"
   recipe_type: MAGIC_CATCH
@@ -10551,7 +10321,6 @@ MAGIC_TURTLE_CATCH:
     lore: 
       - "&7lMagicl"
       - "&a"
-      - "&7Magic Turtle Catch"
       - "&a"
       - "&7Magic"
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -10589,7 +10358,6 @@ MAGIC_TURTLE_1:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmM4NTkzYjkxMDU4ZmYyNGEwZjY4NDUxMzBlZDNlNDQ5NTY5Y2U5YzZiMjJmYTljZDFlZDczNjBiNTA0NWVhMyJ9fX0=
     glow: true
     lore: 
-      - "&7Magic Turtle 1"
       - "&a"
       - "&7Magic"
   recipe_type: MAGIC_CATCH
@@ -10605,7 +10373,6 @@ MAGIC_WOLF_CATCH:
     lore: 
       - "&7lMagicl"
       - "&a"
-      - "&7Magic Wolf Catch"
       - "&a"
       - "&7Magic"
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -10643,7 +10410,6 @@ MAGIC_WOLF_1:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjUzNTU0ODljYzU4MzgyMjFiOTRmM2UxOWRjMjYyOTJiZGNjMDFlM2RkNzBhOGIyMmM4MjhmMjI1ZTE5ODE0MCJ9fX0=
     glow: true
     lore: 
-      - "&7Magic Wolf 1"
       - "&a"
       - "&7Magic"
   recipe_type: MAGIC_CATCH
@@ -10666,7 +10432,6 @@ MAGIC_ALLAY_CATCH:
     lore: 
       - "&7lMagicl"
       - "&a"
-      - "&7Magic Allay Catch"
       - "&a"
       - "&7Magic"
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -10704,7 +10469,6 @@ MAGIC_ALLAY_1:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTUwMjk0YTE3NDczMTBmMTA0MTI0YzYzNzNjYzYzOWI3MTJiYWE1N2I3ZDkyNjI5N2I2NDUxODhiN2JiOWFiOSJ9fX0=
     glow: true
     lore: 
-      - "&7Magic Allay 1"
       - "&a"
       - "&7Magic"
   recipe_type: MAGIC_CATCH
@@ -10720,7 +10484,6 @@ MAGIC_ALL_CATCH:
       - "&7lMagicl"
       - "&a"
       - "&7Magic"
-      - "&7Magic All Catch"
       - "&7Experimental tool"
       - "&a"
   recipe_type: MAGIC_NONE
@@ -10739,7 +10502,7 @@ MAGIC_SPAWNER_DESCRIPTION:
       - "&7Magic Spawner Description"
       - "&7Spawner"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
   recipe_type: NULL
 
 ##魔法-充电宝
@@ -10766,7 +10529,6 @@ MAGIC_POWER_BANK_ALPHA:
     lore: 
       - "&7lMagicl"
       - "&a"
-      - "&7Magic Power Bank Alpha"
       - "&a"
       - "&7Magic"
   script: "CDB_1"
@@ -10819,7 +10581,6 @@ MAGIC_POWER_BANK_BETA:
     lore: 
       - "&7lMagicl"
       - "&a"
-      - "&7Magic Power Bank Beta"
       - "&a"
       - "&7Magic"
   script: "CDB_2"
@@ -10905,12 +10666,10 @@ MAGIC_ENCHANT_UP_1:
     lore: 
       - "&7lMagicl"
       - "&a"
-      - "&7Magic Enchant Up 1"
       - "&7, tier+1"
-      - "&7tier"
       - "&710 tier1%"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   script: "enchant_up_1"
   recipe_type: MAGIC_MACHINE_TYPE
   recipe:
@@ -10928,10 +10687,9 @@ MAGIC_ENCHANT_UP_1_MAX:
     lore: 
       - "&7lMagicl"
       - "&a"
-      - "&7Magic Enchant Up 1 Max"
       - "&7, tier+1"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   script: "enchant_up_1_max"
   recipe_type: MAGIC_NONE
 
@@ -10948,12 +10706,10 @@ MAGIC_ENCHANT_UPUP_1:
     lore: 
       - "&7lMagicl"
       - "&a"
-      - "&7Magic Enchant Upup 1"
       - "&7tier+1"
-      - "&7tier"
       - "&710 tier2%"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   script: "enchant_upup_1"
   recipe_type: MAGIC_MACHINE_TYPE
   recipe:
@@ -10971,10 +10727,9 @@ MAGIC_ENCHANT_UPUP_1_MAX:
     lore: 
       - "&7lMagicl"
       - "&a"
-      - "&7Magic Enchant Upup 1 Max"
       - "&7tier+1"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   script: "enchant_upup_1_max"
   recipe_type: MAGIC_NONE
 
@@ -10986,10 +10741,9 @@ MAGIC_ATTRIBUTE_UPUP_1:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTMyNjRjMDkwOTlmYjI1MzJmNThlNTliOTFkOWYxMGZiZmZjMGIyNzBhN2VjMzg4MzNlODJhYzlkMTdjODRiZSJ9fX0=
     lore: 
       - "&7lMagicl"
-      - "&7Magic Attribute Upup 1"
       - '&7Shift + :'
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   script: "attribute_upup_1"
   recipe_type: MAGIC_MACHINE_TYPE
   recipe:
@@ -11006,10 +10760,9 @@ MAGIC_ATTRIBUTE_UPUP_1_MAX:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTMyNjRjMDkwOTlmYjI1MzJmNThlNTliOTFkOWYxMGZiZmZjMGIyNzBhN2VjMzg4MzNlODJhYzlkMTdjODRiZSJ9fX0=
     lore: 
       - "&7lMagicl"
-      - "&7Magic Attribute Upup 1 Max"
       - '&7Shift + :'
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   script: "attribute_upup_1_max"
   recipe_type: MAGIC_NONE
 
@@ -11021,9 +10774,8 @@ MAGIC_STICK_JIGUANG_1:
     material: STICK
     lore: 
       - "&7lMagicl"
-      - "&7Magic Stick Jiguang 1"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   script: magic_stick_jiguang_1
   energy_capacity: 80000
   recipe_type: MAGIC_NONE
@@ -11036,9 +10788,8 @@ MAGIC_GUN_1:
     material: STICK
     lore: 
       - "&7lMagicl"
-      - "&7Magic Gun 1"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   script: 基础枪
   recipe_type: MAGIC_NONE
 
@@ -11052,9 +10803,8 @@ MAGIC_CHRISTMAS_SNOWBALL:
     material: SNOWBALL
     lore: 
       - "&7lMagicl"
-      - "&7Magic Christmas Snowball"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   script: CHRISTMAS_SNOWBALL
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe: 
@@ -11075,9 +10825,8 @@ MAGIC_SOUND:
     material: PAPER
     lore: 
       - "&7lMagicl"
-      - "&7Magic Sound"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   script: sound
   recipe_type: MAGIC_NONE
 
@@ -11090,9 +10839,8 @@ MAGIC_ZHENFA_FIRE_1:
     material: PAPER
     lore: 
       - "&7lMagicl"
-      - "&7Magic Zhenfa Fire 1"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   script: 阵法_小火苗_1
   recipe_type: MAGIC_NONE
 
@@ -11102,7 +10850,6 @@ MAGIC_KAOGU_DESCRIPTION:
     name: "&dMagic Kaogu Description"
     material: paper
     lore: 
-      - "&7Magic Kaogu Description"
   recipe_type: NULL
 
 MAGIC_KAOGU_BRUSH: 
@@ -11114,9 +10861,8 @@ MAGIC_KAOGU_BRUSH:
     material: KAOGU_BRUSH
     lore: 
       - "&7lMagicl"
-      - "&7Magic Kaogu Brush"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
     glow: true
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe: 
@@ -11134,7 +10880,6 @@ MAGIC_ZWF_1:
   item:
     name: "&dMagic Zwf 1"
     lore:
-      - '&7Magic Zwf 1'
     material: PAPER
   placeable: false
   recipe_type: 'NULL'
@@ -11143,7 +10888,6 @@ MAGIC_ZWF_2:
   item:
     name: "&dMagic Zwf 2"
     lore:
-      - '&7Magic Zwf 2'
     material: PAPER
   placeable: false
   recipe_type: 'NULL'
@@ -11152,7 +10896,6 @@ MAGIC_ZWF_3:
   item:
     name: "&dMagic Zwf 3"
     lore:
-      - '&7Magic Zwf 3'
     material: PAPER
   placeable: false
   recipe_type: 'NULL'
@@ -11161,7 +10904,6 @@ MAGIC_ZWF_4:
   item:
     name: "&dMagic Zwf 4"
     lore:
-      - '&7Magic Zwf 4'
     material: PAPER
   placeable: false
   recipe_type: 'NULL'
@@ -11170,7 +10912,6 @@ MAGIC_ZWF_5:
   item:
     name: "&dMagic Zwf 5"
     lore:
-      - '&7Magic Zwf 5'
     material: PAPER
   placeable: false
   recipe_type: 'NULL'
@@ -11179,7 +10920,6 @@ MAGIC_ZWF_6:
   item:
     name: "&dMagic Zwf 6"
     lore:
-      - '&7Magic Zwf 6'
     material: PAPER
   placeable: false
   recipe_type: 'NULL'
@@ -11188,7 +10928,6 @@ MAGIC_ZWF_7:
   item:
     name: "&dMagic Zwf 7"
     lore:
-      - '&7Magic Zwf 7'
     material: PAPER
   placeable: false
   recipe_type: 'NULL'
@@ -11197,7 +10936,6 @@ MAGIC_ZWF_8:
   item:
     name: "&dMagic Zwf 8"
     lore:
-      - '&7Magic Zwf 8'
     material: PAPER
   placeable: false
   recipe_type: 'NULL'
@@ -11206,7 +10944,6 @@ MAGIC_ZWF_9:
   item:
     name: "&dMagic Zwf 9"
     lore:
-      - '&7Magic Zwf 9'
     material: PAPER
   placeable: false
   recipe_type: 'NULL'
@@ -11215,7 +10952,6 @@ MAGIC_ZWF_10:
   item:
     name: "&dMagic Zwf 10"
     lore:
-      - '&7Magic Zwf 10'
     material: PAPER
   placeable: false
   recipe_type: 'NULL'
@@ -11224,7 +10960,6 @@ MAGIC_ZWF_11:
   item:
     name: "&dMagic Zwf 11"
     lore:
-      - '&7Magic Zwf 11'
     material: PAPER
   placeable: false
   recipe_type: 'NULL'
@@ -11233,7 +10968,6 @@ MAGIC_ZWF_12:
   item:
     name: "&dMagic Zwf 12"
     lore:
-      - '&7Magic Zwf 12'
     material: PAPER
   placeable: false
   recipe_type: 'NULL'
@@ -11242,7 +10976,6 @@ MAGIC_ZWF_13:
   item:
     name: "&dMagic Zwf 13"
     lore:
-      - '&7Magic Zwf 13'
     material: PAPER
   placeable: false
   recipe_type: 'NULL'
@@ -11251,7 +10984,6 @@ MAGIC_ZWF_14:
   item:
     name: "&dMagic Zwf 14"
     lore:
-      - '&7Magic Zwf 14'
     material: PAPER
   placeable: false
   recipe_type: 'NULL'
@@ -11260,7 +10992,6 @@ MAGIC_ZWF_15:
   item:
     name: "&dMagic Zwf 15"
     lore:
-      - '&7Magic Zwf 15'
     material: PAPER
   placeable: false
   recipe_type: 'NULL'
@@ -11269,7 +11000,6 @@ MAGIC_ZWF_16:
   item:
     name: "&dMagic Zwf 16"
     lore:
-      - '&7Magic Zwf 16'
     material: PAPER
   placeable: false
   recipe_type: 'NULL'
@@ -11278,7 +11008,6 @@ MAGIC_ZWF_17:
   item:
     name: "&dMagic Zwf 17"
     lore:
-      - '&7Magic Zwf 17'
     material: PAPER
   placeable: false
   recipe_type: 'NULL'
@@ -11304,7 +11033,7 @@ MAGIC_ROD_DESCRIPTION:
       - "&7, Magic"
       - "&7, , tier"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   recipe_type: MAGIC_NONE
 
 
@@ -11333,9 +11062,8 @@ MAGIC_ROD_ZMZ_WWS_YE_HSJ:
     glow: true
     lore:
       - "&a"
-      - "&7Magic Rod Zmz Wws Ye Hsj"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   recipe_type: MAGIC_SPECIAL
   recipe: 
     2: 
@@ -11355,14 +11083,13 @@ MAGIC_ROD_ZMZ_WWS_YE_YWD:
     glow: true
     lore:
       - "&a"
-      - "&7Magic Rod Zmz Wws Ye Ywd"
       - "&7JEG"
       - "&7ban,"
       - "{#FDB7D4}Origin Slimefun Items 90% "
       - "{#FDB7D4}All Slimefun Guide Group's Items 10% "
       - "{#FDB7D4}Graduation Items 3%-Extra "
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   recipe_type: MAGIC_SPECIAL
   recipe: 
     2: 
@@ -11383,9 +11110,8 @@ MAGIC_ROD_YG_CL_BXM:
     lore:
       - "&a"
       - "&7Materials"
-      - "&7Magic Rod Yg Cl Bxm"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   recipe_type: MAGIC_SPECIAL
   recipe: 
     2: 
@@ -11406,9 +11132,8 @@ MAGIC_ROD_YX_CL_WWFHX:
     lore:
       - "&a"
       - "&7Materials"
-      - "&7Magic Rod Yx Cl Wwfhx"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   recipe_type: MAGIC_SPECIAL
   recipe: 
     2: 
@@ -11429,9 +11154,8 @@ MAGIC_ROD_YG_YUGOU_QHHJD:
     lore:
       - "&a"
       - "&7Materials"
-      - "&7Magic Rod Yg Yugou Qhhjd"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   recipe_type: MAGIC_SPECIAL
   recipe: 
     2: 
@@ -11454,10 +11178,9 @@ MAGIC_BANNER_SOUL:
     glow: true
     lore:
       - "{#FDB7D4}========================="
-      - "&7Magic Banner Soul"
       - "&7Current: 100"
       - "&a"
-      - "&7lMagic-Materialsl"
+      - "&8Magic • Materials"
   script: BANNER_INSERT
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe: 
@@ -11477,12 +11200,11 @@ MAGIC_BANNER_LIANHUN:
     glow: true
     lore:
       - "{#FDB7D4}===================================================================================================="
-      - "&7Magic Banner Lianhun"
       - "&7Current: 0"
       - "&7, , =x0.003, 0~6"
       - "&7, , =x8,"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   script: BANNER_LIST
   recipe_type: MAGIC_SPECIAL
   recipe: 
@@ -11504,9 +11226,8 @@ MAGIC_SPACE_BLOCK:
     glow: true
     lore:
       - "&a"
-      - "&7Magic Space Block"
       - "&a"
-      - "&7lMagic-Materialsl"
+      - "&8Magic • Materials"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe: 
     1: 
@@ -11555,13 +11276,12 @@ MAGIC_TP_PAPER:
     glow: true
     lore:
       - "&a"
-      - "&7Magic Tp Paper"
       - "&7shift+"
       - "{#FDB7D4}X："
       - "{#FDB7D4}Y："
       - "{#FDB7D4}Z："
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   script: specialItem/定点传送卷轴
   recipe_type: MAGIC_WORKBENCH
   recipe: 
@@ -11610,13 +11330,12 @@ MAGIC_TP_STICK:
     glow: true
     lore:
       - "&a"
-      - "&7Magic Tp Stick"
       - "&7shift+"
       - "{#FDB7D4}X："
       - "{#FDB7D4}Y："
       - "{#FDB7D4}Z："
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   script: specialItem/定点传送法杖
   recipe_type: MAGIC_WORKBENCH
   recipe: 
@@ -11666,9 +11385,8 @@ MAGIC_RANDOM_TP_PAPER:
     glow: true
     lore:
       - "&a"
-      - "&7Magic Random Tp Paper"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   script: specialItem/破损的传送卷轴
   recipe_type: MAGIC_GRINDING_STONE
   recipe: 

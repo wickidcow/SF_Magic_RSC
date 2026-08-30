@@ -20,7 +20,6 @@ MAGIC_COSMIC_DUST:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWU1MmY3OTYwZmYzY2VjMmY1MTlhNjM1MzY0OGM2ZTMzYmM1MWUxMzFjYzgwOTE3Y2YxMzA4MWRlY2JmZjI0ZCJ9fX0=
     lore: 
       - "&a"
-      - "&7Magic Cosmic Dust"
       - "&7Non-renewable resource"
       - "&a"
       - "&7Natural resource"
@@ -40,7 +39,6 @@ MAGIC_SOUL:
     material: SOUL_LANTERN
     lore: 
       - "&a"
-      - "&7Magic Soul"
       - "&7Non-renewable resource"
       - "&a"
       - "&7Natural resource"

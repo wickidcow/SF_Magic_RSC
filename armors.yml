@@ -10,7 +10,6 @@ magic_armor_new1:
     name: "&dMagic Armor New1"
     lore: 
       - "&a" 
-      - "&7Magic Armor New1"
       - "&7Magic"
       - "&a" 
     glow: true
@@ -37,7 +36,6 @@ magic_armor_new1:
     name: "&dMagic Armor New1"
     lore: 
       - "&a" 
-      - "&7Magic Armor New1"
       - "&7Magic"
       - "&a" 
     glow: true
@@ -68,7 +66,6 @@ magic_armor_new1:
     name: "&dMagic Armor New1"
     lore: 
       - "&a" 
-      - "&7Magic Armor New1"
       - "&7Magic"
       - "&a" 
     glow: true
@@ -97,7 +94,6 @@ magic_armor_new1:
     name: "&dMagic Armor New1"
     lore: 
       - "&a" 
-      - "&7Magic Armor New1"
       - "&7Magic"
       - "&a" 
     glow: true

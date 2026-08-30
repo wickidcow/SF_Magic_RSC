@@ -5,7 +5,6 @@ MAGIC_FOODS_CAKE:
     material: PUMPKIN_PIE
     glow: true
     lore: 
-      - "&7Magic Foods Cake"
       - "&a"
   nutrition: 40
   saturation: 40
@@ -25,7 +24,6 @@ MAGIC_FOODS_RANDOMFOOD:
     glow: true
     lore: 
       - "&a"
-      - "&7Magic Foods Randomfood"
       - "&a" 
       - "&7Magic"
       - "&a"
@@ -45,7 +43,6 @@ MAGIC_FOODS_JIAOZI:
     glow: true
     lore: 
       - "&a"
-      - "&7Magic Foods Jiaozi"
       - "&a" 
       - "&7jiojio"
       - "&a"
@@ -64,7 +61,6 @@ MAGIC_FOODS_APPLE:
     glow: true
     lore: 
       - "&a"
-      - "&7Magic Foods Apple"
       - "&a" 
       - "&7jiojio"
       - "&a"
@@ -83,7 +79,6 @@ MAGIC_FOODS_A_1:
     glow: true
     lore: 
       - "&a"
-      - "&7Magic Foods A 1"
       - "&a" 
       - "&a"
   script: "snow_food"
@@ -101,7 +96,6 @@ MAGIC_FOODS_A_2:
     glow: true
     lore: 
       - "&a"
-      - "&7Magic Foods A 2"
       - "&a" 
       - "&a"
   script: "snow_food"
@@ -119,7 +113,6 @@ MAGIC_FOODS_A_3:
     glow: true
     lore: 
       - "&a"
-      - "&7Magic Foods A 3"
       - "&a" 
       - "&a"
   script: "snow_food"
@@ -137,7 +130,6 @@ MAGIC_FOODS_A_4:
     glow: true
     lore: 
       - "&a"
-      - "&7Magic Foods A 4"
       - "&a" 
       - "&a"
   script: "snow_food"
@@ -155,7 +147,6 @@ MAGIC_FOODS_A_5:
     glow: true
     lore: 
       - "&a"
-      - "&7Magic Foods A 5"
       - "&a" 
       - "&a"
   script: "snow_food"
@@ -173,7 +164,6 @@ MAGIC_FOODS_A_6:
     glow: true
     lore: 
       - "&a"
-      - "&7Magic Foods A 6"
       - "&a" 
       - "&a"
   script: "snow_food"
@@ -191,7 +181,6 @@ MAGIC_FOODS_A_7:
     glow: true
     lore: 
       - "&a"
-      - "&7Magic Foods A 7"
       - "&a" 
       - "&a"
   script: "snow_food"
@@ -209,7 +198,6 @@ MAGIC_FOODS_A_8:
     glow: true
     lore: 
       - "&a"
-      - "&7Magic Foods A 8"
       - "&a" 
       - "&a"
   script: "snow_food"
@@ -227,7 +215,6 @@ MAGIC_FOODS_A_9:
     glow: true
     lore: 
       - "&a"
-      - "&7Magic Foods A 9"
       - "&a" 
       - "&a"
   script: "snow_food"
@@ -245,7 +232,6 @@ MAGIC_FOODS_A_10:
     glow: true
     lore: 
       - "&a"
-      - "&7Magic Foods A 10"
       - "&a" 
       - "&a"
   script: "snow_food"

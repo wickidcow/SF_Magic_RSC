@@ -31,7 +31,7 @@ MAGIC_SPAWNER_1_START:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   recipe_type: MAGIC_NONE
 
@@ -50,7 +50,7 @@ MAGIC_SPAWNER_WITHER_SKELETON_1:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -73,7 +73,7 @@ MAGIC_SPAWNER_SKELETON_1:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -96,7 +96,7 @@ MAGIC_SPAWNER_ZOMBIE_1:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -120,7 +120,7 @@ MAGIC_SPAWNER_CREEPER_1:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -144,7 +144,7 @@ MAGIC_SPAWNER_ENDERMAN_1:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -167,7 +167,7 @@ MAGIC_SPAWNER_BLAZE_1:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -190,7 +190,7 @@ MAGIC_SPAWNER_CAVE_SPIDER_1:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -213,7 +213,7 @@ MAGIC_SPAWNER_GHAST_1:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -236,7 +236,7 @@ MAGIC_SPAWNER_ENDERMITE_1:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -260,7 +260,7 @@ MAGIC_SPAWNER_SILVERFISH_1:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -284,7 +284,7 @@ MAGIC_SPAWNER_IRON_GOLEM_1:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -308,7 +308,7 @@ MAGIC_SPAWNER_GUARDIAN_1:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -331,7 +331,7 @@ MAGIC_SPAWNER_SLIME_1:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -354,7 +354,7 @@ MAGIC_SPAWNER_MAGMA_CUBE_1:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -378,7 +378,7 @@ MAGIC_SPAWNER_SPIDER_1:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -402,7 +402,7 @@ MAGIC_SPAWNER_WITCH_1:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -426,7 +426,7 @@ MAGIC_SPAWNER_CHICKEN_1:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -450,7 +450,7 @@ MAGIC_SPAWNER_COW_1:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -473,7 +473,7 @@ MAGIC_SPAWNER_SHEEP_1:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -497,7 +497,7 @@ MAGIC_SPAWNER_HORSE_1:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -521,7 +521,7 @@ MAGIC_SPAWNER_MUSHROOM_COW_1:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -545,7 +545,7 @@ MAGIC_SPAWNER_CAT_1:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -569,7 +569,7 @@ MAGIC_SPAWNER_OCELOT_1:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -592,7 +592,7 @@ MAGIC_SPAWNER_PIG_1:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -616,7 +616,7 @@ MAGIC_SPAWNER_RABBIT_1:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -640,7 +640,7 @@ MAGIC_SPAWNER_SQUID_1:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -663,7 +663,7 @@ MAGIC_SPAWNER_GLOW_SQUID_1:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -686,7 +686,7 @@ MAGIC_SPAWNER_WOLF_1:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -709,7 +709,7 @@ MAGIC_SPAWNER_VILLAGER_1:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -733,7 +733,7 @@ MAGIC_SPAWNER_ZOMBIE_VILLAGER_1:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -756,7 +756,7 @@ MAGIC_SPAWNER_PIGLIN_1:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -779,7 +779,7 @@ MAGIC_SPAWNER_PIGLIN_BRUTE_1:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -802,7 +802,7 @@ MAGIC_SPAWNER_ZOMBIFIED_PIGLIN_1:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -825,7 +825,7 @@ MAGIC_SPAWNER_DROWNED_1:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -848,7 +848,7 @@ MAGIC_SPAWNER_HUSK_1:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -871,7 +871,7 @@ MAGIC_SPAWNER_ELDER_GUARDIAN_1:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -892,10 +892,9 @@ MAGIC_SPAWNER_PANDA_1:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Magic Spawner Panda 1"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -918,7 +917,7 @@ MAGIC_SPAWNER_PHANTOM_1:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -941,7 +940,7 @@ MAGIC_SPAWNER_POLAR_BEAR_1:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -964,7 +963,7 @@ MAGIC_SPAWNER_SHULKER_1:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -987,7 +986,7 @@ MAGIC_SPAWNER_STRAY_1:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -1010,7 +1009,7 @@ MAGIC_SPAWNER_WARDEN_1:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -1033,7 +1032,7 @@ MAGIC_SPAWNER_VINDICATOR_1:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -1056,7 +1055,7 @@ MAGIC_SPAWNER_EVOKER_1:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -1084,7 +1083,7 @@ MAGIC_SPAWNER_2_START:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   recipe_type: MAGIC_NONE
 
@@ -1104,7 +1103,7 @@ MAGIC_SPAWNER_WITHER_SKELETON_2:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -1127,7 +1126,7 @@ MAGIC_SPAWNER_SKELETON_2:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -1150,7 +1149,7 @@ MAGIC_SPAWNER_ZOMBIE_2:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -1174,7 +1173,7 @@ MAGIC_SPAWNER_CREEPER_2:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -1198,7 +1197,7 @@ MAGIC_SPAWNER_ENDERMAN_2:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -1221,7 +1220,7 @@ MAGIC_SPAWNER_BLAZE_2:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -1244,7 +1243,7 @@ MAGIC_SPAWNER_CAVE_SPIDER_2:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -1267,7 +1266,7 @@ MAGIC_SPAWNER_GHAST_2:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -1290,7 +1289,7 @@ MAGIC_SPAWNER_ENDERMITE_2:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -1314,7 +1313,7 @@ MAGIC_SPAWNER_SILVERFISH_2:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -1338,7 +1337,7 @@ MAGIC_SPAWNER_IRON_GOLEM_2:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -1362,7 +1361,7 @@ MAGIC_SPAWNER_GUARDIAN_2:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -1385,7 +1384,7 @@ MAGIC_SPAWNER_SLIME_2:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -1408,7 +1407,7 @@ MAGIC_SPAWNER_MAGMA_CUBE_2:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -1432,7 +1431,7 @@ MAGIC_SPAWNER_SPIDER_2:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -1456,7 +1455,7 @@ MAGIC_SPAWNER_WITCH_2:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -1480,7 +1479,7 @@ MAGIC_SPAWNER_CHICKEN_2:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -1504,7 +1503,7 @@ MAGIC_SPAWNER_COW_2:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -1527,7 +1526,7 @@ MAGIC_SPAWNER_SHEEP_2:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -1551,7 +1550,7 @@ MAGIC_SPAWNER_HORSE_2:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -1575,7 +1574,7 @@ MAGIC_SPAWNER_MUSHROOM_COW_2:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -1599,7 +1598,7 @@ MAGIC_SPAWNER_CAT_2:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -1623,7 +1622,7 @@ MAGIC_SPAWNER_OCELOT_2:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -1646,7 +1645,7 @@ MAGIC_SPAWNER_PIG_2:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -1670,7 +1669,7 @@ MAGIC_SPAWNER_RABBIT_2:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -1694,7 +1693,7 @@ MAGIC_SPAWNER_SQUID_2:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -1717,7 +1716,7 @@ MAGIC_SPAWNER_GLOW_SQUID_2:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -1740,7 +1739,7 @@ MAGIC_SPAWNER_WOLF_2:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -1763,7 +1762,7 @@ MAGIC_SPAWNER_VILLAGER_2:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -1787,7 +1786,7 @@ MAGIC_SPAWNER_ZOMBIE_VILLAGER_2:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -1810,7 +1809,7 @@ MAGIC_SPAWNER_PIGLIN_2:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -1833,7 +1832,7 @@ MAGIC_SPAWNER_PIGLIN_BRUTE_2:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -1856,7 +1855,7 @@ MAGIC_SPAWNER_ZOMBIFIED_PIGLIN_2:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -1879,7 +1878,7 @@ MAGIC_SPAWNER_DROWNED_2:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -1902,7 +1901,7 @@ MAGIC_SPAWNER_HUSK_2:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -1925,7 +1924,7 @@ MAGIC_SPAWNER_ELDER_GUARDIAN_2:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -1946,10 +1945,9 @@ MAGIC_SPAWNER_PANDA_2:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Magic Spawner Panda 2"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -1972,7 +1970,7 @@ MAGIC_SPAWNER_PHANTOM_2:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -1995,7 +1993,7 @@ MAGIC_SPAWNER_POLAR_BEAR_2:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -2018,7 +2016,7 @@ MAGIC_SPAWNER_SHULKER_2:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -2041,7 +2039,7 @@ MAGIC_SPAWNER_STRAY_2:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -2064,7 +2062,7 @@ MAGIC_SPAWNER_WARDEN_2:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -2087,7 +2085,7 @@ MAGIC_SPAWNER_VINDICATOR_2:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -2110,7 +2108,7 @@ MAGIC_SPAWNER_EVOKER_2:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -2139,7 +2137,7 @@ MAGIC_SPAWNER_3_START:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   recipe_type: MAGIC_NONE
 
@@ -2159,7 +2157,7 @@ MAGIC_SPAWNER_WITHER_SKELETON_3:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -2182,7 +2180,7 @@ MAGIC_SPAWNER_SKELETON_3:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -2205,7 +2203,7 @@ MAGIC_SPAWNER_ZOMBIE_3:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -2229,7 +2227,7 @@ MAGIC_SPAWNER_CREEPER_3:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -2253,7 +2251,7 @@ MAGIC_SPAWNER_ENDERMAN_3:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -2276,7 +2274,7 @@ MAGIC_SPAWNER_BLAZE_3:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -2299,7 +2297,7 @@ MAGIC_SPAWNER_CAVE_SPIDER_3:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -2322,7 +2320,7 @@ MAGIC_SPAWNER_GHAST_3:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -2345,7 +2343,7 @@ MAGIC_SPAWNER_ENDERMITE_3:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -2369,7 +2367,7 @@ MAGIC_SPAWNER_SILVERFISH_3:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -2393,7 +2391,7 @@ MAGIC_SPAWNER_IRON_GOLEM_3:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -2417,7 +2415,7 @@ MAGIC_SPAWNER_GUARDIAN_3:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -2440,7 +2438,7 @@ MAGIC_SPAWNER_SLIME_3:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -2463,7 +2461,7 @@ MAGIC_SPAWNER_MAGMA_CUBE_3:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -2487,7 +2485,7 @@ MAGIC_SPAWNER_SPIDER_3:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -2511,7 +2509,7 @@ MAGIC_SPAWNER_WITCH_3:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -2535,7 +2533,7 @@ MAGIC_SPAWNER_CHICKEN_3:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -2559,7 +2557,7 @@ MAGIC_SPAWNER_COW_3:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -2582,7 +2580,7 @@ MAGIC_SPAWNER_SHEEP_3:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -2606,7 +2604,7 @@ MAGIC_SPAWNER_HORSE_3:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -2630,7 +2628,7 @@ MAGIC_SPAWNER_MUSHROOM_COW_3:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -2654,7 +2652,7 @@ MAGIC_SPAWNER_CAT_3:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -2678,7 +2676,7 @@ MAGIC_SPAWNER_OCELOT_3:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -2701,7 +2699,7 @@ MAGIC_SPAWNER_PIG_3:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -2725,7 +2723,7 @@ MAGIC_SPAWNER_RABBIT_3:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -2749,7 +2747,7 @@ MAGIC_SPAWNER_SQUID_3:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -2772,7 +2770,7 @@ MAGIC_SPAWNER_GLOW_SQUID_3:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -2795,7 +2793,7 @@ MAGIC_SPAWNER_WOLF_3:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -2818,7 +2816,7 @@ MAGIC_SPAWNER_VILLAGER_3:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -2842,7 +2840,7 @@ MAGIC_SPAWNER_ZOMBIE_VILLAGER_3:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -2865,7 +2863,7 @@ MAGIC_SPAWNER_PIGLIN_3:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -2888,7 +2886,7 @@ MAGIC_SPAWNER_PIGLIN_BRUTE_3:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -2911,7 +2909,7 @@ MAGIC_SPAWNER_ZOMBIFIED_PIGLIN_3:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -2934,7 +2932,7 @@ MAGIC_SPAWNER_DROWNED_3:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -2957,7 +2955,7 @@ MAGIC_SPAWNER_HUSK_3:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -2980,7 +2978,7 @@ MAGIC_SPAWNER_ELDER_GUARDIAN_3:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -3001,10 +2999,9 @@ MAGIC_SPAWNER_PANDA_3:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Magic Spawner Panda 3"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -3027,7 +3024,7 @@ MAGIC_SPAWNER_PHANTOM_3:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -3050,7 +3047,7 @@ MAGIC_SPAWNER_POLAR_BEAR_3:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -3073,7 +3070,7 @@ MAGIC_SPAWNER_SHULKER_3:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -3096,7 +3093,7 @@ MAGIC_SPAWNER_STRAY_3:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -3119,7 +3116,7 @@ MAGIC_SPAWNER_WARDEN_3:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -3142,7 +3139,7 @@ MAGIC_SPAWNER_VINDICATOR_3:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -3165,7 +3162,7 @@ MAGIC_SPAWNER_EVOKER_3:
       - "&7⇨ ⚡ 520 J per mob"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-Spawnerl"
+      - "&8Magic • Spawners"
     glow: true
   energy:
     capacity: 1314
@@ -3209,9 +3206,8 @@ MAGIC_KAOGU_SAND_1:
     material: SUSPICIOUS_SAND
     lore: 
       - "&a"
-      - "&7Magic Kaogu Sand 1"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   recipe_type: ENHANCED_CRAFTING_TABLE
   script: 可疑的沙子
   recipe:
@@ -3235,9 +3231,8 @@ MAGIC_KAOGU_GRAVEL_1:
     material: SUSPICIOUS_GRAVEL
     lore: 
       - "&a"
-      - "&7Magic Kaogu Gravel 1"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
     glow: true
   recipe_type: ENHANCED_CRAFTING_TABLE
   script: 可疑的沙砾
@@ -3263,7 +3258,6 @@ MAGIC_BLACK_ROLE:
     material: COAL_BLOCK
     lore: 
       - "&a"
-      - "&7Magic Black Role"
       - "&8⇨&e ⚡ &74,294,967,294 J/s" 
       - "&a"
       - "&7Experimental machine"
@@ -3281,7 +3275,6 @@ MAGIC_PLAYER_ATTACT:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGFkYjI1YWI5OTc2ZDg5ZDBiZDgxMThkNzJjMWMwNmJiOTA3MDYwYzFlMDJhNzI5YjY1MmQxZTg2YjFlYmJiYyJ9fX0=
     lore: 
       - "&a"
-      - "&7Magic Player Attact"
       - "&7: magicsolo"
       - "&7⇨ ⚡ 10280 J capacity"
       - "&7⇨ ⚡ : 7.5s {Uses real-time scheduling}"
@@ -3341,7 +3334,6 @@ MAGIC_POWER_MIX_1:
     material: WHITE_GLAZED_TERRACOTTA
     lore: 
       - "&a"
-      - "&7Magic Power Mix 1"
       - "&7: 、、、 tier、 tier、、、(8)"
       - '{#FDB7D4}+----------------------------------------+'
       - '&7| (Magic) |'
@@ -3408,14 +3400,13 @@ MAGIC_PLANT_1:
     material: LILY_OF_THE_VALLEY
     lore: 
       - "&a"
-      - "&7Magic Plant 1"
       - "&7⇨ ⚡ 10280 J capacity"
       - "&7⇨ ⚡ : 15s {Uses real-time scheduling}"
       - "&7⇨ ⚡ 4096 J ()"
       - "&7⇨ ⚡ 64 J/s ()"
       - "&7Experimental machine"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
     glow: true
   recipe: 
     1:
@@ -3469,7 +3460,6 @@ MAGIC_FLOWER_MIX_1:
     lore: 
       - "&a"
       - "&7\"Magic\""
-      - "&7Magic Flower Mix 1"
       - "&7⇨ ⚡ 520 J capacity"
       - "&8⇨ &e⚡{#FDB7D4} 10   J/s "
       - "{#FDB7D4}"
@@ -3498,7 +3488,6 @@ MAGIC_GEOMINER:
     lore: 
       - "&a"
       - "&71.21+Magic"
-      - "&7Magic Geominer"
       - "&7Magic"
       - "&7⇨ ⚡ 5200 J capacity"
       - "&8⇨ &e⚡{#FDB7D4} 1314   J/s "
@@ -3555,7 +3544,6 @@ MAGIC_INFINITY_MIX_1:
     material: WHITE_GLAZED_TERRACOTTA
     lore: 
       - "&a"
-      - "&7Magic Infinity Mix 1"
       - "&7Magic"
       - "&7Magic: 384/s === 1:1 3200J/Per"
       - "&7Magic: 384/s === 1:1 28800J/Per"

@@ -4,7 +4,6 @@ MAGIC_INFINITY_DUST_EXTRACTOR:
     name: "&dMagic Infinity Dust Extractor"
     material: FURNACE
     lore:
-      - "&7Magic Infinity Dust Extractor"
       - ""
       - "&7⇨ ⚡ : 64x"
       - "&8⇨&e ⚡ &757600 J/s"
@@ -106,13 +105,12 @@ MAGIC_NEWPLAYER_DUST_EXTRACTOR:
     name: "&dMagic New Player Dust Extractor"
     material: FURNACE
     lore:
-      - "&7Magic New Player Dust Extractor"
       - ""
       - "&7⇨ ⚡ : 1x"
       - "&8⇨&e ⚡ &72 J/s"
       - "&7⇨ ⚡ 100 J capacity"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     3:
@@ -175,13 +173,12 @@ MAGIC_NEWPLAYER_INGOT_FORMER:
     name: "&dMagic New Player Ingot Former"
     material: FURNACE
     lore:
-      - "&7Magic New Player Ingot Former"
       - "&a"
       - "&7⇨ ⚡ : 1x"
       - "&8⇨&e ⚡ &72 J/s"
       - "&7⇨ ⚡ 100 J capacity"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     4:
@@ -305,17 +302,16 @@ MAGIC_NEWPLAYER_INGOT_FORMER:
 MAGIC_NEWPLAYER_GOLD_PAN2:
   item_group: magic_newplayer_machines
   item:
-    name: "&dMagic New Player Gold Pan2"
+    name: "&dMagic New Player Gold Pan II"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWFkODFlYzFlNDg5YWU4ZjIwMGZkYWNiNTg5ZDA2NDc1ZTc2YTdhOTg4NmVjN2NiYzNhMzk4Mzc5ZmIxZDQ3OSJ9fX0=
     lore:
       - "&a"
-      - "&7Magic New Player Gold Pan2"
       - "&7⇨ ⚡ : 1x"
       - "&8⇨&e ⚡ &72 J/s"  
       - "&7⇨ ⚡ 58 J capacity"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   recipe_type: MAGIC_WORKBENCH
   recipe:
     2:
@@ -389,7 +385,6 @@ MAGIC_INFINITY_INGOT_FORMER:
     name: "&dMagic Infinity Ingot Former"
     material: FURNACE
     lore:
-      - "&7Magic Infinity Ingot Former"
       - ""
       - "&7⇨ ⚡ : 64x"
       - "&8⇨&e ⚡ &757600 J/s"
@@ -584,7 +579,6 @@ MAGIC_ENERGY_PRESS:
       - "&a"
       - "&7Materials"
       - "&a" 
-      - "&7tier"
       - "&7⇨ ⚡ : 1x"
       - "&8⇨&e ⚡ &72048 J/per"
       - "&7⇨ ⚡ 4096 J capacity"
@@ -718,10 +712,8 @@ MAGIC_IMPACT:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMThiODk3NzlmNjBjYjE1MDA4MDgxN2QwNDQ0MjY0NDcxYWM3ZTM0NmI4OTAwZDc5ZThjY2M4Yzg5YjgyZGMzNyJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Impact"
       - "&7Magic"
       - "&a" 
-      - "&7tier"
       - "&7⇨ ⚡ : 1x"
       - "&8⇨&e ⚡ &7512 J/per"
       - "&7⇨ ⚡ 2048J capacity"
@@ -818,14 +810,12 @@ MAGIC_NEW_CONVERT:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDM5ZjMzNjY3Y2U3YjI4M2I4ZmI5NmQ2MWIxZTlhYmQ0YjNiZjA3NjM2MGFmZTU5NDJhNzhjNmZiNTg4NDgxIn19fQ==
     lore:
       - "&a"
-      - "&7Magic New Convert"
       - "&a" 
-      - "&7tier"
       - "&7⇨ ⚡ : 1x"
       - "&8⇨&e ⚡ &750 J/per"
       - "&7⇨ ⚡ 1024 J capacity"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1: 
@@ -915,7 +905,6 @@ MAGIC_CD_MACHINES_1:
       - "&a"
       - "&7Magic"
       - "&a" 
-      - "&7Magic Cd Machines 1"
       - "&7⇨ ⚡ : 1x"
       - "&8⇨&e ⚡ &720480 J/per"
       - "&7⇨ ⚡ 40960 J capacity"
@@ -950,7 +939,6 @@ MAGIC_GENSHIN_IMPACT_MACHINES:
     name: "&dMagic Genshin Impact Machines"
     lore:
     - "&a"
-    - "Magic Genshin Impact Machines"
     - "&8⇨ &e⚡&7 100 J/s"
     - "&a" 
     material_type: skull_base64
@@ -1121,7 +1109,6 @@ MAGIC_WAR_MACHINES_NUMERATOR:
     name: "&dMagic War Machines Numerator"
     lore:
     - "&a"
-    - "Magic War Machines Numerator"
     - "&8⇨ &e⚡&7 800 J/per"
     - "&a" 
     material_type: skull_base64
@@ -1210,7 +1197,6 @@ MAGIC_WAR_MACHINES_CREATING_TABLE:
     name: "&dMagic War Machines Creating Table"
     lore:
     - "&a"
-    - "Magic War Machines Creating Table"
     - "&8⇨ &e⚡&7 1600 J/per"
     - "&a" 
     material_type: skull_base64
@@ -1296,7 +1282,6 @@ MAGIC_AUTHOR_MACHINE_BASIC:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDQ0M2ZkNWVkN2M3Y2I1NTQ3Njg1YTQ5MGFkYzE4ZGM0N2NiYjJkYTE2OGQzYmYyYjczMWZjNWMxOTM0MmViNyJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Credits Machine Basic"
       - "&7⇨ ⚡ : 16x"
       - "&8⇨&e ⚡ &7166666 J/s"  
       - "&7⇨ ⚡ 10000000 J capacity"
@@ -1544,7 +1529,6 @@ MAGIC_AUTHOR_MACHINE:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjU4NTBjYjhkNWYzMDg5Mzk5YWVhYzgxOTFmZWY5NmFkYmRlMWRiNWVjYjgyYmNmZTc0YzEzMjg2MmRkZTczZiJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Credits Machine"
       - "&7⇨ ⚡ : 1024x"
       - "&8⇨&e ⚡ &710000000 J/per"  
       - "&7⇨ ⚡ 10000000 J capacity"
@@ -1826,7 +1810,6 @@ MAGIC_DATA_CARD_INSERT:
   item:
     name: "&dMagic Data Card Insert"
     lore:
-    - "Magic Data Card Insert"
     - "&a"
     - "&8⇨ &e⚡&7 20,000 J/s"
     - "&a" 
@@ -2123,7 +2106,6 @@ MAGIC_ITEMX64_MACHINE:
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGQ1Y2Y5MmJjNzllYzE5ZjQxMDY0NDFhZmZmZjE0MDZhMTM2NzAxMGRjYWZiMTk3ZGQ5NGNmY2ExYTZkZTBmYyJ9fX0=
     lore:
-      - "&7Magic Itemx64 Machine"
       - ""
       - "&7⇨ ⚡ : 1x"
       - "&8⇨&e ⚡ &71280 J/s"
@@ -2182,8 +2164,6 @@ MAGIC_CD_SINGULARITY:
     material: MAGENTA_GLAZED_TERRACOTTA
     lore:
       - "&a" 
-      - "&7tier"
-      - "&7Magic Cd Singularity"
       - "&7Magic"
       - "&a"
       - "&7⇨ ⚡ : 1x"
@@ -2457,7 +2437,6 @@ MAGIC_URANIUM_EXTRACTOR:
     name: "&dMagic Uranium Extractor"
     material: LIME_CONCRETE
     lore:
-      - "&7Magic Uranium Extractor"
       - ""
       - "&8⇨&e ⚡ &71024 J/s"
       - "&7⇨ ⚡ 2048 J capacity"
@@ -2518,9 +2497,7 @@ MAGIC_BEE_MACHINE:
     material: BEE_NEST
     lore:
       - "&a"
-      - "&7tier"
       - "&7Magic"
-      - "&7Magic Bee Machine"
       - "&7⇨ ⚡ : 1x"
       - "&8⇨&e ⚡ &7100 J/per"  
       - "&7⇨ ⚡ 1000 J capacity"
@@ -2606,7 +2583,6 @@ MAGIC_DUST_WASHER:
     material: BLUE_STAINED_GLASS
     lore:
       - "&a"
-      - "&7Magic Dust Washer"
       - "&7⇨ ⚡ : 1x"
       - "&8⇨&e ⚡ &710 J/s"  
       - "&7⇨ ⚡ 100 J capacity"
@@ -2727,7 +2703,6 @@ MAGIC_RANDOM_ITEM_MACHINE:
     material: QUARTZ_BLOCK
     lore:
       - "&a"
-      - "&7Magic Random Item Machine"
       - "&7⇨ ⚡ : 1x"
       - "&8⇨&e ⚡ &71000000000 J/tick"  
       - "&7⇨ ⚡ 2000000000 J capacity"
@@ -2924,7 +2899,6 @@ MAGIC_IMPROVEMENT_FORGE:
     material: SMITHING_TABLE
     lore:
       - "&a"
-      - "&7Magic Improvement Forge"
       - "&a"
       - "&a"
       - "&8⇨&e ⚡ &7128 J/s"
@@ -3048,7 +3022,6 @@ MAGIC_ORE_SMELTERY:
     material: FURNACE
     lore:
       - "&a"
-      - "&7Magic Ore Smeltery"
       - "&7⇨ ⚡ : 1x"
       - "&8⇨&e ⚡ &7100 J/s"  
       - "&7⇨ ⚡ 2000 J capacity"
@@ -3359,7 +3332,6 @@ MAGIC_BATTERY_MACHINE_IN_1:
     material_type: slimefun
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODNlZDRjZTIzOTMzZTY2ZTA0ZGYxNjA3MDY0NGY3NTk5ZWViNTUzMDdmN2VhZmU4ZDkyZjQwZmIzNTIwODYzYyJ9fX0=
     lore:
-      - "&7Magic Battery Machine In 1"
       - "&7Magic"
       - "&a"
       - "&7⇨ ⚡ : 999x"
@@ -3432,7 +3404,6 @@ MAGIC_SKIN_CONVERT:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGFkYjI1YWI5OTc2ZDg5ZDBiZDgxMThkNzJjMWMwNmJiOTA3MDYwYzFlMDJhNzI5YjY1MmQxZTg2YjFlYmJiYyJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Skin Convert"
       - "&a"
       - "&8⇨&e ⚡ &71000 J/per"  
       - "&7⇨ ⚡ 10000 J capacity"
@@ -3550,7 +3521,6 @@ MAGIC_ORIGIN_BASIC_DUST_EXTRACTOR:
     material: FURNACE
     glow: true
     lore:
-      - "&7Magic Origin Basic Dust Extractor"
       - ""
       - "&7⇨ ⚡ : 1x"
       - "&8⇨&e ⚡ &714,400 J/s"
@@ -3656,7 +3626,6 @@ MAGIC_ORIGIN_BASIC_INGOT_FORMER:
     material: FURNACE
     glow: true
     lore:
-      - "&7Magic Origin Basic Ingot Former"
       - "&a"
       - "&7⇨ ⚡ : 1x"
       - "&8⇨&e ⚡ &714,400 J/s"
@@ -3822,7 +3791,6 @@ MAGIC_ORIGIN_MINERAL_DECOMPRESSOR:
     material: TARGET
     glow: true
     lore:
-      - "&7Magic Origin Mineral Decompressor"
       - "&a"
       - "&7⇨ ⚡ : 1x"
       - "&8⇨&e ⚡ &71280 J/s"
@@ -4304,7 +4272,6 @@ MAGIC_ORIGIN_PRESS:
     material: PISTON
     glow: true
     lore:
-      - "&7Magic Origin Press"
       - "&a"
       - "&7⇨ ⚡ : 1x"
       - "&8⇨&e ⚡ &71280 J/s"
@@ -4399,7 +4366,6 @@ MAGIC_ORIGIN_INFINITY_CONSTRUCTOR:
     glow: true
     lore:
       - "&a"
-      - "&7Magic Origin Infinity Constructor"
       - "&a"
       - "&7⇨ ⚡ : 3000x"
       - "&8⇨&e ⚡ &7128000 J/s"
@@ -4573,7 +4539,7 @@ MAGIC_MATERIAL_COPY:
       - "&7⇨ ⚡ : 1x"
       - "&8⇨&e ⚡ &7128 J/s"
       - "&a"
-      - "&7lMagic-Power and Energyl"
+      - "&8Magic • Power & Energy"
   recipe_type: MAGIC_NONE
   recipe:
 
@@ -4803,7 +4769,7 @@ MAGIC_ATTRIBUTE_CHAOS_FORGE:
       - "&7⇨ ⚡ : 1x"
       - "&8⇨&e ⚡ &7512 J/s"
       - "&a"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1:
@@ -4935,7 +4901,7 @@ MAGIC_MFCT_ITEM_GET:
       - "&8⇨&e ⚡ &7256 J/s"
       - "&a"
       - "&7Experimental machine"
-      - "&7lMagic-l"
+      - "&8Magic Legacy"
   recipe_type: MAGIC_NONE
   capacity: 512
   energyPerCraft: 128
@@ -5056,12 +5022,11 @@ MAGIC_PEIYUSHI_1:
     glow: true
     lore:
       - "&a"
-      - "&7Magic Peiyushi 1"
       - "&a"
       - "&7⇨ ⚡ : 1x"
       - "&8⇨&e ⚡ &7512 J/s"
       - "&a"
-      - "&7lMagic-Power and Energyl"
+      - "&8Magic • Power & Energy"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe: 
     1: 
@@ -5713,12 +5678,11 @@ MAGIC_PEIYUSHI_2:
     glow: true
     lore:
       - "&a"
-      - "&7Magic Peiyushi 2"
       - "&a"
       - "&7⇨ ⚡ : 2x"
       - "&8⇨&e ⚡ &71024 J/s"
       - "&a"
-      - "&7lMagic-Power and Energyl"
+      - "&8Magic • Power & Energy"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe: 
     2:
@@ -6352,7 +6316,6 @@ MAGIC_POWER_MIX_BOX_1:
     material: SEA_LANTERN
     glow: true
     lore:
-      - "&7Magic Power Mix Box 1"
       - "&7: 、、、 tier、 tier、、、(8)"
       - '{#FDB7D4}+----------------------------------------+'
       - '&7| (Magic) |'
@@ -6416,7 +6379,6 @@ MAGIC_FLOWER_MIX_BOX_1:
     lore:
       - "&a"
       - "&7\"Magic-\""
-      - "&7Magic Flower Mix Box 1"
       - "{#FDB7D4}"
       - "{#FDB7D4}+----------------------------------+-----------------------------------+----------------------------------+"
       - "{#FDB7D4}"
@@ -6496,7 +6458,6 @@ MAGIC_INFINITY_MIX_BOX_1:
     lore:
       - "&a"
       - "&7Magic"
-      - "&7Magic Infinity Mix Box 1"
       - "&7Magic: 384/s === 1:1 3200J/Per"
       - "&7Magic: 384/s === 1:1 28800J/Per"
       - '{#FDB7D4}+----------------------------------------+'
@@ -6564,7 +6525,6 @@ MAGIC_TWO_TO_RSC_MAGIC_GEO_MACHINE:
     name: "&dMagic Two To Rsc Magic Geo Machine"
     material: FURNACE
     lore:
-      - "&7Magic Two To Rsc Magic Geo Machine"
       - "&a"
       - "&7⇨ ⚡ : 1x"
       - "&8⇨&e ⚡ &72 J/s"

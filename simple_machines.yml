@@ -4,7 +4,6 @@ MAGIC_NEWPLAYER_ELECTRIC_FURNACE:
     material: FURNACE
     name: "&dMagic New Player Electric Furnace"
     lore:
-      - "&7Magic New Player Electric Furnace"
       - ""
       - "&7⇨ ⚡ : 1x"
       - "&8⇨ &e⚡ &72 J/s"
@@ -27,7 +26,6 @@ MAGIC_NEWPLAYER_ELECTRIC_SMELTERY:
     material: FURNACE
     name: "&dMagic New Player Electric Smeltery"
     lore:
-      - "&7Magic New Player Electric Smeltery"
       - ""
       - "&7⇨ ⚡ : 2x"
       - "&8⇨ &e⚡ &72 J/s"
@@ -53,7 +51,6 @@ MAGIC_NEWPLAYER_ELECTRIC_GOLD_PAN:
     material: SOUL_SAND
     name: "&dMagic New Player Electric Gold Pan"
     lore:
-      - "&7Magic New Player Electric Gold Pan"
       - ""
       - "&7⇨ ⚡ : 1x"
       - "&8⇨ &e⚡ &72 J/s"
@@ -76,7 +73,6 @@ MAGIC_NEWPLAYER_ELECTRIC_ORE_GRINDER:
     material: RAW_GOLD_BLOCK
     name: "&dMagic New Player Electric Ore Grinder"
     lore:
-      - "&7Magic New Player Electric Ore Grinder"
       - ""
       - "&7⇨ ⚡ : 1x"
       - "&8⇨ &e⚡ &72 J/s"
@@ -99,7 +95,6 @@ MAGIC_NEWPLAYER_ELECTRIC_DUST_WASHER:
     material: LIGHT_BLUE_STAINED_GLASS
     name: "&dMagic New Player Electric Dust Washer"
     lore:
-      - "&7Magic New Player Electric Dust Washer"
       - ""
       - "&7⇨ ⚡ : 1x"
       - "&8⇨ &e⚡ &72 J/s"

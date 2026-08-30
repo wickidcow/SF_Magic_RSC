@@ -182,7 +182,7 @@ MAGIC_NEWPLAYER_INGOT_FORMER:
       material: GRAY_STAINED_GLASS_PANE
 
 MAGIC_GENERATORS_QUARTZ:
-  title: "&dMagic Generators Quartz"
+  title: "&dMagic Quartz Generator"
   slots:
     0-3: 
       name: "&dInput"
@@ -210,7 +210,7 @@ MAGIC_GENERATORS_QUARTZ:
       material: CHERRY_HANGING_SIGN
       glow: true
       lore:
-      - 'Magic Generators Quartz'
+      - 'Magic Quartz Generator'
     26:
       name: "&dOutput"
       material: ORANGE_STAINED_GLASS_PANE
@@ -246,7 +246,7 @@ MAGIC_GENERATORS_QUARTZ:
       material: ORANGE_STAINED_GLASS_PANE
 
 MAGIC_GENERATORS_MAGMA_BLOCK:
-  title: "&dMagic Generators Magma Block"
+  title: "&dMagic Magma Block Generator"
   slots:
     0-3: 
       name: "&dInput"
@@ -274,7 +274,7 @@ MAGIC_GENERATORS_MAGMA_BLOCK:
       material: CHERRY_HANGING_SIGN
       glow: true
       lore:
-      - 'Magic Generators Magma Block'
+      - 'Magic Magma Block Generator'
     26:
       name: "&dOutput"
       material: ORANGE_STAINED_GLASS_PANE
@@ -310,7 +310,7 @@ MAGIC_GENERATORS_MAGMA_BLOCK:
       material: ORANGE_STAINED_GLASS_PANE
 
 MAGIC_NEWPLAYER_GOLD_PAN2:
-  title: "&dMagic New Player Gold Pan2"
+  title: "&dMagic New Player Gold Pan II"
   slots:
     0-3: 
       name: "&dInput"
@@ -338,7 +338,7 @@ MAGIC_NEWPLAYER_GOLD_PAN2:
       material: CHERRY_HANGING_SIGN
       glow: true
       lore:
-      - 'Magic New Player Gold Pan2'
+      - 'Magic New Player Gold Pan II'
     26:
       name: "&dOutput"
       material: ORANGE_STAINED_GLASS_PANE
@@ -705,7 +705,6 @@ MAGIC_DYNATECH_APIARY_BILLON_INGOT9:
       material: BEACON
       glow: true 
       lore: 
-        - "&7Magic Dynatech Apiary Billon Ingot9"
         - "&7Magic :"
         - "&7: 20 seconds"
     21: 
@@ -780,7 +779,7 @@ MAGIC_ENERGY_PRESS:
       material: GRAY_STAINED_GLASS_PANE
 
 MAGIC_GENERATORS_REDSTONE_1:
-  title: "&dMagic Generators Redstone 1"
+  title: "&dMagic Redstone Generator I"
   slots:
     0:
       name: "&dInformation"
@@ -788,7 +787,7 @@ MAGIC_GENERATORS_REDSTONE_1:
       material: CHERRY_HANGING_SIGN
       glow: true
       lore:
-      - "Magic Generators Redstone 1"
+      - "Magic Redstone Generator I"
     18:
       name: "&a"
       material: GRAY_STAINED_GLASS_PANE
@@ -1032,7 +1031,6 @@ MAGIC_DYNATECH_APIARY_DURALUMIN_INGOT9:
       material: BEACON
       glow: true 
       lore: 
-        - "&7Magic Dynatech Apiary Duralumin Ingot9"
         - "&7Magic :"
         - "&7: 20 seconds"
     21: 
@@ -1092,7 +1090,6 @@ MAGIC_DYNATECH_APIARY_BRASS_INGOT9:
       material: BEACON
       glow: true 
       lore: 
-        - "&7Magic Dynatech Apiary Brass Ingot9"
         - "&7Magic :"
         - "&7: 20 seconds"
     21: 
@@ -1152,7 +1149,6 @@ MAGIC_DYNATECH_APIARY_BRONZE_INGOT9:
       material: BEACON
       glow: true 
       lore: 
-        - "&7Magic Dynatech Apiary Bronze Ingot9"
         - "&7Magic :"
         - "&7: 20 seconds"
     21: 
@@ -1212,7 +1208,6 @@ MAGIC_DYNATECH_APIARY_STEEL_INGOT9:
       material: BEACON
       glow: true 
       lore: 
-        - "&7Magic Dynatech Apiary Steel Ingot9"
         - "&7Magic :"
         - "&7: 20 seconds"
     21: 
@@ -1272,7 +1267,6 @@ MAGIC_DYNATECH_APIARY_ALUMINUM_BRASS_INGOT9:
       material: BEACON
       glow: true 
       lore: 
-        - "&7Magic Dynatech Apiary Aluminum Brass Ingot9"
         - "&7Magic :"
         - "&7: 20 seconds"
     21: 
@@ -1332,7 +1326,6 @@ MAGIC_DYNATECH_APIARY_ALUMINUM_BRONZE_INGOT9:
       material: BEACON
       glow: true 
       lore: 
-        - "&7Magic Dynatech Apiary Aluminum Bronze Ingot9"
         - "&7Magic :"
         - "&7: 20 seconds"
     21: 
@@ -1392,7 +1385,6 @@ MAGIC_DYNATECH_APIARY_CORINTHIAN_BRONZE_INGOT9:
       material: BEACON
       glow: true 
       lore: 
-        - "&7Magic Dynatech Apiary Corinthian Bronze Ingot9"
         - "&7Magic :"
         - "&7: 20 seconds"
     21: 
@@ -1452,7 +1444,6 @@ MAGIC_DYNATECH_APIARY_SOLDER_INGOT9:
       material: BEACON
       glow: true 
       lore: 
-        - "&7Magic Dynatech Apiary Solder Ingot9"
         - "&7Magic :"
         - "&7: 20 seconds"
     21: 
@@ -1512,7 +1503,6 @@ MAGIC_DYNATECH_APIARY_DAMASCUS_STEEL_INGOT9:
       material: BEACON
       glow: true 
       lore: 
-        - "&7Magic Dynatech Apiary Damascus Steel Ingot9"
         - "&7Magic :"
         - "&7: 20 seconds"
     21: 
@@ -1572,7 +1562,6 @@ MAGIC_DYNATECH_APIARY_HARDENED_METAL_INGOT9:
       material: BEACON
       glow: true 
       lore: 
-        - "&7Magic Dynatech Apiary Hardened Metal Ingot9"
         - "&7Magic :"
         - "&7: 20 seconds"
     21: 
@@ -1632,7 +1621,6 @@ MAGIC_DYNATECH_APIARY_REINFORCED_ALLOY_INGOT9:
       material: BEACON
       glow: true 
       lore: 
-        - "&7Magic Dynatech Apiary Reinforced Alloy Ingot9"
         - "&7Magic :"
         - "&7: 20 seconds"
     21: 
@@ -1692,7 +1680,6 @@ MAGIC_DYNATECH_APIARY_FERROSILICON9:
       material: BEACON
       glow: true 
       lore: 
-        - "&7Magic Dynatech Apiary Ferrosilicon9"
         - "&7Magic :"
         - "&7: 20 seconds"
     21: 
@@ -1752,7 +1739,6 @@ MAGIC_DYNATECH_APIARY_GILDED_IRON9:
       material: BEACON
       glow: true 
       lore: 
-        - "&7Magic Dynatech Apiary Gilded Iron9"
         - "&7Magic :"
         - "&7: 20 seconds"
     21: 
@@ -1812,7 +1798,6 @@ MAGIC_DYNATECH_APIARY_NICKEL_INGOT9:
       material: BEACON
       glow: true 
       lore: 
-        - "&7Magic Dynatech Apiary Nickel Ingot9"
         - "&7Magic :"
         - "&7: 20 seconds"
     21: 
@@ -1872,7 +1857,6 @@ MAGIC_DYNATECH_APIARY_COBALT_INGOT9:
       material: BEACON
       glow: true 
       lore: 
-        - "&7Magic Dynatech Apiary Cobalt Ingot9"
         - "&7Magic :"
         - "&7: 20 seconds"
     21: 
@@ -1932,7 +1916,6 @@ MAGIC_DYNATECH_APIARY_REDSTONE_ALLOY9:
       material: BEACON
       glow: true 
       lore: 
-        - "&7Magic Dynatech Apiary Redstone Alloy9"
         - "&7Magic :"
         - "&7: 20 seconds"
     21: 
@@ -1992,7 +1975,6 @@ MAGIC_DYNATECH_APIARY_SYNTHETIC_DIAMOND9:
       material: BEACON
       glow: true 
       lore: 
-        - "&7Magic Dynatech Apiary Synthetic Diamond9"
         - "&7Magic :"
         - "&7: 20 seconds"
     21: 
@@ -2052,7 +2034,6 @@ MAGIC_DYNATECH_APIARY_SYNTHETIC_EMERALD9:
       material: BEACON
       glow: true 
       lore: 
-        - "&7Magic Dynatech Apiary Synthetic Emerald9"
         - "&7Magic :"
         - "&7: 20 seconds"
     21: 
@@ -2112,7 +2093,6 @@ MAGIC_DYNATECH_APIARY_SYNTHETIC_SAPPHIRE9:
       material: BEACON
       glow: true 
       lore: 
-        - "&7Magic Dynatech Apiary Synthetic Sapphire9"
         - "&7Magic :"
         - "&7: 20 seconds"
     21: 
@@ -2172,7 +2152,6 @@ MAGIC_DYNATECH_APIARY_CARBONADO9:
       material: BEACON
       glow: true 
       lore: 
-        - "&7Magic Dynatech Apiary Carbonado9"
         - "&7Magic :"
         - "&7: 20 seconds"
     21: 
@@ -2221,7 +2200,6 @@ MAGIC_DYNATECH_APIARY_ALL_1:
         - "&7: Magic"
         - "&7Magic :"
         - "&7: 40 seconds"
-        - "&7Magic Dynatech Apiary All 1"
     50-53:
       name: "&dMagic Dynatech Apiary All 1"
       material: CYAN_STAINED_GLASS_PANE
@@ -2852,7 +2830,7 @@ MAGIC_ITEMX64_MACHINE:
       material: GRAY_STAINED_GLASS_PANE
 
 MAGIC_GENERATORS_WOOD:
-  title: "&dMagic Generators Wood"
+  title: "&dMagic Wood Generator"
   slots:
     0-3: 
       name: "&dInput"
@@ -2880,7 +2858,7 @@ MAGIC_GENERATORS_WOOD:
       material: CHERRY_HANGING_SIGN
       glow: true
       lore:
-      - 'Magic Generators Wood'
+      - 'Magic Wood Generator'
     26:
       name: "&dOutput"
       material: ORANGE_STAINED_GLASS_PANE
@@ -4160,13 +4138,11 @@ MAGIC_INFINITY_QUARRY:
       material: LIME_STAINED_GLASS_PANE
       glow: true
       lore:
-      - 'Magic Infinity Quarry'
     14: 
       name: "&dMagic Infinity Quarry"
       material: LIME_STAINED_GLASS_PANE
       glow: true
       lore:
-      - 'Magic Infinity Quarry'
     15-17: 
       name: "&9"
       material: GRAY_STAINED_GLASS_PANE
@@ -4177,12 +4153,10 @@ MAGIC_INFINITY_QUARRY:
       name: "&dMagic Infinity Quarry"
       material: CYAN_STAINED_GLASS_PANE
       lore:
-      - "Magic Infinity Quarry"
     50: 
       name: "&dMagic Infinity Quarry"
       material: CYAN_STAINED_GLASS_PANE
       lore:
-      - "Magic Infinity Quarry"
     51-53: 
       name: "&a" 
       material: GRAY_STAINED_GLASS_PANE
@@ -4646,7 +4620,6 @@ MAGIC_GEOMINER_BOX:
       material_type: slimefun
       material: IE_INFINITY_MATRIX
       lore: 
-        - "&7Magic Geominer Box"
     5-8:  
       name: "&a" 
       material: STRUCTURE_BLOCK
@@ -4773,7 +4746,6 @@ MAGIC_INFINITY_MIX_BOX_1:
       material: CHERRY_HANGING_SIGN
       glow: true
       lore:
-      - "Magic Infinity Mix Box 1"
       progressbar: true
       progressBarItem:
         name: "&a"
