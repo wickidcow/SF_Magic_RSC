@@ -72,8 +72,27 @@ jobs:
           python tools/apply_runtime_fixes.py "$root"
           python tools/clean_magic_text_quality.py "$root"
 
+          cat > dist/directions.txt <<'EOF'
+          Magic RSC Legacy - Installation Directions
+          ==========================================
+
+          Requirement:
+          - RykenSlimefunCustomizer (RSC) must be installed on the server.
+
+          Installation:
+          1. Stop the Minecraft server.
+          2. Open the plugins/RykenSlimefunCustomizer/addons/ folder.
+          3. Drop the included Magic folder directly into the addons folder.
+          4. The final path should be:
+             plugins/RykenSlimefunCustomizer/addons/Magic/info.yml
+          5. If an older Magic folder already exists, replace it with this one instead of merging old files into it.
+          6. Start the server.
+
+          This ZIP contains the ready-to-use Magic addon folder for RSC.
+          EOF
+
           archive="Magic-${version}.zip"
-          (cd dist && zip -9 -r "../$archive" Magic >/dev/null)
+          (cd dist && zip -9 -r "../$archive" Magic directions.txt >/dev/null)
           sha256sum "$archive" > "$archive.sha256"
           echo "MAGIC_ARCHIVE=$archive" >> "$GITHUB_ENV"
 
@@ -88,6 +107,9 @@ jobs:
           fi
           test "$(unzip -Z1 "$MAGIC_ARCHIVE" | grep -c '^Magic/info.yml$')" -eq 1
           test "$(unzip -Z1 "$MAGIC_ARCHIVE" | grep -c '^Magic/items.yml$')" -eq 1
+          test "$(unzip -Z1 "$MAGIC_ARCHIVE" | grep -c '^directions.txt$')" -eq 1
+          unzip -p "$MAGIC_ARCHIVE" directions.txt | grep -q 'RykenSlimefunCustomizer (RSC)'
+          unzip -p "$MAGIC_ARCHIVE" directions.txt | grep -q 'plugins/RykenSlimefunCustomizer/addons/'
 
           verify_dir="$(mktemp -d)"
           trap 'rm -rf "$verify_dir"' EXIT
@@ -222,24 +244,25 @@ jobs:
           - Duplicate top-level YAML entries removed from the packaged drop-in
           - Obsolete Magic POWERED_BEDROCK shim removed in favor of IE2's native item
           - Current InfinityExpansion2 InfinityWorkbench class path used throughout the runtime package
-          - Runtime-only drop-in archive for RykenSlimefunCustomizer
+          - ZIP contains the ready-to-drop Magic folder plus directions.txt
           - Original MAGIC_* bridge IDs preserved
           - Maintained for the Paper 26.2 Slimefun Legacy stack
 
           ### Install
-          Stop the server and replace the existing Magic addon directory rather than merging files into it.
+          Requires RykenSlimefunCustomizer (RSC).
 
-          Final location:
+          Stop the server, open:
 
-          plugins/RykenSlimefunCustomizer/addons/Magic
+          plugins/RykenSlimefunCustomizer/addons/
+
+          Then drop the included Magic folder directly into that addons folder.
 
           The final file path should include:
 
           plugins/RykenSlimefunCustomizer/addons/Magic/info.yml
 
-          A clean directory replacement is important because obsolete YAML/scripts from older Magic builds can otherwise remain on disk and continue loading.
-
-          Requires RykenSlimefunCustomizer plus the dependencies listed in info.yml.
+          If an older Magic folder already exists, replace it rather than merging old files into it.
+          A directions.txt file is included in the ZIP with the same installation instructions.
 
           Original Magic project: magicsolo / Yomicer
           Legacy compatibility maintenance: wickidcow
