@@ -6,7 +6,6 @@ MAGIC_INFINITY_FORGE_1:
     lore:
       - "&a"
       - "&7Magic Infinity Forge 1"
-      - "&7Magic Infinity Forge 1"
       - "&a"
       - "&8⇨&e ⚡ &75,000,000  J/s"
       - "&7⇨ ⚡ 100,000,000 J capacity"
@@ -941,7 +940,7 @@ MAGIC_INFINITY_FORGE_1:
       output: 
         1: 
           material_type: slimefun
-          material: POWERED_BEDROCK
+          material: IE_POWERED_BEDROCK
           amount: 1
           slot: 44
     '无尽原石生成器': 
@@ -4180,8 +4179,6 @@ MAGIC_INFINITY_FORGE_ULTRA:
     lore:
       - "&a"
       - "&7Magic Infinity Forge Ultra"
-      - "&7Magic Infinity Forge Ultra"
-      - "&7Magic Infinity Forge Ultra"
       - "&a"
       - "&8⇨&e ⚡ &710,000  J/per"
       - "&7⇨ ⚡ 2,000,000,000 J capacity"
@@ -5116,7 +5113,7 @@ MAGIC_INFINITY_FORGE_ULTRA:
       output: 
         1: 
           material_type: slimefun
-          material: POWERED_BEDROCK
+          material: IE_POWERED_BEDROCK
           amount: 1
           slot: 44
     '无尽原石生成器': 
@@ -11131,10 +11128,8 @@ MAGIC_SUPREME_ELECTRIC_MAGICAL:
     lore:
       - "&a"
       - "&7Magic"
-      - "&7Magic"
       - "&7Magic Supreme Electric Magical"
       - "&a"
-      - "&7Magic"
       - "&7⇨ ⚡ : 999.0x"
       - "&8⇨&b ⚡ &71000.00 J/s"
       - "&a"

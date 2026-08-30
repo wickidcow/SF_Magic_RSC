@@ -21,11 +21,6 @@ MAGIC_COSMIC_DUST:
     lore: 
       - "&a"
       - "&7Magic Cosmic Dust"
-      - "&7Magic Cosmic Dust"
-      - "&7Magic Cosmic Dust"
-      - "&7Magic Cosmic Dust"
-      - "&7Magic Cosmic Dust"
-      - "&7Magic Cosmic Dust"
       - "&7Non-renewable resource"
       - "&a"
       - "&7Natural resource"
@@ -45,8 +40,6 @@ MAGIC_SOUL:
     material: SOUL_LANTERN
     lore: 
       - "&a"
-      - "&7Magic Soul"
-      - "&7Magic Soul"
       - "&7Magic Soul"
       - "&7Non-renewable resource"
       - "&a"

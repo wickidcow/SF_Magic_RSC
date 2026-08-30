@@ -5,24 +5,19 @@ item:
   meta:
     ==: ItemMeta
     meta-type: SKULL
-    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FACDCC","text":"魔"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#EAC7C4","text":"法"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#DAC1BC","text":"抽"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#CABCB5","text":"屉"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#BAB6AD","text":"
-      "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#AAB1A6","text":"I"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#9AAB9E","text":"I"},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#8AA697","text":"I
-      "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"("},{"italic":false,"color":"green","text":"模型"},{"italic":false,"color":"white","text":")"}],"text":""}'
+    display-name: '{"text":"Magic Drawer III (Model)","color":"light_purple","italic":false}'
     lore:
     - '{"text":""}'
-    - '{"extra":[{"italic":false,"color":"red","text":"切记！该魔法为一次性魔法！拆除需要移出所有物品！"}],"text":""}'
-    - '{"extra":[{"italic":false,"color":"gold","text":"支持网络快速输入/输出"}],"text":""}'
+    - '{"extra":[{"italic":false,"color":"red","text":"Warning! This magic is single-use. Remove all items before breaking it!"}],"text":""}'
+    - '{"extra":[{"italic":false,"color":"gold","text":"Supports fast network input/output"}],"text":""}'
     - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
-    - '{"extra":[{"italic":false,"color":"gray","text":"⇨ "},{"italic":false,"color":"yellow","text":"可储存
-      32 种物品"}],"text":""}'
-    - '{"extra":[{"italic":false,"color":"gray","text":"⇨ "},{"italic":false,"color":"yellow","text":"每种物品可容纳
-      4096 个"}],"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
-    - '{"extra":[{"italic":false,"color":"gray","text":"⇨ "},{"italic":false,"color":"yellow","text":"不使用网络扳手也能拆除该模型方块"}],"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"机器"}],"text":""}'
-    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF0000","text":"樱"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF4000","text":"缘"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF8000","text":"梦"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFBF00","text":"之"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FFFF00","text":"乡"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#BFFF00","text":"粘"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#80FF00","text":"液"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#40FF00","text":"科"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#00FF00","text":"技"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#00FF40","text":"服"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#00FF80","text":"务"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#00FFBF","text":"器"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#00FFFF","text":"定"},{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#00BFFF","text":"制"}],"text":""}' 
+    - '{"extra":[{"italic":false,"color":"gray","text":"⇨ "},{"italic":false,"color":"yellow","text":"Storage: 
+      32 item types"}],"text":""}'
+    - '{"extra":[{"italic":false,"color":"gray","text":"⇨ "},{"italic":false,"color":"yellow","text":"Capacity per item: 
+      4096 items"}],"text":""}'
+    - '{"extra":[{"italic":false,"color":"gray","text":"⇨ "},{"italic":false,"color":"yellow","text":"This model block can be broken without a network wrench"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Machine"}],"text":""}'
+    - '{"text":"Magic Legacy","color":"green","italic":false}'
     PublicBukkitValues:
       slimefun:slimefun_item: NTW_EXPANSION_CARGO_STORAGE_UNIT_3
     skull-owner:

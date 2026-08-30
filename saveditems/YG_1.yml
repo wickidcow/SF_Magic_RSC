@@ -5,7 +5,7 @@ item:
   meta:
     ==: ItemMeta
     meta-type: UNSPECIFIC
-    display-name: "{\"extra\":[{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"dark_red\",\"text\":\"织\"},{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"red\",\"text\":\"梦\"},{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gold\",\"text\":\"者\"},{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"yellow\",\"text\":\"-\"},{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"green\",\"text\":\"万\"},{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"aqua\",\"text\":\"物\"},{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"blue\",\"text\":\"生\"}],\"text\":\"\"}"
+    display-name: '{"text":"Dreamweaver - Genesis","color":"light_purple","italic":false}'
     lore:
     - '{"extra": [{
         "bold": false,
@@ -14,16 +14,15 @@ item:
         "strikethrough": false,
         "obfuscated": false,
         "color": "aqua",
-        "text": "随着时间的流逝"
+        "text": "As time passes,"
       }],"text": ""}'
-    - '{"extra": [{
         "bold": false,
         "italic": false,
         "underlined": false,
         "strikethrough": false,
         "obfuscated": false,
         "color": "aqua",
-        "text": "关于"
+        "text": "the legend of"
       },
       {
         "bold": true,
@@ -32,7 +31,7 @@ item:
         "strikethrough": false,
         "obfuscated": false,
         "color": "dark_red",
-        "text": "织"
+        "text": "Dreamweaver"
       },
       {
         "bold": true,
@@ -41,7 +40,7 @@ item:
         "strikethrough": false,
         "obfuscated": false,
         "color": "red",
-        "text": "梦"
+        "text": ""
       },
       {
         "bold": true,
@@ -50,7 +49,7 @@ item:
         "strikethrough": false,
         "obfuscated": false,
         "color": "gold",
-        "text": "者"
+        "text": ""
       },
       {
         "bold": true,
@@ -68,7 +67,7 @@ item:
         "strikethrough": false,
         "obfuscated": false,
         "color": "green",
-        "text": "万"
+        "text": "Genesis"
       },
       {
         "bold": true,
@@ -77,7 +76,7 @@ item:
         "strikethrough": false,
         "obfuscated": false,
         "color": "aqua",
-        "text": "物"
+        "text": ""
       },
       {
         "bold": true,
@@ -86,7 +85,7 @@ item:
         "strikethrough": false,
         "obfuscated": false,
         "color": "blue",
-        "text": "生"
+        "text": ""
       },
       {
         "bold": false,
@@ -95,45 +94,40 @@ item:
         "strikethrough": false,
         "obfuscated": false,
         "color": "aqua",
-        "text": "的传说逐渐被人遗忘"
+        "text": "is gradually being forgotten."
       }],"text": ""}'
-    - '{"extra": [{
             "bold": false,
             "italic": false,
             "underlined": false,
             "strikethrough": false,
             "obfuscated": false,
             "color": "aqua",
-            "text": "但它依旧静静地等待着下一个有缘人"
+            "text": "Yet it still quietly waits for its next worthy owner."
           }],"text": ""}'
-    - '{"extra": [{
             "bold": false,
             "italic": false,
             "underlined": false,
             "strikethrough": false,
             "obfuscated": false,
             "color": "aqua",
-            "text": "可以钓到粘液科技中近乎所有的物品"
+            "text": "Can fish up nearly any item from Slimefun."
           }],"text": ""}'
-    - '{"extra": [{
             "bold": false,
             "italic": false,
             "underlined": false,
             "strikethrough": false,
             "obfuscated": false,
             "color": "aqua",
-            "text": "也可能会钓到违禁品哦"
+            "text": "It may even pull up forbidden items."
           }],"text": ""}'
-    - '{"extra": [{
             "bold": false,
             "italic": false,
             "underlined": false,
             "strikethrough": false,
             "obfuscated": false,
             "color": "aqua",
-            "text": "需要配合鱼杆专属鱼饵才可正常使用"
+            "text": "Requires its dedicated fishing bait to function."
           }],"text": ""}'
-    - '{"extra": [{
             "bold": false,
             "italic": false,
             "underlined": false,
@@ -142,34 +136,31 @@ item:
             "color": "aqua",
             "text": ""
           }],"text": ""}'
-    - '{"extra": [{
         "bold": false,
         "italic": false,
         "underlined": false,
         "strikethrough": false,
         "obfuscated": false,
         "color": "yellow",
-        "text": "粘液宝藏 X"
+        "text": "Slimefun Treasure X"
       }],"text": ""}'
-    - '{"extra": [{
         "bold": false,
         "italic": false,
         "underlined": false,
         "strikethrough": false,
         "obfuscated": false,
         "color": "green",
-        "text": "魔法鱼线 X"
+        "text": "Magic Fishing Line X"
       }],"text": ""}'
-    - '{"extra": [{
         "bold": false,
         "italic": false,
         "underlined": false,
         "strikethrough": false,
         "obfuscated": false,
         "color": "gold",
-        "text": "更牢固的鱼杆 X"
+        "text": "Reinforced Fishing Rod X"
       }],"text": ""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"灵魂绑定"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Soulbound"}],"text":""}'
     enchants:
       LUCK: 10
       LURE: 10

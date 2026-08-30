@@ -3210,7 +3210,6 @@ MAGIC_KAOGU_SAND_1:
     lore: 
       - "&a"
       - "&7Magic Kaogu Sand 1"
-      - "&7Magic Kaogu Sand 1"
       - "&a"
       - "&7lMagic-l"
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -3236,7 +3235,6 @@ MAGIC_KAOGU_GRAVEL_1:
     material: SUSPICIOUS_GRAVEL
     lore: 
       - "&a"
-      - "&7Magic Kaogu Gravel 1"
       - "&7Magic Kaogu Gravel 1"
       - "&a"
       - "&7lMagic-l"
@@ -3266,8 +3264,6 @@ MAGIC_BLACK_ROLE:
     lore: 
       - "&a"
       - "&7Magic Black Role"
-      - "&7Magic Black Role"
-      - "&7Magic Black Role"
       - "&8⇨&e ⚡ &74,294,967,294 J/s" 
       - "&a"
       - "&7Experimental machine"
@@ -3286,14 +3282,7 @@ MAGIC_PLAYER_ATTACT:
     lore: 
       - "&a"
       - "&7Magic Player Attact"
-      - "&7Magic Player Attact"
-      - "&7Magic Player Attact"
-      - "&7Magic Player Attact"
-      - "&7Magic Player Attact"
-      - "&7Magic Player Attact"
-      - "&7Magic Player Attact"
       - "&7: magicsolo"
-      - "&7Magic Player Attact"
       - "&7⇨ ⚡ 10280 J capacity"
       - "&7⇨ ⚡ : 7.5s {Uses real-time scheduling}"
       - "&7⇨ ⚡ 4096 J"
@@ -3353,17 +3342,10 @@ MAGIC_POWER_MIX_1:
     lore: 
       - "&a"
       - "&7Magic Power Mix 1"
-      - "&7Magic Power Mix 1"
       - "&7: 、、、 tier、 tier、、、(8)"
-      - "&7Magic Power Mix 1"
       - '{#FDB7D4}+----------------------------------------+'
-      - '&7Magic Power Mix 1'
       - '&7| (Magic) |'
-      - '{#FDB7D4}+----------------------------------------+'
       - '&7| Magic |'
-      - '&7Magic Power Mix 1'
-      - '{#FDB7D4}+----------------------------------------+'
-      - '&7Magic Power Mix 1'
       - '&7, Magic.'
       - '&7Magic(), .'
       - "&7⇨ ⚡ 1008888888 J capacity"
@@ -3427,7 +3409,6 @@ MAGIC_PLANT_1:
     lore: 
       - "&a"
       - "&7Magic Plant 1"
-      - "&7Magic Plant 1"
       - "&7⇨ ⚡ 10280 J capacity"
       - "&7⇨ ⚡ : 15s {Uses real-time scheduling}"
       - "&7⇨ ⚡ 4096 J ()"
@@ -3489,21 +3470,9 @@ MAGIC_FLOWER_MIX_1:
       - "&a"
       - "&7\"Magic\""
       - "&7Magic Flower Mix 1"
-      - "&7Magic Flower Mix 1"
-      - "&7Magic Flower Mix 1"
       - "&7⇨ ⚡ 520 J capacity"
       - "&8⇨ &e⚡{#FDB7D4} 10   J/s "
-      - "&7Magic Flower Mix 1"
       - "{#FDB7D4}"
-      - "{#FDB7D4}+----------------------------------+-----------------------------------+----------------------------------+"
-      - "&7Magic Flower Mix 1"
-      - "&7Magic Flower Mix 1"
-      - "{#FDB7D4}+----------------------------------+-----------------------------------+----------------------------------+"
-      - "&7Magic Flower Mix 1"
-      - "&7Magic Flower Mix 1"
-      - "{#FDB7D4}+----------------------------------+-----------------------------------+----------------------------------+"
-      - "&7Magic Flower Mix 1"
-      - "&7Magic Flower Mix 1"
       - "{#FDB7D4}+----------------------------------+-----------------------------------+----------------------------------+"
       - "{#FDB7D4}"
       - "&a"
@@ -3530,14 +3499,10 @@ MAGIC_GEOMINER:
       - "&a"
       - "&71.21+Magic"
       - "&7Magic Geominer"
-      - "&7Magic Geominer"
       - "&7Magic"
-      - "&7Magic"
-      - "&7Magic Geominer"
       - "&7⇨ ⚡ 5200 J capacity"
       - "&8⇨ &e⚡{#FDB7D4} 1314   J/s "
       - "&7\"Magic\""
-      - "&7Magic Geominer"
       - "&a"
       - "&7Magic-Power and Energy"
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -3592,26 +3557,15 @@ MAGIC_INFINITY_MIX_1:
       - "&a"
       - "&7Magic Infinity Mix 1"
       - "&7Magic"
-      - "&7Magic Infinity Mix 1"
-      - "&7Magic Infinity Mix 1"
-      - "&7Magic Infinity Mix 1"
-      - "&7Magic Infinity Mix 1"
       - "&7Magic: 384/s === 1:1 3200J/Per"
       - "&7Magic: 384/s === 1:1 28800J/Per"
-      - "&7Magic: 384/s === 1:1 28800J/Per"
       - '{#FDB7D4}+----------------------------------------+'
-      - '&7Magic Infinity Mix 1'
       - '&7| (Magic) |'
-      - '{#FDB7D4}+----------------------------------------+'
       - '&7| Magic |'
-      - '&7Magic Infinity Mix 1'
-      - '{#FDB7D4}+----------------------------------------+'
-      - '&7Magic Infinity Mix 1'
       - '&7, Magic.'
       - '&7Magic(), .'
       - "&7⇨ ⚡ 2147483647 J capacity"
       - "&8⇨ &e⚡{#FDB7D4} ？？？ J/s "
-      - "&7Magic Infinity Mix 1"
       - "&a"
       - "&7Magic-Power and Energy"
     glow: true

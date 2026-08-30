@@ -11,11 +11,8 @@ magic_armor_new1:
     lore: 
       - "&a" 
       - "&7Magic Armor New1"
-      - "&7Magic Armor New1"
       - "&7Magic"
-      - "&7Magic Armor New1"
       - "&a" 
-      - "&7Magic"
     glow: true
     recipe_type: ARMOR_FORGE
     recipe:
@@ -41,10 +38,8 @@ magic_armor_new1:
     lore: 
       - "&a" 
       - "&7Magic Armor New1"
-      - "&7Magic Armor New1"
       - "&7Magic"
       - "&a" 
-      - "&7Magic"
     glow: true
     recipe_type: ARMOR_FORGE
     recipe:
@@ -74,10 +69,8 @@ magic_armor_new1:
     lore: 
       - "&a" 
       - "&7Magic Armor New1"
-      - "&7Magic Armor New1"
       - "&7Magic"
       - "&a" 
-      - "&7Magic"
     glow: true
     recipe_type: ARMOR_FORGE
     recipe:
@@ -105,11 +98,8 @@ magic_armor_new1:
     lore: 
       - "&a" 
       - "&7Magic Armor New1"
-      - "&7Magic Armor New1"
       - "&7Magic"
-      - "&7Magic Armor New1"
       - "&a" 
-      - "&7Magic"
     glow: true
     recipe_type: ARMOR_FORGE
     recipe:

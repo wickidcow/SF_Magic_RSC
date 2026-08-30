@@ -5,6 +5,6 @@ item:
   meta:
     ==: ItemMeta
     meta-type: TILE_ENTITY
-    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"腐竹的爱","italic":false},{"text":"-","color":"gray","italic":false},{"text":"IV","color":"yellow","italic":false}],"text":""}'
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Owner's Love","italic":false},{"text":"-","color":"gray","italic":false},{"text":"IV","color":"yellow","italic":false}],"text":""}'
     internal: H4sIAAAAAAAA/8XOsS8EQRTH8bd2L9Yk6OinpqTY0kVxjYZent25ycTsDDNvw0Z0JBLEVQq57nQSQeXi3zm392fYiHNXuFr5fsX7fBkAg6UtbdPDbUOKyj2UC9Bokcg9A4AwgGhXW1oMoNG0haGAQUgoGcxnyh9pLGOIdjAXsHHGSZwST/ioczO8fxn0r0e9R77GU6utq2c8LrA+FaFWKU/aqL04B4hhTmWwmisjUodtSpSzZl8LKZWRHn78aOyHs/xk4l92qqd+9XDxeder3p6nEkqhtT2ZGbE8iThwArMxvvIveAysWXiy+bew+SsMu7eD949aqK5e11tTgBPZH9+/AC8MKBHiAQAA
     blockMaterial: CHEST

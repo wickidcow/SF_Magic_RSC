@@ -9,8 +9,6 @@ MAGIC_CARGO_STORAGE_MAKER:
       - "&7tierMagic"
       - "&7Magic"
       - "&7Magic Cargo Storage Maker"
-      - "&7Magic"
-      - "&7Magic Cargo Storage Maker"
       - "&a"
       - "&8⇨&e ⚡ &710000  J/per"
       - "&7⇨ ⚡ 100000 J capacity"
@@ -1453,9 +1451,6 @@ MAGIC_FISHING_HOUSE:
       - "&a"
       - "&7Materials"
       - "&7Magic Fishing House"
-      - "&7Magic Fishing House"
-      - "&7Magic Fishing House"
-      - "&7Magic Fishing House"
       - "&a"
       - "&8⇨&e ⚡ &710000  J/per"
       - "&7⇨ ⚡ 100000 J capacity"
@@ -2501,7 +2496,6 @@ MAGIC_SUPREME_WORKBENCH:
     material: REDSTONE_LAMP
     lore:
       - "&a"
-      - "&7Magic Supreme Workbench"
       - "&7Magic Supreme Workbench"
       - "&7bug"
       - "&a"

@@ -7,12 +7,9 @@ RSC_EXAMPLE_SOLAR_GENERATOR:
       - ""
       - "&7Magic Rsc Example Solar Generator"
       - ""
-      - "&7Magic Rsc Example Solar Generator"
       - "&7⇨ ⚡ 1000 J capacity"
       - "&8⇨&e ⚡ &750 J/tick"
-      - "&7Magic Rsc Example Solar Generator"
       - "&8⇨&e ⚡ &710 J/tick"
-      - "&7Magic Rsc Example Solar Generator"
       - "&a"
       - "&7lMagic-l"
   capacity: 1000
@@ -30,12 +27,9 @@ MAGIC_NEWPLAYER_SOLAR_GENERATOR:
       - ""
       - "&7Magic New Player Solar Generator"
       - ""
-      - "&7Magic New Player Solar Generator"
       - "&7⇨ ⚡ 1000 J capacity"
       - "&8⇨&e ⚡ &750 J/tick"
-      - "&7Magic New Player Solar Generator"
       - "&8⇨&e ⚡ &710 J/tick"
-      - "&7Magic New Player Solar Generator"
       - "&a"
       - "&7lMagic-l"
   capacity: 1000
@@ -106,7 +100,6 @@ MAGIC_INFINITE_PANEL:
     material: LIGHT_BLUE_GLAZED_TERRACOTTA
     lore:
       - "&a"
-      - "&7Magic Infinite Panel"
       - "&7Magic Infinite Panel"
       - "&7⇨ ⚡ 1,000,000 J capacity"
       - "&8⇨&e ⚡ &7600,000 J/s"

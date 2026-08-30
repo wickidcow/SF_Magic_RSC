@@ -5,10 +5,10 @@ item:
   meta:
     ==: ItemMeta
     meta-type: UNSPECIFIC
-    display-name: '{"text":"萌新法师匕首","color":"light_purple","italic":false}'
+    display-name: '{"text":"Novice Mage Dagger","color":"light_purple","italic":false}'
     lore:
-    - '{"text":"这是一把专为萌新法师打造的匕首，拥有神秘的力量。","color":"aqua","italic":false}'
-    - '{"text":"它能帮助你在冒险旅程中更加自信和强大。","color":"aqua","italic":false}'
+    - '{"text":"A dagger made for novice mages, imbued with mysterious power.","color":"aqua","italic":false}'
+    - '{"text":"It helps new adventurers grow stronger and more confident.","color":"aqua","italic":false}'
     enchants:
       FIRE_ASPECT: 2
       KNOCKBACK: 2

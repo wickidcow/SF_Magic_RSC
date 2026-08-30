@@ -6,9 +6,7 @@ MAGIC_GEC_MOB_TYPE:
       - "&a"
       - "&7Magic GEC Mob Type"
       - "&7Magic!"
-      - "&7Magic GEC Mob Type"
       - "&a"
-      - "&7Magic GEC Mob Type"
 
 MAGIC_BEEHIVE_MOB:
     name: "&dMagic Beehive Mob"
@@ -18,9 +16,7 @@ MAGIC_BEEHIVE_MOB:
       - "&a"
       - "&7Magic Beehive Mob"
       - "&7MagicBeehive!"
-      - "&7Magic Beehive Mob"
       - "&a"
-      - "&7Magic Beehive Mob"
 
 MAGIC_ENERGY_PRESS: 
     name: "&dMagic Energy Press"
@@ -36,9 +32,7 @@ MAGIC_GENSHIN_IMPACT_MACHINES:
     lore:
     - "&a"
     - "Magic Genshin Impact Machines"
-    - "Magic Genshin Impact Machines"
     - "&a" 
-    - "Magic Genshin Impact Machines"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2ZiYjQ1ZjRlYTFlNTRmODhlN2UwMDg1OWU4ZWM5YTU5ODI4MjNkODg4YjZlMWY2YWUxZDY5YTQxNGZmZjcwZiJ9fX0=
 
@@ -46,8 +40,6 @@ MAGIC_WAR_MACHINES_NUMERATOR:
     name: "&dMagic War Machines Numerator"
     lore:
     - "&a"
-    - "Magic War Machines Numerator"
-    - "Magic War Machines Numerator"
     - "Magic War Machines Numerator"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDQ5YmM3MGM4ZmQyYzJlYzI3NzA1Y2Y4NTBlMmI0ODkyMzllYTc5NjI0NWQ0NzI3ZjBkNzc0YTFmZWI2Y2ZhZSJ9fX0=
@@ -58,8 +50,6 @@ MAGIC_AUTHOR_MACHINE:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjU4NTBjYjhkNWYzMDg5Mzk5YWVhYzgxOTFmZWY5NmFkYmRlMWRiNWVjYjgyYmNmZTc0YzEzMjg2MmRkZTczZiJ9fX0=
     lore:
       - "&a"
-      - "&7Magic Credits Machine"
-      - "&7Magic Credits Machine"
       - "&7Magic Credits Machine"
       - "&a"
       - "&7Magic"
@@ -94,7 +84,6 @@ MAGIC_NONE:
   lore:
     - "&a" 
     - "&7Magic None"
-    - "&7Magic None"
     - "&a"
 
 MAGIC_SPECIAL: 
@@ -114,7 +103,6 @@ MAGIC_INFINITY_ARMOR_MACHINE:
   lore:
     - "&a" 
     - "&7Magic Infinity Armor Machine"
-    - "&7Magic Infinity Armor Machine"
     - "&a"
 
 MAGIC_STORAGE_UPGRADE_TABLE:
@@ -127,8 +115,6 @@ MAGIC_STORAGE_UPGRADE_TABLE:
       - "&7Magic"
       - "&7Magic Storage Upgrade Table"
       - "&a"
-      - "&7Magic Storage Upgrade Table"
-      - "&7Magic Storage Upgrade Table"
 
 MAGIC_ORIGIN_COBBLESTONE_GEN_BASIC:
   name: "&dMagic Origin Cobblestone Gen Basic"
@@ -177,14 +163,12 @@ MAGIC_GRINDING_STONE:
     - "&a"
     - "&7Magic Grinding Stone"
     - "&a"
-    - "&7Magic Grinding Stone"
 
 MAGIC_CATCH:
   name: "&dMagic Catch"
   material: COBWEB
   glow: true
   lore: 
-    - "&7Magic Catch"
     - "&7Magic Catch"
 
 
@@ -194,7 +178,6 @@ MAGIC_MACHINE_TYPE:
   glow: true
   lore: 
     - "&7Magic Machine Type"
-    - "&7Magic Machine Type"
 
 MAGIC_GEOMINER:
   name: "&dMagic Geominer"
@@ -203,8 +186,6 @@ MAGIC_GEOMINER:
   lore: 
       - "&a"
       - "&7Magic"
-      - "&7Magic"
-      - "&7Magic Geominer"
       - "&7Magic Geominer"
       - "&a"
       - "&7Magic-Power and Energy"
@@ -216,7 +197,6 @@ MAGIC_SUPREME_WORKBENCH:
   material: REDSTONE_LAMP
   lore:
     - "&a"
-    - "&7Magic Supreme Workbench"
     - "&7Magic Supreme Workbench"
     - "&7bug"
     - "&a"

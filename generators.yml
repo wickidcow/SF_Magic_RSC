@@ -5,7 +5,6 @@ MAGIC_GENERATORS_QUARTZ:
     lore: 
       - ""
       - "&7Magic Generators Quartz"
-      - "&7Magic Generators Quartz"
       - ""
       - "&7⇨ ⚡ 500 J capacity"
       - "&8⇨&e ⚡ &725 J/tick"
@@ -59,7 +58,6 @@ MAGIC_GENERATORS_MAGMA_BLOCK:
     lore: 
       - ""
       - "&7Magic Generators Magma Block"
-      - "&7Magic Generators Magma Block"
       - ""
       - "&7⇨ ⚡ 500 J capacity"
       - "&8⇨&e ⚡ &725 J/tick"
@@ -112,7 +110,6 @@ MAGIC_INFINITY_REACTOR:
     name: "&dMagic Infinity Reactor"
     lore: 
       - "&a"
-      - "&7Magic Infinity Reactor"
       - "&7Magic Infinity Reactor"
       - "&7⇨ ⚡ 600,000,000 J capacity"
       - "&8⇨&e ⚡ &71,200,000 J/s"
@@ -228,7 +225,6 @@ MAGIC_GENERATORS_WOOD:
     lore: 
       - ""
       - "&7tier"
-      - "&7Magic Generators Wood"
       - "&7Magic Generators Wood"
       - ""
       - "&7⇨ ⚡ 10000 J capacity"
