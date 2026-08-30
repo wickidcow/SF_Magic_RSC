@@ -70,6 +70,7 @@ jobs:
           fi
 
           python tools/apply_runtime_fixes.py "$root"
+          python tools/clean_magic_text_quality.py "$root"
 
           archive="Magic-${version}.zip"
           (cd dist && zip -9 -r "../$archive" Magic >/dev/null)
@@ -166,24 +167,30 @@ jobs:
 
           mkdir -p "$runtime/scripts"
           cp scripts/audit_magic.py "$runtime/scripts/_release_audit.py"
+          cp scripts/audit_magic_quality.py "$runtime/scripts/_release_quality_audit.py"
           python "$runtime/scripts/_release_audit.py"
-          python - "$runtime/audit/magic-audit.json" <<'PY'
+          python "$runtime/scripts/_release_quality_audit.py"
+          python - "$runtime/audit/magic-audit.json" "$runtime/audit/magic-quality.json" <<'PY'
           import json
           import sys
           from pathlib import Path
 
-          report = json.loads(Path(sys.argv[1]).read_text(encoding='utf-8'))
+          compatibility = json.loads(Path(sys.argv[1]).read_text(encoding='utf-8'))
+          quality = json.loads(Path(sys.argv[2]).read_text(encoding='utf-8'))
           checks = {
-              'player-facing Chinese lines': report['player_facing_chinese_line_count'],
-              'duplicate visible lore lines': report['duplicate_lore_line_count'],
-              'IE2 migration candidates': len(report['ie2_candidates']),
+              'player-facing Chinese lines': compatibility['player_facing_chinese_line_count'],
+              'duplicate visible lore lines': compatibility['duplicate_lore_line_count'],
+              'IE2 migration candidates': len(compatibility['ie2_candidates']),
+              'lore repeating display names': quality['redundant_name_lore_count'],
+              'placeholder/malformed lore': quality['placeholder_lore_count'],
+              'awkward display names': quality['awkward_name_count'],
           }
           failed = {name: value for name, value in checks.items() if value}
           if failed:
               for name, value in failed.items():
                   print(f'{name}: {value}')
               raise SystemExit('Magic release failed content quality gates')
-          print('Verified English player-facing content, unique lore, and IE2 normalization')
+          print('Verified English player-facing content, clean lore, display names, and IE2 normalization')
           PY
 
       - name: Create or update GitHub release
@@ -205,6 +212,8 @@ jobs:
           - Slimefun Legacy compatibility target
           - Player-facing Magic names and lore translated to English, including serialized saved items
           - Duplicate visible lore removed and verified before release
+          - Redundant title-as-lore lines, placeholder tier text, and malformed Magic formatting cleaned
+          - Player-facing display-name quality checks enforced on every release
           - InfinityExpansion2-native item IDs and recipe references
           - Current DynaTech IDs for Bee, Vex Gem, and Growth Chamber MK2 integrations
           - Current GeneticChickengineering tier-3 excitation chamber integration
