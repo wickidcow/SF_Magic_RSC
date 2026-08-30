@@ -2,8 +2,9 @@
 """Remove repeated visible lore lines from Magic RSC YAML.
 
 This is intentionally run after translation/text normalization so two formerly
--different source strings cannot normalize into duplicate player-visible lore.
-Blank/color-only separator lines are preserved.
+different source strings cannot normalize into duplicate player-visible lore.
+Blank/color-only separator lines are preserved. The release text-quality cleaner
+uses this as its final pass so normalization can never reintroduce duplicate lore.
 """
 from __future__ import annotations
 
