@@ -7,160 +7,17 @@ item:
     meta-type: UNSPECIFIC
     display-name: '{"text":"Dreamweaver - Genesis","color":"light_purple","italic":false}'
     lore:
-    - '{"extra": [{
-        "bold": false,
-        "italic": false,
-        "underlined": false,
-        "strikethrough": false,
-        "obfuscated": false,
-        "color": "aqua",
-        "text": "As time passes,"
-      }],"text": ""}'
-        "bold": false,
-        "italic": false,
-        "underlined": false,
-        "strikethrough": false,
-        "obfuscated": false,
-        "color": "aqua",
-        "text": "the legend of"
-      },
-      {
-        "bold": true,
-        "italic": false,
-        "underlined": false,
-        "strikethrough": false,
-        "obfuscated": false,
-        "color": "dark_red",
-        "text": "Dreamweaver"
-      },
-      {
-        "bold": true,
-        "italic": false,
-        "underlined": false,
-        "strikethrough": false,
-        "obfuscated": false,
-        "color": "red",
-        "text": ""
-      },
-      {
-        "bold": true,
-        "italic": false,
-        "underlined": false,
-        "strikethrough": false,
-        "obfuscated": false,
-        "color": "gold",
-        "text": ""
-      },
-      {
-        "bold": true,
-        "italic": false,
-        "underlined": false,
-        "strikethrough": false,
-        "obfuscated": false,
-        "color": "yellow",
-        "text": "-"
-      },
-      {
-        "bold": true,
-        "italic": false,
-        "underlined": false,
-        "strikethrough": false,
-        "obfuscated": false,
-        "color": "green",
-        "text": "Genesis"
-      },
-      {
-        "bold": true,
-        "italic": false,
-        "underlined": false,
-        "strikethrough": false,
-        "obfuscated": false,
-        "color": "aqua",
-        "text": ""
-      },
-      {
-        "bold": true,
-        "italic": false,
-        "underlined": false,
-        "strikethrough": false,
-        "obfuscated": false,
-        "color": "blue",
-        "text": ""
-      },
-      {
-        "bold": false,
-        "italic": false,
-        "underlined": false,
-        "strikethrough": false,
-        "obfuscated": false,
-        "color": "aqua",
-        "text": "is gradually being forgotten."
-      }],"text": ""}'
-            "bold": false,
-            "italic": false,
-            "underlined": false,
-            "strikethrough": false,
-            "obfuscated": false,
-            "color": "aqua",
-            "text": "Yet it still quietly waits for its next worthy owner."
-          }],"text": ""}'
-            "bold": false,
-            "italic": false,
-            "underlined": false,
-            "strikethrough": false,
-            "obfuscated": false,
-            "color": "aqua",
-            "text": "Can fish up nearly any item from Slimefun."
-          }],"text": ""}'
-            "bold": false,
-            "italic": false,
-            "underlined": false,
-            "strikethrough": false,
-            "obfuscated": false,
-            "color": "aqua",
-            "text": "It may even pull up forbidden items."
-          }],"text": ""}'
-            "bold": false,
-            "italic": false,
-            "underlined": false,
-            "strikethrough": false,
-            "obfuscated": false,
-            "color": "aqua",
-            "text": "Requires its dedicated fishing bait to function."
-          }],"text": ""}'
-            "bold": false,
-            "italic": false,
-            "underlined": false,
-            "strikethrough": false,
-            "obfuscated": false,
-            "color": "aqua",
-            "text": ""
-          }],"text": ""}'
-        "bold": false,
-        "italic": false,
-        "underlined": false,
-        "strikethrough": false,
-        "obfuscated": false,
-        "color": "yellow",
-        "text": "Slimefun Treasure X"
-      }],"text": ""}'
-        "bold": false,
-        "italic": false,
-        "underlined": false,
-        "strikethrough": false,
-        "obfuscated": false,
-        "color": "green",
-        "text": "Magic Fishing Line X"
-      }],"text": ""}'
-        "bold": false,
-        "italic": false,
-        "underlined": false,
-        "strikethrough": false,
-        "obfuscated": false,
-        "color": "gold",
-        "text": "Reinforced Fishing Rod X"
-      }],"text": ""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Soulbound"}],"text":""}'
+    - '{"text":"As time passes,","color":"aqua","italic":false}'
+    - '{"extra":[{"text":"the legend of ","color":"aqua","italic":false},{"text":"Dreamweaver","color":"dark_red","bold":true,"italic":false},{"text":" - ","color":"yellow","bold":true,"italic":false},{"text":"Genesis","color":"green","bold":true,"italic":false},{"text":" is gradually being forgotten.","color":"aqua","italic":false}],"text":""}'
+    - '{"text":"Yet it still quietly waits for its next worthy owner.","color":"aqua","italic":false}'
+    - '{"text":"Can fish up nearly any item from Slimefun.","color":"aqua","italic":false}'
+    - '{"text":"It may even pull up forbidden items.","color":"aqua","italic":false}'
+    - '{"text":"Requires its dedicated fishing bait to function.","color":"aqua","italic":false}'
+    - '{"text":"","color":"aqua","italic":false}'
+    - '{"text":"Slimefun Treasure X","color":"yellow","italic":false}'
+    - '{"text":"Magic Fishing Line X","color":"green","italic":false}'
+    - '{"text":"Reinforced Fishing Rod X","color":"gold","italic":false}'
+    - '{"text":"Soulbound","color":"aqua","italic":false}'
     enchants:
       LUCK: 10
       LURE: 10
