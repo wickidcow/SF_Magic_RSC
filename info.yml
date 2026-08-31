@@ -8,7 +8,7 @@ pluginDepends:
 - Supreme
 - FoxyMachines
 scriptListener: 服务器
-version: Legacy-1.1.19
+version: Legacy-1.1.20
 description: Magic Legacy compatibility pack for the maintained Slimefun Legacy ecosystem.
 authors:
 - magicsolo
@@ -18,7 +18,7 @@ loadStartTexts:
 - "==================="
 - " Magic Legacy is loading"
 - " Original author: magicsolo"
-- " Legacy version: 1.1.19"
+- " Legacy version: 1.1.20"
 - "==================="
 enabledTexts:
 - "==================="
