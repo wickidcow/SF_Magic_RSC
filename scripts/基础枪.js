@@ -57,7 +57,7 @@ function onUse(event) {
     }
 
     const entity = result.getHitEntity();
-    if (entity != null && LivingEntity.class.isInstance(entity) && entity !== player) {
+    if (entity != null && entity instanceof LivingEntity && entity !== player) {
         entity.damage(DAMAGE, player);
     }
 }
