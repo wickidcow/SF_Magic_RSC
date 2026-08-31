@@ -5,6 +5,6 @@ item:
   meta:
     ==: ItemMeta
     meta-type: TILE_ENTITY
-    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Owner's Love","italic":false},{"text":"-","color":"gray","italic":false},{"text":"II","color":"yellow","italic":false}],"text":""}'
+    display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Owner''s Love","italic":false},{"text":"-","color":"gray","italic":false},{"text":"II","color":"yellow","italic":false}],"text":""}'
     internal: H4sIAAAAAAAA/+NiYOBi4HPKyU/Ods0rySypDElM52Rg9SxJzS3mYmBgYGZkYAnOyS/h5WBgykxhEM3NzEtNLkpMK7HKLMrPi89IzclNLWFkYHXOL80rYeRiYC5JTOdiYE/JLC7ISazkYGDxS8xNZTCtVipJrShRslJ6MaHn2bQNT3Z2P92xV0lHKTk/J78IKJxYWJoI5GaWJOZkJitZpSXmFKfWAq2H2s4CsZ0fYXtSUWpiCsxeZlz2WiHsbZ3wfPXO57NanvYvfr5pHZLVlak5OfnleCwXGxDLORi4nEuLS/JzwWaZwc16Nqf3yY7dQLOed2zU9UQyqig1BYs5AKk8GR3gAQAA
     blockMaterial: CHEST
