@@ -24,6 +24,7 @@ jobs:
 
       - name: Audit Magic pack
         run: |
+          python scripts/validate_saveditems_yaml.py
           python scripts/audit_magic.py
           python scripts/audit_magic_quality.py
           python tools/verify_polyglot_runtime_fix.py
