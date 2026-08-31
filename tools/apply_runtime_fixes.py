@@ -14,6 +14,7 @@ LIST = re.compile(r"^(\s*)-\s*(.*?)\s*$")
 NAME = re.compile(r"^\s*(?:name|display-name):\s*(.+?)\s*$")
 LEGACY_COLOR = re.compile(r"(?i)(?:§|&)[0-9A-FK-ORX]")
 HEX_COLOR = re.compile(r"(?i)(?:&#[0-9A-F]{6}|\{#[0-9A-F]{6}\})")
+RECIPE_ENTRY = re.compile(r"^    (?:'[^']+'|\"[^\"]+\"|[A-Za-z0-9_.-]+):\s*(?:#.*)?$")
 
 OLD_IE1_WORKBENCH = "io.github.mooy1.infinityexpansion.items.blocks.InfinityWorkbench"
 IE2_WORKBENCH = "net.guizhanss.infinityexpansion2.implementation.items.machines.InfinityWorkbench"
@@ -26,8 +27,9 @@ ITEM_ID_REPLACEMENTS = {
     "BEE | DT_BEE": "DYNATECH_BEE",
     "DT_BEE | BEE": "DYNATECH_BEE",
     "DT_BEE": "DYNATECH_BEE",
-    "GROWTH_CHAMBER_MK2 | DYNATECH_GROWTH_CHAMBER_MARK_2 | DT_GROWTH_CHAMBER_MK2 | MAGIC_GROWTH_CHAMBER_MK2": "DYNATECH_GROWTH_CHAMBER_MK2",
-    "GROWTH_CHAMBER_MK2": "DYNATECH_GROWTH_CHAMBER_MK2",
+    "GROWTH_CHAMBER_MK2 | DYNATECH_GROWTH_CHAMBER_MARK_2 | DT_GROWTH_CHAMBER_MK2 | MAGIC_GROWTH_CHAMBER_MK2": "DYNATECH_GROWTH_CHAMBER_MARK_2",
+    "DYNATECH_GROWTH_CHAMBER_MK2": "DYNATECH_GROWTH_CHAMBER_MARK_2",
+    "GROWTH_CHAMBER_MK2": "DYNATECH_GROWTH_CHAMBER_MARK_2",
     "GCE_EXCITATION_CHAMBER_10 | GCE_EXCITATION_CHAMBER_3": "GCE_EXCITATION_CHAMBER_3",
 }
 
@@ -57,10 +59,10 @@ PLAYER_TEXT = {
     "生命恢复": "Regeneration",
     "生命提升": "Health Boost",
     "火焰抗性": "Fire Resistance",
-    "海豚的恩惠": "Dolphin's Grace",
+    "海豚的恩惠": "Dolphin’s Grace",
     "抗辐射": "Radiation Resistance",
     "灵魂绑定": "Soulbound",
-    "腐竹的爱": "Owner's Love",
+    "腐竹的爱": "Owner’s Love",
     "可储存": "Storage: ",
     "也可以直接打开": "Can also be opened directly",
     "电力魔法工厂": "Electric Magic Factory",
@@ -105,7 +107,17 @@ OPTIONAL = {
     "recipe_machines.yml": {
         "MAGIC_ORIGIN_BASIC_INGOT_FORMER": ["FN_FAL_CONDENSER_3"],
         "MAGIC_ORIGIN_PRESS": ["FN_FAL_COMPRESSOR_3"],
+        "MAGIC_ORIGIN_MINERAL_DECOMPRESSOR": ["FN_FAL_COMPRESSOR_3"],
     },
+}
+
+DEAD_MACHINE_RECIPES = {
+    "recipe_machines.yml": {
+        "MAGIC_DATA_CARD_INSERT": {
+            "IE_MOB_DATA_CARD_VEX",
+            "IE_MOB_DATA_CARD_PHANTOM",
+        }
+    }
 }
 
 
@@ -153,7 +165,8 @@ def compatibility(path: Path) -> None:
     updated = replace_material(updated, "POWERED_BEDROCK", "IE_POWERED_BEDROCK")
     for old, new in ITEM_ID_REPLACEMENTS.items():
         updated = replace_material(updated, old, new)
-    updated = updated.replace("&eRelease-1.1.16", "&eLegacy-1.1.17")
+    updated = updated.replace("&eRelease-1.1.16", "&eLegacy-1.1.18")
+    updated = updated.replace("&eLegacy-1.1.17", "&eLegacy-1.1.18")
     if updated != text:
         path.write_text(updated, encoding="utf-8")
 
@@ -243,7 +256,6 @@ def special_saveditem_cleanup(path: Path) -> int:
     if path.name == "YG_1.yml":
         updated, did = replace_display_name_block(updated, "Dreamweaver - Genesis")
         changed += int(did)
-        # This item's stylized name is repeated one character per JSON component in lore.
         for old, new in {
             '"text": "织"': '"text": "Dreamweaver"',
             '"text": "梦"': '"text": ""',
@@ -374,6 +386,60 @@ def gate(path: Path, required: dict[str, list[str]]) -> None:
     path.write_text("".join(out), encoding="utf-8")
 
 
+def drop_unavailable_machine_recipes(path: Path, machine_key: str, unavailable: set[str]) -> int:
+    """Remove legacy machine recipes whose source items do not exist in IE2."""
+    pre, found = blocks(path.read_text(encoding="utf-8").splitlines(keepends=True))
+    if not found:
+        return 0
+
+    seen_machine = False
+    removed = 0
+    out = pre[:]
+    for key, block in found:
+        if key != machine_key:
+            out.extend(block)
+            continue
+
+        seen_machine = True
+        recipes_index = next(
+            (i for i, line in enumerate(block) if re.match(r"^  recipes:\s*(?:#.*)?$", line.rstrip("\r\n"))),
+            None,
+        )
+        if recipes_index is None:
+            raise RuntimeError(f"Missing recipes section for {machine_key} in {path.name}")
+
+        recipes_end = len(block)
+        for i in range(recipes_index + 1, len(block)):
+            stripped = block[i].strip()
+            if stripped and not stripped.startswith("#") and indent(block[i]) <= 2:
+                recipes_end = i
+                break
+
+        body = block[recipes_index + 1 : recipes_end]
+        starts = [i for i, line in enumerate(body) if RECIPE_ENTRY.match(line.rstrip("\r\n"))]
+        if not starts:
+            out.extend(block)
+            continue
+
+        kept_body = body[: starts[0]]
+        for pos, start in enumerate(starts):
+            end = starts[pos + 1] if pos + 1 < len(starts) else len(body)
+            entry = body[start:end]
+            entry_text = "".join(entry)
+            if any(re.search(rf"(?m)^\s*material:\s*{re.escape(item)}\s*(?:#.*)?$", entry_text) for item in unavailable):
+                removed += 1
+                continue
+            kept_body.extend(entry)
+
+        block = block[: recipes_index + 1] + kept_body + block[recipes_end:]
+        out.extend(block)
+
+    if not seen_machine:
+        raise RuntimeError(f"Missing expected Magic machine {machine_key} in {path.name}")
+    path.write_text("".join(out), encoding="utf-8")
+    return removed
+
+
 def main() -> int:
     if len(sys.argv) != 2:
         raise SystemExit("Usage: apply_runtime_fixes.py <staged Magic folder>")
@@ -396,7 +462,6 @@ def main() -> int:
             translated += localize(path)
             removed += dedupe_lore(path)
 
-    # A second pass must be a no-op. If it is not, fail the release rather than ship duplicate lore.
     verification_removed = 0
     for path in sorted(root.rglob("*")):
         if path.is_file() and path.suffix.lower() in {".yml", ".yaml"}:
@@ -404,13 +469,25 @@ def main() -> int:
     if verification_removed:
         raise RuntimeError(f"Duplicate lore verification removed {verification_removed} additional line(s)")
 
+    removed_recipes = 0
+    for filename, machines in DEAD_MACHINE_RECIPES.items():
+        path = root / filename
+        if not path.is_file():
+            raise RuntimeError(f"Missing expected Magic runtime file: {filename}")
+        for machine_key, unavailable in machines.items():
+            removed_recipes += drop_unavailable_machine_recipes(path, machine_key, unavailable)
+
     for filename, required in OPTIONAL.items():
         path = root / filename
         if not path.is_file():
             raise RuntimeError(f"Missing expected Magic runtime file: {filename}")
         gate(path, required)
 
-    print(f"Applied Magic Legacy runtime fixes ({translated} player-facing line(s) translated, {removed} duplicate lore line(s) removed)")
+    print(
+        "Applied Magic Legacy runtime fixes "
+        f"({translated} player-facing line(s) translated, {removed} duplicate lore line(s) removed, "
+        f"{removed_recipes} obsolete IE1-era recipe(s) removed)"
+    )
     return 0
 
 
