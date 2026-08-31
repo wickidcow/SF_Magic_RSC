@@ -17,6 +17,8 @@ from pathlib import Path
 from dedupe_magic_lore import LIST_RE, LORE_RE, clean_file as dedupe_lore_file, indentation, visible
 
 NAME_RE = re.compile(r"^(\s*)(?:name|display-name):\s*(.+?)\s*$")
+VERSION_RE = re.compile(r"(?m)^version:\s*Legacy-([0-9]+(?:\.[0-9]+)*)\s*$")
+LEGACY_STAMP_RE = re.compile(r"(?:Legacy|Release)-1\.1\.(?:16|17|18)")
 
 TEXT_REPLACEMENTS = {
     "&7lMagicl": "&8Magic Legacy",
@@ -49,6 +51,33 @@ def is_maintenance_path(root: Path, path: Path) -> bool:
     except ValueError:
         return False
     return any(part in {".git", "audit", "dist"} for part in relative.parts[:-1])
+
+
+def stamp_runtime_version(root: Path) -> int:
+    """Keep packaged lore/version badges aligned with info.yml.
+
+    Older upstream/runtime cleanup intentionally preserved a few historical
+    1.1.16-1.1.18 labels. Release packaging should never ship a mixed version,
+    so normalize only those known legacy labels to the current info.yml value.
+    """
+    info = root / "info.yml"
+    if not info.is_file():
+        return 0
+    info_text = info.read_text(encoding="utf-8")
+    match = VERSION_RE.search(info_text)
+    if not match:
+        return 0
+    current = f"Legacy-{match.group(1)}"
+    changes = 0
+    for path in sorted(root.rglob("*.yml")):
+        if is_maintenance_path(root, path):
+            continue
+        text = path.read_text(encoding="utf-8")
+        updated, count = LEGACY_STAMP_RE.subn(current, text)
+        if count:
+            path.write_text(updated, encoding="utf-8")
+            changes += count
+    return changes
 
 
 def active_unsafe_polyglot_lines(text: str) -> list[str]:
@@ -343,6 +372,8 @@ def main() -> int:
     if not root.is_dir():
         raise SystemExit(f"Not a directory: {root}")
 
+    version_stamps = stamp_runtime_version(root)
+
     polyglot_changes = 0
     for path in sorted(root.rglob("*.js")):
         if is_maintenance_path(root, path):
@@ -361,9 +392,9 @@ def main() -> int:
 
     print(
         "Cleaned Magic runtime/text quality "
-        f"({polyglot_changes} Graal host-reflection fix(es), {redundant} redundant title lore, "
-        f"{placeholders} placeholder lore, {replacements} verified text replacements, "
-        f"{duplicates} duplicate lore lines)"
+        f"({polyglot_changes} Graal host-reflection fix(es), {version_stamps} version stamp(s), "
+        f"{redundant} redundant title lore, {placeholders} placeholder lore, "
+        f"{replacements} verified text replacements, {duplicates} duplicate lore lines)"
     )
     return 0
 
