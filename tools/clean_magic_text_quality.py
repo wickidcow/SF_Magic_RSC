@@ -51,6 +51,29 @@ def is_maintenance_path(root: Path, path: Path) -> bool:
     return any(part in {".git", "audit", "dist"} for part in relative.parts[:-1])
 
 
+def active_unsafe_polyglot_lines(text: str) -> list[str]:
+    """Return executable-looking host calls; comments are harmless."""
+    unsafe: list[str] = []
+    for raw in text.splitlines():
+        stripped = raw.strip()
+        if not stripped or stripped.startswith("//"):
+            continue
+        if any(pattern in raw for pattern in UNSAFE_POLYGLOT_PATTERNS):
+            unsafe.append(stripped)
+    return unsafe
+
+
+def apply_replacements(text: str, replacements: tuple[tuple[str, str], ...]) -> tuple[str, int]:
+    changes = 0
+    updated = text
+    for old, new in replacements:
+        count = updated.count(old)
+        if count:
+            updated = updated.replace(old, new)
+            changes += count
+    return updated, changes
+
+
 def fix_polyglot_host_reflection(path: Path) -> int:
     """Keep GraalJS from reflecting over arbitrary addon SlimefunItem classes.
 
@@ -59,61 +82,171 @@ def fix_polyglot_host_reflection(path: Path) -> int:
     example an IE1 StorageUnit type), even a harmless getId() call can throw a
     NoClassDefFoundError before the intended method is invoked.
 
-    The Magic/Infinity integration only needs identity checks for foreign
-    Slimefun items. Compare the returned host object with the known Magic item,
-    and resolve known Magic item stacks/slots instead of invoking members on an
-    arbitrary addon object.
+    Runtime Magic scripts therefore compare returned SlimefunItem host objects
+    to known `getSfItemById(...)` objects, or compare ItemStacks, instead of
+    invoking getId()/getOutputSlots() on arbitrary addon objects.
     """
-    if path.name != POLYGLOT_SCRIPT:
-        return 0
-
     text = path.read_text(encoding="utf-8")
     updated = text
     changes = 0
 
-    replacements = (
-        (
-            "let sfitemid = sfitem.getId()",
-            'let sfitemid = (sfitem === getSfItemById("MAGIC_INFINITY_MIX_BOX_1")) ? "MAGIC_INFINITY_MIX_BOX_1" : null',
-        ),
-        (
-            "let sfitem = StorageCacheUtils.getSfItem(containerLocation);\n        let outslots = sfitem.getOutputSlots();",
-            'let mixBoxItem = getSfItemById("MAGIC_INFINITY_MIX_BOX_1");\n'
-            "        if (mixBoxItem == null) {\n"
-            "            return;\n"
-            "        }\n"
-            "        let outslots = mixBoxItem.getOutputSlots();",
-        ),
-        (
-            "function countTargetItemsInMenu(menu, targetId) {\n"
-            "    let count = 0;\n"
-            "    for (let i = 45; i < 52; i++) {",
-            "function countTargetItemsInMenu(menu, targetId) {\n"
-            "    let count = 0;\n"
-            "    let targetItem = getSfItemById(targetId);\n"
-            "    if (targetItem == null) {\n"
-            "        return 0;\n"
-            "    }\n"
-            "    let targetStack = targetItem.getItem();\n"
-            "    for (let i = 45; i < 52; i++) {",
-        ),
-        (
-            "            let slimefunItem = getSfItemByItem(itemStack);\n"
-            "            if (slimefunItem && slimefunItem.getId() === targetId) {",
-            "            if (isItemSimilar(itemStack, targetStack, true)) {",
-        ),
-    )
+    if path.name == POLYGLOT_SCRIPT:
+        updated, n = apply_replacements(
+            updated,
+            (
+                (
+                    "let sfitemid = sfitem.getId()",
+                    'let sfitemid = (sfitem === getSfItemById("MAGIC_INFINITY_MIX_BOX_1")) ? "MAGIC_INFINITY_MIX_BOX_1" : null',
+                ),
+                (
+                    "let sfitem = StorageCacheUtils.getSfItem(containerLocation);\n        let outslots = sfitem.getOutputSlots();",
+                    'let mixBoxItem = getSfItemById("MAGIC_INFINITY_MIX_BOX_1");\n'
+                    "        if (mixBoxItem == null) {\n"
+                    "            return;\n"
+                    "        }\n"
+                    "        let outslots = mixBoxItem.getOutputSlots();",
+                ),
+                (
+                    "function countTargetItemsInMenu(menu, targetId) {\n"
+                    "    let count = 0;\n"
+                    "    for (let i = 45; i < 52; i++) {",
+                    "function countTargetItemsInMenu(menu, targetId) {\n"
+                    "    let count = 0;\n"
+                    "    let targetItem = getSfItemById(targetId);\n"
+                    "    if (targetItem == null) {\n"
+                    "        return 0;\n"
+                    "    }\n"
+                    "    let targetStack = targetItem.getItem();\n"
+                    "    for (let i = 45; i < 52; i++) {",
+                ),
+                (
+                    "            let slimefunItem = getSfItemByItem(itemStack);\n"
+                    "            if (slimefunItem && slimefunItem.getId() === targetId) {",
+                    "            if (isItemSimilar(itemStack, targetStack, true)) {",
+                ),
+            ),
+        )
+        changes += n
 
-    for old, new in replacements:
-        count = updated.count(old)
-        if count:
-            updated = updated.replace(old, new)
-            changes += count
+    elif path.name == "magic_custom_machine.js":
+        updated, n = apply_replacements(
+            updated,
+            (
+                ("        let sfitemid = sfitem.getId()\n", ""),
+                (
+                    'if (!(sfitemid === "MAGIC_FLOWER_MIX_BOX_1")){',
+                    'if (!(sfitem === getSfItemById("MAGIC_FLOWER_MIX_BOX_1"))){',
+                ),
+                (
+                    'if (!(sfitemid === "MAGIC_GEOMINER_BOX")){',
+                    'if (!(sfitem === getSfItemById("MAGIC_GEOMINER_BOX"))){',
+                ),
+            ),
+        )
+        changes += n
 
-    remaining = [pattern for pattern in UNSAFE_POLYGLOT_PATTERNS if pattern in updated]
+    elif path.name == "魔法矩阵-发电机1.js":
+        updated, n = apply_replacements(
+            updated,
+            (
+                ("    let sfitemid = sfitem.getId()\n", ""),
+                (
+                    'if (!(sfitemid === "MAGIC_POWER_MIX_BOX_1")){',
+                    'if (!(sfitem === getSfItemById("MAGIC_POWER_MIX_BOX_1"))){',
+                ),
+                (
+                    "function countTargetItemsInMenu(menu, targetId) {\n"
+                    "    let count = 0;\n"
+                    "    for (let i = 0; i < menu.getSize(); i++) {",
+                    "function countTargetItemsInMenu(menu, targetId) {\n"
+                    "    let count = 0;\n"
+                    "    let targetItem = getSfItemById(targetId);\n"
+                    "    if (targetItem == null) {\n"
+                    "        return 0;\n"
+                    "    }\n"
+                    "    let targetStack = targetItem.getItem();\n"
+                    "    for (let i = 0; i < menu.getSize(); i++) {",
+                ),
+                (
+                    "            let slimefunItem = getSfItemByItem(itemStack);\n"
+                    "            if (slimefunItem && slimefunItem.getId() === targetId) {",
+                    "            if (isItemSimilar(itemStack, targetStack, true)) {",
+                ),
+            ),
+        )
+        changes += n
+
+    elif path.name == "SPAWNER.js":
+        updated, n = apply_replacements(
+            updated,
+            (
+                ("    let sfitemid = sfitem.getId()\n", ""),
+                (
+                    "SPAWNER_TYPE.find(spawner => spawner.id === sfitemid)",
+                    "SPAWNER_TYPE.find(spawner => sfitem === getSfItemById(spawner.id))",
+                ),
+            ),
+        )
+        changes += n
+
+    elif path.name == "服务器.js":
+        updated, n = apply_replacements(
+            updated,
+            (
+                (
+                    "CARGO_STORAGE_UNITS.some(unit => unit === sfitem.getId())",
+                    "CARGO_STORAGE_UNITS.some(unit => sfitem === getSfItemById(unit))",
+                ),
+                (
+                    "CARGO_STORAGE_UNITS.some(unit => unit === slimefunItem.getId())",
+                    "CARGO_STORAGE_UNITS.some(unit => slimefunItem === getSfItemById(unit))",
+                ),
+            ),
+        )
+        changes += n
+
+    elif path.name == "MFCT_FIX.js":
+        updated, n = apply_replacements(
+            updated,
+            (
+                ("    let target_sfid_Store = slimefunItem.getId();\n", ""),
+                (
+                    "    let slimefunItem2 = getSfItemByItem(player.getInventory().getItemInMainHand());\n"
+                    "    let target_sfid_Fix = slimefunItem2.getId();",
+                    "    let slimefunItem2 = getSfItemByItem(player.getInventory().getItemInMainHand());\n"
+                    "    if (slimefunItem == null || slimefunItem2 == null) {\n"
+                    "        return;\n"
+                    "    }",
+                ),
+                (
+                    "    const found = storageUnits.some(unit => \n"
+                    "        unit.sfid_Store === target_sfid_Store && unit.sfid_Fix === target_sfid_Fix\n"
+                    "    );",
+                    "    const found = storageUnits.some(unit =>\n"
+                    "        slimefunItem === getSfItemById(unit.sfid_Store) &&\n"
+                    "        slimefunItem2 === getSfItemById(unit.sfid_Fix)\n"
+                    "    );",
+                ),
+            ),
+        )
+        changes += n
+
+    elif path.name == "魔法植物1.js":
+        updated, n = apply_replacements(
+            updated,
+            (
+                (
+                    "        let sfplantid = sfitem.getId();",
+                    '        let sfplantid = (sfitem === getSfItemById("MAGIC_PLANT_1")) ? "MAGIC_PLANT_1" : null;',
+                ),
+            ),
+        )
+        changes += n
+
+    remaining = active_unsafe_polyglot_lines(updated)
     if remaining:
         raise RuntimeError(
-            f"Unsafe Graal Slimefun host reflection remained in {path.name}: {', '.join(remaining)}"
+            f"Unsafe Graal Slimefun host reflection remained in {path.name}: " + " | ".join(remaining)
         )
 
     if updated != text:
