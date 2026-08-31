@@ -42,6 +42,15 @@ UNSAFE_POLYGLOT_PATTERNS = (
 )
 
 
+def is_maintenance_path(root: Path, path: Path) -> bool:
+    """Ignore maintenance folders *inside* root, never ancestors of root itself."""
+    try:
+        relative = path.relative_to(root)
+    except ValueError:
+        return False
+    return any(part in {".git", "audit", "dist"} for part in relative.parts[:-1])
+
+
 def fix_polyglot_host_reflection(path: Path) -> int:
     """Keep GraalJS from reflecting over arbitrary addon SlimefunItem classes.
 
@@ -203,13 +212,13 @@ def main() -> int:
 
     polyglot_changes = 0
     for path in sorted(root.rglob("*.js")):
-        if any(part in {".git", "audit", "dist"} for part in path.parts):
+        if is_maintenance_path(root, path):
             continue
         polyglot_changes += fix_polyglot_host_reflection(path)
 
     redundant = placeholders = replacements = duplicates = 0
     for path in sorted(root.rglob("*.yml")):
-        if any(part in {".git", "audit", "dist"} for part in path.parts):
+        if is_maintenance_path(root, path):
             continue
         r, p, n, d = clean_text_file(path)
         redundant += r
