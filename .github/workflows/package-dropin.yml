@@ -49,8 +49,10 @@ jobs:
           )"
           safe_version="$(printf '%s' "$version" | tr -c 'A-Za-z0-9._-' '-')"
           archive="Magic-${safe_version}-Drop-In.zip"
+          artifact="Magic-${safe_version}-Drop-In"
           echo "version=$version" >> "$GITHUB_OUTPUT"
           echo "archive=$archive" >> "$GITHUB_OUTPUT"
+          echo "artifact=$artifact" >> "$GITHUB_OUTPUT"
 
       - name: Build runtime Magic folder
         shell: bash
@@ -94,7 +96,8 @@ jobs:
           5. If an older Magic folder already exists, replace it with this one instead of merging old files into it.
           6. Start the server.
 
-          This ZIP contains the ready-to-use Magic addon folder for RSC.
+          The downloaded Actions artifact opens directly to Magic/ and directions.txt.
+          The GitHub Release asset remains a single normal install ZIP.
           EOF
 
           (cd dist && zip -9 -r "../$ARCHIVE" Magic directions.txt >/dev/null)
@@ -129,15 +132,15 @@ jobs:
           fi
 
           echo "Verified $ARCHIVE"
-          echo "ZIP contains Magic/ and directions.txt"
+          echo "Actions artifact will contain Magic/ and directions.txt directly"
           echo "Drop Magic into plugins/RykenSlimefunCustomizer/addons/"
 
       - name: Upload Magic drop-in
         uses: actions/upload-artifact@v4
         with:
-          name: Magic-Legacy-Drop-In
+          name: ${{ steps.meta.outputs.artifact }}
           path: |
-            ${{ steps.meta.outputs.archive }}
-            ${{ steps.meta.outputs.archive }}.sha256
+            dist/Magic
+            dist/directions.txt
           if-no-files-found: error
           retention-days: 90
