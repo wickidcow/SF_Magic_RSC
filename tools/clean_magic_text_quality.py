@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """Clean safe player-facing English/lore quality issues in a Magic RSC tree.
 
-Order matters: text is normalized first, then redundant title/placeholder lore is
-removed, and finally visible lore is deduplicated. This prevents two previously
-different strings from becoming duplicates after translation/format cleanup.
+Order matters: runtime compatibility is normalized first, then text is cleaned,
+redundant title/placeholder lore is removed, and finally visible lore is
+deduplicated. This prevents two previously different strings from becoming
+duplicates after translation/format cleanup.
 
 IDs, script references, recipe keys, and serialized data keys are never renamed.
 """
@@ -32,6 +33,83 @@ TEXT_REPLACEMENTS = {
     "Magic Stoneworks Factory81": "Magic Stoneworks Factory 81",
     "Magic Stoneworks Factory729": "Magic Stoneworks Factory 729",
 }
+
+POLYGLOT_SCRIPT = "魔法无尽一体化.js"
+UNSAFE_POLYGLOT_PATTERNS = (
+    "sfitem.getId()",
+    "sfitem.getOutputSlots()",
+    "slimefunItem.getId()",
+)
+
+
+def fix_polyglot_host_reflection(path: Path) -> int:
+    """Keep GraalJS from reflecting over arbitrary addon SlimefunItem classes.
+
+    Graal resolves a member call by enumerating the concrete host class' public
+    methods. If another addon class has an obsolete method signature (for
+    example an IE1 StorageUnit type), even a harmless getId() call can throw a
+    NoClassDefFoundError before the intended method is invoked.
+
+    The Magic/Infinity integration only needs identity checks for foreign
+    Slimefun items. Compare the returned host object with the known Magic item,
+    and resolve known Magic item stacks/slots instead of invoking members on an
+    arbitrary addon object.
+    """
+    if path.name != POLYGLOT_SCRIPT:
+        return 0
+
+    text = path.read_text(encoding="utf-8")
+    updated = text
+    changes = 0
+
+    replacements = (
+        (
+            "let sfitemid = sfitem.getId()",
+            'let sfitemid = (sfitem === getSfItemById("MAGIC_INFINITY_MIX_BOX_1")) ? "MAGIC_INFINITY_MIX_BOX_1" : null',
+        ),
+        (
+            "let sfitem = StorageCacheUtils.getSfItem(containerLocation);\n        let outslots = sfitem.getOutputSlots();",
+            'let mixBoxItem = getSfItemById("MAGIC_INFINITY_MIX_BOX_1");\n'
+            "        if (mixBoxItem == null) {\n"
+            "            return;\n"
+            "        }\n"
+            "        let outslots = mixBoxItem.getOutputSlots();",
+        ),
+        (
+            "function countTargetItemsInMenu(menu, targetId) {\n"
+            "    let count = 0;\n"
+            "    for (let i = 45; i < 52; i++) {",
+            "function countTargetItemsInMenu(menu, targetId) {\n"
+            "    let count = 0;\n"
+            "    let targetItem = getSfItemById(targetId);\n"
+            "    if (targetItem == null) {\n"
+            "        return 0;\n"
+            "    }\n"
+            "    let targetStack = targetItem.getItem();\n"
+            "    for (let i = 45; i < 52; i++) {",
+        ),
+        (
+            "            let slimefunItem = getSfItemByItem(itemStack);\n"
+            "            if (slimefunItem && slimefunItem.getId() === targetId) {",
+            "            if (isItemSimilar(itemStack, targetStack, true)) {",
+        ),
+    )
+
+    for old, new in replacements:
+        count = updated.count(old)
+        if count:
+            updated = updated.replace(old, new)
+            changes += count
+
+    remaining = [pattern for pattern in UNSAFE_POLYGLOT_PATTERNS if pattern in updated]
+    if remaining:
+        raise RuntimeError(
+            f"Unsafe Graal Slimefun host reflection remained in {path.name}: {', '.join(remaining)}"
+        )
+
+    if updated != text:
+        path.write_text(updated, encoding="utf-8")
+    return changes
 
 
 def in_lore_block(lore_indent: int | None, line: str) -> tuple[bool, int | None]:
@@ -123,6 +201,12 @@ def main() -> int:
     if not root.is_dir():
         raise SystemExit(f"Not a directory: {root}")
 
+    polyglot_changes = 0
+    for path in sorted(root.rglob("*.js")):
+        if any(part in {".git", "audit", "dist"} for part in path.parts):
+            continue
+        polyglot_changes += fix_polyglot_host_reflection(path)
+
     redundant = placeholders = replacements = duplicates = 0
     for path in sorted(root.rglob("*.yml")):
         if any(part in {".git", "audit", "dist"} for part in path.parts):
@@ -134,9 +218,10 @@ def main() -> int:
         duplicates += d
 
     print(
-        "Cleaned Magic text quality "
-        f"({redundant} redundant title lore, {placeholders} placeholder lore, "
-        f"{replacements} verified text replacements, {duplicates} duplicate lore lines)"
+        "Cleaned Magic runtime/text quality "
+        f"({polyglot_changes} Graal host-reflection fix(es), {redundant} redundant title lore, "
+        f"{placeholders} placeholder lore, {replacements} verified text replacements, "
+        f"{duplicates} duplicate lore lines)"
     )
     return 0
 
