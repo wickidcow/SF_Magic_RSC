@@ -20,6 +20,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         shell: bash
         run: |
+          # One-shot release-note refresh for the 1.1.20 checkpoint.
           cat > release-notes.md <<'EOF'
           ## Magic RSC Legacy — Legacy-1.1.20
 
