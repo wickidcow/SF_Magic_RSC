@@ -10,6 +10,7 @@ on:
       - 'saveditems/**'
       - 'scripts/**/*.js'
       - 'scripts/validate_saveditems_yaml.py'
+      - 'scripts/validate_script_refs.py'
       - 'tools/**'
       - '.github/workflows/package-dropin.yml'
   push:
@@ -20,6 +21,7 @@ on:
       - 'saveditems/**'
       - 'scripts/**/*.js'
       - 'scripts/validate_saveditems_yaml.py'
+      - 'scripts/validate_script_refs.py'
       - 'tools/**'
       - '.github/workflows/package-dropin.yml'
 
@@ -82,6 +84,7 @@ jobs:
           python tools/apply_runtime_fixes.py "$root"
           python tools/clean_magic_text_quality.py "$root"
           python scripts/validate_saveditems_yaml.py "$root/saveditems"
+          python scripts/validate_script_refs.py "$root"
 
           cat > dist/directions.txt <<'EOF'
           Magic RSC Legacy - Installation Directions
