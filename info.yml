@@ -8,8 +8,8 @@ pluginDepends:
 - Supreme
 - FoxyMachines
 scriptListener: 服务器
-version: Legacy-1.1.20
-description: Magic Legacy compatibility pack for the maintained Slimefun Legacy ecosystem.
+version: Legacy-1.1.21
+description: Magic Legacy compatibility pack for the maintained Slimefun Legacy ecosystem, paired with RSC Legacy4 IE2 boot fallbacks.
 authors:
 - magicsolo
 - wickidcow
@@ -18,7 +18,7 @@ loadStartTexts:
 - "==================="
 - " Magic Legacy is loading"
 - " Original author: magicsolo"
-- " Legacy version: 1.1.20"
+- " Legacy version: 1.1.21"
 - "==================="
 enabledTexts:
 - "==================="
