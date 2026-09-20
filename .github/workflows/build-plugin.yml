@@ -104,7 +104,8 @@ jobs:
             'io/github/wickidcow/magiclegacy/MagicDustPickaxeListener.class' \
             'io/github/wickidcow/magiclegacy/MagicArchaeologyBlockListener.class' \
             'io/github/wickidcow/magiclegacy/NativePowerMixManager.class' \
-            'io/github/wickidcow/magiclegacy/NativePlayerAttackManager.class'; do
+            'io/github/wickidcow/magiclegacy/NativePlayerAttackManager.class' \
+            'io/github/wickidcow/magiclegacy/NativeMagicPlantManager.class'; do
             jar tf "$JAR" | grep -Fxq "$ENTRY"
           done
 
@@ -144,6 +145,7 @@ jobs:
             'embedded/Magic/scripts/可疑的沙砾.js' \
             'embedded/Magic/scripts/魔法矩阵-发电机1.js' \
             'embedded/Magic/scripts/magicsolo_master.js' \
+            'embedded/Magic/scripts/魔法植物1.js' \
             'embedded/Magic/scripts/sound.js' \
             'embedded/Magic/scripts/magic_stick_jiguang_1.js' \
             'embedded/Magic/scripts/阵法_小火苗_1.js' \
@@ -212,6 +214,7 @@ jobs:
           assert_no_hook machines.yml MAGIC_KAOGU_GRAVEL_1 可疑的沙砾
           assert_no_hook machines.yml MAGIC_POWER_MIX_1 魔法矩阵-发电机1
           assert_no_hook machines.yml MAGIC_PLAYER_ATTACT magicsolo_master
+          assert_no_hook machines.yml MAGIC_PLANT_1 魔法植物1
           for SCRIPT in SOME_CATCH ALL_CATCH ANIMALS_SPAWN ARTIFICIAL_SPAWN SPAWNER; do
             if unzip -p "$JAR" embedded/Magic/items.yml | grep -Eq "^[[:space:]]+script:[[:space:]]*[\"\x27]?${SCRIPT}[\"\x27]?[[:space:]]*$"; then
               echo "Legacy mob runtime hook still present: $SCRIPT" >&2
@@ -253,6 +256,9 @@ jobs:
           unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'name: "&dMagic Player Attack"'
           unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'Idle draw after warmup: &f128 J/s'
           unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'Activation cost: &f4,096 J'
+          unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'Native staged-growth plant.'
+          unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'Mature break reward: &f10% &7chance for 1 Infinite Ingot.'
+          unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'Runtime energy draw: &f0 J'
 
           unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Right-click to fire a focused magic shot.'
           unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Right-click to fire a charged magic laser.'
