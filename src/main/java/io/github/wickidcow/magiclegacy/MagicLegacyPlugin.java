@@ -8,6 +8,7 @@ public final class MagicLegacyPlugin extends JavaPlugin {
 
     private PackDeploymentResult deploymentResult;
     private MagicLegacyDiagnostics diagnostics;
+    private MagicSpawnerService spawnerService;
     private NativeSpawnerManager nativeSpawnerManager;
 
     @Override
@@ -33,6 +34,10 @@ public final class MagicLegacyPlugin extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new PowerBankListener(), this);
         getServer().getPluginManager().registerEvents(new MobCatcherListener(), this);
         getServer().getPluginManager().registerEvents(new MagicMobSpawnListener(), this);
+
+        spawnerService = new MagicSpawnerService(this);
+        getServer().getPluginManager().registerEvents(spawnerService, this);
+        spawnerService.start();
         getServer().getPluginManager().registerEvents(new StorageSkinFixListener(), this);
         nativeSpawnerManager = new NativeSpawnerManager(this);
         nativeSpawnerManager.start();
