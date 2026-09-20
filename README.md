@@ -105,7 +105,7 @@ The Java plugin is now the stable owner of Magic Legacy. Native migrations move 
 - `MAGIC_INFINITE_STICK` is native Java. Its PvP-only instant-kill behavior is preserved, but it now respects cancelled damage events and no longer needs Graal scripting.
 - `MAGIC_INFINITY_BLADE_1` is native Java. Its 1% lifesteal now uses `Attribute.MAX_HEALTH` instead of the deprecated `getMaxHealth()` API.
 - `MAGIC_FOODS_RANDOMFOOD` is native Java. It preserves the 1–3 random-effect concept, uses the current Bukkit potion registry, avoids zero-second effects, and replaces broken placeholder messages with one concise result message.
-- `planecup.js` is retained in source history for reference but excluded from the managed runtime because no Magic YAML or central listener references it.
+- `planecup.js` remains in the managed runtime because `MAGIC_NEW_PLANECUP` still references it. It can only be removed after that behavior is migrated to native Java.
 - `MAGIC_SOUND` is native Java. It uses Paper's sound registry instead of the old `Sound.values()` assumption and plays each online player a random sound at that player's own location.
 - `MAGIC_STICK_JIGUANG_1` is native Java. It preserves the 50 J cost, 25-block ray trace, 1,000 damage and dual-spiral visual while reducing particle calls and fixing the old vertical-vector edge case.
 - `MAGIC_ZHENFA_FIRE_1` is now the player-facing **Magic Flame Formation** and runs in native Java. It preserves the actual 1-second cooldown, 5-block radius, 100 damage, and hunger/saturation cost while reducing the old roughly 10,800-particle activation to about 216 particles and removing Chinese/placeholder runtime messages.
