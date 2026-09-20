@@ -4186,11 +4186,10 @@ MAGIC_MAGIC_INGOT:
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjUzZTBiOTNlMmNmZDdjZWM4NDg2NzQyMTQ0OGJmMzNiMDJiNWY2ZTIyYzdjNGQzOWI3ODA1NWMwZTgzZTE4MCJ9fX0=
     lore:
-      - "&a"
-      - "&7——Magic"
-      - "&7Magic"
-      - "&a" 
-      - "&7MagicMaterials"
+      - "&8Magic Legacy"
+      - "&7High-tier Magic crafting material."
+      - "&7Forged from Cosmic Dust, Resource Stars,"
+      - "&7and author-tier components."
   recipe_type: MAGIC_WORKBENCH
   recipe:
     1:
@@ -5055,10 +5054,9 @@ MAGIC_INFINITE_WATER:
     name: "&dMagic Infinite Water"
     material: WATER_BUCKET
     lore:
-      - "&a" 
-      - "&7Materials"
-      - "&a" 
-      - "&7MagicMaterials"
+      - "&8Magic Legacy"
+      - "&7Advanced Magic fluid resource."
+      - "&7Crafted from Magic Water Buckets."
     glow: true
   recipe:
     2: 
@@ -5079,9 +5077,9 @@ MAGIC_BUCKET:
     material: BUCKET
     glow: true
     lore:
-      - "&a" 
-      - "&a" 
-      - "&7MagicMaterials"
+      - "&8Magic Legacy"
+      - "&7Reinforced bucket forged from Infinity Ingots."
+      - "&7Used in advanced Magic fluid crafting."
   recipe:
     1: 
       material_type: slimefun
@@ -5105,10 +5103,9 @@ MAGIC_LAVA_BUCKET:
     material: LAVA_BUCKET
     glow: true
     lore:
-      - "&a" 
-      - "&7Materials"
-      - "&a" 
-      - "&7MagicMaterials"
+      - "&8Magic Legacy"
+      - "&7Infused lava resource for advanced Magic crafting."
+      - "&7Created with Magic Redstone and Electrified Crucibles."
   recipe:
     1: 
       material_type: slimefun
@@ -5151,14 +5148,14 @@ MAGIC_REACTOR_COLLANT_CELL_PRESS:
   item_group: magic_resource
   recipe_type: MAGIC_ENERGY_PRESS
   item:
-    name: "&dMagic Reactor Collant Cell Press"
+    name: "&dMagic Compressed Reactor Coolant Cell"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjU0OGRjNzUwZWNiMTQ2ZTVjM2E0YmI4OTBjYzYzY2UyYzhkZDI5YjcyNDJhYmE4ZjgxZjdmMWJhNjhlNGY2YyJ9fX0=
     glow: true
     lore:
-      - "&a" 
-      - "&a" 
-      - "&7MagicMaterials"
+      - "&8Magic Legacy"
+      - "&7Compressed from &f64 Reactor Coolant Cells&7."
+      - "&7Used in high-tier cooling recipes."
   recipe:
     1: 
       material_type: slimefun
@@ -5170,14 +5167,14 @@ MAGIC_NETHER_ICE_COOLANT_CELL_PRESS:
   item_group: magic_resource
   recipe_type: MAGIC_ENERGY_PRESS
   item:
-    name: "&dMagic Nether Ice Coolant Cell Press"
+    name: "&dMagic Compressed Nether Ice Coolant Cell"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGM5MmQ4NWU3Mzc0M2QyN2I2NmQ4MzA4YjhlNzU2YjdjOTFhMmE0OTdmNzVjZjYyOWFiN2YwMmIzZTZjMmI5OSJ9fX0=
     glow: true
     lore:
-      - "&a" 
-      - "&a" 
-      - "&7MagicMaterials"
+      - "&8Magic Legacy"
+      - "&7Compressed from &f64 Nether Ice Coolant Cells&7."
+      - "&7Used in high-tier cooling recipes."
   recipe:
     1: 
       material_type: slimefun
@@ -5189,13 +5186,13 @@ MAGIC_SNOW:
   item_group: magic_resource
   recipe_type: MAGIC_WORKBENCH
   item:
-    name: "&dMagic Snow"
+    name: "&dMagic Blizzard Core"
     material: SNOWBALL
     glow: true
     lore:
-      - "&a" 
-      - "&a" 
-      - "&7MagicMaterials"
+      - "&8Magic Legacy"
+      - "&7Condensed core forged from compressed coolants"
+      - "&7and an Infinity Expansion Extreme Freezer."
   recipe:
     1: 
       material_type: slimefun
@@ -5216,7 +5213,7 @@ MAGIC_SNOW:
     5: 
       material_type: slimefun
       material: IE_EXTREME_FREEZER
-      amount: 
+      amount: 1
     6: 
       material_type: slimefun
       material: MAGIC_NETHER_ICE_COOLANT_CELL_PRESS
@@ -6096,16 +6093,13 @@ MAGIC_BUDDING_AMETHYST_SPIRIT:
 MAGIC_ANIMALS_CHICKEN:
   item_group: magic_resource
   item:
-    name: "&dMagic Animals Chicken"
+    name: "&dMagic Chicken Relic"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VjM2RlMTViNDkyNmUxMjY1NWIxM2NlNTk3ZTI4Mzk3MDg5YjBhNTA5ZjNhMzEwMjY1NGUyZmEyZDg0YzE4NCJ9fX0=
-    lore: 
-      - "&a"
-      - "&7Magic"
-      - "&7Magic,"
-      - "&7,Magic"
-      - "&7MagicMagic"
-      - "&a"
+    lore:
+      - "&8Magic Legacy"
+      - "&7Rune-forged chicken crafting component."
+      - "&7Contains a &fMagic Chicken Heart&7."
   recipe_type: MAGIC_WORKBENCH
   recipe:
     1:

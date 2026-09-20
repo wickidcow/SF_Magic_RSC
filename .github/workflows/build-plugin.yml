@@ -62,7 +62,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          JAR=build/libs/SF_MagicLegacy2.0.14.jar
+          JAR=build/libs/SF_MagicLegacy2.0.15.jar
           test -s "$JAR"
 
           for ENTRY in \
@@ -171,17 +171,24 @@ jobs:
           unzip -p "$JAR" embedded/Magic/scripts/魔法无尽一体化.js | grep -Fq 'Insufficient Power'
           unzip -p "$JAR" embedded/Magic/scripts/魔法无尽一体化.js | grep -Fq 'Magic Infinity Processing'
           unzip -p "$JAR" embedded/Magic/scripts/魔法无尽一体化.js | grep -Fq 'Output Data'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'name: "&dMagic Blizzard Core"'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'name: "&dMagic Compressed Reactor Coolant Cell"'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'name: "&dMagic Chicken Relic"'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'High-tier Magic crafting material.'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Reinforced bucket forged from Infinity Ingots.'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'material: IE_EXTREME_FREEZER'
+          unzip -p "$JAR" embedded/Magic/items.yml | sed -n '/material: IE_EXTREME_FREEZER/,+1p' | grep -Fq 'amount: 1'
           unzip -p "$JAR" embedded/Magic/saveditems/QYZJ_1.yml | grep -Fq 'Restores 1% of damage dealt as health'
 
           javap -verbose -classpath "$JAR" io.github.wickidcow.magiclegacy.MagicLegacyPlugin \
             | grep -Fq 'major version: 65'
-          unzip -p "$JAR" embedded/Magic/info.yml | grep -Fxq 'version: Legacy-2.0.14'
-          unzip -p "$JAR" embedded/Magic/info.yml | grep -Fxq -- '- " Legacy version: 2.0.14"'
+          unzip -p "$JAR" embedded/Magic/info.yml | grep -Fxq 'version: Legacy-2.0.15'
+          unzip -p "$JAR" embedded/Magic/info.yml | grep -Fxq -- '- " Legacy version: 2.0.15"'
           unzip -p "$JAR" embedded/Magic/info.yml | grep -Fxq -- '- DynaTech'
           sha256sum "$JAR"
 
       - uses: actions/upload-artifact@v7
         with:
-          name: SF_MagicLegacy2.0.14
-          path: build/libs/SF_MagicLegacy2.0.14.jar
+          name: SF_MagicLegacy2.0.15
+          path: build/libs/SF_MagicLegacy2.0.15.jar
           if-no-files-found: error

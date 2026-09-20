@@ -51,7 +51,7 @@ for path in sorted(ROOT.glob("*.yml")):
             issues.append("low-information fragment")
         if "action could not be completed" in plain.lower():
             issues.append("placeholder failure text")
-        if "tiermagic" in plain.lower():
+        if "tiermagic" in plain.lower() or "magicmaterials" in plain.lower():
             issues.append("merged placeholder wording")
         if "magicmagic" in plain.lower():
             issues.append("duplicated placeholder wording")
