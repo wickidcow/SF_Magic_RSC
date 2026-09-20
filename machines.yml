@@ -48,7 +48,7 @@ MAGIC_SPAWNER_WITHER_SKELETON_1:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -71,7 +71,7 @@ MAGIC_SPAWNER_SKELETON_1:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -94,7 +94,7 @@ MAGIC_SPAWNER_ZOMBIE_1:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -118,7 +118,7 @@ MAGIC_SPAWNER_CREEPER_1:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -142,7 +142,7 @@ MAGIC_SPAWNER_ENDERMAN_1:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -165,7 +165,7 @@ MAGIC_SPAWNER_BLAZE_1:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -188,7 +188,7 @@ MAGIC_SPAWNER_CAVE_SPIDER_1:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -211,7 +211,7 @@ MAGIC_SPAWNER_GHAST_1:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -234,7 +234,7 @@ MAGIC_SPAWNER_ENDERMITE_1:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -258,7 +258,7 @@ MAGIC_SPAWNER_SILVERFISH_1:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -282,7 +282,7 @@ MAGIC_SPAWNER_IRON_GOLEM_1:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -306,7 +306,7 @@ MAGIC_SPAWNER_GUARDIAN_1:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -329,7 +329,7 @@ MAGIC_SPAWNER_SLIME_1:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -352,7 +352,7 @@ MAGIC_SPAWNER_MAGMA_CUBE_1:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -376,7 +376,7 @@ MAGIC_SPAWNER_SPIDER_1:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -400,7 +400,7 @@ MAGIC_SPAWNER_WITCH_1:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -424,7 +424,7 @@ MAGIC_SPAWNER_CHICKEN_1:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -448,7 +448,7 @@ MAGIC_SPAWNER_COW_1:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -471,7 +471,7 @@ MAGIC_SPAWNER_SHEEP_1:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -495,7 +495,7 @@ MAGIC_SPAWNER_HORSE_1:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -519,7 +519,7 @@ MAGIC_SPAWNER_MUSHROOM_COW_1:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -543,7 +543,7 @@ MAGIC_SPAWNER_CAT_1:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -567,7 +567,7 @@ MAGIC_SPAWNER_OCELOT_1:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -590,7 +590,7 @@ MAGIC_SPAWNER_PIG_1:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -614,7 +614,7 @@ MAGIC_SPAWNER_RABBIT_1:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -638,7 +638,7 @@ MAGIC_SPAWNER_SQUID_1:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -661,7 +661,7 @@ MAGIC_SPAWNER_GLOW_SQUID_1:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -684,7 +684,7 @@ MAGIC_SPAWNER_WOLF_1:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -707,7 +707,7 @@ MAGIC_SPAWNER_VILLAGER_1:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -731,7 +731,7 @@ MAGIC_SPAWNER_ZOMBIE_VILLAGER_1:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -754,7 +754,7 @@ MAGIC_SPAWNER_PIGLIN_1:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -777,7 +777,7 @@ MAGIC_SPAWNER_PIGLIN_BRUTE_1:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -800,7 +800,7 @@ MAGIC_SPAWNER_ZOMBIFIED_PIGLIN_1:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -823,7 +823,7 @@ MAGIC_SPAWNER_DROWNED_1:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -846,7 +846,7 @@ MAGIC_SPAWNER_HUSK_1:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -869,7 +869,7 @@ MAGIC_SPAWNER_ELDER_GUARDIAN_1:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -892,7 +892,7 @@ MAGIC_SPAWNER_PANDA_1:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -915,7 +915,7 @@ MAGIC_SPAWNER_PHANTOM_1:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -938,7 +938,7 @@ MAGIC_SPAWNER_POLAR_BEAR_1:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -961,7 +961,7 @@ MAGIC_SPAWNER_SHULKER_1:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -984,7 +984,7 @@ MAGIC_SPAWNER_STRAY_1:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -1007,7 +1007,7 @@ MAGIC_SPAWNER_WARDEN_1:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -1030,7 +1030,7 @@ MAGIC_SPAWNER_VINDICATOR_1:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -1053,7 +1053,7 @@ MAGIC_SPAWNER_EVOKER_1:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -1101,7 +1101,7 @@ MAGIC_SPAWNER_WITHER_SKELETON_2:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -1124,7 +1124,7 @@ MAGIC_SPAWNER_SKELETON_2:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -1147,7 +1147,7 @@ MAGIC_SPAWNER_ZOMBIE_2:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -1171,7 +1171,7 @@ MAGIC_SPAWNER_CREEPER_2:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -1195,7 +1195,7 @@ MAGIC_SPAWNER_ENDERMAN_2:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -1218,7 +1218,7 @@ MAGIC_SPAWNER_BLAZE_2:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -1241,7 +1241,7 @@ MAGIC_SPAWNER_CAVE_SPIDER_2:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -1264,7 +1264,7 @@ MAGIC_SPAWNER_GHAST_2:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -1287,7 +1287,7 @@ MAGIC_SPAWNER_ENDERMITE_2:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -1311,7 +1311,7 @@ MAGIC_SPAWNER_SILVERFISH_2:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -1335,7 +1335,7 @@ MAGIC_SPAWNER_IRON_GOLEM_2:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -1359,7 +1359,7 @@ MAGIC_SPAWNER_GUARDIAN_2:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -1382,7 +1382,7 @@ MAGIC_SPAWNER_SLIME_2:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -1405,7 +1405,7 @@ MAGIC_SPAWNER_MAGMA_CUBE_2:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -1429,7 +1429,7 @@ MAGIC_SPAWNER_SPIDER_2:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -1453,7 +1453,7 @@ MAGIC_SPAWNER_WITCH_2:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -1477,7 +1477,7 @@ MAGIC_SPAWNER_CHICKEN_2:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -1501,7 +1501,7 @@ MAGIC_SPAWNER_COW_2:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -1524,7 +1524,7 @@ MAGIC_SPAWNER_SHEEP_2:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -1548,7 +1548,7 @@ MAGIC_SPAWNER_HORSE_2:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -1572,7 +1572,7 @@ MAGIC_SPAWNER_MUSHROOM_COW_2:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -1596,7 +1596,7 @@ MAGIC_SPAWNER_CAT_2:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -1620,7 +1620,7 @@ MAGIC_SPAWNER_OCELOT_2:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -1643,7 +1643,7 @@ MAGIC_SPAWNER_PIG_2:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -1667,7 +1667,7 @@ MAGIC_SPAWNER_RABBIT_2:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -1691,7 +1691,7 @@ MAGIC_SPAWNER_SQUID_2:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -1714,7 +1714,7 @@ MAGIC_SPAWNER_GLOW_SQUID_2:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -1737,7 +1737,7 @@ MAGIC_SPAWNER_WOLF_2:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -1760,7 +1760,7 @@ MAGIC_SPAWNER_VILLAGER_2:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -1784,7 +1784,7 @@ MAGIC_SPAWNER_ZOMBIE_VILLAGER_2:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -1807,7 +1807,7 @@ MAGIC_SPAWNER_PIGLIN_2:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -1830,7 +1830,7 @@ MAGIC_SPAWNER_PIGLIN_BRUTE_2:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -1853,7 +1853,7 @@ MAGIC_SPAWNER_ZOMBIFIED_PIGLIN_2:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -1876,7 +1876,7 @@ MAGIC_SPAWNER_DROWNED_2:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -1899,7 +1899,7 @@ MAGIC_SPAWNER_HUSK_2:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -1922,7 +1922,7 @@ MAGIC_SPAWNER_ELDER_GUARDIAN_2:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -1945,7 +1945,7 @@ MAGIC_SPAWNER_PANDA_2:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -1968,7 +1968,7 @@ MAGIC_SPAWNER_PHANTOM_2:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -1991,7 +1991,7 @@ MAGIC_SPAWNER_POLAR_BEAR_2:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -2014,7 +2014,7 @@ MAGIC_SPAWNER_SHULKER_2:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -2037,7 +2037,7 @@ MAGIC_SPAWNER_STRAY_2:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -2060,7 +2060,7 @@ MAGIC_SPAWNER_WARDEN_2:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -2083,7 +2083,7 @@ MAGIC_SPAWNER_VINDICATOR_2:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -2106,7 +2106,7 @@ MAGIC_SPAWNER_EVOKER_2:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -2155,7 +2155,7 @@ MAGIC_SPAWNER_WITHER_SKELETON_3:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -2178,7 +2178,7 @@ MAGIC_SPAWNER_SKELETON_3:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -2201,7 +2201,7 @@ MAGIC_SPAWNER_ZOMBIE_3:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -2225,7 +2225,7 @@ MAGIC_SPAWNER_CREEPER_3:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -2249,7 +2249,7 @@ MAGIC_SPAWNER_ENDERMAN_3:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -2272,7 +2272,7 @@ MAGIC_SPAWNER_BLAZE_3:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -2295,7 +2295,7 @@ MAGIC_SPAWNER_CAVE_SPIDER_3:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -2318,7 +2318,7 @@ MAGIC_SPAWNER_GHAST_3:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -2341,7 +2341,7 @@ MAGIC_SPAWNER_ENDERMITE_3:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -2365,7 +2365,7 @@ MAGIC_SPAWNER_SILVERFISH_3:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -2389,7 +2389,7 @@ MAGIC_SPAWNER_IRON_GOLEM_3:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -2413,7 +2413,7 @@ MAGIC_SPAWNER_GUARDIAN_3:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -2436,7 +2436,7 @@ MAGIC_SPAWNER_SLIME_3:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -2459,7 +2459,7 @@ MAGIC_SPAWNER_MAGMA_CUBE_3:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -2483,7 +2483,7 @@ MAGIC_SPAWNER_SPIDER_3:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -2507,7 +2507,7 @@ MAGIC_SPAWNER_WITCH_3:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -2531,7 +2531,7 @@ MAGIC_SPAWNER_CHICKEN_3:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -2555,7 +2555,7 @@ MAGIC_SPAWNER_COW_3:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -2578,7 +2578,7 @@ MAGIC_SPAWNER_SHEEP_3:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -2602,7 +2602,7 @@ MAGIC_SPAWNER_HORSE_3:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -2626,7 +2626,7 @@ MAGIC_SPAWNER_MUSHROOM_COW_3:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -2650,7 +2650,7 @@ MAGIC_SPAWNER_CAT_3:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -2674,7 +2674,7 @@ MAGIC_SPAWNER_OCELOT_3:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -2697,7 +2697,7 @@ MAGIC_SPAWNER_PIG_3:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -2721,7 +2721,7 @@ MAGIC_SPAWNER_RABBIT_3:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -2745,7 +2745,7 @@ MAGIC_SPAWNER_SQUID_3:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -2768,7 +2768,7 @@ MAGIC_SPAWNER_GLOW_SQUID_3:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -2791,7 +2791,7 @@ MAGIC_SPAWNER_WOLF_3:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -2814,7 +2814,7 @@ MAGIC_SPAWNER_VILLAGER_3:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -2838,7 +2838,7 @@ MAGIC_SPAWNER_ZOMBIE_VILLAGER_3:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -2861,7 +2861,7 @@ MAGIC_SPAWNER_PIGLIN_3:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -2884,7 +2884,7 @@ MAGIC_SPAWNER_PIGLIN_BRUTE_3:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -2907,7 +2907,7 @@ MAGIC_SPAWNER_ZOMBIFIED_PIGLIN_3:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -2930,7 +2930,7 @@ MAGIC_SPAWNER_DROWNED_3:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -2953,7 +2953,7 @@ MAGIC_SPAWNER_HUSK_3:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -2976,7 +2976,7 @@ MAGIC_SPAWNER_ELDER_GUARDIAN_3:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -2999,7 +2999,7 @@ MAGIC_SPAWNER_PANDA_3:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -3022,7 +3022,7 @@ MAGIC_SPAWNER_PHANTOM_3:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -3045,7 +3045,7 @@ MAGIC_SPAWNER_POLAR_BEAR_3:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -3068,7 +3068,7 @@ MAGIC_SPAWNER_SHULKER_3:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -3091,7 +3091,7 @@ MAGIC_SPAWNER_STRAY_3:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -3114,7 +3114,7 @@ MAGIC_SPAWNER_WARDEN_3:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -3137,7 +3137,7 @@ MAGIC_SPAWNER_VINDICATOR_3:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
@@ -3160,7 +3160,7 @@ MAGIC_SPAWNER_EVOKER_3:
       - "&7Current mob limit: 15"
       - "&7⇨ ⚡ 1314 J capacity"
       - "&7⇨ ⚡ 520 J per mob"
-      - "&7Experimental machine"
+      - "&7Native Java scheduler"
       - "&a"
       - "&8Magic • Spawners"
     glow: true
