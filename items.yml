@@ -10784,10 +10784,16 @@ MAGIC_ATTRIBUTE_UPUP_1:
     name: "&dMagic Attribute Upup 1"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTMyNjRjMDkwOTlmYjI1MzJmNThlNTliOTFkOWYxMGZiZmZjMGIyNzBhN2VjMzg4MzNlODJhYzlkMTdjODRiZSJ9fX0=
-    lore: 
+    lore:
       - "&8Magic Legacy"
-      - '&7Shift + :'
-      - "&a"
+      - "&7Hold exactly one target item in your off hand."
+      - "&7Sneak-right-click to cycle the attribute slot."
+      - "&7Slots: &fHead, Chest, Legs, Feet, Main Hand, Off Hand"
+      - "&7Right-click to apply randomized attribute gains."
+      - "&7Base success: &f99%"
+      - "&7Success chance falls as this item's Magic upgrades grow."
+      - "&cFailure destroys the off-hand item."
+      - "&7Consumed on an upgrade attempt."
   script: "attribute_upup_1"
   recipe_type: MAGIC_MACHINE_TYPE
   recipe:
@@ -10802,10 +10808,15 @@ MAGIC_ATTRIBUTE_UPUP_1_MAX:
     name: "&dMagic Attribute Upup 1 Max"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTMyNjRjMDkwOTlmYjI1MzJmNThlNTliOTFkOWYxMGZiZmZjMGIyNzBhN2VjMzg4MzNlODJhYzlkMTdjODRiZSJ9fX0=
-    lore: 
+    lore:
       - "&8Magic Legacy"
-      - '&7Shift + :'
-      - "&a"
+      - "&7Hold exactly one target item in your off hand."
+      - "&7Sneak-right-click to cycle the attribute slot."
+      - "&7Slots: &fHead, Chest, Legs, Feet, Main Hand, Off Hand"
+      - "&7Right-click to apply full fixed attribute gains."
+      - "&7Success: &fguaranteed"
+      - "&7Only Magic Legacy's own modifiers are updated."
+      - "&7Consumed on an upgrade attempt."
   script: "attribute_upup_1_max"
   recipe_type: MAGIC_NONE
 
