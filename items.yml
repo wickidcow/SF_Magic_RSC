@@ -3479,8 +3479,12 @@ MAGIC_GENSHIN_IMPACT_RADDOM:
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWRmMjgzNTk3NWFjZWUxNzM0MjZjNWM2NTIzM2Y0YzFiNTA2YTc2ZGZjZDQxOGUzMDA3NjUzNmM4ZWYzZDM5YyJ9fX0=
     lore:
-      - "&a"
-      - "&a" 
+      - "&8Magic Legacy"
+      - "&7Right-click to open this blind box."
+      - "&7Rewards one random collectible from &f27 possible items&7."
+      - "&7Each reward has an equal chance."
+      - "&7If your inventory is full, the reward drops nearby."
+      - "&7Consumed on a successful opening."
   script: Genshin_box
   recipe:
     1: 
