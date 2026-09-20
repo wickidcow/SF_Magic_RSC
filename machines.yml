@@ -3401,15 +3401,15 @@ MAGIC_PLANT_1:
   item:
     name: "&dMagic Plant 1"
     material: LILY_OF_THE_VALLEY
-    lore: 
-      - "&a"
-      - "&7⇨ ⚡ 10280 J capacity"
-      - "&7⇨ ⚡ : 15s {Uses real-time scheduling}"
-      - "&7⇨ ⚡ 4096 J ()"
-      - "&7⇨ ⚡ 64 J/s ()"
-      - "&7Experimental machine"
-      - "&a"
+    lore:
       - "&8Magic Legacy"
+      - "&7Native staged-growth plant."
+      - "&7Warmup: &f1 second"
+      - "&7Grows through dead-bush and wheat stages."
+      - "&7Reaches maturity after about &f5 seconds &7of growth."
+      - "&7Mature break reward: &f10% &7chance for 1 Infinite Ingot."
+      - "&7Runtime energy draw: &f0 J"
+      - "&7Configured capacity retained: &f10,280 J"
     glow: true
   recipe: 
     1:
