@@ -24,6 +24,7 @@ MIGRATED_SCRIPTS: dict[str, dict[str, str]] = {
         "MAGIC_ZHENFA_FIRE_1": "阵法_小火苗_1",
         "MAGIC_NEW_PLANECUP": "planecup",
         "MAGIC_BANNER_LIANHUN": "BANNER_LIST",
+        "MAGIC_BANNER_SOUL": "BANNER_INSERT",
         "MAGIC_POWER_BANK_DESCRIPTION": "CDB_1",
         "MAGIC_POWER_BANK_ALPHA": "CDB_1",
         "MAGIC_POWER_BANK_BETA": "CDB_2",
