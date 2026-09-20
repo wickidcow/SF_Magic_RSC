@@ -21,6 +21,8 @@ final class MagicLegacyDiagnostics {
         RUNTIME_PLUGINS.put("GeneticChickengineering", "Genetic Chickengineering integration");
         RUNTIME_PLUGINS.put("Supreme", "Supreme integration");
         RUNTIME_PLUGINS.put("FoxyMachines", "FoxyMachines integration");
+        RUNTIME_PLUGINS.put("Networks", "Networks optional integration");
+        RUNTIME_PLUGINS.put("FNAmplifications", "FNAmplifications optional integration");
         RUNTIME_PLUGINS.put("magicexpansion", "Magic Expansion crossover");
 
         REGISTRY_CHECKS.put("Magic Legacy", List.of(
@@ -36,6 +38,14 @@ final class MagicLegacyDiagnostics {
             "DYNATECH_VEX_GEM",
             "DYNATECH_BEE",
             "DYNATECH_GROWTH_CHAMBER_MARK_2"
+        ));
+        REGISTRY_CHECKS.put("Networks", List.of(
+            "NTW_CELL",
+            "NTW_BRIDGE"
+        ));
+        REGISTRY_CHECKS.put("FNAmplifications", List.of(
+            "FN_MACHINERY_COMPONENT_PART",
+            "FN_JUKEBOX_III"
         ));
         REGISTRY_CHECKS.put("Magic Expansion", List.of(
             "RSC_MAGIC_MINER",

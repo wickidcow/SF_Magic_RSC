@@ -63,7 +63,7 @@ Required for the current 2.0 bridge:
 - Supreme
 - FoxyMachines
 
-Magic Expansion is optional, but Magic Legacy checks the shared/crossover registry entries when it is installed.
+Networks, FNAmplifications, and Magic Expansion are optional integrations. When they are installed, Magic Legacy soft-depends on them so their Slimefun items register before RSC loads the Magic runtime. `/magiclegacy doctor` checks representative registry IDs from each integration.
 
 The primary server baseline remains the maintained Slimefun Legacy Paper/Purpur stack. The public JAR is compiled as Java 21 bytecode and is also checked against the current Paper 26.3 candidate API in the Slimefun Legacy addon bundle workflow.
 
@@ -79,7 +79,7 @@ Magic Legacy adds:
 
 `status` shows deployment and plugin dependency state.
 
-`doctor` also checks representative Slimefun registry IDs from Magic Legacy, InfinityExpansion2, DynaTech and Magic Expansion. This catches cases where a dependency JAR is present but the item Magic expects did not actually register.
+`doctor` also checks representative Slimefun registry IDs from Magic Legacy, InfinityExpansion2, DynaTech, Networks, FNAmplifications and Magic Expansion. This catches cases where a dependency JAR is present but the item Magic expects did not actually register.
 
 `deploy` re-extracts the managed runtime. Use a normal full restart afterward; do not use Bukkit `/reload` for Slimefun/RSC updates.
 
