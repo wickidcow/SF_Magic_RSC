@@ -10492,13 +10492,14 @@ MAGIC_SPAWNER_DESCRIPTION:
 MAGIC_POWER_BANK_DESCRIPTION:
   item_group: magic_interesting_items
   item:
-    name: "&dInformation"
+    name: "&dMagic Power Banks"
     material: paper
-    lore: 
-      - "&a"
-      - "&7Magic Power Bank Description"
-      - "&a"
-      - "&7Magic"
+    lore:
+      - "&8Magic Legacy"
+      - "&7Right-click to view Power Bank instructions."
+      - "&7Alpha: randomized discharge cost; requires at least half charge."
+      - "&7Beta: spends &f2 J &7for every &f1 J &7transferred."
+      - "&7Hold one chargeable Slimefun item in your off hand."
   script: "CDB_1"
   recipe_type: NULL
 
@@ -10508,11 +10509,12 @@ MAGIC_POWER_BANK_ALPHA:
     name: "&dMagic Power Bank Alpha"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTZlMGM5NTRkNWNhYjRiOTcxNGI4YTdlYWY5NzQyZWVhYWI3ZGRhN2ZjMmVmZmVmYjE1MzAwOTlhZTEzMDlhYyJ9fX0=
-    lore: 
+    lore:
       - "&8Magic Legacy"
-      - "&a"
-      - "&a"
-      - "&7Magic"
+      - "&7Fully charges one off-hand Slimefun item."
+      - "&7Requires at least &f500,000 J &7stored before use."
+      - "&7Discharge cost: &f0-499,999 J &7per activation."
+      - "&7Capacity: &f1,000,000 J"
   script: "CDB_1"
   recipe_type: ENHANCED_CRAFTING_TABLE
   energy_capacity: 1000000
@@ -10560,11 +10562,11 @@ MAGIC_POWER_BANK_BETA:
     name: "&dMagic Power Bank Beta"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2NiMWQ1YmRlN2YyZGY1NGYxY2FhNDNjMDU2ZjQ2MmFkMThiNWY3MzZjZTJjOGZlYWE2MmFmNjMxZGJlYWE0MCJ9fX0=
-    lore: 
+    lore:
       - "&8Magic Legacy"
-      - "&a"
-      - "&a"
-      - "&7Magic"
+      - "&7Fully charges one off-hand Slimefun item."
+      - "&7Energy cost: &f2 J &7per &f1 J &7transferred."
+      - "&7Capacity: &f10,000 J"
   script: "CDB_2"
   recipe_type: ENHANCED_CRAFTING_TABLE
   energy_capacity: 10000
