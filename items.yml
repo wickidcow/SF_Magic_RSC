@@ -11239,10 +11239,10 @@ MAGIC_BANNER_SOUL:
     material: SOUL_LANTERN
     glow: true
     lore:
-      - "{#FDB7D4}========================="
-      - "&7Current: 100"
-      - "&a"
-      - "&8Magic • Materials"
+      - "&8Magic Legacy"
+      - "&7Stores &f100 souls &7inside a Magic Soul Banner."
+      - "&7Use from the main hand with the banner in your off hand."
+      - "&7Sneak-use a full stack of 64 to insert &f6,400 souls&7."
   script: BANNER_INSERT
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe: 
