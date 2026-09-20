@@ -93,7 +93,9 @@ jobs:
             'io/github/wickidcow/magiclegacy/BannerLianhunListener.class' \
             'io/github/wickidcow/magiclegacy/PowerBankListener.class' \
             'io/github/wickidcow/magiclegacy/MobCatcherListener.class' \
-            'io/github/wickidcow/magiclegacy/MagicMobSpawnListener.class'; do
+            'io/github/wickidcow/magiclegacy/MagicMobSpawnListener.class' \
+            'io/github/wickidcow/magiclegacy/SlimefunBlockStorageBridge.class' \
+            'io/github/wickidcow/magiclegacy/NativeSpawnerManager.class'; do
             jar tf "$JAR" | grep -Fxq "$ENTRY"
           done
 
@@ -114,6 +116,7 @@ jobs:
             'embedded/Magic/scripts/ALL_CATCH.js' \
             'embedded/Magic/scripts/ANIMALS_SPAWN.js' \
             'embedded/Magic/scripts/ARTIFICIAL_SPAWN.js' \
+            'embedded/Magic/scripts/SPAWNER.js' \
             'embedded/Magic/scripts/sound.js' \
             'embedded/Magic/scripts/magic_stick_jiguang_1.js' \
             'embedded/Magic/scripts/阵法_小火苗_1.js' \
@@ -164,7 +167,7 @@ jobs:
           assert_no_hook items.yml MAGIC_POWER_BANK_DESCRIPTION CDB_1
           assert_no_hook items.yml MAGIC_POWER_BANK_ALPHA CDB_1
           assert_no_hook items.yml MAGIC_POWER_BANK_BETA CDB_2
-          for SCRIPT in SOME_CATCH ALL_CATCH ANIMALS_SPAWN ARTIFICIAL_SPAWN; do
+          for SCRIPT in SOME_CATCH ALL_CATCH ANIMALS_SPAWN ARTIFICIAL_SPAWN SPAWNER; do
             if unzip -p "$JAR" embedded/Magic/items.yml | grep -Eq "^[[:space:]]+script:[[:space:]]*[\"\x27]?${SCRIPT}[\"\x27]?[[:space:]]*$"; then
               echo "Legacy mob runtime hook still present: $SCRIPT" >&2
               exit 1
@@ -180,6 +183,7 @@ jobs:
           unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Successful capture total: &f300 J'
           unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Releases a baby Magic mob when used on a block.'
           unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Creates the corresponding artificial mob when used on a block.'
+          test "$(unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fc 'Native Java scheduler')" -eq 132
 
           unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Right-click to fire a focused magic shot.'
           unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Right-click to fire a charged magic laser.'
