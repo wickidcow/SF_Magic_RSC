@@ -49,7 +49,7 @@ final class MobCatcherListener implements Listener {
         register("MAGIC_HORSE_CATCH", EntityType.HORSE, "MAGIC_HORSE_1");
         register("MAGIC_LLAMA_CATCH", EntityType.LLAMA, "MAGIC_LLAMA_1");
         register("MAGIC_TRADER_LLAMA_CATCH", EntityType.TRADER_LLAMA, "MAGIC_TRADER_LLAMA_1");
-        register("MAGIC_MOOSHROOM_CATCH", EntityType.MUSHROOM_COW, "MAGIC_MOOSHROOM_1");
+        register("MAGIC_MOOSHROOM_CATCH", EntityType.MOOSHROOM, "MAGIC_MOOSHROOM_1");
         register("MAGIC_MULE_CATCH", EntityType.MULE, "MAGIC_MULE_1");
         register("MAGIC_PANDA_CATCH", EntityType.PANDA, "MAGIC_PANDA_1");
         register("MAGIC_RABBIT_CATCH", EntityType.RABBIT, "MAGIC_RABBIT_1");
