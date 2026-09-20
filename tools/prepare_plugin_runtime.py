@@ -49,6 +49,11 @@ def stamp_runtime(destination: Path, version: str) -> None:
     info = destination / "info.yml"
     text = info.read_text(encoding="utf-8")
     text = re.sub(r"(?m)^version:\s*.*$", f"version: {label}", text)
+    text = re.sub(
+        r'(?m)^- " Legacy version: [^"]*"$',
+        f'- " Legacy version: {version}"',
+        text,
+    )
 
     if "- DynaTech" not in text:
         needle = "- InfinityExpansion2\n"
