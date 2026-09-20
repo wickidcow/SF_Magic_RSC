@@ -107,6 +107,11 @@ MIGRATED_SCRIPTS: dict[str, dict[str, str]] = {
         "MAGIC_ARTIFICIAL_GIANT": "ARTIFICIAL_SPAWN",
         "MAGIC_ALLAY_1": "ARTIFICIAL_SPAWN",
     },
+    "machines.yml": {
+        "MAGIC_TEST_WHITE_WOOL": "NO_DROP",
+        "MAGIC_KAOGU_SAND_1": "可疑的沙子",
+        "MAGIC_KAOGU_GRAVEL_1": "可疑的沙砾",
+    },
     "foods.yml": {
         "MAGIC_FOODS_RANDOMFOOD": "randomfood",
         "MAGIC_FOODS_JIAOZI": "snow_food",
