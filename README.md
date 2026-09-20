@@ -15,7 +15,7 @@ Magic Legacy preserves the original Magic RSC content while moving its fragile r
 Magic Legacy 2.0 is installed like a normal plugin.
 
 1. Stop the server normally.
-2. Put `SF_MagicLegacy2.0.9.jar` in the server's `plugins/` folder.
+2. Put `SF_MagicLegacy2.0.10.jar` in the server's `plugins/` folder.
 3. Keep the required Slimefun addons installed.
 4. Start the server normally.
 
@@ -93,7 +93,7 @@ The 2.0 builder also declares DynaTech explicitly because the maintained Magic r
 
 The Java plugin is now the stable owner of Magic Legacy. Native migrations move into it in small testable groups, starting with the JavaScript systems that are most likely to fail across Graal/Paper changes.
 
-### Native migrations in 2.0.9
+### Native migrations in 2.0.10
 
 - `MAGIC_GUN_1` no longer executes `scripts/基础枪.js` at runtime.
 - The same 20-block hitscan, 5 damage, 8-tick cooldown, END_ROD beam, and firework sound are handled by `MagicGunListener` in Java.
@@ -109,6 +109,7 @@ The Java plugin is now the stable owner of Magic Legacy. Native migrations move 
 - `MAGIC_SOUND` is native Java. It uses Paper's sound registry instead of the old `Sound.values()` assumption and plays each online player a random sound at that player's own location.
 - `MAGIC_STICK_JIGUANG_1` is native Java. It preserves the 50 J cost, 25-block ray trace, 1,000 damage and dual-spiral visual while reducing particle calls and fixing the old vertical-vector edge case.
 - `MAGIC_ZHENFA_FIRE_1` is now the player-facing **Magic Flame Formation** and runs in native Java. It preserves the actual 1-second cooldown, 5-block radius, 100 damage, and hunger/saturation cost while reducing the old roughly 10,800-particle activation to about 216 particles and removing Chinese/placeholder runtime messages.
+- The entire 12-item snow-food family is native Java. The foods now use the current potion registry, never roll zero-second effects, and have names/lore that identify their effect instead of placeholders such as `Magic Foods A 4`. Effect strength remains randomized from level 1-50 and duration from 1-100 seconds.
 
 ### Lore quality in 2.0.8
 

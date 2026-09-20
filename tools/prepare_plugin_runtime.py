@@ -25,6 +25,18 @@ MIGRATED_SCRIPTS: dict[str, dict[str, str]] = {
     },
     "foods.yml": {
         "MAGIC_FOODS_RANDOMFOOD": "randomfood",
+        "MAGIC_FOODS_JIAOZI": "snow_food",
+        "MAGIC_FOODS_APPLE": "snow_food",
+        "MAGIC_FOODS_A_1": "snow_food",
+        "MAGIC_FOODS_A_2": "snow_food",
+        "MAGIC_FOODS_A_3": "snow_food",
+        "MAGIC_FOODS_A_4": "snow_food",
+        "MAGIC_FOODS_A_5": "snow_food",
+        "MAGIC_FOODS_A_6": "snow_food",
+        "MAGIC_FOODS_A_7": "snow_food",
+        "MAGIC_FOODS_A_8": "snow_food",
+        "MAGIC_FOODS_A_9": "snow_food",
+        "MAGIC_FOODS_A_10": "snow_food",
     },
 }
 

@@ -58,6 +58,20 @@ final class SlimefunItemIdentity {
         }
     }
 
+    static String idOf(ItemStack stack) {
+        Object item = findByItem(stack);
+        if (item == null) {
+            return null;
+        }
+
+        try {
+            Object id = GET_ID.invoke(item);
+            return id instanceof String value ? value : null;
+        } catch (ReflectiveOperationException ex) {
+            return null;
+        }
+    }
+
     static ItemStack copyById(String id) {
         if (!available()) {
             return null;

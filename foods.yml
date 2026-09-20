@@ -38,14 +38,14 @@ MAGIC_FOODS_RANDOMFOOD:
 MAGIC_FOODS_JIAOZI:
   item_group: magic_foods
   item:
-    name: "&dMagic Foods Jiaozi"
+    name: "&dMagic Glowing Jiaozi"
     material: BREAD
     glow: true
-    lore: 
-      - "&a"
-      - "&a" 
-      - "&7jiojio"
-      - "&a"
+    lore:
+      - "&8Magic Legacy"
+      - "&7Grants a random-strength &fGlowing&7 effect."
+      - "&7Effect level: &f1-50"
+      - "&7Duration: &f1-100 seconds"
   script: "snow_food"
   nutrition: 5
   saturation: 5
@@ -56,14 +56,14 @@ MAGIC_FOODS_JIAOZI:
 MAGIC_FOODS_APPLE:
   item_group: magic_foods
   item:
-    name: "&dMagic Foods Apple"
+    name: "&dMagic Speed Apple"
     material: APPLE
     glow: true
-    lore: 
-      - "&a"
-      - "&a" 
-      - "&7jiojio"
-      - "&a"
+    lore:
+      - "&8Magic Legacy"
+      - "&7Grants a random-strength &fSpeed&7 effect."
+      - "&7Effect level: &f1-50"
+      - "&7Duration: &f1-100 seconds"
   script: "snow_food"
   nutrition: 5
   saturation: 5
@@ -74,13 +74,14 @@ MAGIC_FOODS_APPLE:
 MAGIC_FOODS_A_1:
   item_group: magic_foods
   item:
-    name: "&dMagic Foods A 1"
+    name: "&dMagic Fireproof Tonic"
     material: POTION
     glow: true
-    lore: 
-      - "&a"
-      - "&a" 
-      - "&a"
+    lore:
+      - "&8Magic Legacy"
+      - "&7Grants a random-strength &fFire Resistance&7 effect."
+      - "&7Effect level: &f1-50"
+      - "&7Duration: &f1-100 seconds"
   script: "snow_food"
   nutrition: 5
   saturation: 5
@@ -91,13 +92,14 @@ MAGIC_FOODS_A_1:
 MAGIC_FOODS_A_2:
   item_group: magic_foods
   item:
-    name: "&dMagic Foods A 2"
+    name: "&dMagic Vitality Bread"
     material: BREAD
     glow: true
-    lore: 
-      - "&a"
-      - "&a" 
-      - "&a"
+    lore:
+      - "&8Magic Legacy"
+      - "&7Grants a random-strength &fHealth Boost&7 effect."
+      - "&7Effect level: &f1-50"
+      - "&7Duration: &f1-100 seconds"
   script: "snow_food"
   nutrition: 5
   saturation: 5
@@ -108,13 +110,14 @@ MAGIC_FOODS_A_2:
 MAGIC_FOODS_A_3:
   item_group: magic_foods
   item:
-    name: "&dMagic Foods A 3"
+    name: "&dMagic Vanishing Cookie"
     material: cookie
     glow: true
-    lore: 
-      - "&a"
-      - "&a" 
-      - "&a"
+    lore:
+      - "&8Magic Legacy"
+      - "&7Grants a random-strength &fInvisibility&7 effect."
+      - "&7Effect level: &f1-50"
+      - "&7Duration: &f1-100 seconds"
   script: "snow_food"
   nutrition: 5
   saturation: 5
@@ -125,13 +128,14 @@ MAGIC_FOODS_A_3:
 MAGIC_FOODS_A_4:
   item_group: magic_foods
   item:
-    name: "&dMagic Foods A 4"
+    name: "&dMagic Levitation Stew"
     material: MUSHROOM_STEW
     glow: true
-    lore: 
-      - "&a"
-      - "&a" 
-      - "&a"
+    lore:
+      - "&8Magic Legacy"
+      - "&7Grants a random-strength &fLevitation&7 effect."
+      - "&7Effect level: &f1-50"
+      - "&7Duration: &f1-100 seconds"
   script: "snow_food"
   nutrition: 5
   saturation: 5
@@ -142,13 +146,14 @@ MAGIC_FOODS_A_4:
 MAGIC_FOODS_A_5:
   item_group: magic_foods
   item:
-    name: "&dMagic Foods A 5"
+    name: "&dMagic Saturation Chicken"
     material: COOKED_CHICKEN
     glow: true
-    lore: 
-      - "&a"
-      - "&a" 
-      - "&a"
+    lore:
+      - "&8Magic Legacy"
+      - "&7Grants a random-strength &fSaturation&7 effect."
+      - "&7Effect level: &f1-50"
+      - "&7Duration: &f1-100 seconds"
   script: "snow_food"
   nutrition: 5
   saturation: 5
@@ -159,13 +164,14 @@ MAGIC_FOODS_A_5:
 MAGIC_FOODS_A_6:
   item_group: magic_foods
   item:
-    name: "&dMagic Foods A 6"
+    name: "&dMagic Weakness Stew"
     material: MUSHROOM_STEW
     glow: true
-    lore: 
-      - "&a"
-      - "&a" 
-      - "&a"
+    lore:
+      - "&8Magic Legacy"
+      - "&7Grants a random-strength &fWeakness&7 effect."
+      - "&7Effect level: &f1-50"
+      - "&7Duration: &f1-100 seconds"
   script: "snow_food"
   nutrition: 5
   saturation: 5
@@ -176,13 +182,14 @@ MAGIC_FOODS_A_6:
 MAGIC_FOODS_A_7:
   item_group: magic_foods
   item:
-    name: "&dMagic Foods A 7"
+    name: "&dMagic Conduit Milk"
     material: MILK_BUCKET
     glow: true
-    lore: 
-      - "&a"
-      - "&a" 
-      - "&a"
+    lore:
+      - "&8Magic Legacy"
+      - "&7Grants a random-strength &fConduit Power&7 effect."
+      - "&7Effect level: &f1-50"
+      - "&7Duration: &f1-100 seconds"
   script: "snow_food"
   nutrition: 5
   saturation: 5
@@ -193,13 +200,14 @@ MAGIC_FOODS_A_7:
 MAGIC_FOODS_A_8:
   item_group: magic_foods
   item:
-    name: "&dMagic Foods A 8"
+    name: "&dMagic Absorption Berries"
     material: GLOW_BERRIES
     glow: true
-    lore: 
-      - "&a"
-      - "&a" 
-      - "&a"
+    lore:
+      - "&8Magic Legacy"
+      - "&7Grants a random-strength &fAbsorption&7 effect."
+      - "&7Effect level: &f1-50"
+      - "&7Duration: &f1-100 seconds"
   script: "snow_food"
   nutrition: 5
   saturation: 5
@@ -210,13 +218,14 @@ MAGIC_FOODS_A_8:
 MAGIC_FOODS_A_9:
   item_group: magic_foods
   item:
-    name: "&dMagic Foods A 9"
+    name: "&dMagic Regeneration Potato"
     material: baked_potato
     glow: true
-    lore: 
-      - "&a"
-      - "&a" 
-      - "&a"
+    lore:
+      - "&8Magic Legacy"
+      - "&7Grants a random-strength &fRegeneration&7 effect."
+      - "&7Effect level: &f1-50"
+      - "&7Duration: &f1-100 seconds"
   script: "snow_food"
   nutrition: 5
   saturation: 5
@@ -227,13 +236,14 @@ MAGIC_FOODS_A_9:
 MAGIC_FOODS_A_10:
   item_group: magic_foods
   item:
-    name: "&dMagic Foods A 10"
+    name: "&dMagic Lucky Stew"
     material: MUSHROOM_STEW
     glow: true
-    lore: 
-      - "&a"
-      - "&a" 
-      - "&a"
+    lore:
+      - "&8Magic Legacy"
+      - "&7Grants a random-strength &fLuck&7 effect."
+      - "&7Effect level: &f1-50"
+      - "&7Duration: &f1-100 seconds"
   script: "snow_food"
   nutrition: 5
   saturation: 5
