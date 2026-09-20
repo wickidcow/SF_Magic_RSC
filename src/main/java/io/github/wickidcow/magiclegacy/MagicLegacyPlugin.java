@@ -8,6 +8,7 @@ public final class MagicLegacyPlugin extends JavaPlugin {
 
     private PackDeploymentResult deploymentResult;
     private MagicLegacyDiagnostics diagnostics;
+    private NativeSpawnerManager nativeSpawnerManager;
 
     @Override
     public void onLoad() {
@@ -32,6 +33,8 @@ public final class MagicLegacyPlugin extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new PowerBankListener(), this);
         getServer().getPluginManager().registerEvents(new MobCatcherListener(), this);
         getServer().getPluginManager().registerEvents(new MagicMobSpawnListener(), this);
+        nativeSpawnerManager = new NativeSpawnerManager(this);
+        nativeSpawnerManager.start();
 
         PluginCommand command = getCommand("magiclegacy");
         if (command != null) {
@@ -49,6 +52,14 @@ public final class MagicLegacyPlugin extends JavaPlugin {
                 );
             }
         });
+    }
+
+    @Override
+    public void onDisable() {
+        if (nativeSpawnerManager != null) {
+            nativeSpawnerManager.stop();
+            nativeSpawnerManager = null;
+        }
     }
 
     File pluginFile() {
