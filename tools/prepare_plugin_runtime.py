@@ -74,6 +74,9 @@ def disable_migrated_scripts(destination: Path) -> None:
     migrated = {
         "MAGIC_GUN_1": "基础枪",
         "MAGIC_CHRISTMAS_SNOWBALL": "CHRISTMAS_SNOWBALL",
+        "MAGIC_EXP_COLLECTOR": "MFEXPBOTTLE",
+        "MAGIC_EXP_BOTTLE": "MFEXPBOTTLE100",
+        "MAGIC_UNBREAKABLE_RUNE": "UNBREAKABLE_RUNE",
     }
 
     path = destination / "items.yml"

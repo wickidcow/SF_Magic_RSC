@@ -19,6 +19,8 @@ public final class MagicLegacyPlugin extends JavaPlugin {
         diagnostics = new MagicLegacyDiagnostics(this);
         getServer().getPluginManager().registerEvents(new MagicGunListener(), this);
         getServer().getPluginManager().registerEvents(new ChristmasSnowballListener(), this);
+        getServer().getPluginManager().registerEvents(new ExperienceItemListener(), this);
+        getServer().getPluginManager().registerEvents(new UnbreakableRuneListener(), this);
 
         PluginCommand command = getCommand("magiclegacy");
         if (command != null) {
