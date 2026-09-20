@@ -15,7 +15,7 @@ Magic Legacy preserves the original Magic RSC content while moving its fragile r
 Magic Legacy 2.0 is installed like a normal plugin.
 
 1. Stop the server normally.
-2. Put `SF_MagicLegacy2.0.0.jar` in the server's `plugins/` folder.
+2. Put `SF_MagicLegacy2.0.1.jar` in the server's `plugins/` folder.
 3. Keep the required Slimefun addons installed.
 4. Start the server normally.
 
@@ -91,7 +91,13 @@ The 2.0 builder also declares DynaTech explicitly because the maintained Magic r
 
 ## Development direction
 
-The Java plugin is now the stable owner of Magic Legacy. Native migrations should move into it in small testable groups, starting with the JavaScript systems that are most likely to fail across Graal/Paper changes.
+The Java plugin is now the stable owner of Magic Legacy. Native migrations move into it in small testable groups, starting with the JavaScript systems that are most likely to fail across Graal/Paper changes.
+
+### Native migrations in 2.0.1
+
+- `MAGIC_GUN_1` no longer executes `scripts/基础枪.js` at runtime.
+- The same 20-block hitscan, 5 damage, 8-tick cooldown, END_ROD beam, and firework sound are handled by `MagicGunListener` in Java.
+- The established `MAGIC_GUN_1` Slimefun ID and RSC item/recipe definition are unchanged.
 
 The intended end state is a fully native Slimefun addon with the same established `MAGIC_*` identities and no RSC runtime dependency.
 

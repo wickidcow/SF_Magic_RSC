@@ -69,6 +69,79 @@ def stamp_runtime(destination: Path, version: str) -> None:
     info.write_text(text, encoding="utf-8")
 
 
+def disable_migrated_scripts(destination: Path) -> None:
+    """Remove RSC script hooks that have behavior-equivalent native Java replacements."""
+    path = destination / "items.yml"
+    lines = path.read_text(encoding="utf-8").splitlines(keepends=True)
+    top = re.compile(r"^([A-Za-z0-9_.-]+):\s*(?:#.*)?$")
+    script = re.compile(r'^\s+script:\s*["\x27]?基础枪["\x27]?\s*(?:#.*)?    subprocess.run(
+        [sys.executable, str(ROOT / "tools" / "apply_runtime_fixes.py"), str(destination)],
+        check=True,
+        cwd=ROOT,
+    )
+    subprocess.run(
+        [sys.executable, str(ROOT / "scripts" / "validate_saveditems_yaml.py"), str(destination / "saveditems")],
+        check=True,
+        cwd=ROOT,
+    )
+    subprocess.run(
+        [sys.executable, str(ROOT / "scripts" / "validate_script_refs.py"), str(destination)],
+        check=True,
+        cwd=ROOT,
+    )
+
+
+def main() -> int:
+    if len(sys.argv) != 3:
+        raise SystemExit("Usage: prepare_plugin_runtime.py <destination> <plugin-version>")
+
+    destination = Path(sys.argv[1]).resolve()
+    version = sys.argv[2].strip()
+    if not re.fullmatch(r"\d+(?:\.\d+)+", version):
+        raise SystemExit(f"Invalid plugin version: {version!r}")
+
+    copy_runtime(destination)
+    run_checks(destination)
+    stamp_runtime(destination, version)
+    disable_migrated_scripts(destination)
+
+    required = [
+        destination / "info.yml",
+        destination / "items.yml",
+        destination / "recipe_machines.yml",
+        destination / "scripts" / "服务器.js",
+    ]
+    missing = [str(path) for path in required if not path.is_file()]
+    if missing:
+        raise RuntimeError(f"Prepared Magic runtime is incomplete: {missing}")
+
+    count = sum(1 for path in destination.rglob("*") if path.is_file())
+    print(f"Prepared Magic Legacy {version} runtime: {count} files")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
+)
+
+    in_gun = False
+    removed = 0
+    out: list[str] = []
+    for line in lines:
+        match = top.match(line.rstrip("\r\n"))
+        if match:
+            in_gun = match.group(1) == "MAGIC_GUN_1"
+        if in_gun and script.match(line.rstrip("\r\n")):
+            removed += 1
+            continue
+        out.append(line)
+
+    if removed != 1:
+        raise RuntimeError(f"Expected to remove exactly one MAGIC_GUN_1 script hook, removed {removed}")
+
+    path.write_text("".join(out), encoding="utf-8")
+
+
 def run_checks(destination: Path) -> None:
     subprocess.run(
         [sys.executable, str(ROOT / "tools" / "apply_runtime_fixes.py"), str(destination)],

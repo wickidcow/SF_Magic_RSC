@@ -67,6 +67,11 @@ final class MagicLegacyDiagnostics {
 
         lines.add("Magic Legacy " + plugin.getDescription().getVersion());
         lines.add("Managed runtime: " + (deployment != null && deployment.success() ? "deployed" : "FAILED"));
+        lines.add("Native Java migrations: MAGIC_GUN_1");
+        lines.add(
+            "Slimefun item identity bridge: "
+                + (SlimefunItemIdentity.available() ? "available" : "unavailable (" + SlimefunItemIdentity.error() + ")")
+        );
 
         if (deployment != null) {
             lines.add("Runtime path: " + deployment.target());

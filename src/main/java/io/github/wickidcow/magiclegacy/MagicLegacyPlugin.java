@@ -17,6 +17,7 @@ public final class MagicLegacyPlugin extends JavaPlugin {
     @Override
     public void onEnable() {
         diagnostics = new MagicLegacyDiagnostics(this);
+        getServer().getPluginManager().registerEvents(new MagicGunListener(), this);
 
         PluginCommand command = getCommand("magiclegacy");
         if (command != null) {

@@ -61,21 +61,26 @@ jobs:
       - name: Inspect distributable
         run: |
           set -euo pipefail
-          JAR=build/libs/SF_MagicLegacy2.0.0.jar
+          JAR=build/libs/SF_MagicLegacy2.0.1.jar
           test -s "$JAR"
           jar tf "$JAR" | grep -Fxq 'plugin.yml'
           jar tf "$JAR" | grep -Fxq 'embedded/Magic/info.yml'
           jar tf "$JAR" | grep -Fxq 'embedded/Magic/items.yml'
           jar tf "$JAR" | grep -Fxq 'embedded/Magic/scripts/服务器.js'
+          jar tf "$JAR" | grep -Fxq 'io/github/wickidcow/magiclegacy/MagicGunListener.class'
+          if unzip -p "$JAR" embedded/Magic/items.yml | sed -n '/^MAGIC_GUN_1:/,/^[A-Z0-9_][A-Z0-9_]*:/p' | grep -Fq 'script: 基础枪'; then
+            echo "MAGIC_GUN_1 still has the legacy JavaScript hook in the embedded runtime" >&2
+            exit 1
+          fi
           javap -verbose -classpath "$JAR" io.github.wickidcow.magiclegacy.MagicLegacyPlugin \
             | grep -Fq 'major version: 65'
-          unzip -p "$JAR" embedded/Magic/info.yml | grep -Fxq 'version: Legacy-2.0.0'
-          unzip -p "$JAR" embedded/Magic/info.yml | grep -Fxq -- '- " Legacy version: 2.0.0"'
+          unzip -p "$JAR" embedded/Magic/info.yml | grep -Fxq 'version: Legacy-2.0.1'
+          unzip -p "$JAR" embedded/Magic/info.yml | grep -Fxq -- '- " Legacy version: 2.0.1"'
           unzip -p "$JAR" embedded/Magic/info.yml | grep -Fxq -- '- DynaTech'
           sha256sum "$JAR"
 
       - uses: actions/upload-artifact@v7
         with:
-          name: SF_MagicLegacy2.0.0
-          path: build/libs/SF_MagicLegacy2.0.0.jar
+          name: SF_MagicLegacy2.0.1
+          path: build/libs/SF_MagicLegacy2.0.1.jar
           if-no-files-found: error
