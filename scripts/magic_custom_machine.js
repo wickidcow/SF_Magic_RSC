@@ -163,7 +163,7 @@ function tick(info) {
         }
 
 
-        let item13 = createItemLore(Material.BARRIER, ChatColor.GREEN + "信息", [ChatColor.YELLOW + "魔法矩阵资源开采机：" + ChatColor.RED + "停止开采"]);
+        let item13 = createItemLore(Material.BARRIER, ChatColor.GREEN + "Information", [ChatColor.YELLOW + "Magic Geominer: " + ChatColor.RED + "Stopped"]);
         
 
         let NowCharge = machine.getCharge(location);
@@ -179,7 +179,7 @@ function tick(info) {
 
         machine.removeCharge(location, NeedperCraftCharge);
 
-        let item13_2 = createItemLore(Material.LIGHT, ChatColor.GREEN + "信息", [ChatColor.YELLOW + "魔法矩阵资源开采机：" + ChatColor.GREEN + "工作中"]);
+        let item13_2 = createItemLore(Material.LIGHT, ChatColor.GREEN + "Information", [ChatColor.YELLOW + "Magic Geominer: " + ChatColor.GREEN + "Working"]);
         blockMenu.addItem(13, item13_2);
 
 
@@ -356,7 +356,7 @@ function tick(info) {
 
     }
 
-    let item4 = createItemLore(Material.NETHER_STAR, ChatColor.GREEN + "开采完成", [ChatColor.AQUA + "保护环境，人人有责" + ChatColor.AQUA + "切莫开采过度" + ChatColor.AQUA + "给后来人留一些资源"]);
+    let item4 = createItemLore(Material.NETHER_STAR, ChatColor.GREEN + "Mining Complete", [ChatColor.AQUA + "No supported Magic GEO resources remain here."]);
     blockMenu.addItem(13, item13);
     blockMenu.addItem(4, item4);
     

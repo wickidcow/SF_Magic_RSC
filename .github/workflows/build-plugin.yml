@@ -62,7 +62,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          JAR=build/libs/SF_MagicLegacy2.0.12.jar
+          JAR=build/libs/SF_MagicLegacy2.0.13.jar
           test -s "$JAR"
 
           for ENTRY in \
@@ -160,17 +160,22 @@ jobs:
           unzip -p "$JAR" embedded/Magic/recipe_types.yml | grep -Fq 'Used for Magic grinding recipes.'
           unzip -p "$JAR" embedded/Magic/recipe_types.yml | grep -Fq 'Energy per craft: 100 J'
           unzip -p "$JAR" embedded/Magic/workbenches.yml | grep -Fq 'Capacity: 1,000 J'
+          unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'Runtime draw: 1,314 J per machine tick'
+          unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'Requires a &fMagic Geominer Box &7below.'
+          unzip -p "$JAR" embedded/Magic/recipe_types.yml | grep -Fq 'Extracts local Magic GEO resources.'
+          unzip -p "$JAR" embedded/Magic/scripts/magic_custom_machine.js | grep -Fq 'Magic Geominer: '
+          unzip -p "$JAR" embedded/Magic/scripts/magic_custom_machine.js | grep -Fq 'No supported Magic GEO resources remain here.'
           unzip -p "$JAR" embedded/Magic/saveditems/QYZJ_1.yml | grep -Fq 'Restores 1% of damage dealt as health'
 
           javap -verbose -classpath "$JAR" io.github.wickidcow.magiclegacy.MagicLegacyPlugin \
             | grep -Fq 'major version: 65'
-          unzip -p "$JAR" embedded/Magic/info.yml | grep -Fxq 'version: Legacy-2.0.12'
-          unzip -p "$JAR" embedded/Magic/info.yml | grep -Fxq -- '- " Legacy version: 2.0.12"'
+          unzip -p "$JAR" embedded/Magic/info.yml | grep -Fxq 'version: Legacy-2.0.13'
+          unzip -p "$JAR" embedded/Magic/info.yml | grep -Fxq -- '- " Legacy version: 2.0.13"'
           unzip -p "$JAR" embedded/Magic/info.yml | grep -Fxq -- '- DynaTech'
           sha256sum "$JAR"
 
       - uses: actions/upload-artifact@v7
         with:
-          name: SF_MagicLegacy2.0.12
-          path: build/libs/SF_MagicLegacy2.0.12.jar
+          name: SF_MagicLegacy2.0.13
+          path: build/libs/SF_MagicLegacy2.0.13.jar
           if-no-files-found: error
