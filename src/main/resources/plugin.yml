@@ -13,6 +13,8 @@ softdepend:
   - GeneticChickengineering
   - Supreme
   - FoxyMachines
+  - Networks
+  - FNAmplifications
   - magicexpansion
 loadbefore:
   - RykenSlimefunCustomizer
