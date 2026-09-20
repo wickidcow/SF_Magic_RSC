@@ -101,7 +101,8 @@ jobs:
             'io/github/wickidcow/magiclegacy/AttributeUpgradeListener.class' \
             'io/github/wickidcow/magiclegacy/GenshinBlindBoxListener.class' \
             'io/github/wickidcow/magiclegacy/MagicMusicListener.class' \
-            'io/github/wickidcow/magiclegacy/MagicDustPickaxeListener.class'; do
+            'io/github/wickidcow/magiclegacy/MagicDustPickaxeListener.class' \
+            'io/github/wickidcow/magiclegacy/MagicArchaeologyBlockListener.class'; do
             jar tf "$JAR" | grep -Fxq "$ENTRY"
           done
 
@@ -136,6 +137,9 @@ jobs:
             'embedded/Magic/scripts/Genshin_box.js' \
             'embedded/Magic/scripts/LQ.js' \
             'embedded/Magic/scripts/MOFENGAO.js' \
+            'embedded/Magic/scripts/NO_DROP.js' \
+            'embedded/Magic/scripts/可疑的沙子.js' \
+            'embedded/Magic/scripts/可疑的沙砾.js' \
             'embedded/Magic/scripts/sound.js' \
             'embedded/Magic/scripts/magic_stick_jiguang_1.js' \
             'embedded/Magic/scripts/阵法_小火苗_1.js' \
@@ -199,6 +203,9 @@ jobs:
           assert_no_hook items.yml MAGIC_GENSHIN_IMPACT_RADDOM Genshin_box
           assert_no_hook items.yml MAGIC_MUSIC LQ
           assert_no_hook items.yml MAGIC_DUST_PICKAXE MOFENGAO
+          assert_no_hook machines.yml MAGIC_TEST_WHITE_WOOL NO_DROP
+          assert_no_hook machines.yml MAGIC_KAOGU_SAND_1 可疑的沙子
+          assert_no_hook machines.yml MAGIC_KAOGU_GRAVEL_1 可疑的沙砾
           for SCRIPT in SOME_CATCH ALL_CATCH ANIMALS_SPAWN ARTIFICIAL_SPAWN SPAWNER; do
             if unzip -p "$JAR" embedded/Magic/items.yml | grep -Eq "^[[:space:]]+script:[[:space:]]*[\"\x27]?${SCRIPT}[\"\x27]?[[:space:]]*$"; then
               echo "Legacy mob runtime hook still present: $SCRIPT" >&2
@@ -230,6 +237,10 @@ jobs:
           unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Only Magic Legacy'"'"'s own modifiers are updated.'
           unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Cooldown: &f150 seconds &7per player.'
           unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'At &f250 uses&7, hold a diamond off-hand to redeem a gift.'
+          unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'name: "&dMagic Archaeology Sand"'
+          unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'name: "&dMagic Archaeology Gravel"'
+          unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'Rare-table chance: &f1 in 8&7.'
+          unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'Breaks without dropping itself.'
 
           unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Right-click to fire a focused magic shot.'
           unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Right-click to fire a charged magic laser.'
