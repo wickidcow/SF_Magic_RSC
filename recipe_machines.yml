@@ -3329,16 +3329,14 @@ MAGIC_ORE_SMELTERY:
 MAGIC_BATTERY_MACHINE_IN_1:
   item_group: magic_power
   item:
-    name: "&dMagic Battery Machine In 1"
+    name: "&dMagic Battery Charger I"
     material_type: slimefun
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODNlZDRjZTIzOTMzZTY2ZTA0ZGYxNjA3MDY0NGY3NTk5ZWViNTUzMDdmN2VhZmU4ZDkyZjQwZmIzNTIwODYzYyJ9fX0=
     lore:
-      - "&7Magic"
-      - "&a"
-      - "&7⇨ ⚡ : 999x"
-      - "&8⇨&e ⚡ &72000 J/s"  
-      - "&7⇨ ⚡ 2000 J capacity"
-      - "&a"
+      - "&8Magic Legacy"
+      - "&7Converts empty LI-I batteries into full batteries."
+      - "&8Energy per charge: 1,000 J"
+      - "&8Capacity: 2,000 J"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1:

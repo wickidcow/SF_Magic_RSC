@@ -59,6 +59,10 @@ for path in sorted(ROOT.glob("*.yml")):
             issues.append("generic legacy power wording")
         if "???" in plain or "？？？" in plain:
             issues.append("unknown numeric placeholder")
+        if "999x" in plain.lower():
+            issues.append("legacy placeholder multiplier")
+        if "j/per" in plain.lower():
+            issues.append("ambiguous legacy energy unit")
 
         if issues:
             rows.append({

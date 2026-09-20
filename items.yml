@@ -6142,14 +6142,14 @@ MAGIC_ANIMALS_CHICKEN:
 MAGIC_BATTERY_LI_1_EMPTY:
   item_group: magic_resource
   item:
-    name: "&dMagic Battery Li 1 Empty"
+    name: "&dMagic Battery LI-I (Empty)"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTEzNjFlNTc2YjQ5M2NiZmRmYWUzMjg2NjFjZWRkMWFkZDU1ZmFiNGU1ZWI0MThiOTJjZWJmNjI3NWY4YmI0In19fQ==
-    lore: 
-      - "&a"
-      - "&7Current: 0/2k J"
-      - "&a"
-      - "&7Magic"
+    lore:
+      - "&8Magic Legacy"
+      - "&7Battery state: &fEmpty"
+      - "&7Stored energy: &f0 / 2,000 J"
+      - "&7Charge in a &fMagic Battery Charger I&7."
   recipe_type: MAGIC_WORKBENCH
   recipe:
     1:
@@ -6192,14 +6192,13 @@ MAGIC_BATTERY_LI_1_EMPTY:
 MAGIC_BATTERY_LI_1_FULL:
   item_group: magic_resource
   item:
-    name: "&dMagic Battery Li 1 Full"
+    name: "&dMagic Battery LI-I (Full)"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTU4NDQzMmFmNmYzODIxNjcxMjAyNThkMWVlZThjODdjNmU3NWQ5ZTQ3OWU3YjBkNGM3YjZhZDQ4Y2ZlZWYifX19
-    lore: 
-      - "&a"
-      - "&7Current: 2k/2k J"
-      - "&a"
-      - "&7Magic"
+    lore:
+      - "&8Magic Legacy"
+      - "&7Battery state: &fFull"
+      - "&7Stored energy: &f2,000 / 2,000 J"
   recipe_type: NULL
 
 
