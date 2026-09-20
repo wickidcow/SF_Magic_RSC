@@ -1808,11 +1808,12 @@ MAGIC_CD_MACHINES_UPUP:
 MAGIC_DATA_CARD_INSERT:
   item_group: magic_infinite_machines
   item:
-    name: "&dMagic Data Card Insert"
+    name: "&dMagic Data Card Inserter"
     lore:
-    - "&a"
-    - "&8⇨ &e⚡&7 20,000 J/s"
-    - "&a" 
+    - "&8Magic Legacy"
+    - "&7Converts Infinity Expansion mob data cards"
+    - "&7into Magic Legacy data cards."
+    - "&8Energy per craft: 20,000 J"
     material: lodestone
   recipe_type: ANCIENT_ALTAR
   recipe:

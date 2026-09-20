@@ -57,12 +57,12 @@ ONLY_SNOW:
       - "&a"
 
 MAGIC_DATA_CARD_INSERT: 
-  name: "&dMagic Data Card Insert"
+  name: "&dMagic Data Card Inserter"
   material: lodestone
   lore:
-      - "&a"
-      - "&7Magic"
-      - "&a"
+      - "&8Magic Legacy"
+      - "&7Converts Infinity Expansion mob data cards"
+      - "&7into Magic Legacy data cards."
 
 MAGIC_CD_SINGULARITY: 
   name: "&dMagic Cd Singularity"

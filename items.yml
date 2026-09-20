@@ -4468,261 +4468,241 @@ MAGIC_MOB_SIMULATION_CHAMBER_UP:
 ZOMBIE_DATA_CARD_MAGIC: 
   item_group: magic_infinite_machines
   item:
-    name: "&dMagic Zombie Data Card Magic"
+    name: "&dMagic Zombie Data Card"
     material: diamond_chestplate
     glow: true
     lore:
-      - "&a"
-      - "&8⇨&e ⚡ &7800 J/s"
-      - "&a"
-      - "&7Magic"
+      - "&8Magic Legacy"
+      - "&7Converted mob-data card: &fZombie"
+      - "&7Created by the Magic Data Card Inserter."
   recipe_type: MAGIC_DATA_CARD_INSERT
 
 SLIME_DATA_CARD_MAGIC: 
   item_group: magic_infinite_machines
   item:
-    name: "&dMagic Slime Data Card Magic"
+    name: "&dMagic Slime Data Card"
     material: iron_chestplate
     glow: true
     lore:
-      - "&a"
-      - "&8⇨&e ⚡ &7800 J/s"
-      - "&a"
-      - "&7Magic"
+      - "&8Magic Legacy"
+      - "&7Converted mob-data card: &fSlime"
+      - "&7Created by the Magic Data Card Inserter."
   recipe_type: MAGIC_DATA_CARD_INSERT
 
 MAGMA_CUBE_DATA_CARD_MAGIC: 
   item_group: magic_infinite_machines
   item:
-    name: "&dMagic Magma Cube Data Card Magic"
+    name: "&dMagic Magma Cube Data Card"
     material: iron_chestplate
     glow: true
     lore:
-      - "&a"
-      - "&8⇨&e ⚡ &7800 J/s"
-      - "&a"
-      - "&7Magic"
+      - "&8Magic Legacy"
+      - "&7Converted mob-data card: &fMagma Cube"
+      - "&7Created by the Magic Data Card Inserter."
   recipe_type: MAGIC_DATA_CARD_INSERT
 
 COW_DATA_CARD_MAGIC: 
   item_group: magic_infinite_machines
   item:
-    name: "&dMagic Cow Data Card Magic"
+    name: "&dMagic Cow Data Card"
     material: iron_chestplate
     glow: true
     lore:
-      - "&a"
-      - "&8⇨&e ⚡ &7800 J/s"
-      - "&a"
-      - "&7Magic"
+      - "&8Magic Legacy"
+      - "&7Converted mob-data card: &fCow"
+      - "&7Created by the Magic Data Card Inserter."
   recipe_type: MAGIC_DATA_CARD_INSERT
 
 SHEEP_DATA_CARD_MAGIC: 
   item_group: magic_infinite_machines
   item:
-    name: "&dMagic Sheep Data Card Magic"
+    name: "&dMagic Sheep Data Card"
     material: iron_chestplate
     glow: true
     lore:
-      - "&a"
-      - "&8⇨&e ⚡ &7800 J/s"
-      - "&a"
-      - "&7Magic"
+      - "&8Magic Legacy"
+      - "&7Converted mob-data card: &fSheep"
+      - "&7Created by the Magic Data Card Inserter."
   recipe_type: MAGIC_DATA_CARD_INSERT
 
 SPIDER_DATA_CARD_MAGIC: 
   item_group: magic_infinite_machines
   item:
-    name: "&dMagic Spider Data Card Magic"
+    name: "&dMagic Spider Data Card"
     material: diamond_chestplate
     glow: true
     lore:
-      - "&a"
-      - "&8⇨&e ⚡ &7800 J/s"
-      - "&a"
-      - "&7Magic"
+      - "&8Magic Legacy"
+      - "&7Converted mob-data card: &fSpider"
+      - "&7Created by the Magic Data Card Inserter."
   recipe_type: MAGIC_DATA_CARD_INSERT
 
 SKELETON_DATA_CARD_MAGIC: 
   item_group: magic_infinite_machines
   item:
-    name: "&dMagic Skeleton Data Card Magic"
+    name: "&dMagic Skeleton Data Card"
     material: diamond_chestplate
     glow: true
     lore:
-      - "&a"
-      - "&8⇨&e ⚡ &7800 J/s"
-      - "&a"
-      - "&7Magic"
+      - "&8Magic Legacy"
+      - "&7Converted mob-data card: &fSkeleton"
+      - "&7Created by the Magic Data Card Inserter."
   recipe_type: MAGIC_DATA_CARD_INSERT
 
 WITHER_SKELETON_DATA_CARD_MAGIC: 
   item_group: magic_infinite_machines
   item:
-    name: "&dMagic Wither Skeleton Data Card Magic"
+    name: "&dMagic Wither Skeleton Data Card"
     material: diamond_chestplate
     glow: true
     lore:
-      - "&a"
-      - "&8⇨&e ⚡ &7800 J/s"
-      - "&a"
-      - "&7Magic"
+      - "&8Magic Legacy"
+      - "&7Converted mob-data card: &fWither Skeleton"
+      - "&7Created by the Magic Data Card Inserter."
   recipe_type: MAGIC_DATA_CARD_INSERT
 
 ENDERMEN_DATA_CARD_MAGIC: 
   item_group: magic_infinite_machines
   item:
-    name: "&dMagic Endermen Data Card Magic"
+    name: "&dMagic Enderman Data Card"
     material: diamond_chestplate
     glow: true
     lore:
-      - "&a"
-      - "&8⇨&e ⚡ &7800 J/s"
-      - "&a"
-      - "&7Magic"
+      - "&8Magic Legacy"
+      - "&7Converted mob-data card: &fEnderman"
+      - "&7Created by the Magic Data Card Inserter."
   recipe_type: MAGIC_DATA_CARD_INSERT
 
 CREEPER_DATA_CARD_MAGIC: 
   item_group: magic_infinite_machines
   item:
-    name: "&dMagic Creeper Data Card Magic"
+    name: "&dMagic Creeper Data Card"
     material: diamond_chestplate
     glow: true
     lore:
-      - "&a"
-      - "&8⇨&e ⚡ &7800 J/s"
-      - "&a"
-      - "&7Magic"
+      - "&8Magic Legacy"
+      - "&7Converted mob-data card: &fCreeper"
+      - "&7Created by the Magic Data Card Inserter."
   recipe_type: MAGIC_DATA_CARD_INSERT
 
 GUARDIAN_DATA_CARD_MAGIC: 
   item_group: magic_infinite_machines
   item:
-    name: "&dMagic Guardian Data Card Magic"
+    name: "&dMagic Guardian Data Card"
     material: diamond_chestplate
     glow: true
     lore:
-      - "&a"
-      - "&8⇨&e ⚡ &7800 J/s"
-      - "&a"
-      - "&7Magic"
+      - "&8Magic Legacy"
+      - "&7Converted mob-data card: &fGuardian"
+      - "&7Created by the Magic Data Card Inserter."
   recipe_type: MAGIC_DATA_CARD_INSERT
 
 CHICKEN_DATA_CARD_MAGIC: 
   item_group: magic_infinite_machines
   item:
-    name: "&dMagic Chicken Data Card Magic"
+    name: "&dMagic Chicken Data Card"
     material: iron_chestplate
     glow: true
     lore:
-      - "&a"
-      - "&8⇨&e ⚡ &7800 J/s"
-      - "&a"
-      - "&7Magic"
+      - "&8Magic Legacy"
+      - "&7Converted mob-data card: &fChicken"
+      - "&7Created by the Magic Data Card Inserter."
   recipe_type: MAGIC_DATA_CARD_INSERT
 
 IRON_GOLEM_DATA_CARD_MAGIC: 
   item_group: magic_infinite_machines
   item:
-    name: "&dMagic Iron Golem Data Card Magic"
+    name: "&dMagic Iron Golem Data Card"
     material: diamond_chestplate
     glow: true
     lore:
-      - "&a"
-      - "&8⇨&e ⚡ &7800 J/s"
-      - "&a"
-      - "&7Magic"
+      - "&8Magic Legacy"
+      - "&7Converted mob-data card: &fIron Golem"
+      - "&7Created by the Magic Data Card Inserter."
   recipe_type: MAGIC_DATA_CARD_INSERT
 
 BLAZE_DATA_CARD_MAGIC: 
   item_group: magic_infinite_machines
   item:
-    name: "&dMagic Blaze Data Card Magic"
+    name: "&dMagic Blaze Data Card"
     material: diamond_chestplate
     glow: true
     lore:
-      - "&a"
-      - "&8⇨&e ⚡ &7800 J/s"
-      - "&a"
-      - "&7Magic"
+      - "&8Magic Legacy"
+      - "&7Converted mob-data card: &fBlaze"
+      - "&7Created by the Magic Data Card Inserter."
   recipe_type: MAGIC_DATA_CARD_INSERT
 
 WITHER_DATA_CARD_MAGIC: 
   item_group: magic_infinite_machines
   item:
-    name: "&dMagic Wither Data Card Magic"
+    name: "&dMagic Wither Data Card"
     material: netherite_chestplate
     glow: true
     lore:
-      - "&a"
-      - "&8⇨&e ⚡ &7800 J/s"
-      - "&a"
-      - "&7Magic"
+      - "&8Magic Legacy"
+      - "&7Converted mob-data card: &fWither"
+      - "&7Created by the Magic Data Card Inserter."
   recipe_type: MAGIC_DATA_CARD_INSERT
 
 BEE_DATA_CARD_MAGIC: 
   item_group: magic_infinite_machines
   item:
-    name: "&dMagic Bee Data Card Magic"
+    name: "&dMagic Bee Data Card"
     material: iron_chestplate
     glow: true
     lore:
-      - "&a"
-      - "&8⇨&e ⚡ &7800 J/s"
-      - "&a"
-      - "&7Magic"
+      - "&8Magic Legacy"
+      - "&7Converted mob-data card: &fBee"
+      - "&7Created by the Magic Data Card Inserter."
   recipe_type: MAGIC_DATA_CARD_INSERT
 
 VILLAGER_DATA_CARD_MAGIC: 
   item_group: magic_infinite_machines
   item:
-    name: "&dMagic Villager Data Card Magic"
+    name: "&dMagic Villager Data Card"
     material: iron_chestplate
     glow: true
     lore:
-      - "&a"
-      - "&8⇨&e ⚡ &7800 J/s"
-      - "&a"
-      - "&7Magic"
+      - "&8Magic Legacy"
+      - "&7Converted mob-data card: &fVillager"
+      - "&7Created by the Magic Data Card Inserter."
   recipe_type: MAGIC_DATA_CARD_INSERT
 
 WITCH_DATA_CARD_MAGIC: 
   item_group: magic_infinite_machines
   item:
-    name: "&dMagic Witch Data Card Magic"
+    name: "&dMagic Witch Data Card"
     material: diamond_chestplate
     glow: true
     lore:
-      - "&a"
-      - "&8⇨&e ⚡ &7800 J/s"
-      - "&a"
-      - "&7Magic"
+      - "&8Magic Legacy"
+      - "&7Converted mob-data card: &fWitch"
+      - "&7Created by the Magic Data Card Inserter."
   recipe_type: MAGIC_DATA_CARD_INSERT
 
 VEX_DATA_CARD_MAGIC: 
   item_group: magic_infinite_machines
   item:
-    name: "&dMagic Vex Data Card Magic"
+    name: "&dMagic Vex Data Card"
     material: diamond_chestplate
     glow: true
     lore:
-      - "&a"
-      - "&8⇨&e ⚡ &7800 J/s"
-      - "&a"
-      - "&7Magic"
+      - "&8Magic Legacy"
+      - "&7Converted mob-data card: &fVex"
+      - "&7Created by the Magic Data Card Inserter."
   recipe_type: MAGIC_DATA_CARD_INSERT
 
 PHANTOM_DATA_CARD_MAGIC: 
   item_group: magic_infinite_machines
   item:
-    name: "&dMagic Phantom Data Card Magic"
+    name: "&dMagic Phantom Data Card"
     material: diamond_chestplate
     glow: true
     lore:
-      - "&a"
-      - "&8⇨&e ⚡ &7800 J/s"
-      - "&a"
-      - "&7Magic"
+      - "&8Magic Legacy"
+      - "&7Converted mob-data card: &fPhantom"
+      - "&7Created by the Magic Data Card Inserter."
   recipe_type: MAGIC_DATA_CARD_INSERT
 
 MAGIC_CD_REINFORCED_ALLOY_INGOT: 

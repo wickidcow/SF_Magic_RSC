@@ -62,7 +62,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          JAR=build/libs/SF_MagicLegacy2.0.10.jar
+          JAR=build/libs/SF_MagicLegacy2.0.11.jar
           test -s "$JAR"
 
           for ENTRY in \
@@ -151,17 +151,21 @@ jobs:
           unzip -p "$JAR" embedded/Magic/foods.yml | grep -Fq 'name: "&dMagic Fireproof Tonic"'
           unzip -p "$JAR" embedded/Magic/foods.yml | grep -Fq 'name: "&dMagic Lucky Stew"'
           unzip -p "$JAR" embedded/Magic/foods.yml | grep -Fq 'Effect level: &f1-50'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'name: "&dMagic Zombie Data Card"'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Created by the Magic Data Card Inserter.'
+          unzip -p "$JAR" embedded/Magic/recipe_types.yml | grep -Fq 'name: "&dMagic Data Card Inserter"'
+          unzip -p "$JAR" embedded/Magic/recipe_machines.yml | grep -Fq 'Energy per craft: 20,000 J'
           unzip -p "$JAR" embedded/Magic/saveditems/QYZJ_1.yml | grep -Fq 'Restores 1% of damage dealt as health'
 
           javap -verbose -classpath "$JAR" io.github.wickidcow.magiclegacy.MagicLegacyPlugin \
             | grep -Fq 'major version: 65'
-          unzip -p "$JAR" embedded/Magic/info.yml | grep -Fxq 'version: Legacy-2.0.10'
-          unzip -p "$JAR" embedded/Magic/info.yml | grep -Fxq -- '- " Legacy version: 2.0.10"'
+          unzip -p "$JAR" embedded/Magic/info.yml | grep -Fxq 'version: Legacy-2.0.11'
+          unzip -p "$JAR" embedded/Magic/info.yml | grep -Fxq -- '- " Legacy version: 2.0.11"'
           unzip -p "$JAR" embedded/Magic/info.yml | grep -Fxq -- '- DynaTech'
           sha256sum "$JAR"
 
       - uses: actions/upload-artifact@v7
         with:
-          name: SF_MagicLegacy2.0.10
-          path: build/libs/SF_MagicLegacy2.0.10.jar
+          name: SF_MagicLegacy2.0.11
+          path: build/libs/SF_MagicLegacy2.0.11.jar
           if-no-files-found: error
