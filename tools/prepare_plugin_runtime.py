@@ -38,6 +38,8 @@ MIGRATED_SCRIPTS: dict[str, dict[str, str]] = {
         "MAGIC_ATTRIBUTE_UPUP_1": "attribute_upup_1",
         "MAGIC_ATTRIBUTE_UPUP_1_MAX": "attribute_upup_1_max",
         "MAGIC_GENSHIN_IMPACT_RADDOM": "Genshin_box",
+        "MAGIC_MUSIC": "LQ",
+        "MAGIC_DUST_PICKAXE": "MOFENGAO",
         "MAGIC_STORE_FIX_1": "MFCT_FIX",
         "MAGIC_STORE_FIX_2": "MFCT_FIX",
         "MAGIC_STORE_FIX_3": "MFCT_FIX",
