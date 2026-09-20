@@ -3537,22 +3537,17 @@ MAGIC_GEOMINER:
 MAGIC_INFINITY_MIX_1:
   item_group: magic_power
   item:
-    name: "&dMagic Infinity Mix 1"
+    name: "&dMagic Infinity Processor"
     material: WHITE_GLAZED_TERRACOTTA
-    lore: 
-      - "&a"
-      - "&7Magic"
-      - "&7Magic: 384/s === 1:1 3200J/Per"
-      - "&7Magic: 384/s === 1:1 28800J/Per"
-      - '{#FDB7D4}+----------------------------------------+'
-      - '&7| (Magic) |'
-      - '&7| Magic |'
-      - '&7, Magic.'
-      - '&7Magic(), .'
-      - "&7⇨ ⚡ 2147483647 J capacity"
-      - "&8⇨ &e⚡{#FDB7D4} ？？？ J/s "
-      - "&a"
-      - "&7Magic-Power and Energy"
+    lore:
+      - "&8Magic Legacy"
+      - "&7Modular infinite-material processing machine."
+      - "&7Requires a &fMAGIC_INFINITY_MIX_BOX_1 &7above."
+      - "&7Cobblestone module: &f3,200 J per machine tick"
+      - "&7Dust module: &f28,800 J per machine tick"
+      - "&7Ingot module: &f28,800 J per machine tick"
+      - "&8Capacity: 2,147,483,647 J"
+      - "&8Runtime draw scales with installed modules"
     glow: true
   recipe: 
     1:

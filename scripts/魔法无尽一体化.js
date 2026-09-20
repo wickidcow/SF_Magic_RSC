@@ -62,7 +62,7 @@ function tick(info) {
 
         if (NowCharge == 0 || NowCharge < needPower || needPower == 0) {
             let lore = [];
-            let item53 = createItem(Material.NETHERITE_UPGRADE_SMITHING_TEMPLATE, ChatColor.YELLOW + "电力不足", lore)
+            let item53 = createItem(Material.NETHERITE_UPGRADE_SMITHING_TEMPLATE, ChatColor.YELLOW + "Insufficient Power", lore)
             blockMenu.addItem(53, item53);
             return;//电力不足
         }
@@ -92,7 +92,7 @@ function tick(info) {
 
         if(emptyNum<needCount){
             let lore = [];
-            let item53 = createItem(Material.NETHERITE_UPGRADE_SMITHING_TEMPLATE, ChatColor.YELLOW + "空间不足", lore)
+            let item53 = createItem(Material.NETHERITE_UPGRADE_SMITHING_TEMPLATE, ChatColor.YELLOW + "Output Full", lore)
             blockMenu.addItem(53, item53);
             return;
         }
@@ -114,7 +114,7 @@ function tick(info) {
 
         lore = generateLore2(itemCounts, lore)
 
-        let item53 = createItem(Material.NETHERITE_UPGRADE_SMITHING_TEMPLATE, ChatColor.YELLOW + "魔法无尽一体化工艺", lore)
+        let item53 = createItem(Material.NETHERITE_UPGRADE_SMITHING_TEMPLATE, ChatColor.YELLOW + "Magic Infinity Processing", lore)
         blockMenu.addItem(53, item53);
 
 
@@ -222,27 +222,27 @@ const generateLore = (itemCounts, needPower) => {
     var lore = [];
 
     // 推送一条Aqua颜色的当前机器数据
-    lore.push(ChatColor.AQUA + "机器数据================================");
+    lore.push(ChatColor.AQUA + "Machine Data ================================");
 
     // 检查并添加魔法圆石生成机的信息
     if (itemCounts["MAGIC_INFINITY_COBBLE_GEN"] > 0) {
-        lore.push(ChatColor.AQUA + "魔法圆石生成机：" + ChatColor.YELLOW + itemCounts["MAGIC_INFINITY_COBBLE_GEN"] + ChatColor.AQUA + " 个");
+        lore.push(ChatColor.AQUA + "Cobblestone Generator: " + ChatColor.YELLOW + itemCounts["MAGIC_INFINITY_COBBLE_GEN"] + ChatColor.AQUA + " installed");
     }
 
     // 如果有魔法磨粉机的数量，则添加到lore
     if (itemCounts["MAGIC_INFINITY_DUST_EXTRACTOR"] > 0) {
-        lore.push(ChatColor.AQUA + "魔法磨粉机：" + ChatColor.YELLOW + itemCounts["MAGIC_INFINITY_DUST_EXTRACTOR"] + ChatColor.AQUA + " 个");
+        lore.push(ChatColor.AQUA + "Dust Extractor: " + ChatColor.YELLOW + itemCounts["MAGIC_INFINITY_DUST_EXTRACTOR"] + ChatColor.AQUA + " installed");
     }
 
     // 如果有魔法铸锭机的数量，则添加到lore
     if (itemCounts["MAGIC_INFINITY_INGOT_FORMER"] > 0) {
-        lore.push(ChatColor.AQUA + "魔法铸锭机：" + ChatColor.YELLOW + itemCounts["MAGIC_INFINITY_INGOT_FORMER"] + ChatColor.AQUA + " 个");
+        lore.push(ChatColor.AQUA + "Ingot Former: " + ChatColor.YELLOW + itemCounts["MAGIC_INFINITY_INGOT_FORMER"] + ChatColor.AQUA + " installed");
     }
     if (needPower > 0) {
-        lore.push(ChatColor.AQUA + "当前电力消耗：" + ChatColor.YELLOW + needPower * 2 + ChatColor.AQUA + " J/s");
+        lore.push(ChatColor.AQUA + "Current energy use: " + ChatColor.YELLOW + needPower * 2 + ChatColor.AQUA + " J/s");
     }
     // 推送一条Aqua颜色的当前机器数据
-    lore.push(ChatColor.AQUA + "机器数据================================");
+    lore.push(ChatColor.AQUA + "Machine Data ================================");
     return lore;
 }
 
@@ -250,24 +250,24 @@ function generateLore2(itemCountsLater, lore) {
     ;
 
     // 推送一条Aqua颜色的当前机器数据
-    lore.push(ChatColor.GREEN + "产物数据================================");
+    lore.push(ChatColor.GREEN + "Output Data ================================");
 
     // 检查并添加魔法圆石生成机的信息
     if (itemCountsLater["MAGIC_INFINITY_COBBLE_GEN"] > 0) {
-        lore.push(ChatColor.GREEN + "圆石：" + ChatColor.YELLOW + itemCountsLater["MAGIC_INFINITY_COBBLE_GEN"] * 192 + ChatColor.GREEN + " 个");
+        lore.push(ChatColor.GREEN + "Cobblestone: " + ChatColor.YELLOW + itemCountsLater["MAGIC_INFINITY_COBBLE_GEN"] * 192 + ChatColor.GREEN + " items");
     }
 
     // 如果有魔法磨粉机的数量，则添加到lore
     if (itemCountsLater["MAGIC_INFINITY_DUST_EXTRACTOR"] > 0) {
-        lore.push(ChatColor.GREEN + "矿粉：" + ChatColor.YELLOW + itemCountsLater["MAGIC_INFINITY_DUST_EXTRACTOR"] * 192 + ChatColor.GREEN + " 个");
+        lore.push(ChatColor.GREEN + "Dust: " + ChatColor.YELLOW + itemCountsLater["MAGIC_INFINITY_DUST_EXTRACTOR"] * 192 + ChatColor.GREEN + " items");
     }
 
     // 如果有魔法铸锭机的数量，则添加到lore
     if (itemCountsLater["MAGIC_INFINITY_INGOT_FORMER"] > 0) {
-        lore.push(ChatColor.GREEN + "矿锭：" + ChatColor.YELLOW + itemCountsLater["MAGIC_INFINITY_INGOT_FORMER"] * 192 + ChatColor.GREEN + " 个");
+        lore.push(ChatColor.GREEN + "Ingots: " + ChatColor.YELLOW + itemCountsLater["MAGIC_INFINITY_INGOT_FORMER"] * 192 + ChatColor.GREEN + " items");
     }
     // 推送一条Aqua颜色的当前机器数据
-    lore.push(ChatColor.GREEN + "产物数据================================");
+    lore.push(ChatColor.GREEN + "Output Data ================================");
 
     return lore;
 }

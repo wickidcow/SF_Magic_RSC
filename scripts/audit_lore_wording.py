@@ -57,6 +57,8 @@ for path in sorted(ROOT.glob("*.yml")):
             issues.append("duplicated placeholder wording")
         if "magic-power and energy" in plain.lower():
             issues.append("generic legacy power wording")
+        if "???" in plain or "？？？" in plain:
+            issues.append("unknown numeric placeholder")
 
         if issues:
             rows.append({
