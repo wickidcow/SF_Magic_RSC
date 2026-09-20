@@ -10706,12 +10706,14 @@ MAGIC_ENCHANT_UP_1:
     name: "&dMagic Enchant Up 1"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWM4ZTBjZmViYzdmOWM3ZTE2ZmJhYWFlMDI1ZDFiMWQxOWQ1ZWU2MzM2NjZiY2YyNWZhMGI0MGQ1YmQyMWJjZCJ9fX0=
-    lore: 
+    lore:
       - "&8Magic Legacy"
-      - "&a"
-      - "&7, tier+1"
-      - "&710 tier1%"
-      - "&a"
+      - "&7Hold the target item in your off hand."
+      - "&7Adds or raises &fone random enchantment &7by one level."
+      - "&7Base success: &f99%"
+      - "&7Penalty: &f-1% &7per 10 levels of the target's highest enchantment."
+      - "&cFailure destroys the off-hand item."
+      - "&7Consumed on an upgrade attempt."
   script: "enchant_up_1"
   recipe_type: MAGIC_MACHINE_TYPE
   recipe:
@@ -10726,11 +10728,12 @@ MAGIC_ENCHANT_UP_1_MAX:
     name: "&dMagic Enchant Up 1 Max"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWM4ZTBjZmViYzdmOWM3ZTE2ZmJhYWFlMDI1ZDFiMWQxOWQ1ZWU2MzM2NjZiY2YyNWZhMGI0MGQ1YmQyMWJjZCJ9fX0=
-    lore: 
+    lore:
       - "&8Magic Legacy"
-      - "&a"
-      - "&7, tier+1"
-      - "&a"
+      - "&7Hold the target item in your off hand."
+      - "&7Guaranteed to add or raise &fone random enchantment &7by one level."
+      - "&7The off-hand item is never destroyed by this book."
+      - "&7Consumed on use."
   script: "enchant_up_1_max"
   recipe_type: MAGIC_NONE
 
@@ -10744,12 +10747,14 @@ MAGIC_ENCHANT_UPUP_1:
     name: "&dMagic Enchant Upup 1"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTMyNjRjMDkwOTlmYjI1MzJmNThlNTliOTFkOWYxMGZiZmZjMGIyNzBhN2VjMzg4MzNlODJhYzlkMTdjODRiZSJ9fX0=
-    lore: 
+    lore:
       - "&8Magic Legacy"
-      - "&a"
-      - "&7tier+1"
-      - "&710 tier2%"
-      - "&a"
+      - "&7Hold an already-enchanted item in your off hand."
+      - "&7Raises &fall existing enchantments &7by one level."
+      - "&7Base success: &f99%"
+      - "&7Penalty: &f-2% &7per 10 levels of the target's highest enchantment."
+      - "&cFailure destroys the off-hand item."
+      - "&7Consumed on an upgrade attempt."
   script: "enchant_upup_1"
   recipe_type: MAGIC_MACHINE_TYPE
   recipe:
@@ -10764,11 +10769,12 @@ MAGIC_ENCHANT_UPUP_1_MAX:
     name: "&dMagic Enchant Upup 1 Max"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTMyNjRjMDkwOTlmYjI1MzJmNThlNTliOTFkOWYxMGZiZmZjMGIyNzBhN2VjMzg4MzNlODJhYzlkMTdjODRiZSJ9fX0=
-    lore: 
+    lore:
       - "&8Magic Legacy"
-      - "&a"
-      - "&7tier+1"
-      - "&a"
+      - "&7Hold an already-enchanted item in your off hand."
+      - "&7Guaranteed to raise &fall existing enchantments &7by one level."
+      - "&7The off-hand item is never destroyed by this book."
+      - "&7Consumed on use."
   script: "enchant_upup_1_max"
   recipe_type: MAGIC_NONE
 
