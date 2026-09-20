@@ -3,10 +3,10 @@ MAGIC_TEST_WHITE_WOOL:
   item:
     name: "&dMagic Test White Wool"
     material: WHITE_WOOL
-    lore: 
-      - "&a"
-      - "&7Does not drop when mined"
-      - "&7Experimental tool"
+    lore:
+      - "&8Magic Legacy"
+      - "&7Breaks without dropping itself."
+      - "&7Used for testing no-drop block behavior."
   recipe_type: ENHANCED_CRAFTING_TABLE
   script: "NO_DROP"
   recipe:
@@ -3202,12 +3202,14 @@ MAGIC_B_SOUND_MACHINE_2:
 MAGIC_KAOGU_SAND_1:
   item_group: magic_interesting_items
   item:
-    name: "&dMagic Kaogu Sand 1"
+    name: "&dMagic Archaeology Sand"
     material: SUSPICIOUS_SAND
-    lore: 
-      - "&a"
-      - "&a"
+    lore:
       - "&8Magic Legacy"
+      - "&7Break to excavate one archaeology reward."
+      - "&7Rare-table chance: &f1 in 8&7."
+      - "&7Also drops &f1-3 random Slimefun dust&7."
+      - "&7Normal block drops are suppressed."
   recipe_type: ENHANCED_CRAFTING_TABLE
   script: 可疑的沙子
   recipe:
@@ -3227,12 +3229,14 @@ MAGIC_KAOGU_SAND_1:
 MAGIC_KAOGU_GRAVEL_1:
   item_group: magic_interesting_items
   item:
-    name: "&dMagic Kaogu Gravel 1"
+    name: "&dMagic Archaeology Gravel"
     material: SUSPICIOUS_GRAVEL
-    lore: 
-      - "&a"
-      - "&a"
+    lore:
       - "&8Magic Legacy"
+      - "&7Break to excavate one archaeology reward."
+      - "&7Rare-table chance: &f1 in 8&7."
+      - "&7Also drops &f1-3 random Slimefun dust&7."
+      - "&7Normal block drops are suppressed."
     glow: true
   recipe_type: ENHANCED_CRAFTING_TABLE
   script: 可疑的沙砾
