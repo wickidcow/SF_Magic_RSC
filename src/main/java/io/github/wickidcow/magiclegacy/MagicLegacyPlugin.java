@@ -37,6 +37,8 @@ public final class MagicLegacyPlugin extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new EnchantUpgradeListener(), this);
         getServer().getPluginManager().registerEvents(new AttributeUpgradeListener(this), this);
         getServer().getPluginManager().registerEvents(new GenshinBlindBoxListener(), this);
+        getServer().getPluginManager().registerEvents(new MagicMusicListener(), this);
+        getServer().getPluginManager().registerEvents(new MagicDustPickaxeListener(), this);
 
         getServer().getPluginManager().registerEvents(new StorageSkinFixListener(), this);
         nativeSpawnerManager = new NativeSpawnerManager(this);
