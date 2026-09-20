@@ -62,7 +62,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          JAR=build/libs/SF_MagicLegacy2.0.7.jar
+          JAR=build/libs/SF_MagicLegacy2.0.8.jar
           test -s "$JAR"
 
           for ENTRY in \
@@ -123,15 +123,23 @@ jobs:
           assert_no_hook items.yml MAGIC_SOUND sound
           assert_no_hook items.yml MAGIC_STICK_JIGUANG_1 magic_stick_jiguang_1
 
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Right-click to fire a focused magic shot.'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Right-click to fire a charged magic laser.'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Right-click to store &f100 experience levels.'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Makes that item permanently unbreakable.'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'A single-use PvP relic.'
+          unzip -p "$JAR" embedded/Magic/foods.yml | grep -Fq 'Grants &f1-3 random potion effects&7.'
+          unzip -p "$JAR" embedded/Magic/saveditems/QYZJ_1.yml | grep -Fq 'Restores 1% of damage dealt as health'
+
           javap -verbose -classpath "$JAR" io.github.wickidcow.magiclegacy.MagicLegacyPlugin \
             | grep -Fq 'major version: 65'
-          unzip -p "$JAR" embedded/Magic/info.yml | grep -Fxq 'version: Legacy-2.0.7'
-          unzip -p "$JAR" embedded/Magic/info.yml | grep -Fxq -- '- " Legacy version: 2.0.7"'
+          unzip -p "$JAR" embedded/Magic/info.yml | grep -Fxq 'version: Legacy-2.0.8'
+          unzip -p "$JAR" embedded/Magic/info.yml | grep -Fxq -- '- " Legacy version: 2.0.8"'
           unzip -p "$JAR" embedded/Magic/info.yml | grep -Fxq -- '- DynaTech'
           sha256sum "$JAR"
 
       - uses: actions/upload-artifact@v7
         with:
-          name: SF_MagicLegacy2.0.7
-          path: build/libs/SF_MagicLegacy2.0.7.jar
+          name: SF_MagicLegacy2.0.8
+          path: build/libs/SF_MagicLegacy2.0.8.jar
           if-no-files-found: error

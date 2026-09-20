@@ -15,7 +15,7 @@ Magic Legacy preserves the original Magic RSC content while moving its fragile r
 Magic Legacy 2.0 is installed like a normal plugin.
 
 1. Stop the server normally.
-2. Put `SF_MagicLegacy2.0.7.jar` in the server's `plugins/` folder.
+2. Put `SF_MagicLegacy2.0.8.jar` in the server's `plugins/` folder.
 3. Keep the required Slimefun addons installed.
 4. Start the server normally.
 
@@ -93,7 +93,7 @@ The 2.0 builder also declares DynaTech explicitly because the maintained Magic r
 
 The Java plugin is now the stable owner of Magic Legacy. Native migrations move into it in small testable groups, starting with the JavaScript systems that are most likely to fail across Graal/Paper changes.
 
-### Native migrations in 2.0.7
+### Native migrations in 2.0.8
 
 - `MAGIC_GUN_1` no longer executes `scripts/基础枪.js` at runtime.
 - The same 20-block hitscan, 5 damage, 8-tick cooldown, END_ROD beam, and firework sound are handled by `MagicGunListener` in Java.
@@ -108,6 +108,10 @@ The Java plugin is now the stable owner of Magic Legacy. Native migrations move 
 - `planecup.js` is retained in source history for reference but excluded from the managed runtime because no Magic YAML or central listener references it.
 - `MAGIC_SOUND` is native Java. It uses Paper's sound registry instead of the old `Sound.values()` assumption and plays each online player a random sound at that player's own location.
 - `MAGIC_STICK_JIGUANG_1` is native Java. It preserves the 50 J cost, 25-block ray trace, 1,000 damage and dual-spiral visual while reducing particle calls and fixing the old vertical-vector edge case.
+
+### Lore quality in 2.0.8
+
+The migrated items now have behavior-matched English lore instead of blank color lines or fragments such as `tier: 100`, `100 tier`, `Materials`, and `seconds`. The Infinity Blade wording was also corrected from incoming damage to damage dealt, matching its 1% lifesteal behavior. CI now runs a lore wording audit that flags blank/color-only lore, low-information fragments, CJK text, and known placeholder wording for follow-up.
 
 The intended end state is a fully native Slimefun addon with the same established `MAGIC_*` identities and no RSC runtime dependency.
 

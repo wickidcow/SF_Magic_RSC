@@ -22,11 +22,11 @@ MAGIC_FOODS_RANDOMFOOD:
     name: "&dMagic Foods Randomfood"
     material: cookie
     glow: true
-    lore: 
-      - "&a"
-      - "&a" 
-      - "&7Magic"
-      - "&a"
+    lore:
+      - "&8Magic Legacy"
+      - "&7Always edible."
+      - "&7Grants &f1-3 random potion effects&7."
+      - "&8Effects may be helpful or harmful"
   script: "randomfood"
   nutrition: 5
   saturation: 5
