@@ -11,6 +11,7 @@ public final class MagicLegacyPlugin extends JavaPlugin {
     private NativeSpawnerManager nativeSpawnerManager;
     private NativePlainMachineManager nativePlainMachineManager;
     private NativePowerMixManager nativePowerMixManager;
+    private NativePlayerAttackManager nativePlayerAttackManager;
 
     @Override
     public void onLoad() {
@@ -50,6 +51,8 @@ public final class MagicLegacyPlugin extends JavaPlugin {
         nativePlainMachineManager.start();
         nativePowerMixManager = new NativePowerMixManager(this);
         nativePowerMixManager.start();
+        nativePlayerAttackManager = new NativePlayerAttackManager(this);
+        nativePlayerAttackManager.start();
 
         PluginCommand command = getCommand("magiclegacy");
         if (command != null) {
@@ -82,6 +85,10 @@ public final class MagicLegacyPlugin extends JavaPlugin {
         if (nativePowerMixManager != null) {
             nativePowerMixManager.stop();
             nativePowerMixManager = null;
+        }
+        if (nativePlayerAttackManager != null) {
+            nativePlayerAttackManager.stop();
+            nativePlayerAttackManager = null;
         }
     }
 
