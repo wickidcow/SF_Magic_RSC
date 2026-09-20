@@ -198,7 +198,31 @@ def strip_script_hooks(path: Path, migrated: dict[str, str]) -> None:
 
 def strip_script_family_hooks(path: Path, scripts: dict[str, int]) -> None:
     lines = path.read_text(encoding="utf-8").splitlines(keepends=True)
-    pattern = re.compile(r'^\s+script:\s*["\x27]?(.+?)["\x27]?\s*(?:#.*)?    """Remove RSC hooks and runtime files that now have native Java replacements."""
+    pattern = re.compile(r'^\s+script:\s*["\x27]?(.+?)["\x27]?\s*(?:#.*)?$')
+    removed = {name: 0 for name in scripts}
+    out: list[str] = []
+
+    for line in lines:
+        raw = line.rstrip("\r\n")
+        match = pattern.match(raw)
+        if match and match.group(1) in scripts:
+            removed[match.group(1)] += 1
+            continue
+        out.append(line)
+
+    failures = {
+        name: {"expected": scripts[name], "actual": count}
+        for name, count in removed.items()
+        if count != scripts[name]
+    }
+    if failures:
+        raise RuntimeError(f"Native script family hook mismatch in {path.name}: {failures}")
+
+    path.write_text("".join(out), encoding="utf-8")
+
+
+def disable_migrated_scripts(destination: Path) -> None:
+    """Remove RSC hooks and runtime files that now have native Java replacements."""
     migrated_script_names: set[str] = set()
 
     for yaml_name, mappings in MIGRATED_SCRIPTS.items():
