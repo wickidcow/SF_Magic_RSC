@@ -89,7 +89,8 @@ jobs:
             'io/github/wickidcow/magiclegacy/MagicLaserStickListener.class' \
             'io/github/wickidcow/magiclegacy/FlameFormationListener.class' \
             'io/github/wickidcow/magiclegacy/SnowFoodListener.class' \
-            'io/github/wickidcow/magiclegacy/PlanecupListener.class'; do
+            'io/github/wickidcow/magiclegacy/PlanecupListener.class' \
+            'io/github/wickidcow/magiclegacy/BannerLianhunListener.class'; do
             jar tf "$JAR" | grep -Fxq "$ENTRY"
           done
 
@@ -103,6 +104,7 @@ jobs:
             'embedded/Magic/scripts/QYZJ_1.js' \
             'embedded/Magic/scripts/randomfood.js' \
             'embedded/Magic/scripts/planecup.js' \
+            'embedded/Magic/scripts/BANNER_LIST.js' \
             'embedded/Magic/scripts/sound.js' \
             'embedded/Magic/scripts/magic_stick_jiguang_1.js' \
             'embedded/Magic/scripts/阵法_小火苗_1.js' \
@@ -149,6 +151,11 @@ jobs:
           assert_no_hook items.yml MAGIC_STICK_JIGUANG_1 magic_stick_jiguang_1
           assert_no_hook items.yml MAGIC_ZHENFA_FIRE_1 阵法_小火苗_1
           assert_no_hook items.yml MAGIC_NEW_PLANECUP planecup
+          assert_no_hook items.yml MAGIC_BANNER_LIANHUN BANNER_LIST
+
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'name: "&dMagic Soul Banner"'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Kills with this banner capture &f1 soul&7.'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Burst damage: &f8 × stored souls&7; costs &f1/3 of stored souls&7.'
 
           unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Right-click to fire a focused magic shot.'
           unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Right-click to fire a charged magic laser.'
