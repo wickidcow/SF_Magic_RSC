@@ -6798,10 +6798,10 @@ MAGIC_EGG_IRON_GOLEM:
     name: "&dMagic Egg Iron Golem"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjY5ZDBkNDcxMTE1M2EwODljNTU2N2E3NDliMjc4NzljNzY5ZDNiZGNlYTZmZGE5ZDZmNjZlOTNkZDhjNDUxMiJ9fX0=
-    lore: 
-      - "&a"
-      - "&a"
+    lore:
       - "&8Magic Legacy"
+      - "&7Creates the corresponding artificial mob when used on a block."
+      - "&7The item is consumed on a successful spawn."
   script: "ARTIFICIAL_SPAWN"
   recipe_type: MAGIC_WORKBENCH
   recipe:
@@ -6830,10 +6830,10 @@ MAGIC_ARTIFICIAL_WITHER_SKELETON:
     name: "&dMagic Artificial Wither Skeleton"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzc0MzEyM2ExOWU4MDkzYjQ2NWI4NDgzOGUyOGY3ZDY0YWYwNzljNThiN2NmM2RhYzA3YzhjNTkyYTY0ZmMzMiJ9fX0=
-    lore: 
-      - "&a"
-      - "&a"
+    lore:
       - "&8Magic Legacy"
+      - "&7Creates the corresponding artificial mob when used on a block."
+      - "&7The item is consumed on a successful spawn."
   script: "ARTIFICIAL_SPAWN"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -6853,10 +6853,10 @@ MAGIC_ARTIFICIAL_SKELETON:
     name: "&dMagic Artificial Skeleton"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGEzNWU3NjQ5MmQ0MmQ3MmNmNTZkZmM0YjdkNTM0N2Q0OGNjODg5NDBkZmQ2YTlkNjIzNWJjNzE4ZjRjNmJhYiJ9fX0=
-    lore: 
-      - "&a"
-      - "&a"
+    lore:
       - "&8Magic Legacy"
+      - "&7Creates the corresponding artificial mob when used on a block."
+      - "&7The item is consumed on a successful spawn."
   script: "ARTIFICIAL_SPAWN"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -6882,10 +6882,10 @@ MAGIC_ARTIFICIAL_CREEPER:
     name: "&dMagic Artificial Creeper"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTVlN2UwNzJlYWU4ZTc5OWQ5NzNjNDA4ODNhNzliZTRkZDJkNmY1ZDdkZGRiM2FjMTk1MTRlODVjZGViYTc2YSJ9fX0=
-    lore: 
-      - "&a"
-      - "&a"
+    lore:
       - "&8Magic Legacy"
+      - "&7Creates the corresponding artificial mob when used on a block."
+      - "&7The item is consumed on a successful spawn."
   script: "ARTIFICIAL_SPAWN"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -6911,10 +6911,10 @@ MAGIC_ARTIFICIAL_ZOMBIE:
     name: "&dMagic Artificial Zombie"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWMyMzJkMDY4M2JhMWUzNjI1OTNmYTFhOTdkNzQ0YzI5MGIxNjU1ZDcyYjIyNzc5ODhhNmM4NWE5Mzg1NDI1NSJ9fX0=
-    lore: 
-      - "&a"
-      - "&a"
+    lore:
       - "&8Magic Legacy"
+      - "&7Creates the corresponding artificial mob when used on a block."
+      - "&7The item is consumed on a successful spawn."
   script: "ARTIFICIAL_SPAWN"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -6940,10 +6940,10 @@ MAGIC_ARTIFICIAL_GIANT:
     name: "&dMagic Artificial Giant"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjc1OGFjNTdkNjAwM2I2MDJmMjBiYmUxYWQ0NWM1ZTk2ZGI2YTI0MWZhMTMyMzc3MzgxYjdmMTg0NDUwNTdhNiJ9fX0=
-    lore: 
-      - "&a"
-      - "&a"
+    lore:
       - "&8Magic Legacy"
+      - "&7Creates the corresponding artificial mob when used on a block."
+      - "&7The item is consumed on a successful spawn."
   script: "ARTIFICIAL_SPAWN"
   recipe_type: MAGIC_NONE
 
@@ -9266,11 +9266,12 @@ MAGIC_BEE_CATCH:
     name: "&dMagic Bee Catch"
     material: BRUSH
     glow: true
-    lore: 
+    lore:
       - "&8Magic Legacy"
-      - "&a"
-      - "&a"
-      - "&7Magic"
+      - "&7Aim at the matching adult mob within &f5 blocks&7."
+      - "&7Activation attempt: &f50 J"
+      - "&7Successful capture adds: &f250 J"
+      - "&7Successful capture total: &f300 J"
   recipe_type: ENHANCED_CRAFTING_TABLE
   energy_capacity: 8000
   script: SOME_CATCH
@@ -9305,9 +9306,10 @@ MAGIC_EGG_BEE:
     name: "&dMagic Egg Bee"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODg2YTUwOWZmM2NkNDcxZjFiNDI4YTE5NGI2NzExNDcwYTU0NzczZTVkZTZlZTA3ZjdlNjAxY2M1ZTc1YTIwMCJ9fX0=
-    lore: 
-      - "&a"
-      - "&7Magic"
+    lore:
+      - "&8Magic Legacy"
+      - "&7Releases a baby Magic mob when used on a block."
+      - "&7The item is consumed on a successful spawn."
   recipe_type: MAGIC_CATCH
   script: ANIMALS_SPAWN
 
@@ -9317,11 +9319,12 @@ MAGIC_PIG_CATCH:
     name: "&dMagic Pig Catch"
     material: BRUSH
     glow: true
-    lore: 
+    lore:
       - "&8Magic Legacy"
-      - "&a"
-      - "&a"
-      - "&7Magic"
+      - "&7Aim at the matching adult mob within &f5 blocks&7."
+      - "&7Activation attempt: &f50 J"
+      - "&7Successful capture adds: &f250 J"
+      - "&7Successful capture total: &f300 J"
   recipe_type: ENHANCED_CRAFTING_TABLE
   energy_capacity: 8000
   script: SOME_CATCH
@@ -9356,9 +9359,10 @@ MAGIC_PIG_1:
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjUwMzM3NzlmODc2MTFmOGU3MWM1YjAyYjkxYjQwYmNhNWMxYzk5YWZhNzUyYWJkNjM2YTQ5NWY5NTNiNjQ2In19fQ==
     glow: true
-    lore: 
-      - "&a"
-      - "&7Magic"
+    lore:
+      - "&8Magic Legacy"
+      - "&7Releases a baby Magic mob when used on a block."
+      - "&7The item is consumed on a successful spawn."
   recipe_type: MAGIC_CATCH
   script: ANIMALS_SPAWN
 
@@ -9368,11 +9372,12 @@ MAGIC_SHEEP_CATCH:
     name: "&dMagic Sheep Catch"
     material: BRUSH
     glow: true
-    lore: 
+    lore:
       - "&8Magic Legacy"
-      - "&a"
-      - "&a"
-      - "&7Magic"
+      - "&7Aim at the matching adult mob within &f5 blocks&7."
+      - "&7Activation attempt: &f50 J"
+      - "&7Successful capture adds: &f250 J"
+      - "&7Successful capture total: &f300 J"
   recipe_type: ENHANCED_CRAFTING_TABLE
   energy_capacity: 8000
   script: SOME_CATCH
@@ -9407,9 +9412,10 @@ MAGIC_SHEEP_1:
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODRlNWNkYjBlZGIzNjJjYjQ1NDU4NmQxZmQwZWJlOTcxNDIzZjAxNWIwYjFiZmM5NWY4ZDVhZjhhZmU3ZTgxMCJ9fX0=
     glow: true
-    lore: 
-      - "&a"
-      - "&7Magic"
+    lore:
+      - "&8Magic Legacy"
+      - "&7Releases a baby Magic mob when used on a block."
+      - "&7The item is consumed on a successful spawn."
   recipe_type: MAGIC_CATCH
   script: ANIMALS_SPAWN
 
@@ -9420,11 +9426,12 @@ MAGIC_CHICKEN_CATCH:
     name: "&dMagic Chicken Catch"
     material: BRUSH
     glow: true
-    lore: 
+    lore:
       - "&8Magic Legacy"
-      - "&a"
-      - "&a"
-      - "&7Magic"
+      - "&7Aim at the matching adult mob within &f5 blocks&7."
+      - "&7Activation attempt: &f50 J"
+      - "&7Successful capture adds: &f250 J"
+      - "&7Successful capture total: &f300 J"
   recipe_type: ENHANCED_CRAFTING_TABLE
   energy_capacity: 8000
   script: SOME_CATCH
@@ -9459,9 +9466,10 @@ MAGIC_CHICKEN_1:
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDE0OTA3YzNlODA1ZDhmOGRlNTU2YmM5ZGM0YzkxMzZkYzYwZDk1MDc3NDM3OGM2M2YyNjE1ZGJiMjNiMzNiNyJ9fX0=
     glow: true
-    lore: 
-      - "&a"
-      - "&7Magic"
+    lore:
+      - "&8Magic Legacy"
+      - "&7Releases a baby Magic mob when used on a block."
+      - "&7The item is consumed on a successful spawn."
   recipe_type: MAGIC_CATCH
   script: ANIMALS_SPAWN
 
@@ -9471,11 +9479,12 @@ MAGIC_COW_CATCH:
     name: "&dMagic Cow Catch"
     material: BRUSH
     glow: true
-    lore: 
+    lore:
       - "&8Magic Legacy"
-      - "&a"
-      - "&a"
-      - "&7Magic"
+      - "&7Aim at the matching adult mob within &f5 blocks&7."
+      - "&7Activation attempt: &f50 J"
+      - "&7Successful capture adds: &f250 J"
+      - "&7Successful capture total: &f300 J"
   recipe_type: ENHANCED_CRAFTING_TABLE
   energy_capacity: 8000
   script: SOME_CATCH
@@ -9510,9 +9519,10 @@ MAGIC_COW_1:
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjg4YmU1N2FmNmQyNDhjMjk3YjNjYWU2NzZmNDVjYzJhNDM4ZjE1YTllZjI2Y2RmNWYwMzVmYjg0MmQ4NmRkOSJ9fX0=
     glow: true
-    lore: 
-      - "&a"
-      - "&7Magic"
+    lore:
+      - "&8Magic Legacy"
+      - "&7Releases a baby Magic mob when used on a block."
+      - "&7The item is consumed on a successful spawn."
   recipe_type: MAGIC_CATCH
   script: ANIMALS_SPAWN
 
@@ -9522,11 +9532,12 @@ MAGIC_OCELOT_CATCH:
     name: "&dMagic Ocelot Catch"
     material: BRUSH
     glow: true
-    lore: 
+    lore:
       - "&8Magic Legacy"
-      - "&a"
-      - "&a"
-      - "&7Magic"
+      - "&7Aim at the matching adult mob within &f5 blocks&7."
+      - "&7Activation attempt: &f50 J"
+      - "&7Successful capture adds: &f250 J"
+      - "&7Successful capture total: &f300 J"
   recipe_type: ENHANCED_CRAFTING_TABLE
   energy_capacity: 8000
   script: SOME_CATCH
@@ -9561,9 +9572,10 @@ MAGIC_OCELOT_1:
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDViY2Y4OTdmYTYwNmFiZGIxZmEyYTFlODhhMDdkOGZiYmI1YmJkNDQ1ZTBhZmE1NzYyYTQ2NTA5NDYyNThmMiJ9fX0=
     glow: true
-    lore: 
-      - "&a"
-      - "&7Magic"
+    lore:
+      - "&8Magic Legacy"
+      - "&7Releases a baby Magic mob when used on a block."
+      - "&7The item is consumed on a successful spawn."
   recipe_type: MAGIC_CATCH
   script: ANIMALS_SPAWN
 
@@ -9573,11 +9585,12 @@ MAGIC_CAT_CATCH:
     name: "&dMagic Cat Catch"
     material: BRUSH
     glow: true
-    lore: 
+    lore:
       - "&8Magic Legacy"
-      - "&a"
-      - "&a"
-      - "&7Magic"
+      - "&7Aim at the matching adult mob within &f5 blocks&7."
+      - "&7Activation attempt: &f50 J"
+      - "&7Successful capture adds: &f250 J"
+      - "&7Successful capture total: &f300 J"
   recipe_type: ENHANCED_CRAFTING_TABLE
   energy_capacity: 8000
   script: SOME_CATCH
@@ -9612,9 +9625,10 @@ MAGIC_CAT_1:
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjZmMGE4NDZjYjliMDhhYjc2NGVhYjhiYjlkOGFhMWYzMjAwMTQ5MTkyZTZkMDkzNjBlMTc5MzliMWNjNmYzYSJ9fX0=
     glow: true
-    lore: 
-      - "&a"
-      - "&7Magic"
+    lore:
+      - "&8Magic Legacy"
+      - "&7Releases a baby Magic mob when used on a block."
+      - "&7The item is consumed on a successful spawn."
   recipe_type: MAGIC_CATCH
   script: ANIMALS_SPAWN
 
@@ -9625,11 +9639,12 @@ MAGIC_DONKEY_CATCH:
     name: "&dMagic Donkey Catch"
     material: BRUSH
     glow: true
-    lore: 
+    lore:
       - "&8Magic Legacy"
-      - "&a"
-      - "&a"
-      - "&7Magic"
+      - "&7Aim at the matching adult mob within &f5 blocks&7."
+      - "&7Activation attempt: &f50 J"
+      - "&7Successful capture adds: &f250 J"
+      - "&7Successful capture total: &f300 J"
   recipe_type: ENHANCED_CRAFTING_TABLE
   energy_capacity: 8000
   script: SOME_CATCH
@@ -9664,9 +9679,10 @@ MAGIC_DONKEY_1:
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEyYzVlZjgzNjNmZWM5MDViY2VhMjc3OWJmYTRjZDZkOTk2NzZiMGNiMWRkNWU3ZDlmNmYwMDY4NzI5ODQyZiJ9fX0=
     glow: true
-    lore: 
-      - "&a"
-      - "&7Magic"
+    lore:
+      - "&8Magic Legacy"
+      - "&7Releases a baby Magic mob when used on a block."
+      - "&7The item is consumed on a successful spawn."
   recipe_type: MAGIC_CATCH
   script: ANIMALS_SPAWN
 
@@ -9676,11 +9692,12 @@ MAGIC_FOX_CATCH:
     name: "&dMagic Fox Catch"
     material: BRUSH
     glow: true
-    lore: 
+    lore:
       - "&8Magic Legacy"
-      - "&a"
-      - "&a"
-      - "&7Magic"
+      - "&7Aim at the matching adult mob within &f5 blocks&7."
+      - "&7Activation attempt: &f50 J"
+      - "&7Successful capture adds: &f250 J"
+      - "&7Successful capture total: &f300 J"
   recipe_type: ENHANCED_CRAFTING_TABLE
   energy_capacity: 8000
   script: SOME_CATCH
@@ -9715,9 +9732,10 @@ MAGIC_FOX_1:
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQ3NjdlNjExZmY5YmRkYmMzYzk0YmUwNDAzOWVkZDQyM2Q2ZGQ1ZTYyYmNhZGFjMzRiZWJiNGY3N2ViMzk4ZiJ9fX0=
     glow: true
-    lore: 
-      - "&a"
-      - "&7Magic"
+    lore:
+      - "&8Magic Legacy"
+      - "&7Releases a baby Magic mob when used on a block."
+      - "&7The item is consumed on a successful spawn."
   recipe_type: MAGIC_CATCH
   script: ANIMALS_SPAWN
 
@@ -9728,11 +9746,12 @@ MAGIC_FROG_CATCH:
     name: "&dMagic Frog Catch"
     material: BRUSH
     glow: true
-    lore: 
+    lore:
       - "&8Magic Legacy"
-      - "&a"
-      - "&a"
-      - "&7Magic"
+      - "&7Aim at the matching adult mob within &f5 blocks&7."
+      - "&7Activation attempt: &f50 J"
+      - "&7Successful capture adds: &f250 J"
+      - "&7Successful capture total: &f300 J"
   recipe_type: ENHANCED_CRAFTING_TABLE
   energy_capacity: 8000
   script: SOME_CATCH
@@ -9767,9 +9786,10 @@ MAGIC_FROG_1:
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWRjOGIyODliOWZhZTc3ZTRjNDU5M2MwMmVkYWVkZDIyZjMxYjMyYzdhY2M3OGZhMDAyOTNjZTYyZWRmMDBjZCJ9fX0=
     glow: true
-    lore: 
-      - "&a"
-      - "&7Magic"
+    lore:
+      - "&8Magic Legacy"
+      - "&7Releases a baby Magic mob when used on a block."
+      - "&7The item is consumed on a successful spawn."
   recipe_type: MAGIC_CATCH
   script: ANIMALS_SPAWN
 
@@ -9780,11 +9800,12 @@ MAGIC_GOAT_CATCH:
     name: "&dMagic Goat Catch"
     material: BRUSH
     glow: true
-    lore: 
+    lore:
       - "&8Magic Legacy"
-      - "&a"
-      - "&a"
-      - "&7Magic"
+      - "&7Aim at the matching adult mob within &f5 blocks&7."
+      - "&7Activation attempt: &f50 J"
+      - "&7Successful capture adds: &f250 J"
+      - "&7Successful capture total: &f300 J"
   recipe_type: ENHANCED_CRAFTING_TABLE
   energy_capacity: 8000
   script: SOME_CATCH
@@ -9819,9 +9840,10 @@ MAGIC_GOAT_1:
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTNhNjJmNmIxYmVjZTMwNTdlZjg3YTAwZDA5NTliNTNjYTc1Mjc2OGRkZDIyOTFmYTM4ZGY5NjYxOTdmZWI5ZCJ9fX0=
     glow: true
-    lore: 
-      - "&a"
-      - "&7Magic"
+    lore:
+      - "&8Magic Legacy"
+      - "&7Releases a baby Magic mob when used on a block."
+      - "&7The item is consumed on a successful spawn."
   recipe_type: MAGIC_CATCH
   script: ANIMALS_SPAWN
 
@@ -9832,11 +9854,12 @@ MAGIC_HOGLIN_CATCH:
     name: "&dMagic Hoglin Catch"
     material: BRUSH
     glow: true
-    lore: 
+    lore:
       - "&8Magic Legacy"
-      - "&a"
-      - "&a"
-      - "&7Magic"
+      - "&7Aim at the matching adult mob within &f5 blocks&7."
+      - "&7Activation attempt: &f50 J"
+      - "&7Successful capture adds: &f250 J"
+      - "&7Successful capture total: &f300 J"
   recipe_type: ENHANCED_CRAFTING_TABLE
   energy_capacity: 8000
   script: SOME_CATCH
@@ -9871,9 +9894,10 @@ MAGIC_HOGLIN_1:
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWJiOWJjMGYwMWRiZDc2MmEwOGQ5ZTc3YzA4MDY5ZWQ3Yzk1MzY0YWEzMGNhMTA3MjIwODU2MWI3MzBlOGQ3NSJ9fX0=
     glow: true
-    lore: 
-      - "&a"
-      - "&7Magic"
+    lore:
+      - "&8Magic Legacy"
+      - "&7Releases a baby Magic mob when used on a block."
+      - "&7The item is consumed on a successful spawn."
   recipe_type: MAGIC_CATCH
   script: ANIMALS_SPAWN
 
@@ -9884,11 +9908,12 @@ MAGIC_HORSE_CATCH:
     name: "&dMagic Horse Catch"
     material: BRUSH
     glow: true
-    lore: 
+    lore:
       - "&8Magic Legacy"
-      - "&a"
-      - "&a"
-      - "&7Magic"
+      - "&7Aim at the matching adult mob within &f5 blocks&7."
+      - "&7Activation attempt: &f50 J"
+      - "&7Successful capture adds: &f250 J"
+      - "&7Successful capture total: &f300 J"
   recipe_type: ENHANCED_CRAFTING_TABLE
   energy_capacity: 8000
   script: SOME_CATCH
@@ -9923,9 +9948,10 @@ MAGIC_HORSE_1:
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTk2MzdiMTI3YWM3NDY5Zjk5YTRjNzM2YmQ1ZGMzZDU5NDhlM2Q5YTk4ODBiZjAzMjJhOWYwNTZkYjhhZmM4MCJ9fX0=
     glow: true
-    lore: 
-      - "&a"
-      - "&7Magic"
+    lore:
+      - "&8Magic Legacy"
+      - "&7Releases a baby Magic mob when used on a block."
+      - "&7The item is consumed on a successful spawn."
   recipe_type: MAGIC_CATCH
   script: ANIMALS_SPAWN
 
@@ -9936,11 +9962,12 @@ MAGIC_LLAMA_CATCH:
     name: "&dMagic Llama Catch"
     material: BRUSH
     glow: true
-    lore: 
+    lore:
       - "&8Magic Legacy"
-      - "&a"
-      - "&a"
-      - "&7Magic"
+      - "&7Aim at the matching adult mob within &f5 blocks&7."
+      - "&7Activation attempt: &f50 J"
+      - "&7Successful capture adds: &f250 J"
+      - "&7Successful capture total: &f300 J"
   recipe_type: ENHANCED_CRAFTING_TABLE
   energy_capacity: 8000
   script: SOME_CATCH
@@ -9975,9 +10002,10 @@ MAGIC_LLAMA_1:
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmE1ZjEwZTZlNjIzMmYxODJmZTk2NmY1MDFmMWMzNzk5ZDQ1YWUxOTAzMWExZTQ5NDFiNWRlZTBmZWZmMDU5YiJ9fX0=
     glow: true
-    lore: 
-      - "&a"
-      - "&7Magic"
+    lore:
+      - "&8Magic Legacy"
+      - "&7Releases a baby Magic mob when used on a block."
+      - "&7The item is consumed on a successful spawn."
   recipe_type: MAGIC_CATCH
   script: ANIMALS_SPAWN
 
@@ -9988,11 +10016,12 @@ MAGIC_TRADER_LLAMA_CATCH:
     name: "&dMagic Trader Llama Catch"
     material: BRUSH
     glow: true
-    lore: 
+    lore:
       - "&8Magic Legacy"
-      - "&a"
-      - "&a"
-      - "&7Magic"
+      - "&7Aim at the matching adult mob within &f5 blocks&7."
+      - "&7Activation attempt: &f50 J"
+      - "&7Successful capture adds: &f250 J"
+      - "&7Successful capture total: &f300 J"
   recipe_type: ENHANCED_CRAFTING_TABLE
   energy_capacity: 8000
   script: SOME_CATCH
@@ -10027,9 +10056,10 @@ MAGIC_TRADER_LLAMA_1:
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmU0ZDhhMGJjMTVmMjM5OTIxZWZkOGJlMzQ4MGJhNzdhOThlZTdkOWNlMDA3MjhjMGQ3MzNmMGEyZDYxNGQxNiJ9fX0=
     glow: true
-    lore: 
-      - "&a"
-      - "&7Magic"
+    lore:
+      - "&8Magic Legacy"
+      - "&7Releases a baby Magic mob when used on a block."
+      - "&7The item is consumed on a successful spawn."
   recipe_type: MAGIC_CATCH
   script: ANIMALS_SPAWN
 
@@ -10040,11 +10070,12 @@ MAGIC_MOOSHROOM_CATCH:
     name: "&dMagic Mooshroom Catch"
     material: BRUSH
     glow: true
-    lore: 
+    lore:
       - "&8Magic Legacy"
-      - "&a"
-      - "&a"
-      - "&7Magic"
+      - "&7Aim at the matching adult mob within &f5 blocks&7."
+      - "&7Activation attempt: &f50 J"
+      - "&7Successful capture adds: &f250 J"
+      - "&7Successful capture total: &f300 J"
   recipe_type: ENHANCED_CRAFTING_TABLE
   energy_capacity: 8000
   script: SOME_CATCH
@@ -10079,9 +10110,10 @@ MAGIC_MOOSHROOM_1:
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2Q1OTdmNzdjZGUzMmM5YWM5YjA2ZjgyZmNmN2M5Y2I1MDBmYWNjMTRiZmYxNjYyMjJiMjRiZTM5OTYyZjBlZiJ9fX0=
     glow: true
-    lore: 
-      - "&a"
-      - "&7Magic"
+    lore:
+      - "&8Magic Legacy"
+      - "&7Releases a baby Magic mob when used on a block."
+      - "&7The item is consumed on a successful spawn."
   recipe_type: MAGIC_CATCH
   script: ANIMALS_SPAWN
 
@@ -10092,11 +10124,12 @@ MAGIC_MULE_CATCH:
     name: "&dMagic Mule Catch"
     material: BRUSH
     glow: true
-    lore: 
+    lore:
       - "&8Magic Legacy"
-      - "&a"
-      - "&a"
-      - "&7Magic"
+      - "&7Aim at the matching adult mob within &f5 blocks&7."
+      - "&7Activation attempt: &f50 J"
+      - "&7Successful capture adds: &f250 J"
+      - "&7Successful capture total: &f300 J"
   recipe_type: ENHANCED_CRAFTING_TABLE
   energy_capacity: 8000
   script: SOME_CATCH
@@ -10131,9 +10164,10 @@ MAGIC_MULE_1:
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTA0ODZhNzQyZTdkZGEwYmFlNjFjZTJmNTVmYTEzNTI3ZjFjM2IzMzRjNTdjMDM0YmI0Y2YxMzJmYjVmNWYifX19
     glow: true
-    lore: 
-      - "&a"
-      - "&7Magic"
+    lore:
+      - "&8Magic Legacy"
+      - "&7Releases a baby Magic mob when used on a block."
+      - "&7The item is consumed on a successful spawn."
   recipe_type: MAGIC_CATCH
   script: ANIMALS_SPAWN
 
@@ -10144,11 +10178,12 @@ MAGIC_PANDA_CATCH:
     name: "&dMagic Panda Catch"
     material: BRUSH
     glow: true
-    lore: 
+    lore:
       - "&8Magic Legacy"
-      - "&a"
-      - "&a"
-      - "&7Magic"
+      - "&7Aim at the matching adult mob within &f5 blocks&7."
+      - "&7Activation attempt: &f50 J"
+      - "&7Successful capture adds: &f250 J"
+      - "&7Successful capture total: &f300 J"
   recipe_type: ENHANCED_CRAFTING_TABLE
   energy_capacity: 8000
   script: SOME_CATCH
@@ -10183,9 +10218,10 @@ MAGIC_PANDA_1:
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWIxMTg3NjNjZThiNWYzMDg2MTVlNjQ3NzEyNzRjYWNiZTMxMTg4NDc3ZTc1NmI5ZDc5NjVmZWI3ZTJkYzQwNiJ9fX0=
     glow: true
-    lore: 
-      - "&a"
-      - "&7Magic"
+    lore:
+      - "&8Magic Legacy"
+      - "&7Releases a baby Magic mob when used on a block."
+      - "&7The item is consumed on a successful spawn."
   recipe_type: MAGIC_CATCH
   script: ANIMALS_SPAWN
 
@@ -10196,11 +10232,12 @@ MAGIC_RABBIT_CATCH:
     name: "&dMagic Rabbit Catch"
     material: BRUSH
     glow: true
-    lore: 
+    lore:
       - "&8Magic Legacy"
-      - "&a"
-      - "&a"
-      - "&7Magic"
+      - "&7Aim at the matching adult mob within &f5 blocks&7."
+      - "&7Activation attempt: &f50 J"
+      - "&7Successful capture adds: &f250 J"
+      - "&7Successful capture total: &f300 J"
   recipe_type: ENHANCED_CRAFTING_TABLE
   energy_capacity: 8000
   script: SOME_CATCH
@@ -10235,9 +10272,10 @@ MAGIC_RABBIT_1:
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTYwNWQ1Yzk3NWJmNzg5OGEzNjFjNmU4NjAzOTI4ZWYwZTVmNWY4Yzk0N2YyNDQxOGI2NjQ0NGQ0MWYzMzlkYSJ9fX0=
     glow: true
-    lore: 
-      - "&a"
-      - "&7Magic"
+    lore:
+      - "&8Magic Legacy"
+      - "&7Releases a baby Magic mob when used on a block."
+      - "&7The item is consumed on a successful spawn."
   recipe_type: MAGIC_CATCH
   script: ANIMALS_SPAWN
 
@@ -10248,11 +10286,12 @@ MAGIC_STRIDER_CATCH:
     name: "&dMagic Strider Catch"
     material: BRUSH
     glow: true
-    lore: 
+    lore:
       - "&8Magic Legacy"
-      - "&a"
-      - "&a"
-      - "&7Magic"
+      - "&7Aim at the matching adult mob within &f5 blocks&7."
+      - "&7Activation attempt: &f50 J"
+      - "&7Successful capture adds: &f250 J"
+      - "&7Successful capture total: &f300 J"
   recipe_type: ENHANCED_CRAFTING_TABLE
   energy_capacity: 8000
   script: SOME_CATCH
@@ -10287,9 +10326,10 @@ MAGIC_STRIDER_1:
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTI1ODUxYTg2ZWUxYzU0Yzk0ZmM1YmVkMDE3ODIzZGZiM2JhMDhlZGRiY2FiMmE5MTRlZjQ1YjU5NmMxNjAzIn19fQ==
     glow: true
-    lore: 
-      - "&a"
-      - "&7Magic"
+    lore:
+      - "&8Magic Legacy"
+      - "&7Releases a baby Magic mob when used on a block."
+      - "&7The item is consumed on a successful spawn."
   recipe_type: MAGIC_CATCH
   script: ANIMALS_SPAWN
 
@@ -10300,11 +10340,12 @@ MAGIC_TURTLE_CATCH:
     name: "&dMagic Turtle Catch"
     material: BRUSH
     glow: true
-    lore: 
+    lore:
       - "&8Magic Legacy"
-      - "&a"
-      - "&a"
-      - "&7Magic"
+      - "&7Aim at the matching adult mob within &f5 blocks&7."
+      - "&7Activation attempt: &f50 J"
+      - "&7Successful capture adds: &f250 J"
+      - "&7Successful capture total: &f300 J"
   recipe_type: ENHANCED_CRAFTING_TABLE
   energy_capacity: 8000
   script: SOME_CATCH
@@ -10339,9 +10380,10 @@ MAGIC_TURTLE_1:
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmM4NTkzYjkxMDU4ZmYyNGEwZjY4NDUxMzBlZDNlNDQ5NTY5Y2U5YzZiMjJmYTljZDFlZDczNjBiNTA0NWVhMyJ9fX0=
     glow: true
-    lore: 
-      - "&a"
-      - "&7Magic"
+    lore:
+      - "&8Magic Legacy"
+      - "&7Releases a baby Magic mob when used on a block."
+      - "&7The item is consumed on a successful spawn."
   recipe_type: MAGIC_CATCH
   script: ANIMALS_SPAWN
 
@@ -10352,11 +10394,12 @@ MAGIC_WOLF_CATCH:
     name: "&dMagic Wolf Catch"
     material: BRUSH
     glow: true
-    lore: 
+    lore:
       - "&8Magic Legacy"
-      - "&a"
-      - "&a"
-      - "&7Magic"
+      - "&7Aim at the matching adult mob within &f5 blocks&7."
+      - "&7Activation attempt: &f50 J"
+      - "&7Successful capture adds: &f250 J"
+      - "&7Successful capture total: &f300 J"
   recipe_type: ENHANCED_CRAFTING_TABLE
   energy_capacity: 8000
   script: SOME_CATCH
@@ -10391,9 +10434,10 @@ MAGIC_WOLF_1:
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjUzNTU0ODljYzU4MzgyMjFiOTRmM2UxOWRjMjYyOTJiZGNjMDFlM2RkNzBhOGIyMmM4MjhmMjI1ZTE5ODE0MCJ9fX0=
     glow: true
-    lore: 
-      - "&a"
-      - "&7Magic"
+    lore:
+      - "&8Magic Legacy"
+      - "&7Releases a baby Magic mob when used on a block."
+      - "&7The item is consumed on a successful spawn."
   recipe_type: MAGIC_CATCH
   script: ANIMALS_SPAWN
 
@@ -10411,11 +10455,12 @@ MAGIC_ALLAY_CATCH:
     name: "&dMagic Allay Catch"
     material: BRUSH
     glow: true
-    lore: 
+    lore:
       - "&8Magic Legacy"
-      - "&a"
-      - "&a"
-      - "&7Magic"
+      - "&7Aim at the matching adult mob within &f5 blocks&7."
+      - "&7Activation attempt: &f50 J"
+      - "&7Successful capture adds: &f250 J"
+      - "&7Successful capture total: &f300 J"
   recipe_type: ENHANCED_CRAFTING_TABLE
   energy_capacity: 8000
   script: SOME_CATCH
@@ -10450,9 +10495,10 @@ MAGIC_ALLAY_1:
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTUwMjk0YTE3NDczMTBmMTA0MTI0YzYzNzNjYzYzOWI3MTJiYWE1N2I3ZDkyNjI5N2I2NDUxODhiN2JiOWFiOSJ9fX0=
     glow: true
-    lore: 
-      - "&a"
-      - "&7Magic"
+    lore:
+      - "&8Magic Legacy"
+      - "&7Releases a captured Allay when used on a block."
+      - "&7The item is consumed on a successful spawn."
   recipe_type: MAGIC_CATCH
   script: "ARTIFICIAL_SPAWN"
 
@@ -10462,12 +10508,12 @@ MAGIC_ALL_CATCH:
     name: "&dMagic All Catch"
     material: BRUSH
     glow: true
-    lore: 
+    lore:
       - "&8Magic Legacy"
-      - "&a"
-      - "&7Magic"
-      - "&7Experimental tool"
-      - "&a"
+      - "&7Captures any supported adult Magic mob within &f5 blocks&7."
+      - "&7Activation attempt: &f50 J"
+      - "&7Successful capture adds: &f250 J"
+      - "&7Successful capture total: &f300 J"
   recipe_type: MAGIC_NONE
   energy_capacity: 8000
   script: ALL_CATCH
