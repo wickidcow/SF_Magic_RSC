@@ -96,7 +96,8 @@ jobs:
             'io/github/wickidcow/magiclegacy/MagicMobSpawnListener.class' \
             'io/github/wickidcow/magiclegacy/SlimefunBlockStorageBridge.class' \
             'io/github/wickidcow/magiclegacy/NativeSpawnerManager.class' \
-            'io/github/wickidcow/magiclegacy/TeleportItemListener.class'; do
+            'io/github/wickidcow/magiclegacy/TeleportItemListener.class' \
+            'io/github/wickidcow/magiclegacy/EnchantUpgradeListener.class'; do
             jar tf "$JAR" | grep -Fxq "$ENTRY"
           done
 
@@ -121,6 +122,10 @@ jobs:
             'embedded/Magic/scripts/specialItem/定点传送卷轴.js' \
             'embedded/Magic/scripts/specialItem/定点传送法杖.js' \
             'embedded/Magic/scripts/specialItem/破损的传送卷轴.js' \
+            'embedded/Magic/scripts/enchant_up_1.js' \
+            'embedded/Magic/scripts/enchant_up_1_max.js' \
+            'embedded/Magic/scripts/enchant_upup_1.js' \
+            'embedded/Magic/scripts/enchant_upup_1_max.js' \
             'embedded/Magic/scripts/sound.js' \
             'embedded/Magic/scripts/magic_stick_jiguang_1.js' \
             'embedded/Magic/scripts/阵法_小火苗_1.js' \
@@ -174,6 +179,10 @@ jobs:
           assert_no_hook items.yml MAGIC_TP_PAPER specialItem/定点传送卷轴
           assert_no_hook items.yml MAGIC_TP_STICK specialItem/定点传送法杖
           assert_no_hook items.yml MAGIC_RANDOM_TP_PAPER specialItem/破损的传送卷轴
+          assert_no_hook items.yml MAGIC_ENCHANT_UP_1 enchant_up_1
+          assert_no_hook items.yml MAGIC_ENCHANT_UP_1_MAX enchant_up_1_max
+          assert_no_hook items.yml MAGIC_ENCHANT_UPUP_1 enchant_upup_1
+          assert_no_hook items.yml MAGIC_ENCHANT_UPUP_1_MAX enchant_upup_1_max
           for SCRIPT in SOME_CATCH ALL_CATCH ANIMALS_SPAWN ARTIFICIAL_SPAWN SPAWNER; do
             if unzip -p "$JAR" embedded/Magic/items.yml | grep -Eq "^[[:space:]]+script:[[:space:]]*[\"\x27]?${SCRIPT}[\"\x27]?[[:space:]]*$"; then
               echo "Legacy mob runtime hook still present: $SCRIPT" >&2
@@ -194,6 +203,10 @@ jobs:
           unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Right-click to teleport yourself to the bound location.'
           unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Teleports that entity to the bound location.'
           unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Horizontal range: &f±250 blocks'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Adds or raises &fone random enchantment &7by one level.'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Penalty: &f-1% &7per 10 levels of the target'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Raises &fall existing enchantments &7by one level.'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Penalty: &f-2% &7per 10 levels of the target'
 
           unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Right-click to fire a focused magic shot.'
           unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Right-click to fire a charged magic laser.'
