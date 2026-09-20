@@ -78,22 +78,22 @@ def disable_migrated_scripts(destination: Path) -> None:
 
     path = destination / "items.yml"
     lines = path.read_text(encoding="utf-8").splitlines(keepends=True)
-    top = re.compile(r"^([A-Za-z0-9_.-]+):\\s*(?:#.*)?$")
+    top = re.compile(r"^([A-Za-z0-9_.-]+):\s*(?:#.*)?$")
 
     current: str | None = None
     removed = {item_id: 0 for item_id in migrated}
     out: list[str] = []
 
     for line in lines:
-        match = top.match(line.rstrip("\\r\\n"))
+        match = top.match(line.rstrip("\r\n"))
         if match:
             current = match.group(1)
 
         expected = migrated.get(current or "")
         if expected is not None:
             script_match = re.match(
-                r'^\\s+script:\\s*["\\x27]?(.+?)["\\x27]?\\s*(?:#.*)?$',
-                line.rstrip("\\r\\n"),
+                r'^\s+script:\s*["\x27]?(.+?)["\x27]?\s*(?:#.*)?$',
+                line.rstrip("\r\n"),
             )
             if script_match and script_match.group(1) == expected:
                 removed[current] += 1
@@ -112,6 +112,7 @@ def disable_migrated_scripts(destination: Path) -> None:
         if not script_path.is_file():
             raise RuntimeError(f"Expected migrated script file was not staged: {script_path}")
         script_path.unlink()
+
 
 def run_checks(destination: Path) -> None:
     subprocess.run(
