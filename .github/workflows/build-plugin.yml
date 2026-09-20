@@ -62,7 +62,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          JAR=build/libs/SF_MagicLegacy2.0.8.jar
+          JAR=build/libs/SF_MagicLegacy2.0.9.jar
           test -s "$JAR"
 
           for ENTRY in \
@@ -78,7 +78,8 @@ jobs:
             'io/github/wickidcow/magiclegacy/MagicWeaponListener.class' \
             'io/github/wickidcow/magiclegacy/RandomFoodListener.class' \
             'io/github/wickidcow/magiclegacy/MagicSoundListener.class' \
-            'io/github/wickidcow/magiclegacy/MagicLaserStickListener.class'; do
+            'io/github/wickidcow/magiclegacy/MagicLaserStickListener.class' \
+            'io/github/wickidcow/magiclegacy/FlameFormationListener.class'; do
             jar tf "$JAR" | grep -Fxq "$ENTRY"
           done
 
@@ -93,7 +94,8 @@ jobs:
             'embedded/Magic/scripts/randomfood.js' \
             'embedded/Magic/scripts/planecup.js' \
             'embedded/Magic/scripts/sound.js' \
-            'embedded/Magic/scripts/magic_stick_jiguang_1.js'; do
+            'embedded/Magic/scripts/magic_stick_jiguang_1.js' \
+            'embedded/Magic/scripts/阵法_小火苗_1.js'; do
             if jar tf "$JAR" | grep -Fxq "$SCRIPT"; then
               echo "Removed runtime script still packaged: $SCRIPT" >&2
               exit 1
@@ -122,24 +124,27 @@ jobs:
           assert_no_hook foods.yml MAGIC_FOODS_RANDOMFOOD randomfood
           assert_no_hook items.yml MAGIC_SOUND sound
           assert_no_hook items.yml MAGIC_STICK_JIGUANG_1 magic_stick_jiguang_1
+          assert_no_hook items.yml MAGIC_ZHENFA_FIRE_1 阵法_小火苗_1
 
           unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Right-click to fire a focused magic shot.'
           unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Right-click to fire a charged magic laser.'
           unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Right-click to store &f100 experience levels.'
           unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Makes that item permanently unbreakable.'
           unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'A single-use PvP relic.'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'name: "&dMagic Flame Formation"'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Consumes all hunger and saturation'
           unzip -p "$JAR" embedded/Magic/foods.yml | grep -Fq 'Grants &f1-3 random potion effects&7.'
           unzip -p "$JAR" embedded/Magic/saveditems/QYZJ_1.yml | grep -Fq 'Restores 1% of damage dealt as health'
 
           javap -verbose -classpath "$JAR" io.github.wickidcow.magiclegacy.MagicLegacyPlugin \
             | grep -Fq 'major version: 65'
-          unzip -p "$JAR" embedded/Magic/info.yml | grep -Fxq 'version: Legacy-2.0.8'
-          unzip -p "$JAR" embedded/Magic/info.yml | grep -Fxq -- '- " Legacy version: 2.0.8"'
+          unzip -p "$JAR" embedded/Magic/info.yml | grep -Fxq 'version: Legacy-2.0.9'
+          unzip -p "$JAR" embedded/Magic/info.yml | grep -Fxq -- '- " Legacy version: 2.0.9"'
           unzip -p "$JAR" embedded/Magic/info.yml | grep -Fxq -- '- DynaTech'
           sha256sum "$JAR"
 
       - uses: actions/upload-artifact@v7
         with:
-          name: SF_MagicLegacy2.0.8
-          path: build/libs/SF_MagicLegacy2.0.8.jar
+          name: SF_MagicLegacy2.0.9
+          path: build/libs/SF_MagicLegacy2.0.9.jar
           if-no-files-found: error

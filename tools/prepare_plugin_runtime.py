@@ -21,6 +21,7 @@ MIGRATED_SCRIPTS: dict[str, dict[str, str]] = {
         "MAGIC_INFINITY_BLADE_1": "QYZJ_1",
         "MAGIC_SOUND": "sound",
         "MAGIC_STICK_JIGUANG_1": "magic_stick_jiguang_1",
+        "MAGIC_ZHENFA_FIRE_1": "阵法_小火苗_1",
     },
     "foods.yml": {
         "MAGIC_FOODS_RANDOMFOOD": "randomfood",

@@ -67,7 +67,7 @@ final class MagicLegacyDiagnostics {
 
         lines.add("Magic Legacy " + plugin.getDescription().getVersion());
         lines.add("Managed runtime: " + (deployment != null && deployment.success() ? "deployed" : "FAILED"));
-        lines.add("Native Java migrations: MAGIC_GUN_1, MAGIC_CHRISTMAS_SNOWBALL, MAGIC_EXP_COLLECTOR, MAGIC_EXP_BOTTLE, MAGIC_UNBREAKABLE_RUNE, MAGIC_INFINITE_STICK, MAGIC_INFINITY_BLADE_1, MAGIC_FOODS_RANDOMFOOD, MAGIC_SOUND, MAGIC_STICK_JIGUANG_1");
+        lines.add("Native Java migrations: MAGIC_GUN_1, MAGIC_CHRISTMAS_SNOWBALL, MAGIC_EXP_COLLECTOR, MAGIC_EXP_BOTTLE, MAGIC_UNBREAKABLE_RUNE, MAGIC_INFINITE_STICK, MAGIC_INFINITY_BLADE_1, MAGIC_FOODS_RANDOMFOOD, MAGIC_SOUND, MAGIC_STICK_JIGUANG_1, MAGIC_ZHENFA_FIRE_1");
         lines.add(
             "Slimefun item identity bridge: "
                 + (SlimefunItemIdentity.available() ? "available" : "unavailable (" + SlimefunItemIdentity.error() + ")")

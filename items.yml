@@ -10839,11 +10839,14 @@ MAGIC_ZHENFA_FIRE_1:
   item_group: magic_test
   placeable: false
   item:
-    name: "&dMagic Zhenfa Fire 1"
+    name: "&dMagic Flame Formation"
     material: PAPER
-    lore: 
+    lore:
       - "&8Magic Legacy"
-      - "&a"
+      - "&7Right-click to ignite a flame formation."
+      - "&7Radius: &f5 blocks &8| &7Damage: &f100"
+      - "&7Cooldown: &f1 second"
+      - "&8Consumes all hunger and saturation"
   script: 阵法_小火苗_1
   recipe_type: MAGIC_NONE
 
