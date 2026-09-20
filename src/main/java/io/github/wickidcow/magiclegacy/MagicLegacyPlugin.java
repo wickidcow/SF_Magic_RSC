@@ -9,6 +9,7 @@ public final class MagicLegacyPlugin extends JavaPlugin {
     private PackDeploymentResult deploymentResult;
     private MagicLegacyDiagnostics diagnostics;
     private NativeSpawnerManager nativeSpawnerManager;
+    private NativePlainMachineManager nativePlainMachineManager;
 
     @Override
     public void onLoad() {
@@ -44,6 +45,8 @@ public final class MagicLegacyPlugin extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new StorageSkinFixListener(), this);
         nativeSpawnerManager = new NativeSpawnerManager(this);
         nativeSpawnerManager.start();
+        nativePlainMachineManager = new NativePlainMachineManager(this);
+        nativePlainMachineManager.start();
 
         PluginCommand command = getCommand("magiclegacy");
         if (command != null) {
@@ -68,6 +71,10 @@ public final class MagicLegacyPlugin extends JavaPlugin {
         if (nativeSpawnerManager != null) {
             nativeSpawnerManager.stop();
             nativeSpawnerManager = null;
+        }
+        if (nativePlainMachineManager != null) {
+            nativePlainMachineManager.stop();
+            nativePlainMachineManager = null;
         }
     }
 
