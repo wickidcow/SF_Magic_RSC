@@ -34,7 +34,7 @@ final class SlimefunBlockBridge {
         this.plugin = plugin;
         try {
             Class<?> slimefunClass = Class.forName("io.github.thebusybiscuit.slimefun4.implementation.Slimefun");
-            Class<?> databaseManagerClass = Class.forName("com.xzavier0722.mc.plugin.slimefun4.storage.DatabaseManager");
+            Class<?> databaseManagerClass = Class.forName("io.github.thebusybiscuit.slimefun4.core.config.SlimefunDatabaseManager");
             Class<?> controllerClass = Class.forName("com.xzavier0722.mc.plugin.slimefun4.storage.controller.BlockDataController");
             Class<?> chunkDataClass = Class.forName("com.xzavier0722.mc.plugin.slimefun4.storage.controller.SlimefunChunkData");
             Class<?> blockDataClass = Class.forName("com.xzavier0722.mc.plugin.slimefun4.storage.controller.SlimefunBlockData");
