@@ -71,6 +71,10 @@ tasks.shadowJar {
     archiveFileName.set("SF_MagicLegacy${project.version}.jar")
 }
 
+tasks.assemble {
+    dependsOn(tasks.shadowJar)
+}
+
 tasks.register("verifyMagicJar") {
     dependsOn(tasks.shadowJar)
     doLast {
