@@ -40,9 +40,7 @@ MIGRATED_SCRIPTS: dict[str, dict[str, str]] = {
     },
 }
 
-ORPHANED_RUNTIME_SCRIPTS = {
-    "planecup",
-}
+ORPHANED_RUNTIME_SCRIPTS: set[str] = set()
 
 
 def copy_runtime(destination: Path) -> None:
