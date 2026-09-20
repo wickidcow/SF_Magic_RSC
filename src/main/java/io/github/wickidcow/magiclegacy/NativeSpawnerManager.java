@@ -13,7 +13,10 @@ import org.bukkit.World;
 import org.bukkit.block.Block;
 import org.bukkit.block.BlockState;
 import org.bukkit.block.CreatureSpawner;
+import org.bukkit.entity.Entity;
 import org.bukkit.entity.EntityType;
+import org.bukkit.entity.LivingEntity;
+import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
@@ -29,6 +32,9 @@ final class NativeSpawnerManager implements Listener {
     private static final Pattern SPAWNER_ID = Pattern.compile("^MAGIC_SPAWNER_(.+)_([123])$");
     private static final long ENERGY_COST = 520L;
     private static final int RANGE = 5;
+    private static final double ENTITY_LIMIT_RADIUS = 18.0;
+    private static final int MAX_NEARBY_LIVING = 16;
+    private static final int MAX_SAME_TYPE = 15;
 
     private final JavaPlugin plugin;
     private final Map<Location, SpawnerState> spawners = new HashMap<>();
@@ -177,10 +183,15 @@ final class NativeSpawnerManager implements Listener {
                 continue;
             }
 
-            long charge = SlimefunBlockStorageBridge.chargeAt(location);
             long next = now + state.spec().intervalMillis();
             entry.setValue(new SpawnerState(state.spec(), next));
 
+            int spawnCount = allowedSpawnCount(location, state.spec());
+            if (spawnCount <= 0) {
+                continue;
+            }
+
+            long charge = SlimefunBlockStorageBridge.chargeAt(location);
             if (charge < ENERGY_COST) {
                 continue;
             }
@@ -189,18 +200,45 @@ final class NativeSpawnerManager implements Listener {
                 continue;
             }
 
-            spawnCycle(location, state.spec());
+            spawnCycle(location, state.spec(), spawnCount);
         }
     }
 
-    private void spawnCycle(Location origin, SpawnerSpec spec) {
+    private int allowedSpawnCount(Location origin, SpawnerSpec spec) {
         World world = origin.getWorld();
         if (world == null) {
+            return 0;
+        }
+
+        int living = 0;
+        int sameType = 0;
+        for (Entity entity : world.getNearbyEntities(
+            origin,
+            ENTITY_LIMIT_RADIUS,
+            ENTITY_LIMIT_RADIUS,
+            ENTITY_LIMIT_RADIUS
+        )) {
+            if (entity instanceof LivingEntity && !(entity instanceof Player)) {
+                living++;
+                if (entity.getType() == spec.type()) {
+                    sameType++;
+                }
+            }
+        }
+
+        int livingSpace = MAX_NEARBY_LIVING - living;
+        int typeSpace = MAX_SAME_TYPE - sameType;
+        return Math.max(0, Math.min(spec.spawnCount(), Math.min(livingSpace, typeSpace)));
+    }
+
+    private void spawnCycle(Location origin, SpawnerSpec spec, int spawnCount) {
+        World world = origin.getWorld();
+        if (world == null || spawnCount <= 0) {
             return;
         }
 
         ThreadLocalRandom random = ThreadLocalRandom.current();
-        for (int i = 0; i < spec.spawnCount(); i++) {
+        for (int i = 0; i < spawnCount; i++) {
             double x = random.nextDouble(-RANGE, RANGE);
             double y = random.nextDouble(0.0, 1.0);
             double z = random.nextDouble(-RANGE, RANGE);
