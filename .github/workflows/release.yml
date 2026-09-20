@@ -2,14 +2,17 @@ name: Publish Magic Legacy JAR
 
 on:
   push:
-    tags:
-      - 'v2.*'
+    branches:
+      - main
+    paths:
+      - 'build.gradle.kts'
+      - '.github/workflows/release.yml'
   workflow_dispatch:
     inputs:
       tag:
-        description: Release tag, for example v2.0.16
-        required: true
-        default: v2.0.16
+        description: Optional release tag; leave blank to use the version from build.gradle.kts
+        required: false
+        default: ''
 
 permissions:
   contents: write
@@ -20,6 +23,14 @@ jobs:
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v6
+
+      - name: Extract version
+        id: version
+        shell: bash
+        run: |
+          VERSION=$(grep '^version = ' build.gradle.kts | head -n1 | sed -E 's/.*"([^"]+)".*/\\1/')
+          test -n "$VERSION"
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
 
       - uses: actions/setup-python@v6
         with:
@@ -41,7 +52,7 @@ jobs:
             -PplatformVersion=1.21.11-R0.1-SNAPSHOT \
             -PreleaseJvm=21 \
             --stacktrace --no-daemon
-          test -s build/libs/SF_MagicLegacy2.0.16.jar
+          test -s "build/libs/SF_MagicLegacy${{ steps.version.outputs.version }}.jar"
 
       - name: Publish raw JAR release asset
         env:
@@ -49,26 +60,28 @@ jobs:
           INPUT_TAG: ${{ inputs.tag }}
         run: |
           set -euo pipefail
-          if [[ "${GITHUB_REF_TYPE:-}" == "tag" ]]; then
-            TAG="$GITHUB_REF_NAME"
-          else
+          VERSION="${{ steps.version.outputs.version }}"
+          if [[ -n "$INPUT_TAG" ]]; then
             TAG="$INPUT_TAG"
+          else
+            TAG="v$VERSION"
           fi
-          test -n "$TAG"
-          JAR=build/libs/SF_MagicLegacy2.0.16.jar
+          JAR="build/libs/SF_MagicLegacy${VERSION}.jar"
+          test -s "$JAR"
           if ! gh release view "$TAG" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
             gh release create "$TAG" \
               --repo "$GITHUB_REPOSITORY" \
               --target "$GITHUB_SHA" \
-              --title "Magic Legacy 2.0.16" \
-              --notes "Managed Java-plugin release. Put SF_MagicLegacy2.0.16.jar in plugins/. Existing unmanaged RSC Magic content is backed up automatically on first startup."
+              --title "Magic Legacy ${VERSION}" \
+              --notes "Managed Java-plugin release. Put SF_MagicLegacy${VERSION}.jar in plugins/. Existing unmanaged RSC Magic content is backed up automatically on first startup."
           fi
           gh release upload "$TAG" "$JAR" --repo "$GITHUB_REPOSITORY" --clobber
-          sha256sum "$JAR" > SF_MagicLegacy2.0.16.jar.sha256
-          gh release upload "$TAG" SF_MagicLegacy2.0.16.jar.sha256 --repo "$GITHUB_REPOSITORY" --clobber
+          SHA_FILE="SF_MagicLegacy${VERSION}.jar.sha256"
+          sha256sum "$JAR" > "$SHA_FILE"
+          gh release upload "$TAG" "$SHA_FILE" --repo "$GITHUB_REPOSITORY" --clobber
 
       - uses: actions/upload-artifact@v7
         with:
-          name: SF_MagicLegacy2.0.16
-          path: build/libs/SF_MagicLegacy2.0.16.jar
+          name: SF_MagicLegacy${{ steps.version.outputs.version }}
+          path: build/libs/SF_MagicLegacy${{ steps.version.outputs.version }}.jar
           if-no-files-found: error
