@@ -15,7 +15,7 @@ Magic Legacy preserves the original Magic RSC content while moving its fragile r
 Magic Legacy 2.0 is installed like a normal plugin.
 
 1. Stop the server normally.
-2. Put `SF_MagicLegacy2.0.4.jar` in the server's `plugins/` folder.
+2. Put `SF_MagicLegacy2.0.5.jar` in the server's `plugins/` folder.
 3. Keep the required Slimefun addons installed.
 4. Start the server normally.
 
@@ -93,7 +93,7 @@ The 2.0 builder also declares DynaTech explicitly because the maintained Magic r
 
 The Java plugin is now the stable owner of Magic Legacy. Native migrations move into it in small testable groups, starting with the JavaScript systems that are most likely to fail across Graal/Paper changes.
 
-### Native migrations in 2.0.4
+### Native migrations in 2.0.5
 
 - `MAGIC_GUN_1` no longer executes `scripts/基础枪.js` at runtime.
 - The same 20-block hitscan, 5 damage, 8-tick cooldown, END_ROD beam, and firework sound are handled by `MagicGunListener` in Java.
@@ -104,6 +104,8 @@ The Java plugin is now the stable owner of Magic Legacy. Native migrations move 
 - `MAGIC_UNBREAKABLE_RUNE` is native Java. It keeps the same purpose and item ID but uses a harmless visual lightning effect instead of spawning ten real lightning entities at the player.
 - `MAGIC_INFINITE_STICK` is native Java. Its PvP-only instant-kill behavior is preserved, but it now respects cancelled damage events and no longer needs Graal scripting.
 - `MAGIC_INFINITY_BLADE_1` is native Java. Its 1% lifesteal now uses `Attribute.MAX_HEALTH` instead of the deprecated `getMaxHealth()` API.
+- `MAGIC_FOODS_RANDOMFOOD` is native Java. It preserves the 1–3 random-effect concept, uses the current Bukkit potion registry, avoids zero-second effects, and replaces broken placeholder messages with one concise result message.
+- `planecup.js` is retained in source history for reference but excluded from the managed runtime because no Magic YAML or central listener references it.
 
 The intended end state is a fully native Slimefun addon with the same established `MAGIC_*` identities and no RSC runtime dependency.
 
