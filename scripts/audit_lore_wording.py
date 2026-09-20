@@ -18,6 +18,7 @@ SUSPICIOUS_FRAGMENTS = {
     "seconds",
     "materials",
     "magic",
+    "bug",
 }
 
 rows: list[dict[str, object]] = []
@@ -50,6 +51,12 @@ for path in sorted(ROOT.glob("*.yml")):
             issues.append("low-information fragment")
         if "action could not be completed" in plain.lower():
             issues.append("placeholder failure text")
+        if "tiermagic" in plain.lower():
+            issues.append("merged placeholder wording")
+        if "magicmagic" in plain.lower():
+            issues.append("duplicated placeholder wording")
+        if "magic-power and energy" in plain.lower():
+            issues.append("generic legacy power wording")
 
         if issues:
             rows.append({

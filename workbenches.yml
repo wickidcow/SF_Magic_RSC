@@ -2493,13 +2493,10 @@ MAGIC_SUPREME_WORKBENCH:
     name: "&dMagic Supreme Workbench"
     material: REDSTONE_LAMP
     lore:
-      - "&a"
-      - "&7bug"
-      - "&a"
-      - "&8⇨&e ⚡ &710000  J/per"
-      - "&7⇨ ⚡ 100000 J capacity"
-      - "&a"
       - "&8Magic Legacy"
+      - "&7Crafting station for Supreme-powered Magic recipes."
+      - "&8Energy per craft: 100 J"
+      - "&8Capacity: 1,000 J"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1:

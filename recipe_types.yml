@@ -99,11 +99,9 @@ MAGIC_STORAGE_UPGRADE_TABLE:
   name: "&dMagic Storage Upgrade Table"
   material_type: skull_base64
   material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGI2MzVlOGNkMDQwNWJjYTVjM2ZkMzRiYWQ5M2EwMGNhNWEyY2EyYWQxMjE0Y2RhMTIwNDViYThhYmI4MzA1YiJ9fX0=
-  lore: 
-      - "&a"
-      - "&7tierMagic"
-      - "&7Magic"
-      - "&a"
+  lore:
+      - "&8Magic Legacy"
+      - "&7Used for Magic storage upgrade recipes."
 
 MAGIC_ORIGIN_COBBLESTONE_GEN_BASIC:
   name: "&dMagic Origin Cobblestone Gen Basic"
@@ -134,19 +132,19 @@ MAGIC_ORIGIN_PRESS:
     - "&a"
 
 MAGIC_RIGHT_CLICK_EXP_BOTTLE: 
-  name: "&dMagic Right Click Exp Bottle"
+  name: "&dUse Magic EXP Bottle"
   material: glass_bottle
   glow: true
   lore:
-    - "&a"
-    - "&7Magic"
+    - "&8Magic Legacy"
+    - "&7Right-click to release the stored experience."
 
 MAGIC_GRINDING_STONE:
   name: "&dMagic Grinding Stone"
   material: DISPENSER
-  lore: 
-    - "&a"
-    - "&a"
+  lore:
+    - "&8Magic Legacy"
+    - "&7Used for Magic grinding recipes."
 
 MAGIC_CATCH:
   name: "&dMagic Catch"
@@ -177,10 +175,7 @@ MAGIC_SUPREME_WORKBENCH:
   name: "&dMagic Supreme Workbench"
   material: REDSTONE_LAMP
   lore:
-    - "&a"
-    - "&7bug"
-    - "&a"
-    - "&8⇨&e ⚡ &710000  J/per"
-    - "&7⇨ ⚡ 100000 J capacity"
-    - "&a"
-    - "&7Magic-Power and Energy"
+    - "&8Magic Legacy"
+    - "&7Crafting station for Supreme-powered Magic recipes."
+    - "&8Energy per craft: 100 J"
+    - "&8Capacity: 1,000 J"
