@@ -7550,11 +7550,11 @@ MAGIC_STORE_FIX_0:
     material: PAPER
     glow: true
     lore:
-      - "&a"
-      - "&7Magic"
-      - "&7Magic Store Fix 0"
-      - "&a"
       - "&8Magic Legacy"
+      - "&7Storage Skin Fixers re-skin Networks cargo storage units."
+      - "&7Hold the matching storage unit in your off hand."
+      - "&7Right-click the matching Store Fix tool from your main hand."
+      - "&7The fixer is consumed; stored item data is preserved."
   recipe_type: MAGIC_NONE
 
 MAGIC_STORE_FIX_1:
@@ -7565,10 +7565,11 @@ MAGIC_STORE_FIX_1:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjJjZGEwNWVhNWQ5Y2NhNzAyMDdhOGIyOWZkZTFjOTY5NmM3NTI3YzYyZTU5OWUzZGEyZDI3NWYyMGUwYmE5YiJ9fX0=
     glow: true
     lore:
-      - "&a"
-      - "&7Magic"
-      - "&a"
       - "&8Magic Legacy"
+      - "&7For Networks Cargo Storage Unit &f1&7 only."
+      - "&7Hold one matching storage unit in your off hand."
+      - "&7Right-click to apply one random cosmetic block skin."
+      - "&7This fixer is consumed on success."
   script: MFCT_FIX
   recipe_type: MAGIC_SPECIAL
   recipe: 
@@ -7589,10 +7590,11 @@ MAGIC_STORE_FIX_2:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGE2MjcyNTU0MzE2NjVmZTFkYmJiNDljODIxNjVkNjk5ZjMwNjYyMDg0OTVlYTM1NjliZGZlMGQwYjU3MDA3ZCJ9fX0=
     glow: true
     lore:
-      - "&a"
-      - "&7Magic"
-      - "&a"
       - "&8Magic Legacy"
+      - "&7For Networks Cargo Storage Unit &f2&7 only."
+      - "&7Hold one matching storage unit in your off hand."
+      - "&7Right-click to apply one random cosmetic block skin."
+      - "&7This fixer is consumed on success."
   script: MFCT_FIX
   recipe_type: MAGIC_SPECIAL
   recipe: 
@@ -7613,10 +7615,11 @@ MAGIC_STORE_FIX_3:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGViZjZiZTgyZTgyM2U1ODJmZjhmNDVlMDFjZjUxNzUxNzM0ZDlhNzc2Y2ZmNTE0ZTg4ZWEyNmQ0OTczYmJmMCJ9fX0=
     glow: true
     lore:
-      - "&a"
-      - "&7Magic"
-      - "&a"
       - "&8Magic Legacy"
+      - "&7For Networks Cargo Storage Unit &f3&7 only."
+      - "&7Hold one matching storage unit in your off hand."
+      - "&7Right-click to apply one random cosmetic block skin."
+      - "&7This fixer is consumed on success."
   script: MFCT_FIX
   recipe_type: MAGIC_SPECIAL
   recipe: 
@@ -7637,10 +7640,11 @@ MAGIC_STORE_FIX_4:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGU0ZWJlZmVmYThjYjNjNTg2MGFjODQxMjY1OWUxMjNiYTE1NGQ0YjcwOTZjM2IxMjNjMGQxZmNhNjNjOTc5OSJ9fX0=
     glow: true
     lore:
-      - "&a"
-      - "&7Magic"
-      - "&a"
       - "&8Magic Legacy"
+      - "&7For Networks Cargo Storage Unit &f4&7 only."
+      - "&7Hold one matching storage unit in your off hand."
+      - "&7Right-click to apply one random cosmetic block skin."
+      - "&7This fixer is consumed on success."
   script: MFCT_FIX
   recipe_type: MAGIC_SPECIAL
   recipe: 
@@ -7661,10 +7665,11 @@ MAGIC_STORE_FIX_5:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDU0ODA0NmRkNmZhMDc3MzBjM2ZiYjRlY2JlNWMxYTM0MDYyOTc0NDgwNmY4ODE0NjUzZDZhYTc1YTkwMzJjNCJ9fX0=
     glow: true
     lore:
-      - "&a"
-      - "&7Magic"
-      - "&a"
       - "&8Magic Legacy"
+      - "&7For Networks Cargo Storage Unit &f5&7 only."
+      - "&7Hold one matching storage unit in your off hand."
+      - "&7Right-click to apply one random cosmetic block skin."
+      - "&7This fixer is consumed on success."
   script: MFCT_FIX
   recipe_type: MAGIC_SPECIAL
   recipe: 
@@ -7685,10 +7690,11 @@ MAGIC_STORE_FIX_6:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTdiODMyNGQxYjI5ZWZkNjY3YmZiZDY5MTM0ZTdkODkxNzExMDc5MWI4MWJhZjgwZmRiNmUyYzIwN2FmZTE4MSJ9fX0=
     glow: true
     lore:
-      - "&a"
-      - "&7Magic"
-      - "&a"
       - "&8Magic Legacy"
+      - "&7For Networks Cargo Storage Unit &f6&7 only."
+      - "&7Hold one matching storage unit in your off hand."
+      - "&7Right-click to apply one random cosmetic block skin."
+      - "&7This fixer is consumed on success."
   script: MFCT_FIX
   recipe_type: MAGIC_SPECIAL
   recipe: 
@@ -7709,10 +7715,11 @@ MAGIC_STORE_FIX_7:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWY1NjFiODExMmI2NGZiMDFkOWI2NWViZGQzYmM5ODU1NzJkMDIzMDZiNDJhZmU4OWNjODJiOWE1YzY1YzM3ZCJ9fX0=
     glow: true
     lore:
-      - "&a"
-      - "&7Magic"
-      - "&a"
       - "&8Magic Legacy"
+      - "&7For Networks Cargo Storage Unit &f7&7 only."
+      - "&7Hold one matching storage unit in your off hand."
+      - "&7Right-click to apply one random cosmetic block skin."
+      - "&7This fixer is consumed on success."
   script: MFCT_FIX
   recipe_type: MAGIC_SPECIAL
   recipe: 
@@ -7733,10 +7740,11 @@ MAGIC_STORE_FIX_8:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjk2YjZjNzdmMmMxMTMzZjZkZjczNmVmMmQ4YzUyZDQ3ZjU4NDg3YzIzZTg0ODBlZjc5ZTBkNjBhMjg5ZjU4In19fQ==
     glow: true
     lore:
-      - "&a"
-      - "&7Magic"
-      - "&a"
       - "&8Magic Legacy"
+      - "&7For Networks Cargo Storage Unit &f8&7 only."
+      - "&7Hold one matching storage unit in your off hand."
+      - "&7Right-click to apply one random cosmetic block skin."
+      - "&7This fixer is consumed on success."
   script: MFCT_FIX
   recipe_type: MAGIC_SPECIAL
   recipe: 
@@ -7757,10 +7765,11 @@ MAGIC_STORE_FIX_9:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmY1NjhkZDgwODIwNjU3NTU0ZjliNDVkYjAzMWQyMmNkOWI3ZDE2MWMxOTgyNzczYjFiMzU4NTRjOTkzOTgyNCJ9fX0=
     glow: true
     lore:
-      - "&a"
-      - "&7Magic"
-      - "&a"
       - "&8Magic Legacy"
+      - "&7For Networks Cargo Storage Unit &f9&7 only."
+      - "&7Hold one matching storage unit in your off hand."
+      - "&7Right-click to apply one random cosmetic block skin."
+      - "&7This fixer is consumed on success."
   script: MFCT_FIX
   recipe_type: MAGIC_SPECIAL
   recipe: 
@@ -7781,10 +7790,11 @@ MAGIC_STORE_FIX_10:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDVlMTVkMTVkNjA4YTg2MzcyYmI1YzNkMTBiMDZlNjI4Yzg3ZWQzMTAwOWFkMzg5MWM1OTIyYjNmYmQ4Njc3MSJ9fX0=
     glow: true
     lore:
-      - "&a"
-      - "&7Magic"
-      - "&a"
       - "&8Magic Legacy"
+      - "&7For Networks Cargo Storage Unit &f10&7 only."
+      - "&7Hold one matching storage unit in your off hand."
+      - "&7Right-click to apply one random cosmetic block skin."
+      - "&7This fixer is consumed on success."
   script: MFCT_FIX
   recipe_type: MAGIC_SPECIAL
   recipe: 
@@ -7805,10 +7815,11 @@ MAGIC_STORE_FIX_11:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWNhNDEzMGY2OGM3MTE3MmJlMDMyYjJmY2IyZDBhY2U3ZmZiMTQzZjM3NTcwOWE3ZjVhMmJjODRmNmY5ZmJkMyJ9fX0=
     glow: true
     lore:
-      - "&a"
-      - "&7Magic"
-      - "&a"
       - "&8Magic Legacy"
+      - "&7For Networks Cargo Storage Unit &f11&7 only."
+      - "&7Hold one matching storage unit in your off hand."
+      - "&7Right-click to apply one random cosmetic block skin."
+      - "&7This fixer is consumed on success."
   script: MFCT_FIX
   recipe_type: MAGIC_SPECIAL
   recipe: 
@@ -7829,10 +7840,11 @@ MAGIC_STORE_FIX_12:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjU0NGIwOWQ1NTljZWJiNDA2YjcyMjcwMGYzYmQzN2NiMTZkMjhkMmY2ODE0YjU4M2M2NDI3MDA4NGJjNjhiMyJ9fX0=
     glow: true
     lore:
-      - "&a"
-      - "&7Magic"
-      - "&a"
       - "&8Magic Legacy"
+      - "&7For Networks Cargo Storage Unit &f12&7 only."
+      - "&7Hold one matching storage unit in your off hand."
+      - "&7Right-click to apply one random cosmetic block skin."
+      - "&7This fixer is consumed on success."
   script: MFCT_FIX
   recipe_type: MAGIC_SPECIAL
   recipe: 
@@ -7853,10 +7865,11 @@ MAGIC_STORE_FIX_13:
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTdiYzI1MWE2Y2IwZDZkOWYwNWM1NzExOTExYTZlYzI0YjIwOWRiZTY0MjY3OTAxYTRiMDM3NjFkZWJjZjczOCJ9fX0=
     glow: true
     lore:
-      - "&a"
-      - "&7Magic"
-      - "&a"
       - "&8Magic Legacy"
+      - "&7For Networks Cargo Storage Unit &f13&7 only."
+      - "&7Hold one matching storage unit in your off hand."
+      - "&7Right-click to apply one random cosmetic block skin."
+      - "&7This fixer is consumed on success."
   script: MFCT_FIX
   recipe_type: MAGIC_SPECIAL
   recipe: 
