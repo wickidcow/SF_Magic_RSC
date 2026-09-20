@@ -7892,15 +7892,15 @@ MAGIC_STORE_FIX_13:
 MAGIC_MUSIC: 
   item_group: magic_interesting_items
   item:
-    name: "&e&lMUSIC~"
+    name: "&e&lMagic Music"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWM2MmZkMGQ0MTIzZGVlZWI4MjRhMDBhMTViMDliOTYwMzllZDMzNTk5YzA3N2VmNjc4MjEyMjZhMThmMWYxMSJ9fX0=
-    lore: 
+    lore:
       - "&8Magic Legacy"
-      - "&7Magic Music"
-      - "&7baby oh~"
-      - "&a"
-      - "&a"
+      - "&7Right-click to perform Magic Music."
+      - "&7Empties your hunger and matures baby chickens within &f4 blocks&7."
+      - "&7Cooldown: &f150 seconds &7per player."
+      - "&7Server use count resets on restart."
   recipe_type: ANCIENT_ALTAR
   script: LQ
   recipe:
@@ -7944,9 +7944,13 @@ MAGIC_DUST_PICKAXE:
   item:
     name: "&dMagic Dust Pickaxe"
     material: DIAMOND_PICKAXE
-    lore: 
+    lore:
       - "&8Magic Legacy"
-      - "&a"
+      - "&7Off-hand cobblestone: grind into a random Slimefun dust."
+      - "&7Each grind costs &f1 durability&7."
+      - "&7At &f250 uses&7, hold a diamond off-hand to redeem a gift."
+      - "&7Gift: &f100 XP + 30 durability repair + random reward&7."
+      - "&7Grinding progress is shared server-wide until restart."
   recipe_type: MAGIC_WORKBENCH
   script: MOFENGAO
   recipe:
