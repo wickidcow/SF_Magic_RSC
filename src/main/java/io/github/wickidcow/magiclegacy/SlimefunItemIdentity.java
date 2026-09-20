@@ -109,6 +109,36 @@ final class SlimefunItemIdentity {
         }
     }
 
+    static Float getMaxCharge(ItemStack stack) {
+        Object item = findByItem(stack);
+        if (item == null) {
+            return null;
+        }
+
+        try {
+            Method method = item.getClass().getMethod("getMaxItemCharge", ItemStack.class);
+            Object value = method.invoke(item, stack);
+            return value instanceof Number number ? number.floatValue() : null;
+        } catch (ReflectiveOperationException ex) {
+            return null;
+        }
+    }
+
+    static boolean setCharge(ItemStack stack, float amount) {
+        Object item = findByItem(stack);
+        if (item == null) {
+            return false;
+        }
+
+        try {
+            Method method = item.getClass().getMethod("setItemCharge", ItemStack.class, float.class);
+            method.invoke(item, stack, amount);
+            return true;
+        } catch (ReflectiveOperationException ex) {
+            return false;
+        }
+    }
+
     static boolean removeCharge(ItemStack stack, float amount) {
         Object item = findByItem(stack);
         if (item == null) {
@@ -118,7 +148,7 @@ final class SlimefunItemIdentity {
         try {
             Method method = item.getClass().getMethod("removeItemCharge", ItemStack.class, float.class);
             Object value = method.invoke(item, stack, amount);
-            return Boolean.TRUE.equals(value);
+            return value == null || Boolean.TRUE.equals(value);
         } catch (ReflectiveOperationException ex) {
             return false;
         }
