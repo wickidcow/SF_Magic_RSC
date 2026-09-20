@@ -11318,13 +11318,11 @@ MAGIC_TP_PAPER:
     modelId: 2200310
     glow: true
     lore:
-      - "&a"
-      - "&7shift+"
-      - "{#FDB7D4}X："
-      - "{#FDB7D4}Y："
-      - "{#FDB7D4}Z："
-      - "&a"
       - "&8Magic Legacy"
+      - "&7Sneak-right-click to bind your current location."
+      - "&7Right-click to teleport yourself to the bound location."
+      - "&7Cooldown: &f10 seconds"
+      - "&7Old bound scrolls are automatically recognized."
   script: specialItem/定点传送卷轴
   recipe_type: MAGIC_WORKBENCH
   recipe: 
@@ -11372,13 +11370,12 @@ MAGIC_TP_STICK:
     material: STICK
     glow: true
     lore:
-      - "&a"
-      - "&7shift+"
-      - "{#FDB7D4}X："
-      - "{#FDB7D4}Y："
-      - "{#FDB7D4}Z："
-      - "&a"
       - "&8Magic Legacy"
+      - "&7Sneak-right-click to bind your current location."
+      - "&7Right-click while aiming at an entity within &f10 blocks&7."
+      - "&7Teleports that entity to the bound location."
+      - "&7Cooldown: &f1 second"
+      - "&7Old bound staves are automatically recognized."
   script: specialItem/定点传送法杖
   recipe_type: MAGIC_WORKBENCH
   recipe: 
@@ -11427,9 +11424,11 @@ MAGIC_RANDOM_TP_PAPER:
     modelId: 2200310
     glow: true
     lore:
-      - "&a"
-      - "&a"
       - "&8Magic Legacy"
+      - "&7Right-click to teleport to a random nearby location."
+      - "&7Horizontal range: &f±250 blocks"
+      - "&7Vertical range: &f±25 blocks"
+      - "&7Cooldown: &f10 seconds"
   script: specialItem/破损的传送卷轴
   recipe_type: MAGIC_GRINDING_STONE
   recipe: 
