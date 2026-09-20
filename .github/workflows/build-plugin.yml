@@ -98,7 +98,10 @@ jobs:
             'io/github/wickidcow/magiclegacy/NativeSpawnerManager.class' \
             'io/github/wickidcow/magiclegacy/TeleportItemListener.class' \
             'io/github/wickidcow/magiclegacy/EnchantUpgradeListener.class' \
-            'io/github/wickidcow/magiclegacy/AttributeUpgradeListener.class'; do
+            'io/github/wickidcow/magiclegacy/AttributeUpgradeListener.class' \
+            'io/github/wickidcow/magiclegacy/GenshinBlindBoxListener.class' \
+            'io/github/wickidcow/magiclegacy/MagicMusicListener.class' \
+            'io/github/wickidcow/magiclegacy/MagicDustPickaxeListener.class'; do
             jar tf "$JAR" | grep -Fxq "$ENTRY"
           done
 
@@ -130,6 +133,9 @@ jobs:
             'embedded/Magic/scripts/enchant_upup_1_max.js' \
             'embedded/Magic/scripts/attribute_upup_1.js' \
             'embedded/Magic/scripts/attribute_upup_1_max.js' \
+            'embedded/Magic/scripts/Genshin_box.js' \
+            'embedded/Magic/scripts/LQ.js' \
+            'embedded/Magic/scripts/MOFENGAO.js' \
             'embedded/Magic/scripts/sound.js' \
             'embedded/Magic/scripts/magic_stick_jiguang_1.js' \
             'embedded/Magic/scripts/阵法_小火苗_1.js' \
@@ -190,6 +196,9 @@ jobs:
           assert_no_hook items.yml MAGIC_ENCHANT_UPUP_1_MAX enchant_upup_1_max
           assert_no_hook items.yml MAGIC_ATTRIBUTE_UPUP_1 attribute_upup_1
           assert_no_hook items.yml MAGIC_ATTRIBUTE_UPUP_1_MAX attribute_upup_1_max
+          assert_no_hook items.yml MAGIC_GENSHIN_IMPACT_RADDOM Genshin_box
+          assert_no_hook items.yml MAGIC_MUSIC LQ
+          assert_no_hook items.yml MAGIC_DUST_PICKAXE MOFENGAO
           for SCRIPT in SOME_CATCH ALL_CATCH ANIMALS_SPAWN ARTIFICIAL_SPAWN SPAWNER; do
             if unzip -p "$JAR" embedded/Magic/items.yml | grep -Eq "^[[:space:]]+script:[[:space:]]*[\"\x27]?${SCRIPT}[\"\x27]?[[:space:]]*$"; then
               echo "Legacy mob runtime hook still present: $SCRIPT" >&2
@@ -219,6 +228,8 @@ jobs:
           unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Sneak-right-click to cycle the attribute slot.'
           unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Slots: &fHead, Chest, Legs, Feet, Main Hand, Off Hand'
           unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Only Magic Legacy'"'"'s own modifiers are updated.'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Cooldown: &f150 seconds &7per player.'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'At &f250 uses&7, hold a diamond off-hand to redeem a gift.'
 
           unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Right-click to fire a focused magic shot.'
           unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Right-click to fire a charged magic laser.'
