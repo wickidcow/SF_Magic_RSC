@@ -71,6 +71,7 @@ jobs:
             'embedded/Magic/items.yml' \
             'embedded/Magic/foods.yml' \
             'embedded/Magic/scripts/服务器.js' \
+            'embedded/Magic/scripts/planecup.js' \
             'io/github/wickidcow/magiclegacy/MagicGunListener.class' \
             'io/github/wickidcow/magiclegacy/ChristmasSnowballListener.class' \
             'io/github/wickidcow/magiclegacy/ExperienceItemListener.class' \
