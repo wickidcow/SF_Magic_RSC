@@ -77,6 +77,8 @@ def disable_migrated_scripts(destination: Path) -> None:
         "MAGIC_EXP_COLLECTOR": "MFEXPBOTTLE",
         "MAGIC_EXP_BOTTLE": "MFEXPBOTTLE100",
         "MAGIC_UNBREAKABLE_RUNE": "UNBREAKABLE_RUNE",
+        "MAGIC_INFINITE_STICK": "INFINITE_STICK",
+        "MAGIC_INFINITY_BLADE_1": "QYZJ_1",
     }
 
     path = destination / "items.yml"

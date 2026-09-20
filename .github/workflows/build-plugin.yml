@@ -61,7 +61,7 @@ jobs:
       - name: Inspect distributable
         run: |
           set -euo pipefail
-          JAR=build/libs/SF_MagicLegacy2.0.3.jar
+          JAR=build/libs/SF_MagicLegacy2.0.4.jar
           test -s "$JAR"
           jar tf "$JAR" | grep -Fxq 'plugin.yml'
           jar tf "$JAR" | grep -Fxq 'embedded/Magic/info.yml'
@@ -71,7 +71,8 @@ jobs:
           jar tf "$JAR" | grep -Fxq 'io/github/wickidcow/magiclegacy/ChristmasSnowballListener.class'
           jar tf "$JAR" | grep -Fxq 'io/github/wickidcow/magiclegacy/ExperienceItemListener.class'
           jar tf "$JAR" | grep -Fxq 'io/github/wickidcow/magiclegacy/UnbreakableRuneListener.class'
-          for SCRIPT in             'embedded/Magic/scripts/基础枪.js'             'embedded/Magic/scripts/CHRISTMAS_SNOWBALL.js'             'embedded/Magic/scripts/MFEXPBOTTLE.js'             'embedded/Magic/scripts/MFEXPBOTTLE100.js'             'embedded/Magic/scripts/UNBREAKABLE_RUNE.js'; do
+          jar tf "$JAR" | grep -Fxq 'io/github/wickidcow/magiclegacy/MagicWeaponListener.class'
+          for SCRIPT in             'embedded/Magic/scripts/基础枪.js'             'embedded/Magic/scripts/CHRISTMAS_SNOWBALL.js'             'embedded/Magic/scripts/MFEXPBOTTLE.js'             'embedded/Magic/scripts/MFEXPBOTTLE100.js'             'embedded/Magic/scripts/UNBREAKABLE_RUNE.js'             'embedded/Magic/scripts/INFINITE_STICK.js'             'embedded/Magic/scripts/QYZJ_1.js'; do
             if jar tf "$JAR" | grep -Fxq "$SCRIPT"; then
               echo "Migrated runtime script still packaged: $SCRIPT" >&2
               exit 1
@@ -85,7 +86,7 @@ jobs:
             echo "MAGIC_CHRISTMAS_SNOWBALL still has the legacy JavaScript hook in the embedded runtime" >&2
             exit 1
           fi
-          for SPEC in             'MAGIC_EXP_COLLECTOR|MFEXPBOTTLE'             'MAGIC_EXP_BOTTLE|MFEXPBOTTLE100'             'MAGIC_UNBREAKABLE_RUNE|UNBREAKABLE_RUNE'; do
+          for SPEC in             'MAGIC_EXP_COLLECTOR|MFEXPBOTTLE'             'MAGIC_EXP_BOTTLE|MFEXPBOTTLE100'             'MAGIC_UNBREAKABLE_RUNE|UNBREAKABLE_RUNE'             'MAGIC_INFINITE_STICK|INFINITE_STICK'             'MAGIC_INFINITY_BLADE_1|QYZJ_1'; do
             ITEM="${SPEC%%|*}"
             SCRIPT="${SPEC#*|}"
             if unzip -p "$JAR" embedded/Magic/items.yml | sed -n "/^${ITEM}:/,/^[A-Z0-9_][A-Z0-9_]*:/p" | grep -Fq "script: ${SCRIPT}"; then
@@ -95,13 +96,13 @@ jobs:
           done
           javap -verbose -classpath "$JAR" io.github.wickidcow.magiclegacy.MagicLegacyPlugin \
             | grep -Fq 'major version: 65'
-          unzip -p "$JAR" embedded/Magic/info.yml | grep -Fxq 'version: Legacy-2.0.3'
-          unzip -p "$JAR" embedded/Magic/info.yml | grep -Fxq -- '- " Legacy version: 2.0.3"'
+          unzip -p "$JAR" embedded/Magic/info.yml | grep -Fxq 'version: Legacy-2.0.4'
+          unzip -p "$JAR" embedded/Magic/info.yml | grep -Fxq -- '- " Legacy version: 2.0.4"'
           unzip -p "$JAR" embedded/Magic/info.yml | grep -Fxq -- '- DynaTech'
           sha256sum "$JAR"
 
       - uses: actions/upload-artifact@v7
         with:
-          name: SF_MagicLegacy2.0.3
-          path: build/libs/SF_MagicLegacy2.0.3.jar
+          name: SF_MagicLegacy2.0.4
+          path: build/libs/SF_MagicLegacy2.0.4.jar
           if-no-files-found: error

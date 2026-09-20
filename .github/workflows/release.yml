@@ -7,9 +7,9 @@ on:
   workflow_dispatch:
     inputs:
       tag:
-        description: Release tag, for example v2.0.3
+        description: Release tag, for example v2.0.4
         required: true
-        default: v2.0.3
+        default: v2.0.4
 
 permissions:
   contents: write
@@ -41,7 +41,7 @@ jobs:
             -PplatformVersion=1.21.11-R0.1-SNAPSHOT \
             -PreleaseJvm=21 \
             --stacktrace --no-daemon
-          test -s build/libs/SF_MagicLegacy2.0.3.jar
+          test -s build/libs/SF_MagicLegacy2.0.4.jar
 
       - name: Publish raw JAR release asset
         env:
@@ -55,20 +55,20 @@ jobs:
             TAG="$INPUT_TAG"
           fi
           test -n "$TAG"
-          JAR=build/libs/SF_MagicLegacy2.0.3.jar
+          JAR=build/libs/SF_MagicLegacy2.0.4.jar
           if ! gh release view "$TAG" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
             gh release create "$TAG" \
               --repo "$GITHUB_REPOSITORY" \
               --target "$GITHUB_SHA" \
-              --title "Magic Legacy 2.0.3" \
-              --notes "Managed Java-plugin release. Put SF_MagicLegacy2.0.3.jar in plugins/. Existing unmanaged RSC Magic content is backed up automatically on first startup."
+              --title "Magic Legacy 2.0.4" \
+              --notes "Managed Java-plugin release. Put SF_MagicLegacy2.0.4.jar in plugins/. Existing unmanaged RSC Magic content is backed up automatically on first startup."
           fi
           gh release upload "$TAG" "$JAR" --repo "$GITHUB_REPOSITORY" --clobber
-          sha256sum "$JAR" > SF_MagicLegacy2.0.3.jar.sha256
-          gh release upload "$TAG" SF_MagicLegacy2.0.3.jar.sha256 --repo "$GITHUB_REPOSITORY" --clobber
+          sha256sum "$JAR" > SF_MagicLegacy2.0.4.jar.sha256
+          gh release upload "$TAG" SF_MagicLegacy2.0.4.jar.sha256 --repo "$GITHUB_REPOSITORY" --clobber
 
       - uses: actions/upload-artifact@v7
         with:
-          name: SF_MagicLegacy2.0.3
-          path: build/libs/SF_MagicLegacy2.0.3.jar
+          name: SF_MagicLegacy2.0.4
+          path: build/libs/SF_MagicLegacy2.0.4.jar
           if-no-files-found: error
