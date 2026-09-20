@@ -34,6 +34,8 @@ MIGRATED_SCRIPTS: dict[str, dict[str, str]] = {
         "MAGIC_ENCHANT_UP_1_MAX": "enchant_up_1_max",
         "MAGIC_ENCHANT_UPUP_1": "enchant_upup_1",
         "MAGIC_ENCHANT_UPUP_1_MAX": "enchant_upup_1_max",
+        "MAGIC_ATTRIBUTE_UPUP_1": "attribute_upup_1",
+        "MAGIC_ATTRIBUTE_UPUP_1_MAX": "attribute_upup_1_max",
         "MAGIC_STORE_FIX_1": "MFCT_FIX",
         "MAGIC_STORE_FIX_2": "MFCT_FIX",
         "MAGIC_STORE_FIX_3": "MFCT_FIX",
