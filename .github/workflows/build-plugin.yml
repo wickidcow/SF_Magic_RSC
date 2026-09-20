@@ -50,6 +50,14 @@ jobs:
         with:
           gradle-version: '9.4.1'
 
+      - name: Extract version
+        id: version
+        shell: bash
+        run: |
+          VERSION=$(grep '^version = ' build.gradle.kts | head -n1 | sed -E 's/.*"([^"]+)".*/\1/')
+          test -n "$VERSION"
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+
       - name: Build and verify managed Magic runtime JAR
         run: |
           set -euo pipefail
@@ -62,7 +70,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          JAR=build/libs/SF_MagicLegacy2.0.16.jar
+          JAR=build/libs/SF_MagicLegacy${{ steps.version.outputs.version }}.jar
           test -s "$JAR"
 
           for ENTRY in \
@@ -71,7 +79,6 @@ jobs:
             'embedded/Magic/items.yml' \
             'embedded/Magic/foods.yml' \
             'embedded/Magic/scripts/服务器.js' \
-            'embedded/Magic/scripts/planecup.js' \
             'io/github/wickidcow/magiclegacy/MagicGunListener.class' \
             'io/github/wickidcow/magiclegacy/ChristmasSnowballListener.class' \
             'io/github/wickidcow/magiclegacy/ExperienceItemListener.class' \
@@ -81,7 +88,8 @@ jobs:
             'io/github/wickidcow/magiclegacy/MagicSoundListener.class' \
             'io/github/wickidcow/magiclegacy/MagicLaserStickListener.class' \
             'io/github/wickidcow/magiclegacy/FlameFormationListener.class' \
-            'io/github/wickidcow/magiclegacy/SnowFoodListener.class'; do
+            'io/github/wickidcow/magiclegacy/SnowFoodListener.class' \
+            'io/github/wickidcow/magiclegacy/PlanecupListener.class'; do
             jar tf "$JAR" | grep -Fxq "$ENTRY"
           done
 
@@ -94,6 +102,7 @@ jobs:
             'embedded/Magic/scripts/INFINITE_STICK.js' \
             'embedded/Magic/scripts/QYZJ_1.js' \
             'embedded/Magic/scripts/randomfood.js' \
+            'embedded/Magic/scripts/planecup.js' \
             'embedded/Magic/scripts/sound.js' \
             'embedded/Magic/scripts/magic_stick_jiguang_1.js' \
             'embedded/Magic/scripts/阵法_小火苗_1.js' \
@@ -139,6 +148,7 @@ jobs:
           assert_no_hook items.yml MAGIC_SOUND sound
           assert_no_hook items.yml MAGIC_STICK_JIGUANG_1 magic_stick_jiguang_1
           assert_no_hook items.yml MAGIC_ZHENFA_FIRE_1 阵法_小火苗_1
+          assert_no_hook items.yml MAGIC_NEW_PLANECUP planecup
 
           unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Right-click to fire a focused magic shot.'
           unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Right-click to fire a charged magic laser.'
@@ -193,6 +203,6 @@ jobs:
 
       - uses: actions/upload-artifact@v7
         with:
-          name: SF_MagicLegacy2.0.16
-          path: build/libs/SF_MagicLegacy2.0.16.jar
+          name: SF_MagicLegacy${{ steps.version.outputs.version }}
+          path: build/libs/SF_MagicLegacy${{ steps.version.outputs.version }}.jar
           if-no-files-found: error
