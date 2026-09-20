@@ -113,6 +113,7 @@ jobs:
             'embedded/Magic/scripts/randomfood.js' \
             'embedded/Magic/scripts/planecup.js' \
             'embedded/Magic/scripts/BANNER_LIST.js' \
+            'embedded/Magic/scripts/BANNER_INSERT.js' \
             'embedded/Magic/scripts/CDB_1.js' \
             'embedded/Magic/scripts/CDB_2.js' \
             'embedded/Magic/scripts/SOME_CATCH.js' \
@@ -176,6 +177,7 @@ jobs:
           assert_no_hook items.yml MAGIC_ZHENFA_FIRE_1 阵法_小火苗_1
           assert_no_hook items.yml MAGIC_NEW_PLANECUP planecup
           assert_no_hook items.yml MAGIC_BANNER_LIANHUN BANNER_LIST
+          assert_no_hook items.yml MAGIC_BANNER_SOUL BANNER_INSERT
           assert_no_hook items.yml MAGIC_POWER_BANK_DESCRIPTION CDB_1
           assert_no_hook items.yml MAGIC_POWER_BANK_ALPHA CDB_1
           assert_no_hook items.yml MAGIC_POWER_BANK_BETA CDB_2
@@ -198,6 +200,8 @@ jobs:
           unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'name: "&dMagic Soul Banner"'
           unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Kills with this banner capture &f1 soul&7.'
           unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Burst damage: &f8 × stored souls&7; costs &f1/3 of stored souls&7.'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Stores &f100 souls &7inside a Magic Soul Banner.'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Sneak-use a full stack of 64 to insert &f6,400 souls&7.'
           unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'name: "&dMagic Power Banks"'
           unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Discharge cost: &f0-499,999 J &7per activation.'
           unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Energy cost: &f2 J &7per &f1 J &7transferred.'
