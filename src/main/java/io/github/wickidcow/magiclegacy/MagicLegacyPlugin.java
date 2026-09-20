@@ -30,6 +30,8 @@ public final class MagicLegacyPlugin extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new PlanecupListener(), this);
         getServer().getPluginManager().registerEvents(new BannerLianhunListener(this), this);
         getServer().getPluginManager().registerEvents(new PowerBankListener(), this);
+        getServer().getPluginManager().registerEvents(new MobCatcherListener(), this);
+        getServer().getPluginManager().registerEvents(new MagicMobSpawnListener(), this);
 
         PluginCommand command = getCommand("magiclegacy");
         if (command != null) {
