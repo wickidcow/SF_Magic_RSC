@@ -76,6 +76,12 @@ final class MagicDustPickaxeListener implements Listener {
             return;
         }
 
+        ItemStack reward = randomSlimefunItem(DUST_IDS);
+        if (reward == null) {
+            player.sendMessage(ChatColor.RED + "No valid Slimefun dust reward is registered. Nothing was consumed.");
+            return;
+        }
+
         if (!damagePickaxe(player, pickaxe, 1)) {
             player.sendMessage(ChatColor.RED + "The Magic Dust Pickaxe broke.");
             return;
@@ -84,13 +90,6 @@ final class MagicDustPickaxeListener implements Listener {
         consumeOffHand(player, offHand, 1);
         usageCount++;
         updateDisplay(pickaxe);
-
-        ItemStack reward = randomSlimefunItem(DUST_IDS);
-        if (reward == null) {
-            player.sendMessage(ChatColor.RED + "No valid Slimefun dust reward is registered.");
-            return;
-        }
-
         giveOrDrop(player, reward);
         player.sendMessage(
             ChatColor.AQUA + "Ground 1 cobblestone into "
