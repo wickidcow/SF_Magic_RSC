@@ -37,7 +37,7 @@ final class MagicMobSpawnListener implements Listener {
         animal("MAGIC_HORSE_1", EntityType.HORSE);
         animal("MAGIC_LLAMA_1", EntityType.LLAMA);
         animal("MAGIC_TRADER_LLAMA_1", EntityType.TRADER_LLAMA);
-        animal("MAGIC_MOOSHROOM_1", EntityType.MUSHROOM_COW);
+        animal("MAGIC_MOOSHROOM_1", EntityType.MOOSHROOM);
         animal("MAGIC_MULE_1", EntityType.MULE);
         animal("MAGIC_PANDA_1", EntityType.PANDA);
         animal("MAGIC_RABBIT_1", EntityType.RABBIT);
