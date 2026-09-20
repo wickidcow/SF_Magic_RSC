@@ -61,26 +61,37 @@ jobs:
       - name: Inspect distributable
         run: |
           set -euo pipefail
-          JAR=build/libs/SF_MagicLegacy2.0.1.jar
+          JAR=build/libs/SF_MagicLegacy2.0.2.jar
           test -s "$JAR"
           jar tf "$JAR" | grep -Fxq 'plugin.yml'
           jar tf "$JAR" | grep -Fxq 'embedded/Magic/info.yml'
           jar tf "$JAR" | grep -Fxq 'embedded/Magic/items.yml'
           jar tf "$JAR" | grep -Fxq 'embedded/Magic/scripts/服务器.js'
           jar tf "$JAR" | grep -Fxq 'io/github/wickidcow/magiclegacy/MagicGunListener.class'
+          jar tf "$JAR" | grep -Fxq 'io/github/wickidcow/magiclegacy/ChristmasSnowballListener.class'
+          for SCRIPT in 'embedded/Magic/scripts/基础枪.js' 'embedded/Magic/scripts/CHRISTMAS_SNOWBALL.js'; do
+            if jar tf "$JAR" | grep -Fxq "$SCRIPT"; then
+              echo "Migrated runtime script still packaged: $SCRIPT" >&2
+              exit 1
+            fi
+          done
           if unzip -p "$JAR" embedded/Magic/items.yml | sed -n '/^MAGIC_GUN_1:/,/^[A-Z0-9_][A-Z0-9_]*:/p' | grep -Fq 'script: 基础枪'; then
             echo "MAGIC_GUN_1 still has the legacy JavaScript hook in the embedded runtime" >&2
             exit 1
           fi
+          if unzip -p "$JAR" embedded/Magic/items.yml | sed -n '/^MAGIC_CHRISTMAS_SNOWBALL:/,/^[A-Z0-9_][A-Z0-9_]*:/p' | grep -Fq 'script: CHRISTMAS_SNOWBALL'; then
+            echo "MAGIC_CHRISTMAS_SNOWBALL still has the legacy JavaScript hook in the embedded runtime" >&2
+            exit 1
+          fi
           javap -verbose -classpath "$JAR" io.github.wickidcow.magiclegacy.MagicLegacyPlugin \
             | grep -Fq 'major version: 65'
-          unzip -p "$JAR" embedded/Magic/info.yml | grep -Fxq 'version: Legacy-2.0.1'
-          unzip -p "$JAR" embedded/Magic/info.yml | grep -Fxq -- '- " Legacy version: 2.0.1"'
+          unzip -p "$JAR" embedded/Magic/info.yml | grep -Fxq 'version: Legacy-2.0.2'
+          unzip -p "$JAR" embedded/Magic/info.yml | grep -Fxq -- '- " Legacy version: 2.0.2"'
           unzip -p "$JAR" embedded/Magic/info.yml | grep -Fxq -- '- DynaTech'
           sha256sum "$JAR"
 
       - uses: actions/upload-artifact@v7
         with:
-          name: SF_MagicLegacy2.0.1
-          path: build/libs/SF_MagicLegacy2.0.1.jar
+          name: SF_MagicLegacy2.0.2
+          path: build/libs/SF_MagicLegacy2.0.2.jar
           if-no-files-found: error

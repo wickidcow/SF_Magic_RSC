@@ -70,77 +70,48 @@ def stamp_runtime(destination: Path, version: str) -> None:
 
 
 def disable_migrated_scripts(destination: Path) -> None:
-    """Remove RSC script hooks that have behavior-equivalent native Java replacements."""
+    """Remove RSC hooks and runtime files that now have native Java replacements."""
+    migrated = {
+        "MAGIC_GUN_1": "基础枪",
+        "MAGIC_CHRISTMAS_SNOWBALL": "CHRISTMAS_SNOWBALL",
+    }
+
     path = destination / "items.yml"
     lines = path.read_text(encoding="utf-8").splitlines(keepends=True)
-    top = re.compile(r"^([A-Za-z0-9_.-]+):\s*(?:#.*)?$")
-    script = re.compile(r'^\s+script:\s*["\x27]?基础枪["\x27]?\s*(?:#.*)?    subprocess.run(
-        [sys.executable, str(ROOT / "tools" / "apply_runtime_fixes.py"), str(destination)],
-        check=True,
-        cwd=ROOT,
-    )
-    subprocess.run(
-        [sys.executable, str(ROOT / "scripts" / "validate_saveditems_yaml.py"), str(destination / "saveditems")],
-        check=True,
-        cwd=ROOT,
-    )
-    subprocess.run(
-        [sys.executable, str(ROOT / "scripts" / "validate_script_refs.py"), str(destination)],
-        check=True,
-        cwd=ROOT,
-    )
+    top = re.compile(r"^([A-Za-z0-9_.-]+):\\s*(?:#.*)?$")
 
-
-def main() -> int:
-    if len(sys.argv) != 3:
-        raise SystemExit("Usage: prepare_plugin_runtime.py <destination> <plugin-version>")
-
-    destination = Path(sys.argv[1]).resolve()
-    version = sys.argv[2].strip()
-    if not re.fullmatch(r"\d+(?:\.\d+)+", version):
-        raise SystemExit(f"Invalid plugin version: {version!r}")
-
-    copy_runtime(destination)
-    run_checks(destination)
-    stamp_runtime(destination, version)
-    disable_migrated_scripts(destination)
-
-    required = [
-        destination / "info.yml",
-        destination / "items.yml",
-        destination / "recipe_machines.yml",
-        destination / "scripts" / "服务器.js",
-    ]
-    missing = [str(path) for path in required if not path.is_file()]
-    if missing:
-        raise RuntimeError(f"Prepared Magic runtime is incomplete: {missing}")
-
-    count = sum(1 for path in destination.rglob("*") if path.is_file())
-    print(f"Prepared Magic Legacy {version} runtime: {count} files")
-    return 0
-
-
-if __name__ == "__main__":
-    raise SystemExit(main())
-)
-
-    in_gun = False
-    removed = 0
+    current: str | None = None
+    removed = {item_id: 0 for item_id in migrated}
     out: list[str] = []
+
     for line in lines:
-        match = top.match(line.rstrip("\r\n"))
+        match = top.match(line.rstrip("\\r\\n"))
         if match:
-            in_gun = match.group(1) == "MAGIC_GUN_1"
-        if in_gun and script.match(line.rstrip("\r\n")):
-            removed += 1
-            continue
+            current = match.group(1)
+
+        expected = migrated.get(current or "")
+        if expected is not None:
+            script_match = re.match(
+                r'^\\s+script:\\s*["\\x27]?(.+?)["\\x27]?\\s*(?:#.*)?$',
+                line.rstrip("\\r\\n"),
+            )
+            if script_match and script_match.group(1) == expected:
+                removed[current] += 1
+                continue
+
         out.append(line)
 
-    if removed != 1:
-        raise RuntimeError(f"Expected to remove exactly one MAGIC_GUN_1 script hook, removed {removed}")
+    failures = {item_id: count for item_id, count in removed.items() if count != 1}
+    if failures:
+        raise RuntimeError(f"Native script migration hook mismatch: {failures}")
 
     path.write_text("".join(out), encoding="utf-8")
 
+    for script_name in migrated.values():
+        script_path = destination / "scripts" / f"{script_name}.js"
+        if not script_path.is_file():
+            raise RuntimeError(f"Expected migrated script file was not staged: {script_path}")
+        script_path.unlink()
 
 def run_checks(destination: Path) -> None:
     subprocess.run(
