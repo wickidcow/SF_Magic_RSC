@@ -72,6 +72,12 @@ final class MagicLegacyDiagnostics {
             "Slimefun item identity bridge: "
                 + (SlimefunItemIdentity.available() ? "available" : "unavailable (" + SlimefunItemIdentity.error() + ")")
         );
+        lines.add(
+            "Slimefun block storage bridge: "
+                + (SlimefunBlockStorageBridge.available()
+                    ? "available"
+                    : "unavailable (" + SlimefunBlockStorageBridge.error() + ")")
+        );
 
         if (deployment != null) {
             lines.add("Runtime path: " + deployment.target());
