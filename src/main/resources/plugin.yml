@@ -1,0 +1,29 @@
+name: MagicLegacy
+version: '${version}'
+main: io.github.wickidcow.magiclegacy.MagicLegacyPlugin
+api-version: '1.21.11'
+authors: [wickidcow, magicsolo]
+description: Managed Magic Legacy runtime bridge for Slimefun Legacy
+website: https://github.com/wickidcow/SF_Magic_RSC
+depend:
+  - Slimefun
+softdepend:
+  - InfinityExpansion2
+  - DynaTech
+  - GeneticChickengineering
+  - Supreme
+  - FoxyMachines
+  - magicexpansion
+loadbefore:
+  - RykenSlimefunCustomizer
+commands:
+  magiclegacy:
+    aliases: [magicrsc, ml]
+    description: Magic Legacy status, deployment and diagnostics
+    usage: /magiclegacy <status|doctor|deploy>
+    permission: magiclegacy.command
+permissions:
+  magiclegacy.command:
+    default: op
+  magiclegacy.admin:
+    default: op

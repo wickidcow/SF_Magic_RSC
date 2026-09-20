@@ -4,7 +4,8 @@ on:
   push:
     branches:
       - main
-      - legacy-port
+      - standalone-plugin-2.0
+  pull_request:
   workflow_dispatch:
 
 permissions:
@@ -15,23 +16,29 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.13'
 
       - name: Audit Magic pack
         run: |
+          set -euo pipefail
           python scripts/validate_saveditems_yaml.py
           python scripts/validate_script_refs.py
           python scripts/audit_magic.py
           python scripts/audit_magic_quality.py
           python tools/verify_polyglot_runtime_fix.py
 
+      - name: Prepare the same runtime embedded by the plugin
+        run: |
+          set -euo pipefail
+          python tools/prepare_plugin_runtime.py build/audit-runtime/Magic 2.0.0
+
       - name: Upload audit report
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: magic-legacy-audit
           path: audit/

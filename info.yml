@@ -4,6 +4,7 @@ depends: []
 pluginDepends:
 - Slimefun
 - InfinityExpansion2
+- DynaTech
 - GeneticChickengineering
 - Supreme
 - FoxyMachines

@@ -1,0 +1,80 @@
+name: Build Magic Legacy Plugin
+
+on:
+  push:
+    branches:
+      - main
+      - standalone-plugin-2.0
+    paths:
+      - 'build.gradle.kts'
+      - 'settings.gradle.kts'
+      - 'src/**'
+      - 'tools/**'
+      - 'scripts/**'
+      - 'saveditems/**'
+      - '*.yml'
+      - '.github/workflows/build-plugin.yml'
+  pull_request:
+    paths:
+      - 'build.gradle.kts'
+      - 'settings.gradle.kts'
+      - 'src/**'
+      - 'tools/**'
+      - 'scripts/**'
+      - 'saveditems/**'
+      - '*.yml'
+      - '.github/workflows/build-plugin.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: Build Java 21 drop-in JAR
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+
+      - uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: '25'
+
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '9.4.1'
+
+      - name: Build and verify managed Magic runtime JAR
+        run: |
+          set -euo pipefail
+          gradle clean shadowJar verifyMagicJar \
+            -PplatformVersion=1.21.11-R0.1-SNAPSHOT \
+            -PreleaseJvm=21 \
+            --stacktrace --no-daemon
+
+      - name: Inspect distributable
+        run: |
+          set -euo pipefail
+          JAR=build/libs/SF_MagicLegacy2.0.0.jar
+          test -s "$JAR"
+          jar tf "$JAR" | grep -Fxq 'plugin.yml'
+          jar tf "$JAR" | grep -Fxq 'embedded/Magic/info.yml'
+          jar tf "$JAR" | grep -Fxq 'embedded/Magic/items.yml'
+          jar tf "$JAR" | grep -Fxq 'embedded/Magic/scripts/服务器.js'
+          javap -verbose -classpath "$JAR" io.github.wickidcow.magiclegacy.MagicLegacyPlugin \
+            | grep -Fq 'major version: 65'
+          unzip -p "$JAR" embedded/Magic/info.yml | grep -Fxq 'version: Legacy-2.0.0'
+          unzip -p "$JAR" embedded/Magic/info.yml | grep -Fxq -- '- DynaTech'
+          sha256sum "$JAR"
+
+      - uses: actions/upload-artifact@v7
+        with:
+          name: SF_MagicLegacy2.0.0
+          path: build/libs/SF_MagicLegacy2.0.0.jar
+          if-no-files-found: error
