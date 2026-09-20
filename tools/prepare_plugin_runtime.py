@@ -144,6 +144,7 @@ def main() -> int:
     copy_runtime(destination)
     run_checks(destination)
     stamp_runtime(destination, version)
+    disable_migrated_scripts(destination)
 
     required = [
         destination / "info.yml",
