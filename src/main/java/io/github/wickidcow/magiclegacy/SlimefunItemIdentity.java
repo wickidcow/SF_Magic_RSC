@@ -45,17 +45,13 @@ final class SlimefunItemIdentity {
     }
 
     static boolean is(ItemStack stack, String expectedId) {
-        if (!available() || stack == null) {
+        Object item = findByItem(stack);
+        if (item == null) {
             return false;
         }
 
         try {
-            Object slimefunItem = GET_BY_ITEM.invoke(null, stack);
-            if (slimefunItem == null) {
-                return false;
-            }
-
-            Object id = GET_ID.invoke(slimefunItem);
+            Object id = GET_ID.invoke(item);
             return expectedId.equals(id);
         } catch (ReflectiveOperationException ex) {
             return false;
@@ -82,5 +78,47 @@ final class SlimefunItemIdentity {
         }
 
         return null;
+    }
+
+    static Float getCharge(ItemStack stack) {
+        Object item = findByItem(stack);
+        if (item == null) {
+            return null;
+        }
+
+        try {
+            Method method = item.getClass().getMethod("getItemCharge", ItemStack.class);
+            Object value = method.invoke(item, stack);
+            return value instanceof Number number ? number.floatValue() : null;
+        } catch (ReflectiveOperationException ex) {
+            return null;
+        }
+    }
+
+    static boolean removeCharge(ItemStack stack, float amount) {
+        Object item = findByItem(stack);
+        if (item == null) {
+            return false;
+        }
+
+        try {
+            Method method = item.getClass().getMethod("removeItemCharge", ItemStack.class, float.class);
+            Object value = method.invoke(item, stack, amount);
+            return Boolean.TRUE.equals(value);
+        } catch (ReflectiveOperationException ex) {
+            return false;
+        }
+    }
+
+    private static Object findByItem(ItemStack stack) {
+        if (!available() || stack == null) {
+            return null;
+        }
+
+        try {
+            return GET_BY_ITEM.invoke(null, stack);
+        } catch (ReflectiveOperationException ex) {
+            return null;
+        }
     }
 }

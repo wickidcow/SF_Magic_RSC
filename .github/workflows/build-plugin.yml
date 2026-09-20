@@ -62,7 +62,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          JAR=build/libs/SF_MagicLegacy2.0.6.jar
+          JAR=build/libs/SF_MagicLegacy2.0.7.jar
           test -s "$JAR"
 
           for ENTRY in \
@@ -77,7 +77,8 @@ jobs:
             'io/github/wickidcow/magiclegacy/UnbreakableRuneListener.class' \
             'io/github/wickidcow/magiclegacy/MagicWeaponListener.class' \
             'io/github/wickidcow/magiclegacy/RandomFoodListener.class' \
-            'io/github/wickidcow/magiclegacy/MagicSoundListener.class'; do
+            'io/github/wickidcow/magiclegacy/MagicSoundListener.class' \
+            'io/github/wickidcow/magiclegacy/MagicLaserStickListener.class'; do
             jar tf "$JAR" | grep -Fxq "$ENTRY"
           done
 
@@ -91,7 +92,8 @@ jobs:
             'embedded/Magic/scripts/QYZJ_1.js' \
             'embedded/Magic/scripts/randomfood.js' \
             'embedded/Magic/scripts/planecup.js' \
-            'embedded/Magic/scripts/sound.js'; do
+            'embedded/Magic/scripts/sound.js' \
+            'embedded/Magic/scripts/magic_stick_jiguang_1.js'; do
             if jar tf "$JAR" | grep -Fxq "$SCRIPT"; then
               echo "Removed runtime script still packaged: $SCRIPT" >&2
               exit 1
@@ -119,16 +121,17 @@ jobs:
           assert_no_hook items.yml MAGIC_INFINITY_BLADE_1 QYZJ_1
           assert_no_hook foods.yml MAGIC_FOODS_RANDOMFOOD randomfood
           assert_no_hook items.yml MAGIC_SOUND sound
+          assert_no_hook items.yml MAGIC_STICK_JIGUANG_1 magic_stick_jiguang_1
 
           javap -verbose -classpath "$JAR" io.github.wickidcow.magiclegacy.MagicLegacyPlugin \
             | grep -Fq 'major version: 65'
-          unzip -p "$JAR" embedded/Magic/info.yml | grep -Fxq 'version: Legacy-2.0.6'
-          unzip -p "$JAR" embedded/Magic/info.yml | grep -Fxq -- '- " Legacy version: 2.0.6"'
+          unzip -p "$JAR" embedded/Magic/info.yml | grep -Fxq 'version: Legacy-2.0.7'
+          unzip -p "$JAR" embedded/Magic/info.yml | grep -Fxq -- '- " Legacy version: 2.0.7"'
           unzip -p "$JAR" embedded/Magic/info.yml | grep -Fxq -- '- DynaTech'
           sha256sum "$JAR"
 
       - uses: actions/upload-artifact@v7
         with:
-          name: SF_MagicLegacy2.0.6
-          path: build/libs/SF_MagicLegacy2.0.6.jar
+          name: SF_MagicLegacy2.0.7
+          path: build/libs/SF_MagicLegacy2.0.7.jar
           if-no-files-found: error
