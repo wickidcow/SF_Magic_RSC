@@ -32,6 +32,8 @@ import org.bukkit.util.Vector;
 final class BannerLianhunListener implements Listener {
 
     private static final String ITEM_ID = "MAGIC_BANNER_LIANHUN";
+    private static final String SOUL_ITEM_ID = "MAGIC_BANNER_SOUL";
+    private static final int SOULS_PER_ITEM = 100;
     private static final int MAX_SOULS = 1_888_888;
     private static final int MINIMUM_SOULS = 101;
 
@@ -86,7 +88,14 @@ final class BannerLianhunListener implements Listener {
             return;
         }
 
-        ItemStack banner = event.getItem();
+        ItemStack used = event.getItem();
+        if (SlimefunItemIdentity.is(used, SOUL_ITEM_ID)) {
+            event.setCancelled(true);
+            insertSouls(event.getPlayer(), used);
+            return;
+        }
+
+        ItemStack banner = used;
         if (!SlimefunItemIdentity.is(banner, ITEM_ID)) {
             return;
         }
@@ -105,6 +114,40 @@ final class BannerLianhunListener implements Listener {
         } else {
             usePulse(player, banner, souls);
         }
+    }
+
+    private void insertSouls(Player player, ItemStack soulItems) {
+        ItemStack banner = player.getInventory().getItemInOffHand();
+        if (!SlimefunItemIdentity.is(banner, ITEM_ID) || banner.getAmount() != 1) {
+            player.sendMessage("§cHold one Magic Soul Banner in your off hand.");
+            return;
+        }
+
+        int available = soulItems.getAmount();
+        int consume = player.isSneaking() && available == 64 ? 64 : 1;
+        int current = readSouls(banner);
+        int space = MAX_SOULS - current;
+        int possibleItems = space / SOULS_PER_ITEM;
+        if (possibleItems <= 0) {
+            player.sendMessage("§eThe Magic Soul Banner is already at its soul limit.");
+            return;
+        }
+
+        consume = Math.min(consume, possibleItems);
+        int added = consume * SOULS_PER_ITEM;
+        writeSouls(banner, current + added);
+
+        if (soulItems.getAmount() > consume) {
+            soulItems.setAmount(soulItems.getAmount() - consume);
+        } else {
+            player.getInventory().setItemInMainHand(null);
+        }
+
+        player.sendMessage(
+            "§aInserted §f" + consume + " Magic Banner Soul"
+                + (consume == 1 ? "" : "s") + " §7(§f" + added
+                + " souls§7). §f" + (current + added) + " §7souls stored."
+        );
     }
 
     private void usePulse(Player player, ItemStack banner, int souls) {
