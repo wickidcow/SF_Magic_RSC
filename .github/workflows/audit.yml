@@ -30,12 +30,13 @@ jobs:
           python scripts/validate_script_refs.py
           python scripts/audit_magic.py
           python scripts/audit_magic_quality.py
+          python scripts/audit_script_risk.py
           python tools/verify_polyglot_runtime_fix.py
 
       - name: Prepare the same runtime embedded by the plugin
         run: |
           set -euo pipefail
-          python tools/prepare_plugin_runtime.py build/audit-runtime/Magic 2.0.0
+          python tools/prepare_plugin_runtime.py build/audit-runtime/Magic 2.0.1
 
       - name: Upload audit report
         uses: actions/upload-artifact@v7
