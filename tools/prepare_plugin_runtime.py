@@ -19,6 +19,7 @@ MIGRATED_SCRIPTS: dict[str, dict[str, str]] = {
         "MAGIC_UNBREAKABLE_RUNE": "UNBREAKABLE_RUNE",
         "MAGIC_INFINITE_STICK": "INFINITE_STICK",
         "MAGIC_INFINITY_BLADE_1": "QYZJ_1",
+        "MAGIC_SOUND": "sound",
     },
     "foods.yml": {
         "MAGIC_FOODS_RANDOMFOOD": "randomfood",
