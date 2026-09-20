@@ -6047,12 +6047,14 @@ MAGIC_SUPREME_ORIGIN:
 MAGIC_NEW_PLANECUP:
   item_group: magic_newplayer_machines
   item:
-    name: "&dMagic New Planecup"
+    name: "&dMagic Planecup"
     material_type: skull_base64
     material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzUwM2JjOTFhMTM4Njc3NzdlNWY1ZDE0MGQwMTYwYTJlNzgxZTA1YmYzZDYwMGRmM2Q0YmE5YzUxYjMzMWI3MyJ9fX0=
-    lore: 
+    lore:
       - "&8Magic Legacy"
-      - "&a"
+      - "&7Right-click to invoke the Planecup."
+      - "&7Costs &f4 hunger &7per use."
+      - "&71% chance to release &f100 XP&7."
   script: "planecup"
   recipe_type: MAGIC_WORKBENCH
   recipe:
