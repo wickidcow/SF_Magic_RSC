@@ -17,7 +17,7 @@ dependencies {
 }
 
 group = "io.github.wickidcow"
-version = "2.0.18"
+version = "2.0.19"
 description = "Magic Legacy managed runtime bridge and migration host for Slimefun Legacy"
 
 java {
