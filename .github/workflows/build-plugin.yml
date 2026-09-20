@@ -94,7 +94,6 @@ jobs:
             'embedded/Magic/scripts/INFINITE_STICK.js' \
             'embedded/Magic/scripts/QYZJ_1.js' \
             'embedded/Magic/scripts/randomfood.js' \
-            'embedded/Magic/scripts/planecup.js' \
             'embedded/Magic/scripts/sound.js' \
             'embedded/Magic/scripts/magic_stick_jiguang_1.js' \
             'embedded/Magic/scripts/阵法_小火苗_1.js' \
