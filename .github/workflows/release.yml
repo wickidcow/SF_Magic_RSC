@@ -28,7 +28,7 @@ jobs:
         id: version
         shell: bash
         run: |
-          VERSION=$(grep '^version = ' build.gradle.kts | head -n1 | sed -E 's/.*"([^"]+)".*/\\1/')
+          VERSION=$(grep '^version = ' build.gradle.kts | head -n1 | sed -E 's/.*"([^"]+)".*/\1/')
           test -n "$VERSION"
           echo "version=$VERSION" >> "$GITHUB_OUTPUT"
 
