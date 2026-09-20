@@ -3174,12 +3174,13 @@ MAGIC_SPAWNER_EVOKER_3:
 MAGIC_B_SOUND_MACHINE_1:
   item_group: magic_test
   item:
-    name: "&dMagic B Sound Machine 1"
+    name: "&dMagic Nearby Sound Machine"
     material: GOLD_BLOCK
-    lore: 
-      - "&a"
-      - "&7Magic"
-      - "&7B"
+    lore:
+      - "&8Magic Legacy"
+      - "&7Plays a random Minecraft sound every &f0.5 seconds&7."
+      - "&7Players within &f48 blocks &7hear the sound at this machine."
+      - "&7Uses Paper's current sound registry."
       - "&7Experimental machine"
   recipe_type: MAGIC_NONE
   script: B动静制造机附近
@@ -3187,12 +3188,13 @@ MAGIC_B_SOUND_MACHINE_1:
 MAGIC_B_SOUND_MACHINE_2:
   item_group: magic_test
   item:
-    name: "&dMagic B Sound Machine 2"
+    name: "&dMagic Global Sound Machine"
     material: DIAMOND_BLOCK
-    lore: 
-      - "&a"
-      - "&7Magic"
-      - "&7B"
+    lore:
+      - "&8Magic Legacy"
+      - "&7Plays a random Minecraft sound every &f0.5 seconds&7."
+      - "&7Every online player hears a random sound at their location."
+      - "&7Uses Paper's current sound registry."
       - "&7Experimental machine"
   recipe_type: MAGIC_NONE
   script: B动静制造机全体
@@ -3260,11 +3262,12 @@ MAGIC_BLACK_ROLE:
   item:
     name: "&dMagic Black Role"
     material: COAL_BLOCK
-    lore: 
-      - "&a"
-      - "&8⇨&e ⚡ &74,294,967,294 J/s" 
-      - "&a"
-      - "&7Experimental machine"
+    lore:
+      - "&8Magic Legacy"
+      - "&7Consumes up to &f2,147,483,647 J &7every &f0.5 seconds&7."
+      - "&7Maximum drain rate: &f4,294,967,294 J/s"
+      - "&7Capacity: &f2,147,483,647 J"
+      - "&7Experimental energy sink"
   recipe_type: MAGIC_NONE
   script: 黑洞电容
   energy:
