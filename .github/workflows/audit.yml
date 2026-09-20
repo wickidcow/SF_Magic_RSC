@@ -38,7 +38,9 @@ jobs:
       - name: Prepare the same runtime embedded by the plugin
         run: |
           set -euo pipefail
-          python tools/prepare_plugin_runtime.py build/audit-runtime/Magic 2.0.16
+          VERSION=$(grep '^version = ' build.gradle.kts | head -n1 | sed -E 's/.*"([^"]+)".*/\1/')
+          test -n "$VERSION"
+          python tools/prepare_plugin_runtime.py build/audit-runtime/Magic "$VERSION"
 
       - name: Upload audit report
         uses: actions/upload-artifact@v7
