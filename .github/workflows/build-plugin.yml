@@ -91,7 +91,9 @@ jobs:
             'io/github/wickidcow/magiclegacy/SnowFoodListener.class' \
             'io/github/wickidcow/magiclegacy/PlanecupListener.class' \
             'io/github/wickidcow/magiclegacy/BannerLianhunListener.class' \
-            'io/github/wickidcow/magiclegacy/PowerBankListener.class'; do
+            'io/github/wickidcow/magiclegacy/PowerBankListener.class' \
+            'io/github/wickidcow/magiclegacy/MobCatcherListener.class' \
+            'io/github/wickidcow/magiclegacy/MagicMobSpawnListener.class'; do
             jar tf "$JAR" | grep -Fxq "$ENTRY"
           done
 
@@ -108,6 +110,10 @@ jobs:
             'embedded/Magic/scripts/BANNER_LIST.js' \
             'embedded/Magic/scripts/CDB_1.js' \
             'embedded/Magic/scripts/CDB_2.js' \
+            'embedded/Magic/scripts/SOME_CATCH.js' \
+            'embedded/Magic/scripts/ALL_CATCH.js' \
+            'embedded/Magic/scripts/ANIMALS_SPAWN.js' \
+            'embedded/Magic/scripts/ARTIFICIAL_SPAWN.js' \
             'embedded/Magic/scripts/sound.js' \
             'embedded/Magic/scripts/magic_stick_jiguang_1.js' \
             'embedded/Magic/scripts/阵法_小火苗_1.js' \
@@ -158,6 +164,12 @@ jobs:
           assert_no_hook items.yml MAGIC_POWER_BANK_DESCRIPTION CDB_1
           assert_no_hook items.yml MAGIC_POWER_BANK_ALPHA CDB_1
           assert_no_hook items.yml MAGIC_POWER_BANK_BETA CDB_2
+          for SCRIPT in SOME_CATCH ALL_CATCH ANIMALS_SPAWN ARTIFICIAL_SPAWN; do
+            if unzip -p "$JAR" embedded/Magic/items.yml | grep -Eq "^[[:space:]]+script:[[:space:]]*[\"\x27]?${SCRIPT}[\"\x27]?[[:space:]]*$"; then
+              echo "Legacy mob runtime hook still present: $SCRIPT" >&2
+              exit 1
+            fi
+          done
 
           unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'name: "&dMagic Soul Banner"'
           unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Kills with this banner capture &f1 soul&7.'
@@ -165,6 +177,9 @@ jobs:
           unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'name: "&dMagic Power Banks"'
           unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Discharge cost: &f0-499,999 J &7per activation.'
           unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Energy cost: &f2 J &7per &f1 J &7transferred.'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Successful capture total: &f300 J'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Releases a baby Magic mob when used on a block.'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Creates the corresponding artificial mob when used on a block.'
 
           unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Right-click to fire a focused magic shot.'
           unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Right-click to fire a charged magic laser.'
