@@ -34,6 +34,7 @@ public final class MagicLegacyPlugin extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new MobCatcherListener(), this);
         getServer().getPluginManager().registerEvents(new MagicMobSpawnListener(), this);
         getServer().getPluginManager().registerEvents(new TeleportItemListener(this), this);
+        getServer().getPluginManager().registerEvents(new EnchantUpgradeListener(), this);
 
         getServer().getPluginManager().registerEvents(new StorageSkinFixListener(), this);
         nativeSpawnerManager = new NativeSpawnerManager(this);
