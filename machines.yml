@@ -3339,19 +3339,14 @@ MAGIC_POWER_MIX_1:
   item:
     name: "&dMagic Power Mix 1"
     material: WHITE_GLAZED_TERRACOTTA
-    lore: 
-      - "&a"
-      - "&7: 、、、 tier、 tier、、、(8)"
-      - '{#FDB7D4}+----------------------------------------+'
-      - '&7| (Magic) |'
-      - '&7| Magic |'
-      - '&7, Magic.'
-      - '&7Magic(), .'
-      - "&7⇨ ⚡ 1008888888 J capacity"
-      - "&8⇨ &e⚡{#FDB7D4} ??? J/s "
-      - "&7Experimental machine"
-      - "&a"
-      - "&7Magic-Power and Energy"
+    lore:
+      - "&8Magic Legacy"
+      - "&7Native generator-matrix controller."
+      - "&7Requires a &fMagic Power Mix Box &7directly above."
+      - "&7Counts supported generator modules inside that box."
+      - "&7Generation updates every &f0.5 seconds&7."
+      - "&7Capacity: &f1,008,888,888 J"
+      - "&7Output: &fdynamic &7based on installed modules."
     glow: true
   recipe: 
     1:
