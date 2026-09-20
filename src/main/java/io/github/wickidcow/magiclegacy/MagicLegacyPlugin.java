@@ -27,6 +27,7 @@ public final class MagicLegacyPlugin extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new MagicLaserStickListener(), this);
         getServer().getPluginManager().registerEvents(new FlameFormationListener(), this);
         getServer().getPluginManager().registerEvents(new SnowFoodListener(), this);
+        getServer().getPluginManager().registerEvents(new PlanecupListener(), this);
 
         PluginCommand command = getCommand("magiclegacy");
         if (command != null) {
