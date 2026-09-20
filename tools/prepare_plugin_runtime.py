@@ -111,6 +111,9 @@ MIGRATED_SCRIPTS: dict[str, dict[str, str]] = {
         "MAGIC_TEST_WHITE_WOOL": "NO_DROP",
         "MAGIC_KAOGU_SAND_1": "可疑的沙子",
         "MAGIC_KAOGU_GRAVEL_1": "可疑的沙砾",
+        "MAGIC_B_SOUND_MACHINE_1": "B动静制造机附近",
+        "MAGIC_B_SOUND_MACHINE_2": "B动静制造机全体",
+        "MAGIC_BLACK_ROLE": "黑洞电容",
     },
     "foods.yml": {
         "MAGIC_FOODS_RANDOMFOOD": "randomfood",
