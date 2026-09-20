@@ -11175,16 +11175,18 @@ MAGIC_BANNER_SOUL:
 MAGIC_BANNER_LIANHUN:
   item_group: magic_attribute_up
   item:
-    name: "&dMagic Banner Lianhun"
+    name: "&dMagic Soul Banner"
     material: WHITE_BANNER
     glow: true
     lore:
-      - "{#FDB7D4}===================================================================================================="
-      - "&7Current: 0"
-      - "&7, , =x0.003, 0~6"
-      - "&7, , =x8,"
-      - "&a"
       - "&8Magic Legacy"
+      - "&7Stored souls: &f0"
+      - "&7Kills with this banner capture &f1 soul&7."
+      - "&7Right-click: &f10-block Soul Pulse&7."
+      - "&7Pulse damage: &f0.003 × stored souls&7; costs &f0-6 souls&7."
+      - "&7Sneak + right-click: &f30-block Soul Burst&7."
+      - "&7Burst damage: &f8 × stored souls&7; costs &f1/3 of stored souls&7."
+      - "&7Abilities require more than &f100 souls&7."
   script: BANNER_LIST
   recipe_type: MAGIC_SPECIAL
   recipe: 
