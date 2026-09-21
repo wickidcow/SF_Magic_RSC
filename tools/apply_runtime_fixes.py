@@ -99,7 +99,9 @@ PLAYER_TEXT = {
 }
 
 OPTIONAL = {
-    "template_machines.yml": {"MAGIC_BEE_HOUSE_1": ["FN_MACHINERY_COMPONENT_PART"]},
+    "template_machines.yml": {
+        "MAGIC_BEE_HOUSE_1": ["FN_MACHINERY_COMPONENT_PART", "CRY_EXALTED_FERTILITY_TOTEM"]
+    },
     "mat_generators.yml": {
         "MAGIC_END_ESSENCE_MACHINE": ["STABLEINGOT"],
         "MAGIC_PLASTIC_SHEET_MACHINE": ["FN_FAL_RECYCLER_3"],
