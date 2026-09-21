@@ -207,6 +207,16 @@ def stamp_runtime(destination: Path, version: str) -> None:
         "description: Magic Legacy managed runtime for Slimefun Legacy, deployed by the MagicLegacy plugin.",
         text,
     )
+
+    # Keep the managed runtime resilient: only Slimefun is a hard RSC plugin
+    # dependency. Optional integrations are diagnosed separately and their
+    # dependent definitions are allowed to skip individually.
+    text = re.sub(
+        r"(?ms)^pluginDepends:\s*\n(?:-\s+[^\n]+\n)+",
+        "pluginDepends:\n- Slimefun\n",
+        text,
+        count=1,
+    )
     info.write_text(text, encoding="utf-8")
 
 
