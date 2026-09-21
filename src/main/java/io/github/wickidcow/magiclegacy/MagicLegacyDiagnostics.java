@@ -23,7 +23,7 @@ final class MagicLegacyDiagnostics {
         RUNTIME_PLUGINS.put("FoxyMachines", "FoxyMachines integration");
         RUNTIME_PLUGINS.put("Networks", "Networks optional integration");
         RUNTIME_PLUGINS.put("FNAmplifications", "FNAmplifications optional integration");
-        RUNTIME_PLUGINS.put("magicexpansion", "Magic Expansion crossover");
+        RUNTIME_PLUGINS.put("magicexpansion", "Magic Expansion crossover (optional)");
 
         REGISTRY_CHECKS.put("Magic Legacy", List.of(
             "MAGIC_VERSION",
@@ -90,10 +90,14 @@ final class MagicLegacyDiagnostics {
         PluginManager manager = plugin.getServer().getPluginManager();
         for (Map.Entry<String, String> entry : RUNTIME_PLUGINS.entrySet()) {
             Plugin found = manager.getPlugin(entry.getKey());
-            lines.add(
-                entry.getValue() + ": "
-                    + (found == null ? "missing" : (found.isEnabled() ? "enabled" : "installed, not enabled"))
-            );
+            boolean optional = entry.getValue().contains("(optional)");
+            String state;
+            if (found == null) {
+                state = optional ? "not installed (optional)" : "missing";
+            } else {
+                state = found.isEnabled() ? "enabled" : "installed, not enabled";
+            }
+            lines.add(entry.getValue() + ": " + state);
         }
 
         return lines;
@@ -131,10 +135,15 @@ final class MagicLegacyDiagnostics {
                 }
             }
 
-            lines.add(
-                group.getKey() + " registry: " + present + "/" + group.getValue().size()
-                    + (missing.isEmpty() ? " present" : " present; missing " + String.join(", ", missing))
-            );
+            boolean optionalGroup = "Magic Expansion".equals(group.getKey());
+            if (optionalGroup && present == 0) {
+                lines.add(group.getKey() + " registry: not installed (optional)");
+            } else {
+                lines.add(
+                    group.getKey() + " registry: " + present + "/" + group.getValue().size()
+                        + (missing.isEmpty() ? " present" : " present; missing " + String.join(", ", missing))
+                );
+            }
         }
 
         return lines;
