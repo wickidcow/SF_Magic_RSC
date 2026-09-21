@@ -1,5 +1,6 @@
 package io.github.wickidcow.magiclegacy;
 
+import java.io.File;
 import java.lang.reflect.Method;
 import java.nio.file.Files;
 import java.util.ArrayList;
@@ -89,13 +90,22 @@ final class MagicLegacyDiagnostics {
 
         PluginManager manager = plugin.getServer().getPluginManager();
         for (Map.Entry<String, String> entry : RUNTIME_PLUGINS.entrySet()) {
-            Plugin found = manager.getPlugin(entry.getKey());
+            Plugin found = findPluginIgnoreCase(manager, entry.getKey());
             boolean optional = entry.getValue().contains("(optional)");
             String state;
             if (found == null) {
-                state = optional ? "not installed (optional)" : "missing";
+                boolean jarPresent = pluginJarPresent(entry.getKey());
+                if (jarPresent) {
+                    state = optional
+                        ? "JAR present but plugin not loaded (optional; check earlier startup errors)"
+                        : "JAR present but plugin not loaded; check earlier startup errors";
+                } else {
+                    state = optional ? "not installed (optional)" : "missing";
+                }
             } else {
-                state = found.isEnabled() ? "enabled" : "installed, not enabled";
+                state = found.isEnabled()
+                    ? "enabled (" + found.getName() + " " + found.getDescription().getVersion() + ")"
+                    : "installed, not enabled (" + found.getName() + ")";
             }
             lines.add(entry.getValue() + ": " + state);
         }
@@ -153,6 +163,42 @@ final class MagicLegacyDiagnostics {
         for (String line : doctorLines()) {
             plugin.getLogger().info("[doctor] " + line);
         }
+    }
+
+    private Plugin findPluginIgnoreCase(PluginManager manager, String name) {
+        Plugin direct = manager.getPlugin(name);
+        if (direct != null) {
+            return direct;
+        }
+        for (Plugin candidate : manager.getPlugins()) {
+            if (candidate.getName().equalsIgnoreCase(name)) {
+                return candidate;
+            }
+        }
+        return null;
+    }
+
+    private boolean pluginJarPresent(String pluginName) {
+        File pluginsDirectory = plugin.getDataFolder().getParentFile();
+        File[] files = pluginsDirectory.listFiles();
+        if (files == null) {
+            return false;
+        }
+
+        String normalized = pluginName.replace("-", "").replace("_", "").toLowerCase();
+        for (File file : files) {
+            if (!file.isFile() || !file.getName().toLowerCase().endsWith(".jar")) {
+                continue;
+            }
+            String candidate = file.getName()
+                .replace("-", "")
+                .replace("_", "")
+                .toLowerCase();
+            if (candidate.contains(normalized)) {
+                return true;
+            }
+        }
+        return false;
     }
 
     private record RegistryAccessor(Method getById, String error) {
