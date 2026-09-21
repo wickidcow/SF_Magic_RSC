@@ -3458,18 +3458,14 @@ MAGIC_PLANT_1:
 MAGIC_FLOWER_MIX_1:
   item_group: magic_power
   item:
-    name: "&dMagic Flower Mix 1"
+    name: "&dMagic Flower Mix I"
     material: PINK_GLAZED_TERRACOTTA
-    lore: 
-      - "&a"
-      - "&7\"Magic\""
-      - "&7⇨ ⚡ 520 J capacity"
-      - "&8⇨ &e⚡{#FDB7D4} 10   J/s "
-      - "{#FDB7D4}"
-      - "{#FDB7D4}+----------------------------------+-----------------------------------+----------------------------------+"
-      - "{#FDB7D4}"
-      - "&a"
-      - "&7Magic-Power and Energy"
+    lore:
+      - "&8Magic Legacy"
+      - "&7Cycles supported flowers through the Flower Mix Box above."
+      - "&7Moves one whole stack per machine tick."
+      - "&7Energy cost: &f10 J &7per conversion."
+      - "&7Capacity: &f520 J"
     glow: true
   recipe:
     5:
