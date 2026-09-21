@@ -146,7 +146,10 @@ MIGRATED_SCRIPT_FAMILIES: dict[str, dict[str, int]] = {
     },
 }
 
-ORPHANED_RUNTIME_SCRIPTS: set[str] = set()
+ORPHANED_RUNTIME_SCRIPTS: set[str] = {
+    "SPAWNER_TEST_WITHER_SKELETON",
+    "test_sword_1",
+}
 
 
 def copy_runtime(destination: Path) -> None:
