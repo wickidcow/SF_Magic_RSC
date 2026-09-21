@@ -185,7 +185,7 @@ jobs:
             fi
           done
 
-          if jar tf "$JAR" | grep -Eq '^embedded/Magic/scripts/.*\.js            local file="$1"
+          if jar tf "$JAR" | grep -Eq '^embedded/Magic/scripts/.*[.]js            local file="$1"
             local item="$2"
             local script="$3"
             if unzip -p "$JAR" "embedded/Magic/${file}" \
@@ -362,7 +362,7 @@ jobs:
           if-no-files-found: error
 ; then
             echo "Magic Legacy must not package JavaScript runtime files after native migration." >&2
-            jar tf "$JAR" | grep -E '^embedded/Magic/scripts/.*\.js            local file="$1"
+            jar tf "$JAR" | grep -E '^embedded/Magic/scripts/.*[.]js            local file="$1"
             local item="$2"
             local script="$3"
             if unzip -p "$JAR" "embedded/Magic/${file}" \
