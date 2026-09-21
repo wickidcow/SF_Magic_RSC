@@ -284,6 +284,8 @@ jobs:
           unzip -p "$JAR" embedded/Magic/workbenches.yml | grep -Fq 'Capacity: 1,000 J'
           unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'Runtime draw: 1,314 J per machine tick'
           unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'Requires a &fMagic Geominer Box &7below.'
+          unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'name: "&dMagic Flower Mix I"'
+          unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'Energy cost: &f10 J &7per conversion.'
           unzip -p "$JAR" embedded/Magic/recipe_types.yml | grep -Fq 'Extracts local Magic GEO resources.'
           unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'name: "&dMagic Geominer"'
           unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'Requires a &fMagic Geominer Box &7below.'
