@@ -76,12 +76,15 @@ jobs:
           unzip -p "$JAR" plugin.yml | grep -Fxq '  - Networks'
           unzip -p "$JAR" plugin.yml | grep -Fxq '  - RykenSlimefunCustomizer'
           python3 - <<'PY'
-          import zipfile, yaml
+          import re, zipfile
           jar = 'build/libs/SF_MagicLegacy${{ steps.version.outputs.version }}.jar'
           with zipfile.ZipFile(jar) as zf:
-              descriptor = yaml.safe_load(zf.read('plugin.yml'))
-          soft = descriptor.get('softdepend', []) or []
-          before = descriptor.get('loadbefore', []) or []
+              descriptor = zf.read('plugin.yml').decode('utf-8')
+          def entries(section):
+              match = re.search(rf'(?ms)^{section}:\s*\n((?:\s+-\s*[^\n]+\n?)+)', descriptor)
+              return [line.split('-', 1)[1].strip() for line in match.group(1).splitlines()] if match else []
+          soft = entries('softdepend')
+          before = entries('loadbefore')
           if 'Networks' not in soft:
               raise SystemExit('MagicLegacy must soft-depend on Networks so Networks registers first')
           if 'RykenSlimefunCustomizer' not in before:
