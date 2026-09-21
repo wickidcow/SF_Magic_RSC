@@ -117,6 +117,8 @@ MIGRATED_SCRIPTS: dict[str, dict[str, str]] = {
         "MAGIC_POWER_MIX_1": "魔法矩阵-发电机1",
         "MAGIC_PLAYER_ATTACT": "magicsolo_master",
         "MAGIC_PLANT_1": "魔法植物1",
+        "MAGIC_FLOWER_MIX_1": "magic_custom_machine",
+        "MAGIC_GEOMINER": "magic_custom_machine",
     },
     "foods.yml": {
         "MAGIC_FOODS_RANDOMFOOD": "randomfood",
