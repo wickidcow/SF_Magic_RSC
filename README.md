@@ -15,7 +15,7 @@ Magic Legacy preserves the original Magic RSC content while moving its fragile r
 Magic Legacy 2.0 is installed like a normal plugin.
 
 1. Stop the server normally.
-2. Put `SF_MagicLegacy2.0.31.jar` in the server's `plugins/` folder.
+2. Put `SF_MagicLegacy2.0.32.jar` in the server's `plugins/` folder.
 3. Keep the required Slimefun addons installed.
 4. Start the server normally.
 
@@ -93,7 +93,7 @@ The 2.0 builder also declares DynaTech explicitly because the maintained Magic r
 
 The Java plugin is now the stable owner of Magic Legacy. Native migrations move into it in small testable groups, starting with the JavaScript systems that are most likely to fail across Graal/Paper changes.
 
-### Native migrations in 2.0.31
+### Native migrations in 2.0.32
 
 - `MAGIC_GUN_1` no longer executes `scripts/基础枪.js` at runtime.
 - The same 20-block hitscan, 5 damage, 8-tick cooldown, END_ROD beam, and firework sound are handled by `MagicGunListener` in Java.
@@ -111,6 +111,7 @@ The Java plugin is now the stable owner of Magic Legacy. Native migrations move 
 - The full Magic catcher family (`MAGIC_*_CATCH` plus `MAGIC_ALL_CATCH`) is native Java. The 5-block ray capture, 50 J activation cost and additional 250 J successful-capture cost are preserved, while a low-charge edge case can no longer remove a mob without paying the full capture cost.
 
 - `MAGIC_FLOWER_MIX_1` and `MAGIC_GEOMINER` are native Java. Flower Mix keeps the original flower-slot cycle and 10 J conversion cost; Geominer keeps its Magic Geominer Box requirement, 1,314 J runtime draw, 30-second resource extraction cadence, and local Slimefun GEO supply consumption without relying on Graal JavaScript.
+- `MAGIC_INFINITY_MIX_1` is native Java. Its module chain, 3,200 / 28,800 / 28,800 J module costs, 12-unit production cap, 192-item-per-unit output behavior, random dust/ingot selection, output-full protection, and live English status display are preserved without Graal JavaScript. With this migration, the managed runtime has no remaining active gameplay `script:` hooks.
 - Captured-animal items and the artificial-mob items are native Java. They retain the original spawn behavior, including baby animal spawns for captured animals, while replacing Graal entity spawning and Chinese artificial-mob names with stable Bukkit/Paper calls and English names.
 - `MAGIC_BANNER_SOUL` insertion is native Java and writes directly to the Soul Banner persistent-data counter instead of editing a fixed lore line. One token adds 100 souls; sneak-use with a full stack of 64 adds 6,400 souls while respecting the banner soul cap.
 - `MAGIC_MUSIC` is native Java. It preserves the 150-second per-player cooldown, hunger/saturation drain, server-wide restart-scoped use counter, and 4-block baby-chicken growth effect while replacing the old Chinese title/placeholder broadcast output with concise English feedback.
@@ -130,7 +131,7 @@ The Java plugin is now the stable owner of Magic Legacy. Native migrations move 
 - `MAGIC_ZHENFA_FIRE_1` is now the player-facing **Magic Flame Formation** and runs in native Java. It preserves the actual 1-second cooldown, 5-block radius, 100 damage, and hunger/saturation cost while reducing the old roughly 10,800-particle activation to about 216 particles and removing Chinese/placeholder runtime messages.
 - The entire 12-item snow-food family is native Java. The foods now use the current potion registry, never roll zero-second effects, and have names/lore that identify their effect instead of placeholders such as `Magic Foods A 4`. Effect strength remains randomized from level 1-50 and duration from 1-100 seconds.
 
-### Lore quality in 2.0.31
+### Lore quality in 2.0.32
 
 The migrated items now have behavior-matched English lore instead of blank color lines or fragments such as `tier: 100`, `100 tier`, `Materials`, and `seconds`. The Infinity Blade wording was also corrected from incoming damage to damage dealt, matching its 1% lifesteal behavior. The 20 Magic mob data cards now use clean names such as `Magic Zombie Data Card`, identify themselves as converted mob-data cards, and no longer carry the misleading `800 J/s` item lore. The guide recipe and machine are consistently named **Magic Data Card Inserter**, with the machine showing its actual `20,000 J` energy-per-craft value. CI runs a lore wording audit that flags blank/color-only lore, low-information fragments, CJK text, `bug`, merged/duplicated placeholder wording, generic legacy power text, and known placeholder failure messages. The Magic Supreme Workbench now reports its configured 100 J per craft and 1,000 J capacity instead of the old incorrect 10,000/100,000 values; Storage Upgrade Table, EXP Bottle usage, and Grinding Stone guide entries also have descriptive lore. The Magic Geominer now explains its 5,200 J capacity, 1,314 J-per-machine-tick runtime draw, required Geominer Box placement, and local GEO-resource purpose, while its in-machine status text is English instead of Chinese. `MAGIC_INFINITY_MIX_1` is now player-facing as **Magic Infinity Processor** with its 2,147,483,647 J capacity, per-module energy costs, required mix-box placement, and dynamic-draw behavior explained; its live machine menu is also English and the old garbled/`??? J/s` lore is gone. Resource wording has also been cleaned for Magic Ingot, Infinite Water, Magic Bucket, Magic Lava Bucket, compressed coolant cells, Blizzard Core, and Magic Chicken Relic. The Blizzard Core recipe now explicitly records the Extreme Freezer ingredient amount as 1, matching RSC's previous defaulting behavior while removing ambiguous YAML. The LI-I battery pair is now clearly labeled Empty/Full, and the charging machine is consistently named **Magic Battery Charger I** with its configured 1,000 J energy-per-charge and 2,000 J capacity instead of legacy `999x`/`J/s` filler.
 
