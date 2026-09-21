@@ -1,13 +1,11 @@
 id: Magic
 name: Magic Legacy
 depends: []
+# Only Slimefun is a hard RSC dependency.
+# Integration addons are optional: definitions that need them are gated/skipped
+# individually so one missing addon does not prevent all of Magic from loading.
 pluginDepends:
 - Slimefun
-- InfinityExpansion2
-- DynaTech
-- GeneticChickengineering
-- Supreme
-- FoxyMachines
 scriptListener: 服务器
 version: Legacy-1.1.21
 description: Magic Legacy compatibility pack for the maintained Slimefun Legacy ecosystem, paired with RSC Legacy4 IE2 boot fallbacks.
