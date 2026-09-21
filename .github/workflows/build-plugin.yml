@@ -99,7 +99,6 @@ jobs:
             'embedded/Magic/info.yml' \
             'embedded/Magic/items.yml' \
             'embedded/Magic/foods.yml' \
-            'embedded/Magic/scripts/服务器.js' \
             'io/github/wickidcow/magiclegacy/MagicGunListener.class' \
             'io/github/wickidcow/magiclegacy/ChristmasSnowballListener.class' \
             'io/github/wickidcow/magiclegacy/ExperienceItemListener.class' \
@@ -124,6 +123,8 @@ jobs:
             'io/github/wickidcow/magiclegacy/MagicMusicListener.class' \
             'io/github/wickidcow/magiclegacy/MagicDustPickaxeListener.class' \
             'io/github/wickidcow/magiclegacy/MagicArchaeologyBlockListener.class' \
+            'io/github/wickidcow/magiclegacy/MagicFishingListener.class' \
+            'io/github/wickidcow/magiclegacy/StorageCompatibilityListener.class' \
             'io/github/wickidcow/magiclegacy/NativePowerMixManager.class' \
             'io/github/wickidcow/magiclegacy/NativeCustomMachineManager.class' \
             'io/github/wickidcow/magiclegacy/NativeInfinityProcessorManager.class' \
@@ -174,12 +175,375 @@ jobs:
             'embedded/Magic/scripts/sound.js' \
             'embedded/Magic/scripts/magic_stick_jiguang_1.js' \
             'embedded/Magic/scripts/阵法_小火苗_1.js' \
-            'embedded/Magic/scripts/snow_food.js'; do
+            'embedded/Magic/scripts/snow_food.js' \
+            'embedded/Magic/scripts/服务器.js' \
+            'embedded/Magic/scripts/SPAWNER_TEST_WITHER_SKELETON.js' \
+            'embedded/Magic/scripts/test_sword_1.js'; do
             if jar tf "$JAR" | grep -Fxq "$SCRIPT"; then
               echo "Removed runtime script still packaged: $SCRIPT" >&2
               exit 1
             fi
           done
+
+          if jar tf "$JAR" | grep -Eq '^embedded/Magic/scripts/.*\.js            local file="$1"
+            local item="$2"
+            local script="$3"
+            if unzip -p "$JAR" "embedded/Magic/${file}" \
+              | sed -n "/^${item}:/,/^[A-Z0-9_][A-Z0-9_]*:/p" \
+              | grep -Fq "script: ${script}"; then
+              echo "${item} still has legacy script hook ${script}" >&2
+              exit 1
+            fi
+          }
+
+          assert_no_hook items.yml MAGIC_GUN_1 基础枪
+          assert_no_hook items.yml MAGIC_CHRISTMAS_SNOWBALL CHRISTMAS_SNOWBALL
+          assert_no_hook items.yml MAGIC_EXP_COLLECTOR MFEXPBOTTLE
+          assert_no_hook items.yml MAGIC_EXP_BOTTLE MFEXPBOTTLE100
+          assert_no_hook items.yml MAGIC_UNBREAKABLE_RUNE UNBREAKABLE_RUNE
+          assert_no_hook items.yml MAGIC_INFINITE_STICK INFINITE_STICK
+          assert_no_hook items.yml MAGIC_INFINITY_BLADE_1 QYZJ_1
+          assert_no_hook foods.yml MAGIC_FOODS_RANDOMFOOD randomfood
+          assert_no_hook foods.yml MAGIC_FOODS_JIAOZI snow_food
+          assert_no_hook foods.yml MAGIC_FOODS_APPLE snow_food
+          assert_no_hook foods.yml MAGIC_FOODS_A_1 snow_food
+          assert_no_hook foods.yml MAGIC_FOODS_A_2 snow_food
+          assert_no_hook foods.yml MAGIC_FOODS_A_3 snow_food
+          assert_no_hook foods.yml MAGIC_FOODS_A_4 snow_food
+          assert_no_hook foods.yml MAGIC_FOODS_A_5 snow_food
+          assert_no_hook foods.yml MAGIC_FOODS_A_6 snow_food
+          assert_no_hook foods.yml MAGIC_FOODS_A_7 snow_food
+          assert_no_hook foods.yml MAGIC_FOODS_A_8 snow_food
+          assert_no_hook foods.yml MAGIC_FOODS_A_9 snow_food
+          assert_no_hook foods.yml MAGIC_FOODS_A_10 snow_food
+          assert_no_hook items.yml MAGIC_SOUND sound
+          assert_no_hook items.yml MAGIC_STICK_JIGUANG_1 magic_stick_jiguang_1
+          assert_no_hook items.yml MAGIC_ZHENFA_FIRE_1 阵法_小火苗_1
+          assert_no_hook items.yml MAGIC_NEW_PLANECUP planecup
+          assert_no_hook items.yml MAGIC_BANNER_LIANHUN BANNER_LIST
+          assert_no_hook items.yml MAGIC_BANNER_SOUL BANNER_INSERT
+          assert_no_hook items.yml MAGIC_POWER_BANK_DESCRIPTION CDB_1
+          assert_no_hook items.yml MAGIC_POWER_BANK_ALPHA CDB_1
+          assert_no_hook items.yml MAGIC_POWER_BANK_BETA CDB_2
+          assert_no_hook items.yml MAGIC_TP_PAPER specialItem/定点传送卷轴
+          assert_no_hook items.yml MAGIC_TP_STICK specialItem/定点传送法杖
+          assert_no_hook items.yml MAGIC_RANDOM_TP_PAPER specialItem/破损的传送卷轴
+          assert_no_hook items.yml MAGIC_ENCHANT_UP_1 enchant_up_1
+          assert_no_hook items.yml MAGIC_ENCHANT_UP_1_MAX enchant_up_1_max
+          assert_no_hook items.yml MAGIC_ENCHANT_UPUP_1 enchant_upup_1
+          assert_no_hook items.yml MAGIC_ENCHANT_UPUP_1_MAX enchant_upup_1_max
+          assert_no_hook items.yml MAGIC_ATTRIBUTE_UPUP_1 attribute_upup_1
+          assert_no_hook items.yml MAGIC_ATTRIBUTE_UPUP_1_MAX attribute_upup_1_max
+          assert_no_hook items.yml MAGIC_GENSHIN_IMPACT_RADDOM Genshin_box
+          assert_no_hook items.yml MAGIC_MUSIC LQ
+          assert_no_hook items.yml MAGIC_DUST_PICKAXE MOFENGAO
+          assert_no_hook machines.yml MAGIC_TEST_WHITE_WOOL NO_DROP
+          assert_no_hook machines.yml MAGIC_KAOGU_SAND_1 可疑的沙子
+          assert_no_hook machines.yml MAGIC_KAOGU_GRAVEL_1 可疑的沙砾
+          assert_no_hook machines.yml MAGIC_POWER_MIX_1 魔法矩阵-发电机1
+          assert_no_hook machines.yml MAGIC_PLAYER_ATTACT magicsolo_master
+          assert_no_hook machines.yml MAGIC_PLANT_1 魔法植物1
+          for SCRIPT in SOME_CATCH ALL_CATCH ANIMALS_SPAWN ARTIFICIAL_SPAWN SPAWNER; do
+            if unzip -p "$JAR" embedded/Magic/items.yml | grep -Eq "^[[:space:]]+script:[[:space:]]*[\"\x27]?${SCRIPT}[\"\x27]?[[:space:]]*$"; then
+              echo "Legacy mob runtime hook still present: $SCRIPT" >&2
+              exit 1
+            fi
+          done
+
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'name: "&dMagic Soul Banner"'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Kills with this banner capture &f1 soul&7.'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Burst damage: &f8 × stored souls&7; costs &f1/3 of stored souls&7.'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Stores &f100 souls &7inside a Magic Soul Banner.'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Sneak-use a full stack of 64 to insert &f6,400 souls&7.'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'name: "&dMagic Power Banks"'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Discharge cost: &f0-499,999 J &7per activation.'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Energy cost: &f2 J &7per &f1 J &7transferred.'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Successful capture total: &f300 J'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Releases a baby Magic mob when used on a block.'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Creates the corresponding artificial mob when used on a block.'
+          test "$(unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fc 'Native Java scheduler')" -eq 132
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Right-click to teleport yourself to the bound location.'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Teleports that entity to the bound location.'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Horizontal range: &f±250 blocks'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Adds or raises &fone random enchantment &7by one level.'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Penalty: &f-1% &7per 10 levels of the target'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Raises &fall existing enchantments &7by one level.'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Penalty: &f-2% &7per 10 levels of the target'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Sneak-right-click to cycle the attribute slot.'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Slots: &fHead, Chest, Legs, Feet, Main Hand, Off Hand'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Only Magic Legacy'"'"'s own modifiers are updated.'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Cooldown: &f150 seconds &7per player.'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'At &f250 uses&7, hold a diamond off-hand to redeem a gift.'
+          unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'name: "&dMagic Archaeology Sand"'
+          unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'name: "&dMagic Archaeology Gravel"'
+          unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'Rare-table chance: &f1 in 8&7.'
+          unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'Breaks without dropping itself.'
+          unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'Native generator-matrix controller.'
+          unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'Requires a &fMagic Power Mix Box &7directly above.'
+          unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'Capacity: &f1,008,888,888 J'
+          unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'name: "&dMagic Player Attack"'
+          unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'Idle draw after warmup: &f128 J/s'
+          unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'Activation cost: &f4,096 J'
+          unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'Native staged-growth plant.'
+          unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'Mature break reward: &f10% &7chance for 1 Infinite Ingot.'
+          unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'Runtime energy draw: &f0 J'
+
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Right-click to fire a focused magic shot.'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Right-click to fire a charged magic laser.'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Right-click to store &f100 experience levels.'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Makes that item permanently unbreakable.'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'A single-use PvP relic.'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'name: "&dMagic Flame Formation"'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Consumes all hunger and saturation'
+          unzip -p "$JAR" embedded/Magic/foods.yml | grep -Fq 'Grants &f1-3 random potion effects&7.'
+          unzip -p "$JAR" embedded/Magic/foods.yml | grep -Fq 'name: "&dMagic Fireproof Tonic"'
+          unzip -p "$JAR" embedded/Magic/foods.yml | grep -Fq 'name: "&dMagic Lucky Stew"'
+          unzip -p "$JAR" embedded/Magic/foods.yml | grep -Fq 'Effect level: &f1-50'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'name: "&dMagic Zombie Data Card"'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Created by the Magic Data Card Inserter.'
+          unzip -p "$JAR" embedded/Magic/recipe_types.yml | grep -Fq 'name: "&dMagic Data Card Inserter"'
+          unzip -p "$JAR" embedded/Magic/recipe_machines.yml | grep -Fq 'Energy per craft: 20,000 J'
+          unzip -p "$JAR" embedded/Magic/recipe_types.yml | grep -Fq 'Used for Magic storage upgrade recipes.'
+          unzip -p "$JAR" embedded/Magic/recipe_types.yml | grep -Fq 'Right-click to release the stored experience.'
+          unzip -p "$JAR" embedded/Magic/recipe_types.yml | grep -Fq 'Used for Magic grinding recipes.'
+          unzip -p "$JAR" embedded/Magic/recipe_types.yml | grep -Fq 'Energy per craft: 100 J'
+          unzip -p "$JAR" embedded/Magic/workbenches.yml | grep -Fq 'Capacity: 1,000 J'
+          unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'Runtime draw: 1,314 J per machine tick'
+          unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'Requires a &fMagic Geominer Box &7below.'
+          unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'name: "&dMagic Flower Mix I"'
+          unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'Energy cost: &f10 J &7per conversion.'
+          unzip -p "$JAR" embedded/Magic/recipe_types.yml | grep -Fq 'Extracts local Magic GEO resources.'
+          unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'name: "&dMagic Geominer"'
+          unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'Requires a &fMagic Geominer Box &7below.'
+          unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'name: "&dMagic Infinity Processor"'
+          unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'Capacity: 2,147,483,647 J'
+          unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'Runtime draw scales with installed modules'
+          unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'name: "&dMagic Infinity Processor"'
+          unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'Runtime draw scales with installed modules'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'name: "&dMagic Blizzard Core"'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'name: "&dMagic Compressed Reactor Coolant Cell"'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'name: "&dMagic Chicken Relic"'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'High-tier Magic crafting material.'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Reinforced bucket forged from Infinity Ingots.'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'material: IE_EXTREME_FREEZER'
+          unzip -p "$JAR" embedded/Magic/items.yml | sed -n '/material: IE_EXTREME_FREEZER/,+1p' | grep -Fq 'amount: 1'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'name: "&dMagic Battery LI-I (Empty)"'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Stored energy: &f2,000 / 2,000 J'
+          unzip -p "$JAR" embedded/Magic/recipe_machines.yml | grep -Fq 'name: "&dMagic Battery Charger I"'
+          unzip -p "$JAR" embedded/Magic/recipe_machines.yml | grep -Fq 'Energy per charge: 1,000 J'
+          unzip -p "$JAR" embedded/Magic/saveditems/QYZJ_1.yml | grep -Fq 'Restores 1% of damage dealt as health'
+
+          python3 - <<'PY'
+          import base64, gzip, re, zipfile
+          jar = 'build/libs/SF_MagicLegacy${{ steps.version.outputs.version }}.jar'
+          with zipfile.ZipFile(jar) as zf:
+              for name in [f'embedded/Magic/saveditems/mx{i}.yml' for i in range(1, 6)]:
+                  text = zf.read(name).decode('utf-8')
+                  match = re.search(r'(?m)^\s*internal:\s*(\S+)\s*$', text)
+                  if not match:
+                      raise SystemExit(f'Missing serialized chest payload: {name}')
+                  raw = gzip.decompress(base64.b64decode(match.group(1), validate=True))
+                  if b'BlockEntityTag' not in raw or b'minecraft:chest' not in raw:
+                      raise SystemExit(f'Legacy chest payload is missing its modern block-entity id: {name}')
+          print('Verified starter reward chest block-entity ids')
+          PY
+
+          javap -verbose -classpath "$JAR" io.github.wickidcow.magiclegacy.MagicLegacyPlugin \
+            | grep -Fq 'major version: 65'
+          unzip -p "$JAR" embedded/Magic/info.yml | grep -Fxq "version: Legacy-${{ steps.version.outputs.version }}"
+          unzip -p "$JAR" embedded/Magic/info.yml | grep -Fxq -- "- \" Legacy version: ${{ steps.version.outputs.version }}\""
+          unzip -p "$JAR" embedded/Magic/info.yml | grep -Fxq -- '- DynaTech'
+          sha256sum "$JAR"
+
+      - uses: actions/upload-artifact@v7
+        with:
+          name: SF_MagicLegacy${{ steps.version.outputs.version }}
+          path: build/libs/SF_MagicLegacy${{ steps.version.outputs.version }}.jar
+          if-no-files-found: error
+; then
+            echo "Magic Legacy must not package JavaScript runtime files after native migration." >&2
+            jar tf "$JAR" | grep -E '^embedded/Magic/scripts/.*\.js            local file="$1"
+            local item="$2"
+            local script="$3"
+            if unzip -p "$JAR" "embedded/Magic/${file}" \
+              | sed -n "/^${item}:/,/^[A-Z0-9_][A-Z0-9_]*:/p" \
+              | grep -Fq "script: ${script}"; then
+              echo "${item} still has legacy script hook ${script}" >&2
+              exit 1
+            fi
+          }
+
+          assert_no_hook items.yml MAGIC_GUN_1 基础枪
+          assert_no_hook items.yml MAGIC_CHRISTMAS_SNOWBALL CHRISTMAS_SNOWBALL
+          assert_no_hook items.yml MAGIC_EXP_COLLECTOR MFEXPBOTTLE
+          assert_no_hook items.yml MAGIC_EXP_BOTTLE MFEXPBOTTLE100
+          assert_no_hook items.yml MAGIC_UNBREAKABLE_RUNE UNBREAKABLE_RUNE
+          assert_no_hook items.yml MAGIC_INFINITE_STICK INFINITE_STICK
+          assert_no_hook items.yml MAGIC_INFINITY_BLADE_1 QYZJ_1
+          assert_no_hook foods.yml MAGIC_FOODS_RANDOMFOOD randomfood
+          assert_no_hook foods.yml MAGIC_FOODS_JIAOZI snow_food
+          assert_no_hook foods.yml MAGIC_FOODS_APPLE snow_food
+          assert_no_hook foods.yml MAGIC_FOODS_A_1 snow_food
+          assert_no_hook foods.yml MAGIC_FOODS_A_2 snow_food
+          assert_no_hook foods.yml MAGIC_FOODS_A_3 snow_food
+          assert_no_hook foods.yml MAGIC_FOODS_A_4 snow_food
+          assert_no_hook foods.yml MAGIC_FOODS_A_5 snow_food
+          assert_no_hook foods.yml MAGIC_FOODS_A_6 snow_food
+          assert_no_hook foods.yml MAGIC_FOODS_A_7 snow_food
+          assert_no_hook foods.yml MAGIC_FOODS_A_8 snow_food
+          assert_no_hook foods.yml MAGIC_FOODS_A_9 snow_food
+          assert_no_hook foods.yml MAGIC_FOODS_A_10 snow_food
+          assert_no_hook items.yml MAGIC_SOUND sound
+          assert_no_hook items.yml MAGIC_STICK_JIGUANG_1 magic_stick_jiguang_1
+          assert_no_hook items.yml MAGIC_ZHENFA_FIRE_1 阵法_小火苗_1
+          assert_no_hook items.yml MAGIC_NEW_PLANECUP planecup
+          assert_no_hook items.yml MAGIC_BANNER_LIANHUN BANNER_LIST
+          assert_no_hook items.yml MAGIC_BANNER_SOUL BANNER_INSERT
+          assert_no_hook items.yml MAGIC_POWER_BANK_DESCRIPTION CDB_1
+          assert_no_hook items.yml MAGIC_POWER_BANK_ALPHA CDB_1
+          assert_no_hook items.yml MAGIC_POWER_BANK_BETA CDB_2
+          assert_no_hook items.yml MAGIC_TP_PAPER specialItem/定点传送卷轴
+          assert_no_hook items.yml MAGIC_TP_STICK specialItem/定点传送法杖
+          assert_no_hook items.yml MAGIC_RANDOM_TP_PAPER specialItem/破损的传送卷轴
+          assert_no_hook items.yml MAGIC_ENCHANT_UP_1 enchant_up_1
+          assert_no_hook items.yml MAGIC_ENCHANT_UP_1_MAX enchant_up_1_max
+          assert_no_hook items.yml MAGIC_ENCHANT_UPUP_1 enchant_upup_1
+          assert_no_hook items.yml MAGIC_ENCHANT_UPUP_1_MAX enchant_upup_1_max
+          assert_no_hook items.yml MAGIC_ATTRIBUTE_UPUP_1 attribute_upup_1
+          assert_no_hook items.yml MAGIC_ATTRIBUTE_UPUP_1_MAX attribute_upup_1_max
+          assert_no_hook items.yml MAGIC_GENSHIN_IMPACT_RADDOM Genshin_box
+          assert_no_hook items.yml MAGIC_MUSIC LQ
+          assert_no_hook items.yml MAGIC_DUST_PICKAXE MOFENGAO
+          assert_no_hook machines.yml MAGIC_TEST_WHITE_WOOL NO_DROP
+          assert_no_hook machines.yml MAGIC_KAOGU_SAND_1 可疑的沙子
+          assert_no_hook machines.yml MAGIC_KAOGU_GRAVEL_1 可疑的沙砾
+          assert_no_hook machines.yml MAGIC_POWER_MIX_1 魔法矩阵-发电机1
+          assert_no_hook machines.yml MAGIC_PLAYER_ATTACT magicsolo_master
+          assert_no_hook machines.yml MAGIC_PLANT_1 魔法植物1
+          for SCRIPT in SOME_CATCH ALL_CATCH ANIMALS_SPAWN ARTIFICIAL_SPAWN SPAWNER; do
+            if unzip -p "$JAR" embedded/Magic/items.yml | grep -Eq "^[[:space:]]+script:[[:space:]]*[\"\x27]?${SCRIPT}[\"\x27]?[[:space:]]*$"; then
+              echo "Legacy mob runtime hook still present: $SCRIPT" >&2
+              exit 1
+            fi
+          done
+
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'name: "&dMagic Soul Banner"'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Kills with this banner capture &f1 soul&7.'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Burst damage: &f8 × stored souls&7; costs &f1/3 of stored souls&7.'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Stores &f100 souls &7inside a Magic Soul Banner.'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Sneak-use a full stack of 64 to insert &f6,400 souls&7.'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'name: "&dMagic Power Banks"'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Discharge cost: &f0-499,999 J &7per activation.'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Energy cost: &f2 J &7per &f1 J &7transferred.'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Successful capture total: &f300 J'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Releases a baby Magic mob when used on a block.'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Creates the corresponding artificial mob when used on a block.'
+          test "$(unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fc 'Native Java scheduler')" -eq 132
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Right-click to teleport yourself to the bound location.'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Teleports that entity to the bound location.'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Horizontal range: &f±250 blocks'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Adds or raises &fone random enchantment &7by one level.'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Penalty: &f-1% &7per 10 levels of the target'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Raises &fall existing enchantments &7by one level.'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Penalty: &f-2% &7per 10 levels of the target'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Sneak-right-click to cycle the attribute slot.'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Slots: &fHead, Chest, Legs, Feet, Main Hand, Off Hand'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Only Magic Legacy'"'"'s own modifiers are updated.'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Cooldown: &f150 seconds &7per player.'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'At &f250 uses&7, hold a diamond off-hand to redeem a gift.'
+          unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'name: "&dMagic Archaeology Sand"'
+          unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'name: "&dMagic Archaeology Gravel"'
+          unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'Rare-table chance: &f1 in 8&7.'
+          unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'Breaks without dropping itself.'
+          unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'Native generator-matrix controller.'
+          unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'Requires a &fMagic Power Mix Box &7directly above.'
+          unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'Capacity: &f1,008,888,888 J'
+          unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'name: "&dMagic Player Attack"'
+          unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'Idle draw after warmup: &f128 J/s'
+          unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'Activation cost: &f4,096 J'
+          unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'Native staged-growth plant.'
+          unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'Mature break reward: &f10% &7chance for 1 Infinite Ingot.'
+          unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'Runtime energy draw: &f0 J'
+
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Right-click to fire a focused magic shot.'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Right-click to fire a charged magic laser.'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Right-click to store &f100 experience levels.'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Makes that item permanently unbreakable.'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'A single-use PvP relic.'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'name: "&dMagic Flame Formation"'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Consumes all hunger and saturation'
+          unzip -p "$JAR" embedded/Magic/foods.yml | grep -Fq 'Grants &f1-3 random potion effects&7.'
+          unzip -p "$JAR" embedded/Magic/foods.yml | grep -Fq 'name: "&dMagic Fireproof Tonic"'
+          unzip -p "$JAR" embedded/Magic/foods.yml | grep -Fq 'name: "&dMagic Lucky Stew"'
+          unzip -p "$JAR" embedded/Magic/foods.yml | grep -Fq 'Effect level: &f1-50'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'name: "&dMagic Zombie Data Card"'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Created by the Magic Data Card Inserter.'
+          unzip -p "$JAR" embedded/Magic/recipe_types.yml | grep -Fq 'name: "&dMagic Data Card Inserter"'
+          unzip -p "$JAR" embedded/Magic/recipe_machines.yml | grep -Fq 'Energy per craft: 20,000 J'
+          unzip -p "$JAR" embedded/Magic/recipe_types.yml | grep -Fq 'Used for Magic storage upgrade recipes.'
+          unzip -p "$JAR" embedded/Magic/recipe_types.yml | grep -Fq 'Right-click to release the stored experience.'
+          unzip -p "$JAR" embedded/Magic/recipe_types.yml | grep -Fq 'Used for Magic grinding recipes.'
+          unzip -p "$JAR" embedded/Magic/recipe_types.yml | grep -Fq 'Energy per craft: 100 J'
+          unzip -p "$JAR" embedded/Magic/workbenches.yml | grep -Fq 'Capacity: 1,000 J'
+          unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'Runtime draw: 1,314 J per machine tick'
+          unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'Requires a &fMagic Geominer Box &7below.'
+          unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'name: "&dMagic Flower Mix I"'
+          unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'Energy cost: &f10 J &7per conversion.'
+          unzip -p "$JAR" embedded/Magic/recipe_types.yml | grep -Fq 'Extracts local Magic GEO resources.'
+          unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'name: "&dMagic Geominer"'
+          unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'Requires a &fMagic Geominer Box &7below.'
+          unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'name: "&dMagic Infinity Processor"'
+          unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'Capacity: 2,147,483,647 J'
+          unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'Runtime draw scales with installed modules'
+          unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'name: "&dMagic Infinity Processor"'
+          unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'Runtime draw scales with installed modules'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'name: "&dMagic Blizzard Core"'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'name: "&dMagic Compressed Reactor Coolant Cell"'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'name: "&dMagic Chicken Relic"'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'High-tier Magic crafting material.'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Reinforced bucket forged from Infinity Ingots.'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'material: IE_EXTREME_FREEZER'
+          unzip -p "$JAR" embedded/Magic/items.yml | sed -n '/material: IE_EXTREME_FREEZER/,+1p' | grep -Fq 'amount: 1'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'name: "&dMagic Battery LI-I (Empty)"'
+          unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'Stored energy: &f2,000 / 2,000 J'
+          unzip -p "$JAR" embedded/Magic/recipe_machines.yml | grep -Fq 'name: "&dMagic Battery Charger I"'
+          unzip -p "$JAR" embedded/Magic/recipe_machines.yml | grep -Fq 'Energy per charge: 1,000 J'
+          unzip -p "$JAR" embedded/Magic/saveditems/QYZJ_1.yml | grep -Fq 'Restores 1% of damage dealt as health'
+
+          python3 - <<'PY'
+          import base64, gzip, re, zipfile
+          jar = 'build/libs/SF_MagicLegacy${{ steps.version.outputs.version }}.jar'
+          with zipfile.ZipFile(jar) as zf:
+              for name in [f'embedded/Magic/saveditems/mx{i}.yml' for i in range(1, 6)]:
+                  text = zf.read(name).decode('utf-8')
+                  match = re.search(r'(?m)^\s*internal:\s*(\S+)\s*$', text)
+                  if not match:
+                      raise SystemExit(f'Missing serialized chest payload: {name}')
+                  raw = gzip.decompress(base64.b64decode(match.group(1), validate=True))
+                  if b'BlockEntityTag' not in raw or b'minecraft:chest' not in raw:
+                      raise SystemExit(f'Legacy chest payload is missing its modern block-entity id: {name}')
+          print('Verified starter reward chest block-entity ids')
+          PY
+
+          javap -verbose -classpath "$JAR" io.github.wickidcow.magiclegacy.MagicLegacyPlugin \
+            | grep -Fq 'major version: 65'
+          unzip -p "$JAR" embedded/Magic/info.yml | grep -Fxq "version: Legacy-${{ steps.version.outputs.version }}"
+          unzip -p "$JAR" embedded/Magic/info.yml | grep -Fxq -- "- \" Legacy version: ${{ steps.version.outputs.version }}\""
+          unzip -p "$JAR" embedded/Magic/info.yml | grep -Fxq -- '- DynaTech'
+          sha256sum "$JAR"
+
+      - uses: actions/upload-artifact@v7
+        with:
+          name: SF_MagicLegacy${{ steps.version.outputs.version }}
+          path: build/libs/SF_MagicLegacy${{ steps.version.outputs.version }}.jar
+          if-no-files-found: error
+ >&2
+            exit 1
+          fi
+          if unzip -p "$JAR" embedded/Magic/info.yml | grep -Eq '^scriptListener:'; then
+            echo "Magic Legacy info.yml still contains a legacy global scriptListener." >&2
+            exit 1
+          fi
 
           assert_no_hook() {
             local file="$1"
