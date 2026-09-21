@@ -270,6 +270,21 @@ def disable_migrated_scripts(destination: Path) -> None:
     """Remove RSC hooks and runtime files that now have native Java replacements."""
     migrated_script_names: set[str] = set()
 
+    info = destination / "info.yml"
+    info_text = info.read_text(encoding="utf-8")
+    info_text, global_count = re.subn(
+        r'(?m)^scriptListener:\s*["\x27]?服务器["\x27]?\s*(?:#.*)?\n?',
+        "",
+        info_text,
+        count=1,
+    )
+    if global_count != 1:
+        raise RuntimeError(
+            f"Native global-listener migration hook mismatch in info.yml: expected 1, found {global_count}"
+        )
+    info.write_text(info_text, encoding="utf-8")
+    migrated_script_names.add("服务器")
+
     for yaml_name, mappings in MIGRATED_SCRIPTS.items():
         path = destination / yaml_name
         if not path.is_file():
@@ -365,7 +380,6 @@ def main() -> int:
         destination / "items.yml",
         destination / "foods.yml",
         destination / "recipe_machines.yml",
-        destination / "scripts" / "服务器.js",
     ]
     missing = [str(path) for path in required if not path.is_file()]
     if missing:
