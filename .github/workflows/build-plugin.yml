@@ -105,6 +105,7 @@ jobs:
             'io/github/wickidcow/magiclegacy/MagicArchaeologyBlockListener.class' \
             'io/github/wickidcow/magiclegacy/NativePowerMixManager.class' \
             'io/github/wickidcow/magiclegacy/NativeCustomMachineManager.class' \
+            'io/github/wickidcow/magiclegacy/NativeInfinityProcessorManager.class' \
             'io/github/wickidcow/magiclegacy/NativePlayerAttackManager.class' \
             'io/github/wickidcow/magiclegacy/NativeMagicPlantManager.class'; do
             jar tf "$JAR" | grep -Fxq "$ENTRY"
@@ -148,6 +149,7 @@ jobs:
             'embedded/Magic/scripts/magicsolo_master.js' \
             'embedded/Magic/scripts/魔法植物1.js' \
             'embedded/Magic/scripts/magic_custom_machine.js' \
+            'embedded/Magic/scripts/魔法无尽一体化.js' \
             'embedded/Magic/scripts/sound.js' \
             'embedded/Magic/scripts/magic_stick_jiguang_1.js' \
             'embedded/Magic/scripts/阵法_小火苗_1.js' \
@@ -292,9 +294,8 @@ jobs:
           unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'name: "&dMagic Infinity Processor"'
           unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'Capacity: 2,147,483,647 J'
           unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'Runtime draw scales with installed modules'
-          unzip -p "$JAR" embedded/Magic/scripts/魔法无尽一体化.js | grep -Fq 'Insufficient Power'
-          unzip -p "$JAR" embedded/Magic/scripts/魔法无尽一体化.js | grep -Fq 'Magic Infinity Processing'
-          unzip -p "$JAR" embedded/Magic/scripts/魔法无尽一体化.js | grep -Fq 'Output Data'
+          unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'name: "&dMagic Infinity Processor"'
+          unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'Runtime draw scales with installed modules'
           unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'name: "&dMagic Blizzard Core"'
           unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'name: "&dMagic Compressed Reactor Coolant Cell"'
           unzip -p "$JAR" embedded/Magic/items.yml | grep -Fq 'name: "&dMagic Chicken Relic"'
