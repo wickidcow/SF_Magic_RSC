@@ -3781,7 +3781,7 @@ MAGIC_ENDER_EYE_MACHINE:
       amount: 1
     2:
       material_type: slimefun
-      material: NTW_EXPANSION_ADVANCED_AUTO_CRAFTING_WITHHOLDING
+      material: NTW_QUANTUM_STORAGE_8
       amount: 1
     3:
       material_type: slimefun
