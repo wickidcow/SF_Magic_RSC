@@ -355,8 +355,32 @@ def validate_skull_base64(destination: Path) -> None:
         raise RuntimeError("Malformed skull textures:\\n" + "\\n".join(failures))
 
 
+DEPRECATED_NETWORKS_RECIPE_IDS = (
+    "NTW_EXPANSION_ARMOR_FORGE_BLUEPRINT",
+    "NTW_EXPANSION_SMELTERY_BLUEPRINT",
+    "NTW_EXPANSION_EXPANSION_WORKBENCH_BLUEPRINT",
+    "NTW_EXPANSION_QUANTUM_WORKBENCH_BLUEPRINT",
+    "NTW_EXPANSION_ANCIENT_ALTAR_BLUEPRINT",
+    "NTW_EXPANSION_ADVANCED_AUTO_CRAFTING_WITHHOLDING",
+)
+
+
+def validate_no_deprecated_networks_recipe_ids(destination: Path) -> None:
+    failures: list[str] = []
+    for path in sorted(destination.rglob("*.yml")):
+        text = path.read_text(encoding="utf-8")
+        for item_id in DEPRECATED_NETWORKS_RECIPE_IDS:
+            if item_id in text:
+                failures.append(f"{path.relative_to(destination)} still references {item_id}")
+    if failures:
+        raise RuntimeError(
+            "Deprecated Networks Expansion recipe dependencies remain:\n" + "\n".join(failures)
+        )
+
+
 def validate_final_runtime(destination: Path) -> None:
     validate_skull_base64(destination)
+    validate_no_deprecated_networks_recipe_ids(destination)
     subprocess.run(
         [sys.executable, str(ROOT / "scripts" / "validate_script_refs.py"), str(destination)],
         check=True,
