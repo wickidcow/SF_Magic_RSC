@@ -14,6 +14,7 @@ public final class MagicLegacyPlugin extends JavaPlugin {
     private NativePlayerAttackManager nativePlayerAttackManager;
     private NativeMagicPlantManager nativeMagicPlantManager;
     private NativeCustomMachineManager nativeCustomMachineManager;
+    private NativeInfinityProcessorManager nativeInfinityProcessorManager;
 
     @Override
     public void onLoad() {
@@ -59,6 +60,8 @@ public final class MagicLegacyPlugin extends JavaPlugin {
         nativeMagicPlantManager.start();
         nativeCustomMachineManager = new NativeCustomMachineManager(this);
         nativeCustomMachineManager.start();
+        nativeInfinityProcessorManager = new NativeInfinityProcessorManager(this);
+        nativeInfinityProcessorManager.start();
 
         PluginCommand command = getCommand("magiclegacy");
         if (command != null) {
@@ -103,6 +106,10 @@ public final class MagicLegacyPlugin extends JavaPlugin {
         if (nativeCustomMachineManager != null) {
             nativeCustomMachineManager.stop();
             nativeCustomMachineManager = null;
+        }
+        if (nativeInfinityProcessorManager != null) {
+            nativeInfinityProcessorManager.stop();
+            nativeInfinityProcessorManager = null;
         }
     }
 
