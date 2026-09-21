@@ -47,8 +47,7 @@ public final class MagicLegacyPlugin extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new MagicDustPickaxeListener(), this);
         getServer().getPluginManager().registerEvents(new MagicArchaeologyBlockListener(), this);
 
-        getServer().getPluginManager().registerEvents(new StorageSkinFixListener(), this);
-        nativeSpawnerManager = new NativeSpawnerManager(this);
+        getServer().getPluginManager().registerEvents(new StorageSkinFixListener(), this);\n        getServer().getPluginManager().registerEvents(new StorageCompatibilityListener(this), this);\n        getServer().getPluginManager().registerEvents(new MagicFishingListener(), this);\n        nativeSpawnerManager = new NativeSpawnerManager(this);
         nativeSpawnerManager.start();
         nativePlainMachineManager = new NativePlainMachineManager(this);
         nativePlainMachineManager.start();
