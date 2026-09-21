@@ -3,7 +3,27 @@ plugins {
     id("com.gradleup.shadow") version "9.3.2"
 }
 
+val slimefunLegacyVersion = "4.1.58"
+
 repositories {
+    exclusiveContent {
+        forRepository {
+            ivy {
+                name = "slimefunLegacyRelease"
+                url = uri("https://github.com/wickidcow/Slimefun-Legacy/releases/download/v$slimefunLegacyVersion")
+                patternLayout {
+                    artifact("[artifact][revision].[ext]")
+                }
+                metadataSources {
+                    artifact()
+                }
+            }
+        }
+        filter {
+            includeModule("com.github.wickidcow", "Slimefun-Legacy")
+        }
+    }
+
     mavenCentral()
     maven("https://repo.papermc.io/repository/maven-public/")
 }
@@ -14,6 +34,7 @@ val runtimeDir = layout.buildDirectory.dir("generated/magic-runtime/Magic")
 
 dependencies {
     compileOnly("io.papermc.paper:paper-api:${platformVersion.get()}")
+    compileOnly("com.github.wickidcow:Slimefun-Legacy:$slimefunLegacyVersion")
 }
 
 group = "io.github.wickidcow"
