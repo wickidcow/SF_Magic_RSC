@@ -104,6 +104,7 @@ jobs:
             'io/github/wickidcow/magiclegacy/MagicDustPickaxeListener.class' \
             'io/github/wickidcow/magiclegacy/MagicArchaeologyBlockListener.class' \
             'io/github/wickidcow/magiclegacy/NativePowerMixManager.class' \
+            'io/github/wickidcow/magiclegacy/NativeCustomMachineManager.class' \
             'io/github/wickidcow/magiclegacy/NativePlayerAttackManager.class' \
             'io/github/wickidcow/magiclegacy/NativeMagicPlantManager.class'; do
             jar tf "$JAR" | grep -Fxq "$ENTRY"
@@ -146,6 +147,7 @@ jobs:
             'embedded/Magic/scripts/魔法矩阵-发电机1.js' \
             'embedded/Magic/scripts/magicsolo_master.js' \
             'embedded/Magic/scripts/魔法植物1.js' \
+            'embedded/Magic/scripts/magic_custom_machine.js' \
             'embedded/Magic/scripts/sound.js' \
             'embedded/Magic/scripts/magic_stick_jiguang_1.js' \
             'embedded/Magic/scripts/阵法_小火苗_1.js' \
@@ -283,8 +285,8 @@ jobs:
           unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'Runtime draw: 1,314 J per machine tick'
           unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'Requires a &fMagic Geominer Box &7below.'
           unzip -p "$JAR" embedded/Magic/recipe_types.yml | grep -Fq 'Extracts local Magic GEO resources.'
-          unzip -p "$JAR" embedded/Magic/scripts/magic_custom_machine.js | grep -Fq 'Magic Geominer: '
-          unzip -p "$JAR" embedded/Magic/scripts/magic_custom_machine.js | grep -Fq 'No supported Magic GEO resources remain here.'
+          unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'name: "&dMagic Geominer"'
+          unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'Requires a &fMagic Geominer Box &7below.'
           unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'name: "&dMagic Infinity Processor"'
           unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'Capacity: 2,147,483,647 J'
           unzip -p "$JAR" embedded/Magic/machines.yml | grep -Fq 'Runtime draw scales with installed modules'
