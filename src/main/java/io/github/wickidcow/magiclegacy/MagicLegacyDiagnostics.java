@@ -163,9 +163,13 @@ final class MagicLegacyDiagnostics {
                 }
             }
 
-            boolean optionalGroup = "Magic Expansion".equals(group.getKey());
+            boolean optionalGroup = "Magic Expansion".equals(group.getKey())
+                || "Networks Expansion".equals(group.getKey());
             if (optionalGroup && present == 0) {
-                lines.add(group.getKey() + " registry: not installed (optional)");
+                String suffix = "Networks Expansion".equals(group.getKey())
+                    ? "not installed or disabled (optional; Magic uses stable base-Networks recipes)"
+                    : "not installed (optional)";
+                lines.add(group.getKey() + " registry: " + suffix);
             } else {
                 lines.add(
                     group.getKey() + " registry: " + present + "/" + group.getValue().size()
