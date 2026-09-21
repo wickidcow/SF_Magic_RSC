@@ -134,6 +134,7 @@ jobs:
           done
 
           for SCRIPT in \
+            'embedded/Magic/scripts/服务器.js' \
             'embedded/Magic/scripts/基础枪.js' \
             'embedded/Magic/scripts/CHRISTMAS_SNOWBALL.js' \
             'embedded/Magic/scripts/MFEXPBOTTLE.js' \
@@ -176,7 +177,6 @@ jobs:
             'embedded/Magic/scripts/magic_stick_jiguang_1.js' \
             'embedded/Magic/scripts/阵法_小火苗_1.js' \
             'embedded/Magic/scripts/snow_food.js' \
-            'embedded/Magic/scripts/服务器.js' \
             'embedded/Magic/scripts/SPAWNER_TEST_WITHER_SKELETON.js' \
             'embedded/Magic/scripts/test_sword_1.js'; do
             if jar tf "$JAR" | grep -Fxq "$SCRIPT"; then
