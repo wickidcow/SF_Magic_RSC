@@ -15,7 +15,7 @@ Magic Legacy preserves the original Magic RSC content while moving its fragile r
 Magic Legacy 2.0 is installed like a normal plugin.
 
 1. Stop the server normally.
-2. Put `SF_MagicLegacy2.0.32.jar` in the server's `plugins/` folder.
+2. Put `SF_MagicLegacy2.0.33.jar` in the server's `plugins/` folder.
 3. Keep the required Slimefun addons installed.
 4. Start the server normally.
 
@@ -92,6 +92,13 @@ The 2.0 builder also declares DynaTech explicitly because the maintained Magic r
 ## Development direction
 
 The Java plugin is now the stable owner of Magic Legacy. Native migrations move into it in small testable groups, starting with the JavaScript systems that are most likely to fail across Graal/Paper changes.
+
+### Startup compatibility fixes in 2.0.33
+
+- Fixed the malformed Base64 texture on `MAGIC_PLAYER_ATTACT`, which previously caused RSC to skip the item during preload.
+- `MAGIC_BEE_HOUSE_1` is now cleanly gated behind both FNAmplifications and CrystamaeHistoria's Fertility Totem instead of producing an unresolved-item warning when the optional Crystamae content is absent.
+- Release builds now validate every `skull_base64` material in the embedded Magic runtime and fail before publishing if malformed texture data is found.
+- Networks Expansion blueprint recipes remain intact. Magic Legacy's standalone plugin loads after `Networks` and before RykenSlimefunCustomizer so those registered IDs are available when RSC parses Magic.
 
 ### Native migrations in 2.0.32
 
