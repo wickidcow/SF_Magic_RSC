@@ -13,6 +13,7 @@ public final class MagicLegacyPlugin extends JavaPlugin {
     private NativePowerMixManager nativePowerMixManager;
     private NativePlayerAttackManager nativePlayerAttackManager;
     private NativeMagicPlantManager nativeMagicPlantManager;
+    private NativeCustomMachineManager nativeCustomMachineManager;
 
     @Override
     public void onLoad() {
@@ -56,6 +57,8 @@ public final class MagicLegacyPlugin extends JavaPlugin {
         nativePlayerAttackManager.start();
         nativeMagicPlantManager = new NativeMagicPlantManager(this);
         nativeMagicPlantManager.start();
+        nativeCustomMachineManager = new NativeCustomMachineManager(this);
+        nativeCustomMachineManager.start();
 
         PluginCommand command = getCommand("magiclegacy");
         if (command != null) {
@@ -96,6 +99,10 @@ public final class MagicLegacyPlugin extends JavaPlugin {
         if (nativeMagicPlantManager != null) {
             nativeMagicPlantManager.stop();
             nativeMagicPlantManager = null;
+        }
+        if (nativeCustomMachineManager != null) {
+            nativeCustomMachineManager.stop();
+            nativeCustomMachineManager = null;
         }
     }
 
