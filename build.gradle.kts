@@ -106,13 +106,16 @@ tasks.register("verifyMagicJar") {
             "plugin.yml",
             "embedded/Magic/info.yml",
             "embedded/Magic/items.yml",
-            "embedded/Magic/recipe_machines.yml",
-            "embedded/Magic/scripts/服务器.js"
+            "embedded/Magic/recipe_machines.yml"
         )
         required.forEach { path ->
             require(!contents.matching { include(path) }.isEmpty) {
                 "Missing required JAR entry: $path"
             }
+        }
+
+        require(contents.matching { include("embedded/Magic/scripts/服务器.js") }.isEmpty) {
+            "Migrated global listener script must not be packaged: embedded/Magic/scripts/服务器.js"
         }
     }
 }
