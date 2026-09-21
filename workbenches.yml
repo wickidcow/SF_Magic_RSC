@@ -110,7 +110,7 @@ MAGIC_CARGO_STORAGE_MAKER:
           slot: 10
         2:
           material_type: slimefun
-          material: NTW_EXPANSION_ARMOR_FORGE_BLUEPRINT
+          material: NTW_OPTIC_CABLE
           amount: 1
           slot: 11
         3:
@@ -120,7 +120,7 @@ MAGIC_CARGO_STORAGE_MAKER:
           slot: 12
         4:
           material_type: slimefun
-          material: NTW_EXPANSION_ARMOR_FORGE_BLUEPRINT
+          material: NTW_OPTIC_CABLE
           amount: 1
           slot: 19
         5:
@@ -130,7 +130,7 @@ MAGIC_CARGO_STORAGE_MAKER:
           slot: 20
         6:
           material_type: slimefun
-          material: NTW_EXPANSION_ARMOR_FORGE_BLUEPRINT
+          material: NTW_OPTIC_CABLE
           amount: 1
           slot: 21
         7:
@@ -140,7 +140,7 @@ MAGIC_CARGO_STORAGE_MAKER:
           slot: 28
         8:
           material_type: slimefun
-          material: NTW_EXPANSION_ARMOR_FORGE_BLUEPRINT
+          material: NTW_OPTIC_CABLE
           amount: 1
           slot: 29
         9:
@@ -163,7 +163,7 @@ MAGIC_CARGO_STORAGE_MAKER:
           slot: 10
         2:
           material_type: slimefun
-          material: NTW_EXPANSION_SMELTERY_BLUEPRINT
+          material: NTW_OPTIC_CABLE
           amount: 1
           slot: 11
         3:
@@ -173,7 +173,7 @@ MAGIC_CARGO_STORAGE_MAKER:
           slot: 12
         4:
           material_type: slimefun
-          material: NTW_EXPANSION_SMELTERY_BLUEPRINT
+          material: NTW_OPTIC_CABLE
           amount: 1
           slot: 19
         5:
@@ -183,7 +183,7 @@ MAGIC_CARGO_STORAGE_MAKER:
           slot: 20
         6:
           material_type: slimefun
-          material: NTW_EXPANSION_SMELTERY_BLUEPRINT
+          material: NTW_OPTIC_CABLE
           amount: 1
           slot: 21
         7:
@@ -193,7 +193,7 @@ MAGIC_CARGO_STORAGE_MAKER:
           slot: 28
         8:
           material_type: slimefun
-          material: NTW_EXPANSION_SMELTERY_BLUEPRINT
+          material: NTW_OPTIC_CABLE
           amount: 1
           slot: 29
         9:
@@ -481,7 +481,7 @@ MAGIC_CARGO_STORAGE_MAKER:
           slot: 10
         2:
           material_type: slimefun
-          material: NTW_EXPANSION_EXPANSION_WORKBENCH_BLUEPRINT
+          material: NTW_OPTIC_CABLE
           amount: 1
           slot: 11
         3:
@@ -491,7 +491,7 @@ MAGIC_CARGO_STORAGE_MAKER:
           slot: 12
         4:
           material_type: slimefun
-          material: NTW_EXPANSION_EXPANSION_WORKBENCH_BLUEPRINT
+          material: NTW_OPTIC_CABLE
           amount: 1
           slot: 19
         5:
@@ -501,7 +501,7 @@ MAGIC_CARGO_STORAGE_MAKER:
           slot: 20
         6:
           material_type: slimefun
-          material: NTW_EXPANSION_EXPANSION_WORKBENCH_BLUEPRINT
+          material: NTW_OPTIC_CABLE
           amount: 1
           slot: 21
         7:
@@ -511,7 +511,7 @@ MAGIC_CARGO_STORAGE_MAKER:
           slot: 28
         8:
           material_type: slimefun
-          material: NTW_EXPANSION_EXPANSION_WORKBENCH_BLUEPRINT
+          material: NTW_OPTIC_CABLE
           amount: 1
           slot: 29
         9:
@@ -534,7 +534,7 @@ MAGIC_CARGO_STORAGE_MAKER:
           slot: 10
         2:
           material_type: slimefun
-          material: NTW_EXPANSION_QUANTUM_WORKBENCH_BLUEPRINT
+          material: NTW_OPTIC_CABLE
           amount: 1
           slot: 11
         3:
@@ -544,7 +544,7 @@ MAGIC_CARGO_STORAGE_MAKER:
           slot: 12
         4:
           material_type: slimefun
-          material: NTW_EXPANSION_QUANTUM_WORKBENCH_BLUEPRINT
+          material: NTW_OPTIC_CABLE
           amount: 1
           slot: 19
         5:
@@ -554,7 +554,7 @@ MAGIC_CARGO_STORAGE_MAKER:
           slot: 20
         6:
           material_type: slimefun
-          material: NTW_EXPANSION_QUANTUM_WORKBENCH_BLUEPRINT
+          material: NTW_OPTIC_CABLE
           amount: 1
           slot: 21
         7:
@@ -564,7 +564,7 @@ MAGIC_CARGO_STORAGE_MAKER:
           slot: 28
         8:
           material_type: slimefun
-          material: NTW_EXPANSION_QUANTUM_WORKBENCH_BLUEPRINT
+          material: NTW_OPTIC_CABLE
           amount: 1
           slot: 29
         9:
@@ -587,7 +587,7 @@ MAGIC_CARGO_STORAGE_MAKER:
           slot: 10
         2:
           material_type: slimefun
-          material: NTW_EXPANSION_ANCIENT_ALTAR_BLUEPRINT
+          material: NTW_OPTIC_CABLE
           amount: 1
           slot: 11
         3:
@@ -597,7 +597,7 @@ MAGIC_CARGO_STORAGE_MAKER:
           slot: 12
         4:
           material_type: slimefun
-          material: NTW_EXPANSION_ANCIENT_ALTAR_BLUEPRINT
+          material: NTW_OPTIC_CABLE
           amount: 1
           slot: 19
         5:
@@ -607,7 +607,7 @@ MAGIC_CARGO_STORAGE_MAKER:
           slot: 20
         6:
           material_type: slimefun
-          material: NTW_EXPANSION_ANCIENT_ALTAR_BLUEPRINT
+          material: NTW_OPTIC_CABLE
           amount: 1
           slot: 21
         7:
@@ -617,7 +617,7 @@ MAGIC_CARGO_STORAGE_MAKER:
           slot: 28
         8:
           material_type: slimefun
-          material: NTW_EXPANSION_ANCIENT_ALTAR_BLUEPRINT
+          material: NTW_OPTIC_CABLE
           amount: 1
           slot: 29
         9:
@@ -812,7 +812,7 @@ MAGIC_CARGO_STORAGE_MAKER:
           slot: 10
         2:
           material_type: slimefun
-          material: NTW_EXPANSION_ARMOR_FORGE_BLUEPRINT
+          material: NTW_OPTIC_CABLE
           amount: 1
           slot: 11
         3:
@@ -822,7 +822,7 @@ MAGIC_CARGO_STORAGE_MAKER:
           slot: 12
         4:
           material_type: slimefun
-          material: NTW_EXPANSION_ARMOR_FORGE_BLUEPRINT
+          material: NTW_OPTIC_CABLE
           amount: 1
           slot: 19
         5:
@@ -832,7 +832,7 @@ MAGIC_CARGO_STORAGE_MAKER:
           slot: 20
         6:
           material_type: slimefun
-          material: NTW_EXPANSION_ARMOR_FORGE_BLUEPRINT
+          material: NTW_OPTIC_CABLE
           amount: 1
           slot: 21
         7:
@@ -842,7 +842,7 @@ MAGIC_CARGO_STORAGE_MAKER:
           slot: 28
         8:
           material_type: slimefun
-          material: NTW_EXPANSION_ARMOR_FORGE_BLUEPRINT
+          material: NTW_OPTIC_CABLE
           amount: 1
           slot: 29
         9:
@@ -865,7 +865,7 @@ MAGIC_CARGO_STORAGE_MAKER:
           slot: 10
         2:
           material_type: slimefun
-          material: NTW_EXPANSION_SMELTERY_BLUEPRINT
+          material: NTW_OPTIC_CABLE
           amount: 1
           slot: 11
         3:
@@ -875,7 +875,7 @@ MAGIC_CARGO_STORAGE_MAKER:
           slot: 12
         4:
           material_type: slimefun
-          material: NTW_EXPANSION_SMELTERY_BLUEPRINT
+          material: NTW_OPTIC_CABLE
           amount: 1
           slot: 19
         5:
@@ -885,7 +885,7 @@ MAGIC_CARGO_STORAGE_MAKER:
           slot: 20
         6:
           material_type: slimefun
-          material: NTW_EXPANSION_SMELTERY_BLUEPRINT
+          material: NTW_OPTIC_CABLE
           amount: 1
           slot: 21
         7:
@@ -895,7 +895,7 @@ MAGIC_CARGO_STORAGE_MAKER:
           slot: 28
         8:
           material_type: slimefun
-          material: NTW_EXPANSION_SMELTERY_BLUEPRINT
+          material: NTW_OPTIC_CABLE
           amount: 1
           slot: 29
         9:
@@ -1183,7 +1183,7 @@ MAGIC_CARGO_STORAGE_MAKER:
           slot: 10
         2:
           material_type: slimefun
-          material: NTW_EXPANSION_EXPANSION_WORKBENCH_BLUEPRINT
+          material: NTW_OPTIC_CABLE
           amount: 1
           slot: 11
         3:
@@ -1193,7 +1193,7 @@ MAGIC_CARGO_STORAGE_MAKER:
           slot: 12
         4:
           material_type: slimefun
-          material: NTW_EXPANSION_EXPANSION_WORKBENCH_BLUEPRINT
+          material: NTW_OPTIC_CABLE
           amount: 1
           slot: 19
         5:
@@ -1203,7 +1203,7 @@ MAGIC_CARGO_STORAGE_MAKER:
           slot: 20
         6:
           material_type: slimefun
-          material: NTW_EXPANSION_EXPANSION_WORKBENCH_BLUEPRINT
+          material: NTW_OPTIC_CABLE
           amount: 1
           slot: 21
         7:
@@ -1213,7 +1213,7 @@ MAGIC_CARGO_STORAGE_MAKER:
           slot: 28
         8:
           material_type: slimefun
-          material: NTW_EXPANSION_EXPANSION_WORKBENCH_BLUEPRINT
+          material: NTW_OPTIC_CABLE
           amount: 1
           slot: 29
         9:
@@ -1236,7 +1236,7 @@ MAGIC_CARGO_STORAGE_MAKER:
           slot: 10
         2:
           material_type: slimefun
-          material: NTW_EXPANSION_QUANTUM_WORKBENCH_BLUEPRINT
+          material: NTW_OPTIC_CABLE
           amount: 1
           slot: 11
         3:
@@ -1246,7 +1246,7 @@ MAGIC_CARGO_STORAGE_MAKER:
           slot: 12
         4:
           material_type: slimefun
-          material: NTW_EXPANSION_QUANTUM_WORKBENCH_BLUEPRINT
+          material: NTW_OPTIC_CABLE
           amount: 1
           slot: 19
         5:
@@ -1256,7 +1256,7 @@ MAGIC_CARGO_STORAGE_MAKER:
           slot: 20
         6:
           material_type: slimefun
-          material: NTW_EXPANSION_QUANTUM_WORKBENCH_BLUEPRINT
+          material: NTW_OPTIC_CABLE
           amount: 1
           slot: 21
         7:
@@ -1266,7 +1266,7 @@ MAGIC_CARGO_STORAGE_MAKER:
           slot: 28
         8:
           material_type: slimefun
-          material: NTW_EXPANSION_QUANTUM_WORKBENCH_BLUEPRINT
+          material: NTW_OPTIC_CABLE
           amount: 1
           slot: 29
         9:
@@ -1289,7 +1289,7 @@ MAGIC_CARGO_STORAGE_MAKER:
           slot: 10
         2:
           material_type: slimefun
-          material: NTW_EXPANSION_ANCIENT_ALTAR_BLUEPRINT
+          material: NTW_OPTIC_CABLE
           amount: 1
           slot: 11
         3:
@@ -1299,7 +1299,7 @@ MAGIC_CARGO_STORAGE_MAKER:
           slot: 12
         4:
           material_type: slimefun
-          material: NTW_EXPANSION_ANCIENT_ALTAR_BLUEPRINT
+          material: NTW_OPTIC_CABLE
           amount: 1
           slot: 19
         5:
@@ -1309,7 +1309,7 @@ MAGIC_CARGO_STORAGE_MAKER:
           slot: 20
         6:
           material_type: slimefun
-          material: NTW_EXPANSION_ANCIENT_ALTAR_BLUEPRINT
+          material: NTW_OPTIC_CABLE
           amount: 1
           slot: 21
         7:
@@ -1319,7 +1319,7 @@ MAGIC_CARGO_STORAGE_MAKER:
           slot: 28
         8:
           material_type: slimefun
-          material: NTW_EXPANSION_ANCIENT_ALTAR_BLUEPRINT
+          material: NTW_OPTIC_CABLE
           amount: 1
           slot: 29
         9:
