@@ -2076,7 +2076,7 @@ MAGIC_INFINITY_ARMOR_MACHINE:
 #           amount: 1
 #         2:
 #           material_type: slimefun
-#           material: NTW_EXPANSION_ARMOR_FORGE_BLUEPRINT
+#           material: NTW_OPTIC_CABLE
 #           amount: 1
 #         3:
 #           material_type: slimefun
@@ -2084,7 +2084,7 @@ MAGIC_INFINITY_ARMOR_MACHINE:
 #           amount: 1
 #         4:
 #           material_type: slimefun
-#           material: NTW_EXPANSION_ARMOR_FORGE_BLUEPRINT
+#           material: NTW_OPTIC_CABLE
 #           amount: 1
 #         5:
 #           material_type: saveditem
@@ -2092,7 +2092,7 @@ MAGIC_INFINITY_ARMOR_MACHINE:
 #           amount: 1
 #         6:
 #           material_type: slimefun
-#           material: NTW_EXPANSION_ARMOR_FORGE_BLUEPRINT
+#           material: NTW_OPTIC_CABLE
 #           amount: 1
 #         7:
 #           material_type: slimefun
@@ -2100,7 +2100,7 @@ MAGIC_INFINITY_ARMOR_MACHINE:
 #           amount: 1
 #         8:
 #           material_type: slimefun
-#           material: NTW_EXPANSION_ARMOR_FORGE_BLUEPRINT
+#           material: NTW_OPTIC_CABLE
 #           amount: 1
 #         9:
 #           material_type: slimefun
@@ -2117,7 +2117,7 @@ MAGIC_INFINITY_ARMOR_MACHINE:
 #           amount: 1
 #         2:
 #           material_type: slimefun
-#           material: NTW_EXPANSION_SMELTERY_BLUEPRINT
+#           material: NTW_OPTIC_CABLE
 #           amount: 1
 #         3:
 #           material_type: slimefun
@@ -2125,7 +2125,7 @@ MAGIC_INFINITY_ARMOR_MACHINE:
 #           amount: 1
 #         4:
 #           material_type: slimefun
-#           material: NTW_EXPANSION_SMELTERY_BLUEPRINT
+#           material: NTW_OPTIC_CABLE
 #           amount: 1
 #         5:
 #           material_type: saveditem
@@ -2133,7 +2133,7 @@ MAGIC_INFINITY_ARMOR_MACHINE:
 #           amount: 1
 #         6:
 #           material_type: slimefun
-#           material: NTW_EXPANSION_SMELTERY_BLUEPRINT
+#           material: NTW_OPTIC_CABLE
 #           amount: 1
 #         7:
 #           material_type: slimefun
@@ -2141,7 +2141,7 @@ MAGIC_INFINITY_ARMOR_MACHINE:
 #           amount: 1
 #         8:
 #           material_type: slimefun
-#           material: NTW_EXPANSION_SMELTERY_BLUEPRINT
+#           material: NTW_OPTIC_CABLE
 #           amount: 1
 #         9:
 #           material_type: slimefun
@@ -2363,7 +2363,7 @@ MAGIC_INFINITY_ARMOR_MACHINE:
 #           amount: 1
 #         2:
 #           material_type: slimefun
-#           material: NTW_EXPANSION_EXPANSION_WORKBENCH_BLUEPRINT
+#           material: NTW_OPTIC_CABLE
 #           amount: 1
 #         3:
 #           material_type: slimefun
@@ -2371,7 +2371,7 @@ MAGIC_INFINITY_ARMOR_MACHINE:
 #           amount: 1
 #         4:
 #           material_type: slimefun
-#           material: NTW_EXPANSION_EXPANSION_WORKBENCH_BLUEPRINT
+#           material: NTW_OPTIC_CABLE
 #           amount: 1
 #         5:
 #           material_type: slimefun
@@ -2379,7 +2379,7 @@ MAGIC_INFINITY_ARMOR_MACHINE:
 #           amount: 1
 #         6:
 #           material_type: slimefun
-#           material: NTW_EXPANSION_EXPANSION_WORKBENCH_BLUEPRINT
+#           material: NTW_OPTIC_CABLE
 #           amount: 1
 #         7:
 #           material_type: slimefun
@@ -2387,7 +2387,7 @@ MAGIC_INFINITY_ARMOR_MACHINE:
 #           amount: 1
 #         8:
 #           material_type: slimefun
-#           material: NTW_EXPANSION_EXPANSION_WORKBENCH_BLUEPRINT
+#           material: NTW_OPTIC_CABLE
 #           amount: 1
 #         9:
 #           material_type: saveditem
@@ -2404,7 +2404,7 @@ MAGIC_INFINITY_ARMOR_MACHINE:
 #           amount: 1
 #         2:
 #           material_type: slimefun
-#           material: NTW_EXPANSION_QUANTUM_WORKBENCH_BLUEPRINT
+#           material: NTW_OPTIC_CABLE
 #           amount: 1
 #         3:
 #           material_type: slimefun
@@ -2412,7 +2412,7 @@ MAGIC_INFINITY_ARMOR_MACHINE:
 #           amount: 1
 #         4:
 #           material_type: slimefun
-#           material: NTW_EXPANSION_QUANTUM_WORKBENCH_BLUEPRINT
+#           material: NTW_OPTIC_CABLE
 #           amount: 1
 #         5:
 #           material_type: saveditem
@@ -2420,7 +2420,7 @@ MAGIC_INFINITY_ARMOR_MACHINE:
 #           amount: 1
 #         6:
 #           material_type: slimefun
-#           material: NTW_EXPANSION_QUANTUM_WORKBENCH_BLUEPRINT
+#           material: NTW_OPTIC_CABLE
 #           amount: 1
 #         7:
 #           material_type: slimefun
@@ -2428,7 +2428,7 @@ MAGIC_INFINITY_ARMOR_MACHINE:
 #           amount: 1
 #         8:
 #           material_type: slimefun
-#           material: NTW_EXPANSION_QUANTUM_WORKBENCH_BLUEPRINT
+#           material: NTW_OPTIC_CABLE
 #           amount: 1
 #         9:
 #           material_type: slimefun
@@ -2445,7 +2445,7 @@ MAGIC_INFINITY_ARMOR_MACHINE:
 #           amount: 1
 #         2:
 #           material_type: slimefun
-#           material: NTW_EXPANSION_ANCIENT_ALTAR_BLUEPRINT
+#           material: NTW_OPTIC_CABLE
 #           amount: 1
 #         3:
 #           material_type: slimefun
@@ -2453,7 +2453,7 @@ MAGIC_INFINITY_ARMOR_MACHINE:
 #           amount: 1
 #         4:
 #           material_type: slimefun
-#           material: NTW_EXPANSION_ANCIENT_ALTAR_BLUEPRINT
+#           material: NTW_OPTIC_CABLE
 #           amount: 1
 #         5:
 #           material_type: saveditem
@@ -2461,7 +2461,7 @@ MAGIC_INFINITY_ARMOR_MACHINE:
 #           amount: 1
 #         6:
 #           material_type: slimefun
-#           material: NTW_EXPANSION_ANCIENT_ALTAR_BLUEPRINT
+#           material: NTW_OPTIC_CABLE
 #           amount: 1
 #         7:
 #           material_type: slimefun
@@ -2469,7 +2469,7 @@ MAGIC_INFINITY_ARMOR_MACHINE:
 #           amount: 1
 #         8:
 #           material_type: slimefun
-#           material: NTW_EXPANSION_ANCIENT_ALTAR_BLUEPRINT
+#           material: NTW_OPTIC_CABLE
 #           amount: 1
 #         9:
 #           material_type: slimefun
