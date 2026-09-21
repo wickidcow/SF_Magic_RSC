@@ -2,6 +2,8 @@
 """Prepare the fixed Magic runtime that is embedded inside MagicLegacy.jar."""
 from __future__ import annotations
 
+import base64
+import binascii
 import re
 import shutil
 import subprocess
@@ -304,7 +306,35 @@ def run_source_checks(destination: Path) -> None:
     )
 
 
+def validate_skull_base64(destination: Path) -> None:
+    """Reject malformed RSC skull Base64 before it can reach a live server."""
+    failures: list[str] = []
+    for path in sorted(destination.rglob("*.yml")):
+        lines = path.read_text(encoding="utf-8").splitlines()
+        for index, line in enumerate(lines):
+            if line.strip() != "material_type: skull_base64":
+                continue
+            material = None
+            for candidate in lines[index + 1 : index + 5]:
+                stripped = candidate.strip()
+                if stripped.startswith("material:"):
+                    material = stripped.split(":", 1)[1].strip().strip("'\\\"")
+                    break
+            if not material:
+                failures.append(f"{path.relative_to(destination)}:{index + 1}: missing skull material")
+                continue
+            try:
+                base64.b64decode(material, validate=True)
+            except (binascii.Error, ValueError) as ex:
+                failures.append(
+                    f"{path.relative_to(destination)}:{index + 1}: invalid skull Base64 ({ex})"
+                )
+    if failures:
+        raise RuntimeError("Malformed skull textures:\\n" + "\\n".join(failures))
+
+
 def validate_final_runtime(destination: Path) -> None:
+    validate_skull_base64(destination)
     subprocess.run(
         [sys.executable, str(ROOT / "scripts" / "validate_script_refs.py"), str(destination)],
         check=True,
