@@ -44,6 +44,14 @@ final class MagicLegacyDiagnostics {
             "NTW_CELL",
             "NTW_BRIDGE"
         ));
+        REGISTRY_CHECKS.put("Networks Expansion", List.of(
+            "NTW_EXPANSION_ARMOR_FORGE_BLUEPRINT",
+            "NTW_EXPANSION_SMELTERY_BLUEPRINT",
+            "NTW_EXPANSION_EXPANSION_WORKBENCH_BLUEPRINT",
+            "NTW_EXPANSION_QUANTUM_WORKBENCH_BLUEPRINT",
+            "NTW_EXPANSION_ANCIENT_ALTAR_BLUEPRINT",
+            "NTW_EXPANSION_ADVANCED_AUTO_CRAFTING_WITHHOLDING"
+        ));
         REGISTRY_CHECKS.put("FNAmplifications", List.of(
             "FN_MACHINERY_COMPONENT_PART",
             "FN_JUKEBOX_III"
@@ -125,6 +133,16 @@ final class MagicLegacyDiagnostics {
             lines.add(
                 "info.yml: "
                     + (Files.isRegularFile(deployment.target().resolve("info.yml")) ? "present" : "missing")
+            );
+        }
+
+        Plugin networksPlugin = findPluginIgnoreCase(plugin.getServer().getPluginManager(), "Networks");
+        if (networksPlugin instanceof org.bukkit.plugin.java.JavaPlugin networksJavaPlugin) {
+            boolean expansionEnabled = networksJavaPlugin.getConfig()
+                .getBoolean("features.networks-expansion.enabled", true);
+            lines.add(
+                "Networks Expansion content: "
+                    + (expansionEnabled ? "enabled" : "DISABLED in plugins/Networks/config.yml")
             );
         }
 
