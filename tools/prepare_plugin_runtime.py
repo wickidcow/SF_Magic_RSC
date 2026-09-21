@@ -196,12 +196,6 @@ def stamp_runtime(destination: Path, version: str) -> None:
         text,
     )
 
-    if "- DynaTech" not in text:
-        needle = "- InfinityExpansion2\n"
-        if needle not in text:
-            raise RuntimeError("Could not locate InfinityExpansion2 dependency in staged info.yml")
-        text = text.replace(needle, needle + "- DynaTech\n", 1)
-
     text = re.sub(
         r"(?m)^description:\s*.*$",
         "description: Magic Legacy managed runtime for Slimefun Legacy, deployed by the MagicLegacy plugin.",
