@@ -15,7 +15,7 @@ Magic Legacy preserves the original Magic RSC content while moving its fragile r
 Magic Legacy 2.0 is installed like a normal plugin.
 
 1. Stop the server normally.
-2. Put `SF_MagicLegacy2.0.34.jar` in the server's `plugins/` folder.
+2. Put `SF_MagicLegacy2.0.35.jar` in the server's `plugins/` folder.
 3. Keep the required Slimefun addons installed.
 4. Start the server normally.
 
@@ -92,6 +92,14 @@ The 2.0 builder also declares DynaTech explicitly because the maintained Magic r
 ## Development direction
 
 The Java plugin is now the stable owner of Magic Legacy. Native migrations move into it in small testable groups, starting with the JavaScript systems that are most likely to fail across Graal/Paper changes.
+
+### Optional integration resilience in 2.0.35
+
+- The managed RSC Magic runtime now hard-requires only Slimefun.
+- InfinityExpansion2, DynaTech, GeneticChickengineering, Supreme, FoxyMachines, Networks, FNAmplifications, Magic Expansion, and similar crossover integrations are treated as optional integrations.
+- Missing integration plugins no longer cause RSC to reject the entire Magic addon before registration begins.
+- Definitions that depend on unavailable integration items may still be skipped individually; `/magiclegacy doctor` reports which integrations and registry IDs are present.
+- Build verification now fails if the embedded runtime accidentally reintroduces additional hard `pluginDepends`.
 
 ### Saved-item compatibility fixes in 2.0.34
 
