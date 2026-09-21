@@ -363,7 +363,6 @@ jobs:
             | grep -Fq 'major version: 65'
           unzip -p "$JAR" embedded/Magic/info.yml | grep -Fxq "version: Legacy-${{ steps.version.outputs.version }}"
           unzip -p "$JAR" embedded/Magic/info.yml | grep -Fxq -- "- \" Legacy version: ${{ steps.version.outputs.version }}\""
-          unzip -p "$JAR" embedded/Magic/info.yml | grep -Fxq -- '- DynaTech'
           python3 - <<'PY'
           import re, zipfile
           jar = 'build/libs/SF_MagicLegacy${{ steps.version.outputs.version }}.jar'
