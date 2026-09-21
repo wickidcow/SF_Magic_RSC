@@ -6451,22 +6451,16 @@ MAGIC_GEOMINER_BOX:
 MAGIC_INFINITY_MIX_BOX_1:
   item_group: magic_power
   item:
-    name: "&dMagic Infinity Mix Box 1"
+    name: "&dMagic Infinity Mix Box I"
     material: END_ROD
     glow: true
     lore:
-      - "&a"
-      - "&7Magic"
-      - "&7Magic: 384/s === 1:1 3200J/Per"
-      - "&7Magic: 384/s === 1:1 28800J/Per"
-      - '{#FDB7D4}+----------------------------------------+'
-      - '&7| (Magic) |'
-      - '&7| Magic |'
-      - '&7(), Magic.'
-      - '&7Magic, .'
-      - "&7Experimental machine"
-      - "&a"
-      - "&7Magic-Power and Energy"
+      - "&8Magic Legacy"
+      - "&7Module and output box for the Magic Infinity Processor."
+      - "&7Module slots: &f45-51"
+      - "&7Output slots: &f0-35"
+      - "&7Each active production unit emits &f192 items &7per machine tick."
+      - "&7Supports up to &f12 active production units &7per cycle."
   recipe_type: ENHANCED_CRAFTING_TABLE
   capacity: 2147483647
   energyPerCraft: 2147483647
