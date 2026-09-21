@@ -73,7 +73,7 @@ jobs:
               --repo "$GITHUB_REPOSITORY" \
               --target "$GITHUB_SHA" \
               --title "Magic Legacy ${VERSION}" \
-              --notes "Managed Java-plugin release. Put SF_MagicLegacy${VERSION}.jar in plugins/. Existing unmanaged RSC Magic content is backed up automatically on first startup."
+              --notes "Managed Java-plugin release. Put SF_MagicLegacy${VERSION}.jar in plugins/. Existing unmanaged RSC Magic content is backed up automatically on first startup. The managed RSC runtime hard-requires only Slimefun; integration addons are optional and missing crossover content skips individually instead of preventing all of Magic from loading. This release also includes validated skull textures, repaired serialized starter reward chests, and MagicLegacy/RSC managed-runtime ownership support."
           fi
           gh release upload "$TAG" "$JAR" --repo "$GITHUB_REPOSITORY" --clobber
           SHA_FILE="SF_MagicLegacy${VERSION}.jar.sha256"
