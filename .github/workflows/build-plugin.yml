@@ -364,6 +364,17 @@ jobs:
           unzip -p "$JAR" embedded/Magic/info.yml | grep -Fxq "version: Legacy-${{ steps.version.outputs.version }}"
           unzip -p "$JAR" embedded/Magic/info.yml | grep -Fxq -- "- \" Legacy version: ${{ steps.version.outputs.version }}\""
           unzip -p "$JAR" embedded/Magic/info.yml | grep -Fxq -- '- DynaTech'
+          python3 - <<'PY'
+          import re, zipfile
+          jar = 'build/libs/SF_MagicLegacy${{ steps.version.outputs.version }}.jar'
+          with zipfile.ZipFile(jar) as zf:
+              info = zf.read('embedded/Magic/info.yml').decode('utf-8')
+          match = re.search(r'(?ms)^pluginDepends:\s*\n((?:-\s+[^\n]+\n?)+)', info)
+          deps = [line.split('-', 1)[1].strip() for line in match.group(1).splitlines()] if match else []
+          if deps != ['Slimefun']:
+              raise SystemExit(f'Magic managed runtime must hard-require only Slimefun; got {deps}')
+          print('Verified optional integration dependency policy')
+          PY
           sha256sum "$JAR"
 
       - uses: actions/upload-artifact@v7
