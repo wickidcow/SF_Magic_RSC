@@ -330,6 +330,34 @@ jobs:
           unzip -p "$JAR" embedded/Magic/recipe_machines.yml | grep -Fq 'Energy per charge: 1,000 J'
           unzip -p "$JAR" embedded/Magic/saveditems/QYZJ_1.yml | grep -Fq 'Restores 1% of damage dealt as health'
 
+          python3 - <<'PY'
+          import base64, gzip, re, zipfile
+          jar = 'build/libs/SF_MagicLegacy${{ steps.version.outputs.version }}.jar'
+          with zipfile.ZipFile(jar) as zf:
+              for name in [f'embedded/Magic/saveditems/mx{i}.yml' for i in range(1, 6)]:
+                  text = zf.read(name).decode('utf-8')
+                  match = re.search(r'(?m)^\s*internal:\s*(\S+)\s*
+          javap -verbose -classpath "$JAR" io.github.wickidcow.magiclegacy.MagicLegacyPlugin \
+            | grep -Fq 'major version: 65'
+          unzip -p "$JAR" embedded/Magic/info.yml | grep -Fxq "version: Legacy-${{ steps.version.outputs.version }}"
+          unzip -p "$JAR" embedded/Magic/info.yml | grep -Fxq -- "- \" Legacy version: ${{ steps.version.outputs.version }}\""
+          unzip -p "$JAR" embedded/Magic/info.yml | grep -Fxq -- '- DynaTech'
+          sha256sum "$JAR"
+
+      - uses: actions/upload-artifact@v7
+        with:
+          name: SF_MagicLegacy${{ steps.version.outputs.version }}
+          path: build/libs/SF_MagicLegacy${{ steps.version.outputs.version }}.jar
+          if-no-files-found: error
+, text)
+                  if not match:
+                      raise SystemExit(f'Missing serialized chest payload: {name}')
+                  raw = gzip.decompress(base64.b64decode(match.group(1), validate=True))
+                  if b'BlockEntityTag' not in raw or b'minecraft:chest' not in raw:
+                      raise SystemExit(f'Legacy chest payload is missing its modern block-entity id: {name}')
+          print('Verified starter reward chest block-entity ids')
+          PY
+
           javap -verbose -classpath "$JAR" io.github.wickidcow.magiclegacy.MagicLegacyPlugin \
             | grep -Fq 'major version: 65'
           unzip -p "$JAR" embedded/Magic/info.yml | grep -Fxq "version: Legacy-${{ steps.version.outputs.version }}"
