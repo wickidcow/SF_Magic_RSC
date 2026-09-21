@@ -15,7 +15,7 @@ Magic Legacy preserves the original Magic RSC content while moving its fragile r
 Magic Legacy 2.0 is installed like a normal plugin.
 
 1. Stop the server normally.
-2. Put `SF_MagicLegacy2.0.33.jar` in the server's `plugins/` folder.
+2. Put `SF_MagicLegacy2.0.34.jar` in the server's `plugins/` folder.
 3. Keep the required Slimefun addons installed.
 4. Start the server normally.
 
@@ -92,6 +92,13 @@ The 2.0 builder also declares DynaTech explicitly because the maintained Magic r
 ## Development direction
 
 The Java plugin is now the stable owner of Magic Legacy. Native migrations move into it in small testable groups, starting with the JavaScript systems that are most likely to fail across Graal/Paper changes.
+
+### Saved-item compatibility fixes in 2.0.34
+
+- Repaired the five `mx1`-`mx5` new-player reward chests without removing their stored starter items.
+- Their legacy Bukkit `BlockEntityTag` data now carries the required `minecraft:chest` block-entity ID, preventing modern Paper from treating the serialized chest type as null during item deserialization.
+- CI now opens all five embedded serialized chest payloads and verifies the block-entity ID before a release can be published.
+- This preserves the original sword/armor-and-bread starter rewards while removing the old malformed block-entity metadata path.
 
 ### Startup compatibility fixes in 2.0.33
 
