@@ -73,6 +73,24 @@ jobs:
           JAR=build/libs/SF_MagicLegacy${{ steps.version.outputs.version }}.jar
           test -s "$JAR"
 
+          unzip -p "$JAR" plugin.yml | grep -Fxq '  - Networks'
+          unzip -p "$JAR" plugin.yml | grep -Fxq '  - RykenSlimefunCustomizer'
+          python3 - <<'PY'
+          import zipfile, yaml
+          jar = 'build/libs/SF_MagicLegacy${{ steps.version.outputs.version }}.jar'
+          with zipfile.ZipFile(jar) as zf:
+              descriptor = yaml.safe_load(zf.read('plugin.yml'))
+          soft = descriptor.get('softdepend', []) or []
+          before = descriptor.get('loadbefore', []) or []
+          if 'Networks' not in soft:
+              raise SystemExit('MagicLegacy must soft-depend on Networks so Networks registers first')
+          if 'RykenSlimefunCustomizer' not in before:
+              raise SystemExit('MagicLegacy must load before RykenSlimefunCustomizer')
+          if 'RykenSlimefunCustomizer' in soft:
+              raise SystemExit('Do not soft-depend on RSC; that would reverse the required load order')
+          print('Verified Networks -> MagicLegacy -> RSC plugin ordering contract')
+          PY
+
           for ENTRY in \
             'plugin.yml' \
             'embedded/Magic/info.yml' \
