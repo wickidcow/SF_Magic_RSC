@@ -21,7 +21,7 @@ for path in sorted(ROOT.glob("*.yml")):
         referenced.add(match.group(1).strip())
 
 scripts = {
-    path.stem: path.relative_to(ROOT).as_posix()
+    path.relative_to(ROOT / "scripts").with_suffix("").as_posix(): path.relative_to(ROOT).as_posix()
     for path in sorted((ROOT / "scripts").rglob("*.js"))
 }
 
