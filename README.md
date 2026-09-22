@@ -15,7 +15,7 @@ Magic Legacy preserves the original Magic RSC content while moving its fragile r
 Magic Legacy 2.0 is installed like a normal plugin.
 
 1. Stop the server normally.
-2. Put `SF_MagicLegacy2.0.36.jar` in the server's `plugins/` folder.
+2. Put `SF_MagicLegacy2.0.37.jar` in the server's `plugins/` folder.
 3. Keep the required Slimefun addons installed.
 4. Start the server normally.
 
@@ -92,6 +92,12 @@ The 2.0 builder also declares DynaTech explicitly because the maintained Magic r
 ## Development direction
 
 The Java plugin is now the stable owner of Magic Legacy. Native migrations move into it in small testable groups, starting with the JavaScript systems that are most likely to fail across Graal/Paper changes.
+
+### Managed-runtime cleanup in 2.0.37
+
+- Marks the four native support/module boxes as intentionally recipe-less so RSC no longer reports false processing-recipe warnings.
+- Adds the missing custom menu for the optional Magic Expansion conversion machine.
+- Keeps the native Java Power Mix and Infinity Processor behavior unchanged; no placeholder recipes are added.
 
 ### Networks and crossover diagnostics in 2.0.36
 
