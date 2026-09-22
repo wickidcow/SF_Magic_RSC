@@ -7,7 +7,7 @@ depends: []
 pluginDepends:
 - Slimefun
 scriptListener: 服务器
-version: Legacy-2.0.35
+version: Legacy-2.0.37
 description: Magic Legacy compatibility pack for the maintained Slimefun Legacy ecosystem, paired with RSC Legacy4 IE2 boot fallbacks.
 authors:
 - magicsolo
@@ -17,7 +17,7 @@ loadStartTexts:
 - "==================="
 - " Magic Legacy is loading"
 - " Original author: magicsolo"
-- " Legacy version: 2.0.35"
+- " Legacy version: 2.0.37"
 - "==================="
 enabledTexts:
 - "==================="
