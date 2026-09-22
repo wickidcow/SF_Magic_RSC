@@ -15,7 +15,7 @@ Magic Legacy preserves the original Magic RSC content while moving its fragile r
 Magic Legacy 2.0 is installed like a normal plugin.
 
 1. Stop the server normally.
-2. Put `SF_MagicLegacy2.0.35.jar` in the server's `plugins/` folder.
+2. Put `SF_MagicLegacy2.0.36.jar` in the server's `plugins/` folder.
 3. Keep the required Slimefun addons installed.
 4. Start the server normally.
 
@@ -92,6 +92,13 @@ The 2.0 builder also declares DynaTech explicitly because the maintained Magic r
 ## Development direction
 
 The Java plugin is now the stable owner of Magic Legacy. Native migrations move into it in small testable groups, starting with the JavaScript systems that are most likely to fail across Graal/Paper changes.
+
+### Networks and crossover diagnostics in 2.0.36
+
+- Removed all live Magic recipe dependencies on deprecated Networks Expansion blueprint IDs that caused the 942/953 startup result on servers without Expansion content registered.
+- Doctor now distinguishes base Networks from Networks Expansion crossover IDs and explains whether Expansion content is disabled or failed to register.
+- Doctor distinguishes an absent MagicExpansion JAR from a JAR that is present but failed to load.
+- Release publishing permissions are explicit so the raw standalone JAR can be attached reliably.
 
 ### Optional integration resilience in 2.0.35
 
