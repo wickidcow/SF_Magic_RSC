@@ -5016,3 +5016,55 @@ MAGIC_SUPREME_ELECTRIC_MAGICAL:
     45-53: 
       name: "&a"
       material: LIGHT
+
+MAGIC_TWO_TO_RSC_MAGIC_GEO_MACHINE:
+  title: "&dMagic Expansion Conversion Machine"
+  slots:
+    0-4:
+      name: "&a"
+      material: GRAY_STAINED_GLASS_PANE
+    5-8:
+      name: "&dOutput"
+      material: ORANGE_STAINED_GLASS_PANE
+    9-12:
+      name: "&dInput"
+      material: CYAN_STAINED_GLASS_PANE
+    13:
+      name: "&a"
+      material: GRAY_STAINED_GLASS_PANE
+    14-17:
+      name: "&dOutput"
+      material: ORANGE_STAINED_GLASS_PANE
+    18:
+      name: "&dInput"
+      material: CYAN_STAINED_GLASS_PANE
+    21:
+      name: "&dInput"
+      material: CYAN_STAINED_GLASS_PANE
+    22:
+      name: "&a"
+      material: BLACK_STAINED_GLASS_PANE
+      progressbar: true
+      progressBarItem:
+        material: AMETHYST_SHARD
+    23:
+      name: "&dOutput"
+      material: ORANGE_STAINED_GLASS_PANE
+    26:
+      name: "&dOutput"
+      material: ORANGE_STAINED_GLASS_PANE
+    27-30:
+      name: "&dInput"
+      material: CYAN_STAINED_GLASS_PANE
+    31:
+      name: "&a"
+      material: GRAY_STAINED_GLASS_PANE
+    32-35:
+      name: "&dOutput"
+      material: ORANGE_STAINED_GLASS_PANE
+    36-40:
+      name: "&a"
+      material: GRAY_STAINED_GLASS_PANE
+    41-44:
+      name: "&dOutput"
+      material: ORANGE_STAINED_GLASS_PANE

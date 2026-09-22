@@ -6310,6 +6310,7 @@ MAGIC_PEIYUSHI_2:
 
 MAGIC_POWER_MIX_BOX_1:
   item_group: magic_power
+  allow_empty_recipes: true
   item:
     name: "&dMagic Power Mix Box 1"
     material: SEA_LANTERN
@@ -6371,6 +6372,7 @@ MAGIC_POWER_MIX_BOX_1:
 
 MAGIC_FLOWER_MIX_BOX_1:
   item_group: magic_power
+  allow_empty_recipes: true
   item:
     name: "&dMagic Flower Mix Box 1"
     material: SHROOMLIGHT
@@ -6398,6 +6400,7 @@ MAGIC_FLOWER_MIX_BOX_1:
 
 MAGIC_GEOMINER_BOX:
   item_group: magic_power
+  allow_empty_recipes: true
   item:
     name: "&dOutput"
     material: CHEST
@@ -6450,6 +6453,7 @@ MAGIC_GEOMINER_BOX:
 
 MAGIC_INFINITY_MIX_BOX_1:
   item_group: magic_power
+  allow_empty_recipes: true
   item:
     name: "&dMagic Infinity Mix Box I"
     material: END_ROD
