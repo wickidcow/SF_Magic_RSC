@@ -21,6 +21,6 @@ loadStartTexts:
 - "==================="
 enabledTexts:
 - "==================="
-- "Magic Legacy loaded successfully"
+- "Magic Legacy registration phase completed"
 - "Slimefun Legacy compatibility enabled; optional integrations detected at runtime"
 - "==================="
