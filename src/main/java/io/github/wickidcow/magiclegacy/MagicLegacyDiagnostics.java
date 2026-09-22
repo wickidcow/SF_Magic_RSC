@@ -166,9 +166,25 @@ final class MagicLegacyDiagnostics {
             boolean optionalGroup = "Magic Expansion".equals(group.getKey())
                 || "Networks Expansion".equals(group.getKey());
             if (optionalGroup && present == 0) {
-                String suffix = "Networks Expansion".equals(group.getKey())
-                    ? "not installed or disabled (optional; Magic uses stable base-Networks recipes)"
-                    : "not installed (optional)";
+                String suffix;
+                if ("Networks Expansion".equals(group.getKey())) {
+                    Plugin networks = findPluginIgnoreCase(plugin.getServer().getPluginManager(), "Networks");
+                    if (networks instanceof org.bukkit.plugin.java.JavaPlugin networksJavaPlugin
+                        && networks.isEnabled()
+                        && !networksJavaPlugin.getConfig().getBoolean("features.networks-expansion.enabled", true)) {
+                        suffix = "0/" + group.getValue().size()
+                            + " present; Networks Expansion content is disabled in plugins/Networks/config.yml. "
+                            + "Enable features.networks-expansion.enabled and restart to restore the Magic crossover recipes.";
+                    } else if (networks != null && networks.isEnabled()) {
+                        suffix = "0/" + group.getValue().size()
+                            + " present; Networks is enabled but Expansion items did not register. "
+                            + "Run /networks doctor and check the Networks startup log.";
+                    } else {
+                        suffix = "not installed or not enabled (optional)";
+                    }
+                } else {
+                    suffix = "not installed (optional)";
+                }
                 lines.add(group.getKey() + " registry: " + suffix);
             } else {
                 lines.add(
